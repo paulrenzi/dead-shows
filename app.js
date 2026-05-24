@@ -5,11 +5,15 @@ const KOP = { lat: 40.0890, lng: -75.3960, label: "King of Prussia, PA" };
 let map, centerMarker, radiusCircle;
 let eventMarkers = [];
 let markerById = new Map();
+let cardById = new Map();
 let currentCenter = { ...KOP };
 let artistsBySlug = new Map();
 let artistsByName = new Map();
 let gdtbEvents = [];
 let bandPhotos = {};
+let lastEvents = [];
+let deepLinkApplied = false;
+const chipState = { date: "next30", radius25: false, deadOnly: false };
 const DEFAULT_PHOTO = "images/default-band.svg";
 
 async function loadArtists() {
@@ -125,12 +129,45 @@ function haversineMiles(lat1, lng1, lat2, lng2) {
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 }
 
-function setDefaultDates() {
+function isoLocalDate(d) {
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${y}-${m}-${day}`;
+}
+
+function applyDateChip(chip) {
   const today = new Date();
-  const ninety = new Date(today);
-  ninety.setDate(ninety.getDate() + 90);
-  document.getElementById("start-date").value = today.toISOString().slice(0, 10);
-  document.getElementById("end-date").value = ninety.toISOString().slice(0, 10);
+  let start = today;
+  let end = new Date(today);
+  if (chip === "tonight") {
+    end = today;
+  } else if (chip === "weekend") {
+    const dow = today.getDay(); // 0=Sun … 6=Sat
+    const daysUntilSunday = (7 - dow) % 7;
+    end.setDate(end.getDate() + daysUntilSunday);
+  } else { // next30
+    end.setDate(end.getDate() + 30);
+  }
+  document.getElementById("start-date").value = isoLocalDate(start);
+  document.getElementById("end-date").value = isoLocalDate(end);
+  chipState.date = chip;
+}
+
+function updateChipUi() {
+  document.querySelectorAll(".chip").forEach(btn => {
+    const c = btn.dataset.chip;
+    let active = false;
+    if (c === "tonight" || c === "weekend" || c === "next30") {
+      active = chipState.date === c;
+    } else if (c === "radius25") {
+      active = chipState.radius25;
+    } else if (c === "deadOnly") {
+      active = chipState.deadOnly;
+    }
+    btn.classList.toggle("chip--active", active);
+    btn.setAttribute("aria-pressed", String(active));
+  });
 }
 
 async function geocode(query) {
@@ -219,6 +256,116 @@ function escapeHtml(s) {
   }[c]));
 }
 
+function eventById(id) {
+  return lastEvents.find(e => e.id === id);
+}
+
+function toIcsUtc(d) {
+  return d.toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
+}
+
+function icsEscape(s) {
+  return String(s || "")
+    .replace(/\\/g, "\\\\")
+    .replace(/\r?\n/g, "\\n")
+    .replace(/[,;]/g, m => "\\" + m);
+}
+
+function buildIcsDates(ev) {
+  // TM events carry a UTC dateTime (ISO with "T"); GDTB events carry date-only.
+  // Date-only → default 7pm floating-local with 3hr duration so calendars
+  // display it correctly in venue local time.
+  if (ev.date && ev.date.includes("T")) {
+    const start = new Date(ev.date);
+    const end = new Date(start.getTime() + 3 * 60 * 60 * 1000);
+    return { dtstart: toIcsUtc(start), dtend: toIcsUtc(end), floating: false };
+  }
+  const dateOnly = (ev.date || "").slice(0, 10).replace(/-/g, "");
+  return { dtstart: `${dateOnly}T190000`, dtend: `${dateOnly}T220000`, floating: true };
+}
+
+function buildIcs(ev) {
+  const artist = matchArtist(ev);
+  const displayName = artist?.name || ev.name || "Show";
+  const { dtstart, dtend } = buildIcsDates(ev);
+  const dtstamp = toIcsUtc(new Date());
+  const where = [ev.venue, ev.city, ev.state].filter(Boolean).join(", ");
+  const lines = [
+    "BEGIN:VCALENDAR",
+    "VERSION:2.0",
+    "PRODID:-//Dead Shows//EN",
+    "CALSCALE:GREGORIAN",
+    "BEGIN:VEVENT",
+    `UID:dead-shows-${icsEscape(ev.id)}@paulrenzi.github.io`,
+    `DTSTAMP:${dtstamp}`,
+    `DTSTART:${dtstart}`,
+    `DTEND:${dtend}`,
+    `SUMMARY:${icsEscape(displayName)}`,
+    `LOCATION:${icsEscape(where)}`,
+    ev.url ? `URL:${icsEscape(ev.url)}` : null,
+    "DESCRIPTION:via Dead Shows",
+    "END:VEVENT",
+    "END:VCALENDAR",
+  ].filter(Boolean);
+  return new Blob([lines.join("\r\n")], { type: "text/calendar" });
+}
+
+function downloadIcs(ev) {
+  const blob = buildIcs(ev);
+  const url = URL.createObjectURL(blob);
+  const artist = matchArtist(ev);
+  const slug = artist?.slug || "event";
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `${slug}-${(ev.date || "").slice(0, 10)}.ics`;
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(() => { a.remove(); URL.revokeObjectURL(url); }, 500);
+}
+
+function eventShareUrl(ev) {
+  const base = `${location.origin}${location.pathname}`;
+  return `${base}?event=${encodeURIComponent(ev.id)}`;
+}
+
+async function shareEvent(ev) {
+  const artist = matchArtist(ev);
+  const displayName = artist?.name || ev.name || "Show";
+  const url = eventShareUrl(ev);
+  const shareData = {
+    title: `${displayName} — Dead Shows`,
+    text: `${displayName} at ${ev.venue} · ${formatDate(ev.date)}`,
+    url,
+  };
+  if (navigator.share) {
+    try { await navigator.share(shareData); } catch (e) {
+      if (e.name !== "AbortError") console.warn("share failed:", e);
+    }
+    return;
+  }
+  try {
+    await navigator.clipboard.writeText(url);
+    showToast("Link copied");
+  } catch (e) {
+    showToast("Copy failed — long-press to copy");
+    console.warn(e);
+  }
+}
+
+function showToast(msg) {
+  let toast = document.getElementById("toast");
+  if (!toast) {
+    toast = document.createElement("div");
+    toast.id = "toast";
+    toast.className = "toast";
+    document.body.appendChild(toast);
+  }
+  toast.textContent = msg;
+  toast.classList.add("toast--show");
+  clearTimeout(showToast._t);
+  showToast._t = setTimeout(() => toast.classList.remove("toast--show"), 2000);
+}
+
 function renderCard(ev, idx) {
   const artist = matchArtist(ev);
   const dist = haversineMiles(currentCenter.lat, currentCenter.lng, ev.lat, ev.lng);
@@ -258,7 +405,11 @@ function renderCard(ev, idx) {
         </div>
         <div class="card-foot">
           <button type="button" class="show-on-map-btn" data-id="${ev.id}">Show on map</button>
-          <a class="tickets-link" href="${ev.url}" target="_blank" rel="noreferrer">${ticketsLabel}</a>
+          <div class="card-foot-actions">
+            <button type="button" class="card-icon-btn" data-action="calendar" data-id="${ev.id}" title="Add to calendar" aria-label="Add to calendar">📅</button>
+            <button type="button" class="card-icon-btn" data-action="share" data-id="${ev.id}" title="Share" aria-label="Share">↗</button>
+            <a class="tickets-link" href="${ev.url}" target="_blank" rel="noreferrer">${ticketsLabel}</a>
+          </div>
         </div>
         ${sourceCredit ? `<div class="card-source">${sourceCredit}</div>` : ""}
       </div>
@@ -270,9 +421,14 @@ function renderEvents(events) {
   const cards = document.getElementById("cards");
   const counter = document.getElementById("result-count");
   clearEventMarkers();
+  cardById.clear();
 
   // Drop non-Dead noise that broad TM keyword searches surfaced
   events = events.filter(isDeadRelated);
+  // Client-side "Dead family only" chip filter
+  if (chipState.deadOnly) {
+    events = events.filter(ev => matchArtist(ev)?.tier === "core");
+  }
 
   if (!events.length) {
     counter.textContent = "0 shows";
@@ -293,6 +449,11 @@ function renderEvents(events) {
 
   cards.innerHTML = events.map(renderCard).join("");
 
+  // Build inverse lookup card-by-id for marker→card sync
+  cards.querySelectorAll(".event-card").forEach(el => {
+    cardById.set(el.dataset.id, el);
+  });
+
   events.forEach((ev) => {
     const artist = matchArtist(ev);
     const displayName = artist?.name || ev.name;
@@ -302,9 +463,25 @@ function renderEvents(events) {
       <a class="popup-link" href="${ev.url}" target="_blank" rel="noreferrer">Tickets →</a>
     `;
     const marker = L.marker([ev.lat, ev.lng]).addTo(map).bindPopup(popup);
+    marker.on("click", () => highlightCard(ev.id, { scroll: true }));
     eventMarkers.push(marker);
     markerById.set(ev.id, marker);
   });
+
+  // Card hover → marker popup (desktop only; pointer:fine excludes touch)
+  if (window.matchMedia("(hover: hover) and (pointer: fine)").matches) {
+    cards.querySelectorAll(".event-card").forEach(card => {
+      const id = card.dataset.id;
+      card.addEventListener("mouseenter", () => {
+        const m = markerById.get(id);
+        if (m) m.openPopup();
+      });
+      card.addEventListener("mouseleave", () => {
+        const m = markerById.get(id);
+        if (m) m.closePopup();
+      });
+    });
+  }
 
   // Fit map to all markers + center
   const group = L.featureGroup([centerMarker, ...eventMarkers]);
@@ -322,6 +499,45 @@ function renderEvents(events) {
       }
     });
   });
+
+  // Wire per-card calendar + share icon buttons
+  cards.querySelectorAll(".card-icon-btn").forEach(btn => {
+    btn.addEventListener("click", (e) => {
+      const id = e.currentTarget.dataset.id;
+      const action = e.currentTarget.dataset.action;
+      const ev = eventById(id);
+      if (!ev) return;
+      if (action === "calendar") downloadIcs(ev);
+      else if (action === "share") shareEvent(ev);
+    });
+  });
+
+  applyDeepLinkOnce();
+}
+
+function highlightCard(id, { scroll = false } = {}) {
+  const card = cardById.get(id);
+  if (!card) return;
+  if (scroll) card.scrollIntoView({ behavior: "smooth", block: "center" });
+  card.classList.add("event-card--active");
+  clearTimeout(card._highlightTimer);
+  card._highlightTimer = setTimeout(() => card.classList.remove("event-card--active"), 2000);
+}
+
+function applyDeepLinkOnce() {
+  if (deepLinkApplied) return;
+  const params = new URLSearchParams(location.search);
+  const id = params.get("event");
+  if (!id) return;
+  const card = cardById.get(id);
+  if (!card) return;
+  deepLinkApplied = true;
+  // defer one frame so layout has settled
+  requestAnimationFrame(() => {
+    card.scrollIntoView({ behavior: "smooth", block: "center" });
+    card.classList.add("event-card--active");
+    setTimeout(() => card.classList.remove("event-card--active"), 2500);
+  });
 }
 
 async function runSearch() {
@@ -335,8 +551,8 @@ async function runSearch() {
     await resolveCenter();
     drawCenter();
     map.setView([currentCenter.lat, currentCenter.lng], 9);
-    const events = await fetchEvents();
-    renderEvents(events);
+    lastEvents = await fetchEvents();
+    renderEvents(lastEvents);
   } catch (err) {
     counter.textContent = "Error";
     cards.innerHTML = `<div class="empty-state"><strong>Something went wrong.</strong>${escapeHtml(err.message)}</div>`;
@@ -346,10 +562,52 @@ async function runSearch() {
   }
 }
 
+function wireChips() {
+  document.querySelectorAll(".chip").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const c = btn.dataset.chip;
+      if (c === "tonight" || c === "weekend" || c === "next30") {
+        applyDateChip(c);
+        updateChipUi();
+        runSearch();
+      } else if (c === "radius25") {
+        chipState.radius25 = !chipState.radius25;
+        if (chipState.radius25) {
+          const slider = document.getElementById("radius");
+          slider.value = "25";
+          document.getElementById("radius-val").textContent = "25";
+          drawCenter();
+          updateChipUi();
+          runSearch();
+        } else {
+          updateChipUi();
+        }
+      } else if (c === "deadOnly") {
+        chipState.deadOnly = !chipState.deadOnly;
+        updateChipUi();
+        // Pure client-side filter — re-render the cached results, no refetch
+        renderEvents(lastEvents);
+      }
+    });
+  });
+}
+
 function wireControls() {
   document.getElementById("radius").addEventListener("input", (e) => {
     document.getElementById("radius-val").textContent = e.target.value;
     drawCenter();
+    if (chipState.radius25 && e.target.value !== "25") {
+      chipState.radius25 = false;
+      updateChipUi();
+    }
+  });
+  ["start-date", "end-date"].forEach(id => {
+    document.getElementById(id).addEventListener("change", () => {
+      if (chipState.date !== "custom") {
+        chipState.date = "custom";
+        updateChipUi();
+      }
+    });
   });
   document.getElementById("search").addEventListener("click", runSearch);
   document.getElementById("locate").addEventListener("click", () => {
@@ -390,7 +648,9 @@ function wireControls() {
 
 async function init() {
   initMap();
-  setDefaultDates();
+  applyDateChip("next30");
+  updateChipUi();
+  wireChips();
   wireControls();
   await loadArtists();
   await loadGdtb();
