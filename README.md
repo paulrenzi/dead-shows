@@ -54,13 +54,31 @@ wrangler vars put ALLOWED_ORIGIN https://<your-username>.github.io
 
 The site supplements Ticketmaster with shows from [gratefuldeadtributebands.com](http://www.gratefuldeadtributebands.com/) — a community-maintained directory of Dead tribute acts that catches tons of small-bar gigs TM misses.
 
+**Automatic**: a GitHub Action (`.github/workflows/refresh-data.yml`) runs daily at 09:15 UTC. It scrapes GDTB, fetches any new band photos, and commits the changes back to master.
+
+**Manual** (if you want to refresh sooner):
+
 ```sh
-python scripts/scrape_gdtb.py
-# writes data/gdtb-events.json + data/gdtb-bands.json + caches geocodes
-git add data/ && git commit -m "data: refresh gdtb scrape" && git push
+python scripts/scrape_gdtb.py        # writes data/gdtb-events.json + data/gdtb-bands.json
+python scripts/fetch_band_photos.py  # writes data/band-photos.json + images/bands/*.jpg
+git add data/ images/bands/ && git commit -m "data: manual refresh" && git push
 ```
 
-Run this whenever you want to refresh — recommended weekly. Geocodes are cached in `data/geocode-cache.json` (don't delete it; cities don't move).
+Geocodes are cached in `data/geocode-cache.json` (don't delete it; cities don't move). Photo cache in `data/photo-cache.json` records hits + misses so we don't re-probe Deezer daily.
+
+## Band photos
+
+Per-band performance photos are sourced via [Deezer's free artist search](https://api.deezer.com/) with strict case-insensitive name-match (no API key needed). About 50% of GDTB bands have a Deezer entry; the rest get the default Dead-themed SVG placeholder.
+
+To override a wrong photo (e.g. Deezer returned a different band with the same name), edit `data/band-photos-manual.json`:
+
+```json
+{
+  "cubensis": { "photo": "images/bands/cubensis-manual.jpg" }
+}
+```
+
+Drop the actual photo at the listed path and commit. Manual entries always win.
 
 ## Local dev
 

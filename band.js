@@ -5,6 +5,8 @@ const KOP = { lat: 40.0890, lng: -75.3960 };
 let map;
 let eventMarkers = [];
 let markerById = new Map();
+let bandPhotos = {};
+const DEFAULT_PHOTO = "images/default-band.svg";
 
 function escapeHtml(s) {
   return String(s || "").replace(/[&<>"']/g, c => ({
@@ -39,6 +41,19 @@ function renderBandHero(artist) {
   document.getElementById("band-tier").textContent = artist.tier === "core" ? "Dead family · core artist" : "Grateful Dead tribute";
   document.getElementById("band-name").textContent = artist.name;
   document.getElementById("band-blurb").textContent = artist.blurb || "";
+
+  const portrait = document.getElementById("band-portrait");
+  if (portrait) {
+    const photo = bandPhotos[artist.slug]?.photo || DEFAULT_PHOTO;
+    portrait.src = photo;
+    portrait.alt = artist.name;
+    if (photo === DEFAULT_PHOTO) portrait.classList.add("band-portrait--default");
+    portrait.onerror = () => {
+      portrait.onerror = null;
+      portrait.src = DEFAULT_PHOTO;
+      portrait.classList.add("band-portrait--default");
+    };
+  }
 
   const linksEl = document.getElementById("band-links");
   const links = [];
@@ -102,15 +117,14 @@ async function fetchEvents(artist) {
   return Array.from(seen.values());
 }
 
-function renderCard(ev) {
+function renderCard(ev, artistPhoto) {
   const dist = haversineMiles(KOP.lat, KOP.lng, ev.lat, ev.lng);
-  const media = ev.image
-    ? `<a class="card-media" href="${ev.url}" target="_blank" rel="noreferrer">
-         <img src="${escapeHtml(ev.image)}" alt="${escapeHtml(ev.name)}" loading="lazy">
-       </a>`
-    : `<a class="card-media card-media--painted" href="${ev.url}" target="_blank" rel="noreferrer">
-         <span class="placeholder-name">${escapeHtml(ev.name)}</span>
-       </a>`;
+  const photoUrl = ev.image || artistPhoto || DEFAULT_PHOTO;
+  const isDefault = photoUrl === DEFAULT_PHOTO;
+  const media = `<a class="card-media${isDefault ? " card-media--default" : ""}" href="${ev.url}" target="_blank" rel="noreferrer">
+       <img src="${escapeHtml(photoUrl)}" alt="${escapeHtml(ev.name)}" loading="lazy"
+            onerror="this.onerror=null;this.src='${DEFAULT_PHOTO}';this.parentElement.classList.add('card-media--default');">
+     </a>`;
   return `
     <article class="event-card" data-id="${ev.id}">
       ${media}
@@ -157,7 +171,8 @@ function renderEvents(events, artist) {
     return (a.venue || "").localeCompare(b.venue || "");
   });
   counter.textContent = `${events.length} upcoming show${events.length === 1 ? "" : "s"}`;
-  cards.innerHTML = events.map(renderCard).join("");
+  const artistPhoto = bandPhotos[artist.slug]?.photo;
+  cards.innerHTML = events.map(ev => renderCard(ev, artistPhoto)).join("");
 
   const bounds = [];
   events.forEach(ev => {
@@ -193,10 +208,12 @@ async function init() {
     return;
   }
   // Try curated artists first, then discovered gdtb bands
-  const [aRes, gRes] = await Promise.all([
+  const [aRes, gRes, pRes] = await Promise.all([
     fetch("artists.json").then(r => r.json()),
     fetch("data/gdtb-bands.json").then(r => r.ok ? r.json() : []).catch(() => []),
+    fetch("data/band-photos.json").then(r => r.ok ? r.json() : {}).catch(() => ({})),
   ]);
+  bandPhotos = pRes;
   let artist = aRes.artists.find(a => a.slug === slug);
   if (!artist) {
     const g = gRes.find(b => b.slug === slug);

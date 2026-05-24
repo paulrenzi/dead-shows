@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Grateful Dead-themed placeholder">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2940"/>
+      <stop offset="55%" stop-color="#2e1f3a"/>
+      <stop offset="100%" stop-color="#0b1424"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="55%" r="60%">
+      <stop offset="0%" stop-color="#d32027" stop-opacity="0.35"/>
+      <stop offset="55%" stop-color="#2e5cb8" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0b1424" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bolt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#f4e9c8"/>
+      <stop offset="100%" stop-color="#d4a843"/>
+    </linearGradient>
+    <filter id="boltGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#sky)"/>
+  <rect width="800" height="450" fill="url(#glow)"/>
+
+  <g opacity="0.55">
+    <circle cx="120" cy="80" r="1.2" fill="#fff"/>
+    <circle cx="240" cy="50" r="0.8" fill="#fff"/>
+    <circle cx="360" cy="110" r="1" fill="#fff"/>
+    <circle cx="510" cy="70" r="1.2" fill="#fff"/>
+    <circle cx="640" cy="140" r="0.8" fill="#fff"/>
+    <circle cx="720" cy="60" r="1" fill="#fff"/>
+    <circle cx="60" cy="160" r="0.7" fill="#fff"/>
+    <circle cx="180" cy="200" r="0.6" fill="#fff"/>
+    <circle cx="430" cy="180" r="0.7" fill="#fff"/>
+    <circle cx="580" cy="210" r="0.6" fill="#fff"/>
+  </g>
+
+  <g transform="translate(400 225)">
+    <ellipse cx="0" cy="0" rx="180" ry="180" fill="url(#glow)" opacity="0.7"/>
+
+    <g transform="translate(0 0)">
+      <path d="M 0,-130
+               C 65,-130 120,-80 120,-15
+               C 120,55 70,110 0,130
+               C -70,110 -120,55 -120,-15
+               C -120,-80 -65,-130 0,-130 Z"
+            fill="#f4ecd8" opacity="0.95"/>
+
+      <ellipse cx="-42" cy="-15" rx="28" ry="32" fill="#0b1424"/>
+      <ellipse cx="42" cy="-15" rx="28" ry="32" fill="#0b1424"/>
+
+      <path d="M -16,30 Q 0,40 16,30 L 16,55 L 10,52 L 10,72 L 4,68 L 4,80 L -4,80 L -4,68 L -10,72 L -10,52 L -16,55 Z"
+            fill="#0b1424"/>
+
+      <g filter="url(#boltGlow)" opacity="0.85">
+        <path d="M -22,-90 L 18,-25 L -8,-25 L 22,55 L -18,-15 L 10,-15 L -22,-90 Z"
+              fill="url(#bolt)"/>
+      </g>
+      <path d="M -22,-90 L 18,-25 L -8,-25 L 22,55 L -18,-15 L 10,-15 L -22,-90 Z"
+            fill="url(#bolt)"/>
+    </g>
+  </g>
+
+  <text x="400" y="408" text-anchor="middle" font-family="'Fraunces', Georgia, serif"
+        font-size="22" font-weight="700" fill="#f4ecd8" opacity="0.7" letter-spacing="4">
+    DEAD SHOWS
+  </text>
+</svg>

@@ -1,0 +1,51 @@
+name: Refresh show data
+
+on:
+  schedule:
+    # 09:15 UTC daily ≈ 04:15 ET / 05:15 EDT — well before anyone hits the site
+    - cron: "15 9 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Need full token + ref so the commit step can push back
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ github.ref_name }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Scrape gratefuldeadtributebands.com
+        run: python scripts/scrape_gdtb.py
+        timeout-minutes: 45
+
+      - name: Fetch new band photos (incremental)
+        run: python scripts/fetch_band_photos.py
+        timeout-minutes: 15
+
+      - name: Commit + push if changed
+        run: |
+          git config user.name  "dead-shows-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ images/bands/ || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "data: daily refresh ($(date -u +%Y-%m-%d))"
+          git push

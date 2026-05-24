@@ -9,6 +9,8 @@ let currentCenter = { ...KOP };
 let artistsBySlug = new Map();
 let artistsByName = new Map();
 let gdtbEvents = [];
+let bandPhotos = {};
+const DEFAULT_PHOTO = "images/default-band.svg";
 
 async function loadArtists() {
   const r = await fetch("artists.json");
@@ -23,10 +25,12 @@ async function loadArtists() {
 async function loadGdtb() {
   // gratefuldeadtributebands.com scraped data — refreshed via scripts/scrape_gdtb.py
   try {
-    const [eventsRes, bandsRes] = await Promise.all([
+    const [eventsRes, bandsRes, photosRes] = await Promise.all([
       fetch("data/gdtb-events.json"),
       fetch("data/gdtb-bands.json"),
+      fetch("data/band-photos.json").catch(() => null),
     ]);
+    if (photosRes && photosRes.ok) bandPhotos = await photosRes.json();
     if (eventsRes.ok) gdtbEvents = await eventsRes.json();
     if (bandsRes.ok) {
       const bands = await bandsRes.json();
@@ -225,13 +229,13 @@ function renderCard(ev, idx) {
     ? `<a href="band.html?id=${encodeURIComponent(artist.slug)}">${escapeHtml(displayName)}</a>`
     : escapeHtml(displayName);
 
-  const media = ev.image
-    ? `<a class="card-media" href="${ev.url}" target="_blank" rel="noreferrer">
-         <img src="${escapeHtml(ev.image)}" alt="${escapeHtml(ev.name)}" loading="lazy">
-       </a>`
-    : `<a class="card-media card-media--painted" href="${ev.url}" target="_blank" rel="noreferrer">
-         <span class="placeholder-name">${escapeHtml(displayName)}</span>
-       </a>`;
+  const bandPhoto = artist ? bandPhotos[artist.slug] : null;
+  const photoUrl = ev.image || bandPhoto?.photo || DEFAULT_PHOTO;
+  const isDefault = photoUrl === DEFAULT_PHOTO;
+  const media = `<a class="card-media${isDefault ? " card-media--default" : ""}" href="${ev.url}" target="_blank" rel="noreferrer">
+       <img src="${escapeHtml(photoUrl)}" alt="${escapeHtml(displayName)}" loading="lazy"
+            onerror="this.onerror=null;this.src='${DEFAULT_PHOTO}';this.parentElement.classList.add('card-media--default');">
+     </a>`;
 
   const sourceCredit = ev.source === "gdtb"
     ? `<span class="source-credit">via <a href="${ev.url}" target="_blank" rel="noreferrer">gratefuldeadtributebands.com</a></span>`

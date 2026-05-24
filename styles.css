@@ -341,26 +341,11 @@ button { font: inherit; cursor: pointer; }
 }
 .event-card:hover .card-media img { transform: scale(1.04); }
 
-.card-media--painted {
-  background:
-    radial-gradient(ellipse 80% 70% at 25% 30%, rgba(211, 32, 39, 0.55) 0%, transparent 60%),
-    radial-gradient(ellipse 70% 80% at 80% 75%, rgba(46, 92, 184, 0.55) 0%, transparent 60%),
-    linear-gradient(135deg, #1a0e10 0%, #2a1014 45%, #0d1a35 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 1.4rem;
+.card-media--default {
+  background: #0b1424;
 }
-.placeholder-name {
-  font-family: "Fraunces", serif;
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 1.15;
-  letter-spacing: -0.025em;
-  color: rgba(255, 255, 255, 0.94);
-  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
-  max-width: 16ch;
+.card-media--default img {
+  object-fit: cover;
 }
 
 .card-body {
@@ -531,6 +516,24 @@ button { font: inherit; cursor: pointer; }
   position: relative;
   z-index: 1;
 }
+.band-hero-grid {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+.band-portrait {
+  width: 220px;
+  height: 220px;
+  border-radius: 18px;
+  object-fit: cover;
+  border: 3px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0 18px 40px -10px rgba(0, 0, 0, 0.6);
+  background: #0b1424;
+}
+.band-portrait--default {
+  border-color: rgba(255, 255, 255, 0.08);
+}
 .back-link {
   display: inline-flex;
   align-items: center;
@@ -619,6 +622,18 @@ button { font: inherit; cursor: pointer; }
   .map { height: 280px; }
   .strip-inner { padding: 0.9rem 0; gap: 0.75rem 1rem; }
   .band-hero { padding: 3rem 0 2.5rem; }
+  .band-hero-grid {
+    grid-template-columns: 1fr;
+    gap: 1.4rem;
+    text-align: center;
+  }
+  .band-portrait {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+  }
+  .band-blurb { margin-left: auto; margin-right: auto; }
+  .band-links { justify-content: center; }
 
   /* Pair From + To on the same row, 50/50 */
   .strip-field { min-width: 0; flex: 1 1 100%; }

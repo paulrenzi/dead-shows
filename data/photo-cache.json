@@ -1,0 +1,1280 @@
+{
+  "dead-and-company": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Dead & Company"
+  },
+  "bob-weir": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Bob Weir"
+  },
+  "wolf-bros": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "phil-lesh": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Phil Lesh"
+  },
+  "phil-lesh-and-friends": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Phil Lesh & Friends"
+  },
+  "mickey-hart-band": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Mickey Hart Band"
+  },
+  "bill-kreutzmann": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Bill Kreutzmann"
+  },
+  "billy-and-the-kids": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Billy & The Kids"
+  },
+  "melvin-seals-jgb": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "grahame-lesh": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Grahame Lesh"
+  },
+  "dark-star-orchestra": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Dark Star Orchestra"
+  },
+  "jrad": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Joe Russo's Almost Dead"
+  },
+  "splintered-sunlight": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Splintered Sunlight"
+  },
+  "china-cats": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "cubensis": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Cubensis"
+  },
+  "half-step": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "stella-blues-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "shakedown": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Shakedown"
+  },
+  "the-schwag": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "terrapin-flyer": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "cosmic-charlie": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "garcia-birthday-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "reckoning": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Reckoning"
+  },
+  "grateful-shred": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Grateful Shred"
+  },
+  "dead-on-live": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "box-of-rain": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "better-off-dead": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "BetterOffDead"
+  },
+  "bearly-dead": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "cosmic-jerry-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "friends-of-jerry": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "playing-dead": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Playing Dead"
+  },
+  "steely-dead": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "not-fade-away": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Not Fade Away"
+  },
+  "bertha-grateful-drag": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "BERTHA: Grateful Drag"
+  },
+  "jerrys-middle-finger": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Jerry's Middle Finger"
+  },
+  "fairbanks-142": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "live-dead-and-brothers": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "jerry-garcia-symphonic-celebration": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "rock-and-roll-playhouse": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "The Rock and Roll Playhouse"
+  },
+  "east-la-fadeaway": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "deadphish-orchestra": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "john-kadlecik": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "John Kadlecik"
+  },
+  "xtra-ticket": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "easy-jim": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "legion-of-mario": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "ventura-county-dead-collective": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "dead-roses": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Dead Roses"
+  },
+  "shred-is-dead": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "token-rhyme": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "scott-guberman": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Scott Guberman"
+  },
+  "jed-s-dog": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "one-man-gone": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "wall-of-sound": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "the-deadicated-project": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "The Deadicated Project"
+  },
+  "scarlett-fyre": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "easy-wind": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "melvin-seals-and-jgb": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "playing-the-dead": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "dead-and-breakfast": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "definitely-dead": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "diego-dead": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "pete-sawyer-the-lhmwg": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "the-alligators-pigpen": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "cats-on-the-bandstand": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "special-event-dead-on-the-creek-20th-anniversary": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "the-storytellers": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "The Story Tellers"
+  },
+  "willie-and-the-poor-boys": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Willie And The Poor Boys"
+  },
+  "the-poor-boys": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "The Poor Boys"
+  },
+  "mason-s-children": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "sages-and-spirits": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "aoxomoxoa": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "big-sky": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Big Sky"
+  },
+  "tumbledown-shack": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "dead-panic": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "chinaflower-suncats": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "crick-wooder": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "shakedown-street": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "young-and-dead": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "dead-floyd": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "built-to-last": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Built To Last"
+  },
+  "dead-friends": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "cowboys-dead": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "grateful-friends": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "감사하는 벗들 grateful friends"
+  },
+  "rob-glassman-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "almost-ablaze": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "mystic-dead": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "the-deadheads": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "dead-on": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Dead On"
+  },
+  "ace-friends": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "ACE & Friends"
+  },
+  "wolfman-jack": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Wolfman Jack"
+  },
+  "jen-durkin-s-steal-your-funk": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "ct-grateful-dead-all-stars": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "gratefully-yours": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "shakedown-citi": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Shakedown Citi"
+  },
+  "the-mystery-train-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "dead-show": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "dead-set-florida": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "spiral-light": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "love-valley": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "crazy-fingers": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Crazy Fingers"
+  },
+  "dead-all-over": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "jerryland": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "morning-dew": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Morning Dew"
+  },
+  "spread-the-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "the-cosmic-jam": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "touch-of-dead": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "mondo-tikis": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "funkin-grateful": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "unlimited-devotion": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Unlimited Devotion"
+  },
+  "t-u-b-the-unknamed-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "stella-blue": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "shakedown-strings": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "deadcetera": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "suns-of-jerry": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "estimated-prophet-official": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "mr-blotto": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Mr. Blotto"
+  },
+  "lazy-lightning-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "sunshine-daydream": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "lost-pyramidsx": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "grateful-string-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "spies-of-the-world": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "head-s-all-empty": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "dose": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Dose"
+  },
+  "4i-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "rock-rye": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "lazy-river-riders": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "hyryder": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "rusted-strings-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "stealin-the-farm": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "starcat": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Starcat"
+  },
+  "graciously-departed": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "touch-of-grey-midwest": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "winterland": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Winterland"
+  },
+  "kc-bones": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "born-cross-eyed-ky": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "grateful-dads": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "rose-alley": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "ramble-on-rose-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "not-fade-away-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "indeadnation": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "jack-a-roses": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "dead-all-along": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "strangers-stopping-strangers": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "stealing-liberty": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "grateful-allman-band-experience": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "great-northern-out-of-dc": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "deadgrass": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Deadgrass"
+  },
+  "new-potato-caboose": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "New Potato Caboose"
+  },
+  "diamond-blues": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "ten-gold-dollars": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "reach-for-the-sun": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "moose-juice": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "MOOSE JUICE"
+  },
+  "deadbeat": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "DEADBEAT"
+  },
+  "the-grateful-teds": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "dire-wolf": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Direwolf"
+  },
+  "legends-of-mary": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "talking-deads": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "quaboag-river-blues-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "settle-down-easy": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "the-reckoning-crew": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "The Reckoning Crew"
+  },
+  "throwing-stones-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "alligator-wine": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "eddy-s-shoe": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "august-first": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "August First"
+  },
+  "lobsterz-from-marz": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "supercrunch": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Super Crunch"
+  },
+  "raising-the-dead": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "cosmic-rose": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "spirit-of-the-dead-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "david-gans": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "manitou-truckin-company": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "quality-jerry": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "shotgun-ragtime-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "china-rider": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "grateful-gals": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "dream-of-the-wild": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "the-terrapins": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "The Terrapins"
+  },
+  "the-stolen-faces": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "jake-s-leg": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "dead-sky": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "the-stone-jack-ballers": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "710-ashbury": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "710 Ashbury"
+  },
+  "unbroken-chain-402": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "midwest-dead-coalition": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "a-carny-vibe": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "catfish-john-revival-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "lichen": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Lichen"
+  },
+  "zach-nugent-s-dead-set": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "brown-eyed-women": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Brown Eyed Women"
+  },
+  "grateful-for-biggie": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "grateful-mondays-nj": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "the-brian-st-john-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "too-cool-to-bluff": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "be5d": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "rainbow-full-of-sound": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "scarlet-magnolia": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "achievers-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "dead-reckoning": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Dead Reckoning"
+  },
+  "diamond-eye-jack": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "grateful-bro": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "lovelight": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "reflections": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Reflections"
+  },
+  "the-big-trip": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "workingman-s-jed": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "crazy-in-the-sunlight": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "widesun": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "crickets-and-cicadas": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "nailed-shutt": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "diomede-and-donovan": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "uncle-shoehorn": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "baked-alaska": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Baked A La Ska"
+  },
+  "deadicated-friends": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "trouble-junction": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "ice-petal-flowers": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "kgb-karl-s-garcia-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "deadful-greats": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "odd-dog": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "grateful-dans": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "buffalo-dead-all-stars": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "half-step-li": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "after-dark": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "After Dark"
+  },
+  "dead-meat": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Dead Meat"
+  },
+  "half-past-dead": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Half Past Dead"
+  },
+  "j-and-the-tie-dyers": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "steal-your-face": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "minglewood-ny": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "delilah-jones": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Delilah Jones"
+  },
+  "tiger-rose": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Tiger Rose"
+  },
+  "the-wheel": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "The Wheel"
+  },
+  "high-time": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Hightime"
+  },
+  "busy-s-dead-collective": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "dead-to-the-core-ny": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "dead-alliance-buffalo": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "eric-carlin-s-half-dead": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "dead-on-the-hudson": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "into-the-now": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "workingman-s-dead": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "stanley-jordan-plays-the-dead": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "dragons-with-matches": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "grateful-dudes": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Grateful Dudes"
+  },
+  "eternally-grateful": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Eternally Grateful"
+  },
+  "cats-on-the-blacktop": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "last-fair-deal": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Last Fair Deal"
+  },
+  "phuncle-sam": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "dead-rise": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "DeadRise"
+  },
+  "dirty-dead": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Dirty Dead"
+  },
+  "bring-out-yer-dead": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "loose-lucies": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "bosco-jigs": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "grateful-kev": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "the-dead-revival-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "dupree-s-dead-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "friends-of-the-dead": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "saturday-s-children": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Saturday's Children"
+  },
+  "jimiller-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "west-akron-fadeaway": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "city-news": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "ramble-on-bros": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "dead-serious-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "englishtown-project": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "the-deadgummits": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "one-way-truckin": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "rhapsody-in-red": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "caught-dead-handed": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "the-other-two": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "The Other Two"
+  },
+  "deal": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Deal"
+  },
+  "zendog": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "bloom-and-decay": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "samjamwich": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "deadband": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "reuben-s-painted-mandolin": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "jawn-of-the-dead": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "bears-choice": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "cats-on-the-bus": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "little-green-shack": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "violin-river": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "so-many-rhodes": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "blue-drew-and-the-magoos": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Blue Drew and the Magoos"
+  },
+  "catfish-john": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "thursday-s-dead": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "the-grateful-brothers": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "tin-roof-cats": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "dead-cover-office": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "deadeye": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Deadeye"
+  },
+  "bandolero": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Bandolero"
+  },
+  "the-dead-thing": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "dobbs-dead": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Dobbs Dead"
+  },
+  "dead-sessions": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "owsley-s-owls": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "bigfoot-county": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "suggesting-rhythm": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "better-off-dead-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "grateful-jed": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "andy-coe-band": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "deal-wa": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "boney-fingers": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Boney Fingers"
+  },
+  "deadelijk": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "jed-company": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "old-shoe": {
+    "tried": "2026-05-24",
+    "matched": false
+  },
+  "another-one": {
+    "tried": "2026-05-24",
+    "matched": true,
+    "name": "Another One"
+  }
+}
