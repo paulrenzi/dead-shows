@@ -1,19 +1,45 @@
-// Dead Shows — frontend
-// Edit WORKER_URL after deploying the Cloudflare Worker.
+// Dead Shows — main page
 const WORKER_URL = "https://dead-shows.paulmichaelrenzi.workers.dev";
-
 const KOP = { lat: 40.0890, lng: -75.3960, label: "King of Prussia, PA" };
 
 let map, centerMarker, radiusCircle;
 let eventMarkers = [];
+let markerById = new Map();
 let currentCenter = { ...KOP };
+let artistsBySlug = new Map();
+let artistsByName = new Map();
+
+async function loadArtists() {
+  const r = await fetch("artists.json");
+  const data = await r.json();
+  for (const a of data.artists) {
+    artistsBySlug.set(a.slug, a);
+    artistsByName.set(a.name.toLowerCase(), a);
+    artistsByName.set(a.searchKeyword.toLowerCase(), a);
+  }
+}
+
+function matchArtist(event) {
+  // Try attractions first (Ticketmaster's canonical artist data)
+  for (const att of event.attractions || []) {
+    const hit = artistsByName.get(att.toLowerCase());
+    if (hit) return hit;
+  }
+  // Fall back to event name containing any artist name
+  const lname = (event.name || "").toLowerCase();
+  for (const [key, artist] of artistsByName) {
+    if (lname.includes(key)) return artist;
+  }
+  return null;
+}
 
 function initMap() {
-  map = L.map("map").setView([KOP.lat, KOP.lng], 9);
+  map = L.map("map", { scrollWheelZoom: false }).setView([KOP.lat, KOP.lng], 9);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "© OpenStreetMap",
     maxZoom: 18,
   }).addTo(map);
+  map.on("click", () => map.scrollWheelZoom.enable());
   drawCenter();
 }
 
@@ -22,12 +48,12 @@ function drawCenter() {
   if (radiusCircle) map.removeLayer(radiusCircle);
   centerMarker = L.marker([currentCenter.lat, currentCenter.lng], {
     title: currentCenter.label || "Search center",
-  }).addTo(map).bindPopup(`<b>${currentCenter.label || "Center"}</b>`);
+  }).addTo(map).bindPopup(`<strong>${escapeHtml(currentCenter.label || "Center")}</strong>`);
   const miles = parseInt(document.getElementById("radius").value, 10);
   radiusCircle = L.circle([currentCenter.lat, currentCenter.lng], {
     radius: miles * 1609.34,
     color: "#d32027",
-    weight: 1,
+    weight: 1.5,
     fillOpacity: 0.05,
   }).addTo(map);
 }
@@ -35,6 +61,7 @@ function drawCenter() {
 function clearEventMarkers() {
   eventMarkers.forEach(m => map.removeLayer(m));
   eventMarkers = [];
+  markerById.clear();
 }
 
 function haversineMiles(lat1, lng1, lat2, lng2) {
@@ -72,11 +99,10 @@ async function geocode(query) {
 async function resolveCenter() {
   const txt = document.getElementById("center").value.trim();
   if (!txt) {
+    if (currentCenter.label === "My location") return; // keep geolocated center
     currentCenter = { ...KOP };
     return;
   }
-  const setStatus = document.getElementById("status");
-  setStatus.textContent = `Looking up "${txt}"…`;
   currentCenter = await geocode(txt);
 }
 
@@ -99,53 +125,6 @@ async function fetchEvents() {
   return r.json();
 }
 
-function renderEvents(events) {
-  const list = document.getElementById("list");
-  const status = document.getElementById("status");
-  list.innerHTML = "";
-  clearEventMarkers();
-
-  if (!events.length) {
-    status.textContent = "No shows in that window. Try a wider radius or date range.";
-    return;
-  }
-
-  events.sort((a, b) => new Date(a.date) - new Date(b.date));
-  status.textContent = `${events.length} show${events.length === 1 ? "" : "s"} found.`;
-
-  events.forEach((ev, idx) => {
-    const dist = haversineMiles(currentCenter.lat, currentCenter.lng, ev.lat, ev.lng);
-    ev._distance = dist;
-
-    const marker = L.marker([ev.lat, ev.lng]).addTo(map)
-      .bindPopup(`<b>${ev.name}</b><br>${ev.venue}<br>${formatDate(ev.date)}<br><a href="${ev.url}" target="_blank">Tickets</a>`);
-    eventMarkers.push(marker);
-
-    const li = document.createElement("li");
-    li.dataset.idx = idx;
-    li.innerHTML = `
-      <div class="event-name">${escapeHtml(ev.name)}</div>
-      <div class="event-meta">
-        <span class="distance">${dist.toFixed(0)} mi</span>
-        <span class="date">${formatDate(ev.date)}</span> · ${escapeHtml(ev.venue)}, ${escapeHtml(ev.city || "")}
-      </div>
-      <a class="event-link" href="${ev.url}" target="_blank" rel="noopener">Tickets →</a>
-    `;
-    li.addEventListener("click", (e) => {
-      if (e.target.tagName === "A") return;
-      map.setView([ev.lat, ev.lng], 11);
-      marker.openPopup();
-      document.querySelectorAll("#list li").forEach(x => x.classList.remove("active"));
-      li.classList.add("active");
-    });
-    list.appendChild(li);
-  });
-
-  // fit map to all markers + center
-  const group = L.featureGroup([centerMarker, ...eventMarkers]);
-  map.fitBounds(group.getBounds().pad(0.1));
-}
-
 function formatDate(iso) {
   const d = new Date(iso);
   return d.toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric", year: "numeric" });
@@ -157,19 +136,113 @@ function escapeHtml(s) {
   }[c]));
 }
 
+function renderCard(ev, idx) {
+  const artist = matchArtist(ev);
+  const dist = haversineMiles(currentCenter.lat, currentCenter.lng, ev.lat, ev.lng);
+  const displayName = artist?.name || ev.name;
+  const tierClass = artist?.tier ? `tier-${artist.tier}` : "tier-tribute";
+  const tierLabel = artist?.tier === "core" ? "Dead family" : "Tribute";
+  const bandLink = artist
+    ? `<a href="band.html?id=${encodeURIComponent(artist.slug)}">${escapeHtml(displayName)}</a>`
+    : escapeHtml(displayName);
+
+  const media = ev.image
+    ? `<a class="card-media" href="${ev.url}" target="_blank" rel="noreferrer">
+         <img src="${escapeHtml(ev.image)}" alt="${escapeHtml(ev.name)}" loading="lazy">
+       </a>`
+    : `<a class="card-media card-media--painted" href="${ev.url}" target="_blank" rel="noreferrer">
+         <span class="placeholder-name">${escapeHtml(displayName)}</span>
+       </a>`;
+
+  return `
+    <article class="event-card" data-idx="${idx}" data-id="${ev.id}">
+      ${media}
+      <div class="card-body">
+        <p class="card-date">${formatDate(ev.date)}</p>
+        <h3 class="card-name">${bandLink}</h3>
+        <p class="card-venue">
+          ${escapeHtml(ev.venue)}<br>
+          <span class="city">${escapeHtml(ev.city || "")}${ev.state ? ", " + escapeHtml(ev.state) : ""}</span>
+        </p>
+        <div class="card-meta">
+          <span class="meta-pill ${tierClass}">${tierLabel}</span>
+          <span class="meta-pill distance">${dist.toFixed(0)} mi away</span>
+        </div>
+        <div class="card-foot">
+          <button type="button" class="show-on-map-btn" data-id="${ev.id}">Show on map</button>
+          <a class="tickets-link" href="${ev.url}" target="_blank" rel="noreferrer">Tickets →</a>
+        </div>
+      </div>
+    </article>
+  `;
+}
+
+function renderEvents(events) {
+  const cards = document.getElementById("cards");
+  const counter = document.getElementById("result-count");
+  clearEventMarkers();
+
+  if (!events.length) {
+    counter.textContent = "0 shows";
+    cards.innerHTML = `<div class="empty-state">
+      <strong>No shows in that window.</strong>
+      Try a wider radius or push the date range out.
+    </div>`;
+    return;
+  }
+
+  events.sort((a, b) => new Date(a.date) - new Date(b.date));
+  counter.textContent = `${events.length} show${events.length === 1 ? "" : "s"} found`;
+
+  cards.innerHTML = events.map(renderCard).join("");
+
+  events.forEach((ev) => {
+    const artist = matchArtist(ev);
+    const displayName = artist?.name || ev.name;
+    const popup = `
+      <strong>${escapeHtml(displayName)}</strong>
+      ${escapeHtml(ev.venue)}<br>${formatDate(ev.date)}
+      <a class="popup-link" href="${ev.url}" target="_blank" rel="noreferrer">Tickets →</a>
+    `;
+    const marker = L.marker([ev.lat, ev.lng]).addTo(map).bindPopup(popup);
+    eventMarkers.push(marker);
+    markerById.set(ev.id, marker);
+  });
+
+  // Fit map to all markers + center
+  const group = L.featureGroup([centerMarker, ...eventMarkers]);
+  if (eventMarkers.length) map.fitBounds(group.getBounds().pad(0.12));
+
+  // Wire show-on-map buttons
+  cards.querySelectorAll(".show-on-map-btn").forEach(btn => {
+    btn.addEventListener("click", (e) => {
+      const id = e.currentTarget.dataset.id;
+      const marker = markerById.get(id);
+      if (marker) {
+        map.setView(marker.getLatLng(), 11);
+        marker.openPopup();
+        document.getElementById("map").scrollIntoView({ behavior: "smooth", block: "nearest" });
+      }
+    });
+  });
+}
+
 async function runSearch() {
-  const status = document.getElementById("status");
+  const cards = document.getElementById("cards");
+  const counter = document.getElementById("result-count");
   const btn = document.getElementById("search");
   btn.disabled = true;
+  cards.innerHTML = `<div class="loading">Searching Ticketmaster</div>`;
+  counter.textContent = "Loading…";
   try {
     await resolveCenter();
     drawCenter();
     map.setView([currentCenter.lat, currentCenter.lng], 9);
-    status.textContent = "Searching Ticketmaster…";
     const events = await fetchEvents();
     renderEvents(events);
   } catch (err) {
-    status.textContent = `Error: ${err.message}`;
+    counter.textContent = "Error";
+    cards.innerHTML = `<div class="empty-state"><strong>Something went wrong.</strong>${escapeHtml(err.message)}</div>`;
     console.error(err);
   } finally {
     btn.disabled = false;
@@ -183,10 +256,7 @@ function wireControls() {
   });
   document.getElementById("search").addEventListener("click", runSearch);
   document.getElementById("locate").addEventListener("click", () => {
-    if (!navigator.geolocation) {
-      alert("Geolocation not available");
-      return;
-    }
+    if (!navigator.geolocation) { alert("Geolocation not available"); return; }
     navigator.geolocation.getCurrentPosition(
       (pos) => {
         currentCenter = { lat: pos.coords.latitude, lng: pos.coords.longitude, label: "My location" };
@@ -202,6 +272,13 @@ function wireControls() {
   });
 }
 
-initMap();
-setDefaultDates();
-wireControls();
+async function init() {
+  initMap();
+  setDefaultDates();
+  wireControls();
+  await loadArtists();
+  // Auto-run on load so the page isn't empty
+  runSearch();
+}
+
+init();

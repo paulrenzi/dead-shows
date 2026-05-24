@@ -1,28 +1,195 @@
 {
-  "_comment": "Curated list of Grateful Dead family members and major tribute acts. Edit freely. One Ticketmaster query per entry.",
+  "_comment": "Curated Dead family + tribute acts. Edit freely. The Worker uses `searchKeyword` to query Ticketmaster; the frontend uses everything else for cards + band pages. When adding an artist, also add its searchKeyword to worker/worker.js ARTISTS array.",
   "artists": [
-    "Dead & Company",
-    "Bob Weir",
-    "Wolf Bros",
-    "Phil Lesh",
-    "Phil Lesh & Friends",
-    "Mickey Hart Band",
-    "Bill Kreutzmann",
-    "Billy & The Kids",
-    "Dark Star Orchestra",
-    "Joe Russo's Almost Dead",
-    "JRAD",
-    "Splintered Sunlight",
-    "China Cats",
-    "Cubensis",
-    "Half Step",
-    "Stella Blue's Band",
-    "Shakedown",
-    "The Schwag",
-    "Terrapin Flyer",
-    "Cosmic Charlie",
-    "Garcia Birthday Band",
-    "Reckoning"
+    {
+      "slug": "dead-and-company",
+      "name": "Dead & Company",
+      "searchKeyword": "Dead & Company",
+      "tier": "core",
+      "blurb": "Bob Weir and Mickey Hart's post-Fare-Thee-Well configuration with John Mayer on guitar, Oteil Burbridge on bass, and Jeff Chimenti on keys. The biggest Dead-DNA touring act on Earth.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Dead_%26_Company",
+      "website": "https://deadandcompany.com"
+    },
+    {
+      "slug": "bob-weir",
+      "name": "Bob Weir",
+      "searchKeyword": "Bob Weir",
+      "tier": "core",
+      "blurb": "Rhythm guitarist and co-founder of the Grateful Dead. Solo shows lean acoustic and storytelling.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bob_Weir",
+      "website": "https://bobweir.net"
+    },
+    {
+      "slug": "wolf-bros",
+      "name": "Bob Weir & Wolf Bros",
+      "searchKeyword": "Wolf Bros",
+      "tier": "core",
+      "blurb": "Bob Weir's trio with Don Was on upright bass and Jay Lane on drums, often augmented by horns. Loose, intimate, blues-leaning Dead.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bob_Weir",
+      "website": "https://bobweir.net"
+    },
+    {
+      "slug": "phil-lesh",
+      "name": "Phil Lesh",
+      "searchKeyword": "Phil Lesh",
+      "tier": "core",
+      "blurb": "Founding bassist of the Grateful Dead. Architect of the band's exploratory low end.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Phil_Lesh",
+      "website": "https://phillesh.net"
+    },
+    {
+      "slug": "phil-lesh-and-friends",
+      "name": "Phil Lesh & Friends",
+      "searchKeyword": "Phil Lesh & Friends",
+      "tier": "core",
+      "blurb": "Phil's rotating-lineup project. Different guitarists, different setlists, same deep grooves — most often heard at Terrapin Crossroads alumni gigs.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Phil_Lesh_and_Friends",
+      "website": "https://phillesh.net"
+    },
+    {
+      "slug": "mickey-hart-band",
+      "name": "Mickey Hart Band",
+      "searchKeyword": "Mickey Hart Band",
+      "tier": "core",
+      "blurb": "Dead percussionist Mickey Hart's world-music-meets-jam-band ensemble. Polyrhythms front and center.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Mickey_Hart",
+      "website": "https://mickeyhart.net"
+    },
+    {
+      "slug": "bill-kreutzmann",
+      "name": "Bill Kreutzmann",
+      "searchKeyword": "Bill Kreutzmann",
+      "tier": "core",
+      "blurb": "Original Dead drummer. Tours with Billy & The Kids and the occasional one-off configuration.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bill_Kreutzmann",
+      "website": "https://billkreutzmann.com"
+    },
+    {
+      "slug": "billy-and-the-kids",
+      "name": "Billy & The Kids",
+      "searchKeyword": "Billy & The Kids",
+      "tier": "core",
+      "blurb": "Bill Kreutzmann's quartet with Tom Hamilton, Aron Magner, and Reed Mathis. Highest-energy Dead-rooted show on the road.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bill_Kreutzmann",
+      "website": "https://billyandthekids.com"
+    },
+    {
+      "slug": "dark-star-orchestra",
+      "name": "Dark Star Orchestra",
+      "searchKeyword": "Dark Star Orchestra",
+      "tier": "tribute",
+      "blurb": "The gold standard of Dead tributes — each show recreates a specific Grateful Dead concert from history, with setlist and arrangement faithful to the source date. Touring since 1997.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Dark_Star_Orchestra",
+      "website": "https://darkstarorchestra.net"
+    },
+    {
+      "slug": "jrad",
+      "name": "Joe Russo's Almost Dead",
+      "searchKeyword": "Joe Russo's Almost Dead",
+      "tier": "tribute",
+      "blurb": "JRAD. Drummer Joe Russo's reimagined-Dead supergroup — Marco Benevento, Tom Hamilton, Scott Metzger, Dave Dreiwitz. Tight, fast, modern arrangements of the catalog.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Joe_Russo%27s_Almost_Dead",
+      "website": "https://joerussosalmostdead.com"
+    },
+    {
+      "slug": "splintered-sunlight",
+      "name": "Splintered Sunlight",
+      "searchKeyword": "Splintered Sunlight",
+      "tier": "tribute",
+      "blurb": "Philadelphia-based Dead tribute, gigging since 1990. The hometown band for any Delaware Valley Deadhead — frequent appearances at Ardmore Music Hall and the Keswick.",
+      "wikipedia": null,
+      "website": "https://splinteredsunlight.com"
+    },
+    {
+      "slug": "china-cats",
+      "name": "China Cats",
+      "searchKeyword": "China Cats",
+      "tier": "tribute",
+      "blurb": "Long-running Dead tribute working the East Coast theater + festival circuit.",
+      "wikipedia": null,
+      "website": null
+    },
+    {
+      "slug": "cubensis",
+      "name": "Cubensis",
+      "searchKeyword": "Cubensis",
+      "tier": "tribute",
+      "blurb": "Southern California's flagship Dead tribute since 1987. The longest-running on the West Coast.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Cubensis_(band)",
+      "website": "https://cubensis.com"
+    },
+    {
+      "slug": "half-step",
+      "name": "Half Step",
+      "searchKeyword": "Half Step",
+      "tier": "tribute",
+      "blurb": "Northeast Dead tribute, Dead-of-the-80s era covers a specialty.",
+      "wikipedia": null,
+      "website": null
+    },
+    {
+      "slug": "stella-blues-band",
+      "name": "Stella Blue's Band",
+      "searchKeyword": "Stella Blue's Band",
+      "tier": "tribute",
+      "blurb": "Dead tribute focused on the song-oriented Garcia ballad side of the book.",
+      "wikipedia": null,
+      "website": null
+    },
+    {
+      "slug": "shakedown",
+      "name": "Shakedown",
+      "searchKeyword": "Shakedown",
+      "tier": "tribute",
+      "blurb": "Dead tribute act. Common booking on the Northeast bar + small-theater circuit.",
+      "wikipedia": null,
+      "website": null
+    },
+    {
+      "slug": "the-schwag",
+      "name": "The Schwag",
+      "searchKeyword": "The Schwag",
+      "tier": "tribute",
+      "blurb": "Midwest's longest-running Dead tribute — hosts the annual Schwagstock festival in Missouri.",
+      "wikipedia": null,
+      "website": "https://theschwag.com"
+    },
+    {
+      "slug": "terrapin-flyer",
+      "name": "Terrapin Flyer",
+      "searchKeyword": "Terrapin Flyer",
+      "tier": "tribute",
+      "blurb": "Chicago-rooted Dead tribute, often joined by Grateful Dead alumni as guest sit-ins.",
+      "wikipedia": null,
+      "website": "https://terrapinflyer.com"
+    },
+    {
+      "slug": "cosmic-charlie",
+      "name": "Cosmic Charlie",
+      "searchKeyword": "Cosmic Charlie",
+      "tier": "tribute",
+      "blurb": "Athens, GA Dead tribute with a Southern-rock-tinged jam sensibility.",
+      "wikipedia": null,
+      "website": "https://cosmiccharlie.net"
+    },
+    {
+      "slug": "garcia-birthday-band",
+      "name": "Garcia Birthday Band",
+      "searchKeyword": "Garcia Birthday Band",
+      "tier": "tribute",
+      "blurb": "Mid-Atlantic Dead/JGB tribute that grew out of annual Jerry Garcia birthday shows. The Jerry songbook gets equal billing with the Dead's.",
+      "wikipedia": null,
+      "website": "https://garciabirthdayband.com"
+    },
+    {
+      "slug": "reckoning",
+      "name": "Reckoning",
+      "searchKeyword": "Reckoning Grateful Dead tribute",
+      "tier": "tribute",
+      "blurb": "Acoustic-leaning Dead tribute — focused on the 1980 Reckoning-era setlist territory.",
+      "wikipedia": null,
+      "website": null
+    }
   ],
   "keywords": [
     "grateful dead tribute",

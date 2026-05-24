@@ -121,10 +121,13 @@ function normalize(ev) {
   if (!venue?.location?.latitude || !venue?.location?.longitude) return null;
   const date = ev.dates?.start?.dateTime || ev.dates?.start?.localDate;
   if (!date) return null;
+  const attractions = (ev._embedded?.attractions || []).map(a => a.name).filter(Boolean);
   return {
     id: ev.id,
     name: ev.name,
     venue: venue.name || "",
+    venueUrl: venue.url || null,
+    venueAddress: venue.address?.line1 || "",
     city: venue.city?.name || "",
     state: venue.state?.stateCode || "",
     lat: parseFloat(venue.location.latitude),
@@ -132,6 +135,7 @@ function normalize(ev) {
     date,
     url: ev.url,
     image: (ev.images || []).find(i => i.ratio === "16_9" && i.width > 500)?.url || ev.images?.[0]?.url,
+    attractions,
   };
 }
 
