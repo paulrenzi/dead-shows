@@ -1,69 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Grateful Dead-themed placeholder">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Grateful Dead Steal Your Face placeholder">
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1a2940"/>
-      <stop offset="55%" stop-color="#2e1f3a"/>
-      <stop offset="100%" stop-color="#0b1424"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="55%" r="60%">
-      <stop offset="0%" stop-color="#d32027" stop-opacity="0.35"/>
-      <stop offset="55%" stop-color="#2e5cb8" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#0b1424" stop-opacity="0"/>
+    <radialGradient id="cosmos" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#2a1a3a" stop-opacity="1"/>
+      <stop offset="55%" stop-color="#120c1c" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#05030a" stop-opacity="1"/>
     </radialGradient>
-    <linearGradient id="bolt" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="50%" stop-color="#f4e9c8"/>
-      <stop offset="100%" stop-color="#d4a843"/>
-    </linearGradient>
-    <filter id="boltGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="6"/>
+    <radialGradient id="redglow" cx="30%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#ff2a3e" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#ff2a3e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blueglow" cx="70%" cy="60%" r="55%">
+      <stop offset="0%" stop-color="#2e6fff" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#2e6fff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="boltglow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3"/>
     </filter>
   </defs>
 
-  <rect width="800" height="450" fill="url(#sky)"/>
-  <rect width="800" height="450" fill="url(#glow)"/>
+  <rect width="800" height="500" fill="url(#cosmos)"/>
+  <rect width="800" height="500" fill="url(#redglow)"/>
+  <rect width="800" height="500" fill="url(#blueglow)"/>
 
-  <g opacity="0.55">
-    <circle cx="120" cy="80" r="1.2" fill="#fff"/>
-    <circle cx="240" cy="50" r="0.8" fill="#fff"/>
-    <circle cx="360" cy="110" r="1" fill="#fff"/>
-    <circle cx="510" cy="70" r="1.2" fill="#fff"/>
-    <circle cx="640" cy="140" r="0.8" fill="#fff"/>
-    <circle cx="720" cy="60" r="1" fill="#fff"/>
-    <circle cx="60" cy="160" r="0.7" fill="#fff"/>
-    <circle cx="180" cy="200" r="0.6" fill="#fff"/>
-    <circle cx="430" cy="180" r="0.7" fill="#fff"/>
-    <circle cx="580" cy="210" r="0.6" fill="#fff"/>
+  <g opacity="0.7">
+    <circle cx="60" cy="50" r="1.2" fill="#fff"/>
+    <circle cx="140" cy="90" r="0.8" fill="#fff"/>
+    <circle cx="220" cy="40" r="1" fill="#fff"/>
+    <circle cx="340" cy="80" r="1.3" fill="#fff"/>
+    <circle cx="450" cy="50" r="0.9" fill="#fff"/>
+    <circle cx="560" cy="100" r="0.7" fill="#fff"/>
+    <circle cx="650" cy="40" r="1.1" fill="#fff"/>
+    <circle cx="740" cy="90" r="0.8" fill="#fff"/>
+    <circle cx="80" cy="430" r="1" fill="#fff"/>
+    <circle cx="180" cy="460" r="0.7" fill="#fff"/>
+    <circle cx="300" cy="440" r="1.2" fill="#fff"/>
+    <circle cx="420" cy="470" r="0.8" fill="#fff"/>
+    <circle cx="540" cy="445" r="1" fill="#fff"/>
+    <circle cx="660" cy="465" r="0.9" fill="#fff"/>
+    <circle cx="730" cy="430" r="1.1" fill="#fff"/>
+    <circle cx="40" cy="240" r="0.8" fill="#fff"/>
+    <circle cx="770" cy="250" r="0.9" fill="#fff"/>
   </g>
 
-  <g transform="translate(400 225)">
-    <ellipse cx="0" cy="0" rx="180" ry="180" fill="url(#glow)" opacity="0.7"/>
-
-    <g transform="translate(0 0)">
-      <path d="M 0,-130
-               C 65,-130 120,-80 120,-15
-               C 120,55 70,110 0,130
-               C -70,110 -120,55 -120,-15
-               C -120,-80 -65,-130 0,-130 Z"
-            fill="#f4ecd8" opacity="0.95"/>
-
-      <ellipse cx="-42" cy="-15" rx="28" ry="32" fill="#0b1424"/>
-      <ellipse cx="42" cy="-15" rx="28" ry="32" fill="#0b1424"/>
-
-      <path d="M -16,30 Q 0,40 16,30 L 16,55 L 10,52 L 10,72 L 4,68 L 4,80 L -4,80 L -4,68 L -10,72 L -10,52 L -16,55 Z"
-            fill="#0b1424"/>
-
-      <g filter="url(#boltGlow)" opacity="0.85">
-        <path d="M -22,-90 L 18,-25 L -8,-25 L 22,55 L -18,-15 L 10,-15 L -22,-90 Z"
-              fill="url(#bolt)"/>
-      </g>
-      <path d="M -22,-90 L 18,-25 L -8,-25 L 22,55 L -18,-15 L 10,-15 L -22,-90 Z"
-            fill="url(#bolt)"/>
-    </g>
+  <!--
+    Steal Your Face square icon, CC0 from Wikimedia Commons
+    https://commons.wikimedia.org/wiki/File:Steal_Your_Square_Icon.svg
+    Public domain dedication (CC0 1.0). The underlying design is trademarked
+    by Grateful Dead Productions; used here editorially to identify Dead shows.
+  -->
+  <g transform="translate(220 70) scale(9.06)">
+    <path d="M 29.55,0 C 21.45,12.41 15.24,27.76 6.73,39.69 h 32.98 V 0 z" fill="#1e5dff"/>
+    <path d="M 0.09,0 V 39.69 H 6.73 c 1.95,-1.39 15.40,-26.00 22.81,-39.68 z" fill="#ff2230"/>
+    <path d="m 29.31,0.31 -5.45,3.37 1.93,0.16 -7.41,6.44 4.94,0.43 -10.55,9.02 5.34,-0.06 -7.18,6.64 4.27,0.03 -8.17,13.09 5.37,-1.63 -1.40,-1.36 7.14,-4.10 -2.53,-1.00 10.92,-6.28 -7.18,-0.46 9.42,-6.28 -5.84,0.40 7.08,-6.04 -5.67,-0.03 7.14,-9.12 -3.64,1.53 z"
+          fill="#fff" stroke="#000" stroke-width="0.26"/>
   </g>
 
-  <text x="400" y="408" text-anchor="middle" font-family="'Fraunces', Georgia, serif"
-        font-size="22" font-weight="700" fill="#f4ecd8" opacity="0.7" letter-spacing="4">
+  <text x="400" y="468" text-anchor="middle"
+        font-family="'Fraunces', Georgia, serif"
+        font-size="22" font-weight="700"
+        fill="#f4ecd8" opacity="0.75" letter-spacing="6">
     DEAD SHOWS
   </text>
 </svg>

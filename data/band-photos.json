@@ -355,9 +355,8 @@
     "matchedName": "The Other Two"
   },
   "deal": {
-    "photo": "images/bands/deal.jpg",
-    "source": "deezer",
-    "matchedName": "Deal"
+    "photo": "images/default-band.svg",
+    "source": "manual"
   },
   "blue-drew-and-the-magoos": {
     "photo": "images/bands/blue-drew-and-the-magoos.jpg",

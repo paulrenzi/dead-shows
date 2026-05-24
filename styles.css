@@ -143,7 +143,15 @@ button { font: inherit; cursor: pointer; }
   flex: 1 1 180px;
 }
 .strip-field--wide { flex: 2 1 240px; }
-.strip-field--narrow { flex: 0 1 150px; }
+.strip-field--narrow { flex: 1 1 150px; }
+.strip-field-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  flex: 1 1 320px;
+  align-items: end;
+}
+.strip-field-pair .strip-field { min-width: 0; }
 .strip-label {
   font-size: 0.66rem;
   font-weight: 800;
@@ -635,9 +643,9 @@ button { font: inherit; cursor: pointer; }
   .band-blurb { margin-left: auto; margin-right: auto; }
   .band-links { justify-content: center; }
 
-  /* Pair From + To on the same row, 50/50 */
+  /* On mobile: text fields go full width; date pair stays a 2-col grid */
   .strip-field { min-width: 0; flex: 1 1 100%; }
-  .strip-field--narrow { flex: 1 1 calc(50% - 0.5rem); min-width: 0; }
+  .strip-field-pair { flex: 1 1 100%; gap: 0.9rem; }
   .strip-field--narrow .strip-input {
     padding: 0.7rem 0.55rem;
     font-size: 0.9rem;

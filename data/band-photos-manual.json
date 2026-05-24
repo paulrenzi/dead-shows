@@ -1,1 +1,4 @@
-{}
+{
+  "_comment": "Overrides band-photos.json. Set photo to images/default-band.svg to force the default (e.g. when Deezer matched the wrong band). To use a real photo, drop a JPG into images/bands/ and point photo at it.",
+  "deal": { "photo": "images/default-band.svg" }
+}

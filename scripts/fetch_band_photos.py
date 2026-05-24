@@ -120,8 +120,10 @@ def main():
     cache = load_json(CACHE_PATH, {})
     manual = load_json(MANUAL_PATH, {})
 
-    # Manual overrides always win
+    # Manual overrides always win. Skip "_comment" / non-dict entries.
     for slug, entry in manual.items():
+        if not isinstance(entry, dict) or "photo" not in entry:
+            continue
         photos[slug] = {"photo": entry["photo"], "source": "manual"}
 
     today = date.today().isoformat()
