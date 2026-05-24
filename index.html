@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dead Shows — Grateful Dead family + tribute events</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin="">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Dead Shows</h1>
+    <p class="tag">Grateful Dead family + tribute bands, near you.</p>
+  </header>
+
+  <section class="controls">
+    <div class="control">
+      <label for="center">Center on</label>
+      <input id="center" type="text" placeholder="City or address (default: King of Prussia, PA)">
+      <button id="locate" type="button" title="Use my current location">📍</button>
+    </div>
+
+    <div class="control">
+      <label for="radius">Within <span id="radius-val">100</span> miles</label>
+      <input id="radius" type="range" min="10" max="500" step="10" value="100">
+    </div>
+
+    <div class="control">
+      <label for="start-date">From</label>
+      <input id="start-date" type="date">
+    </div>
+
+    <div class="control">
+      <label for="end-date">To</label>
+      <input id="end-date" type="date">
+    </div>
+
+    <button id="search" type="button" class="primary">Find shows</button>
+  </section>
+
+  <main>
+    <div id="map"></div>
+    <div id="results">
+      <div id="status">Pick a date range and hit "Find shows."</div>
+      <ul id="list"></ul>
+    </div>
+  </main>
+
+  <footer>
+    <p>Built on GitHub Pages. Event data via Ticketmaster Discovery API.
+       <a href="https://github.com/" id="repo-link">source</a></p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+          crossorigin=""></script>
+  <script src="app.js"></script>
+</body>
+</html>

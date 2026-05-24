@@ -1,0 +1,11 @@
+name = "dead-shows"
+main = "worker.js"
+compatibility_date = "2026-01-15"
+
+# After deploy, set:
+#   wrangler secret put TICKETMASTER_API_KEY
+# And optionally lock origin:
+#   wrangler vars put ALLOWED_ORIGIN https://YOUR-USERNAME.github.io
+
+[vars]
+ALLOWED_ORIGIN = "*"
