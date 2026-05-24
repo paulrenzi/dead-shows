@@ -8,4 +8,4 @@ compatibility_date = "2026-01-15"
 #   wrangler vars put ALLOWED_ORIGIN https://YOUR-USERNAME.github.io
 
 [vars]
-ALLOWED_ORIGIN = "*"
+ALLOWED_ORIGIN = "https://paulrenzi.github.io"
