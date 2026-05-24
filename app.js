@@ -252,6 +252,15 @@ function eventById(id) {
   return lastEvents.find(e => e.id === id);
 }
 
+function formatPrice(price) {
+  if (!price || typeof price.min !== "number") return null;
+  const sym = price.currency === "USD" ? "$" : (price.currency || "");
+  const fmt = n => Number.isInteger(n) ? String(n) : n.toFixed(2);
+  if (price.min === 0 && (!price.max || price.max === 0)) return "Free";
+  if (price.min === 0) return "From free";
+  return `From ${sym}${fmt(price.min)}`;
+}
+
 function toIcsUtc(d) {
   return d.toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
 }
@@ -276,7 +285,7 @@ function buildIcsDates(ev) {
   return { dtstart: `${dateOnly}T190000`, dtend: `${dateOnly}T220000`, floating: true };
 }
 
-function buildIcs(ev) {
+function buildIcsText(ev) {
   const artist = matchArtist(ev);
   const displayName = artist?.name || ev.name || "Show";
   const { dtstart, dtend } = buildIcsDates(ev);
@@ -299,20 +308,42 @@ function buildIcs(ev) {
     "END:VEVENT",
     "END:VCALENDAR",
   ].filter(Boolean);
-  return new Blob([lines.join("\r\n")], { type: "text/calendar" });
+  return lines.join("\r\n");
 }
 
-function downloadIcs(ev) {
-  const blob = buildIcs(ev);
-  const url = URL.createObjectURL(blob);
+const IS_IOS = /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+               (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+
+function appleCalendarHref(ev) {
+  // iOS Safari: a data: URL with no `download` attribute opens the native
+  // "Add to Calendar" sheet. With `download`, iOS routes it to Files instead.
+  // Desktop/Android: blob: URL + download attribute → normal file save.
+  const text = buildIcsText(ev);
+  if (IS_IOS) {
+    const b64 = btoa(unescape(encodeURIComponent(text)));
+    return { href: `data:text/calendar;charset=utf-8;base64,${b64}`, download: null };
+  }
+  const blob = new Blob([text], { type: "text/calendar" });
+  const slug = matchArtist(ev)?.slug || "event";
+  return {
+    href: URL.createObjectURL(blob),
+    download: `${slug}-${(ev.date || "").slice(0, 10)}.ics`,
+  };
+}
+
+function googleCalendarUrl(ev) {
   const artist = matchArtist(ev);
-  const slug = artist?.slug || "event";
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = `${slug}-${(ev.date || "").slice(0, 10)}.ics`;
-  document.body.appendChild(a);
-  a.click();
-  setTimeout(() => { a.remove(); URL.revokeObjectURL(url); }, 500);
+  const title = (artist?.name || ev.name || "Show").trim();
+  const where = [ev.venue, ev.city, ev.state].filter(Boolean).join(", ");
+  const { dtstart, dtend } = buildIcsDates(ev);
+  const params = new URLSearchParams({
+    action: "TEMPLATE",
+    text: title,
+    dates: `${dtstart}/${dtend}`,
+    location: where,
+    details: `via Dead Shows${ev.url ? "\n" + ev.url : ""}`,
+  });
+  return `https://calendar.google.com/calendar/render?${params.toString()}`;
 }
 
 function eventShareUrl(ev) {
@@ -380,6 +411,13 @@ function renderCard(ev, idx) {
     ? `<span class="source-credit">via <a href="${ev.url}" target="_blank" rel="noreferrer">gratefuldeadtributebands.com</a></span>`
     : "";
   const ticketsLabel = ev.source === "gdtb" ? "Details →" : "Tickets →";
+  const priceLabel = formatPrice(ev.price);
+
+  const googleHref = googleCalendarUrl(ev);
+  const apple = appleCalendarHref(ev);
+  const appleAttrs = apple.download
+    ? ` download="${escapeHtml(apple.download)}"`
+    : "";
 
   return `
     <article class="event-card" data-idx="${idx}" data-id="${ev.id}">
@@ -394,12 +432,19 @@ function renderCard(ev, idx) {
         <div class="card-meta">
           <span class="meta-pill ${tierClass}">${tierLabel}</span>
           <span class="meta-pill distance">${dist.toFixed(0)} mi away</span>
+          ${priceLabel ? `<span class="meta-pill price">${escapeHtml(priceLabel)}</span>` : ""}
         </div>
         <div class="card-foot">
           <button type="button" class="show-on-map-btn" data-id="${ev.id}">Show on map</button>
           <div class="card-foot-actions">
-            <button type="button" class="card-icon-btn" data-action="calendar" data-id="${ev.id}" title="Add to calendar" aria-label="Add to calendar">📅</button>
-            <button type="button" class="card-icon-btn" data-action="share" data-id="${ev.id}" title="Share" aria-label="Share">↗</button>
+            <div class="card-cal">
+              <button type="button" class="card-icon-btn card-cal-toggle" data-id="${ev.id}" aria-haspopup="true" aria-expanded="false" title="Add to calendar" aria-label="Add to calendar">📅</button>
+              <div class="card-cal-menu" role="menu" hidden>
+                <a class="card-cal-link" role="menuitem" target="_blank" rel="noopener" href="${escapeHtml(googleHref)}">Google</a>
+                <a class="card-cal-link" role="menuitem" href="${escapeHtml(apple.href)}"${appleAttrs}>Apple</a>
+              </div>
+            </div>
+            <button type="button" class="card-icon-btn" data-action="share" data-id="${ev.id}" title="Share" aria-label="Share">📤</button>
             <a class="tickets-link" href="${ev.url}" target="_blank" rel="noreferrer">${ticketsLabel}</a>
           </div>
         </div>
@@ -445,10 +490,13 @@ function renderEvents(events) {
   events.forEach((ev) => {
     const artist = matchArtist(ev);
     const displayName = artist?.name || ev.name;
+    const tm = isTicketUrl(ev);
+    const popupHref = tm ? ev.url : venueGoogleMapsUrl(ev);
+    const popupLabel = tm ? "Tickets →" : "Venue info →";
     const popup = `
       <strong>${escapeHtml(displayName)}</strong>
       ${escapeHtml(ev.venue)}<br>${formatDate(ev.date)}
-      <a class="popup-link" href="${ev.url}" target="_blank" rel="noreferrer">Tickets →</a>
+      <a class="popup-link" href="${escapeHtml(popupHref)}" target="_blank" rel="noreferrer">${popupLabel}</a>
     `;
     const marker = L.marker([ev.lat, ev.lng]).addTo(map).bindPopup(popup);
     marker.on("click", () => highlightCard(ev.id, { scroll: true }));
@@ -483,24 +531,72 @@ function renderEvents(events) {
       if (marker) {
         map.setView(marker.getLatLng(), 11);
         marker.openPopup();
-        document.getElementById("map").scrollIntoView({ behavior: "smooth", block: "nearest" });
+        scrollMapIntoView();
       }
     });
   });
 
-  // Wire per-card calendar + share icon buttons
-  cards.querySelectorAll(".card-icon-btn").forEach(btn => {
+  // Calendar popover toggle (Google/Apple chooser per card)
+  cards.querySelectorAll(".card-cal-toggle").forEach(btn => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const menu = btn.nextElementSibling;
+      const wasHidden = menu.hidden;
+      closeAllCalendarMenus();
+      if (wasHidden) {
+        menu.hidden = false;
+        btn.setAttribute("aria-expanded", "true");
+      }
+    });
+  });
+  // Closing the menu after the user picks one is desirable; the link still navigates
+  cards.querySelectorAll(".card-cal-link").forEach(link => {
+    link.addEventListener("click", () => closeAllCalendarMenus());
+  });
+
+  // Share button
+  cards.querySelectorAll('.card-icon-btn[data-action="share"]').forEach(btn => {
     btn.addEventListener("click", (e) => {
       const id = e.currentTarget.dataset.id;
-      const action = e.currentTarget.dataset.action;
       const ev = eventById(id);
-      if (!ev) return;
-      if (action === "calendar") downloadIcs(ev);
-      else if (action === "share") shareEvent(ev);
+      if (ev) shareEvent(ev);
     });
   });
 
   applyDeepLinkOnce();
+}
+
+function scrollMapIntoView() {
+  // The strip is position: sticky at the top — scrollIntoView({block: "nearest"})
+  // lands the map under it. Compute the strip's visible height and offset by it.
+  const mapEl = document.getElementById("map");
+  const strip = document.querySelector(".strip");
+  const stripH = strip ? strip.getBoundingClientRect().height : 0;
+  const targetTop = mapEl.getBoundingClientRect().top + window.scrollY - stripH - 12;
+  window.scrollTo({ top: Math.max(0, targetTop), behavior: "smooth" });
+}
+
+function venueGoogleMapsUrl(ev) {
+  const q = [ev.venue, ev.city, ev.state].filter(Boolean).join(" ");
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
+}
+
+// TM events have a real ticket URL; GDTB items point at the band's directory
+// page (not the venue), so for those we link to the venue on Google Maps.
+function isTicketUrl(ev) {
+  if (ev.source === "gdtb") return false;
+  if (!ev.url) return false;
+  return !/gratefuldeadtributebands\.com/i.test(ev.url);
+}
+
+function closeAllCalendarMenus() {
+  document.querySelectorAll(".card-cal-menu").forEach(m => {
+    if (!m.hidden) {
+      m.hidden = true;
+      const btn = m.previousElementSibling;
+      if (btn) btn.setAttribute("aria-expanded", "false");
+    }
+  });
 }
 
 function highlightCard(id, { scroll = false } = {}) {
@@ -616,6 +712,9 @@ async function init() {
   updateChipUi();
   wireChips();
   wireControls();
+  // Close any open calendar popover on outside click / Escape
+  document.addEventListener("click", closeAllCalendarMenus);
+  document.addEventListener("keydown", e => { if (e.key === "Escape") closeAllCalendarMenus(); });
   await loadArtists();
   await loadGdtb();
   // Auto-run on load so the page isn't empty

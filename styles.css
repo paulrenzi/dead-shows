@@ -470,6 +470,10 @@ button { font: inherit; cursor: pointer; }
   background: rgba(26, 26, 26, 0.06);
   color: var(--muted);
 }
+.meta-pill.price {
+  background: rgba(60, 132, 70, 0.14);
+  color: #2a6b34;
+}
 
 .card-foot {
   display: flex;
@@ -524,6 +528,38 @@ button { font: inherit; cursor: pointer; }
   color: var(--accent-deep);
 }
 .card-icon-btn:active { transform: translateY(1px); }
+
+.card-cal { position: relative; }
+.card-cal-menu {
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: var(--shadow-md);
+  padding: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 110px;
+  z-index: 10;
+}
+.card-cal-menu[hidden] { display: none; }
+.card-cal-link {
+  display: block;
+  padding: 0.45rem 0.8rem;
+  text-decoration: none;
+  color: var(--text);
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+.card-cal-link:hover {
+  background: rgba(46, 92, 184, 0.1);
+  color: var(--accent-deep);
+}
 
 .toast {
   position: fixed;

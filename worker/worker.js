@@ -140,6 +140,19 @@ function normalize(ev) {
   const date = ev.dates?.start?.dateTime || ev.dates?.start?.localDate;
   if (!date) return null;
   const attractions = (ev._embedded?.attractions || []).map(a => a.name).filter(Boolean);
+  // Take the cheapest min across price ranges (TM sometimes returns multiple by section)
+  let price = null;
+  if (Array.isArray(ev.priceRanges) && ev.priceRanges.length) {
+    const mins = ev.priceRanges.map(p => p.min).filter(n => typeof n === "number");
+    const maxes = ev.priceRanges.map(p => p.max).filter(n => typeof n === "number");
+    if (mins.length) {
+      price = {
+        min: Math.min(...mins),
+        max: maxes.length ? Math.max(...maxes) : null,
+        currency: ev.priceRanges[0].currency || "USD",
+      };
+    }
+  }
   return {
     id: ev.id,
     name: ev.name,
@@ -154,6 +167,7 @@ function normalize(ev) {
     url: ev.url,
     image: (ev.images || []).find(i => i.ratio === "16_9" && i.width > 500)?.url || ev.images?.[0]?.url,
     attractions,
+    price,
   };
 }
 
