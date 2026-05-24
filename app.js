@@ -8,6 +8,7 @@ let markerById = new Map();
 let currentCenter = { ...KOP };
 let artistsBySlug = new Map();
 let artistsByName = new Map();
+let gdtbEvents = [];
 
 async function loadArtists() {
   const r = await fetch("artists.json");
@@ -16,6 +17,33 @@ async function loadArtists() {
     artistsBySlug.set(a.slug, a);
     artistsByName.set(a.name.toLowerCase(), a);
     artistsByName.set(a.searchKeyword.toLowerCase(), a);
+  }
+}
+
+async function loadGdtb() {
+  // gratefuldeadtributebands.com scraped data — refreshed via scripts/scrape_gdtb.py
+  try {
+    const [eventsRes, bandsRes] = await Promise.all([
+      fetch("data/gdtb-events.json"),
+      fetch("data/gdtb-bands.json"),
+    ]);
+    if (eventsRes.ok) gdtbEvents = await eventsRes.json();
+    if (bandsRes.ok) {
+      const bands = await bandsRes.json();
+      for (const b of bands) {
+        if (artistsBySlug.has(b.slug)) continue;
+        const stub = {
+          slug: b.slug, name: b.name, searchKeyword: b.name,
+          tier: "tribute",
+          blurb: `Dead tribute act listed at gratefuldeadtributebands.com (${b.state}).`,
+          wikipedia: null, website: null, source: b.source,
+        };
+        artistsBySlug.set(b.slug, stub);
+        artistsByName.set(b.name.toLowerCase(), stub);
+      }
+    }
+  } catch (e) {
+    console.warn("GDTB data not loaded:", e);
   }
 }
 
@@ -140,7 +168,40 @@ async function fetchEvents() {
     const text = await r.text();
     throw new Error(`Worker error ${r.status}: ${text.slice(0, 200)}`);
   }
-  return r.json();
+  const tmEvents = await r.json();
+  const gdtb = filterGdtb(radius, startDate, endDate);
+  return mergeAndDedupe(tmEvents, gdtb);
+}
+
+function filterGdtb(radius, startDate, endDate) {
+  if (!gdtbEvents.length) return [];
+  const start = startDate ? new Date(startDate) : null;
+  const end = endDate ? new Date(endDate + "T23:59:59") : null;
+  return gdtbEvents.filter(ev => {
+    const d = new Date(ev.date);
+    if (start && d < start) return false;
+    if (end && d > end) return false;
+    const dist = haversineMiles(currentCenter.lat, currentCenter.lng, ev.lat, ev.lng);
+    return dist <= radius;
+  }).map(ev => ({ ...ev, source: ev.source || "gdtb" }));
+}
+
+function mergeAndDedupe(tmEvents, gdtbEvts) {
+  // Dedupe by (band-lower + date YYYY-MM-DD + city-lower). TM wins ties (has images/tickets).
+  const seen = new Map();
+  const key = ev => {
+    const band = ((ev.attractions && ev.attractions[0]) || ev.name || "").toLowerCase();
+    const day = (ev.date || "").slice(0, 10);
+    const city = (ev.city || "").toLowerCase();
+    return `${band}|${day}|${city}`;
+  };
+  for (const ev of tmEvents) {
+    seen.set(key(ev), { ...ev, source: ev.source || "tm" });
+  }
+  for (const ev of gdtbEvts) {
+    if (!seen.has(key(ev))) seen.set(key(ev), ev);
+  }
+  return Array.from(seen.values());
 }
 
 function formatDate(iso) {
@@ -172,11 +233,16 @@ function renderCard(ev, idx) {
          <span class="placeholder-name">${escapeHtml(displayName)}</span>
        </a>`;
 
+  const sourceCredit = ev.source === "gdtb"
+    ? `<span class="source-credit">via <a href="${ev.url}" target="_blank" rel="noreferrer">gratefuldeadtributebands.com</a></span>`
+    : "";
+  const ticketsLabel = ev.source === "gdtb" ? "Details →" : "Tickets →";
+
   return `
     <article class="event-card" data-idx="${idx}" data-id="${ev.id}">
       ${media}
       <div class="card-body">
-        <p class="card-date">${formatDate(ev.date)}</p>
+        <p class="card-date">${formatDate(ev.date)}${ev.time ? ` · ${escapeHtml(ev.time)}` : ""}</p>
         <h3 class="card-name">${bandLink}</h3>
         <p class="card-venue">
           ${escapeHtml(ev.venue)}<br>
@@ -188,8 +254,9 @@ function renderCard(ev, idx) {
         </div>
         <div class="card-foot">
           <button type="button" class="show-on-map-btn" data-id="${ev.id}">Show on map</button>
-          <a class="tickets-link" href="${ev.url}" target="_blank" rel="noreferrer">Tickets →</a>
+          <a class="tickets-link" href="${ev.url}" target="_blank" rel="noreferrer">${ticketsLabel}</a>
         </div>
+        ${sourceCredit ? `<div class="card-source">${sourceCredit}</div>` : ""}
       </div>
     </article>
   `;
@@ -322,6 +389,7 @@ async function init() {
   setDefaultDates();
   wireControls();
   await loadArtists();
+  await loadGdtb();
   // Auto-run on load so the page isn't empty
   runSearch();
 }

@@ -50,6 +50,18 @@ wrangler vars put ALLOWED_ORIGIN https://<your-username>.github.io
 
 `artists.json` is the canonical curated list (for documentation), but the Worker has the list embedded in `worker/worker.js` (so it works with zero asset binding). To add an act, edit **both** files and redeploy the worker.
 
+## Refreshing the gratefuldeadtributebands.com data
+
+The site supplements Ticketmaster with shows from [gratefuldeadtributebands.com](http://www.gratefuldeadtributebands.com/) — a community-maintained directory of Dead tribute acts that catches tons of small-bar gigs TM misses.
+
+```sh
+python scripts/scrape_gdtb.py
+# writes data/gdtb-events.json + data/gdtb-bands.json + caches geocodes
+git add data/ && git commit -m "data: refresh gdtb scrape" && git push
+```
+
+Run this whenever you want to refresh — recommended weekly. Geocodes are cached in `data/geocode-cache.json` (don't delete it; cities don't move).
+
 ## Local dev
 
 The frontend is fully static — open `index.html` in a browser or run `python -m http.server 8000`. Point `WORKER_URL` at a `wrangler dev` instance if you want to iterate on the proxy locally.

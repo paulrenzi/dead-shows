@@ -82,10 +82,24 @@ async function fetchEvents(artist) {
     startDate: today.toISOString().slice(0, 10),
     endDate: yearOut.toISOString().slice(0, 10),
   });
-  const r = await fetch(`${WORKER_URL}/events?${params.toString()}`);
-  if (!r.ok) throw new Error(`Worker error ${r.status}`);
-  const all = await r.json();
-  return all.filter(ev => matchesArtist(ev, artist));
+
+  // Fetch both sources in parallel
+  const [tmRes, gdtbEvs] = await Promise.all([
+    fetch(`${WORKER_URL}/events?${params.toString()}`).then(r => r.ok ? r.json() : []),
+    fetch("data/gdtb-events.json").then(r => r.ok ? r.json() : []).catch(() => []),
+  ]);
+
+  const tmFiltered = tmRes.filter(ev => matchesArtist(ev, artist)).map(ev => ({ ...ev, source: "tm" }));
+  const gdtbFiltered = gdtbEvs.filter(ev => ev.bandSlug === artist.slug || ev.band.toLowerCase() === artist.name.toLowerCase());
+
+  // Dedupe by (date + city)
+  const seen = new Map();
+  const key = ev => `${(ev.date || "").slice(0, 10)}|${(ev.city || "").toLowerCase()}`;
+  for (const ev of tmFiltered) seen.set(key(ev), ev);
+  for (const ev of gdtbFiltered) {
+    if (!seen.has(key(ev))) seen.set(key(ev), { ...ev, source: "gdtb" });
+  }
+  return Array.from(seen.values());
 }
 
 function renderCard(ev) {
@@ -178,9 +192,22 @@ async function init() {
     document.body.innerHTML = `<main class="shell"><div class="empty-state"><strong>No band specified.</strong><a href="index.html">Back to shows →</a></div></main>`;
     return;
   }
-  const r = await fetch("artists.json");
-  const data = await r.json();
-  const artist = data.artists.find(a => a.slug === slug);
+  // Try curated artists first, then discovered gdtb bands
+  const [aRes, gRes] = await Promise.all([
+    fetch("artists.json").then(r => r.json()),
+    fetch("data/gdtb-bands.json").then(r => r.ok ? r.json() : []).catch(() => []),
+  ]);
+  let artist = aRes.artists.find(a => a.slug === slug);
+  if (!artist) {
+    const g = gRes.find(b => b.slug === slug);
+    if (g) {
+      artist = {
+        slug: g.slug, name: g.name, searchKeyword: g.name, tier: "tribute",
+        blurb: `Dead tribute act listed at gratefuldeadtributebands.com (${g.state}).`,
+        wikipedia: null, website: null,
+      };
+    }
+  }
   if (!artist) {
     document.body.innerHTML = `<main class="shell"><div class="empty-state"><strong>Unknown band: ${escapeHtml(slug)}</strong><a href="index.html">Back to shows →</a></div></main>`;
     return;

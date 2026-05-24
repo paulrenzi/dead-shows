@@ -466,6 +466,18 @@ button { font: inherit; cursor: pointer; }
 }
 .show-on-map-btn:hover { color: var(--accent); }
 
+.card-source {
+  margin-top: 0.5rem;
+  text-align: right;
+}
+.source-credit {
+  font-size: 0.7rem;
+  color: var(--subtle);
+  font-style: italic;
+}
+.source-credit a { color: var(--subtle); text-decoration: underline; text-decoration-color: var(--border); }
+.source-credit a:hover { color: var(--accent); }
+
 .empty-state {
   text-align: center;
   padding: 3.5rem 1rem;
