@@ -83,22 +83,13 @@
       "website": "https://melvinseals.com"
     },
     {
-      "slug": "hot-tuna",
-      "name": "Hot Tuna",
-      "searchKeyword": "Hot Tuna",
+      "slug": "grahame-lesh",
+      "name": "Grahame Lesh",
+      "searchKeyword": "Grahame Lesh",
       "tier": "core",
-      "blurb": "Jorma Kaukonen and Jack Casady's blues-folk-rooted band, born out of Jefferson Airplane and a Dead-scene fixture since the Fillmore days. Tours electric and acoustic.",
-      "wikipedia": "https://en.wikipedia.org/wiki/Hot_Tuna",
-      "website": "https://hottuna.com"
-    },
-    {
-      "slug": "trey-anastasio-band",
-      "name": "Trey Anastasio Band",
-      "searchKeyword": "Trey Anastasio",
-      "tier": "core",
-      "blurb": "Phish frontman Trey Anastasio's solo touring band. Played Fare Thee Well in 2015 in Jerry's chair, and remains the most Dead-adjacent voice in modern jam.",
-      "wikipedia": "https://en.wikipedia.org/wiki/Trey_Anastasio_Band",
-      "website": "https://trey.com"
+      "blurb": "Phil Lesh's son and Terrapin Family Band guitarist. Carries the Terrapin Crossroads sound forward post-closure with frequent JGB-leaning gigs.",
+      "wikipedia": null,
+      "website": null
     },
     {
       "slug": "dark-star-orchestra",
@@ -261,6 +252,51 @@
       "blurb": "Boston-area Dead tribute, a regular at New England small theaters and the Sinclair / Brighton Music Hall.",
       "wikipedia": null,
       "website": "https://bearlydead.com"
+    },
+    {
+      "slug": "cosmic-jerry-band",
+      "name": "Cosmic Jerry Band",
+      "searchKeyword": "Cosmic Jerry Band",
+      "tier": "tribute",
+      "blurb": "Dead/JGB tribute working the small-club circuit. Heavy on the Garcia side of the catalog.",
+      "wikipedia": null,
+      "website": null
+    },
+    {
+      "slug": "friends-of-jerry",
+      "name": "Friends of Jerry",
+      "searchKeyword": "Friends of Jerry",
+      "tier": "tribute",
+      "blurb": "Dead/JGB tribute focused on the Garcia ballads and JGB late-period material.",
+      "wikipedia": null,
+      "website": null
+    },
+    {
+      "slug": "playing-dead",
+      "name": "Playing Dead",
+      "searchKeyword": "Playing Dead",
+      "tier": "tribute",
+      "blurb": "Bar-and-theater Dead tribute named for the Weir tune.",
+      "wikipedia": null,
+      "website": null
+    },
+    {
+      "slug": "steely-dead",
+      "name": "Steely Dead",
+      "searchKeyword": "Steely Dead",
+      "tier": "tribute",
+      "blurb": "Steely Dan + Grateful Dead crossover tribute — half the set is one band, half is the other, often woven together in single jams.",
+      "wikipedia": null,
+      "website": "https://steelydead.com"
+    },
+    {
+      "slug": "not-fade-away",
+      "name": "Not Fade Away",
+      "searchKeyword": "Not Fade Away",
+      "tier": "tribute",
+      "blurb": "East Coast Dead tribute named after the Dead's Buddy Holly cover. Sometimes billed as 'Plays Dead-zeppelin' for crossover shows.",
+      "wikipedia": null,
+      "website": null
     }
   ],
   "keywords": [

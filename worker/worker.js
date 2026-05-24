@@ -12,8 +12,7 @@ const ARTISTS = [
   "Bill Kreutzmann",
   "Billy & The Kids",
   "Melvin Seals",
-  "Hot Tuna",
-  "Trey Anastasio",
+  "Grahame Lesh",
   "Dark Star Orchestra",
   "Joe Russo's Almost Dead",
   "JRAD",
@@ -33,6 +32,11 @@ const ARTISTS = [
   "Box of Rain",
   "Better Off Dead",
   "Bearly Dead",
+  "Cosmic Jerry Band",
+  "Friends of Jerry",
+  "Playing Dead",
+  "Steely Dead",
+  "Not Fade Away",
 ];
 
 const KEYWORDS = ["grateful dead tribute", "grateful dead"];

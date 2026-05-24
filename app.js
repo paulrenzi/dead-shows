@@ -25,19 +25,30 @@ function matchArtist(event) {
     const hit = artistsByName.get(att.toLowerCase());
     if (hit) return hit;
   }
-  // Substring match against attractions (catches "Melvin Seals and JGB" vs curated "Melvin Seals & JGB")
+  // Substring match against attractions — only with keys ≥8 chars to avoid
+  // short common-word matches ("Reckoning", "Cubensis") catching unrelated events
   for (const att of event.attractions || []) {
     const lower = att.toLowerCase();
     for (const [key, artist] of artistsByName) {
-      if (lower.includes(key)) return artist;
+      if (key.length >= 8 && lower.includes(key)) return artist;
     }
   }
-  // Final fallback: event name contains any artist name
+  // Final fallback: event name contains any artist name (≥8 char keys only)
   const lname = (event.name || "").toLowerCase();
   for (const [key, artist] of artistsByName) {
-    if (lname.includes(key)) return artist;
+    if (key.length >= 8 && lname.includes(key)) return artist;
   }
   return null;
+}
+
+// True if the event is actually Dead-related (matches curated artist OR
+// has a Dead keyword in the name/attractions). Filters out jam-adjacent
+// noise like Widespread Panic that TM returns from broad keyword matches.
+const DEAD_KEYWORDS = /grateful|garcia|jerry|deadhead|dead\s+night|dead\s+bowl|dead\s+tribute|dead\s+set/i;
+function isDeadRelated(event) {
+  if (matchArtist(event)) return true;
+  const t = (event.name || "") + " " + (event.attractions || []).join(" ");
+  return DEAD_KEYWORDS.test(t);
 }
 
 function initMap() {
@@ -188,6 +199,9 @@ function renderEvents(events) {
   const cards = document.getElementById("cards");
   const counter = document.getElementById("result-count");
   clearEventMarkers();
+
+  // Drop non-Dead noise that broad TM keyword searches surfaced
+  events = events.filter(isDeadRelated);
 
   if (!events.length) {
     counter.textContent = "0 shows";
