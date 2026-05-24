@@ -118,9 +118,14 @@ button { font: inherit; cursor: pointer; }
   border-bottom: 1px solid var(--border);
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 2000;
+  isolation: isolate;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
 }
+
+/* Pin Leaflet's own controls below our sticky strip (defaults to z-index 1000) */
+.leaflet-top,
+.leaflet-bottom { z-index: 400 !important; }
 .strip-inner {
   width: min(1040px, calc(100% - 3rem));
   margin: 0 auto;
@@ -210,6 +215,7 @@ button { font: inherit; cursor: pointer; }
   letter-spacing: 0.02em;
   white-space: nowrap;
   flex: 0 0 auto;
+  margin-left: auto;
   margin-bottom: 1px;
   transition: background 0.18s, transform 0.18s;
 }
@@ -601,4 +607,9 @@ button { font: inherit; cursor: pointer; }
   .map { height: 280px; }
   .strip-inner { padding: 0.9rem 0; }
   .band-hero { padding: 3rem 0 2.5rem; }
+  .btn-primary {
+    flex: 1 0 100%;
+    margin-left: 0;
+    margin-top: 0.4rem;
+  }
 }
