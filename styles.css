@@ -610,7 +610,13 @@ button { font: inherit; cursor: pointer; }
 
   /* Pair From + To on the same row, 50/50 */
   .strip-field { min-width: 0; flex: 1 1 100%; }
-  .strip-field--narrow { flex: 1 1 calc(50% - 0.5rem); }
+  .strip-field--narrow { flex: 1 1 calc(50% - 0.5rem); min-width: 0; }
+  .strip-field--narrow .strip-input {
+    padding: 0.7rem 0.55rem;
+    font-size: 0.9rem;
+    min-width: 0;
+    width: 100%;
+  }
 
   .btn-primary {
     flex: 1 0 100%;

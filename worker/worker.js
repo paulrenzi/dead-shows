@@ -37,6 +37,12 @@ const ARTISTS = [
   "Playing Dead",
   "Steely Dead",
   "Not Fade Away",
+  "BERTHA Grateful Drag",
+  "Jerry's Middle Finger",
+  "Fairbanks 142",
+  "Live Dead Brothers",
+  "Jerry Garcia Symphonic Celebration",
+  "Rock and Roll Playhouse Grateful Dead",
 ];
 
 const KEYWORDS = ["grateful dead tribute", "grateful dead"];

@@ -297,6 +297,60 @@
       "blurb": "East Coast Dead tribute named after the Dead's Buddy Holly cover. Sometimes billed as 'Plays Dead-zeppelin' for crossover shows.",
       "wikipedia": null,
       "website": null
+    },
+    {
+      "slug": "bertha-grateful-drag",
+      "name": "BERTHA: Grateful Drag",
+      "searchKeyword": "BERTHA Grateful Drag",
+      "tier": "tribute",
+      "blurb": "All-drag Grateful Dead tribute act. A queer interpretation of the Dead's catalog — appearing at the Capitol Theatre's centennial celebration among other large bookings.",
+      "wikipedia": null,
+      "website": null
+    },
+    {
+      "slug": "jerrys-middle-finger",
+      "name": "Jerry's Middle Finger",
+      "searchKeyword": "Jerry's Middle Finger",
+      "tier": "tribute",
+      "blurb": "Los Angeles-area Jerry Garcia Band tribute, known for note-faithful recreations of JGB-era arrangements.",
+      "wikipedia": null,
+      "website": "https://jerrysmiddlefinger.com"
+    },
+    {
+      "slug": "fairbanks-142",
+      "name": "Fairbanks 142",
+      "searchKeyword": "Fairbanks 142",
+      "tier": "tribute",
+      "blurb": "Grateful Dead tribute named after the address of a notable Dead house. Works the Northeast small-venue circuit.",
+      "wikipedia": null,
+      "website": null
+    },
+    {
+      "slug": "live-dead-and-brothers",
+      "name": "Live Dead & Brothers",
+      "searchKeyword": "Live Dead Brothers",
+      "tier": "tribute",
+      "blurb": "Crossover tribute splitting sets between the Grateful Dead and the Allman Brothers Band. Occasional 'Gilmour Project' Pink Floyd nights as well.",
+      "wikipedia": null,
+      "website": null
+    },
+    {
+      "slug": "jerry-garcia-symphonic-celebration",
+      "name": "Jerry Garcia Symphonic Celebration",
+      "searchKeyword": "Jerry Garcia Symphonic Celebration",
+      "tier": "core",
+      "blurb": "Touring symphonic production featuring Melvin Seals, Tom Hamilton, Grahame Lesh, John Morgan Kimock and others, performing Garcia's catalog with full orchestra. Often paired with regional symphonies — Philly Pops, Richmond Symphony, etc.",
+      "wikipedia": null,
+      "website": null
+    },
+    {
+      "slug": "rock-and-roll-playhouse",
+      "name": "The Rock and Roll Playhouse",
+      "searchKeyword": "Rock and Roll Playhouse Grateful Dead",
+      "tier": "tribute",
+      "blurb": "Family-friendly Dead programming — 'The Music of Grateful Dead for Kids' series runs in small venues around the country, designed for kids 1-10 and their grown-ups.",
+      "wikipedia": null,
+      "website": "https://therockandrollplayhouse.com"
     }
   ],
   "keywords": [

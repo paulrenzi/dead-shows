@@ -282,15 +282,34 @@ function wireControls() {
   });
   document.getElementById("search").addEventListener("click", runSearch);
   document.getElementById("locate").addEventListener("click", () => {
-    if (!navigator.geolocation) { alert("Geolocation not available"); return; }
+    const btn = document.getElementById("locate");
+    if (!navigator.geolocation) {
+      alert("Your browser doesn't support geolocation. Type a city or address instead.");
+      return;
+    }
+    btn.disabled = true;
+    btn.textContent = "…";
     navigator.geolocation.getCurrentPosition(
       (pos) => {
         currentCenter = { lat: pos.coords.latitude, lng: pos.coords.longitude, label: "My location" };
         document.getElementById("center").value = "";
+        btn.textContent = "📍";
+        btn.disabled = false;
         drawCenter();
         map.setView([currentCenter.lat, currentCenter.lng], 10);
+        runSearch();
       },
-      (err) => alert(`Location error: ${err.message}`),
+      (err) => {
+        btn.textContent = "📍";
+        btn.disabled = false;
+        const reasons = {
+          1: "Permission denied. Allow location access in your browser settings, or type a city/address instead.",
+          2: "Location unavailable. Try again in a moment, or type a city/address.",
+          3: "Location lookup timed out. Try again, or type a city/address.",
+        };
+        alert(reasons[err.code] || `Location error: ${err.message}`);
+      },
+      { enableHighAccuracy: false, timeout: 10000, maximumAge: 60000 },
     );
   });
   document.getElementById("center").addEventListener("keydown", (e) => {
