@@ -252,6 +252,11 @@ function eventById(id) {
   return lastEvents.find(e => e.id === id);
 }
 
+// Inline Feather-style SVGs — monochrome, inherit currentColor, no emoji
+// rendering inconsistencies between iOS / Android / desktop.
+const ICON_CALENDAR = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="4" width="18" height="18" rx="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>`;
+const ICON_SHARE = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></svg>`;
+
 function formatPrice(price) {
   if (!price || typeof price.min !== "number") return null;
   const sym = price.currency === "USD" ? "$" : (price.currency || "");
@@ -407,11 +412,8 @@ function renderCard(ev, idx) {
             onerror="this.onerror=null;this.src='${DEFAULT_PHOTO}';this.parentElement.classList.add('card-media--default');">
      </a>`;
 
-  const sourceCredit = ev.source === "gdtb"
-    ? `<span class="source-credit">via <a href="${ev.url}" target="_blank" rel="noreferrer">gratefuldeadtributebands.com</a></span>`
-    : "";
-  const ticketsLabel = ev.source === "gdtb" ? "Details →" : "Tickets →";
   const priceLabel = formatPrice(ev.price);
+  const showTickets = isTicketUrl(ev);
 
   const googleHref = googleCalendarUrl(ev);
   const apple = appleCalendarHref(ev);
@@ -438,17 +440,16 @@ function renderCard(ev, idx) {
           <button type="button" class="show-on-map-btn" data-id="${ev.id}">Show on map</button>
           <div class="card-foot-actions">
             <div class="card-cal">
-              <button type="button" class="card-icon-btn card-cal-toggle" data-id="${ev.id}" aria-haspopup="true" aria-expanded="false" title="Add to calendar" aria-label="Add to calendar">📅</button>
+              <button type="button" class="card-icon-btn card-cal-toggle" data-id="${ev.id}" aria-haspopup="true" aria-expanded="false" title="Add to calendar" aria-label="Add to calendar">${ICON_CALENDAR}</button>
               <div class="card-cal-menu" role="menu" hidden>
                 <a class="card-cal-link" role="menuitem" target="_blank" rel="noopener" href="${escapeHtml(googleHref)}">Google</a>
                 <a class="card-cal-link" role="menuitem" href="${escapeHtml(apple.href)}"${appleAttrs}>Apple</a>
               </div>
             </div>
-            <button type="button" class="card-icon-btn" data-action="share" data-id="${ev.id}" title="Share" aria-label="Share">📤</button>
-            <a class="tickets-link" href="${ev.url}" target="_blank" rel="noreferrer">${ticketsLabel}</a>
+            <button type="button" class="card-icon-btn" data-action="share" data-id="${ev.id}" title="Share" aria-label="Share">${ICON_SHARE}</button>
+            ${showTickets ? `<a class="tickets-link" href="${ev.url}" target="_blank" rel="noreferrer">Tickets →</a>` : ""}
           </div>
         </div>
-        ${sourceCredit ? `<div class="card-source">${sourceCredit}</div>` : ""}
       </div>
     </article>
   `;

@@ -514,14 +514,20 @@ button { font: inherit; cursor: pointer; }
   gap: 0.5rem;
 }
 .card-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background: transparent;
   border: none;
-  padding: 0.2rem 0.35rem;
-  font-size: 0.95rem;
-  line-height: 1;
+  padding: 0.35rem;
+  line-height: 0;
   color: var(--subtle);
   border-radius: 8px;
   transition: background 0.18s, color 0.18s, transform 0.12s;
+}
+.card-icon-btn svg {
+  width: 18px;
+  height: 18px;
 }
 .card-icon-btn:hover {
   background: rgba(46, 92, 184, 0.1);
@@ -581,18 +587,6 @@ button { font: inherit; cursor: pointer; }
   opacity: 1;
   transform: translateX(-50%) translateY(0);
 }
-
-.card-source {
-  margin-top: 0.5rem;
-  text-align: right;
-}
-.source-credit {
-  font-size: 0.7rem;
-  color: var(--subtle);
-  font-style: italic;
-}
-.source-credit a { color: var(--subtle); text-decoration: underline; text-decoration-color: var(--border); }
-.source-credit a:hover { color: var(--accent); }
 
 .empty-state {
   text-align: center;
