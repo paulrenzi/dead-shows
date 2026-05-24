@@ -413,7 +413,7 @@ function renderCard(ev, idx) {
      </a>`;
 
   const priceLabel = formatPrice(ev.price);
-  const showTickets = isTicketUrl(ev);
+  const cta = cardCtaLink(ev);
 
   const googleHref = googleCalendarUrl(ev);
   const apple = appleCalendarHref(ev);
@@ -447,7 +447,7 @@ function renderCard(ev, idx) {
               </div>
             </div>
             <button type="button" class="card-icon-btn" data-action="share" data-id="${ev.id}" title="Share" aria-label="Share">${ICON_SHARE}</button>
-            ${showTickets ? `<a class="tickets-link" href="${ev.url}" target="_blank" rel="noreferrer">Tickets →</a>` : ""}
+            <a class="tickets-link" href="${escapeHtml(cta.href)}" target="_blank" rel="noreferrer">${cta.label}</a>
           </div>
         </div>
       </div>
@@ -580,6 +580,17 @@ function scrollMapIntoView() {
 function venueGoogleMapsUrl(ev) {
   const q = [ev.venue, ev.city, ev.state].filter(Boolean).join(" ");
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
+}
+
+function venueSearchUrl(ev) {
+  const q = [ev.venue, ev.city, ev.state].filter(Boolean).join(" ");
+  return `https://www.google.com/search?q=${encodeURIComponent(q)}`;
+}
+
+function cardCtaLink(ev) {
+  if (isTicketUrl(ev)) return { href: ev.url, label: "Tickets →" };
+  if (ev.venueUrl) return { href: ev.venueUrl, label: "Venue site →" };
+  return { href: venueSearchUrl(ev), label: "Find venue →" };
 }
 
 // TM events have a real ticket URL; GDTB items point at the band's directory
