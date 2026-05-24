@@ -44,7 +44,7 @@ function matchArtist(event) {
 // True if the event is actually Dead-related (matches curated artist OR
 // has a Dead keyword in the name/attractions). Filters out jam-adjacent
 // noise like Widespread Panic that TM returns from broad keyword matches.
-const DEAD_KEYWORDS = /grateful|garcia|jerry|deadhead|dead\s+night|dead\s+bowl|dead\s+tribute|dead\s+set/i;
+const DEAD_KEYWORDS = /grateful|garcia|jerry|deadhead|dead\s+(?:night|bowl|tribute|set|show|film|performance|cover)|live\s+dead|workingman'?s\s+dead|american\s+beauty/i;
 function isDeadRelated(event) {
   if (matchArtist(event)) return true;
   const t = (event.name || "") + " " + (event.attractions || []).join(" ");
