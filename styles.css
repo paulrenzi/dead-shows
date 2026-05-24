@@ -165,13 +165,6 @@ button { font: inherit; cursor: pointer; }
   color: #fff;
   border-color: var(--accent-deep);
 }
-.chip-divider {
-  width: 1px;
-  height: 22px;
-  background: var(--border);
-  margin: 0 0.2rem;
-}
-
 .strip-inner {
   width: min(1040px, calc(100% - 3rem));
   margin: 0 auto;
@@ -193,7 +186,8 @@ button { font: inherit; cursor: pointer; }
 .strip-field-pair {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+  column-gap: 1.4rem;
+  row-gap: 0.5rem;
   flex: 1 1 320px;
   align-items: end;
 }
@@ -741,7 +735,7 @@ button { font: inherit; cursor: pointer; }
 
   /* On mobile: text fields go full width; date pair stays a 2-col grid */
   .strip-field { min-width: 0; flex: 1 1 100%; }
-  .strip-field-pair { flex: 1 1 100%; gap: 0.9rem; }
+  .strip-field-pair { flex: 1 1 100%; column-gap: 1.4rem; }
   .strip-field--narrow .strip-input {
     padding: 0.7rem 0.55rem;
     font-size: 0.9rem;

@@ -13,7 +13,7 @@ let gdtbEvents = [];
 let bandPhotos = {};
 let lastEvents = [];
 let deepLinkApplied = false;
-const chipState = { date: "next30", radius25: false, deadOnly: false };
+const chipState = { date: "next30" };
 const DEFAULT_PHOTO = "images/default-band.svg";
 
 async function loadArtists() {
@@ -156,15 +156,7 @@ function applyDateChip(chip) {
 
 function updateChipUi() {
   document.querySelectorAll(".chip").forEach(btn => {
-    const c = btn.dataset.chip;
-    let active = false;
-    if (c === "tonight" || c === "weekend" || c === "next30") {
-      active = chipState.date === c;
-    } else if (c === "radius25") {
-      active = chipState.radius25;
-    } else if (c === "deadOnly") {
-      active = chipState.deadOnly;
-    }
+    const active = chipState.date === btn.dataset.chip;
     btn.classList.toggle("chip--active", active);
     btn.setAttribute("aria-pressed", String(active));
   });
@@ -425,10 +417,6 @@ function renderEvents(events) {
 
   // Drop non-Dead noise that broad TM keyword searches surfaced
   events = events.filter(isDeadRelated);
-  // Client-side "Dead family only" chip filter
-  if (chipState.deadOnly) {
-    events = events.filter(ev => matchArtist(ev)?.tier === "core");
-  }
 
   if (!events.length) {
     counter.textContent = "0 shows";
@@ -565,29 +553,9 @@ async function runSearch() {
 function wireChips() {
   document.querySelectorAll(".chip").forEach(btn => {
     btn.addEventListener("click", () => {
-      const c = btn.dataset.chip;
-      if (c === "tonight" || c === "weekend" || c === "next30") {
-        applyDateChip(c);
-        updateChipUi();
-        runSearch();
-      } else if (c === "radius25") {
-        chipState.radius25 = !chipState.radius25;
-        if (chipState.radius25) {
-          const slider = document.getElementById("radius");
-          slider.value = "25";
-          document.getElementById("radius-val").textContent = "25";
-          drawCenter();
-          updateChipUi();
-          runSearch();
-        } else {
-          updateChipUi();
-        }
-      } else if (c === "deadOnly") {
-        chipState.deadOnly = !chipState.deadOnly;
-        updateChipUi();
-        // Pure client-side filter — re-render the cached results, no refetch
-        renderEvents(lastEvents);
-      }
+      applyDateChip(btn.dataset.chip);
+      updateChipUi();
+      runSearch();
     });
   });
 }
@@ -596,10 +564,6 @@ function wireControls() {
   document.getElementById("radius").addEventListener("input", (e) => {
     document.getElementById("radius-val").textContent = e.target.value;
     drawCenter();
-    if (chipState.radius25 && e.target.value !== "25") {
-      chipState.radius25 = false;
-      updateChipUi();
-    }
   });
   ["start-date", "end-date"].forEach(id => {
     document.getElementById(id).addEventListener("change", () => {
