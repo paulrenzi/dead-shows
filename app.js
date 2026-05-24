@@ -191,7 +191,12 @@ function renderEvents(events) {
     return;
   }
 
-  events.sort((a, b) => new Date(a.date) - new Date(b.date));
+  events.sort((a, b) => {
+    const da = new Date(a.date).getTime();
+    const db = new Date(b.date).getTime();
+    if (da !== db) return da - db;
+    return (a.name || "").localeCompare(b.name || "");
+  });
   counter.textContent = `${events.length} show${events.length === 1 ? "" : "s"} found`;
 
   cards.innerHTML = events.map(renderCard).join("");

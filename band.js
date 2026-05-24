@@ -136,7 +136,12 @@ function renderEvents(events, artist) {
     return;
   }
 
-  events.sort((a, b) => new Date(a.date) - new Date(b.date));
+  events.sort((a, b) => {
+    const da = new Date(a.date).getTime();
+    const db = new Date(b.date).getTime();
+    if (da !== db) return da - db;
+    return (a.venue || "").localeCompare(b.venue || "");
+  });
   counter.textContent = `${events.length} upcoming show${events.length === 1 ? "" : "s"}`;
   cards.innerHTML = events.map(renderCard).join("");
 
