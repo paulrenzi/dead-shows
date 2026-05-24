@@ -74,6 +74,33 @@
       "website": "https://billyandthekids.com"
     },
     {
+      "slug": "melvin-seals-jgb",
+      "name": "Melvin Seals & JGB",
+      "searchKeyword": "Melvin Seals",
+      "tier": "core",
+      "blurb": "Melvin Seals, the Jerry Garcia Band's founding Hammond B3 player, fronts the only ongoing JGB continuation. Pure Jerry repertoire with Bay-Area soul-jam energy.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Melvin_Seals",
+      "website": "https://melvinseals.com"
+    },
+    {
+      "slug": "hot-tuna",
+      "name": "Hot Tuna",
+      "searchKeyword": "Hot Tuna",
+      "tier": "core",
+      "blurb": "Jorma Kaukonen and Jack Casady's blues-folk-rooted band, born out of Jefferson Airplane and a Dead-scene fixture since the Fillmore days. Tours electric and acoustic.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Hot_Tuna",
+      "website": "https://hottuna.com"
+    },
+    {
+      "slug": "trey-anastasio-band",
+      "name": "Trey Anastasio Band",
+      "searchKeyword": "Trey Anastasio",
+      "tier": "core",
+      "blurb": "Phish frontman Trey Anastasio's solo touring band. Played Fare Thee Well in 2015 in Jerry's chair, and remains the most Dead-adjacent voice in modern jam.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Trey_Anastasio_Band",
+      "website": "https://trey.com"
+    },
+    {
       "slug": "dark-star-orchestra",
       "name": "Dark Star Orchestra",
       "searchKeyword": "Dark Star Orchestra",
@@ -189,6 +216,51 @@
       "blurb": "Acoustic-leaning Dead tribute — focused on the 1980 Reckoning-era setlist territory.",
       "wikipedia": null,
       "website": null
+    },
+    {
+      "slug": "grateful-shred",
+      "name": "Grateful Shred",
+      "searchKeyword": "Grateful Shred",
+      "tier": "tribute",
+      "blurb": "Los Angeles-rooted Dead tribute and the West Coast scene's go-to in the post-Cubensis generation. Vince Welnick-era arrangements a specialty.",
+      "wikipedia": null,
+      "website": "https://gratefulshred.com"
+    },
+    {
+      "slug": "dead-on-live",
+      "name": "Dead On Live",
+      "searchKeyword": "Dead On Live",
+      "tier": "tribute",
+      "blurb": "Touring Dead tribute that reconstructs landmark Grateful Dead albums and Bob Weir solo records front-to-back, in order.",
+      "wikipedia": null,
+      "website": "https://deadonlive.com"
+    },
+    {
+      "slug": "box-of-rain",
+      "name": "Box of Rain",
+      "searchKeyword": "Box of Rain",
+      "tier": "tribute",
+      "blurb": "Northeast Dead tribute focused on the 1968-74 'primal Dead' songbook — Pigpen era through Wake of the Flood.",
+      "wikipedia": null,
+      "website": null
+    },
+    {
+      "slug": "better-off-dead",
+      "name": "Better Off Dead",
+      "searchKeyword": "Better Off Dead",
+      "tier": "tribute",
+      "blurb": "Dead tribute working the Northeast theater + casino circuit.",
+      "wikipedia": null,
+      "website": null
+    },
+    {
+      "slug": "bearly-dead",
+      "name": "Bearly Dead",
+      "searchKeyword": "Bearly Dead",
+      "tier": "tribute",
+      "blurb": "Boston-area Dead tribute, a regular at New England small theaters and the Sinclair / Brighton Music Hall.",
+      "wikipedia": null,
+      "website": "https://bearlydead.com"
     }
   ],
   "keywords": [

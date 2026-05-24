@@ -25,7 +25,14 @@ function matchArtist(event) {
     const hit = artistsByName.get(att.toLowerCase());
     if (hit) return hit;
   }
-  // Fall back to event name containing any artist name
+  // Substring match against attractions (catches "Melvin Seals and JGB" vs curated "Melvin Seals & JGB")
+  for (const att of event.attractions || []) {
+    const lower = att.toLowerCase();
+    for (const [key, artist] of artistsByName) {
+      if (lower.includes(key)) return artist;
+    }
+  }
+  // Final fallback: event name contains any artist name
   const lname = (event.name || "").toLowerCase();
   for (const [key, artist] of artistsByName) {
     if (lname.includes(key)) return artist;

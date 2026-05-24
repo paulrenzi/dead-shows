@@ -11,6 +11,9 @@ const ARTISTS = [
   "Mickey Hart Band",
   "Bill Kreutzmann",
   "Billy & The Kids",
+  "Melvin Seals",
+  "Hot Tuna",
+  "Trey Anastasio",
   "Dark Star Orchestra",
   "Joe Russo's Almost Dead",
   "JRAD",
@@ -25,6 +28,11 @@ const ARTISTS = [
   "Cosmic Charlie",
   "Garcia Birthday Band",
   "Reckoning",
+  "Grateful Shred",
+  "Dead On Live",
+  "Box of Rain",
+  "Better Off Dead",
+  "Bearly Dead",
 ];
 
 const KEYWORDS = ["grateful dead tribute", "grateful dead"];

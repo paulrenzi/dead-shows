@@ -605,8 +605,13 @@ button { font: inherit; cursor: pointer; }
   .hero-content { padding: 3rem 0 2.5rem; }
   .shell { padding: 1.6rem 0 3rem; }
   .map { height: 280px; }
-  .strip-inner { padding: 0.9rem 0; }
+  .strip-inner { padding: 0.9rem 0; gap: 0.75rem 1rem; }
   .band-hero { padding: 3rem 0 2.5rem; }
+
+  /* Pair From + To on the same row, 50/50 */
+  .strip-field { min-width: 0; flex: 1 1 100%; }
+  .strip-field--narrow { flex: 1 1 calc(50% - 0.5rem); }
+
   .btn-primary {
     flex: 1 0 100%;
     margin-left: 0;
