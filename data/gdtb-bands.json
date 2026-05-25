@@ -18,42 +18,6 @@
     "state": "AK"
   },
   {
-    "slug": "xtra-ticket",
-    "name": "Xtra Ticket",
-    "source": "gratefuldeadtributebands.com",
-    "state": "AZ"
-  },
-  {
-    "slug": "easy-jim",
-    "name": "Easy Jim",
-    "source": "gratefuldeadtributebands.com",
-    "state": "AZ"
-  },
-  {
-    "slug": "legion-of-mario",
-    "name": "Legion of Mario",
-    "source": "gratefuldeadtributebands.com",
-    "state": "AZ"
-  },
-  {
-    "slug": "ventura-county-dead-collective",
-    "name": "Ventura County Dead Collective",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
-    "slug": "dead-roses",
-    "name": "Dead Roses",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
-    "slug": "shred-is-dead",
-    "name": "Shred Is Dead",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
     "slug": "token-rhyme",
     "name": "Token Rhyme",
     "source": "gratefuldeadtributebands.com",
@@ -156,6 +120,12 @@
     "state": "CA"
   },
   {
+    "slug": "dead-roses",
+    "name": "Dead Roses",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
     "slug": "the-storytellers",
     "name": "The Storytellers",
     "source": "gratefuldeadtributebands.com",
@@ -224,6 +194,12 @@
   {
     "slug": "shakedown-street",
     "name": "Shakedown Street",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CO"
+  },
+  {
+    "slug": "easy-jim",
+    "name": "Easy Jim",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
@@ -342,18 +318,6 @@
     "state": "CT"
   },
   {
-    "slug": "dead-set-florida",
-    "name": "Dead Set Florida",
-    "source": "gratefuldeadtributebands.com",
-    "state": "FL"
-  },
-  {
-    "slug": "spiral-light",
-    "name": "Spiral Light",
-    "source": "gratefuldeadtributebands.com",
-    "state": "FL"
-  },
-  {
     "slug": "love-valley",
     "name": "Love Valley",
     "source": "gratefuldeadtributebands.com",
@@ -362,6 +326,12 @@
   {
     "slug": "crazy-fingers",
     "name": "Crazy Fingers",
+    "source": "gratefuldeadtributebands.com",
+    "state": "FL"
+  },
+  {
+    "slug": "dead-set-florida",
+    "name": "Dead Set Florida",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
@@ -432,10 +402,10 @@
     "state": "FL"
   },
   {
-    "slug": "shakedown-strings",
-    "name": "Shakedown Strings",
+    "slug": "spiral-light",
+    "name": "Spiral Light",
     "source": "gratefuldeadtributebands.com",
-    "state": "GA"
+    "state": "FL"
   },
   {
     "slug": "deadcetera",
@@ -570,6 +540,12 @@
     "state": "KS"
   },
   {
+    "slug": "shakedown-strings",
+    "name": "Shakedown Strings",
+    "source": "gratefuldeadtributebands.com",
+    "state": "KS"
+  },
+  {
     "slug": "born-cross-eyed-ky",
     "name": "Born Cross Eyed-KY",
     "source": "gratefuldeadtributebands.com",
@@ -690,6 +666,12 @@
     "state": "MA"
   },
   {
+    "slug": "uncle-john-s-banjo",
+    "name": "Uncle John's Banjo",
+    "source": "gratefuldeadtributebands.com",
+    "state": "MA"
+  },
+  {
     "slug": "dire-wolf",
     "name": "Dire Wolf",
     "source": "gratefuldeadtributebands.com",
@@ -798,12 +780,6 @@
     "state": "MI"
   },
   {
-    "slug": "shotgun-ragtime-band",
-    "name": "Shotgun Ragtime Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MN"
-  },
-  {
     "slug": "china-rider",
     "name": "China Rider",
     "source": "gratefuldeadtributebands.com",
@@ -858,14 +834,14 @@
     "state": "MT"
   },
   {
-    "slug": "unbroken-chain-402",
-    "name": "Unbroken Chain 402",
+    "slug": "midwest-dead-coalition",
+    "name": "Midwest Dead Coalition",
     "source": "gratefuldeadtributebands.com",
     "state": "NE"
   },
   {
-    "slug": "midwest-dead-coalition",
-    "name": "Midwest Dead Coalition",
+    "slug": "unbroken-chain-402",
+    "name": "Unbroken Chain 402",
     "source": "gratefuldeadtributebands.com",
     "state": "NE"
   },
@@ -1062,20 +1038,14 @@
     "state": "NJ"
   },
   {
-    "slug": "odd-dog",
-    "name": "Odd Dog",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NM"
-  },
-  {
-    "slug": "grateful-dans",
-    "name": "Grateful Dans",
+    "slug": "after-dark",
+    "name": "After Dark",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
   {
-    "slug": "buffalo-dead-all-stars",
-    "name": "Buffalo Dead All Stars",
+    "slug": "dead-meat",
+    "name": "Dead Meat",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
@@ -1086,14 +1056,8 @@
     "state": "NY"
   },
   {
-    "slug": "after-dark",
-    "name": "After Dark",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
-    "slug": "dead-meat",
-    "name": "Dead Meat",
+    "slug": "buffalo-dead-all-stars",
+    "name": "Buffalo Dead All Stars",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
@@ -1194,18 +1158,6 @@
     "state": "NY"
   },
   {
-    "slug": "dragons-with-matches",
-    "name": "Dragons With Matches",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NC"
-  },
-  {
-    "slug": "grateful-dudes",
-    "name": "Grateful Dudes",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NC"
-  },
-  {
     "slug": "eternally-grateful",
     "name": "Eternally Grateful",
     "source": "gratefuldeadtributebands.com",
@@ -1250,6 +1202,12 @@
   {
     "slug": "loose-lucies",
     "name": "Loose Lucies",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NC"
+  },
+  {
+    "slug": "dragons-with-matches",
+    "name": "Dragons With Matches",
     "source": "gratefuldeadtributebands.com",
     "state": "NC"
   },
@@ -1326,12 +1284,6 @@
     "state": "OH"
   },
   {
-    "slug": "the-deadgummits",
-    "name": "The Deadgummits",
-    "source": "gratefuldeadtributebands.com",
-    "state": "OK"
-  },
-  {
     "slug": "one-way-truckin",
     "name": "One Way Truckin'",
     "source": "gratefuldeadtributebands.com",
@@ -1354,12 +1306,6 @@
     "name": "The Other Two",
     "source": "gratefuldeadtributebands.com",
     "state": "OR"
-  },
-  {
-    "slug": "deal",
-    "name": "DEAL",
-    "source": "gratefuldeadtributebands.com",
-    "state": "PA"
   },
   {
     "slug": "zendog",
@@ -1404,6 +1350,12 @@
     "state": "PA"
   },
   {
+    "slug": "deal",
+    "name": "DEAL",
+    "source": "gratefuldeadtributebands.com",
+    "state": "PA"
+  },
+  {
     "slug": "cats-on-the-bus",
     "name": "Cats On The Bus",
     "source": "gratefuldeadtributebands.com",
@@ -1416,12 +1368,6 @@
     "state": "PA"
   },
   {
-    "slug": "violin-river",
-    "name": "Violin River",
-    "source": "gratefuldeadtributebands.com",
-    "state": "RI"
-  },
-  {
     "slug": "so-many-rhodes",
     "name": "So Many Rhodes",
     "source": "gratefuldeadtributebands.com",
@@ -1430,6 +1376,12 @@
   {
     "slug": "blue-drew-and-the-magoos",
     "name": "Blue Drew and the Magoos",
+    "source": "gratefuldeadtributebands.com",
+    "state": "RI"
+  },
+  {
+    "slug": "violin-river",
+    "name": "Violin River",
     "source": "gratefuldeadtributebands.com",
     "state": "RI"
   },
@@ -1464,6 +1416,12 @@
     "state": "TN"
   },
   {
+    "slug": "the-dead-thing",
+    "name": "The Dead Thing",
+    "source": "gratefuldeadtributebands.com",
+    "state": "TX"
+  },
+  {
     "slug": "deadeye",
     "name": "DeadEye",
     "source": "gratefuldeadtributebands.com",
@@ -1472,12 +1430,6 @@
   {
     "slug": "bandolero",
     "name": "Bandolero",
-    "source": "gratefuldeadtributebands.com",
-    "state": "TX"
-  },
-  {
-    "slug": "the-dead-thing",
-    "name": "The Dead Thing",
     "source": "gratefuldeadtributebands.com",
     "state": "TX"
   },
@@ -1500,12 +1452,6 @@
     "state": "VT"
   },
   {
-    "slug": "bigfoot-county",
-    "name": "Bigfoot County",
-    "source": "gratefuldeadtributebands.com",
-    "state": "VA"
-  },
-  {
     "slug": "suggesting-rhythm",
     "name": "Suggesting Rhythm",
     "source": "gratefuldeadtributebands.com",
@@ -1520,6 +1466,12 @@
   {
     "slug": "grateful-jed",
     "name": "Grateful Jed",
+    "source": "gratefuldeadtributebands.com",
+    "state": "VA"
+  },
+  {
+    "slug": "bigfoot-county",
+    "name": "Bigfoot County",
     "source": "gratefuldeadtributebands.com",
     "state": "VA"
   },
