@@ -387,5 +387,50 @@
     "photo": "images/bands/another-one.jpg",
     "source": "deezer",
     "matchedName": "Another One"
+  },
+  "aardvark": {
+    "photo": "images/bands/aardvark.jpg",
+    "source": "deezer",
+    "matchedName": "Aardvark"
+  },
+  "rosewater": {
+    "photo": "images/bands/rosewater.jpg",
+    "source": "deezer",
+    "matchedName": "Rosewater"
+  },
+  "souljam": {
+    "photo": "images/bands/souljam.jpg",
+    "source": "deezer",
+    "matchedName": "Soul Jam"
+  },
+  "ship-of-fools": {
+    "photo": "images/bands/ship-of-fools.jpg",
+    "source": "deezer",
+    "matchedName": "Ship of Fools"
+  },
+  "frankly-scarlet": {
+    "photo": "images/bands/frankly-scarlet.jpg",
+    "source": "deezer",
+    "matchedName": "Frankly Scarlet"
+  },
+  "dead-honey-collective": {
+    "photo": "images/bands/dead-honey-collective.jpg",
+    "source": "deezer",
+    "matchedName": "Dead Honey Collective"
+  },
+  "dark-hollow": {
+    "photo": "images/bands/dark-hollow.jpg",
+    "source": "deezer",
+    "matchedName": "Dark Hollow"
+  },
+  "mostly-dead": {
+    "photo": "images/bands/mostly-dead.jpg",
+    "source": "deezer",
+    "matchedName": "Mostly Dead"
+  },
+  "the-kind": {
+    "photo": "images/bands/the-kind.jpg",
+    "source": "deezer",
+    "matchedName": "The Kind"
   }
 }

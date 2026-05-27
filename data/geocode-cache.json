@@ -2090,5 +2090,197 @@
   "dallas, tx": {
     "lat": 32.7762719,
     "lng": -96.7968559
+  },
+  "la honda, ca": {
+    "lat": 37.3193965,
+    "lng": -122.2639772
+  },
+  "canyon country, ca": {
+    "lat": 34.4233293,
+    "lng": -118.4720281
+  },
+  "ashland, ca": {
+    "lat": 37.1886376,
+    "lng": -99.7656834
+  },
+  "walnut creek, ca": {
+    "lat": 37.9020731,
+    "lng": -122.0618702
+  },
+  "waterbury, ct": {
+    "lat": 41.5539066,
+    "lng": -73.0438067
+  },
+  "redding, ct": {
+    "lat": 41.3025956,
+    "lng": -73.3834532
+  },
+  "vero beach, fl": {
+    "lat": 27.6387163,
+    "lng": -80.3975399
+  },
+  "malabar, fl": {
+    "lat": 28.0022483,
+    "lng": -80.568178
+  },
+  "key west, fl": {
+    "lat": 24.5548262,
+    "lng": -81.8020722
+  },
+  "new smyrna beach, fl": {
+    "lat": 29.0258132,
+    "lng": -80.9271271
+  },
+  "treasure island, fl": {
+    "lat": 27.7691937,
+    "lng": -82.7689906
+  },
+  "woodstock, ga": {
+    "lat": 34.1014112,
+    "lng": -84.5192192
+  },
+  "roswell, ga": {
+    "lat": 34.02332,
+    "lng": -84.360022
+  },
+  "sandpoint, id": {
+    "lat": 48.2761306,
+    "lng": -116.5487835
+  },
+  "st charles, il": {
+    "lat": 41.9139808,
+    "lng": -88.3128183
+  },
+  "edwardsville, il": {
+    "lat": 38.8114364,
+    "lng": -89.953157
+  },
+  "fort wayne, in": {
+    "lat": 41.0799898,
+    "lng": -85.1386015
+  },
+  "north falmouth, ma": {
+    "lat": 41.6489409,
+    "lng": -70.6168547
+  },
+  "gloucester, ma": {
+    "lat": 42.6153595,
+    "lng": -70.6624608
+  },
+  "west dennis, ma": {
+    "lat": 41.6643526,
+    "lng": -70.1696021
+  },
+  "lansing, mi": {
+    "lat": 42.7338254,
+    "lng": -84.5546295
+  },
+  "hopkins, mn": {
+    "lat": 44.9243986,
+    "lng": -93.4114487
+  },
+  "st paul, mn": {
+    "lat": 44.9497487,
+    "lng": -93.0931028
+  },
+  "nashua, nh": {
+    "lat": 42.7656251,
+    "lng": -71.4677032
+  },
+  "concord, nh": {
+    "lat": 43.207178,
+    "lng": -71.537476
+  },
+  "washington township, nj": {
+    "lat": 40.9884843,
+    "lng": -74.0652437
+  },
+  "dumont, nj": {
+    "lat": 40.9406541,
+    "lng": -73.9968051
+  },
+  "hackettstown, nj": {
+    "lat": 40.8538589,
+    "lng": -74.8292553
+  },
+  "brick, nj": {
+    "lat": 40.0707244,
+    "lng": -74.1280562
+  },
+  "asbury, nj": {
+    "lat": 40.701916,
+    "lng": -75.0135459
+  },
+  "riverhead, ny": {
+    "lat": 40.9168692,
+    "lng": -72.6624189
+  },
+  "kingston, ny": {
+    "lat": 41.9287812,
+    "lng": -74.0023825
+  },
+  "manlius, ny": {
+    "lat": 43.0020107,
+    "lng": -75.9768632
+  },
+  "cortland, ny": {
+    "lat": 42.5842136,
+    "lng": -76.0704906
+  },
+  "newburgh, ny": {
+    "lat": 41.5000767,
+    "lng": -74.0098299
+  },
+  "verplanck, ny": {
+    "lat": 41.2561895,
+    "lng": -73.9611121
+  },
+  "ridgewood, ny": {
+    "lat": 40.7080556,
+    "lng": -73.9141667
+  },
+  "nelsonville, oh": {
+    "lat": 39.458681,
+    "lng": -82.2318156
+  },
+  "bridgeport, pa": {
+    "lat": 40.1043042,
+    "lng": -75.3429522
+  },
+  "huntingdon valley, pa": {
+    "lat": 40.1226101,
+    "lng": -75.0635049
+  },
+  "honey brook, pa": {
+    "lat": 40.0942664,
+    "lng": -75.9113306
+  },
+  "portsmouth, ri": {
+    "lat": 41.6024068,
+    "lng": -71.2503157
+  },
+  "charleston, sc": {
+    "lat": 32.7884363,
+    "lng": -79.9399309
+  },
+  "buda, tx": {
+    "lat": 30.082475,
+    "lng": -97.8417144
+  },
+  "salem, va": {
+    "lat": 37.293198,
+    "lng": -80.0556773
+  },
+  "portsmouth, va": {
+    "lat": 36.8320081,
+    "lng": -76.297699
+  },
+  "bellingham, wa": {
+    "lat": 48.7544012,
+    "lng": -122.478836
+  },
+  "kenosha, wi": {
+    "lat": 42.5846773,
+    "lng": -87.8212263
   }
 }

@@ -1280,5 +1280,110 @@
   "uncle-john-s-banjo": {
     "tried": "2026-05-25",
     "matched": false
+  },
+  "aces-back-to-back": {
+    "tried": "2026-05-27",
+    "matched": false
+  },
+  "aardvark": {
+    "tried": "2026-05-27",
+    "matched": true,
+    "name": "Aardvark"
+  },
+  "lightning-dan-the-crawdads": {
+    "tried": "2026-05-27",
+    "matched": false
+  },
+  "rosewater": {
+    "tried": "2026-05-27",
+    "matched": true,
+    "name": "Rosewater"
+  },
+  "switchman-sleepin": {
+    "tried": "2026-05-27",
+    "matched": false
+  },
+  "souljam": {
+    "tried": "2026-05-27",
+    "matched": true,
+    "name": "Soul Jam"
+  },
+  "ship-of-fools": {
+    "tried": "2026-05-27",
+    "matched": true,
+    "name": "Ship of Fools"
+  },
+  "frankly-scarlet": {
+    "tried": "2026-05-27",
+    "matched": true,
+    "name": "Frankly Scarlet"
+  },
+  "fun-guise": {
+    "tried": "2026-05-27",
+    "matched": false
+  },
+  "grateful-groove": {
+    "tried": "2026-05-27",
+    "matched": false
+  },
+  "jjb": {
+    "tried": "2026-05-27",
+    "matched": false
+  },
+  "jerome-s-pace": {
+    "tried": "2026-05-27",
+    "matched": false
+  },
+  "skull-and-roses": {
+    "tried": "2026-05-27",
+    "matched": false
+  },
+  "dead-honey-collective": {
+    "tried": "2026-05-27",
+    "matched": true,
+    "name": "Dead Honey Collective"
+  },
+  "lost-marbles": {
+    "tried": "2026-05-27",
+    "matched": false
+  },
+  "this-old-engine": {
+    "tried": "2026-05-27",
+    "matched": false
+  },
+  "wheel-band": {
+    "tried": "2026-05-27",
+    "matched": false
+  },
+  "dead-ahead-band": {
+    "tried": "2026-05-27",
+    "matched": false
+  },
+  "dark-hollow": {
+    "tried": "2026-05-27",
+    "matched": true,
+    "name": "Dark Hollow"
+  },
+  "deadbeats-ny": {
+    "tried": "2026-05-27",
+    "matched": false
+  },
+  "rose-wharf-band": {
+    "tried": "2026-05-27",
+    "matched": false
+  },
+  "mostly-dead": {
+    "tried": "2026-05-27",
+    "matched": true,
+    "name": "Mostly Dead"
+  },
+  "the-kind": {
+    "tried": "2026-05-27",
+    "matched": true,
+    "name": "The Kind"
+  },
+  "louisville-merry-pranksters": {
+    "tried": "2026-05-27",
+    "matched": false
   }
 }
