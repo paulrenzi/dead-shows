@@ -432,5 +432,10 @@
     "photo": "images/bands/the-kind.jpg",
     "source": "deezer",
     "matchedName": "The Kind"
+  },
+  "cartesian-doubt": {
+    "photo": "images/bands/cartesian-doubt.jpg",
+    "source": "deezer",
+    "matchedName": "Cartesian Doubt"
   }
 }

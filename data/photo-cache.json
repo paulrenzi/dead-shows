@@ -1385,5 +1385,10 @@
   "louisville-merry-pranksters": {
     "tried": "2026-05-27",
     "matched": false
+  },
+  "cartesian-doubt": {
+    "tried": "2026-05-28",
+    "matched": true,
+    "name": "Cartesian Doubt"
   }
 }

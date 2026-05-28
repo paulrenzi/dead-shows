@@ -126,60 +126,6 @@
     ]
   },
   {
-    "id": "gdtb-CA-jed-s-dog-2026-05-27-66-n-fair-oaks-ave",
-    "name": "Jed's Dog — 66 N. Fair Oaks Ave",
-    "band": "Jed's Dog",
-    "bandSlug": "jed-s-dog",
-    "venue": "66 N. Fair Oaks Ave",
-    "city": "Pasadena",
-    "state": "CA",
-    "lat": 34.1476507,
-    "lng": -118.144155,
-    "date": "2026-05-27",
-    "time": "8:00 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "Jed's Dog"
-    ]
-  },
-  {
-    "id": "gdtb-CA-aces-back-to-back-2026-05-27-6010-w-pico-blvd",
-    "name": "Aces Back To Back — 6010 W Pico Blvd",
-    "band": "Aces Back To Back",
-    "bandSlug": "aces-back-to-back",
-    "venue": "6010 W Pico Blvd",
-    "city": "Los Angeles",
-    "state": "CA",
-    "lat": 34.0536909,
-    "lng": -118.242766,
-    "date": "2026-05-27",
-    "time": "8:00pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "Aces Back To Back"
-    ]
-  },
-  {
-    "id": "gdtb-CA-scott-guberman-2026-05-27-golden-gate-park-bandshell",
-    "name": "Scott Guberman — Golden Gate Park Bandshell",
-    "band": "Scott Guberman",
-    "bandSlug": "scott-guberman",
-    "venue": "Golden Gate Park Bandshell",
-    "city": "San Francisco",
-    "state": "CA",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "date": "2026-05-27",
-    "time": "4:30PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "Scott Guberman"
-    ]
-  },
-  {
     "id": "gdtb-CA-one-man-gone-2026-05-28-club-fox",
     "name": "One Man Gone — CLUB FOX",
     "band": "One Man Gone",
@@ -1905,6 +1851,24 @@
     "source": "gdtb",
     "attractions": [
       "Dead & Friends"
+    ]
+  },
+  {
+    "id": "gdtb-CO-cartesian-doubt-2026-06-27-830-s-college-ave",
+    "name": "Cartesian Doubt — 830 S. College Ave",
+    "band": "Cartesian Doubt",
+    "bandSlug": "cartesian-doubt",
+    "venue": "830 S. College Ave",
+    "city": "Fort Collins",
+    "state": "CO",
+    "lat": 40.5871782,
+    "lng": -105.0770113,
+    "date": "2026-06-27",
+    "time": "8pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
+    "source": "gdtb",
+    "attractions": [
+      "Cartesian Doubt"
     ]
   },
   {
@@ -5832,42 +5796,6 @@
     ]
   },
   {
-    "id": "gdtb-MA-diamond-blues-2026-05-27-midway-cafe",
-    "name": "Diamond Blues — Midway Cafe",
-    "band": "Diamond Blues",
-    "bandSlug": "diamond-blues",
-    "venue": "Midway Cafe",
-    "city": "Jamaica Plain",
-    "state": "MA",
-    "lat": 42.3116046,
-    "lng": -71.1143838,
-    "date": "2026-05-27",
-    "time": "7:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "Diamond Blues"
-    ]
-  },
-  {
-    "id": "gdtb-MA-playing-dead-2026-05-27-soundcheck-studios-pembroke",
-    "name": "Playing Dead — Soundcheck Studios Pembroke",
-    "band": "Playing Dead",
-    "bandSlug": "playing-dead",
-    "venue": "Soundcheck Studios Pembroke",
-    "city": "Pembroke",
-    "state": "MA",
-    "lat": 42.0714907,
-    "lng": -70.8092074,
-    "date": "2026-05-27",
-    "time": "8 PM and 7 more",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "Playing Dead"
-    ]
-  },
-  {
     "id": "gdtb-MA-jerome-s-pace-2026-05-28-474-massachusetts-ave",
     "name": "Jerome's Pace — 474 Massachusetts Ave",
     "band": "Jerome's Pace",
@@ -8154,24 +8082,6 @@
     ]
   },
   {
-    "id": "gdtb-NJ-the-brian-st-john-band-2026-05-27-o-reillys-pub",
-    "name": "The Brian St John Band — O'Reillys Pub",
-    "band": "The Brian St John Band",
-    "bandSlug": "the-brian-st-john-band",
-    "venue": "O'Reillys Pub",
-    "city": "Newton",
-    "state": "NJ",
-    "lat": 41.0583121,
-    "lng": -74.7531445,
-    "date": "2026-05-27",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "The Brian St John Band"
-    ]
-  },
-  {
     "id": "gdtb-NJ-too-cool-to-bluff-2026-05-28-611-park-ave",
     "name": "Too Cool To Bluff — 611 Park Ave",
     "band": "Too Cool To Bluff",
@@ -9933,24 +9843,6 @@
     "source": "gdtb",
     "attractions": [
       "The Brian St John Band"
-    ]
-  },
-  {
-    "id": "gdtb-NY-shakedown-citi-2026-05-27-the-warehouse",
-    "name": "Shakedown Citi — The Warehouse",
-    "band": "Shakedown Citi",
-    "bandSlug": "shakedown-citi",
-    "venue": "The Warehouse",
-    "city": "Amityville",
-    "state": "NY",
-    "lat": 40.6789893,
-    "lng": -73.4170673,
-    "date": "2026-05-27",
-    "time": "",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Shakedown Citi"
     ]
   },
   {
@@ -12060,24 +11952,6 @@
     ]
   },
   {
-    "id": "gdtb-NC-eternally-grateful-2026-05-27-jack-s-live",
-    "name": "Eternally Grateful — Jack's Live",
-    "band": "Eternally Grateful",
-    "bandSlug": "eternally-grateful",
-    "venue": "Jack's Live",
-    "city": "Charlotte",
-    "state": "NC",
-    "lat": 35.2272086,
-    "lng": -80.8430827,
-    "date": "2026-05-27",
-    "time": "6:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NC",
-    "source": "gdtb",
-    "attractions": [
-      "Eternally Grateful"
-    ]
-  },
-  {
     "id": "gdtb-NC-shakedown-strings-2026-05-29-3701-n-davidson-st-suite-203",
     "name": "Shakedown Strings — 3701 N. Davidson St. â Suite #203",
     "band": "Shakedown Strings",
@@ -13551,24 +13425,6 @@
     "source": "gdtb",
     "attractions": [
       "Shakedown Strings"
-    ]
-  },
-  {
-    "id": "gdtb-OR-rhapsody-in-red-2026-05-27-laurelthirst-public-house",
-    "name": "Rhapsody In Red — LaurelThirst Public House",
-    "band": "Rhapsody In Red",
-    "bandSlug": "rhapsody-in-red",
-    "venue": "LaurelThirst Public House",
-    "city": "Portland",
-    "state": "OR",
-    "lat": 45.5202471,
-    "lng": -122.674194,
-    "date": "2026-05-27",
-    "time": "9 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OR",
-    "source": "gdtb",
-    "attractions": [
-      "Rhapsody In Red"
     ]
   },
   {
@@ -15873,24 +15729,6 @@
     "source": "gdtb",
     "attractions": [
       "Terrapin Flyer"
-    ]
-  },
-  {
-    "id": "gdtb-VT-dobbs-dead-2026-05-27-vt-05677",
-    "name": "Dobbs' Dead — VT 05677",
-    "band": "Dobbs' Dead",
-    "bandSlug": "dobbs-dead",
-    "venue": "VT 05677",
-    "city": "Waterbury Center, VT 05677",
-    "state": "VT",
-    "lat": 44.3781114,
-    "lng": -72.7159505,
-    "date": "2026-05-27",
-    "time": "7:00 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=VT",
-    "source": "gdtb",
-    "attractions": [
-      "Dobbs' Dead"
     ]
   },
   {

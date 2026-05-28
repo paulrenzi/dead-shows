@@ -18,24 +18,6 @@
     "state": "AK"
   },
   {
-    "slug": "jed-s-dog",
-    "name": "Jed's Dog",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
-    "slug": "aces-back-to-back",
-    "name": "Aces Back To Back",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
-    "slug": "scott-guberman",
-    "name": "Scott Guberman",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
     "slug": "one-man-gone",
     "name": "One Man Gone",
     "source": "gratefuldeadtributebands.com",
@@ -62,6 +44,12 @@
   {
     "slug": "aardvark",
     "name": "Aardvark",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
+    "slug": "scott-guberman",
+    "name": "Scott Guberman",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
   },
@@ -162,6 +150,12 @@
     "state": "CA"
   },
   {
+    "slug": "jed-s-dog",
+    "name": "Jed's Dog",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
     "slug": "mason-s-children",
     "name": "Mason's Children",
     "source": "gratefuldeadtributebands.com",
@@ -248,6 +242,12 @@
   {
     "slug": "dead-friends",
     "name": "Dead & Friends",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CO"
+  },
+  {
+    "slug": "cartesian-doubt",
+    "name": "Cartesian Doubt",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
@@ -690,12 +690,6 @@
     "state": "MD"
   },
   {
-    "slug": "diamond-blues",
-    "name": "Diamond Blues",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MA"
-  },
-  {
     "slug": "jerome-s-pace",
     "name": "Jerome's Pace",
     "source": "gratefuldeadtributebands.com",
@@ -722,6 +716,12 @@
   {
     "slug": "deadbeat",
     "name": "DeadBeat",
+    "source": "gratefuldeadtributebands.com",
+    "state": "MA"
+  },
+  {
+    "slug": "diamond-blues",
+    "name": "Diamond Blues",
     "source": "gratefuldeadtributebands.com",
     "state": "MA"
   },
@@ -972,12 +972,6 @@
     "state": "NH"
   },
   {
-    "slug": "the-brian-st-john-band",
-    "name": "The Brian St John Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "too-cool-to-bluff",
     "name": "Too Cool To Bluff",
     "source": "gratefuldeadtributebands.com",
@@ -1076,6 +1070,12 @@
   {
     "slug": "wheel-band",
     "name": "Wheel Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "the-brian-st-john-band",
+    "name": "The Brian St John Band",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1266,12 +1266,6 @@
     "state": "NY"
   },
   {
-    "slug": "eternally-grateful",
-    "name": "Eternally Grateful",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NC"
-  },
-  {
     "slug": "cats-on-the-blacktop",
     "name": "Cats On The Blacktop",
     "source": "gratefuldeadtributebands.com",
@@ -1280,6 +1274,12 @@
   {
     "slug": "last-fair-deal",
     "name": "Last Fair Deal",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NC"
+  },
+  {
+    "slug": "eternally-grateful",
+    "name": "Eternally Grateful",
     "source": "gratefuldeadtributebands.com",
     "state": "NC"
   },
@@ -1398,12 +1398,6 @@
     "state": "OK"
   },
   {
-    "slug": "rhapsody-in-red",
-    "name": "Rhapsody In Red",
-    "source": "gratefuldeadtributebands.com",
-    "state": "OR"
-  },
-  {
     "slug": "caught-dead-handed",
     "name": "Caught Dead Handed",
     "source": "gratefuldeadtributebands.com",
@@ -1412,6 +1406,12 @@
   {
     "slug": "the-other-two",
     "name": "The Other Two",
+    "source": "gratefuldeadtributebands.com",
+    "state": "OR"
+  },
+  {
+    "slug": "rhapsody-in-red",
+    "name": "Rhapsody In Red",
     "source": "gratefuldeadtributebands.com",
     "state": "OR"
   },
@@ -1560,14 +1560,14 @@
     "state": "TX"
   },
   {
-    "slug": "dobbs-dead",
-    "name": "Dobbs' Dead",
+    "slug": "dead-sessions",
+    "name": "Dead Sessions",
     "source": "gratefuldeadtributebands.com",
     "state": "VT"
   },
   {
-    "slug": "dead-sessions",
-    "name": "Dead Sessions",
+    "slug": "dobbs-dead",
+    "name": "Dobbs' Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "VT"
   },
