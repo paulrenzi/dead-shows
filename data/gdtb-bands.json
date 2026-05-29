@@ -18,18 +18,6 @@
     "state": "AK"
   },
   {
-    "slug": "one-man-gone",
-    "name": "One Man Gone",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
-    "slug": "wall-of-sound",
-    "name": "Wall Of Sound",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
     "slug": "the-deadicated-project",
     "name": "The Deadicated Project",
     "source": "gratefuldeadtributebands.com",
@@ -62,6 +50,12 @@
   {
     "slug": "melvin-seals-and-jgb",
     "name": "Melvin Seals and JGB",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
+    "slug": "one-man-gone",
+    "name": "One Man Gone",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
   },
@@ -120,6 +114,12 @@
     "state": "CA"
   },
   {
+    "slug": "wall-of-sound",
+    "name": "Wall Of Sound",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
     "slug": "special-event-dead-on-the-creek-20th-anniversary",
     "name": "Special Event Dead on the Creek 20th Anniversary",
     "source": "gratefuldeadtributebands.com",
@@ -162,12 +162,6 @@
     "state": "CA"
   },
   {
-    "slug": "sages-and-spirits",
-    "name": "Sages And Spirits",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CO"
-  },
-  {
     "slug": "aoxomoxoa",
     "name": "AoxomoxoA",
     "source": "gratefuldeadtributebands.com",
@@ -176,6 +170,12 @@
   {
     "slug": "big-sky",
     "name": "Big Sky",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CO"
+  },
+  {
+    "slug": "sages-and-spirits",
+    "name": "Sages And Spirits",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
@@ -438,12 +438,6 @@
     "state": "FL"
   },
   {
-    "slug": "frankly-scarlet",
-    "name": "Frankly Scarlet",
-    "source": "gratefuldeadtributebands.com",
-    "state": "GA"
-  },
-  {
     "slug": "deadcetera",
     "name": "DeadCetera",
     "source": "gratefuldeadtributebands.com",
@@ -688,12 +682,6 @@
     "name": "New Potato Caboose",
     "source": "gratefuldeadtributebands.com",
     "state": "MD"
-  },
-  {
-    "slug": "jerome-s-pace",
-    "name": "Jerome's Pace",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MA"
   },
   {
     "slug": "ten-gold-dollars",
@@ -972,24 +960,6 @@
     "state": "NH"
   },
   {
-    "slug": "too-cool-to-bluff",
-    "name": "Too Cool To Bluff",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "be5d",
-    "name": "Be5D",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "rainbow-full-of-sound",
-    "name": "Rainbow Full Of Sound",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "scarlet-magnolia",
     "name": "Scarlet Magnolia",
     "source": "gratefuldeadtributebands.com",
@@ -1062,6 +1032,12 @@
     "state": "NJ"
   },
   {
+    "slug": "too-cool-to-bluff",
+    "name": "Too Cool To Bluff",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
     "slug": "crickets-and-cicadas",
     "name": "Crickets and Cicadas",
     "source": "gratefuldeadtributebands.com",
@@ -1086,6 +1062,12 @@
     "state": "NJ"
   },
   {
+    "slug": "be5d",
+    "name": "Be5D",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
     "slug": "diomede-and-donovan",
     "name": "Diomede And Donovan",
     "source": "gratefuldeadtributebands.com",
@@ -1100,6 +1082,12 @@
   {
     "slug": "baked-alaska",
     "name": "Baked Alaska",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "rainbow-full-of-sound",
+    "name": "Rainbow Full Of Sound",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },

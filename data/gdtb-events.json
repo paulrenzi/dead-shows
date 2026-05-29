@@ -126,60 +126,6 @@
     ]
   },
   {
-    "id": "gdtb-CA-one-man-gone-2026-05-28-club-fox",
-    "name": "One Man Gone — CLUB FOX",
-    "band": "One Man Gone",
-    "bandSlug": "one-man-gone",
-    "venue": "CLUB FOX",
-    "city": "Redwood City",
-    "state": "CA",
-    "lat": 37.4863239,
-    "lng": -122.232523,
-    "date": "2026-05-28",
-    "time": "7:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "One Man Gone"
-    ]
-  },
-  {
-    "id": "gdtb-CA-wall-of-sound-2026-05-28-ivanz-house-live",
-    "name": "Wall Of Sound — Ivanz House Live",
-    "band": "Wall Of Sound",
-    "bandSlug": "wall-of-sound",
-    "venue": "Ivanz House Live",
-    "city": "Laguna Beach",
-    "state": "CA",
-    "lat": 33.5426975,
-    "lng": -117.785366,
-    "date": "2026-05-28",
-    "time": "11 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "Wall Of Sound"
-    ]
-  },
-  {
-    "id": "gdtb-CA-cubensis-2026-05-28-ojai-underground-exchange",
-    "name": "Cubensis — Ojai Underground Exchange",
-    "band": "Cubensis",
-    "bandSlug": "cubensis",
-    "venue": "Ojai Underground Exchange",
-    "city": "Ojai",
-    "state": "CA",
-    "lat": 34.4480495,
-    "lng": -119.242889,
-    "date": "2026-05-28",
-    "time": "10 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "Cubensis"
-    ]
-  },
-  {
     "id": "gdtb-CA-the-deadicated-project-2026-05-29-whisky-a-go-go",
     "name": "The Deadicated Project — Whisky A Go-Go",
     "band": "The Deadicated Project",
@@ -1275,60 +1221,6 @@
     "source": "gdtb",
     "attractions": [
       "Pete Sawyer & The LHMWG"
-    ]
-  },
-  {
-    "id": "gdtb-CO-john-kadlecik-2026-05-28-boulder-theater",
-    "name": "John Kadlecik — Boulder Theater",
-    "band": "John Kadlecik",
-    "bandSlug": "john-kadlecik",
-    "venue": "Boulder Theater",
-    "city": "Boulder",
-    "state": "CO",
-    "lat": 40.0149856,
-    "lng": -105.270545,
-    "date": "2026-05-28",
-    "time": "10 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
-    "source": "gdtb",
-    "attractions": [
-      "John Kadlecik"
-    ]
-  },
-  {
-    "id": "gdtb-CO-melvin-seals-and-jgb-2026-05-28-boulder-theater",
-    "name": "Melvin Seals and JGB — Boulder Theater",
-    "band": "Melvin Seals and JGB",
-    "bandSlug": "melvin-seals-and-jgb",
-    "venue": "Boulder Theater",
-    "city": "Boulder",
-    "state": "CO",
-    "lat": 40.0149856,
-    "lng": -105.270545,
-    "date": "2026-05-28",
-    "time": "10 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
-    "source": "gdtb",
-    "attractions": [
-      "Melvin Seals and JGB"
-    ]
-  },
-  {
-    "id": "gdtb-CO-sages-and-spirits-2026-05-28-boulder-theater",
-    "name": "Sages And Spirits — Boulder Theater",
-    "band": "Sages And Spirits",
-    "bandSlug": "sages-and-spirits",
-    "venue": "Boulder Theater",
-    "city": "Boulder",
-    "state": "CO",
-    "lat": 40.0149856,
-    "lng": -105.270545,
-    "date": "2026-05-28",
-    "time": "10 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
-    "source": "gdtb",
-    "attractions": [
-      "Sages And Spirits"
     ]
   },
   {
@@ -4212,24 +4104,6 @@
     ]
   },
   {
-    "id": "gdtb-GA-frankly-scarlet-2026-05-28-8722-main-st-woodstock-ga-unit",
-    "name": "Frankly Scarlet — 8722 Main St Woodstock GA United States Georgia 30188",
-    "band": "Frankly Scarlet",
-    "bandSlug": "frankly-scarlet",
-    "venue": "8722 Main St Woodstock GA United States Georgia 30188",
-    "city": "Woodstock",
-    "state": "GA",
-    "lat": 34.1014112,
-    "lng": -84.5192192,
-    "date": "2026-05-28",
-    "time": "7:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=GA",
-    "source": "gdtb",
-    "attractions": [
-      "Frankly Scarlet"
-    ]
-  },
-  {
     "id": "gdtb-GA-cosmic-charlie-2026-05-29-georgia-theatre",
     "name": "Cosmic Charlie — Georgia Theatre",
     "band": "Cosmic Charlie",
@@ -5793,24 +5667,6 @@
     "source": "gdtb",
     "attractions": [
       "New Potato Caboose"
-    ]
-  },
-  {
-    "id": "gdtb-MA-jerome-s-pace-2026-05-28-474-massachusetts-ave",
-    "name": "Jerome's Pace — 474 Massachusetts Ave",
-    "band": "Jerome's Pace",
-    "bandSlug": "jerome-s-pace",
-    "venue": "474 Massachusetts Ave",
-    "city": "Cambridge",
-    "state": "MA",
-    "lat": 42.3656347,
-    "lng": -71.1040018,
-    "date": "2026-05-28",
-    "time": "9:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "Jerome's Pace"
     ]
   },
   {
@@ -8082,60 +7938,6 @@
     ]
   },
   {
-    "id": "gdtb-NJ-too-cool-to-bluff-2026-05-28-611-park-ave",
-    "name": "Too Cool To Bluff — 611 Park Ave",
-    "band": "Too Cool To Bluff",
-    "bandSlug": "too-cool-to-bluff",
-    "venue": "611 Park Ave",
-    "city": "Freehold",
-    "state": "NJ",
-    "lat": 40.2601096,
-    "lng": -74.2737573,
-    "date": "2026-05-28",
-    "time": "8pm to 11pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Too Cool To Bluff"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-be5d-2026-05-28-cooper-s-riverview",
-    "name": "Be5D — Cooper's Riverview",
-    "band": "Be5D",
-    "bandSlug": "be5d",
-    "venue": "Cooper's Riverview",
-    "city": "Trenton",
-    "state": "NJ",
-    "lat": 40.2203074,
-    "lng": -74.7659,
-    "date": "2026-05-28",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Be5D"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-rainbow-full-of-sound-2026-05-28-10th-ave-burrito-co",
-    "name": "Rainbow Full Of Sound — 10th Ave Burrito Co.",
-    "band": "Rainbow Full Of Sound",
-    "bandSlug": "rainbow-full-of-sound",
-    "venue": "10th Ave Burrito Co.",
-    "city": "Belmar",
-    "state": "NJ",
-    "lat": 40.1784471,
-    "lng": -74.0218037,
-    "date": "2026-05-28",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Rainbow Full Of Sound"
-    ]
-  },
-  {
     "id": "gdtb-NJ-scarlet-magnolia-2026-05-29-pascack-rd",
     "name": "Scarlet Magnolia — Pascack Rd",
     "band": "Scarlet Magnolia",
@@ -9843,42 +9645,6 @@
     "source": "gdtb",
     "attractions": [
       "The Brian St John Band"
-    ]
-  },
-  {
-    "id": "gdtb-NY-shakedown-citi-2026-05-28-rivermarket-bar-kitchen",
-    "name": "Shakedown Citi — RiverMarket Bar & Kitchen",
-    "band": "Shakedown Citi",
-    "bandSlug": "shakedown-citi",
-    "venue": "RiverMarket Bar & Kitchen",
-    "city": "Tarrytown",
-    "state": "NY",
-    "lat": 41.0762077,
-    "lng": -73.8587461,
-    "date": "2026-05-28",
-    "time": "",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Shakedown Citi"
-    ]
-  },
-  {
-    "id": "gdtb-NY-mason-s-children-2026-05-28-ny-12498",
-    "name": "Mason's Children — NY 12498",
-    "band": "Mason's Children",
-    "bandSlug": "mason-s-children",
-    "venue": "NY 12498",
-    "city": "Woodstock",
-    "state": "NY",
-    "lat": 42.0410578,
-    "lng": -74.1182492,
-    "date": "2026-05-28",
-    "time": "7pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Mason's Children"
     ]
   },
   {
@@ -13662,24 +13428,6 @@
     ]
   },
   {
-    "id": "gdtb-PA-steely-dead-2026-05-28-23-east-lancaster-avenue-ardmo",
-    "name": "Steely Dead — 23 East Lancaster Avenue Ardmore PA United States Pennsylvania",
-    "band": "Steely Dead",
-    "bandSlug": "steely-dead",
-    "venue": "23 East Lancaster Avenue Ardmore PA United States Pennsylvania",
-    "city": "Ardmore",
-    "state": "PA",
-    "lat": 40.004128,
-    "lng": -75.2882893,
-    "date": "2026-05-28",
-    "time": "6:45 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
-    "source": "gdtb",
-    "attractions": [
-      "Steely Dead"
-    ]
-  },
-  {
     "id": "gdtb-PA-zendog-2026-05-29-shere-e-punjab-indian-restaura",
     "name": "Zendog — Shere-E-Punjab Indian Restaurant",
     "band": "Zendog",
@@ -14991,24 +14739,6 @@
     "source": "gdtb",
     "attractions": [
       "So Many Rhodes"
-    ]
-  },
-  {
-    "id": "gdtb-SC-shakedown-strings-2026-05-28-603-east-stone-avenue-suite-4",
-    "name": "Shakedown Strings — 603 East Stone Avenue Suite #4",
-    "band": "Shakedown Strings",
-    "bandSlug": "shakedown-strings",
-    "venue": "603 East Stone Avenue Suite #4",
-    "city": "Greenville",
-    "state": "SC",
-    "lat": 34.851354,
-    "lng": -82.3984882,
-    "date": "2026-05-28",
-    "time": "6:00PMÂ â",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=SC",
-    "source": "gdtb",
-    "attractions": [
-      "Shakedown Strings"
     ]
   },
   {
@@ -16377,24 +16107,6 @@
     "source": "gdtb",
     "attractions": [
       "New Potato Caboose"
-    ]
-  },
-  {
-    "id": "gdtb-WA-the-stone-jack-ballers-2026-05-28-seattle-wa",
-    "name": "The Stone Jack Ballers — Seattle WA",
-    "band": "The Stone Jack Ballers",
-    "bandSlug": "the-stone-jack-ballers",
-    "venue": "Seattle WA",
-    "city": "Seattle",
-    "state": "WA",
-    "lat": 47.6038321,
-    "lng": -122.330062,
-    "date": "2026-05-28",
-    "time": "11 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=WA",
-    "source": "gdtb",
-    "attractions": [
-      "The Stone Jack Ballers"
     ]
   },
   {
