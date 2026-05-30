@@ -1390,5 +1390,13 @@
     "tried": "2026-05-28",
     "matched": true,
     "name": "Cartesian Doubt"
+  },
+  "glass-camels": {
+    "tried": "2026-05-30",
+    "matched": false
+  },
+  "down-east-dead": {
+    "tried": "2026-05-30",
+    "matched": false
   }
 }
