@@ -437,5 +437,10 @@
     "photo": "images/bands/cartesian-doubt.jpg",
     "source": "deezer",
     "matchedName": "Cartesian Doubt"
+  },
+  "wheel": {
+    "photo": "images/bands/wheel.jpg",
+    "source": "deezer",
+    "matchedName": "Wheel"
   }
 }

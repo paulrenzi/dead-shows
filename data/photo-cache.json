@@ -1398,5 +1398,14 @@
   "down-east-dead": {
     "tried": "2026-05-30",
     "matched": false
+  },
+  "the-mission-in-the-rain": {
+    "tried": "2026-05-31",
+    "matched": false
+  },
+  "wheel": {
+    "tried": "2026-05-31",
+    "matched": true,
+    "name": "Wheel"
   }
 }
