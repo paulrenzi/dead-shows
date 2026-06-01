@@ -1407,5 +1407,60 @@
     "tried": "2026-05-31",
     "matched": true,
     "name": "Wheel"
+  },
+  "possum": {
+    "tried": "2026-06-01",
+    "matched": true,
+    "name": "Possum"
+  },
+  "token-rhyme-ga": {
+    "tried": "2026-06-01",
+    "matched": false
+  },
+  "gr8fldude-s-token-rhyme": {
+    "tried": "2026-06-01",
+    "matched": false
+  },
+  "lost-pyramids": {
+    "tried": "2026-06-01",
+    "matched": true,
+    "name": "Lost Pyramids"
+  },
+  "furthur-blues": {
+    "tried": "2026-06-01",
+    "matched": false
+  },
+  "thankful-dead": {
+    "tried": "2026-06-01",
+    "matched": false
+  },
+  "sans-souci-jgb-tribute": {
+    "tried": "2026-06-01",
+    "matched": false
+  },
+  "a-phine-connection": {
+    "tried": "2026-06-01",
+    "matched": false
+  },
+  "the-knot": {
+    "tried": "2026-06-01",
+    "matched": false
+  },
+  "the-garcia-project": {
+    "tried": "2026-06-01",
+    "matched": true,
+    "name": "The Garcia Project"
+  },
+  "jgbcb": {
+    "tried": "2026-06-01",
+    "matched": false
+  },
+  "steal-your-peach": {
+    "tried": "2026-06-01",
+    "matched": false
+  },
+  "the-dead-reckoning": {
+    "tried": "2026-06-01",
+    "matched": false
   }
 }

@@ -442,5 +442,20 @@
     "photo": "images/bands/wheel.jpg",
     "source": "deezer",
     "matchedName": "Wheel"
+  },
+  "possum": {
+    "photo": "images/bands/possum.jpg",
+    "source": "deezer",
+    "matchedName": "Possum"
+  },
+  "lost-pyramids": {
+    "photo": "images/bands/lost-pyramids.jpg",
+    "source": "deezer",
+    "matchedName": "Lost Pyramids"
+  },
+  "the-garcia-project": {
+    "photo": "images/bands/the-garcia-project.jpg",
+    "source": "deezer",
+    "matchedName": "The Garcia Project"
   }
 }

@@ -2298,5 +2298,330 @@
   "dumont, ny": {
     "lat": 40.7597024,
     "lng": -73.9736822
+  },
+  "montgomery, al": {
+    "lat": 32.3777111,
+    "lng": -86.3090775
+  },
+  "camp connell, ca": {
+    "lat": 38.3099121,
+    "lng": -120.2776333
+  },
+  "reseda, ca": {
+    "lat": 34.200768,
+    "lng": -118.5356869
+  },
+  "rancho cordova, ca": {
+    "lat": 38.5890723,
+    "lng": -121.302728
+  },
+  "south lake tahoe, ca": {
+    "lat": 38.9319293,
+    "lng": -119.9780188
+  },
+  "occidental, ca": {
+    "lat": 38.4010265,
+    "lng": -122.9312132
+  },
+  "paonia, co": {
+    "lat": 38.8683205,
+    "lng": -107.5920018
+  },
+  "arvada, co": {
+    "lat": 39.8005505,
+    "lng": -105.0811573
+  },
+  "winter park, co": {
+    "lat": 39.9180425,
+    "lng": -105.7855635
+  },
+  "dillon, co": {
+    "lat": 39.6302657,
+    "lng": -106.0433023
+  },
+  "bristol, ct": {
+    "lat": 41.6711752,
+    "lng": -72.9430128
+  },
+  "milldale, ct": {
+    "lat": 41.5661372,
+    "lng": -72.8999672
+  },
+  "vernon rockville, ct": {
+    "lat": 41.8667683,
+    "lng": -72.4600012
+  },
+  "fairfile, ct": null,
+  "winsted, ct": {
+    "lat": 41.9275199,
+    "lng": -73.071788
+  },
+  "lewes, de": {
+    "lat": 38.7733961,
+    "lng": -75.1379574
+  },
+  "brooksville, fl": {
+    "lat": 28.5552719,
+    "lng": -82.3878709
+  },
+  "palm harbor, fl": {
+    "lat": 28.0856815,
+    "lng": -82.756907
+  },
+  "avondale estates, ga": {
+    "lat": 33.771494,
+    "lng": -84.2671444
+  },
+  "yorkville, il": {
+    "lat": 41.6411409,
+    "lng": -88.4472948
+  },
+  "joliet, il": {
+    "lat": 41.5263603,
+    "lng": -88.0840212
+  },
+  "normal, il": {
+    "lat": 40.5092961,
+    "lng": -88.9843937
+  },
+  "michigan city, in": {
+    "lat": 41.7075394,
+    "lng": -86.8950297
+  },
+  "hobart, in": {
+    "lat": 41.5322592,
+    "lng": -87.2550353
+  },
+  "middletown, in": {
+    "lat": 40.0572668,
+    "lng": -85.537197
+  },
+  "red oak, ia": {
+    "lat": 41.0095189,
+    "lng": -95.228247
+  },
+  "sylvan grove, ks": {
+    "lat": 39.009454,
+    "lng": -98.394228
+  },
+  "steep falls, me": {
+    "lat": 43.7937603,
+    "lng": -70.6521114
+  },
+  "ellicott city, md": {
+    "lat": 39.2757359,
+    "lng": -76.8317417
+  },
+  "manassas, md": {
+    "lat": 39.5982703,
+    "lng": -77.7258677
+  },
+  "charlestown, md": {
+    "lat": 39.5737254,
+    "lng": -75.9749456
+  },
+  "northampton, ma": {
+    "lat": 42.3178989,
+    "lng": -72.6311006
+  },
+  "lancaster, ma": {
+    "lat": 42.4431437,
+    "lng": -71.6852823
+  },
+  "onset, ma": {
+    "lat": 41.7420319,
+    "lng": -70.6596568
+  },
+  "holyoke, ma": {
+    "lat": 42.2071184,
+    "lng": -72.6075851
+  },
+  "pittsfield, ma": {
+    "lat": 42.4484778,
+    "lng": -73.2541069
+  },
+  "west brookfield, ma": {
+    "lat": 42.2362442,
+    "lng": -72.1379487
+  },
+  "great barrington, ma": {
+    "lat": 42.1939364,
+    "lng": -73.362773
+  },
+  "lincoln, mi": {
+    "lat": 44.684735,
+    "lng": -83.412194
+  },
+  "trufant, mi": {
+    "lat": 43.3139184,
+    "lng": -85.3544742
+  },
+  "free soil, mi": {
+    "lat": 44.10695,
+    "lng": -86.216747
+  },
+  "carsonville, mi": {
+    "lat": 43.426967,
+    "lng": -82.671318
+  },
+  "two harbors, mn": {
+    "lat": 47.0257139,
+    "lng": -91.6730523
+  },
+  "clinton, mt": {
+    "lat": 46.768965,
+    "lng": -113.712632
+  },
+  "bethlehem, nh": {
+    "lat": 44.2804632,
+    "lng": -71.6869928
+  },
+  "dover, nh": {
+    "lat": 43.1981117,
+    "lng": -70.8739761
+  },
+  "red bank, nj": {
+    "lat": 40.3470543,
+    "lng": -74.0643065
+  },
+  "toms river, nj": {
+    "lat": 39.9528389,
+    "lng": -74.196741
+  },
+  "perth amboy, nj": {
+    "lat": 40.5133218,
+    "lng": -74.2724241
+  },
+  "atlantic city, nj": {
+    "lat": 39.3642852,
+    "lng": -74.4229351
+  },
+  "tenafly, nj": {
+    "lat": 40.9253766,
+    "lng": -73.9629154
+  },
+  "lake como, nj": {
+    "lat": 40.1709472,
+    "lng": -74.0273594
+  },
+  "bordentown, nj": {
+    "lat": 40.1462685,
+    "lng": -74.7114508
+  },
+  "beach haven, nj": {
+    "lat": 39.5629516,
+    "lng": -74.2405522
+  },
+  "el prado, nm": {
+    "lat": 36.4322586,
+    "lng": -105.5751437
+  },
+  "middle island, ny": {
+    "lat": 40.879243,
+    "lng": -72.9401357
+  },
+  "north bellmore, ny": {
+    "lat": 40.6892935,
+    "lng": -73.5369169
+  },
+  "westtown, ny": {
+    "lat": 41.3367611,
+    "lng": -74.5398821
+  },
+  "bethel, ny": {
+    "lat": 41.6834224,
+    "lng": -74.8712753
+  },
+  "middletown, ny": {
+    "lat": 41.45011,
+    "lng": -74.4164807
+  },
+  "levittown, ny": {
+    "lat": 40.721775,
+    "lng": -73.5125577
+  },
+  "ithaca, ny": {
+    "lat": 42.4374175,
+    "lng": -76.5483724
+  },
+  "troy, ny": {
+    "lat": 42.7284117,
+    "lng": -73.6917878
+  },
+  "jamesville, ny, ny": {
+    "lat": 42.9920106,
+    "lng": -76.0715887
+  },
+  "mills river, nc": {
+    "lat": 35.3884479,
+    "lng": -82.566789
+  },
+  "youngstown, oh": {
+    "lat": 41.1035786,
+    "lng": -80.6520161
+  },
+  "hilliard, oh": {
+    "lat": 40.033814,
+    "lng": -83.1596108
+  },
+  "grand rapids, oh": {
+    "lat": 41.4119963,
+    "lng": -83.8643852
+  },
+  "jacksonville, or": {
+    "lat": 42.314411,
+    "lng": -122.965346
+  },
+  "forest grove, or": {
+    "lat": 45.5190404,
+    "lng": -123.1110551
+  },
+  "allentown, pa": {
+    "lat": 40.6022552,
+    "lng": -75.4716115
+  },
+  "aston, pa": {
+    "lat": 39.8726542,
+    "lng": -75.4405473
+  },
+  "roanoke, va": {
+    "lat": 37.270973,
+    "lng": -79.9414313
+  },
+  "ellicott city, va": {
+    "lat": 39.2673284,
+    "lng": -76.7983067
+  },
+  "manassas, va": {
+    "lat": 38.7509488,
+    "lng": -77.4752667
+  },
+  "warsaw, va": {
+    "lat": 37.9587465,
+    "lng": -76.7580211
+  },
+  "vienna, va": {
+    "lat": 38.9013729,
+    "lng": -77.2651762
+  },
+  "everett, wa": {
+    "lat": 47.9793437,
+    "lng": -122.2127011
+  },
+  "woodinville, wa": {
+    "lat": 47.7545827,
+    "lng": -122.1588902
+  },
+  "ridgefield, wa": {
+    "lat": 45.8167616,
+    "lng": -122.7433775
+  },
+  "carnation, wa": {
+    "lat": 47.6475134,
+    "lng": -121.9129419
+  },
+  "wheeling, wv": {
+    "lat": 40.0639616,
+    "lng": -80.7209149
   }
 }
