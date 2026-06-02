@@ -457,5 +457,35 @@
     "photo": "images/bands/the-garcia-project.jpg",
     "source": "deezer",
     "matchedName": "The Garcia Project"
+  },
+  "skeleton-crew": {
+    "photo": "images/bands/skeleton-crew.jpg",
+    "source": "deezer",
+    "matchedName": "Skeleton Crew"
+  },
+  "the-deadbeats": {
+    "photo": "images/bands/the-deadbeats.jpg",
+    "source": "deezer",
+    "matchedName": "The Deadbeats"
+  },
+  "better-weather": {
+    "photo": "images/bands/better-weather.jpg",
+    "source": "deezer",
+    "matchedName": "Better Weather"
+  },
+  "the-dirty-middle": {
+    "photo": "images/bands/the-dirty-middle.jpg",
+    "source": "deezer",
+    "matchedName": "The Dirty Middle"
+  },
+  "eyes-of-the-raven": {
+    "photo": "images/bands/eyes-of-the-raven.jpg",
+    "source": "deezer",
+    "matchedName": "Eyes of the Raven"
+  },
+  "bowser": {
+    "photo": "images/bands/bowser.jpg",
+    "source": "deezer",
+    "matchedName": "Bowser"
   }
 }

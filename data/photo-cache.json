@@ -1462,5 +1462,87 @@
   "the-dead-reckoning": {
     "tried": "2026-06-01",
     "matched": false
+  },
+  "skeleton-crew": {
+    "tried": "2026-06-02",
+    "matched": true,
+    "name": "Skeleton Crew"
+  },
+  "electric-waste-band": {
+    "tried": "2026-06-02",
+    "matched": false
+  },
+  "the-deadbeats": {
+    "tried": "2026-06-02",
+    "matched": true,
+    "name": "The Deadbeats"
+  },
+  "rio-rosa": {
+    "tried": "2026-06-02",
+    "matched": false
+  },
+  "better-off-dead-kc": {
+    "tried": "2026-06-02",
+    "matched": false
+  },
+  "better-weather": {
+    "tried": "2026-06-02",
+    "matched": true,
+    "name": "Better Weather"
+  },
+  "the-dirty-middle": {
+    "tried": "2026-06-02",
+    "matched": true,
+    "name": "The Dirty Middle"
+  },
+  "dead-at-the-winery": {
+    "tried": "2026-06-02",
+    "matched": false
+  },
+  "eyes-of-the-raven": {
+    "tried": "2026-06-02",
+    "matched": true,
+    "name": "Eyes of the Raven"
+  },
+  "jerry-s-tone": {
+    "tried": "2026-06-02",
+    "matched": false
+  },
+  "atypical-daydream": {
+    "tried": "2026-06-02",
+    "matched": false
+  },
+  "alligator-wine-st-louis": {
+    "tried": "2026-06-02",
+    "matched": false
+  },
+  "dead-bank": {
+    "tried": "2026-06-02",
+    "matched": false
+  },
+  "trouble-ahead-nj": {
+    "tried": "2026-06-02",
+    "matched": false
+  },
+  "dead-centric": {
+    "tried": "2026-06-02",
+    "matched": false
+  },
+  "time-s-forgotten-space": {
+    "tried": "2026-06-02",
+    "matched": false
+  },
+  "pure-jerry": {
+    "tried": "2026-06-02",
+    "matched": false
+  },
+  "hashbury-collective": {
+    "tried": "2026-06-02",
+    "matched": false
+  },
+  "bowser": {
+    "tried": "2026-06-02",
+    "matched": true,
+    "name": "Bowser"
   }
 }
