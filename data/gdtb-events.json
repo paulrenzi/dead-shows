@@ -4032,42 +4032,6 @@
     ]
   },
   {
-    "id": "gdtb-FL-love-valley-2026-06-02-van-beers-bottle-tap",
-    "name": "Love Valley — Van Beers Bottle & Tap,",
-    "band": "Love Valley",
-    "bandSlug": "love-valley",
-    "venue": "Van Beers Bottle & Tap,",
-    "city": "Melbourne",
-    "state": "FL",
-    "lat": 28.0785034,
-    "lng": -80.6077908,
-    "date": "2026-06-02",
-    "time": "4:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Love Valley"
-    ]
-  },
-  {
-    "id": "gdtb-FL-crazy-fingers-2026-06-02-the-funky-biscuit-boca-raton-f",
-    "name": "Crazy Fingers — The Funky Biscuit, Boca Raton, FL 33432",
-    "band": "Crazy Fingers",
-    "bandSlug": "crazy-fingers",
-    "venue": "The Funky Biscuit, Boca Raton, FL 33432",
-    "city": "Boca Raton",
-    "state": "FL",
-    "lat": 26.3586885,
-    "lng": -80.0830984,
-    "date": "2026-06-02",
-    "time": "7:30PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Crazy Fingers"
-    ]
-  },
-  {
     "id": "gdtb-FL-love-valley-2026-06-03-sandbar-satellite-beach",
     "name": "Love Valley — Sandbar Satellite Beach ,",
     "band": "Love Valley",
@@ -9828,24 +9792,6 @@
     ]
   },
   {
-    "id": "gdtb-NJ-dead-bank-2026-06-02-donovan-s-reef",
-    "name": "Dead Bank — Donovan's Reef",
-    "band": "Dead Bank",
-    "bandSlug": "dead-bank",
-    "venue": "Donovan's Reef",
-    "city": "Rumson",
-    "state": "NJ",
-    "lat": 40.372054,
-    "lng": -73.9990269,
-    "date": "2026-06-02",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Dead Bank"
-    ]
-  },
-  {
     "id": "gdtb-NJ-trouble-ahead-nj-2026-06-03-meadowland-park",
     "name": "Trouble Ahead NJ — Meadowland Park",
     "band": "Trouble Ahead NJ",
@@ -13374,6 +13320,24 @@
     ]
   },
   {
+    "id": "gdtb-NY-dead-friends-2026-07-17-free-all-ages-65-76-main-st",
+    "name": "Dead & Friends — FREE ALL AGES 65-76 Main St",
+    "band": "Dead & Friends",
+    "bandSlug": "dead-friends",
+    "venue": "FREE ALL AGES 65-76 Main St",
+    "city": "Cortland",
+    "state": "NY",
+    "lat": 42.5842136,
+    "lng": -76.0704906,
+    "date": "2026-07-17",
+    "time": "6pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Dead & Friends"
+    ]
+  },
+  {
     "id": "gdtb-NY-dead-meat-2026-07-17-newburgh-brewing-company",
     "name": "Dead Meat — Newburgh Brewing Company",
     "band": "Dead Meat",
@@ -14343,24 +14307,6 @@
     "source": "gdtb",
     "attractions": [
       "Dead On"
-    ]
-  },
-  {
-    "id": "gdtb-NC-eternally-grateful-2026-06-02-the-workmans-friend",
-    "name": "Eternally Grateful — The Workmans Friend",
-    "band": "Eternally Grateful",
-    "bandSlug": "eternally-grateful",
-    "venue": "The Workmans Friend",
-    "city": "Charlotte",
-    "state": "NC",
-    "lat": 35.2272086,
-    "lng": -80.8430827,
-    "date": "2026-06-02",
-    "time": "8:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NC",
-    "source": "gdtb",
-    "attractions": [
-      "Eternally Grateful"
     ]
   },
   {
@@ -17820,6 +17766,24 @@
     ]
   },
   {
+    "id": "gdtb-SC-catfish-john-2026-06-26-819-n-kings-hwy",
+    "name": "Catfish John — 819 N Kings Hwy",
+    "band": "Catfish John",
+    "bandSlug": "catfish-john",
+    "venue": "819 N Kings Hwy",
+    "city": "Myrtle Beach",
+    "state": "SC",
+    "lat": 33.6956461,
+    "lng": -78.8900409,
+    "date": "2026-06-26",
+    "time": "5 Till 8pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=SC",
+    "source": "gdtb",
+    "attractions": [
+      "Catfish John"
+    ]
+  },
+  {
     "id": "gdtb-SC-catfish-john-2026-06-27-10880-ocean-hwy",
     "name": "Catfish John — 10880 Ocean Hwy",
     "band": "Catfish John",
@@ -17907,6 +17871,42 @@
     "source": "gdtb",
     "attractions": [
       "JGBCB"
+    ]
+  },
+  {
+    "id": "gdtb-SC-catfish-john-2026-08-20-10635-ocean-hwy",
+    "name": "Catfish John — 10635 Ocean Hwy",
+    "band": "Catfish John",
+    "bandSlug": "catfish-john",
+    "venue": "10635 Ocean Hwy",
+    "city": "Pawleys Island",
+    "state": "SC",
+    "lat": 33.4293486,
+    "lng": -79.1215912,
+    "date": "2026-08-20",
+    "time": "7 Till 11pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=SC",
+    "source": "gdtb",
+    "attractions": [
+      "Catfish John"
+    ]
+  },
+  {
+    "id": "gdtb-SC-catfish-john-2026-08-21-3421-knoles-st",
+    "name": "Catfish John — 3421 Knoles St",
+    "band": "Catfish John",
+    "bandSlug": "catfish-john",
+    "venue": "3421 Knoles St",
+    "city": "Myrtle Beach",
+    "state": "SC",
+    "lat": 33.6956461,
+    "lng": -78.8900409,
+    "date": "2026-08-21",
+    "time": "5 Till 9pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=SC",
+    "source": "gdtb",
+    "attractions": [
+      "Catfish John"
     ]
   },
   {
@@ -18447,24 +18447,6 @@
     "source": "gdtb",
     "attractions": [
       "Terrapin Flyer"
-    ]
-  },
-  {
-    "id": "gdtb-VT-dobbs-dead-2026-06-02-vt-05401",
-    "name": "Dobbs' Dead — VT 05401",
-    "band": "Dobbs' Dead",
-    "bandSlug": "dobbs-dead",
-    "venue": "VT 05401",
-    "city": "Burlington, VT 05401",
-    "state": "VT",
-    "lat": 44.4761601,
-    "lng": -73.212906,
-    "date": "2026-06-02",
-    "time": "8:00 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=VT",
-    "source": "gdtb",
-    "attractions": [
-      "Dobbs' Dead"
     ]
   },
   {
