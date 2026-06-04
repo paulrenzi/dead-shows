@@ -30,12 +30,6 @@
     "state": "AK"
   },
   {
-    "slug": "melvin-seals-and-jgb",
-    "name": "Melvin Seals and JGB",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
     "slug": "one-man-gone",
     "name": "One Man Gone",
     "source": "gratefuldeadtributebands.com",
@@ -132,6 +126,12 @@
     "state": "CA"
   },
   {
+    "slug": "melvin-seals-and-jgb",
+    "name": "Melvin Seals and JGB",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
     "slug": "special-event-dead-on-the-creek-20th-anniversary",
     "name": "Special Event Dead on the Creek 20th Anniversary",
     "source": "gratefuldeadtributebands.com",
@@ -192,12 +192,6 @@
     "state": "CA"
   },
   {
-    "slug": "tumbledown-shack",
-    "name": "Tumbledown Shack",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CO"
-  },
-  {
     "slug": "easy-jim",
     "name": "Easy Jim",
     "source": "gratefuldeadtributebands.com",
@@ -224,6 +218,12 @@
   {
     "slug": "shakedown-street",
     "name": "Shakedown Street",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CO"
+  },
+  {
+    "slug": "tumbledown-shack",
+    "name": "Tumbledown Shack",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
@@ -504,12 +504,6 @@
     "state": "GA"
   },
   {
-    "slug": "lost-pyramidsx",
-    "name": "Lost Pyramidsx",
-    "source": "gratefuldeadtributebands.com",
-    "state": "IL"
-  },
-  {
     "slug": "grateful-string-band",
     "name": "Grateful String Band",
     "source": "gratefuldeadtributebands.com",
@@ -552,6 +546,12 @@
     "state": "IL"
   },
   {
+    "slug": "lost-pyramids",
+    "name": "Lost Pyramids",
+    "source": "gratefuldeadtributebands.com",
+    "state": "IL"
+  },
+  {
     "slug": "jake-s-leg",
     "name": "Jake's Leg",
     "source": "gratefuldeadtributebands.com",
@@ -572,12 +572,6 @@
   {
     "slug": "lazy-river-riders",
     "name": "Lazy River Riders",
-    "source": "gratefuldeadtributebands.com",
-    "state": "IL"
-  },
-  {
-    "slug": "lost-pyramids",
-    "name": "Lost Pyramids",
     "source": "gratefuldeadtributebands.com",
     "state": "IL"
   },
@@ -1056,24 +1050,6 @@
     "state": "NH"
   },
   {
-    "slug": "trouble-ahead-nj",
-    "name": "Trouble Ahead NJ",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "the-big-trip",
-    "name": "The Big Trip",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "the-brian-st-john-band",
-    "name": "The Brian St John Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "crickets-and-cicadas",
     "name": "Crickets and Cicadas",
     "source": "gratefuldeadtributebands.com",
@@ -1134,6 +1110,12 @@
     "state": "NJ"
   },
   {
+    "slug": "the-brian-st-john-band",
+    "name": "The Brian St John Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
     "slug": "diomede-and-donovan",
     "name": "Diomede And Donovan",
     "source": "gratefuldeadtributebands.com",
@@ -1154,6 +1136,12 @@
   {
     "slug": "diamond-eye-jack",
     "name": "Diamond Eye Jack",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "the-big-trip",
+    "name": "The Big Trip",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1218,12 +1206,6 @@
     "state": "NJ"
   },
   {
-    "slug": "tiger-rose",
-    "name": "Tiger Rose",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
     "slug": "dark-hollow",
     "name": "Dark Hollow",
     "source": "gratefuldeadtributebands.com",
@@ -1254,8 +1236,20 @@
     "state": "NY"
   },
   {
+    "slug": "tiger-rose",
+    "name": "Tiger Rose",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
     "slug": "delilah-jones",
     "name": "Delilah Jones",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "so-many-roads",
+    "name": "So Many Roads",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
@@ -1478,6 +1472,12 @@
   {
     "slug": "jawn-of-the-dead",
     "name": "Jawn of the Dead",
+    "source": "gratefuldeadtributebands.com",
+    "state": "PA"
+  },
+  {
+    "slug": "thecause",
+    "name": "theCAUSE",
     "source": "gratefuldeadtributebands.com",
     "state": "PA"
   },

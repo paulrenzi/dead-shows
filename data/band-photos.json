@@ -487,5 +487,15 @@
     "photo": "images/bands/bowser.jpg",
     "source": "deezer",
     "matchedName": "Bowser"
+  },
+  "so-many-roads": {
+    "photo": "images/bands/so-many-roads.jpg",
+    "source": "deezer",
+    "matchedName": "So Many Roads"
+  },
+  "thecause": {
+    "photo": "images/bands/thecause.jpg",
+    "source": "deezer",
+    "matchedName": "The Cause"
   }
 }

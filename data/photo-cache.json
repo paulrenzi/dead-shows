@@ -1544,5 +1544,15 @@
     "tried": "2026-06-02",
     "matched": true,
     "name": "Bowser"
+  },
+  "so-many-roads": {
+    "tried": "2026-06-04",
+    "matched": true,
+    "name": "So Many Roads"
+  },
+  "thecause": {
+    "tried": "2026-06-04",
+    "matched": true,
+    "name": "The Cause"
   }
 }
