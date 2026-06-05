@@ -1404,24 +1404,6 @@
     ]
   },
   {
-    "id": "gdtb-CO-easy-jim-2026-06-04-crested-butte-public-house",
-    "name": "Easy Jim — Crested Butte Public House",
-    "band": "Easy Jim",
-    "bandSlug": "easy-jim",
-    "venue": "Crested Butte Public House",
-    "city": "Crested Butte",
-    "state": "CO",
-    "lat": 38.8698201,
-    "lng": -106.984043,
-    "date": "2026-06-04",
-    "time": "1:30 AM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
-    "source": "gdtb",
-    "attractions": [
-      "Easy Jim"
-    ]
-  },
-  {
     "id": "gdtb-CO-dead-panic-2026-06-05-209-emery-street",
     "name": "Dead Panic — 209 Emery Street",
     "band": "Dead Panic",
@@ -3582,24 +3564,6 @@
     ]
   },
   {
-    "id": "gdtb-CT-rob-glassman-band-2026-07-30-allyn-brook-park",
-    "name": "Rob Glassman Band — Allyn Brook Park",
-    "band": "Rob Glassman Band",
-    "bandSlug": "rob-glassman-band",
-    "venue": "Allyn Brook Park",
-    "city": "Durham",
-    "state": "CT",
-    "lat": 41.4817647,
-    "lng": -72.6812059,
-    "date": "2026-07-30",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
-    "source": "gdtb",
-    "attractions": [
-      "Rob Glassman Band"
-    ]
-  },
-  {
     "id": "gdtb-CT-the-garcia-project-2026-07-30-katharine-hepburn-cultural-art",
     "name": "The Garcia Project — Katharine Hepburn Cultural Arts Center",
     "band": "The Garcia Project",
@@ -3615,6 +3579,24 @@
     "source": "gdtb",
     "attractions": [
       "The Garcia Project"
+    ]
+  },
+  {
+    "id": "gdtb-CT-rob-glassman-band-2026-07-30-allyn-brook-park",
+    "name": "Rob Glassman Band — Allyn Brook Park",
+    "band": "Rob Glassman Band",
+    "bandSlug": "rob-glassman-band",
+    "venue": "Allyn Brook Park",
+    "city": "Durham",
+    "state": "CT",
+    "lat": 41.4817647,
+    "lng": -72.6812059,
+    "date": "2026-07-30",
+    "time": "6 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
+    "source": "gdtb",
+    "attractions": [
+      "Rob Glassman Band"
     ]
   },
   {
@@ -3996,21 +3978,21 @@
     ]
   },
   {
-    "id": "gdtb-FL-love-valley-2026-06-04-malabar-mo-s",
-    "name": "Love Valley — Malabar Mo's,",
-    "band": "Love Valley",
-    "bandSlug": "love-valley",
-    "venue": "Malabar Mo's,",
-    "city": "Malabar",
+    "id": "gdtb-FL-jerryland-2026-06-05-2001-1st-ave-s",
+    "name": "Jerryland — 2001 1st Ave S.",
+    "band": "Jerryland",
+    "bandSlug": "jerryland",
+    "venue": "2001 1st Ave S.",
+    "city": "St. Petersburg",
     "state": "FL",
-    "lat": 28.0022483,
-    "lng": -80.568178,
-    "date": "2026-06-04",
-    "time": "6:00PM",
+    "lat": 27.7712264,
+    "lng": -82.6340259,
+    "date": "2026-06-05",
+    "time": "8pm",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
     "source": "gdtb",
     "attractions": [
-      "Love Valley"
+      "Jerryland"
     ]
   },
   {
@@ -4047,6 +4029,24 @@
     "source": "gdtb",
     "attractions": [
       "Mondo Tikis"
+    ]
+  },
+  {
+    "id": "gdtb-FL-dead-set-florida-2026-06-06-2001-1st-ave-s",
+    "name": "Dead Set Florida — 2001 1st Ave S.",
+    "band": "Dead Set Florida",
+    "bandSlug": "dead-set-florida",
+    "venue": "2001 1st Ave S.",
+    "city": "St. Petersburg",
+    "state": "FL",
+    "lat": 27.7712264,
+    "lng": -82.6340259,
+    "date": "2026-06-06",
+    "time": "8pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Dead Set Florida"
     ]
   },
   {
@@ -4122,6 +4122,24 @@
     ]
   },
   {
+    "id": "gdtb-FL-crazy-fingers-2026-06-09-the-funky-biscuit-boca-raton-f",
+    "name": "Crazy Fingers — The Funky Biscuit, Boca Raton, FL 33432",
+    "band": "Crazy Fingers",
+    "bandSlug": "crazy-fingers",
+    "venue": "The Funky Biscuit, Boca Raton, FL 33432",
+    "city": "Boca Raton",
+    "state": "FL",
+    "lat": 26.3586885,
+    "lng": -80.0830984,
+    "date": "2026-06-09",
+    "time": "7:30PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Crazy Fingers"
+    ]
+  },
+  {
     "id": "gdtb-FL-the-cosmic-jam-2026-06-12-beachside-tavern",
     "name": "The Cosmic Jam — BEACHSIDE TAVERN",
     "band": "The Cosmic Jam",
@@ -4158,6 +4176,42 @@
     ]
   },
   {
+    "id": "gdtb-FL-morning-dew-2026-06-13-2001-1st-ave-s",
+    "name": "Morning Dew — 2001 1st Ave S.",
+    "band": "Morning Dew",
+    "bandSlug": "morning-dew",
+    "venue": "2001 1st Ave S.",
+    "city": "St. Petersburg",
+    "state": "FL",
+    "lat": 27.7712264,
+    "lng": -82.6340259,
+    "date": "2026-06-13",
+    "time": "8pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Morning Dew"
+    ]
+  },
+  {
+    "id": "gdtb-FL-crazy-fingers-2026-06-13-maxi-s-lineup-jupiter-fl-33477",
+    "name": "Crazy Fingers — Maxi's Lineup, Jupiter, FL 33477",
+    "band": "Crazy Fingers",
+    "bandSlug": "crazy-fingers",
+    "venue": "Maxi's Lineup, Jupiter, FL 33477",
+    "city": "Jupiter",
+    "state": "FL",
+    "lat": 26.9342246,
+    "lng": -80.0942087,
+    "date": "2026-06-13",
+    "time": "9:00PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Crazy Fingers"
+    ]
+  },
+  {
     "id": "gdtb-FL-mondo-tikis-2026-06-13-cosmik-tiki",
     "name": "Mondo Tikis — Cosmik Tiki",
     "band": "Mondo Tikis",
@@ -4173,6 +4227,60 @@
     "source": "gdtb",
     "attractions": [
       "Mondo Tikis"
+    ]
+  },
+  {
+    "id": "gdtb-FL-crazy-fingers-2026-06-14-billy-jack-s-shack-lauderdale-",
+    "name": "Crazy Fingers — Billy Jack's shack , Lauderdale by the Sea, FL 33308",
+    "band": "Crazy Fingers",
+    "bandSlug": "crazy-fingers",
+    "venue": "Billy Jack's shack , Lauderdale by the Sea, FL 33308",
+    "city": "Lauderdale by the Sea",
+    "state": "FL",
+    "lat": 26.192028,
+    "lng": -80.0964326,
+    "date": "2026-06-14",
+    "time": "5:00PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Crazy Fingers"
+    ]
+  },
+  {
+    "id": "gdtb-FL-crazy-fingers-2026-06-16-the-funky-biscuit-boca-raton-f",
+    "name": "Crazy Fingers — The Funky Biscuit, Boca Raton, FL 33432",
+    "band": "Crazy Fingers",
+    "bandSlug": "crazy-fingers",
+    "venue": "The Funky Biscuit, Boca Raton, FL 33432",
+    "city": "Boca Raton",
+    "state": "FL",
+    "lat": 26.3586885,
+    "lng": -80.0830984,
+    "date": "2026-06-16",
+    "time": "7:30PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Crazy Fingers"
+    ]
+  },
+  {
+    "id": "gdtb-FL-dead-set-florida-2026-06-19-2001-1st-ave-s",
+    "name": "Dead Set Florida — 2001 1st Ave S.",
+    "band": "Dead Set Florida",
+    "bandSlug": "dead-set-florida",
+    "venue": "2001 1st Ave S.",
+    "city": "St. Petersburg",
+    "state": "FL",
+    "lat": 27.7712264,
+    "lng": -82.6340259,
+    "date": "2026-06-19",
+    "time": "8pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Dead Set Florida"
     ]
   },
   {
@@ -4212,6 +4320,24 @@
     ]
   },
   {
+    "id": "gdtb-FL-dead-set-florida-2026-06-20-gilligan-s-island-bar-grill",
+    "name": "Dead Set Florida — GILLIGAN'S ISLAND BAR & GRILL",
+    "band": "Dead Set Florida",
+    "bandSlug": "dead-set-florida",
+    "venue": "GILLIGAN'S ISLAND BAR & GRILL",
+    "city": "SIESTA KEY",
+    "state": "FL",
+    "lat": 27.275596,
+    "lng": -82.5561627,
+    "date": "2026-06-20",
+    "time": "6-10pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Dead Set Florida"
+    ]
+  },
+  {
     "id": "gdtb-FL-dead-all-over-2026-06-20-outcast-brewing-company",
     "name": "Dead All Over — Outcast Brewing Company",
     "band": "Dead All Over",
@@ -4248,6 +4374,24 @@
     ]
   },
   {
+    "id": "gdtb-FL-crazy-fingers-2026-06-20-tarpon-river-brewing-fort-laud",
+    "name": "Crazy Fingers — Tarpon River Brewing, Fort Lauderdale FL 33301",
+    "band": "Crazy Fingers",
+    "bandSlug": "crazy-fingers",
+    "venue": "Tarpon River Brewing, Fort Lauderdale FL 33301",
+    "city": "Fort Lauderdale FL",
+    "state": "FL",
+    "lat": 26.1380101,
+    "lng": -80.119073,
+    "date": "2026-06-20",
+    "time": "8:00PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Crazy Fingers"
+    ]
+  },
+  {
     "id": "gdtb-FL-t-u-b-the-unknamed-band-2026-06-20-papa-surf-burger-bar",
     "name": "T.U.B The UnKnamed Band — Papa Surf Burger Bar",
     "band": "T.U.B The UnKnamed Band",
@@ -4266,6 +4410,78 @@
     ]
   },
   {
+    "id": "gdtb-FL-dead-set-florida-2026-06-21-2001-1st-ave-s",
+    "name": "Dead Set Florida — 2001 1st Ave S.",
+    "band": "Dead Set Florida",
+    "bandSlug": "dead-set-florida",
+    "venue": "2001 1st Ave S.",
+    "city": "St. Petersburg",
+    "state": "FL",
+    "lat": 27.7712264,
+    "lng": -82.6340259,
+    "date": "2026-06-21",
+    "time": "2pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Dead Set Florida"
+    ]
+  },
+  {
+    "id": "gdtb-FL-crazy-fingers-2026-06-23-the-funky-biscuit-boca-raton-f",
+    "name": "Crazy Fingers — The Funky Biscuit, Boca Raton, FL 33432",
+    "band": "Crazy Fingers",
+    "bandSlug": "crazy-fingers",
+    "venue": "The Funky Biscuit, Boca Raton, FL 33432",
+    "city": "Boca Raton",
+    "state": "FL",
+    "lat": 26.3586885,
+    "lng": -80.0830984,
+    "date": "2026-06-23",
+    "time": "7:30PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Crazy Fingers"
+    ]
+  },
+  {
+    "id": "gdtb-FL-crazy-fingers-2026-06-25-sharkey-s-bar-grill-coral-spri",
+    "name": "Crazy Fingers — Sharkey's Bar & Grill, Coral Springs 33065",
+    "band": "Crazy Fingers",
+    "bandSlug": "crazy-fingers",
+    "venue": "Sharkey's Bar & Grill, Coral Springs 33065",
+    "city": "Coral Springs",
+    "state": "FL",
+    "lat": 26.271192,
+    "lng": -80.2706044,
+    "date": "2026-06-25",
+    "time": "7:30PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Crazy Fingers"
+    ]
+  },
+  {
+    "id": "gdtb-FL-morning-dew-2026-06-26-2001-1st-ave-s",
+    "name": "Morning Dew — 2001 1st Ave S.",
+    "band": "Morning Dew",
+    "bandSlug": "morning-dew",
+    "venue": "2001 1st Ave S.",
+    "city": "St. Petersburg",
+    "state": "FL",
+    "lat": 27.7712264,
+    "lng": -82.6340259,
+    "date": "2026-06-26",
+    "time": "8pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Morning Dew"
+    ]
+  },
+  {
     "id": "gdtb-FL-mondo-tikis-2026-06-26-marker-99-restaurant-lounge",
     "name": "Mondo Tikis — Marker 99 Restaurant & Lounge",
     "band": "Mondo Tikis",
@@ -4281,6 +4497,42 @@
     "source": "gdtb",
     "attractions": [
       "Mondo Tikis"
+    ]
+  },
+  {
+    "id": "gdtb-FL-crazy-fingers-2026-06-26-vote-for-pedro-boca-raton-3343",
+    "name": "Crazy Fingers — Vote for Pedro, Boca Raton 33433",
+    "band": "Crazy Fingers",
+    "bandSlug": "crazy-fingers",
+    "venue": "Vote for Pedro, Boca Raton 33433",
+    "city": "Boca Raton",
+    "state": "FL",
+    "lat": 26.3586885,
+    "lng": -80.0830984,
+    "date": "2026-06-26",
+    "time": "8:00PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Crazy Fingers"
+    ]
+  },
+  {
+    "id": "gdtb-FL-dead-set-florida-2026-06-27-stottlemeyer-s-smokehouse",
+    "name": "Dead Set Florida — STOTTLEMEYER'S SMOKEHOUSE",
+    "band": "Dead Set Florida",
+    "bandSlug": "dead-set-florida",
+    "venue": "STOTTLEMEYER'S SMOKEHOUSE",
+    "city": "SARASOTA",
+    "state": "FL",
+    "lat": 27.3365805,
+    "lng": -82.5308545,
+    "date": "2026-06-27",
+    "time": "7pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Dead Set Florida"
     ]
   },
   {
@@ -4374,6 +4626,24 @@
     ]
   },
   {
+    "id": "gdtb-FL-crazy-fingers-2026-06-30-the-funky-biscuit-boca-raton-f",
+    "name": "Crazy Fingers — The Funky Biscuit, Boca Raton, FL 33432",
+    "band": "Crazy Fingers",
+    "bandSlug": "crazy-fingers",
+    "venue": "The Funky Biscuit, Boca Raton, FL 33432",
+    "city": "Boca Raton",
+    "state": "FL",
+    "lat": 26.3586885,
+    "lng": -80.0830984,
+    "date": "2026-06-30",
+    "time": "7:30PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Crazy Fingers"
+    ]
+  },
+  {
     "id": "gdtb-FL-dead-set-florida-2026-07-03-ricky-t-s",
     "name": "Dead Set Florida — Ricky T's",
     "band": "Dead Set Florida",
@@ -4446,6 +4716,24 @@
     ]
   },
   {
+    "id": "gdtb-FL-morning-dew-2026-07-05-2001-1st-ave-s",
+    "name": "Morning Dew — 2001 1st Ave S",
+    "band": "Morning Dew",
+    "bandSlug": "morning-dew",
+    "venue": "2001 1st Ave S",
+    "city": "St. Petersburg",
+    "state": "FL",
+    "lat": 27.7712264,
+    "lng": -82.6340259,
+    "date": "2026-07-05",
+    "time": "2pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Morning Dew"
+    ]
+  },
+  {
     "id": "gdtb-FL-mondo-tikis-2026-07-05-mavericks-hangar-bar-grill",
     "name": "Mondo Tikis — Mavericks Hangar Bar & Grill",
     "band": "Mondo Tikis",
@@ -4500,6 +4788,24 @@
     ]
   },
   {
+    "id": "gdtb-FL-jerryland-2026-07-17-2001-1st-ave-s",
+    "name": "Jerryland — 2001 1st Ave S.",
+    "band": "Jerryland",
+    "bandSlug": "jerryland",
+    "venue": "2001 1st Ave S.",
+    "city": "St. Petersburg",
+    "state": "FL",
+    "lat": 27.7712264,
+    "lng": -82.6340259,
+    "date": "2026-07-17",
+    "time": "8pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Jerryland"
+    ]
+  },
+  {
     "id": "gdtb-FL-stella-blue-2026-07-18-1660-indian-river-dr",
     "name": "Stella Blue — 1660 Indian River Dr",
     "band": "Stella Blue",
@@ -4515,6 +4821,60 @@
     "source": "gdtb",
     "attractions": [
       "Stella Blue"
+    ]
+  },
+  {
+    "id": "gdtb-FL-dead-set-florida-2026-07-18-2001-1st-ave-s",
+    "name": "Dead Set Florida — 2001 1st Ave S.",
+    "band": "Dead Set Florida",
+    "bandSlug": "dead-set-florida",
+    "venue": "2001 1st Ave S.",
+    "city": "St. Petersburg",
+    "state": "FL",
+    "lat": 27.7712264,
+    "lng": -82.6340259,
+    "date": "2026-07-18",
+    "time": "8pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Dead Set Florida"
+    ]
+  },
+  {
+    "id": "gdtb-FL-dead-set-florida-2026-07-19-encore-live",
+    "name": "Dead Set Florida — ENCORE LIVE",
+    "band": "Dead Set Florida",
+    "bandSlug": "dead-set-florida",
+    "venue": "ENCORE LIVE",
+    "city": "SARASOTA",
+    "state": "FL",
+    "lat": 27.3365805,
+    "lng": -82.5308545,
+    "date": "2026-07-19",
+    "time": "6pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Dead Set Florida"
+    ]
+  },
+  {
+    "id": "gdtb-FL-jerryland-2026-07-19-encore-live",
+    "name": "Jerryland — ENCORE LIVE",
+    "band": "Jerryland",
+    "bandSlug": "jerryland",
+    "venue": "ENCORE LIVE",
+    "city": "SARASOTA",
+    "state": "FL",
+    "lat": 27.3365805,
+    "lng": -82.5308545,
+    "date": "2026-07-19",
+    "time": "6pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Jerryland"
     ]
   },
   {
@@ -4554,6 +4914,24 @@
     ]
   },
   {
+    "id": "gdtb-FL-dead-set-florida-2026-07-24-the-twisted-fork",
+    "name": "Dead Set Florida — THE TWISTED FORK",
+    "band": "Dead Set Florida",
+    "bandSlug": "dead-set-florida",
+    "venue": "THE TWISTED FORK",
+    "city": "PORT CHARLOTTE",
+    "state": "FL",
+    "lat": 26.98242,
+    "lng": -82.1068873,
+    "date": "2026-07-24",
+    "time": "6pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Dead Set Florida"
+    ]
+  },
+  {
     "id": "gdtb-FL-spread-the-band-2026-07-24-rockpit-brewing-distilling",
     "name": "Spread The Band — RockPit Brewing & Distilling",
     "band": "Spread The Band",
@@ -4569,6 +4947,24 @@
     "source": "gdtb",
     "attractions": [
       "Spread The Band"
+    ]
+  },
+  {
+    "id": "gdtb-FL-dead-set-florida-2026-07-25-gilligans-island-bar-grill",
+    "name": "Dead Set Florida — GILLIGANS ISLAND BAR & GRILL",
+    "band": "Dead Set Florida",
+    "bandSlug": "dead-set-florida",
+    "venue": "GILLIGANS ISLAND BAR & GRILL",
+    "city": "SIESTA KEY",
+    "state": "FL",
+    "lat": 27.275596,
+    "lng": -82.5561627,
+    "date": "2026-07-25",
+    "time": "6pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Dead Set Florida"
     ]
   },
   {
@@ -4641,6 +5037,24 @@
     "source": "gdtb",
     "attractions": [
       "Unlimited Devotion"
+    ]
+  },
+  {
+    "id": "gdtb-FL-dead-set-florida-2026-08-01-1",
+    "name": "Dead Set Florida — 1",
+    "band": "Dead Set Florida",
+    "bandSlug": "dead-set-florida",
+    "venue": "1",
+    "city": "DAYTONA BEACH",
+    "state": "FL",
+    "lat": 29.2108147,
+    "lng": -81.0228331,
+    "date": "2026-08-01",
+    "time": "ALL DAY",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Dead Set Florida"
     ]
   },
   {
@@ -4893,6 +5307,24 @@
     "source": "gdtb",
     "attractions": [
       "DeadCetera"
+    ]
+  },
+  {
+    "id": "gdtb-GA-gr8fldude-s-token-rhyme-2026-07-11-1127-white-cir-nw",
+    "name": "GR8FLDUDE's Token Rhyme — 1127 White Cir NW",
+    "band": "GR8FLDUDE's Token Rhyme",
+    "bandSlug": "gr8fldude-s-token-rhyme",
+    "venue": "1127 White Cir NW",
+    "city": "Marietta",
+    "state": "GA",
+    "lat": 33.9528472,
+    "lng": -84.5496148,
+    "date": "2026-07-11",
+    "time": "6:00 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=GA",
+    "source": "gdtb",
+    "attractions": [
+      "GR8FLDUDE's Token Rhyme"
     ]
   },
   {
@@ -7182,6 +7614,24 @@
     ]
   },
   {
+    "id": "gdtb-MA-moose-juice-2026-06-12-3rd-ave",
+    "name": "Moose Juice — 3rd Ave",
+    "band": "Moose Juice",
+    "bandSlug": "moose-juice",
+    "venue": "3rd Ave",
+    "city": "Burlington",
+    "state": "MA",
+    "lat": 42.5048167,
+    "lng": -71.1956111,
+    "date": "2026-06-12",
+    "time": "5-9",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
+    "source": "gdtb",
+    "attractions": [
+      "Moose Juice"
+    ]
+  },
+  {
     "id": "gdtb-MA-dire-wolf-2026-06-12-rapscallion",
     "name": "Dire Wolf — Rapscallion",
     "band": "Dire Wolf",
@@ -8223,24 +8673,6 @@
     "source": "gdtb",
     "attractions": [
       "CT Grateful Dead All Stars"
-    ]
-  },
-  {
-    "id": "gdtb-MI-dead-at-the-winery-2026-06-04-630-baseline-road",
-    "name": "Dead at the Winery — 630 Baseline Road",
-    "band": "Dead at the Winery",
-    "bandSlug": "dead-at-the-winery",
-    "venue": "630 Baseline Road",
-    "city": "Northville",
-    "state": "MI",
-    "lat": 42.4310816,
-    "lng": -83.4832339,
-    "date": "2026-06-04",
-    "time": "7:30",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MI",
-    "source": "gdtb",
-    "attractions": [
-      "Dead at the Winery"
     ]
   },
   {
@@ -9450,24 +9882,6 @@
     ]
   },
   {
-    "id": "gdtb-NH-alligator-wine-2026-06-04-the-range-mason",
-    "name": "Alligator Wine — The Range Mason",
-    "band": "Alligator Wine",
-    "bandSlug": "alligator-wine",
-    "venue": "The Range Mason",
-    "city": "Mason",
-    "state": "NH",
-    "lat": 42.7429947,
-    "lng": -71.7688761,
-    "date": "2026-06-04",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NH",
-    "source": "gdtb",
-    "attractions": [
-      "Alligator Wine"
-    ]
-  },
-  {
     "id": "gdtb-NH-lichen-2026-06-06-500-n-commercial-st",
     "name": "Lichen — 500 N.Commercial St.",
     "band": "Lichen",
@@ -9699,96 +10113,6 @@
     "source": "gdtb",
     "attractions": [
       "Ramble On Rose Band"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-shakedown-citi-2026-06-04-wonder-bar",
-    "name": "Shakedown Citi — Wonder Bar",
-    "band": "Shakedown Citi",
-    "bandSlug": "shakedown-citi",
-    "venue": "Wonder Bar",
-    "city": "Asbury Park",
-    "state": "NJ",
-    "lat": 40.2203907,
-    "lng": -74.0120817,
-    "date": "2026-06-04",
-    "time": "",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Shakedown Citi"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-cosmic-jerry-band-2026-06-04-cooper-s-riverview",
-    "name": "Cosmic Jerry Band — Cooper's Riverview",
-    "band": "Cosmic Jerry Band",
-    "bandSlug": "cosmic-jerry-band",
-    "venue": "Cooper's Riverview",
-    "city": "Trenton",
-    "state": "NJ",
-    "lat": 40.2203074,
-    "lng": -74.7659,
-    "date": "2026-06-04",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Cosmic Jerry Band"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-crickets-and-cicadas-2026-06-04-tonewood-brewing",
-    "name": "Crickets and Cicadas — Tonewood Brewing",
-    "band": "Crickets and Cicadas",
-    "bandSlug": "crickets-and-cicadas",
-    "venue": "Tonewood Brewing",
-    "city": "Oaklyn",
-    "state": "NJ",
-    "lat": 39.9009465,
-    "lng": -75.0846179,
-    "date": "2026-06-04",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Crickets and Cicadas"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-nailed-shutt-2026-06-04-oakland-diner-n-j",
-    "name": "Nailed Shutt — Oakland Diner N.J.",
-    "band": "Nailed Shutt",
-    "bandSlug": "nailed-shutt",
-    "venue": "Oakland Diner N.J.",
-    "city": "Oakland",
-    "state": "NJ",
-    "lat": 41.0220483,
-    "lng": -74.2430988,
-    "date": "2026-06-04",
-    "time": "7:30 AM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Nailed Shutt"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-rainbow-full-of-sound-2026-06-04-river-rock-restaurant-marina-b",
-    "name": "Rainbow Full Of Sound — River Rock Restaurant & Marina Bar",
-    "band": "Rainbow Full Of Sound",
-    "bandSlug": "rainbow-full-of-sound",
-    "venue": "River Rock Restaurant & Marina Bar",
-    "city": "Brick",
-    "state": "NJ",
-    "lat": 40.0707244,
-    "lng": -74.1280562,
-    "date": "2026-06-04",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Rainbow Full Of Sound"
     ]
   },
   {
@@ -11625,60 +11949,6 @@
     "source": "gdtb",
     "attractions": [
       "Steely Dead"
-    ]
-  },
-  {
-    "id": "gdtb-NY-mason-s-children-2026-06-04-ny-11249",
-    "name": "Mason's Children — NY 11249",
-    "band": "Mason's Children",
-    "bandSlug": "mason-s-children",
-    "venue": "NY 11249",
-    "city": "Brooklyn",
-    "state": "NY",
-    "lat": 40.6526006,
-    "lng": -73.9497211,
-    "date": "2026-06-04",
-    "time": "7pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Mason's Children"
-    ]
-  },
-  {
-    "id": "gdtb-NY-be5d-2026-06-04-maureen-s-jazz-cellar",
-    "name": "Be5D — Maureen's Jazz Cellar",
-    "band": "Be5D",
-    "bandSlug": "be5d",
-    "venue": "Maureen's Jazz Cellar",
-    "city": "Nyack",
-    "state": "NY",
-    "lat": 41.091121,
-    "lng": -73.9196794,
-    "date": "2026-06-04",
-    "time": "8 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Be5D"
-    ]
-  },
-  {
-    "id": "gdtb-NY-dark-hollow-2026-06-04-coleman-s-authentic-irish-pub-",
-    "name": "Dark Hollow — Coleman's Authentic Irish Pub, 100 South Lowell Ave, Syracuse, New York",
-    "band": "Dark Hollow",
-    "bandSlug": "dark-hollow",
-    "venue": "Coleman's Authentic Irish Pub, 100 South Lowell Ave, Syracuse, New York",
-    "city": "Syracuse",
-    "state": "NY",
-    "lat": 43.0481221,
-    "lng": -76.1474244,
-    "date": "2026-06-04",
-    "time": "7:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Dark Hollow"
     ]
   },
   {
@@ -14202,24 +14472,6 @@
     ]
   },
   {
-    "id": "gdtb-NC-eternally-grateful-2026-06-04-comet-grill",
-    "name": "Eternally Grateful — Comet Grill",
-    "band": "Eternally Grateful",
-    "bandSlug": "eternally-grateful",
-    "venue": "Comet Grill",
-    "city": "Charlotte",
-    "state": "NC",
-    "lat": 35.2272086,
-    "lng": -80.8430827,
-    "date": "2026-06-04",
-    "time": "7:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NC",
-    "source": "gdtb",
-    "attractions": [
-      "Eternally Grateful"
-    ]
-  },
-  {
     "id": "gdtb-NC-dirty-dead-2026-06-05-freya-s-haus",
     "name": "Dirty Dead — Freya's Haus",
     "band": "Dirty Dead",
@@ -15876,24 +16128,6 @@
     ]
   },
   {
-    "id": "gdtb-OR-the-other-two-2026-06-04-tomorrow-s-verse-taproom",
-    "name": "The Other Two — Tomorrow's Verse Taproom",
-    "band": "The Other Two",
-    "bandSlug": "the-other-two",
-    "venue": "Tomorrow's Verse Taproom",
-    "city": "Portland",
-    "state": "OR",
-    "lat": 45.5202471,
-    "lng": -122.674194,
-    "date": "2026-06-04",
-    "time": "10 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OR",
-    "source": "gdtb",
-    "attractions": [
-      "The Other Two"
-    ]
-  },
-  {
     "id": "gdtb-OR-caught-dead-handed-2026-06-06-half-penny",
     "name": "Caught Dead Handed — Half Penny",
     "band": "Caught Dead Handed",
@@ -16143,42 +16377,6 @@
     "source": "gdtb",
     "attractions": [
       "Joe Russo's Almost Dead"
-    ]
-  },
-  {
-    "id": "gdtb-PA-bloom-and-decay-2026-06-04-882-w-bridge-st-morrisville-pa",
-    "name": "Bloom And Decay — 882 W Bridge St Morrisville PA United States Pennsylvania 19067",
-    "band": "Bloom And Decay",
-    "bandSlug": "bloom-and-decay",
-    "venue": "882 W Bridge St Morrisville PA United States Pennsylvania 19067",
-    "city": "Morrisville",
-    "state": "PA",
-    "lat": 40.20824,
-    "lng": -74.7755065,
-    "date": "2026-06-04",
-    "time": "THRU Jun 6",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
-    "source": "gdtb",
-    "attractions": [
-      "Bloom And Decay"
-    ]
-  },
-  {
-    "id": "gdtb-PA-deadband-2026-06-04-118-north",
-    "name": "Deadband — 118 North",
-    "band": "Deadband",
-    "bandSlug": "deadband",
-    "venue": "118 North",
-    "city": "Wayne",
-    "state": "PA",
-    "lat": 41.6264414,
-    "lng": -75.3045103,
-    "date": "2026-06-04",
-    "time": "8 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
-    "source": "gdtb",
-    "attractions": [
-      "Deadband"
     ]
   },
   {
@@ -19404,24 +19602,6 @@
     ]
   },
   {
-    "id": "gdtb-WV-melvin-seals-and-jgb-2026-06-04-1-concho-rd-minden-wv-united-s",
-    "name": "Melvin Seals and JGB — 1 Concho Rd Minden WV United States West Virginia 25879",
-    "band": "Melvin Seals and JGB",
-    "bandSlug": "melvin-seals-and-jgb",
-    "venue": "1 Concho Rd Minden WV United States West Virginia 25879",
-    "city": "Minden",
-    "state": "WV",
-    "lat": 37.9759452,
-    "lng": -81.1195459,
-    "date": "2026-06-04",
-    "time": "THRU Jun 6",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=WV",
-    "source": "gdtb",
-    "attractions": [
-      "Melvin Seals and JGB"
-    ]
-  },
-  {
     "id": "gdtb-WV-grateful-shred-2026-07-16-snowshoe-mountain",
     "name": "Grateful Shred — Snowshoe Mountain",
     "band": "Grateful Shred",
@@ -19473,24 +19653,6 @@
     "source": "gdtb",
     "attractions": [
       "The Dead Revival Band"
-    ]
-  },
-  {
-    "id": "gdtb-WI-head-s-all-empty-2026-06-04-w379s9674-county-road-s-eagle-",
-    "name": "Head's All Empty — W379S9674 County Road S Eagle WI",
-    "band": "Head's All Empty",
-    "bandSlug": "head-s-all-empty",
-    "venue": "W379S9674 County Road S Eagle WI",
-    "city": "Eagle",
-    "state": "WI",
-    "lat": 42.8794563,
-    "lng": -88.474265,
-    "date": "2026-06-04",
-    "time": "4 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=WI",
-    "source": "gdtb",
-    "attractions": [
-      "Head's All Empty"
     ]
   },
   {

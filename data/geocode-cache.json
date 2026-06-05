@@ -2807,5 +2807,37 @@
   "otisco lake, ny": {
     "lat": 42.8698174,
     "lng": -76.293094
+  },
+  "st. petersburg, fl": {
+    "lat": 27.7712264,
+    "lng": -82.6340259
+  },
+  "jupiter, fl": {
+    "lat": 26.9342246,
+    "lng": -80.0942087
+  },
+  "lauderdale by the sea, fl": {
+    "lat": 26.192028,
+    "lng": -80.0964326
+  },
+  "siesta key, fl": {
+    "lat": 27.275596,
+    "lng": -82.5561627
+  },
+  "fort lauderdale fl, fl": {
+    "lat": 26.1380101,
+    "lng": -80.119073
+  },
+  "coral springs, fl": {
+    "lat": 26.271192,
+    "lng": -80.2706044
+  },
+  "port charlotte, fl": {
+    "lat": 26.98242,
+    "lng": -82.1068873
+  },
+  "marietta, ga": {
+    "lat": 33.9528472,
+    "lng": -84.5496148
   }
 }

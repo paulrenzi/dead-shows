@@ -192,12 +192,6 @@
     "state": "CA"
   },
   {
-    "slug": "easy-jim",
-    "name": "Easy Jim",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CO"
-  },
-  {
     "slug": "dead-panic",
     "name": "Dead Panic",
     "source": "gratefuldeadtributebands.com",
@@ -206,6 +200,12 @@
   {
     "slug": "young-and-dead",
     "name": "Young and Dead",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CO"
+  },
+  {
+    "slug": "easy-jim",
+    "name": "Easy Jim",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
@@ -396,14 +396,20 @@
     "state": "CT"
   },
   {
-    "slug": "love-valley",
-    "name": "Love Valley",
+    "slug": "jerryland",
+    "name": "Jerryland",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
   {
     "slug": "mondo-tikis",
     "name": "Mondo Tikis",
+    "source": "gratefuldeadtributebands.com",
+    "state": "FL"
+  },
+  {
+    "slug": "dead-set-florida",
+    "name": "Dead Set Florida",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
@@ -426,8 +432,20 @@
     "state": "FL"
   },
   {
+    "slug": "crazy-fingers",
+    "name": "Crazy Fingers",
+    "source": "gratefuldeadtributebands.com",
+    "state": "FL"
+  },
+  {
     "slug": "unlimited-devotion",
     "name": "Unlimited Devotion",
+    "source": "gratefuldeadtributebands.com",
+    "state": "FL"
+  },
+  {
+    "slug": "morning-dew",
+    "name": "Morning Dew",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
@@ -440,18 +458,6 @@
   {
     "slug": "dead-all-over",
     "name": "Dead All Over",
-    "source": "gratefuldeadtributebands.com",
-    "state": "FL"
-  },
-  {
-    "slug": "dead-set-florida",
-    "name": "Dead Set Florida",
-    "source": "gratefuldeadtributebands.com",
-    "state": "FL"
-  },
-  {
-    "slug": "jerryland",
-    "name": "Jerryland",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
@@ -492,14 +498,14 @@
     "state": "GA"
   },
   {
-    "slug": "token-rhyme-ga",
-    "name": "Token Rhyme GA",
+    "slug": "gr8fldude-s-token-rhyme",
+    "name": "GR8FLDUDE's Token Rhyme",
     "source": "gratefuldeadtributebands.com",
     "state": "GA"
   },
   {
-    "slug": "gr8fldude-s-token-rhyme",
-    "name": "GR8FLDUDE's Token Rhyme",
+    "slug": "token-rhyme-ga",
+    "name": "Token Rhyme GA",
     "source": "gratefuldeadtributebands.com",
     "state": "GA"
   },
@@ -792,6 +798,12 @@
     "state": "MA"
   },
   {
+    "slug": "moose-juice",
+    "name": "Moose Juice",
+    "source": "gratefuldeadtributebands.com",
+    "state": "MA"
+  },
+  {
     "slug": "quaboag-river-blues-band",
     "name": "Quaboag River Blues Band",
     "source": "gratefuldeadtributebands.com",
@@ -858,12 +870,6 @@
     "state": "MA"
   },
   {
-    "slug": "moose-juice",
-    "name": "Moose Juice",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MA"
-  },
-  {
     "slug": "grateful-bro",
     "name": "Grateful BRO",
     "source": "gratefuldeadtributebands.com",
@@ -874,12 +880,6 @@
     "name": "The Knot",
     "source": "gratefuldeadtributebands.com",
     "state": "MA"
-  },
-  {
-    "slug": "dead-at-the-winery",
-    "name": "Dead at the Winery",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MI"
   },
   {
     "slug": "eyes-of-the-raven",
@@ -1050,24 +1050,6 @@
     "state": "NH"
   },
   {
-    "slug": "crickets-and-cicadas",
-    "name": "Crickets and Cicadas",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "nailed-shutt",
-    "name": "Nailed Shutt",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "rainbow-full-of-sound",
-    "name": "Rainbow Full Of Sound",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "workingman-s-jed",
     "name": "Workingman's Jed",
     "source": "gratefuldeadtributebands.com",
@@ -1158,6 +1140,12 @@
     "state": "NJ"
   },
   {
+    "slug": "rainbow-full-of-sound",
+    "name": "Rainbow Full Of Sound",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
     "slug": "deadicated-friends",
     "name": "Deadicated & Friends",
     "source": "gratefuldeadtributebands.com",
@@ -1194,6 +1182,12 @@
     "state": "NJ"
   },
   {
+    "slug": "crickets-and-cicadas",
+    "name": "Crickets and Cicadas",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
     "slug": "dead-on",
     "name": "Dead On",
     "source": "gratefuldeadtributebands.com",
@@ -1204,12 +1198,6 @@
     "name": "Steal Your Face",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
-  },
-  {
-    "slug": "dark-hollow",
-    "name": "Dark Hollow",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
   },
   {
     "slug": "half-step-li",
@@ -1266,6 +1254,12 @@
     "state": "NY"
   },
   {
+    "slug": "nailed-shutt",
+    "name": "Nailed Shutt",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
     "slug": "high-time",
     "name": "High Time",
     "source": "gratefuldeadtributebands.com",
@@ -1286,6 +1280,12 @@
   {
     "slug": "dead-alliance-buffalo",
     "name": "Dead Alliance Buffalo",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "dark-hollow",
+    "name": "Dark Hollow",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
@@ -1314,14 +1314,14 @@
     "state": "NY"
   },
   {
-    "slug": "eternally-grateful",
-    "name": "Eternally Grateful",
+    "slug": "dirty-dead",
+    "name": "Dirty Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "NC"
   },
   {
-    "slug": "dirty-dead",
-    "name": "Dirty Dead",
+    "slug": "eternally-grateful",
+    "name": "Eternally Grateful",
     "source": "gratefuldeadtributebands.com",
     "state": "NC"
   },
@@ -1440,12 +1440,6 @@
     "state": "OK"
   },
   {
-    "slug": "the-other-two",
-    "name": "The Other Two",
-    "source": "gratefuldeadtributebands.com",
-    "state": "OR"
-  },
-  {
     "slug": "caught-dead-handed",
     "name": "Caught Dead Handed",
     "source": "gratefuldeadtributebands.com",
@@ -1456,18 +1450,6 @@
     "name": "Rhapsody In Red",
     "source": "gratefuldeadtributebands.com",
     "state": "OR"
-  },
-  {
-    "slug": "bloom-and-decay",
-    "name": "Bloom And Decay",
-    "source": "gratefuldeadtributebands.com",
-    "state": "PA"
-  },
-  {
-    "slug": "deadband",
-    "name": "Deadband",
-    "source": "gratefuldeadtributebands.com",
-    "state": "PA"
   },
   {
     "slug": "jawn-of-the-dead",
@@ -1514,6 +1496,12 @@
   {
     "slug": "little-green-shack",
     "name": "Little Green Shack",
+    "source": "gratefuldeadtributebands.com",
+    "state": "PA"
+  },
+  {
+    "slug": "deadband",
+    "name": "Deadband",
     "source": "gratefuldeadtributebands.com",
     "state": "PA"
   },
