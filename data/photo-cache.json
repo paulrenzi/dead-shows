@@ -1554,5 +1554,14 @@
     "tried": "2026-06-04",
     "matched": true,
     "name": "The Cause"
+  },
+  "shakedown-sunday": {
+    "tried": "2026-06-06",
+    "matched": false
+  },
+  "special-event": {
+    "tried": "2026-06-06",
+    "matched": true,
+    "name": "Special Event"
   }
 }

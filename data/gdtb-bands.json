@@ -30,26 +30,14 @@
     "state": "AK"
   },
   {
+    "slug": "legion-of-mario",
+    "name": "Legion of Mario",
+    "source": "gratefuldeadtributebands.com",
+    "state": "AZ"
+  },
+  {
     "slug": "one-man-gone",
     "name": "One Man Gone",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
-    "slug": "david-gans",
-    "name": "David Gans",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
-    "slug": "scott-guberman",
-    "name": "Scott Guberman",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
-    "slug": "playing-the-dead",
-    "name": "Playing The Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
   },
@@ -74,6 +62,12 @@
   {
     "slug": "easy-wind",
     "name": "Easy Wind",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
+    "slug": "scott-guberman",
+    "name": "Scott Guberman",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
   },
@@ -192,14 +186,8 @@
     "state": "CA"
   },
   {
-    "slug": "dead-panic",
-    "name": "Dead Panic",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CO"
-  },
-  {
-    "slug": "young-and-dead",
-    "name": "Young and Dead",
+    "slug": "dead-floyd",
+    "name": "Dead Floyd",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
@@ -210,8 +198,8 @@
     "state": "CO"
   },
   {
-    "slug": "dead-floyd",
-    "name": "Dead Floyd",
+    "slug": "shakedown-sunday",
+    "name": "Shakedown Sunday",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
@@ -242,6 +230,12 @@
   {
     "slug": "switchman-sleepin",
     "name": "Switchman Sleepin'",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CO"
+  },
+  {
+    "slug": "dead-panic",
+    "name": "Dead Panic",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
@@ -288,20 +282,14 @@
     "state": "CO"
   },
   {
-    "slug": "mystic-dead",
-    "name": "Mystic Dead",
+    "slug": "almost-ablaze",
+    "name": "Almost Ablaze",
     "source": "gratefuldeadtributebands.com",
     "state": "CT"
   },
   {
     "slug": "rob-glassman-band",
     "name": "Rob Glassman Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CT"
-  },
-  {
-    "slug": "almost-ablaze",
-    "name": "Almost Ablaze",
     "source": "gratefuldeadtributebands.com",
     "state": "CT"
   },
@@ -314,6 +302,12 @@
   {
     "slug": "the-deadheads",
     "name": "The Deadheads",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CT"
+  },
+  {
+    "slug": "mystic-dead",
+    "name": "Mystic Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "CT"
   },
@@ -396,18 +390,6 @@
     "state": "CT"
   },
   {
-    "slug": "jerryland",
-    "name": "Jerryland",
-    "source": "gratefuldeadtributebands.com",
-    "state": "FL"
-  },
-  {
-    "slug": "mondo-tikis",
-    "name": "Mondo Tikis",
-    "source": "gratefuldeadtributebands.com",
-    "state": "FL"
-  },
-  {
     "slug": "dead-set-florida",
     "name": "Dead Set Florida",
     "source": "gratefuldeadtributebands.com",
@@ -416,6 +398,12 @@
   {
     "slug": "funkin-grateful",
     "name": "Funkin Grateful",
+    "source": "gratefuldeadtributebands.com",
+    "state": "FL"
+  },
+  {
+    "slug": "mondo-tikis",
+    "name": "Mondo Tikis",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
@@ -462,6 +450,12 @@
     "state": "FL"
   },
   {
+    "slug": "jerryland",
+    "name": "Jerryland",
+    "source": "gratefuldeadtributebands.com",
+    "state": "FL"
+  },
+  {
     "slug": "spiral-light",
     "name": "Spiral Light",
     "source": "gratefuldeadtributebands.com",
@@ -480,12 +474,6 @@
     "state": "FL"
   },
   {
-    "slug": "deadcetera",
-    "name": "DeadCetera",
-    "source": "gratefuldeadtributebands.com",
-    "state": "GA"
-  },
-  {
     "slug": "suns-of-jerry",
     "name": "Suns Of Jerry",
     "source": "gratefuldeadtributebands.com",
@@ -494,6 +482,12 @@
   {
     "slug": "estimated-prophet-official",
     "name": "Estimated Prophet Official",
+    "source": "gratefuldeadtributebands.com",
+    "state": "GA"
+  },
+  {
+    "slug": "deadcetera",
+    "name": "DeadCetera",
     "source": "gratefuldeadtributebands.com",
     "state": "GA"
   },
@@ -508,18 +502,6 @@
     "name": "Token Rhyme GA",
     "source": "gratefuldeadtributebands.com",
     "state": "GA"
-  },
-  {
-    "slug": "grateful-string-band",
-    "name": "Grateful String Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "IL"
-  },
-  {
-    "slug": "spies-of-the-world",
-    "name": "Spies Of The World",
-    "source": "gratefuldeadtributebands.com",
-    "state": "IL"
   },
   {
     "slug": "mr-blotto",
@@ -576,6 +558,12 @@
     "state": "IL"
   },
   {
+    "slug": "grateful-string-band",
+    "name": "Grateful String Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "IL"
+  },
+  {
     "slug": "lazy-river-riders",
     "name": "Lazy River Riders",
     "source": "gratefuldeadtributebands.com",
@@ -594,14 +582,14 @@
     "state": "IL"
   },
   {
-    "slug": "hyryder",
-    "name": "Hyryder",
+    "slug": "grateful-groove",
+    "name": "Grateful Groove",
     "source": "gratefuldeadtributebands.com",
     "state": "IN"
   },
   {
-    "slug": "grateful-groove",
-    "name": "Grateful Groove",
+    "slug": "hyryder",
+    "name": "Hyryder",
     "source": "gratefuldeadtributebands.com",
     "state": "IN"
   },
@@ -696,12 +684,6 @@
     "state": "ME"
   },
   {
-    "slug": "indeadnation",
-    "name": "InDEADnation",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MD"
-  },
-  {
     "slug": "better-weather",
     "name": "Better Weather",
     "source": "gratefuldeadtributebands.com",
@@ -738,6 +720,12 @@
     "state": "MD"
   },
   {
+    "slug": "indeadnation",
+    "name": "InDEADnation",
+    "source": "gratefuldeadtributebands.com",
+    "state": "MD"
+  },
+  {
     "slug": "great-northern-out-of-dc",
     "name": "Great Northern-Out of DC",
     "source": "gratefuldeadtributebands.com",
@@ -760,18 +748,6 @@
     "name": "Jack-A-Roses",
     "source": "gratefuldeadtributebands.com",
     "state": "MD"
-  },
-  {
-    "slug": "the-grateful-teds",
-    "name": "The Grateful Teds",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MA"
-  },
-  {
-    "slug": "uncle-john-s-banjo",
-    "name": "Uncle John's Banjo",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MA"
   },
   {
     "slug": "dire-wolf",
@@ -882,12 +858,6 @@
     "state": "MA"
   },
   {
-    "slug": "eyes-of-the-raven",
-    "name": "Eyes of the Raven",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MI"
-  },
-  {
     "slug": "cosmic-rose",
     "name": "Cosmic Rose",
     "source": "gratefuldeadtributebands.com",
@@ -902,6 +872,18 @@
   {
     "slug": "spirit-of-the-dead-band",
     "name": "Spirit of the Dead Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "MI"
+  },
+  {
+    "slug": "david-gans",
+    "name": "David Gans",
+    "source": "gratefuldeadtributebands.com",
+    "state": "MI"
+  },
+  {
+    "slug": "eyes-of-the-raven",
+    "name": "Eyes of the Raven",
     "source": "gratefuldeadtributebands.com",
     "state": "MI"
   },
@@ -1014,12 +996,6 @@
     "state": "NE"
   },
   {
-    "slug": "a-carny-vibe",
-    "name": "A Carny Vibe",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NV"
-  },
-  {
     "slug": "catfish-john-revival-band",
     "name": "Catfish John Revival Band",
     "source": "gratefuldeadtributebands.com",
@@ -1050,24 +1026,6 @@
     "state": "NH"
   },
   {
-    "slug": "workingman-s-jed",
-    "name": "Workingman's Jed",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "achievers-band",
-    "name": "Achievers Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "deadful-greats",
-    "name": "Deadful Greats",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "too-cool-to-bluff",
     "name": "Too Cool To Bluff",
     "source": "gratefuldeadtributebands.com",
@@ -1092,6 +1050,12 @@
     "state": "NJ"
   },
   {
+    "slug": "workingman-s-jed",
+    "name": "Workingman's Jed",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
     "slug": "the-brian-st-john-band",
     "name": "The Brian St John Band",
     "source": "gratefuldeadtributebands.com",
@@ -1112,6 +1076,12 @@
   {
     "slug": "uncle-shoehorn",
     "name": "Uncle Shoehorn",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "achievers-band",
+    "name": "Achievers Band",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1188,6 +1158,12 @@
     "state": "NJ"
   },
   {
+    "slug": "deadful-greats",
+    "name": "Deadful Greats",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
     "slug": "dead-on",
     "name": "Dead On",
     "source": "gratefuldeadtributebands.com",
@@ -1200,24 +1176,6 @@
     "state": "NJ"
   },
   {
-    "slug": "half-step-li",
-    "name": "Half Step LI",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
-    "slug": "dead-meat",
-    "name": "Dead Meat",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
-    "slug": "into-the-now",
-    "name": "Into the Now",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
     "slug": "the-wheel",
     "name": "The Wheel",
     "source": "gratefuldeadtributebands.com",
@@ -1226,6 +1184,12 @@
   {
     "slug": "tiger-rose",
     "name": "Tiger Rose",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "half-step-li",
+    "name": "Half Step LI",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
@@ -1284,6 +1248,12 @@
     "state": "NY"
   },
   {
+    "slug": "dead-meat",
+    "name": "Dead Meat",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
     "slug": "dark-hollow",
     "name": "Dark Hollow",
     "source": "gratefuldeadtributebands.com",
@@ -1292,6 +1262,12 @@
   {
     "slug": "dead-on-the-hudson",
     "name": "Dead On the Hudson",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "into-the-now",
+    "name": "Into the Now",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
@@ -1314,20 +1290,26 @@
     "state": "NY"
   },
   {
-    "slug": "dirty-dead",
-    "name": "Dirty Dead",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NC"
-  },
-  {
     "slug": "eternally-grateful",
     "name": "Eternally Grateful",
     "source": "gratefuldeadtributebands.com",
     "state": "NC"
   },
   {
+    "slug": "dragons-with-matches",
+    "name": "Dragons With Matches",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NC"
+  },
+  {
     "slug": "bring-out-yer-dead",
     "name": "Bring Out Yer Dead",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NC"
+  },
+  {
+    "slug": "dirty-dead",
+    "name": "Dirty Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "NC"
   },
@@ -1344,40 +1326,10 @@
     "state": "NC"
   },
   {
-    "slug": "dragons-with-matches",
-    "name": "Dragons With Matches",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NC"
-  },
-  {
     "slug": "jgbcb",
     "name": "JGBCB",
     "source": "gratefuldeadtributebands.com",
     "state": "NC"
-  },
-  {
-    "slug": "dupree-s-dead-band",
-    "name": "Dupree's Dead Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "OH"
-  },
-  {
-    "slug": "friends-of-the-dead",
-    "name": "Friends of the Dead",
-    "source": "gratefuldeadtributebands.com",
-    "state": "OH"
-  },
-  {
-    "slug": "saturday-s-children",
-    "name": "Saturday's Children",
-    "source": "gratefuldeadtributebands.com",
-    "state": "OH"
-  },
-  {
-    "slug": "the-dead-revival-band",
-    "name": "The Dead Revival Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "OH"
   },
   {
     "slug": "jimiller-band",
@@ -1398,8 +1350,20 @@
     "state": "OH"
   },
   {
+    "slug": "dupree-s-dead-band",
+    "name": "Dupree's Dead Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "OH"
+  },
+  {
     "slug": "ramble-on-bros",
     "name": "Ramble On Bros",
+    "source": "gratefuldeadtributebands.com",
+    "state": "OH"
+  },
+  {
+    "slug": "the-dead-revival-band",
+    "name": "The Dead Revival Band",
     "source": "gratefuldeadtributebands.com",
     "state": "OH"
   },
@@ -1428,8 +1392,20 @@
     "state": "OH"
   },
   {
+    "slug": "saturday-s-children",
+    "name": "Saturday's Children",
+    "source": "gratefuldeadtributebands.com",
+    "state": "OH"
+  },
+  {
     "slug": "englishtown-project",
     "name": "Englishtown Project",
+    "source": "gratefuldeadtributebands.com",
+    "state": "OH"
+  },
+  {
+    "slug": "friends-of-the-dead",
+    "name": "Friends of the Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "OH"
   },
@@ -1450,18 +1426,6 @@
     "name": "Rhapsody In Red",
     "source": "gratefuldeadtributebands.com",
     "state": "OR"
-  },
-  {
-    "slug": "jawn-of-the-dead",
-    "name": "Jawn of the Dead",
-    "source": "gratefuldeadtributebands.com",
-    "state": "PA"
-  },
-  {
-    "slug": "thecause",
-    "name": "theCAUSE",
-    "source": "gratefuldeadtributebands.com",
-    "state": "PA"
   },
   {
     "slug": "zendog",
@@ -1488,6 +1452,12 @@
     "state": "PA"
   },
   {
+    "slug": "special-event",
+    "name": "Special Event",
+    "source": "gratefuldeadtributebands.com",
+    "state": "PA"
+  },
+  {
     "slug": "cats-on-the-bus",
     "name": "Cats On The Bus",
     "source": "gratefuldeadtributebands.com",
@@ -1502,6 +1472,12 @@
   {
     "slug": "deadband",
     "name": "Deadband",
+    "source": "gratefuldeadtributebands.com",
+    "state": "PA"
+  },
+  {
+    "slug": "jawn-of-the-dead",
+    "name": "Jawn of the Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "PA"
   },
@@ -1524,14 +1500,14 @@
     "state": "PA"
   },
   {
-    "slug": "blue-drew-and-the-magoos",
-    "name": "Blue Drew and the Magoos",
+    "slug": "so-many-rhodes",
+    "name": "So Many Rhodes",
     "source": "gratefuldeadtributebands.com",
     "state": "RI"
   },
   {
-    "slug": "so-many-rhodes",
-    "name": "So Many Rhodes",
+    "slug": "blue-drew-and-the-magoos",
+    "name": "Blue Drew and the Magoos",
     "source": "gratefuldeadtributebands.com",
     "state": "RI"
   },
@@ -1560,20 +1536,20 @@
     "state": "SC"
   },
   {
-    "slug": "tin-roof-cats",
-    "name": "Tin Roof Cats",
-    "source": "gratefuldeadtributebands.com",
-    "state": "TN"
-  },
-  {
     "slug": "dead-cover-office",
     "name": "Dead Cover Office",
     "source": "gratefuldeadtributebands.com",
     "state": "TN"
   },
   {
-    "slug": "mostly-dead",
-    "name": "Mostly Dead",
+    "slug": "tin-roof-cats",
+    "name": "Tin Roof Cats",
+    "source": "gratefuldeadtributebands.com",
+    "state": "TN"
+  },
+  {
+    "slug": "the-dead-thing",
+    "name": "The Dead Thing",
     "source": "gratefuldeadtributebands.com",
     "state": "TX"
   },
@@ -1590,28 +1566,10 @@
     "state": "TX"
   },
   {
-    "slug": "the-dead-thing",
-    "name": "The Dead Thing",
-    "source": "gratefuldeadtributebands.com",
-    "state": "TX"
-  },
-  {
     "slug": "dobbs-dead",
     "name": "Dobbs' Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "VT"
-  },
-  {
-    "slug": "the-kind",
-    "name": "The Kind",
-    "source": "gratefuldeadtributebands.com",
-    "state": "VA"
-  },
-  {
-    "slug": "hashbury-collective",
-    "name": "Hashbury Collective",
-    "source": "gratefuldeadtributebands.com",
-    "state": "VA"
   },
   {
     "slug": "last-fair-deal",
@@ -1666,12 +1624,6 @@
     "name": "DEAL WA",
     "source": "gratefuldeadtributebands.com",
     "state": "WA"
-  },
-  {
-    "slug": "deadelijk",
-    "name": "Deadelijk",
-    "source": "gratefuldeadtributebands.com",
-    "state": "WI"
   },
   {
     "slug": "bowser",

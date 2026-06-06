@@ -497,5 +497,10 @@
     "photo": "images/bands/thecause.jpg",
     "source": "deezer",
     "matchedName": "The Cause"
+  },
+  "special-event": {
+    "photo": "images/bands/special-event.jpg",
+    "source": "deezer",
+    "matchedName": "Special Event"
   }
 }
