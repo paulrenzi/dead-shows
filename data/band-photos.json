@@ -502,5 +502,10 @@
     "photo": "images/bands/special-event.jpg",
     "source": "deezer",
     "matchedName": "Special Event"
+  },
+  "silver-string-slingers": {
+    "photo": "images/bands/silver-string-slingers.jpg",
+    "source": "deezer",
+    "matchedName": "Silver String Slingers"
   }
 }

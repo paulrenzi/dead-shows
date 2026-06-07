@@ -1563,5 +1563,10 @@
     "tried": "2026-06-06",
     "matched": true,
     "name": "Special Event"
+  },
+  "silver-string-slingers": {
+    "tried": "2026-06-07",
+    "matched": true,
+    "name": "Silver String Slingers"
   }
 }
