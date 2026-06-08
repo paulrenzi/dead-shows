@@ -1,11 +1,5 @@
 [
   {
-    "slug": "east-la-fadeaway",
-    "name": "East LA Fadeaway",
-    "source": "gratefuldeadtributebands.com",
-    "state": "AL"
-  },
-  {
     "slug": "the-stolen-faces",
     "name": "The Stolen Faces",
     "source": "gratefuldeadtributebands.com",
@@ -30,14 +24,14 @@
     "state": "AK"
   },
   {
-    "slug": "one-man-gone",
-    "name": "One Man Gone",
+    "slug": "easy-wind",
+    "name": "Easy Wind",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
   },
   {
-    "slug": "easy-wind",
-    "name": "Easy Wind",
+    "slug": "one-man-gone",
+    "name": "One Man Gone",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
   },
@@ -168,12 +162,6 @@
     "state": "CA"
   },
   {
-    "slug": "shakedown-sunday",
-    "name": "Shakedown Sunday",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CO"
-  },
-  {
     "slug": "shakedown-street",
     "name": "Shakedown Street",
     "source": "gratefuldeadtributebands.com",
@@ -264,26 +252,26 @@
     "state": "CO"
   },
   {
-    "slug": "almost-ablaze",
-    "name": "Almost Ablaze",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CT"
-  },
-  {
     "slug": "mystic-dead",
     "name": "Mystic Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "CT"
   },
   {
-    "slug": "rob-glassman-band",
-    "name": "Rob Glassman Band",
+    "slug": "ace-friends",
+    "name": "Ace & Friends",
     "source": "gratefuldeadtributebands.com",
     "state": "CT"
   },
   {
-    "slug": "ace-friends",
-    "name": "Ace & Friends",
+    "slug": "almost-ablaze",
+    "name": "Almost Ablaze",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CT"
+  },
+  {
+    "slug": "rob-glassman-band",
+    "name": "Rob Glassman Band",
     "source": "gratefuldeadtributebands.com",
     "state": "CT"
   },
@@ -366,20 +354,14 @@
     "state": "CT"
   },
   {
-    "slug": "ship-of-fools",
-    "name": "Ship of Fools",
+    "slug": "crazy-fingers",
+    "name": "Crazy Fingers",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
   {
     "slug": "the-cosmic-jam",
     "name": "The Cosmic Jam",
-    "source": "gratefuldeadtributebands.com",
-    "state": "FL"
-  },
-  {
-    "slug": "crazy-fingers",
-    "name": "Crazy Fingers",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
@@ -468,14 +450,14 @@
     "state": "GA"
   },
   {
-    "slug": "mr-blotto",
-    "name": "Mr. Blotto",
+    "slug": "thankful-dead",
+    "name": "Thankful Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "IL"
   },
   {
-    "slug": "thankful-dead",
-    "name": "Thankful Dead",
+    "slug": "mr-blotto",
+    "name": "Mr. Blotto",
     "source": "gratefuldeadtributebands.com",
     "state": "IL"
   },
@@ -876,18 +858,6 @@
     "state": "MI"
   },
   {
-    "slug": "shotgun-ragtime-band",
-    "name": "Shotgun Ragtime Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MN"
-  },
-  {
-    "slug": "grateful-gals",
-    "name": "Grateful Gals",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MN"
-  },
-  {
     "slug": "china-rider",
     "name": "China Rider",
     "source": "gratefuldeadtributebands.com",
@@ -896,6 +866,12 @@
   {
     "slug": "lost-marbles",
     "name": "Lost Marbles",
+    "source": "gratefuldeadtributebands.com",
+    "state": "MN"
+  },
+  {
+    "slug": "shotgun-ragtime-band",
+    "name": "Shotgun Ragtime Band",
     "source": "gratefuldeadtributebands.com",
     "state": "MN"
   },
@@ -976,18 +952,6 @@
     "name": "Grateful For Biggie",
     "source": "gratefuldeadtributebands.com",
     "state": "NH"
-  },
-  {
-    "slug": "deal",
-    "name": "DEAL",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "be5d",
-    "name": "Be5D",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
   },
   {
     "slug": "dead-reckoning",
@@ -1074,6 +1038,12 @@
     "state": "NJ"
   },
   {
+    "slug": "be5d",
+    "name": "Be5D",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
     "slug": "deadicated-friends",
     "name": "Deadicated & Friends",
     "source": "gratefuldeadtributebands.com",
@@ -1134,12 +1104,6 @@
     "state": "NJ"
   },
   {
-    "slug": "tiger-rose",
-    "name": "Tiger Rose",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
     "slug": "half-step-li",
     "name": "Half Step LI",
     "source": "gratefuldeadtributebands.com",
@@ -1194,6 +1158,12 @@
     "state": "NY"
   },
   {
+    "slug": "tiger-rose",
+    "name": "Tiger Rose",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
     "slug": "dead-alliance-buffalo",
     "name": "Dead Alliance Buffalo",
     "source": "gratefuldeadtributebands.com",
@@ -1242,12 +1212,6 @@
     "state": "NY"
   },
   {
-    "slug": "dragons-with-matches",
-    "name": "Dragons With Matches",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NC"
-  },
-  {
     "slug": "eternally-grateful",
     "name": "Eternally Grateful",
     "source": "gratefuldeadtributebands.com",
@@ -1278,26 +1242,26 @@
     "state": "NC"
   },
   {
+    "slug": "dragons-with-matches",
+    "name": "Dragons With Matches",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NC"
+  },
+  {
     "slug": "jgbcb",
     "name": "JGBCB",
     "source": "gratefuldeadtributebands.com",
     "state": "NC"
   },
   {
-    "slug": "dupree-s-dead-band",
-    "name": "Dupree's Dead Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "OH"
-  },
-  {
-    "slug": "the-dead-revival-band",
-    "name": "The Dead Revival Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "OH"
-  },
-  {
     "slug": "dead-centric",
     "name": "Dead Centric",
+    "source": "gratefuldeadtributebands.com",
+    "state": "OH"
+  },
+  {
+    "slug": "dupree-s-dead-band",
+    "name": "Dupree's Dead Band",
     "source": "gratefuldeadtributebands.com",
     "state": "OH"
   },
@@ -1344,6 +1308,12 @@
     "state": "OH"
   },
   {
+    "slug": "the-dead-revival-band",
+    "name": "The Dead Revival Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "OH"
+  },
+  {
     "slug": "englishtown-project",
     "name": "Englishtown Project",
     "source": "gratefuldeadtributebands.com",
@@ -1362,12 +1332,6 @@
     "state": "OH"
   },
   {
-    "slug": "one-way-truckin",
-    "name": "One Way Truckin'",
-    "source": "gratefuldeadtributebands.com",
-    "state": "OK"
-  },
-  {
     "slug": "rhapsody-in-red",
     "name": "Rhapsody In Red",
     "source": "gratefuldeadtributebands.com",
@@ -1380,14 +1344,8 @@
     "state": "OR"
   },
   {
-    "slug": "time-s-forgotten-space",
-    "name": "Time's Forgotten Space",
-    "source": "gratefuldeadtributebands.com",
-    "state": "PA"
-  },
-  {
-    "slug": "special-event",
-    "name": "Special Event",
+    "slug": "deal",
+    "name": "DEAL",
     "source": "gratefuldeadtributebands.com",
     "state": "PA"
   },

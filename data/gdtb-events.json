@@ -1,23 +1,5 @@
 [
   {
-    "id": "gdtb-AL-east-la-fadeaway-2026-06-07-mobile-bay",
-    "name": "East LA Fadeaway — Mobile Bay",
-    "band": "East LA Fadeaway",
-    "bandSlug": "east-la-fadeaway",
-    "venue": "Mobile Bay",
-    "city": "Mobile",
-    "state": "AL",
-    "lat": 30.6913462,
-    "lng": -88.0437509,
-    "date": "2026-06-07",
-    "time": "2 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=AL",
-    "source": "gdtb",
-    "attractions": [
-      "East LA Fadeaway"
-    ]
-  },
-  {
     "id": "gdtb-AL-jrad-2026-06-10-avondale-brewing-company",
     "name": "Joe Russo's Almost Dead — Avondale Brewing Company",
     "band": "Joe Russo's Almost Dead",
@@ -159,42 +141,6 @@
     "source": "gdtb",
     "attractions": [
       "DeadPhish Orchestra"
-    ]
-  },
-  {
-    "id": "gdtb-CA-one-man-gone-2026-06-07-the-shores-restaurant",
-    "name": "One Man Gone — The Shores Restaurant",
-    "band": "One Man Gone",
-    "bandSlug": "one-man-gone",
-    "venue": "The Shores Restaurant",
-    "city": "Oxnard",
-    "state": "CA",
-    "lat": 34.1976308,
-    "lng": -119.180381,
-    "date": "2026-06-07",
-    "time": "2:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "One Man Gone"
-    ]
-  },
-  {
-    "id": "gdtb-CA-jerrys-middle-finger-2026-06-07-777-valencia-street-san-franci",
-    "name": "Jerry's Middle Finger — 777 Valencia Street San Francisco CA 94110",
-    "band": "Jerry's Middle Finger",
-    "bandSlug": "jerrys-middle-finger",
-    "venue": "777 Valencia Street San Francisco CA 94110",
-    "city": "San Francisco",
-    "state": "CA",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "date": "2026-06-07",
-    "time": "12 AM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "Jerry's Middle Finger"
     ]
   },
   {
@@ -1224,24 +1170,6 @@
     ]
   },
   {
-    "id": "gdtb-CO-shakedown-sunday-2026-06-07-2946-larimer-st",
-    "name": "Shakedown Sunday — 2946 Larimer St",
-    "band": "Shakedown Sunday",
-    "bandSlug": "shakedown-sunday",
-    "venue": "2946 Larimer St",
-    "city": "Denver",
-    "state": "CO",
-    "lat": 39.7392364,
-    "lng": -104.984862,
-    "date": "2026-06-07",
-    "time": "2 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
-    "source": "gdtb",
-    "attractions": [
-      "Shakedown Sunday"
-    ]
-  },
-  {
     "id": "gdtb-CO-shakedown-street-2026-06-10-granby-ranch",
     "name": "Shakedown Street — Granby Ranch",
     "band": "Shakedown Street",
@@ -2175,60 +2103,6 @@
     "source": "gdtb",
     "attractions": [
       "Dead Panic"
-    ]
-  },
-  {
-    "id": "gdtb-CT-almost-ablaze-2026-06-07-shakedown-street-eats",
-    "name": "Almost Ablaze — Shakedown Street Eats",
-    "band": "Almost Ablaze",
-    "bandSlug": "almost-ablaze",
-    "venue": "Shakedown Street Eats",
-    "city": "Bethel",
-    "state": "CT",
-    "lat": 41.3712063,
-    "lng": -73.4140097,
-    "date": "2026-06-07",
-    "time": "3 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
-    "source": "gdtb",
-    "attractions": [
-      "Almost Ablaze"
-    ]
-  },
-  {
-    "id": "gdtb-CT-mystic-dead-2026-06-07-the-social",
-    "name": "Mystic Dead — the Social",
-    "band": "Mystic Dead",
-    "bandSlug": "mystic-dead",
-    "venue": "the Social",
-    "city": "New London",
-    "state": "CT",
-    "lat": 41.3556187,
-    "lng": -72.0997804,
-    "date": "2026-06-07",
-    "time": "4:20pm - 7:20pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
-    "source": "gdtb",
-    "attractions": [
-      "Mystic Dead"
-    ]
-  },
-  {
-    "id": "gdtb-CT-rob-glassman-band-2026-06-07-twelve-percent-beer-project",
-    "name": "Rob Glassman Band — Twelve Percent Beer Project",
-    "band": "Rob Glassman Band",
-    "bandSlug": "rob-glassman-band",
-    "venue": "Twelve Percent Beer Project",
-    "city": "North Haven",
-    "state": "CT",
-    "lat": 41.3909305,
-    "lng": -72.859545,
-    "date": "2026-06-07",
-    "time": "12 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
-    "source": "gdtb",
-    "attractions": [
-      "Rob Glassman Band"
     ]
   },
   {
@@ -3546,42 +3420,6 @@
     ]
   },
   {
-    "id": "gdtb-FL-ship-of-fools-2026-06-07-event-by-ship-of-fools",
-    "name": "Ship of Fools — Event by Ship of Fools",
-    "band": "Ship of Fools",
-    "bandSlug": "ship-of-fools",
-    "venue": "Event by Ship of Fools",
-    "city": "Sarasota",
-    "state": "FL",
-    "lat": 27.3365805,
-    "lng": -82.5308545,
-    "date": "2026-06-07",
-    "time": "3 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Ship of Fools"
-    ]
-  },
-  {
-    "id": "gdtb-FL-the-cosmic-jam-2026-06-07-chases-on-the-beach",
-    "name": "The Cosmic Jam — Chases on the Beach",
-    "band": "The Cosmic Jam",
-    "bandSlug": "the-cosmic-jam",
-    "venue": "Chases on the Beach",
-    "city": "New Smyrna Beach",
-    "state": "FL",
-    "lat": 29.0258132,
-    "lng": -80.9271271,
-    "date": "2026-06-07",
-    "time": "1 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "The Cosmic Jam"
-    ]
-  },
-  {
     "id": "gdtb-FL-crazy-fingers-2026-06-09-the-funky-biscuit-boca-raton-f",
     "name": "Crazy Fingers — The Funky Biscuit, Boca Raton, FL 33432",
     "band": "Crazy Fingers",
@@ -4839,24 +4677,6 @@
     "source": "gdtb",
     "attractions": [
       "Terrapin Flyer"
-    ]
-  },
-  {
-    "id": "gdtb-IL-mr-blotto-2026-06-07-28-mile-distilling-co",
-    "name": "Mr. Blotto — 28 Mile Distilling Co.",
-    "band": "Mr. Blotto",
-    "bandSlug": "mr-blotto",
-    "venue": "28 Mile Distilling Co.",
-    "city": "Highwood",
-    "state": "IL",
-    "lat": 42.1998879,
-    "lng": -87.8093247,
-    "date": "2026-06-07",
-    "time": "4:20 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=IL",
-    "source": "gdtb",
-    "attractions": [
-      "Mr. Blotto"
     ]
   },
   {
@@ -8172,42 +7992,6 @@
     ]
   },
   {
-    "id": "gdtb-MN-shotgun-ragtime-band-2026-06-07-4415-nicollet-ave",
-    "name": "Shotgun Ragtime Band — 4415 Nicollet Ave",
-    "band": "Shotgun Ragtime Band",
-    "bandSlug": "shotgun-ragtime-band",
-    "venue": "4415 Nicollet Ave",
-    "city": "Minneapolis",
-    "state": "MN",
-    "lat": 44.9772995,
-    "lng": -93.2654692,
-    "date": "2026-06-07",
-    "time": "6:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MN",
-    "source": "gdtb",
-    "attractions": [
-      "Shotgun Ragtime Band"
-    ]
-  },
-  {
-    "id": "gdtb-MN-grateful-gals-2026-06-07-crooners-supper-club-and-showr",
-    "name": "Grateful Gals — Crooners Supper Club and Showroom",
-    "band": "Grateful Gals",
-    "bandSlug": "grateful-gals",
-    "venue": "Crooners Supper Club and Showroom",
-    "city": "Minneapolis",
-    "state": "MN",
-    "lat": 44.9772995,
-    "lng": -93.2654692,
-    "date": "2026-06-07",
-    "time": "9 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MN",
-    "source": "gdtb",
-    "attractions": [
-      "Grateful Gals"
-    ]
-  },
-  {
     "id": "gdtb-MN-china-rider-2026-06-20-tuttle-s-eat-bowl-play",
     "name": "China Rider — Tuttle's Eat Bowl Play",
     "band": "China Rider",
@@ -9087,60 +8871,6 @@
     "source": "gdtb",
     "attractions": [
       "Ramble On Rose Band"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-deal-2026-06-07-58-east-mill-rd",
-    "name": "DEAL — 58 East Mill Rd",
-    "band": "DEAL",
-    "bandSlug": "deal",
-    "venue": "58 East Mill Rd",
-    "city": "Washington Township",
-    "state": "NJ",
-    "lat": 40.9884843,
-    "lng": -74.0652437,
-    "date": "2026-06-07",
-    "time": "2:00",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "DEAL"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-be5d-2026-06-07-lascala-s-beach-house",
-    "name": "Be5D — LaScala's Beach House",
-    "band": "Be5D",
-    "bandSlug": "be5d",
-    "venue": "LaScala's Beach House",
-    "city": "Brigantine",
-    "state": "NJ",
-    "lat": 39.4101171,
-    "lng": -74.3645906,
-    "date": "2026-06-07",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Be5D"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-bertha-grateful-drag-2026-06-07-the-stone-pony",
-    "name": "Bertha Grateful Drag — The Stone Pony",
-    "band": "Bertha Grateful Drag",
-    "bandSlug": "bertha-grateful-drag",
-    "venue": "The Stone Pony",
-    "city": "Asbury Park",
-    "state": "NJ",
-    "lat": 40.2203907,
-    "lng": -74.0120817,
-    "date": "2026-06-07",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Bertha Grateful Drag"
     ]
   },
   {
@@ -10869,78 +10599,6 @@
     "source": "gdtb",
     "attractions": [
       "Steely Dead"
-    ]
-  },
-  {
-    "id": "gdtb-NY-tiger-rose-2026-06-07-katch-at-venetian-shores",
-    "name": "Tiger Rose — Katch at Venetian Shores",
-    "band": "Tiger Rose",
-    "bandSlug": "tiger-rose",
-    "venue": "Katch at Venetian Shores",
-    "city": "Lindenhurst",
-    "state": "NY",
-    "lat": 40.6867667,
-    "lng": -73.3734547,
-    "date": "2026-06-07",
-    "time": "5 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Tiger Rose"
-    ]
-  },
-  {
-    "id": "gdtb-NY-mason-s-children-2026-06-07-ny-10573",
-    "name": "Mason's Children — NY 10573",
-    "band": "Mason's Children",
-    "bandSlug": "mason-s-children",
-    "venue": "NY 10573",
-    "city": "Port Chester",
-    "state": "NY",
-    "lat": 41.0017643,
-    "lng": -73.6656834,
-    "date": "2026-06-07",
-    "time": "7pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Mason's Children"
-    ]
-  },
-  {
-    "id": "gdtb-NY-tiger-rose-2026-06-07-katch-at-venetian-shores",
-    "name": "Tiger Rose — Katch at Venetian Shores",
-    "band": "Tiger Rose",
-    "bandSlug": "tiger-rose",
-    "venue": "Katch at Venetian Shores",
-    "city": "Lindenhurst",
-    "state": "NY",
-    "lat": 40.6867667,
-    "lng": -73.3734547,
-    "date": "2026-06-07",
-    "time": "5 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Tiger Rose"
-    ]
-  },
-  {
-    "id": "gdtb-NY-half-step-li-2026-06-07-industry-city-bandshell-courty",
-    "name": "Half Step LI — Industry City Bandshell Courtyard 1/2, Brooklyn, NY",
-    "band": "Half Step LI",
-    "bandSlug": "half-step-li",
-    "venue": "Industry City Bandshell Courtyard 1/2, Brooklyn, NY",
-    "city": "Brooklyn",
-    "state": "NY",
-    "lat": 40.6526006,
-    "lng": -73.9497211,
-    "date": "2026-06-07",
-    "time": "2:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Half Step LI"
     ]
   },
   {
@@ -13284,24 +12942,6 @@
     ]
   },
   {
-    "id": "gdtb-NC-dragons-with-matches-2026-06-07-1054-s-college-rd",
-    "name": "Dragons With Matches — 1054 S College Rd",
-    "band": "Dragons With Matches",
-    "bandSlug": "dragons-with-matches",
-    "venue": "1054 S College Rd",
-    "city": "Wilmington",
-    "state": "NC",
-    "lat": 34.2352853,
-    "lng": -77.9487284,
-    "date": "2026-06-07",
-    "time": "2 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NC",
-    "source": "gdtb",
-    "attractions": [
-      "Dragons With Matches"
-    ]
-  },
-  {
     "id": "gdtb-NC-eternally-grateful-2026-06-09-rhino-market-southpark",
     "name": "Eternally Grateful — Rhino Market Southpark",
     "band": "Eternally Grateful",
@@ -13731,42 +13371,6 @@
     "source": "gdtb",
     "attractions": [
       "Grateful For Biggie"
-    ]
-  },
-  {
-    "id": "gdtb-OH-dupree-s-dead-band-2026-06-07-harvest-moon-cafe-4183-west-st",
-    "name": "Dupree's Dead Band — Harvest Moon Cafe 4183 west streetsboro road Richfield OH",
-    "band": "Dupree's Dead Band",
-    "bandSlug": "dupree-s-dead-band",
-    "venue": "Harvest Moon Cafe 4183 west streetsboro road Richfield OH",
-    "city": "Richfield",
-    "state": "OH",
-    "lat": 41.2397772,
-    "lng": -81.6381785,
-    "date": "2026-06-07",
-    "time": "12 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OH",
-    "source": "gdtb",
-    "attractions": [
-      "Dupree's Dead Band"
-    ]
-  },
-  {
-    "id": "gdtb-OH-the-dead-revival-band-2026-06-07-7232-e-main-st-reynoldsburg-oh",
-    "name": "The Dead Revival Band — 7232 E MAIN ST Reynoldsburg OH United States Ohio 43068",
-    "band": "The Dead Revival Band",
-    "bandSlug": "the-dead-revival-band",
-    "venue": "7232 E MAIN ST Reynoldsburg OH United States Ohio 43068",
-    "city": "Reynoldsburg",
-    "state": "OH",
-    "lat": 39.9547861,
-    "lng": -82.8121191,
-    "date": "2026-06-07",
-    "time": "6:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OH",
-    "source": "gdtb",
-    "attractions": [
-      "The Dead Revival Band"
     ]
   },
   {
@@ -14688,24 +14292,6 @@
     ]
   },
   {
-    "id": "gdtb-OK-one-way-truckin-2026-06-07-venue-shrine",
-    "name": "One Way Truckin' — Venue Shrine",
-    "band": "One Way Truckin'",
-    "bandSlug": "one-way-truckin",
-    "venue": "Venue Shrine",
-    "city": "Tulsa",
-    "state": "OK",
-    "lat": 36.1563122,
-    "lng": -95.9927516,
-    "date": "2026-06-07",
-    "time": "5:20 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OK",
-    "source": "gdtb",
-    "attractions": [
-      "One Way Truckin'"
-    ]
-  },
-  {
     "id": "gdtb-OK-kc-bones-2026-06-26-the-venue-shrine",
     "name": "KC Bones — The Venue Shrine",
     "band": "KC Bones",
@@ -14973,42 +14559,6 @@
     "source": "gdtb",
     "attractions": [
       "Joe Russo's Almost Dead"
-    ]
-  },
-  {
-    "id": "gdtb-PA-time-s-forgotten-space-2026-06-07-foundation-tavern",
-    "name": "Time's Forgotten Space — Foundation Tavern",
-    "band": "Time's Forgotten Space",
-    "bandSlug": "time-s-forgotten-space",
-    "venue": "Foundation Tavern",
-    "city": "Allentown",
-    "state": "PA",
-    "lat": 40.6022552,
-    "lng": -75.4716115,
-    "date": "2026-06-07",
-    "time": "5 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
-    "source": "gdtb",
-    "attractions": [
-      "Time's Forgotten Space"
-    ]
-  },
-  {
-    "id": "gdtb-PA-special-event-2026-06-07-1049-ford-street",
-    "name": "Special Event — 1049 Ford Street",
-    "band": "Special Event",
-    "bandSlug": "special-event",
-    "venue": "1049 Ford Street",
-    "city": "Bridgeport",
-    "state": "PA",
-    "lat": 40.1043042,
-    "lng": -75.3429522,
-    "date": "2026-06-07",
-    "time": "4 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
-    "source": "gdtb",
-    "attractions": [
-      "Special Event"
     ]
   },
   {
@@ -16056,24 +15606,6 @@
     ]
   },
   {
-    "id": "gdtb-SC-thursday-s-dead-2026-06-07-819-n-kings-hwy",
-    "name": "Thursday's Dead — 819 N Kings Hwy",
-    "band": "Thursday's Dead",
-    "bandSlug": "thursday-s-dead",
-    "venue": "819 N Kings Hwy",
-    "city": "MYRTLE BEACH",
-    "state": "SC",
-    "lat": 33.6956461,
-    "lng": -78.8900409,
-    "date": "2026-06-07",
-    "time": "2pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=SC",
-    "source": "gdtb",
-    "attractions": [
-      "Thursday's Dead"
-    ]
-  },
-  {
     "id": "gdtb-SC-cosmic-charlie-2026-06-11-charleston-pour-house",
     "name": "Cosmic Charlie — Charleston Pour House",
     "band": "Cosmic Charlie",
@@ -16881,24 +16413,6 @@
     "source": "gdtb",
     "attractions": [
       "Terrapin Flyer"
-    ]
-  },
-  {
-    "id": "gdtb-VT-wolfman-jack-2026-06-07-the-stone-church",
-    "name": "Wolfman Jack — The Stone Church",
-    "band": "Wolfman Jack",
-    "bandSlug": "wolfman-jack",
-    "venue": "The Stone Church",
-    "city": "Brattleboro",
-    "state": "VT",
-    "lat": 42.8507588,
-    "lng": -72.5572913,
-    "date": "2026-06-07",
-    "time": "5 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=VT",
-    "source": "gdtb",
-    "attractions": [
-      "Wolfman Jack"
     ]
   },
   {
