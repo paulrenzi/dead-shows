@@ -2855,5 +2855,181 @@
   "rahway, nj": {
     "lat": 40.6081591,
     "lng": -74.2776468
+  },
+  "arcata, ca": {
+    "lat": 40.866517,
+    "lng": -124.08284
+  },
+  "san rafael, ca": {
+    "lat": 37.9747795,
+    "lng": -122.5316686
+  },
+  "sacramento, ca": {
+    "lat": 38.5810606,
+    "lng": -121.493895
+  },
+  "idyllwild, ca": {
+    "lat": 33.7402774,
+    "lng": -116.718942
+  },
+  "colorado springs, co": {
+    "lat": 38.8339578,
+    "lng": -104.825348
+  },
+  "manchester, ct": {
+    "lat": 41.7834017,
+    "lng": -72.5231973
+  },
+  "cape canaveral, fl": {
+    "lat": 28.4513556,
+    "lng": -80.5283059
+  },
+  "fort lauderdale, fl": {
+    "lat": 26.1223084,
+    "lng": -80.1433786
+  },
+  "st. charles, il": {
+    "lat": 41.9139808,
+    "lng": -88.3128183
+  },
+  "mundelein, il": {
+    "lat": 42.263079,
+    "lng": -88.0039653
+  },
+  "sheridan, il": {
+    "lat": 41.5300511,
+    "lng": -88.6799426
+  },
+  "urbana, il": {
+    "lat": 40.1117174,
+    "lng": -88.207301
+  },
+  "jeffersonville, in": {
+    "lat": 38.2770227,
+    "lng": -85.7371604
+  },
+  "lexington, ky": {
+    "lat": 38.0464066,
+    "lng": -84.4970393
+  },
+  "union bridge, md": {
+    "lat": 39.5684767,
+    "lng": -77.1814707
+  },
+  "amesbury, ma": {
+    "lat": 42.8579536,
+    "lng": -70.9300921
+  },
+  "chelmsford, ma": {
+    "lat": 42.5968617,
+    "lng": -71.3517602
+  },
+  "mashpee, ma": {
+    "lat": 41.6484421,
+    "lng": -70.4811383
+  },
+  "hudson, ma": {
+    "lat": 42.3913503,
+    "lng": -71.5676895
+  },
+  "grand junction, mi": {
+    "lat": 42.4042001,
+    "lng": -86.0730823
+  },
+  "reno, nv": {
+    "lat": 39.5261788,
+    "lng": -119.812658
+  },
+  "exeter, nh": {
+    "lat": 42.981477,
+    "lng": -70.9478343
+  },
+  "washington twp, nj": {
+    "lat": 40.9884843,
+    "lng": -74.0652437
+  },
+  "galloway twp, nj": {
+    "lat": 39.4646097,
+    "lng": -74.4986142
+  },
+  "egg harbor twp, nj": {
+    "lat": 39.3820672,
+    "lng": -74.6171489
+  },
+  "airmont, ny": {
+    "lat": 41.1009293,
+    "lng": -74.1162544
+  },
+  "new paltz, ny": {
+    "lat": 41.7464972,
+    "lng": -74.0844894
+  },
+  "clifton park, ny": {
+    "lat": 42.8630374,
+    "lng": -73.7747623
+  },
+  "rye, ny": {
+    "lat": 40.9821371,
+    "lng": -73.6840902
+  },
+  "new lebanon, ny": {
+    "lat": 42.4639722,
+    "lng": -73.3964977
+  },
+  "chestertown, ny": {
+    "lat": 43.6450997,
+    "lng": -73.792935
+  },
+  "arrowhead, ny": {
+    "lat": 40.9607762,
+    "lng": -72.7703838
+  },
+  "carmel, ny": {
+    "lat": 41.4266361,
+    "lng": -73.6788272
+  },
+  "hatteras, nc": {
+    "lat": 35.2252064,
+    "lng": -75.5279144
+  },
+  "greensboro, nc": {
+    "lat": 36.0726355,
+    "lng": -79.7919754
+  },
+  "southern pines, nc": {
+    "lat": 35.1740471,
+    "lng": -79.3922539
+  },
+  "cuyahoga falls, 44224, oh": {
+    "lat": 41.1362729,
+    "lng": -81.4828123
+  },
+  "lakewood, oh": {
+    "lat": 41.4819932,
+    "lng": -81.7981908
+  },
+  "hellertown, pa": {
+    "lat": 40.5816845,
+    "lng": -75.3360613
+  },
+  "glenside, pa": {
+    "lat": 40.103196,
+    "lng": -75.1515534
+  },
+  "knoxville, tn": {
+    "lat": 35.9603948,
+    "lng": -83.9210261
+  },
+  "frisco, tx": {
+    "lat": 33.1505998,
+    "lng": -96.8238183
+  },
+  "jay, vt": {
+    "lat": 44.9481252,
+    "lng": -72.4381452
+  },
+  "superior, wi": {
+    "lat": 46.7207737,
+    "lng": -92.1040796
   }
 }

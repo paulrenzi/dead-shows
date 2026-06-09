@@ -1568,5 +1568,41 @@
     "tried": "2026-06-07",
     "matched": true,
     "name": "Silver String Slingers"
+  },
+  "rusted-roses": {
+    "tried": "2026-06-09",
+    "matched": false
+  },
+  "completely-dead": {
+    "tried": "2026-06-09",
+    "matched": false
+  },
+  "a-band-beyond-description": {
+    "tried": "2026-06-09",
+    "matched": false
+  },
+  "rays-of-violet": {
+    "tried": "2026-06-09",
+    "matched": false
+  },
+  "grateful-tuesday": {
+    "tried": "2026-06-09",
+    "matched": false
+  },
+  "le-salty-dead": {
+    "tried": "2026-06-09",
+    "matched": false
+  },
+  "call-down-thunder": {
+    "tried": "2026-06-09",
+    "matched": false
+  },
+  "miracle-ticket": {
+    "tried": "2026-06-09",
+    "matched": false
+  },
+  "lazylightning420": {
+    "tried": "2026-06-09",
+    "matched": false
   }
 }
