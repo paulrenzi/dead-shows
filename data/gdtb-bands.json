@@ -30,12 +30,6 @@
     "state": "AK"
   },
   {
-    "slug": "easy-wind",
-    "name": "Easy Wind",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
     "slug": "one-man-gone",
     "name": "One Man Gone",
     "source": "gratefuldeadtributebands.com",
@@ -110,6 +104,12 @@
   {
     "slug": "wall-of-sound",
     "name": "Wall Of Sound",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
+    "slug": "easy-wind",
+    "name": "Easy Wind",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
   },
@@ -384,12 +384,6 @@
     "state": "CT"
   },
   {
-    "slug": "crazy-fingers",
-    "name": "Crazy Fingers",
-    "source": "gratefuldeadtributebands.com",
-    "state": "FL"
-  },
-  {
     "slug": "love-valley",
     "name": "Love Valley",
     "source": "gratefuldeadtributebands.com",
@@ -410,6 +404,12 @@
   {
     "slug": "unlimited-devotion",
     "name": "Unlimited Devotion",
+    "source": "gratefuldeadtributebands.com",
+    "state": "FL"
+  },
+  {
+    "slug": "crazy-fingers",
+    "name": "Crazy Fingers",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
@@ -852,6 +852,12 @@
     "state": "MA"
   },
   {
+    "slug": "uncle-john-s-banjo",
+    "name": "Uncle John's Banjo",
+    "source": "gratefuldeadtributebands.com",
+    "state": "MA"
+  },
+  {
     "slug": "violin-river",
     "name": "Violin River",
     "source": "gratefuldeadtributebands.com",
@@ -1032,18 +1038,6 @@
     "state": "NH"
   },
   {
-    "slug": "dead-reckoning",
-    "name": "Dead Reckoning",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "grateful-tuesday",
-    "name": "Grateful Tuesday",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "the-brian-st-john-band",
     "name": "The Brian St John Band",
     "source": "gratefuldeadtributebands.com",
@@ -1088,6 +1082,12 @@
   {
     "slug": "achievers-band",
     "name": "Achievers Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "dead-reckoning",
+    "name": "Dead Reckoning",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1524,14 +1524,14 @@
     "state": "PA"
   },
   {
-    "slug": "so-many-rhodes",
-    "name": "So Many Rhodes",
+    "slug": "blue-drew-and-the-magoos",
+    "name": "Blue Drew and the Magoos",
     "source": "gratefuldeadtributebands.com",
     "state": "RI"
   },
   {
-    "slug": "blue-drew-and-the-magoos",
-    "name": "Blue Drew and the Magoos",
+    "slug": "so-many-rhodes",
+    "name": "So Many Rhodes",
     "source": "gratefuldeadtributebands.com",
     "state": "RI"
   },
