@@ -1,23 +1,5 @@
 [
   {
-    "id": "gdtb-AL-jrad-2026-06-10-avondale-brewing-company",
-    "name": "Joe Russo's Almost Dead — Avondale Brewing Company",
-    "band": "Joe Russo's Almost Dead",
-    "bandSlug": "jrad",
-    "venue": "Avondale Brewing Company",
-    "city": "Birmingham",
-    "state": "AL",
-    "lat": 33.5206824,
-    "lng": -86.8024326,
-    "date": "2026-06-10",
-    "time": "7 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=AL",
-    "source": "gdtb",
-    "attractions": [
-      "Joe Russo's Almost Dead"
-    ]
-  },
-  {
     "id": "gdtb-AL-east-la-fadeaway-2026-06-20-daphne",
     "name": "East LA Fadeaway — Daphne",
     "band": "East LA Fadeaway",
@@ -1347,24 +1329,6 @@
     "source": "gdtb",
     "attractions": [
       "Pete Sawyer & The LHMWG"
-    ]
-  },
-  {
-    "id": "gdtb-CO-shakedown-street-2026-06-10-granby-ranch",
-    "name": "Shakedown Street — Granby Ranch",
-    "band": "Shakedown Street",
-    "bandSlug": "shakedown-street",
-    "venue": "Granby Ranch",
-    "city": "Granby",
-    "state": "CO",
-    "lat": 40.0860969,
-    "lng": -105.939459,
-    "date": "2026-06-10",
-    "time": "7 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
-    "source": "gdtb",
-    "attractions": [
-      "Shakedown Street"
     ]
   },
   {
@@ -3813,24 +3777,6 @@
     "source": "gdtb",
     "attractions": [
       "Melvin Seals and JGB"
-    ]
-  },
-  {
-    "id": "gdtb-FL-love-valley-2026-06-10-johnathan-s-pub",
-    "name": "Love Valley — Johnathan's Pub,",
-    "band": "Love Valley",
-    "bandSlug": "love-valley",
-    "venue": "Johnathan's Pub,",
-    "city": "Cocoa Beach",
-    "state": "FL",
-    "lat": 28.3184107,
-    "lng": -80.6094959,
-    "date": "2026-06-10",
-    "time": "8:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Love Valley"
     ]
   },
   {
@@ -6876,24 +6822,6 @@
     ]
   },
   {
-    "id": "gdtb-ME-a-band-beyond-description-2026-06-10-portland-house-of-music",
-    "name": "A Band Beyond Description — Portland House of Music>",
-    "band": "A Band Beyond Description",
-    "bandSlug": "a-band-beyond-description",
-    "venue": "Portland House of Music>",
-    "city": "Portland",
-    "state": "ME",
-    "lat": 43.6573605,
-    "lng": -70.2586618,
-    "date": "2026-06-10",
-    "time": "8 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=ME",
-    "source": "gdtb",
-    "attractions": [
-      "A Band Beyond Description"
-    ]
-  },
-  {
     "id": "gdtb-ME-mystic-dead-2026-06-16-the-hounds",
     "name": "Mystic Dead — the Hounds",
     "band": "Mystic Dead",
@@ -7053,24 +6981,6 @@
     "source": "gdtb",
     "attractions": [
       "Wolfman Jack"
-    ]
-  },
-  {
-    "id": "gdtb-MD-better-off-dead-band-2026-06-10-10-e-cross-st-baltimore-maryla",
-    "name": "Better Off Dead Band — 10 E Cross St Baltimore Maryland 21230 United States",
-    "band": "Better Off Dead Band",
-    "bandSlug": "better-off-dead-band",
-    "venue": "10 E Cross St Baltimore Maryland 21230 United States",
-    "city": "Baltimore",
-    "state": "MD",
-    "lat": 39.2908816,
-    "lng": -76.610759,
-    "date": "2026-06-10",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MD",
-    "source": "gdtb",
-    "attractions": [
-      "Better Off Dead Band"
     ]
   },
   {
@@ -7632,24 +7542,6 @@
     ]
   },
   {
-    "id": "gdtb-MA-playing-dead-2026-06-10-grateful-wednesday-residency-a",
-    "name": "Playing Dead — Grateful Wednesday Residency at Soundcheck Studios",
-    "band": "Playing Dead",
-    "bandSlug": "playing-dead",
-    "venue": "Grateful Wednesday Residency at Soundcheck Studios",
-    "city": "Pembroke",
-    "state": "MA",
-    "lat": 42.0714907,
-    "lng": -70.8092074,
-    "date": "2026-06-10",
-    "time": "8 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "Playing Dead"
-    ]
-  },
-  {
     "id": "gdtb-MA-legends-of-mary-2026-06-11-1667-massachusetts-avenue",
     "name": "Legends Of Mary — 1667 Massachusetts Avenue",
     "band": "Legends Of Mary",
@@ -7791,6 +7683,24 @@
     "source": "gdtb",
     "attractions": [
       "Settle Down Easy"
+    ]
+  },
+  {
+    "id": "gdtb-MA-moose-juice-2026-06-14-82-main-st",
+    "name": "Moose Juice — 82 Main St",
+    "band": "Moose Juice",
+    "bandSlug": "moose-juice",
+    "venue": "82 Main St",
+    "city": "Maynard",
+    "state": "MA",
+    "lat": 42.4321064,
+    "lng": -71.4539683,
+    "date": "2026-06-14",
+    "time": "4:30",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
+    "source": "gdtb",
+    "attractions": [
+      "Moose Juice"
     ]
   },
   {
@@ -10368,42 +10278,6 @@
     ]
   },
   {
-    "id": "gdtb-NJ-the-brian-st-john-band-2026-06-10-o-reillys-pub",
-    "name": "The Brian St John Band — O'Reillys Pub",
-    "band": "The Brian St John Band",
-    "bandSlug": "the-brian-st-john-band",
-    "venue": "O'Reillys Pub",
-    "city": "Newton",
-    "state": "NJ",
-    "lat": 41.0583121,
-    "lng": -74.7531445,
-    "date": "2026-06-10",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "The Brian St John Band"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-workingman-s-jed-2026-06-10-homestead-bar-kitchen",
-    "name": "Workingman's Jed — Homestead Bar & Kitchen",
-    "band": "Workingman's Jed",
-    "bandSlug": "workingman-s-jed",
-    "venue": "Homestead Bar & Kitchen",
-    "city": "Morristown",
-    "state": "NJ",
-    "lat": 40.7970382,
-    "lng": -74.4809868,
-    "date": "2026-06-10",
-    "time": "8 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Workingman's Jed"
-    ]
-  },
-  {
     "id": "gdtb-NJ-diomede-and-donovan-2026-06-11-olde-village-pub-and-liquors",
     "name": "Diomede And Donovan — Olde Village Pub and Liquors",
     "band": "Diomede And Donovan",
@@ -12582,60 +12456,6 @@
     ]
   },
   {
-    "id": "gdtb-NY-the-wheel-2026-06-10-champlain-valley-fair-essex-ju",
-    "name": "The Wheel — Champlain Valley Fair Essex Junction",
-    "band": "The Wheel",
-    "bandSlug": "the-wheel",
-    "venue": "Champlain Valley Fair Essex Junction",
-    "city": "Albany",
-    "state": "NY",
-    "lat": 42.6511674,
-    "lng": -73.754968,
-    "date": "2026-06-10",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "The Wheel"
-    ]
-  },
-  {
-    "id": "gdtb-NY-half-step-li-2026-06-10-the-warehouse-amityville-ny-11",
-    "name": "Half Step LI — The Warehouse, Amityville, NY 11701-3023",
-    "band": "Half Step LI",
-    "bandSlug": "half-step-li",
-    "venue": "The Warehouse, Amityville, NY 11701-3023",
-    "city": "Amityville",
-    "state": "NY",
-    "lat": 40.6789893,
-    "lng": -73.4170673,
-    "date": "2026-06-10",
-    "time": "7:30PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Half Step LI"
-    ]
-  },
-  {
-    "id": "gdtb-NY-delilah-jones-2026-06-10-rochester-public-market-roches",
-    "name": "Delilah Jones — Rochester Public Market Rochester NY 14609 United States",
-    "band": "Delilah Jones",
-    "bandSlug": "delilah-jones",
-    "venue": "Rochester Public Market Rochester NY 14609 United States",
-    "city": "Rochester",
-    "state": "NY",
-    "lat": 43.157285,
-    "lng": -77.615214,
-    "date": "2026-06-10",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Delilah Jones"
-    ]
-  },
-  {
     "id": "gdtb-NY-trouble-junction-2026-06-11-maureen-s-jazz-cellar",
     "name": "Trouble Junction — Maureen's Jazz Cellar",
     "band": "Trouble Junction",
@@ -12665,6 +12485,24 @@
     "lng": -74.0023825,
     "date": "2026-06-12",
     "time": "6:30",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "So Many Roads"
+    ]
+  },
+  {
+    "id": "gdtb-NY-so-many-roads-2026-06-12-40-rondout-landing",
+    "name": "So Many Roads — 40 Rondout Landing",
+    "band": "So Many Roads",
+    "bandSlug": "so-many-roads",
+    "venue": "40 Rondout Landing",
+    "city": "Kingston",
+    "state": "NY",
+    "lat": 41.9287812,
+    "lng": -74.0023825,
+    "date": "2026-06-12",
+    "time": "7:00",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
     "source": "gdtb",
     "attractions": [
@@ -15243,24 +15081,6 @@
     "source": "gdtb",
     "attractions": [
       "Dead & Friends"
-    ]
-  },
-  {
-    "id": "gdtb-NC-eternally-grateful-2026-06-10-jack-s-live",
-    "name": "Eternally Grateful — Jack's Live",
-    "band": "Eternally Grateful",
-    "bandSlug": "eternally-grateful",
-    "venue": "Jack's Live",
-    "city": "Charlotte",
-    "state": "NC",
-    "lat": 35.2272086,
-    "lng": -80.8430827,
-    "date": "2026-06-10",
-    "time": "7:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NC",
-    "source": "gdtb",
-    "attractions": [
-      "Eternally Grateful"
     ]
   },
   {
@@ -20628,6 +20448,24 @@
     ]
   },
   {
+    "id": "gdtb-WI-another-one-2026-07-02-w379s9674-county-road-s",
+    "name": "Another One — W379S9674 County Road S",
+    "band": "Another One",
+    "bandSlug": "another-one",
+    "venue": "W379S9674 County Road S",
+    "city": "EAGLE",
+    "state": "WI",
+    "lat": 42.8794563,
+    "lng": -88.474265,
+    "date": "2026-07-02",
+    "time": "12 pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=WI",
+    "source": "gdtb",
+    "attractions": [
+      "Another One"
+    ]
+  },
+  {
     "id": "gdtb-WI-mr-blotto-2026-07-02-reid-park-gazebo",
     "name": "Mr. Blotto — Reid Park Gazebo",
     "band": "Mr. Blotto",
@@ -20639,6 +20477,42 @@
     "lng": -88.5750725,
     "date": "2026-07-02",
     "time": "6:00 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=WI",
+    "source": "gdtb",
+    "attractions": [
+      "Mr. Blotto"
+    ]
+  },
+  {
+    "id": "gdtb-WI-boney-fingers-2026-07-03-w379s9674-county-road-s",
+    "name": "Boney Fingers — W379S9674 County Road S",
+    "band": "Boney Fingers",
+    "bandSlug": "boney-fingers",
+    "venue": "W379S9674 County Road S",
+    "city": "EAGLE",
+    "state": "WI",
+    "lat": 42.8794563,
+    "lng": -88.474265,
+    "date": "2026-07-03",
+    "time": "12 pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=WI",
+    "source": "gdtb",
+    "attractions": [
+      "Boney Fingers"
+    ]
+  },
+  {
+    "id": "gdtb-WI-mr-blotto-2026-07-03-w379s9674-county-road-s",
+    "name": "Mr. Blotto — W379S9674 County Road S",
+    "band": "Mr. Blotto",
+    "bandSlug": "mr-blotto",
+    "venue": "W379S9674 County Road S",
+    "city": "EAGLE",
+    "state": "WI",
+    "lat": 42.8794563,
+    "lng": -88.474265,
+    "date": "2026-07-03",
+    "time": "9 pm",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=WI",
     "source": "gdtb",
     "attractions": [

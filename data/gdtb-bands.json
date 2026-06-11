@@ -186,12 +186,6 @@
     "state": "CA"
   },
   {
-    "slug": "shakedown-street",
-    "name": "Shakedown Street",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CO"
-  },
-  {
     "slug": "tumbledown-shack",
     "name": "Tumbledown Shack",
     "source": "gratefuldeadtributebands.com",
@@ -206,6 +200,12 @@
   {
     "slug": "chinaflower-suncats",
     "name": "Chinaflower Suncats",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CO"
+  },
+  {
+    "slug": "shakedown-street",
+    "name": "Shakedown Street",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
@@ -660,12 +660,6 @@
     "state": "KY"
   },
   {
-    "slug": "a-band-beyond-description",
-    "name": "A Band Beyond Description",
-    "source": "gratefuldeadtributebands.com",
-    "state": "ME"
-  },
-  {
     "slug": "rose-alley",
     "name": "Rose Alley",
     "source": "gratefuldeadtributebands.com",
@@ -680,6 +674,12 @@
   {
     "slug": "not-fade-away-band",
     "name": "Not Fade Away Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "ME"
+  },
+  {
+    "slug": "a-band-beyond-description",
+    "name": "A Band Beyond Description",
     "source": "gratefuldeadtributebands.com",
     "state": "ME"
   },
@@ -1038,18 +1038,6 @@
     "state": "NH"
   },
   {
-    "slug": "the-brian-st-john-band",
-    "name": "The Brian St John Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "workingman-s-jed",
-    "name": "Workingman's Jed",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "diomede-and-donovan",
     "name": "Diomede And Donovan",
     "source": "gratefuldeadtributebands.com",
@@ -1112,6 +1100,12 @@
   {
     "slug": "scarlet-magnolia",
     "name": "Scarlet Magnolia",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "the-brian-st-john-band",
+    "name": "The Brian St John Band",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1206,24 +1200,6 @@
     "state": "NJ"
   },
   {
-    "slug": "the-wheel",
-    "name": "The Wheel",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
-    "slug": "half-step-li",
-    "name": "Half Step LI",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
-    "slug": "delilah-jones",
-    "name": "Delilah Jones",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
     "slug": "so-many-roads",
     "name": "So Many Roads",
     "source": "gratefuldeadtributebands.com",
@@ -1260,6 +1236,18 @@
     "state": "NY"
   },
   {
+    "slug": "delilah-jones",
+    "name": "Delilah Jones",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "half-step-li",
+    "name": "Half Step LI",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
     "slug": "eric-carlin-s-half-dead",
     "name": "Eric Carlin's Half-Dead",
     "source": "gratefuldeadtributebands.com",
@@ -1292,6 +1280,12 @@
   {
     "slug": "dead-meat",
     "name": "Dead Meat",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "the-wheel",
+    "name": "The Wheel",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
