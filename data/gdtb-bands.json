@@ -30,18 +30,6 @@
     "state": "AK"
   },
   {
-    "slug": "one-man-gone",
-    "name": "One Man Gone",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
-    "slug": "scott-guberman",
-    "name": "Scott Guberman",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
     "slug": "definitely-dead",
     "name": "Definitely Dead",
     "source": "gratefuldeadtributebands.com",
@@ -126,6 +114,12 @@
     "state": "CA"
   },
   {
+    "slug": "one-man-gone",
+    "name": "One Man Gone",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
     "slug": "scarlett-fyre",
     "name": "Scarlett Fyre",
     "source": "gratefuldeadtributebands.com",
@@ -186,12 +180,6 @@
     "state": "CA"
   },
   {
-    "slug": "tumbledown-shack",
-    "name": "Tumbledown Shack",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CO"
-  },
-  {
     "slug": "built-to-last",
     "name": "Built to Last",
     "source": "gratefuldeadtributebands.com",
@@ -212,6 +200,12 @@
   {
     "slug": "shakedown-sunday",
     "name": "Shakedown Sunday",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CO"
+  },
+  {
+    "slug": "tumbledown-shack",
+    "name": "Tumbledown Shack",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
@@ -280,12 +274,6 @@
     "name": "Shakedown Strings",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
-  },
-  {
-    "slug": "mystic-dead",
-    "name": "Mystic Dead",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CT"
   },
   {
     "slug": "the-deadheads",
@@ -384,26 +372,26 @@
     "state": "CT"
   },
   {
-    "slug": "love-valley",
-    "name": "Love Valley",
-    "source": "gratefuldeadtributebands.com",
-    "state": "FL"
-  },
-  {
-    "slug": "morning-dew",
-    "name": "Morning Dew",
-    "source": "gratefuldeadtributebands.com",
-    "state": "FL"
-  },
-  {
     "slug": "the-cosmic-jam",
     "name": "The Cosmic Jam",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
   {
+    "slug": "love-valley",
+    "name": "Love Valley",
+    "source": "gratefuldeadtributebands.com",
+    "state": "FL"
+  },
+  {
     "slug": "unlimited-devotion",
     "name": "Unlimited Devotion",
+    "source": "gratefuldeadtributebands.com",
+    "state": "FL"
+  },
+  {
+    "slug": "morning-dew",
+    "name": "Morning Dew",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
@@ -660,6 +648,12 @@
     "state": "KY"
   },
   {
+    "slug": "mystic-dead",
+    "name": "Mystic Dead",
+    "source": "gratefuldeadtributebands.com",
+    "state": "ME"
+  },
+  {
     "slug": "rose-alley",
     "name": "Rose Alley",
     "source": "gratefuldeadtributebands.com",
@@ -692,12 +686,6 @@
   {
     "slug": "better-off-dead-band",
     "name": "Better Off Dead Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MD"
-  },
-  {
-    "slug": "better-weather",
-    "name": "Better Weather",
     "source": "gratefuldeadtributebands.com",
     "state": "MD"
   },
@@ -772,12 +760,6 @@
     "name": "Stanley Jordan Plays The Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "MD"
-  },
-  {
-    "slug": "legends-of-mary",
-    "name": "Legends Of Mary",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MA"
   },
   {
     "slug": "talking-deads",
@@ -1038,18 +1020,6 @@
     "state": "NH"
   },
   {
-    "slug": "diomede-and-donovan",
-    "name": "Diomede And Donovan",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "lovelight",
-    "name": "LoveLight",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "the-big-trip",
     "name": "The Big Trip",
     "source": "gratefuldeadtributebands.com",
@@ -1086,6 +1056,12 @@
     "state": "NJ"
   },
   {
+    "slug": "lovelight",
+    "name": "LoveLight",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
     "slug": "baked-alaska",
     "name": "Baked Alaska",
     "source": "gratefuldeadtributebands.com",
@@ -1100,6 +1076,12 @@
   {
     "slug": "scarlet-magnolia",
     "name": "Scarlet Magnolia",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "diomede-and-donovan",
+    "name": "Diomede And Donovan",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1368,18 +1350,6 @@
     "state": "NC"
   },
   {
-    "slug": "dead-centric",
-    "name": "Dead Centric",
-    "source": "gratefuldeadtributebands.com",
-    "state": "OH"
-  },
-  {
-    "slug": "dupree-s-dead-band",
-    "name": "Dupree's Dead Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "OH"
-  },
-  {
     "slug": "jimiller-band",
     "name": "JiMiller Band",
     "source": "gratefuldeadtributebands.com",
@@ -1394,6 +1364,12 @@
   {
     "slug": "bosco-jigs",
     "name": "Bosco Jigs",
+    "source": "gratefuldeadtributebands.com",
+    "state": "OH"
+  },
+  {
+    "slug": "dupree-s-dead-band",
+    "name": "Dupree's Dead Band",
     "source": "gratefuldeadtributebands.com",
     "state": "OH"
   },
@@ -1658,6 +1634,12 @@
   {
     "slug": "boney-fingers",
     "name": "Boney Fingers",
+    "source": "gratefuldeadtributebands.com",
+    "state": "WI"
+  },
+  {
+    "slug": "special-event-wave-that-flag-festival",
+    "name": "Special Event Wave That Flag Festival",
     "source": "gratefuldeadtributebands.com",
     "state": "WI"
   },
