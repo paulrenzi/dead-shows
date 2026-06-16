@@ -507,5 +507,25 @@
     "photo": "images/bands/silver-string-slingers.jpg",
     "source": "deezer",
     "matchedName": "Silver String Slingers"
+  },
+  "the-bailiwicks": {
+    "photo": "images/bands/the-bailiwicks.jpg",
+    "source": "deezer",
+    "matchedName": "The Bailiwicks"
+  },
+  "caution": {
+    "photo": "images/bands/caution.jpg",
+    "source": "deezer",
+    "matchedName": "Caution"
+  },
+  "rising-tide": {
+    "photo": "images/bands/rising-tide.jpg",
+    "source": "deezer",
+    "matchedName": "Rising Tide"
+  },
+  "blackhand": {
+    "photo": "images/bands/blackhand.jpg",
+    "source": "deezer",
+    "matchedName": "Blackhand"
   }
 }

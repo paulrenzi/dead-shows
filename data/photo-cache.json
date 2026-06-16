@@ -1608,5 +1608,41 @@
   "special-event-wave-that-flag-festival": {
     "tried": "2026-06-12",
     "matched": false
+  },
+  "the-bailiwicks": {
+    "tried": "2026-06-16",
+    "matched": true,
+    "name": "The Bailiwicks"
+  },
+  "caution": {
+    "tried": "2026-06-16",
+    "matched": true,
+    "name": "Caution"
+  },
+  "rising-tide": {
+    "tried": "2026-06-16",
+    "matched": true,
+    "name": "Rising Tide"
+  },
+  "grateful-dudes-nc": {
+    "tried": "2026-06-16",
+    "matched": false
+  },
+  "jerry-s-dead": {
+    "tried": "2026-06-16",
+    "matched": false
+  },
+  "pits-players": {
+    "tried": "2026-06-16",
+    "matched": false
+  },
+  "gratefolk": {
+    "tried": "2026-06-16",
+    "matched": false
+  },
+  "blackhand": {
+    "tried": "2026-06-16",
+    "matched": true,
+    "name": "Blackhand"
   }
 }
