@@ -527,5 +527,10 @@
     "photo": "images/bands/blackhand.jpg",
     "source": "deezer",
     "matchedName": "Blackhand"
+  },
+  "finders-keepers": {
+    "photo": "images/bands/finders-keepers.jpg",
+    "source": "deezer",
+    "matchedName": "Finders Keepers"
   }
 }

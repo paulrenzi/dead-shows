@@ -90,24 +90,6 @@
     ]
   },
   {
-    "id": "gdtb-AK-deadphish-orchestra-2026-06-16-alice-s-champagne-palace",
-    "name": "DeadPhish Orchestra — Alice's Champagne Palace",
-    "band": "DeadPhish Orchestra",
-    "bandSlug": "deadphish-orchestra",
-    "venue": "Alice's Champagne Palace",
-    "city": "Homer",
-    "state": "AK",
-    "lat": 59.6454064,
-    "lng": -151.5445643,
-    "date": "2026-06-16",
-    "time": "12 AM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=AK",
-    "source": "gdtb",
-    "attractions": [
-      "DeadPhish Orchestra"
-    ]
-  },
-  {
     "id": "gdtb-AK-deadphish-orchestra-2026-06-19-arctic-valley-ski-area",
     "name": "DeadPhish Orchestra — Arctic Valley Ski Area",
     "band": "DeadPhish Orchestra",
@@ -2250,6 +2232,24 @@
     ]
   },
   {
+    "id": "gdtb-CT-finders-keepers-2026-06-20-1323-king-st",
+    "name": "Finders Keepers — 1323 King St",
+    "band": "Finders Keepers",
+    "bandSlug": "finders-keepers",
+    "venue": "1323 King St",
+    "city": "Greenwich",
+    "state": "CT",
+    "lat": 41.0264862,
+    "lng": -73.6284598,
+    "date": "2026-06-20",
+    "time": "8:00pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
+    "source": "gdtb",
+    "attractions": [
+      "Finders Keepers"
+    ]
+  },
+  {
     "id": "gdtb-CT-gratefully-yours-2026-06-20-sharon-valley-tavern",
     "name": "Gratefully Yours — Sharon Valley Tavern",
     "band": "Gratefully Yours",
@@ -3363,42 +3363,6 @@
     "source": "gdtb",
     "attractions": [
       "Melvin Seals and JGB"
-    ]
-  },
-  {
-    "id": "gdtb-FL-love-valley-2026-06-16-sandbar-satellite-beach",
-    "name": "Love Valley — Sandbar Satellite Beach ,",
-    "band": "Love Valley",
-    "bandSlug": "love-valley",
-    "venue": "Sandbar Satellite Beach ,",
-    "city": "Satellite Beach",
-    "state": "FL",
-    "lat": 28.1760051,
-    "lng": -80.5904623,
-    "date": "2026-06-16",
-    "time": "7:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Love Valley"
-    ]
-  },
-  {
-    "id": "gdtb-FL-crazy-fingers-2026-06-16-the-funky-biscuit-boca-raton-f",
-    "name": "Crazy Fingers — The Funky Biscuit, Boca Raton, FL 33432",
-    "band": "Crazy Fingers",
-    "bandSlug": "crazy-fingers",
-    "venue": "The Funky Biscuit, Boca Raton, FL 33432",
-    "city": "Boca Raton",
-    "state": "FL",
-    "lat": 26.3586885,
-    "lng": -80.0830984,
-    "date": "2026-06-16",
-    "time": "7:30PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Crazy Fingers"
     ]
   },
   {
@@ -6369,24 +6333,6 @@
     "source": "gdtb",
     "attractions": [
       "Born Cross Eyed-KY"
-    ]
-  },
-  {
-    "id": "gdtb-ME-mystic-dead-2026-06-16-the-hounds",
-    "name": "Mystic Dead — the Hounds",
-    "band": "Mystic Dead",
-    "bandSlug": "mystic-dead",
-    "venue": "the Hounds",
-    "city": "Stonington",
-    "state": "ME",
-    "lat": 44.156593,
-    "lng": -68.667297,
-    "date": "2026-06-16",
-    "time": "6pm - 9pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=ME",
-    "source": "gdtb",
-    "attractions": [
-      "Mystic Dead"
     ]
   },
   {
@@ -9663,78 +9609,6 @@
     "source": "gdtb",
     "attractions": [
       "Ramble On Rose Band"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-deadful-greats-2026-06-16-15-e-firehouse-ln",
-    "name": "Deadful Greats — 15 E Firehouse Ln",
-    "band": "Deadful Greats",
-    "bandSlug": "deadful-greats",
-    "venue": "15 E Firehouse Ln",
-    "city": "Paramus",
-    "state": "NJ",
-    "lat": 40.9452911,
-    "lng": -74.0735899,
-    "date": "2026-06-16",
-    "time": "8PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Deadful Greats"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-deadful-greats-2026-06-16-orange-lantern",
-    "name": "Deadful Greats — Orange Lantern",
-    "band": "Deadful Greats",
-    "bandSlug": "deadful-greats",
-    "venue": "Orange Lantern",
-    "city": "Paramus",
-    "state": "NJ",
-    "lat": 40.9452911,
-    "lng": -74.0735899,
-    "date": "2026-06-16",
-    "time": "8 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Deadful Greats"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-diomede-and-donovan-2026-06-16-donovan-s-reef",
-    "name": "Diomede And Donovan — Donovan's Reef",
-    "band": "Diomede And Donovan",
-    "bandSlug": "diomede-and-donovan",
-    "venue": "Donovan's Reef",
-    "city": "Rumson",
-    "state": "NJ",
-    "lat": 40.372054,
-    "lng": -73.9990269,
-    "date": "2026-06-16",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Diomede And Donovan"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-grateful-tuesday-2026-06-16-orange-lantern",
-    "name": "Grateful Tuesday — Orange Lantern",
-    "band": "Grateful Tuesday",
-    "bandSlug": "grateful-tuesday",
-    "venue": "Orange Lantern",
-    "city": "Paramus",
-    "state": "NJ",
-    "lat": 40.9452911,
-    "lng": -74.0735899,
-    "date": "2026-06-16",
-    "time": "8 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Grateful Tuesday"
     ]
   },
   {
@@ -14274,24 +14148,6 @@
     ]
   },
   {
-    "id": "gdtb-NC-eternally-grateful-2026-06-16-triple-c-brewing",
-    "name": "Eternally Grateful — Triple C Brewing",
-    "band": "Eternally Grateful",
-    "bandSlug": "eternally-grateful",
-    "venue": "Triple C Brewing",
-    "city": "Charlotte",
-    "state": "NC",
-    "lat": 35.2272086,
-    "lng": -80.8430827,
-    "date": "2026-06-16",
-    "time": "8:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NC",
-    "source": "gdtb",
-    "attractions": [
-      "Eternally Grateful"
-    ]
-  },
-  {
     "id": "gdtb-NC-eternally-grateful-2026-06-19-jack-s-live",
     "name": "Eternally Grateful — Jack's Live",
     "band": "Eternally Grateful",
@@ -15948,24 +15804,6 @@
     ]
   },
   {
-    "id": "gdtb-OR-terrapin-flyer-2026-06-16-talent-club",
-    "name": "Terrapin Flyer — Talent Club",
-    "band": "Terrapin Flyer",
-    "bandSlug": "terrapin-flyer",
-    "venue": "Talent Club",
-    "city": "Talent",
-    "state": "OR",
-    "lat": 42.243808,
-    "lng": -122.788924,
-    "date": "2026-06-16",
-    "time": "11 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OR",
-    "source": "gdtb",
-    "attractions": [
-      "Terrapin Flyer"
-    ]
-  },
-  {
     "id": "gdtb-OR-terrapin-flyer-2026-06-17-talent-club",
     "name": "Terrapin Flyer — Talent Club",
     "band": "Terrapin Flyer",
@@ -16470,6 +16308,24 @@
     ]
   },
   {
+    "id": "gdtb-PA-deal-2026-06-25-556-main-street",
+    "name": "DEAL — 556 Main Street",
+    "band": "DEAL",
+    "bandSlug": "deal",
+    "venue": "556 Main Street",
+    "city": "Bethlehem",
+    "state": "PA",
+    "lat": 40.6178915,
+    "lng": -75.3786521,
+    "date": "2026-06-25",
+    "time": "5:30",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
+    "source": "gdtb",
+    "attractions": [
+      "DEAL"
+    ]
+  },
+  {
     "id": "gdtb-PA-englishtown-project-2026-06-25-picnic-grove-rd-blain-pa-17006",
     "name": "Englishtown Project — Picnic Grove Rd Blain PA 17006 United States",
     "band": "Englishtown Project",
@@ -16575,6 +16431,24 @@
     "source": "gdtb",
     "attractions": [
       "Shakedown Citi"
+    ]
+  },
+  {
+    "id": "gdtb-PA-deal-2026-07-03-4935-river-rd",
+    "name": "DEAL — 4935 River Rd",
+    "band": "DEAL",
+    "bandSlug": "deal",
+    "venue": "4935 River Rd",
+    "city": "New Hope",
+    "state": "PA",
+    "lat": 40.3642728,
+    "lng": -74.9512785,
+    "date": "2026-07-03",
+    "time": "8:00",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
+    "source": "gdtb",
+    "attractions": [
+      "DEAL"
     ]
   },
   {
@@ -18213,24 +18087,6 @@
     "source": "gdtb",
     "attractions": [
       "DeadEye"
-    ]
-  },
-  {
-    "id": "gdtb-VT-dobbs-dead-2026-06-16-vt-05401",
-    "name": "Dobbs' Dead — VT 05401",
-    "band": "Dobbs' Dead",
-    "bandSlug": "dobbs-dead",
-    "venue": "VT 05401",
-    "city": "Burlington, VT 05401",
-    "state": "VT",
-    "lat": 44.4761601,
-    "lng": -73.212906,
-    "date": "2026-06-16",
-    "time": "8:00 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=VT",
-    "source": "gdtb",
-    "attractions": [
-      "Dobbs' Dead"
     ]
   },
   {
