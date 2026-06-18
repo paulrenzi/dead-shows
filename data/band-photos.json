@@ -532,5 +532,10 @@
     "photo": "images/bands/finders-keepers.jpg",
     "source": "deezer",
     "matchedName": "Finders Keepers"
+  },
+  "deadbolt": {
+    "photo": "images/bands/deadbolt.jpg",
+    "source": "deezer",
+    "matchedName": "Deadbolt"
   }
 }

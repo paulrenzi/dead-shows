@@ -1649,5 +1649,10 @@
     "tried": "2026-06-17",
     "matched": true,
     "name": "Finders Keepers"
+  },
+  "deadbolt": {
+    "tried": "2026-06-18",
+    "matched": true,
+    "name": "Deadbolt"
   }
 }

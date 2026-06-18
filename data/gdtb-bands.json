@@ -60,6 +60,12 @@
     "state": "CA"
   },
   {
+    "slug": "deadbolt",
+    "name": "Deadbolt",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
     "slug": "dead-roses",
     "name": "Dead Roses",
     "source": "gratefuldeadtributebands.com",
@@ -372,14 +378,14 @@
     "state": "CT"
   },
   {
-    "slug": "love-valley",
-    "name": "Love Valley",
+    "slug": "morning-dew",
+    "name": "Morning Dew",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
   {
-    "slug": "morning-dew",
-    "name": "Morning Dew",
+    "slug": "love-valley",
+    "name": "Love Valley",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
@@ -1008,12 +1014,6 @@
     "state": "NH"
   },
   {
-    "slug": "the-brian-st-john-band",
-    "name": "The Brian St John Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "the-big-trip",
     "name": "The Big Trip",
     "source": "gratefuldeadtributebands.com",
@@ -1022,6 +1022,12 @@
   {
     "slug": "rainbow-full-of-sound",
     "name": "Rainbow Full Of Sound",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "the-brian-st-john-band",
+    "name": "The Brian St John Band",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1326,12 +1332,6 @@
     "state": "NC"
   },
   {
-    "slug": "bosco-jigs",
-    "name": "Bosco Jigs",
-    "source": "gratefuldeadtributebands.com",
-    "state": "OH"
-  },
-  {
     "slug": "dupree-s-dead-band",
     "name": "Dupree's Dead Band",
     "source": "gratefuldeadtributebands.com",
@@ -1346,6 +1346,12 @@
   {
     "slug": "west-akron-fadeaway",
     "name": "West Akron Fadeaway",
+    "source": "gratefuldeadtributebands.com",
+    "state": "OH"
+  },
+  {
+    "slug": "bosco-jigs",
+    "name": "Bosco Jigs",
     "source": "gratefuldeadtributebands.com",
     "state": "OH"
   },
