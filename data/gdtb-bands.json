@@ -42,12 +42,6 @@
     "state": "CA"
   },
   {
-    "slug": "the-deadicated-project",
-    "name": "The Deadicated Project",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
     "slug": "scarlett-fyre",
     "name": "Scarlett Fyre",
     "source": "gratefuldeadtributebands.com",
@@ -92,6 +86,12 @@
   {
     "slug": "special-event-dead-on-the-creek-20th-anniversary",
     "name": "Special Event Dead on the Creek 20th Anniversary",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
+    "slug": "the-deadicated-project",
+    "name": "The Deadicated Project",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
   },
@@ -180,12 +180,6 @@
     "state": "CA"
   },
   {
-    "slug": "tumbledown-shack",
-    "name": "Tumbledown Shack",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CO"
-  },
-  {
     "slug": "easy-jim",
     "name": "Easy Jim",
     "source": "gratefuldeadtributebands.com",
@@ -242,6 +236,12 @@
   {
     "slug": "dead-floyd",
     "name": "Dead Floyd",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CO"
+  },
+  {
+    "slug": "tumbledown-shack",
+    "name": "Tumbledown Shack",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
@@ -378,12 +378,6 @@
     "state": "CT"
   },
   {
-    "slug": "morning-dew",
-    "name": "Morning Dew",
-    "source": "gratefuldeadtributebands.com",
-    "state": "FL"
-  },
-  {
     "slug": "love-valley",
     "name": "Love Valley",
     "source": "gratefuldeadtributebands.com",
@@ -422,6 +416,12 @@
   {
     "slug": "mondo-tikis",
     "name": "Mondo Tikis",
+    "source": "gratefuldeadtributebands.com",
+    "state": "FL"
+  },
+  {
+    "slug": "morning-dew",
+    "name": "Morning Dew",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
@@ -640,12 +640,6 @@
     "name": "Grateful Dads",
     "source": "gratefuldeadtributebands.com",
     "state": "KY"
-  },
-  {
-    "slug": "rose-alley",
-    "name": "Rose Alley",
-    "source": "gratefuldeadtributebands.com",
-    "state": "ME"
   },
   {
     "slug": "down-east-dead",
@@ -1014,18 +1008,6 @@
     "state": "NH"
   },
   {
-    "slug": "the-big-trip",
-    "name": "The Big Trip",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "rainbow-full-of-sound",
-    "name": "Rainbow Full Of Sound",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "the-brian-st-john-band",
     "name": "The Brian St John Band",
     "source": "gratefuldeadtributebands.com",
@@ -1076,6 +1058,12 @@
   {
     "slug": "trouble-junction",
     "name": "Trouble Junction",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "rainbow-full-of-sound",
+    "name": "Rainbow Full Of Sound",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1154,6 +1142,12 @@
   {
     "slug": "deal",
     "name": "DEAL",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "the-big-trip",
+    "name": "The Big Trip",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1410,6 +1404,12 @@
     "state": "OH"
   },
   {
+    "slug": "the-deadgummits",
+    "name": "The Deadgummits",
+    "source": "gratefuldeadtributebands.com",
+    "state": "OK"
+  },
+  {
     "slug": "one-way-truckin",
     "name": "One Way Truckin'",
     "source": "gratefuldeadtributebands.com",
@@ -1434,12 +1434,6 @@
     "state": "OR"
   },
   {
-    "slug": "gratefolk",
-    "name": "Gratefolk",
-    "source": "gratefuldeadtributebands.com",
-    "state": "PA"
-  },
-  {
     "slug": "bears-choice",
     "name": "Bears Choice",
     "source": "gratefuldeadtributebands.com",
@@ -1448,6 +1442,12 @@
   {
     "slug": "deadband",
     "name": "Deadband",
+    "source": "gratefuldeadtributebands.com",
+    "state": "PA"
+  },
+  {
+    "slug": "gratefolk",
+    "name": "Gratefolk",
     "source": "gratefuldeadtributebands.com",
     "state": "PA"
   },
