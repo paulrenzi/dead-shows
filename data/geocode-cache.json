@@ -3220,5 +3220,10 @@
   "greenwich, ct": {
     "lat": 41.0264862,
     "lng": -73.6284598
+  },
+  "gaineville, fl": null,
+  "carrboro, nc": {
+    "lat": 35.9099875,
+    "lng": -79.0752876
   }
 }

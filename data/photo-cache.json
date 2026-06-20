@@ -1654,5 +1654,9 @@
     "tried": "2026-06-18",
     "matched": true,
     "name": "Deadbolt"
+  },
+  "foolish-heart-band": {
+    "tried": "2026-06-20",
+    "matched": false
   }
 }
