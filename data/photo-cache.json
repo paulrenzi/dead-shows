@@ -1658,5 +1658,10 @@
   "foolish-heart-band": {
     "tried": "2026-06-20",
     "matched": false
+  },
+  "free-flowing-musical-experience": {
+    "tried": "2026-06-22",
+    "matched": true,
+    "name": "Free Flowing Musical Experience"
   }
 }

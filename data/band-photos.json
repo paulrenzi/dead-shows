@@ -537,5 +537,10 @@
     "photo": "images/bands/deadbolt.jpg",
     "source": "deezer",
     "matchedName": "Deadbolt"
+  },
+  "free-flowing-musical-experience": {
+    "photo": "images/bands/free-flowing-musical-experience.jpg",
+    "source": "deezer",
+    "matchedName": "Free Flowing Musical Experience"
   }
 }
