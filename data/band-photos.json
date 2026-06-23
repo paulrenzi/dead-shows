@@ -542,5 +542,10 @@
     "photo": "images/bands/free-flowing-musical-experience.jpg",
     "source": "deezer",
     "matchedName": "Free Flowing Musical Experience"
+  },
+  "tiberius": {
+    "photo": "images/bands/tiberius.jpg",
+    "source": "deezer",
+    "matchedName": "Tiberius"
   }
 }

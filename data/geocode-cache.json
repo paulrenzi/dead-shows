@@ -3229,5 +3229,129 @@
   "tysons, va": {
     "lat": 38.9191272,
     "lng": -77.2229636
+  },
+  "placerville, ca": {
+    "lat": 38.7296252,
+    "lng": -120.798546
+  },
+  "eureka, ca": {
+    "lat": 40.8018746,
+    "lng": -124.1707558
+  },
+  "wheat ridge, co": {
+    "lat": 39.766098,
+    "lng": -105.0772063
+  },
+  "norwich, ct": {
+    "lat": 41.5243631,
+    "lng": -72.0759134
+  },
+  "colchester, ct": {
+    "lat": 41.5756543,
+    "lng": -72.3320269
+  },
+  "fernandina beach, fl": {
+    "lat": 30.6712285,
+    "lng": -81.4630025
+  },
+  "potomac, md": {
+    "lat": 39.0180508,
+    "lng": -77.1956331
+  },
+  "arnold, md": {
+    "lat": 39.0422935,
+    "lng": -76.504059
+  },
+  "swampscott, ma": {
+    "lat": 42.4699241,
+    "lng": -70.9171507
+  },
+  "grosse pointe park, mi": {
+    "lat": 42.3816896,
+    "lng": -82.9313655
+  },
+  "grand marais, mn": {
+    "lat": 47.750467,
+    "lng": -90.334675
+  },
+  "macks creek, mo": {
+    "lat": 37.9656525,
+    "lng": -92.9722714
+  },
+  "branchburg, nj": {
+    "lat": 40.5688245,
+    "lng": -74.7002714
+  },
+  "somerville, nj": {
+    "lat": 40.5742696,
+    "lng": -74.60988
+  },
+  "millburn, nj": {
+    "lat": 40.7244443,
+    "lng": -74.3069069
+  },
+  "audubon, nj": {
+    "lat": 39.8909466,
+    "lng": -75.0729504
+  },
+  "burlington, nj": {
+    "lat": 39.9325409,
+    "lng": -74.7226665
+  },
+  "garwood, nj": {
+    "lat": 40.6517692,
+    "lng": -74.3229264
+  },
+  "haddon heights, nj": {
+    "lat": 39.8773356,
+    "lng": -75.0646165
+  },
+  "cornwall on hudson, ny": {
+    "lat": 41.4448133,
+    "lng": -74.0155219
+  },
+  "parksville, ny": {
+    "lat": 41.8554576,
+    "lng": -74.7595057
+  },
+  "sparkill, ny": {
+    "lat": 41.0289115,
+    "lng": -73.9324905
+  },
+  "winston-salem, nc": {
+    "lat": 36.0998131,
+    "lng": -80.2440518
+  },
+  "greentown, pa": {
+    "lat": 41.321755,
+    "lng": -75.3054585
+  },
+  "exton, pa": {
+    "lat": 40.0299755,
+    "lng": -75.6290436
+  },
+  "darlington, pa": {
+    "lat": 40.8095078,
+    "lng": -80.4225656
+  },
+  "pickens, sc": {
+    "lat": 34.8882592,
+    "lng": -82.7193824
+  },
+  "houston, tx": {
+    "lat": 29.7589382,
+    "lng": -95.3676974
+  },
+  "ashburn, va": {
+    "lat": 39.029784,
+    "lng": -77.4744148
+  },
+  "kalama, wa": {
+    "lat": 46.0085225,
+    "lng": -122.84247
+  },
+  "madison, wi": {
+    "lat": 43.07469,
+    "lng": -89.3841663
   }
 }
