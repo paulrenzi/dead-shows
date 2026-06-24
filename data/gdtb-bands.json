@@ -96,6 +96,12 @@
     "state": "CA"
   },
   {
+    "slug": "definitely-dead",
+    "name": "Definitely Dead",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
     "slug": "aardvark",
     "name": "Aardvark",
     "source": "gratefuldeadtributebands.com",
@@ -354,12 +360,6 @@
     "state": "CT"
   },
   {
-    "slug": "love-valley",
-    "name": "Love Valley",
-    "source": "gratefuldeadtributebands.com",
-    "state": "FL"
-  },
-  {
     "slug": "crazy-fingers",
     "name": "Crazy Fingers",
     "source": "gratefuldeadtributebands.com",
@@ -380,6 +380,12 @@
   {
     "slug": "unlimited-devotion",
     "name": "Unlimited Devotion",
+    "source": "gratefuldeadtributebands.com",
+    "state": "FL"
+  },
+  {
+    "slug": "love-valley",
+    "name": "Love Valley",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
@@ -900,24 +906,6 @@
     "state": "NH"
   },
   {
-    "slug": "trouble-junction",
-    "name": "Trouble Junction",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "dead-reckoning",
-    "name": "Dead Reckoning",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "rainbow-full-of-sound",
-    "name": "Rainbow Full Of Sound",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "the-brian-st-john-band",
     "name": "The Brian St John Band",
     "source": "gratefuldeadtributebands.com",
@@ -938,6 +926,12 @@
   {
     "slug": "diamond-eye-jack",
     "name": "Diamond Eye Jack",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "dead-reckoning",
+    "name": "Dead Reckoning",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -974,6 +968,12 @@
   {
     "slug": "pure-jerry",
     "name": "Pure Jerry",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "rainbow-full-of-sound",
+    "name": "Rainbow Full Of Sound",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1050,12 +1050,6 @@
     "state": "NJ"
   },
   {
-    "slug": "dead-alliance-buffalo",
-    "name": "Dead Alliance Buffalo",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
     "slug": "dead-meat",
     "name": "Dead Meat",
     "source": "gratefuldeadtributebands.com",
@@ -1094,6 +1088,12 @@
   {
     "slug": "tiberius",
     "name": "Tiberius",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "dead-alliance-buffalo",
+    "name": "Dead Alliance Buffalo",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
@@ -1274,6 +1274,12 @@
   {
     "slug": "friends-of-the-dead",
     "name": "Friends of the Dead",
+    "source": "gratefuldeadtributebands.com",
+    "state": "OH"
+  },
+  {
+    "slug": "hyryder",
+    "name": "Hyryder",
     "source": "gratefuldeadtributebands.com",
     "state": "OH"
   },

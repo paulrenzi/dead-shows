@@ -270,17 +270,17 @@
     ]
   },
   {
-    "id": "gdtb-CA-dead-roses-2026-07-01-ashkenaz",
-    "name": "Dead Roses — Ashkenaz",
+    "id": "gdtb-CA-dead-roses-2026-07-01-1317-san-pablo-ave",
+    "name": "Dead Roses — 1317 San Pablo Ave",
     "band": "Dead Roses",
     "bandSlug": "dead-roses",
-    "venue": "Ashkenaz",
+    "venue": "1317 San Pablo Ave",
     "city": "Berkeley",
     "state": "CA",
     "lat": 37.8708393,
     "lng": -122.272863,
     "date": "2026-07-01",
-    "time": "10:30 PM EDT",
+    "time": "7:30pm",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
     "source": "gdtb",
     "attractions": [
@@ -375,6 +375,24 @@
     "source": "gdtb",
     "attractions": [
       "Diego Dead"
+    ]
+  },
+  {
+    "id": "gdtb-CA-definitely-dead-2026-07-11-1985-park-dr",
+    "name": "Definitely Dead — 1985 Park Dr",
+    "band": "Definitely Dead",
+    "bandSlug": "definitely-dead",
+    "venue": "1985 Park Dr",
+    "city": "Kelseyville",
+    "state": "CA",
+    "lat": 38.966921,
+    "lng": -122.8354355,
+    "date": "2026-07-11",
+    "time": "12:00 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
+    "source": "gdtb",
+    "attractions": [
+      "Definitely Dead"
     ]
   },
   {
@@ -1242,6 +1260,24 @@
     ]
   },
   {
+    "id": "gdtb-CO-chinaflower-suncats-2026-07-02-co-80203",
+    "name": "Chinaflower Suncats — CO 80203",
+    "band": "Chinaflower Suncats",
+    "bandSlug": "chinaflower-suncats",
+    "venue": "CO 80203",
+    "city": "Denver",
+    "state": "CO",
+    "lat": 39.7392364,
+    "lng": -104.984862,
+    "date": "2026-07-02",
+    "time": "8 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
+    "source": "gdtb",
+    "attractions": [
+      "Chinaflower Suncats"
+    ]
+  },
+  {
     "id": "gdtb-CO-crick-wooder-2026-07-03-mountain-sun-pub-brewery",
     "name": "Crick Wooder — Mountain Sun Pub & Brewery",
     "band": "Crick Wooder",
@@ -1473,6 +1509,24 @@
     "source": "gdtb",
     "attractions": [
       "Tumbledown Shack"
+    ]
+  },
+  {
+    "id": "gdtb-CO-chinaflower-suncats-2026-07-16-colorado",
+    "name": "Chinaflower Suncats — Colorado",
+    "band": "Chinaflower Suncats",
+    "bandSlug": "chinaflower-suncats",
+    "venue": "Colorado",
+    "city": "Eagle",
+    "state": "CO",
+    "lat": 39.6161124,
+    "lng": -106.7172844,
+    "date": "2026-07-16",
+    "time": "6:30 - 8:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
+    "source": "gdtb",
+    "attractions": [
+      "Chinaflower Suncats"
     ]
   },
   {
@@ -3201,42 +3255,6 @@
     "source": "gdtb",
     "attractions": [
       "Melvin Seals and JGB"
-    ]
-  },
-  {
-    "id": "gdtb-FL-love-valley-2026-06-23-sandbar-sports-grill-cocoa-bea",
-    "name": "Love Valley — Sandbar Sports Grill, Cocoa Beach, FL",
-    "band": "Love Valley",
-    "bandSlug": "love-valley",
-    "venue": "Sandbar Sports Grill, Cocoa Beach, FL",
-    "city": "Cocoa Beach",
-    "state": "FL",
-    "lat": 28.3184107,
-    "lng": -80.6094959,
-    "date": "2026-06-23",
-    "time": "4:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Love Valley"
-    ]
-  },
-  {
-    "id": "gdtb-FL-crazy-fingers-2026-06-23-the-funky-biscuit-boca-raton-f",
-    "name": "Crazy Fingers — The Funky Biscuit, Boca Raton, FL 33432",
-    "band": "Crazy Fingers",
-    "bandSlug": "crazy-fingers",
-    "venue": "The Funky Biscuit, Boca Raton, FL 33432",
-    "city": "Boca Raton",
-    "state": "FL",
-    "lat": 26.3586885,
-    "lng": -80.0830984,
-    "date": "2026-06-23",
-    "time": "7:30PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Crazy Fingers"
     ]
   },
   {
@@ -8460,78 +8478,6 @@
     ]
   },
   {
-    "id": "gdtb-NJ-trouble-junction-2026-06-23-event-by-trouble-junction",
-    "name": "Trouble Junction — Event by Trouble Junction",
-    "band": "Trouble Junction",
-    "bandSlug": "trouble-junction",
-    "venue": "Event by Trouble Junction",
-    "city": "Paramus",
-    "state": "NJ",
-    "lat": 40.9452911,
-    "lng": -74.0735899,
-    "date": "2026-06-23",
-    "time": "8 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Trouble Junction"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-trouble-junction-2026-06-23-15-e-firehouse-ln",
-    "name": "Trouble Junction — 15 E Firehouse Ln.",
-    "band": "Trouble Junction",
-    "bandSlug": "trouble-junction",
-    "venue": "15 E Firehouse Ln.",
-    "city": "Paramus",
-    "state": "NJ",
-    "lat": 40.9452911,
-    "lng": -74.0735899,
-    "date": "2026-06-23",
-    "time": "8pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Trouble Junction"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-dead-reckoning-2026-06-23-boathouse-restaurant",
-    "name": "Dead Reckoning — Boathouse Restaurant",
-    "band": "Dead Reckoning",
-    "bandSlug": "dead-reckoning",
-    "venue": "Boathouse Restaurant",
-    "city": "Wildwood",
-    "state": "NJ",
-    "lat": 38.9841969,
-    "lng": -74.8142502,
-    "date": "2026-06-23",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Dead Reckoning"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-rainbow-full-of-sound-2026-06-23-donovan-s-reef",
-    "name": "Rainbow Full Of Sound — Donovan's Reef",
-    "band": "Rainbow Full Of Sound",
-    "bandSlug": "rainbow-full-of-sound",
-    "venue": "Donovan's Reef",
-    "city": "Rumson",
-    "state": "NJ",
-    "lat": 40.372054,
-    "lng": -73.9990269,
-    "date": "2026-06-23",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Rainbow Full Of Sound"
-    ]
-  },
-  {
     "id": "gdtb-NJ-the-brian-st-john-band-2026-06-24-o-reillys-pub",
     "name": "The Brian St John Band — O'Reillys Pub",
     "band": "The Brian St John Band",
@@ -10347,24 +10293,6 @@
     "source": "gdtb",
     "attractions": [
       "Steely Dead"
-    ]
-  },
-  {
-    "id": "gdtb-NY-dead-alliance-buffalo-2026-06-23-745-seneca-st-buffalo-ny-unite",
-    "name": "Dead Alliance Buffalo — 745 Seneca St Buffalo NY United States New York 14210",
-    "band": "Dead Alliance Buffalo",
-    "bandSlug": "dead-alliance-buffalo",
-    "venue": "745 Seneca St Buffalo NY United States New York 14210",
-    "city": "Buffalo",
-    "state": "NY",
-    "lat": 42.8864163,
-    "lng": -78.8781493,
-    "date": "2026-06-23",
-    "time": "5 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Dead Alliance Buffalo"
     ]
   },
   {
@@ -12600,24 +12528,6 @@
     ]
   },
   {
-    "id": "gdtb-NC-eternally-grateful-2026-06-23-heist-brewery-and-barrel-arts",
-    "name": "Eternally Grateful — Heist Brewery and Barrel Arts",
-    "band": "Eternally Grateful",
-    "bandSlug": "eternally-grateful",
-    "venue": "Heist Brewery and Barrel Arts",
-    "city": "Charlotte",
-    "state": "NC",
-    "lat": 35.2272086,
-    "lng": -80.8430827,
-    "date": "2026-06-23",
-    "time": "8:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NC",
-    "source": "gdtb",
-    "attractions": [
-      "Eternally Grateful"
-    ]
-  },
-  {
     "id": "gdtb-NC-eternally-grateful-2026-06-25-jack-s-live",
     "name": "Eternally Grateful — Jack's Live",
     "band": "Eternally Grateful",
@@ -14112,6 +14022,24 @@
     ]
   },
   {
+    "id": "gdtb-OH-hyryder-2026-08-22-jake-s-river-landing",
+    "name": "Hyryder — Jake's River Landing",
+    "band": "Hyryder",
+    "bandSlug": "hyryder",
+    "venue": "Jake's River Landing",
+    "city": "Harrison",
+    "state": "OH",
+    "lat": 40.2694328,
+    "lng": -81.1289112,
+    "date": "2026-08-22",
+    "time": "5 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OH",
+    "source": "gdtb",
+    "attractions": [
+      "Hyryder"
+    ]
+  },
+  {
     "id": "gdtb-OH-city-news-2026-08-22-white-shutter-winery-brewery",
     "name": "City News — White Shutter Winery & Brewery",
     "band": "City News",
@@ -14343,6 +14271,24 @@
     "source": "gdtb",
     "attractions": [
       "Dark Star Orchestra"
+    ]
+  },
+  {
+    "id": "gdtb-OR-definitely-dead-2026-08-07-70-sw-century-dr",
+    "name": "Definitely Dead — 70 SW Century Dr",
+    "band": "Definitely Dead",
+    "bandSlug": "definitely-dead",
+    "venue": "70 SW Century Dr",
+    "city": "Bend",
+    "state": "OR",
+    "lat": 44.0581728,
+    "lng": -121.3153096,
+    "date": "2026-08-07",
+    "time": "7:00PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OR",
+    "source": "gdtb",
+    "attractions": [
+      "Definitely Dead"
     ]
   },
   {
@@ -16233,24 +16179,6 @@
     "source": "gdtb",
     "attractions": [
       "20 Hounds"
-    ]
-  },
-  {
-    "id": "gdtb-VT-dobbs-dead-2026-06-23-vt-05401",
-    "name": "Dobbs' Dead — VT 05401",
-    "band": "Dobbs' Dead",
-    "bandSlug": "dobbs-dead",
-    "venue": "VT 05401",
-    "city": "Burlington, VT 05401",
-    "state": "VT",
-    "lat": 44.4761601,
-    "lng": -73.212906,
-    "date": "2026-06-23",
-    "time": "8:00 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=VT",
-    "source": "gdtb",
-    "attractions": [
-      "Dobbs' Dead"
     ]
   },
   {
