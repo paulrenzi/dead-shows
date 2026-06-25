@@ -6066,60 +6066,6 @@
     ]
   },
   {
-    "id": "gdtb-MA-moose-juice-2026-06-24-607-main-st",
-    "name": "Moose Juice — 607 Main St",
-    "band": "Moose Juice",
-    "bandSlug": "moose-juice",
-    "venue": "607 Main St",
-    "city": "West Dennis",
-    "state": "MA",
-    "lat": 41.6643526,
-    "lng": -70.1696021,
-    "date": "2026-06-24",
-    "time": "6-9pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "Moose Juice"
-    ]
-  },
-  {
-    "id": "gdtb-MA-diamond-blues-2026-06-24-midway-cafe",
-    "name": "Diamond Blues — Midway Cafe",
-    "band": "Diamond Blues",
-    "bandSlug": "diamond-blues",
-    "venue": "Midway Cafe",
-    "city": "Jamaica Plain",
-    "state": "MA",
-    "lat": 42.3116046,
-    "lng": -71.1143838,
-    "date": "2026-06-24",
-    "time": "7:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "Diamond Blues"
-    ]
-  },
-  {
-    "id": "gdtb-MA-playing-dead-2026-06-24-grateful-wednesday-residency-a",
-    "name": "Playing Dead — Grateful Wednesday Residency at Soundcheck Studios",
-    "band": "Playing Dead",
-    "bandSlug": "playing-dead",
-    "venue": "Grateful Wednesday Residency at Soundcheck Studios",
-    "city": "Pembroke",
-    "state": "MA",
-    "lat": 42.0714907,
-    "lng": -70.8092074,
-    "date": "2026-06-24",
-    "time": "8 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "Playing Dead"
-    ]
-  },
-  {
     "id": "gdtb-MA-moose-juice-2026-06-26-3rd-ave",
     "name": "Moose Juice — 3rd Ave",
     "band": "Moose Juice",
@@ -8478,24 +8424,6 @@
     ]
   },
   {
-    "id": "gdtb-NJ-the-brian-st-john-band-2026-06-24-o-reillys-pub",
-    "name": "The Brian St John Band — O'Reillys Pub",
-    "band": "The Brian St John Band",
-    "bandSlug": "the-brian-st-john-band",
-    "venue": "O'Reillys Pub",
-    "city": "Newton",
-    "state": "NJ",
-    "lat": 41.0583121,
-    "lng": -74.7531445,
-    "date": "2026-06-24",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "The Brian St John Band"
-    ]
-  },
-  {
     "id": "gdtb-NJ-be5d-2026-06-25-cooper-s-riverview",
     "name": "Be5D — Cooper's Riverview",
     "band": "Be5D",
@@ -8637,6 +8565,24 @@
     "source": "gdtb",
     "attractions": [
       "Too Cool To Bluff"
+    ]
+  },
+  {
+    "id": "gdtb-NJ-ice-petal-flowers-2026-06-27-shawn-s-crazy-saloon",
+    "name": "Ice Petal Flowers — Shawns Crazy Saloon",
+    "band": "Ice Petal Flowers",
+    "bandSlug": "ice-petal-flowers",
+    "venue": "Shawns Crazy Saloon",
+    "city": "north arlington",
+    "state": "NJ",
+    "lat": 40.788434,
+    "lng": -74.1331988,
+    "date": "2026-06-27",
+    "time": "2:00-6:00pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "source": "gdtb",
+    "attractions": [
+      "Ice Petal Flowers"
     ]
   },
   {
@@ -10293,60 +10239,6 @@
     "source": "gdtb",
     "attractions": [
       "Steely Dead"
-    ]
-  },
-  {
-    "id": "gdtb-NY-shakedown-citi-2026-06-24-the-warehouse",
-    "name": "Shakedown Citi — The Warehouse",
-    "band": "Shakedown Citi",
-    "bandSlug": "shakedown-citi",
-    "venue": "The Warehouse",
-    "city": "Amityville",
-    "state": "NY",
-    "lat": 40.6789893,
-    "lng": -73.4170673,
-    "date": "2026-06-24",
-    "time": "",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Shakedown Citi"
-    ]
-  },
-  {
-    "id": "gdtb-NY-dark-star-orchestra-2026-06-24-1-morrie-silver-way-rochester-",
-    "name": "Dark Star Orchestra — 1 Morrie Silver Way Rochester NY",
-    "band": "Dark Star Orchestra",
-    "bandSlug": "dark-star-orchestra",
-    "venue": "1 Morrie Silver Way Rochester NY",
-    "city": "Rochester",
-    "state": "NY",
-    "lat": 43.157285,
-    "lng": -77.615214,
-    "date": "2026-06-24",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Dark Star Orchestra"
-    ]
-  },
-  {
-    "id": "gdtb-NY-dead-meat-2026-06-24-22-rock-city-road",
-    "name": "Dead Meat — 22 Rock City Road",
-    "band": "Dead Meat",
-    "bandSlug": "dead-meat",
-    "venue": "22 Rock City Road",
-    "city": "Woodstock",
-    "state": "NY",
-    "lat": 42.0410578,
-    "lng": -74.1182492,
-    "date": "2026-06-24",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Dead Meat"
     ]
   },
   {
@@ -13284,24 +13176,6 @@
     ]
   },
   {
-    "id": "gdtb-OH-mason-s-children-2026-06-24-oh-45220",
-    "name": "Mason's Children — OH 45220",
-    "band": "Mason's Children",
-    "bandSlug": "mason-s-children",
-    "venue": "OH 45220",
-    "city": "Cincinnati",
-    "state": "OH",
-    "lat": 39.1012809,
-    "lng": -84.5127405,
-    "date": "2026-06-24",
-    "time": "7pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OH",
-    "source": "gdtb",
-    "attractions": [
-      "Mason's Children"
-    ]
-  },
-  {
     "id": "gdtb-OH-west-akron-fadeaway-2026-06-25-4165-wyoga-lake-rd",
     "name": "West Akron Fadeaway — 4165 Wyoga Lake Rd",
     "band": "West Akron Fadeaway",
@@ -14145,24 +14019,6 @@
     "source": "gdtb",
     "attractions": [
       "The Deadgummits"
-    ]
-  },
-  {
-    "id": "gdtb-OR-rhapsody-in-red-2026-06-24-laurelthirst-public-house",
-    "name": "Rhapsody In Red — LaurelThirst Public House",
-    "band": "Rhapsody In Red",
-    "bandSlug": "rhapsody-in-red",
-    "venue": "LaurelThirst Public House",
-    "city": "Portland",
-    "state": "OR",
-    "lat": 45.5202471,
-    "lng": -122.674194,
-    "date": "2026-06-24",
-    "time": "9 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OR",
-    "source": "gdtb",
-    "attractions": [
-      "Rhapsody In Red"
     ]
   },
   {
@@ -16179,24 +16035,6 @@
     "source": "gdtb",
     "attractions": [
       "20 Hounds"
-    ]
-  },
-  {
-    "id": "gdtb-VT-dobbs-dead-2026-06-24-vt-05677",
-    "name": "Dobbs' Dead — VT 05677",
-    "band": "Dobbs' Dead",
-    "bandSlug": "dobbs-dead",
-    "venue": "VT 05677",
-    "city": "Waterbury Center, VT 05677",
-    "state": "VT",
-    "lat": 44.3781114,
-    "lng": -72.7159505,
-    "date": "2026-06-24",
-    "time": "7:00 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=VT",
-    "source": "gdtb",
-    "attractions": [
-      "Dobbs' Dead"
     ]
   },
   {

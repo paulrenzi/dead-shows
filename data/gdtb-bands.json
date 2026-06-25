@@ -684,12 +684,6 @@
     "state": "MA"
   },
   {
-    "slug": "diamond-blues",
-    "name": "Diamond Blues",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MA"
-  },
-  {
     "slug": "the-reckoning-crew",
     "name": "The Reckoning Crew",
     "source": "gratefuldeadtributebands.com",
@@ -704,6 +698,12 @@
   {
     "slug": "lobsterz-from-marz",
     "name": "Lobsterz from Marz",
+    "source": "gratefuldeadtributebands.com",
+    "state": "MA"
+  },
+  {
+    "slug": "diamond-blues",
+    "name": "Diamond Blues",
     "source": "gratefuldeadtributebands.com",
     "state": "MA"
   },
@@ -906,12 +906,6 @@
     "state": "NH"
   },
   {
-    "slug": "the-brian-st-john-band",
-    "name": "The Brian St John Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "be5d",
     "name": "Be5D",
     "source": "gratefuldeadtributebands.com",
@@ -954,14 +948,14 @@
     "state": "NJ"
   },
   {
-    "slug": "dead-to-the-core-ny",
-    "name": "Dead To The Core-NY",
+    "slug": "ice-petal-flowers",
+    "name": "Ice Petal Flowers",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
   {
-    "slug": "ice-petal-flowers",
-    "name": "Ice Petal Flowers",
+    "slug": "dead-to-the-core-ny",
+    "name": "Dead To The Core-NY",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -986,6 +980,12 @@
   {
     "slug": "baked-alaska",
     "name": "Baked Alaska",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "the-brian-st-john-band",
+    "name": "The Brian St John Band",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1048,12 +1048,6 @@
     "name": "Steal Your Face",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
-  },
-  {
-    "slug": "dead-meat",
-    "name": "Dead Meat",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
   },
   {
     "slug": "tiger-rose",
@@ -1154,6 +1148,12 @@
   {
     "slug": "buffalo-dead-all-stars",
     "name": "Buffalo Dead All Stars",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "dead-meat",
+    "name": "Dead Meat",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
@@ -1288,12 +1288,6 @@
     "name": "The Deadgummits",
     "source": "gratefuldeadtributebands.com",
     "state": "OK"
-  },
-  {
-    "slug": "rhapsody-in-red",
-    "name": "Rhapsody In Red",
-    "source": "gratefuldeadtributebands.com",
-    "state": "OR"
   },
   {
     "slug": "caught-dead-handed",
