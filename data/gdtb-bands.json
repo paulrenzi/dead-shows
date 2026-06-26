@@ -168,12 +168,6 @@
     "state": "CA"
   },
   {
-    "slug": "dead-panic",
-    "name": "Dead Panic",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CO"
-  },
-  {
     "slug": "dead-friends",
     "name": "Dead & Friends",
     "source": "gratefuldeadtributebands.com",
@@ -258,14 +252,20 @@
     "state": "CO"
   },
   {
-    "slug": "mystic-dead",
-    "name": "Mystic Dead",
+    "slug": "dead-panic",
+    "name": "Dead Panic",
     "source": "gratefuldeadtributebands.com",
-    "state": "CT"
+    "state": "CO"
   },
   {
     "slug": "rob-glassman-band",
     "name": "Rob Glassman Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CT"
+  },
+  {
+    "slug": "mystic-dead",
+    "name": "Mystic Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "CT"
   },
@@ -360,12 +360,6 @@
     "state": "CT"
   },
   {
-    "slug": "crazy-fingers",
-    "name": "Crazy Fingers",
-    "source": "gratefuldeadtributebands.com",
-    "state": "FL"
-  },
-  {
     "slug": "morning-dew",
     "name": "Morning Dew",
     "source": "gratefuldeadtributebands.com",
@@ -374,6 +368,12 @@
   {
     "slug": "mondo-tikis",
     "name": "Mondo Tikis",
+    "source": "gratefuldeadtributebands.com",
+    "state": "FL"
+  },
+  {
+    "slug": "crazy-fingers",
+    "name": "Crazy Fingers",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
@@ -906,12 +906,6 @@
     "state": "NH"
   },
   {
-    "slug": "be5d",
-    "name": "Be5D",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "wheel",
     "name": "Wheel",
     "source": "gratefuldeadtributebands.com",
@@ -992,6 +986,12 @@
   {
     "slug": "deadful-greats",
     "name": "Deadful Greats",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "be5d",
+    "name": "Be5D",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1164,14 +1164,14 @@
     "state": "NY"
   },
   {
-    "slug": "eternally-grateful",
-    "name": "Eternally Grateful",
+    "slug": "bring-out-yer-dead",
+    "name": "Bring Out Yer Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "NC"
   },
   {
-    "slug": "bring-out-yer-dead",
-    "name": "Bring Out Yer Dead",
+    "slug": "eternally-grateful",
+    "name": "Eternally Grateful",
     "source": "gratefuldeadtributebands.com",
     "state": "NC"
   },
@@ -1204,12 +1204,6 @@
     "name": "Tin Roof Cats",
     "source": "gratefuldeadtributebands.com",
     "state": "NC"
-  },
-  {
-    "slug": "west-akron-fadeaway",
-    "name": "West Akron Fadeaway",
-    "source": "gratefuldeadtributebands.com",
-    "state": "OH"
   },
   {
     "slug": "bosco-jigs",
@@ -1262,6 +1256,12 @@
   {
     "slug": "the-dead-revival-band",
     "name": "The Dead Revival Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "OH"
+  },
+  {
+    "slug": "west-akron-fadeaway",
+    "name": "West Akron Fadeaway",
     "source": "gratefuldeadtributebands.com",
     "state": "OH"
   },
@@ -1368,14 +1368,14 @@
     "state": "RI"
   },
   {
-    "slug": "the-grateful-brothers",
-    "name": "The Grateful Brothers",
+    "slug": "catfish-john",
+    "name": "Catfish John",
     "source": "gratefuldeadtributebands.com",
     "state": "SC"
   },
   {
-    "slug": "catfish-john",
-    "name": "Catfish John",
+    "slug": "the-grateful-brothers",
+    "name": "The Grateful Brothers",
     "source": "gratefuldeadtributebands.com",
     "state": "SC"
   },
@@ -1482,12 +1482,6 @@
     "state": "WV"
   },
   {
-    "slug": "boney-fingers",
-    "name": "Boney Fingers",
-    "source": "gratefuldeadtributebands.com",
-    "state": "WI"
-  },
-  {
     "slug": "another-one",
     "name": "Another One",
     "source": "gratefuldeadtributebands.com",
@@ -1496,6 +1490,12 @@
   {
     "slug": "northwest-corner",
     "name": "Northwest Corner",
+    "source": "gratefuldeadtributebands.com",
+    "state": "WI"
+  },
+  {
+    "slug": "boney-fingers",
+    "name": "Boney Fingers",
     "source": "gratefuldeadtributebands.com",
     "state": "WI"
   },

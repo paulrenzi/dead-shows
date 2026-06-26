@@ -1080,24 +1080,6 @@
     ]
   },
   {
-    "id": "gdtb-CO-dead-panic-2026-06-25-meier-skis",
-    "name": "Dead Panic — Meier Skis",
-    "band": "Dead Panic",
-    "bandSlug": "dead-panic",
-    "venue": "Meier Skis",
-    "city": "Denver",
-    "state": "CO",
-    "lat": 39.7392364,
-    "lng": -104.984862,
-    "date": "2026-06-25",
-    "time": "8 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
-    "source": "gdtb",
-    "attractions": [
-      "Dead Panic"
-    ]
-  },
-  {
     "id": "gdtb-CO-dead-friends-2026-06-27-hogabluesa",
     "name": "Dead & Friends — Hogabluesa",
     "band": "Dead & Friends",
@@ -2085,24 +2067,6 @@
     "source": "gdtb",
     "attractions": [
       "Dead Panic"
-    ]
-  },
-  {
-    "id": "gdtb-CT-mystic-dead-2026-06-25-strange-brew-pub",
-    "name": "Mystic Dead — Strange Brew Pub",
-    "band": "Mystic Dead",
-    "bandSlug": "mystic-dead",
-    "venue": "Strange Brew Pub",
-    "city": "Norwich",
-    "state": "CT",
-    "lat": 41.5243631,
-    "lng": -72.0759134,
-    "date": "2026-06-25",
-    "time": "6:30pm - 10:30pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
-    "source": "gdtb",
-    "attractions": [
-      "Mystic Dead"
     ]
   },
   {
@@ -3258,24 +3222,6 @@
     ]
   },
   {
-    "id": "gdtb-FL-crazy-fingers-2026-06-25-sharkey-s-bar-grill-coral-spri",
-    "name": "Crazy Fingers — Sharkey's Bar & Grill, Coral Springs 33065",
-    "band": "Crazy Fingers",
-    "bandSlug": "crazy-fingers",
-    "venue": "Sharkey's Bar & Grill, Coral Springs 33065",
-    "city": "Coral Springs",
-    "state": "FL",
-    "lat": 26.271192,
-    "lng": -80.2706044,
-    "date": "2026-06-25",
-    "time": "7:30PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Crazy Fingers"
-    ]
-  },
-  {
     "id": "gdtb-FL-morning-dew-2026-06-26-2001-1st-ave-s",
     "name": "Morning Dew — 2001 1st Ave S.",
     "band": "Morning Dew",
@@ -4371,24 +4317,6 @@
     "source": "gdtb",
     "attractions": [
       "GR8FLDUDE's Token Rhyme"
-    ]
-  },
-  {
-    "id": "gdtb-ID-terrapin-flyer-2026-06-25-207-n-1st-ave-sandpoint-id-uni",
-    "name": "Terrapin Flyer — 207 N 1st Ave Sandpoint ID United States Idaho 83864",
-    "band": "Terrapin Flyer",
-    "bandSlug": "terrapin-flyer",
-    "venue": "207 N 1st Ave Sandpoint ID United States Idaho 83864",
-    "city": "Sandpoint",
-    "state": "ID",
-    "lat": 48.2761306,
-    "lng": -116.5487835,
-    "date": "2026-06-25",
-    "time": "THRU Jun 27",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=ID",
-    "source": "gdtb",
-    "attractions": [
-      "Terrapin Flyer"
     ]
   },
   {
@@ -8424,24 +8352,6 @@
     ]
   },
   {
-    "id": "gdtb-NJ-be5d-2026-06-25-cooper-s-riverview",
-    "name": "Be5D — Cooper's Riverview",
-    "band": "Be5D",
-    "bandSlug": "be5d",
-    "venue": "Cooper's Riverview",
-    "city": "Trenton",
-    "state": "NJ",
-    "lat": 40.2203074,
-    "lng": -74.7659,
-    "date": "2026-06-25",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Be5D"
-    ]
-  },
-  {
     "id": "gdtb-NJ-wheel-2026-06-26-the-dog-house-saloon-grill",
     "name": "Wheel — The Dog House Saloon & Grill",
     "band": "Wheel",
@@ -10239,24 +10149,6 @@
     "source": "gdtb",
     "attractions": [
       "Steely Dead"
-    ]
-  },
-  {
-    "id": "gdtb-NY-dark-star-orchestra-2026-06-25-the-rooftop-at-pier-17",
-    "name": "Dark Star Orchestra — The Rooftop at Pier 17",
-    "band": "Dark Star Orchestra",
-    "bandSlug": "dark-star-orchestra",
-    "venue": "The Rooftop at Pier 17",
-    "city": "New York",
-    "state": "NY",
-    "lat": 40.7127281,
-    "lng": -74.0060152,
-    "date": "2026-06-25",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Dark Star Orchestra"
     ]
   },
   {
@@ -12420,24 +12312,6 @@
     ]
   },
   {
-    "id": "gdtb-NC-eternally-grateful-2026-06-25-jack-s-live",
-    "name": "Eternally Grateful — Jack's Live",
-    "band": "Eternally Grateful",
-    "bandSlug": "eternally-grateful",
-    "venue": "Jack's Live",
-    "city": "Charlotte",
-    "state": "NC",
-    "lat": 35.2272086,
-    "lng": -80.8430827,
-    "date": "2026-06-25",
-    "time": "6:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NC",
-    "source": "gdtb",
-    "attractions": [
-      "Eternally Grateful"
-    ]
-  },
-  {
     "id": "gdtb-NC-bring-out-yer-dead-2026-06-26-523-s-elm-st-greensboro-nc-uni",
     "name": "Bring Out Yer Dead — 523 S Elm St Greensboro NC United States North Carolina 27406",
     "band": "Bring Out Yer Dead",
@@ -13173,24 +13047,6 @@
     "source": "gdtb",
     "attractions": [
       "Le Salty Dead"
-    ]
-  },
-  {
-    "id": "gdtb-OH-west-akron-fadeaway-2026-06-25-4165-wyoga-lake-rd",
-    "name": "West Akron Fadeaway — 4165 Wyoga Lake Rd",
-    "band": "West Akron Fadeaway",
-    "bandSlug": "west-akron-fadeaway",
-    "venue": "4165 Wyoga Lake Rd",
-    "city": "Cuyahoga Falls, OH 44224",
-    "state": "OH",
-    "lat": 41.1362729,
-    "lng": -81.4828123,
-    "date": "2026-06-25",
-    "time": "6pm-9pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OH",
-    "source": "gdtb",
-    "attractions": [
-      "West Akron Fadeaway"
     ]
   },
   {
@@ -14202,42 +14058,6 @@
     ]
   },
   {
-    "id": "gdtb-PA-deal-2026-06-25-556-main-street",
-    "name": "DEAL — 556 Main Street",
-    "band": "DEAL",
-    "bandSlug": "deal",
-    "venue": "556 Main Street",
-    "city": "Bethlehem",
-    "state": "PA",
-    "lat": 40.6178915,
-    "lng": -75.3786521,
-    "date": "2026-06-25",
-    "time": "5:30",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
-    "source": "gdtb",
-    "attractions": [
-      "DEAL"
-    ]
-  },
-  {
-    "id": "gdtb-PA-englishtown-project-2026-06-25-picnic-grove-rd-blain-pa-17006",
-    "name": "Englishtown Project — Picnic Grove Rd Blain PA 17006 United States",
-    "band": "Englishtown Project",
-    "bandSlug": "englishtown-project",
-    "venue": "Picnic Grove Rd Blain PA 17006 United States",
-    "city": "Blain",
-    "state": "PA",
-    "lat": 40.3389545,
-    "lng": -77.5125307,
-    "date": "2026-06-25",
-    "time": "8 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
-    "source": "gdtb",
-    "attractions": [
-      "Englishtown Project"
-    ]
-  },
-  {
     "id": "gdtb-PA-zendog-2026-06-26-troubles-end-brewing",
     "name": "Zendog — Troubles End Brewing",
     "band": "Zendog",
@@ -15210,24 +15030,6 @@
     ]
   },
   {
-    "id": "gdtb-SC-the-grateful-brothers-2026-06-25-noma-square",
-    "name": "The Grateful Brothers — NOMA Square",
-    "band": "The Grateful Brothers",
-    "bandSlug": "the-grateful-brothers",
-    "venue": "NOMA Square",
-    "city": "Greenville",
-    "state": "SC",
-    "lat": 34.851354,
-    "lng": -82.3984882,
-    "date": "2026-06-25",
-    "time": "5:30 PM and 9 more",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=SC",
-    "source": "gdtb",
-    "attractions": [
-      "The Grateful Brothers"
-    ]
-  },
-  {
     "id": "gdtb-SC-catfish-john-2026-06-26-819-n-kings-hwy",
     "name": "Catfish John — 819 N Kings Hwy",
     "band": "Catfish John",
@@ -15495,24 +15297,6 @@
     "source": "gdtb",
     "attractions": [
       "Catfish John"
-    ]
-  },
-  {
-    "id": "gdtb-TN-mason-s-children-2026-06-25-tn-37201",
-    "name": "Mason's Children — TN 37201",
-    "band": "Mason's Children",
-    "bandSlug": "mason-s-children",
-    "venue": "TN 37201",
-    "city": "Nashville",
-    "state": "TN",
-    "lat": 36.1622767,
-    "lng": -86.7742984,
-    "date": "2026-06-25",
-    "time": "7pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=TN",
-    "source": "gdtb",
-    "attractions": [
-      "Mason's Children"
     ]
   },
   {
@@ -16254,24 +16038,6 @@
     ]
   },
   {
-    "id": "gdtb-VA-dead-musician-stew-2026-06-25-lost-rhino-brewing-co",
-    "name": "Dead Musician Stew — Lost Rhino Brewing Co.",
-    "band": "Dead Musician Stew",
-    "bandSlug": "dead-musician-stew",
-    "venue": "Lost Rhino Brewing Co.",
-    "city": "Ashburn",
-    "state": "VA",
-    "lat": 39.029784,
-    "lng": -77.4744148,
-    "date": "2026-06-25",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=VA",
-    "source": "gdtb",
-    "attractions": [
-      "Dead Musician Stew"
-    ]
-  },
-  {
     "id": "gdtb-VA-better-off-dead-band-2026-06-27-tally-ho-theater",
     "name": "Better Off Dead Band — Tally Ho Theater",
     "band": "Better Off Dead Band",
@@ -16614,24 +16380,6 @@
     ]
   },
   {
-    "id": "gdtb-WA-terrapin-flyer-2026-06-25-the-district-bar",
-    "name": "Terrapin Flyer — The District Bar",
-    "band": "Terrapin Flyer",
-    "bandSlug": "terrapin-flyer",
-    "venue": "The District Bar",
-    "city": "Spokane",
-    "state": "WA",
-    "lat": 47.6571934,
-    "lng": -117.42351,
-    "date": "2026-06-25",
-    "time": "12 AM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=WA",
-    "source": "gdtb",
-    "attractions": [
-      "Terrapin Flyer"
-    ]
-  },
-  {
     "id": "gdtb-WA-the-stone-jack-ballers-2026-06-26-shelton-wa",
     "name": "The Stone Jack Ballers — Shelton WA",
     "band": "The Stone Jack Ballers",
@@ -16935,24 +16683,6 @@
     "source": "gdtb",
     "attractions": [
       "The Dead Revival Band"
-    ]
-  },
-  {
-    "id": "gdtb-WI-boney-fingers-2026-06-25-edelweiss-boat-cruise-milwauke",
-    "name": "Boney Fingers — Edelweiss Boat Cruise-Milwaukee",
-    "band": "Boney Fingers",
-    "bandSlug": "boney-fingers",
-    "venue": "Edelweiss Boat Cruise-Milwaukee",
-    "city": "Milwaukee",
-    "state": "WI",
-    "lat": 43.0386475,
-    "lng": -87.9090751,
-    "date": "2026-06-25",
-    "time": "8:30 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=WI",
-    "source": "gdtb",
-    "attractions": [
-      "Boney Fingers"
     ]
   },
   {
