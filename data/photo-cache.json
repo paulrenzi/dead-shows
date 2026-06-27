@@ -1704,5 +1704,13 @@
   "northwest-corner": {
     "tried": "2026-06-23",
     "matched": false
+  },
+  "direwoof": {
+    "tried": "2026-06-27",
+    "matched": false
+  },
+  "live-dead-friends": {
+    "tried": "2026-06-27",
+    "matched": false
   }
 }
