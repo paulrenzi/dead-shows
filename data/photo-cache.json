@@ -1712,5 +1712,9 @@
   "live-dead-friends": {
     "tried": "2026-06-27",
     "matched": false
+  },
+  "special-event-pivotal-brewing-3rd-annual-dead-fest-weekend": {
+    "tried": "2026-06-29",
+    "matched": false
   }
 }
