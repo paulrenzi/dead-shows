@@ -547,5 +547,15 @@
     "photo": "images/bands/tiberius.jpg",
     "source": "deezer",
     "matchedName": "Tiberius"
+  },
+  "the-deal": {
+    "photo": "images/bands/the-deal.jpg",
+    "source": "deezer",
+    "matchedName": "The Deal"
+  },
+  "into-the-blue": {
+    "photo": "images/bands/into-the-blue.jpg",
+    "source": "deezer",
+    "matchedName": "Into the Blue"
   }
 }

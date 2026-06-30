@@ -1716,5 +1716,27 @@
   "special-event-pivotal-brewing-3rd-annual-dead-fest-weekend": {
     "tried": "2026-06-29",
     "matched": false
+  },
+  "jubilee-band": {
+    "tried": "2026-06-30",
+    "matched": false
+  },
+  "mark-diomede-and-friends": {
+    "tried": "2026-06-30",
+    "matched": false
+  },
+  "the-deal": {
+    "tried": "2026-06-30",
+    "matched": true,
+    "name": "The Deal"
+  },
+  "into-the-blue": {
+    "tried": "2026-06-30",
+    "matched": true,
+    "name": "Into the Blue"
+  },
+  "liquid-garcia": {
+    "tried": "2026-06-30",
+    "matched": false
   }
 }

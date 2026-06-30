@@ -3389,5 +3389,135 @@
   "gardiner, ny": {
     "lat": 41.6798157,
     "lng": -74.1504231
+  },
+  "newport beach, ca": {
+    "lat": 33.6170092,
+    "lng": -117.9294401
+  },
+  "berekeley, ca": null,
+  "cimarron co, co": {
+    "lat": 33.454733,
+    "lng": -111.9104563
+  },
+  "steamboat springs, co": {
+    "lat": 40.4848003,
+    "lng": -106.831735
+  },
+  "naugatuck, ct": {
+    "lat": 41.4907561,
+    "lng": -73.0556562
+  },
+  "wilmington, de": {
+    "lat": 39.7459468,
+    "lng": -75.546589
+  },
+  "atlanta, ga": {
+    "lat": 33.7544657,
+    "lng": -84.3898151
+  },
+  "mission, ks": {
+    "lat": 39.0277832,
+    "lng": -94.6557914
+  },
+  "blue hill, me": {
+    "lat": 44.413027,
+    "lng": -68.5880555
+  },
+  "charlottesville, md": null,
+  "berlin, md": {
+    "lat": 38.324505,
+    "lng": -75.2188589
+  },
+  "wrentham, ma": {
+    "lat": 42.0667652,
+    "lng": -71.3281114
+  },
+  "south boston, ma": {
+    "lat": 42.3334312,
+    "lng": -71.0494949
+  },
+  "east lansing, mi": {
+    "lat": 42.7320307,
+    "lng": -84.4721678
+  },
+  "center city, mn": {
+    "lat": 45.3917891,
+    "lng": -92.816201
+  },
+  "pascagoula, ms": {
+    "lat": 30.3646795,
+    "lng": -88.5585995
+  },
+  "montclair, nj": {
+    "lat": 40.8164458,
+    "lng": -74.2210643
+  },
+  "manahawkin, nj": {
+    "lat": 39.690518,
+    "lng": -74.2486427
+  },
+  "west creek, nj": {
+    "lat": 39.2127764,
+    "lng": -74.9247962
+  },
+  "santa fe, nm": {
+    "lat": 35.6876096,
+    "lng": -105.938456
+  },
+  "moriches, ny": {
+    "lat": 40.8033,
+    "lng": -72.8210345
+  },
+  "east syracuse, ny": {
+    "lat": 43.0653446,
+    "lng": -76.0785332
+  },
+  "lake george, ny": {
+    "lat": 43.425996,
+    "lng": -73.712425
+  },
+  "norwich, ny": {
+    "lat": 42.5311809,
+    "lng": -75.5235149
+  },
+  "gastonia, nc": {
+    "lat": 35.2622654,
+    "lng": -81.1838186
+  },
+  "troutdale, or": {
+    "lat": 45.5392862,
+    "lng": -122.3873133
+  },
+  "erie, pa": {
+    "lat": 42.1294712,
+    "lng": -80.0852695
+  },
+  "downingtown, pa": {
+    "lat": 40.0064958,
+    "lng": -75.7032742
+  },
+  "burlington, vt": {
+    "lat": 44.4761601,
+    "lng": -73.212906
+  },
+  "jericho, vt": {
+    "lat": 44.5043797,
+    "lng": -72.9979302
+  },
+  "stowe, vt": {
+    "lat": 44.4643768,
+    "lng": -72.6856197
+  },
+  "essex junction, vt": {
+    "lat": 44.4906817,
+    "lng": -73.11136
+  },
+  "sheboygan, wi": {
+    "lat": 43.7128967,
+    "lng": -87.9370433
+  },
+  "belleville, wi": {
+    "lat": 42.8596864,
+    "lng": -89.5346023
   }
 }
