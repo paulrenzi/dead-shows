@@ -342,14 +342,14 @@
     "state": "DE"
   },
   {
-    "slug": "crazy-fingers",
-    "name": "Crazy Fingers",
+    "slug": "love-valley",
+    "name": "Love Valley",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
   {
-    "slug": "love-valley",
-    "name": "Love Valley",
+    "slug": "crazy-fingers",
+    "name": "Crazy Fingers",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
@@ -486,8 +486,20 @@
     "state": "IL"
   },
   {
+    "slug": "thankful-dead",
+    "name": "Thankful Dead",
+    "source": "gratefuldeadtributebands.com",
+    "state": "IL"
+  },
+  {
     "slug": "sunshine-daydream",
     "name": "Sunshine Daydream",
+    "source": "gratefuldeadtributebands.com",
+    "state": "IL"
+  },
+  {
+    "slug": "deadfest-band",
+    "name": "Deadfest Band",
     "source": "gratefuldeadtributebands.com",
     "state": "IL"
   },
@@ -512,12 +524,6 @@
   {
     "slug": "old-shoe",
     "name": "Old Shoe",
-    "source": "gratefuldeadtributebands.com",
-    "state": "IL"
-  },
-  {
-    "slug": "thankful-dead",
-    "name": "Thankful Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "IL"
   },
@@ -882,6 +888,12 @@
     "state": "MO"
   },
   {
+    "slug": "the-deadgummits",
+    "name": "The Deadgummits",
+    "source": "gratefuldeadtributebands.com",
+    "state": "MO"
+  },
+  {
     "slug": "710-ashbury",
     "name": "710 Ashbury",
     "source": "gratefuldeadtributebands.com",
@@ -910,18 +922,6 @@
     "name": "Lichen",
     "source": "gratefuldeadtributebands.com",
     "state": "NH"
-  },
-  {
-    "slug": "baked-alaska",
-    "name": "Baked Alaska",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "lovelight",
-    "name": "LoveLight",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
   },
   {
     "slug": "the-brian-st-john-band",
@@ -956,6 +956,12 @@
   {
     "slug": "be5d",
     "name": "Be5D",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "lovelight",
+    "name": "LoveLight",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1002,6 +1008,12 @@
     "state": "NJ"
   },
   {
+    "slug": "diamond-eye-jack",
+    "name": "Diamond Eye Jack",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
     "slug": "achievers-band",
     "name": "Achievers Band",
     "source": "gratefuldeadtributebands.com",
@@ -1038,8 +1050,14 @@
     "state": "NJ"
   },
   {
-    "slug": "diamond-eye-jack",
-    "name": "Diamond Eye Jack",
+    "slug": "baked-alaska",
+    "name": "Baked Alaska",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "this-old-engine",
+    "name": "This Old Engine",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1048,12 +1066,6 @@
     "name": "The Deal",
     "source": "gratefuldeadtributebands.com",
     "state": "NM"
-  },
-  {
-    "slug": "half-step-li",
-    "name": "Half Step LI",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
   },
   {
     "slug": "tiger-rose",
@@ -1070,6 +1082,12 @@
   {
     "slug": "the-wheel",
     "name": "The Wheel",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "half-step-li",
+    "name": "Half Step LI",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
@@ -1298,12 +1316,6 @@
   {
     "slug": "one-way-truckin",
     "name": "One Way Truckin'",
-    "source": "gratefuldeadtributebands.com",
-    "state": "OK"
-  },
-  {
-    "slug": "the-deadgummits",
-    "name": "The Deadgummits",
     "source": "gratefuldeadtributebands.com",
     "state": "OK"
   },
