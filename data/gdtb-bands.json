@@ -24,12 +24,6 @@
     "state": "AZ"
   },
   {
-    "slug": "dead-roses",
-    "name": "Dead Roses",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
     "slug": "dead-and-breakfast",
     "name": "Dead and Breakfast",
     "source": "gratefuldeadtributebands.com",
@@ -54,6 +48,12 @@
     "state": "CA"
   },
   {
+    "slug": "dead-roses",
+    "name": "Dead Roses",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
     "slug": "diego-dead",
     "name": "Diego Dead",
     "source": "gratefuldeadtributebands.com",
@@ -68,6 +68,12 @@
   {
     "slug": "definitely-dead",
     "name": "Definitely Dead",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
+    "slug": "no-simple-highway",
+    "name": "No Simple Highway",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
   },
@@ -162,12 +168,6 @@
     "state": "CA"
   },
   {
-    "slug": "tumbledown-shack",
-    "name": "Tumbledown Shack",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CO"
-  },
-  {
     "slug": "chinaflower-suncats",
     "name": "Chinaflower Suncats",
     "source": "gratefuldeadtributebands.com",
@@ -200,6 +200,12 @@
   {
     "slug": "shakedown-sunday",
     "name": "Shakedown Sunday",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CO"
+  },
+  {
+    "slug": "tumbledown-shack",
+    "name": "Tumbledown Shack",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
@@ -252,12 +258,6 @@
     "state": "CO"
   },
   {
-    "slug": "shakedown-citi",
-    "name": "Shakedown Citi",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CT"
-  },
-  {
     "slug": "owsley-s-owls",
     "name": "Owsley's Owls",
     "source": "gratefuldeadtributebands.com",
@@ -272,6 +272,12 @@
   {
     "slug": "rob-glassman-band",
     "name": "Rob Glassman Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CT"
+  },
+  {
+    "slug": "shakedown-citi",
+    "name": "Shakedown Citi",
     "source": "gratefuldeadtributebands.com",
     "state": "CT"
   },
@@ -924,12 +930,6 @@
     "state": "NH"
   },
   {
-    "slug": "the-brian-st-john-band",
-    "name": "The Brian St John Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "deadful-greats",
     "name": "Deadful Greats",
     "source": "gratefuldeadtributebands.com",
@@ -962,6 +962,12 @@
   {
     "slug": "lovelight",
     "name": "LoveLight",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "the-brian-st-john-band",
+    "name": "The Brian St John Band",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1068,12 +1074,6 @@
     "state": "NM"
   },
   {
-    "slug": "tiger-rose",
-    "name": "Tiger Rose",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
     "slug": "nailed-shutt",
     "name": "Nailed Shutt",
     "source": "gratefuldeadtributebands.com",
@@ -1094,6 +1094,12 @@
   {
     "slug": "dark-hollow",
     "name": "Dark Hollow",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "tiger-rose",
+    "name": "Tiger Rose",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },

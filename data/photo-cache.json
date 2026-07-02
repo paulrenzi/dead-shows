@@ -1742,5 +1742,9 @@
   "deadfest-band": {
     "tried": "2026-07-01",
     "matched": false
+  },
+  "no-simple-highway": {
+    "tried": "2026-07-02",
+    "matched": false
   }
 }
