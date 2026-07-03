@@ -1242,24 +1242,6 @@
     ]
   },
   {
-    "id": "gdtb-CO-chinaflower-suncats-2026-07-02-co-80203",
-    "name": "Chinaflower Suncats — CO 80203",
-    "band": "Chinaflower Suncats",
-    "bandSlug": "chinaflower-suncats",
-    "venue": "CO 80203",
-    "city": "Denver",
-    "state": "CO",
-    "lat": 39.7392364,
-    "lng": -104.984862,
-    "date": "2026-07-02",
-    "time": "8 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
-    "source": "gdtb",
-    "attractions": [
-      "Chinaflower Suncats"
-    ]
-  },
-  {
     "id": "gdtb-CO-crick-wooder-2026-07-03-mountain-sun-pub-brewery",
     "name": "Crick Wooder — Mountain Sun Pub & Brewery",
     "band": "Crick Wooder",
@@ -2283,24 +2265,6 @@
     "source": "gdtb",
     "attractions": [
       "Steely Dead"
-    ]
-  },
-  {
-    "id": "gdtb-CT-owsley-s-owls-2026-07-02-arch-street-tavern",
-    "name": "Owsley's Owls — Arch Street Tavern",
-    "band": "Owsley's Owls",
-    "bandSlug": "owsley-s-owls",
-    "venue": "Arch Street Tavern",
-    "city": "Hartford",
-    "state": "CT",
-    "lat": 41.764582,
-    "lng": -72.6908547,
-    "date": "2026-07-02",
-    "time": "8:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
-    "source": "gdtb",
-    "attractions": [
-      "Owsley's Owls"
     ]
   },
   {
@@ -3600,24 +3564,6 @@
     ]
   },
   {
-    "id": "gdtb-FL-love-valley-2026-07-02-sandbar-satellite-beach",
-    "name": "Love Valley — Sandbar Satellite Beach ,",
-    "band": "Love Valley",
-    "bandSlug": "love-valley",
-    "venue": "Sandbar Satellite Beach ,",
-    "city": "Satellite Beach",
-    "state": "FL",
-    "lat": 28.1760051,
-    "lng": -80.5904623,
-    "date": "2026-07-02",
-    "time": "6:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Love Valley"
-    ]
-  },
-  {
     "id": "gdtb-FL-crazy-fingers-2026-07-03-the-bamboo-room-lake-worth-bea",
     "name": "Crazy Fingers — The Bamboo room , Lake Worth Beach, FL 33460",
     "band": "Crazy Fingers",
@@ -4806,24 +4752,6 @@
     ]
   },
   {
-    "id": "gdtb-ID-terrapin-flyer-2026-07-02-120-s-main-st-ketchum-id-unite",
-    "name": "Terrapin Flyer — 120 S Main St Ketchum ID United States Idaho 83340",
-    "band": "Terrapin Flyer",
-    "bandSlug": "terrapin-flyer",
-    "venue": "120 S Main St Ketchum ID United States Idaho 83340",
-    "city": "Ketchum",
-    "state": "ID",
-    "lat": 43.680741,
-    "lng": -114.363662,
-    "date": "2026-07-02",
-    "time": "10 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=ID",
-    "source": "gdtb",
-    "attractions": [
-      "Terrapin Flyer"
-    ]
-  },
-  {
     "id": "gdtb-ID-definitely-dead-2026-08-08-700-w-main-st",
     "name": "Definitely Dead — 700 W Main St",
     "band": "Definitely Dead",
@@ -5778,24 +5706,6 @@
     ]
   },
   {
-    "id": "gdtb-IN-graciously-departed-2026-07-02-5163-state-road-135-north-morg",
-    "name": "Graciously Departed — 5163 State Road 135 North Morgantown IN",
-    "band": "Graciously Departed",
-    "bandSlug": "graciously-departed",
-    "venue": "5163 State Road 135 North Morgantown IN",
-    "city": "Morgantown",
-    "state": "IN",
-    "lat": 39.3714502,
-    "lng": -86.2621766,
-    "date": "2026-07-02",
-    "time": "THRU Jul 4",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=IN",
-    "source": "gdtb",
-    "attractions": [
-      "Graciously Departed"
-    ]
-  },
-  {
     "id": "gdtb-IN-hyryder-2026-07-04-hi-fi",
     "name": "Hyryder — HI-FI",
     "band": "Hyryder",
@@ -6045,24 +5955,6 @@
     "source": "gdtb",
     "attractions": [
       "Terrapin Flyer"
-    ]
-  },
-  {
-    "id": "gdtb-IA-touch-of-grey-midwest-2026-07-02-macedonia-ia",
-    "name": "Touch of Grey Midwest — Macedonia IA",
-    "band": "Touch of Grey Midwest",
-    "bandSlug": "touch-of-grey-midwest",
-    "venue": "Macedonia IA",
-    "city": "Macedonia",
-    "state": "IA",
-    "lat": 41.1927739,
-    "lng": -95.4256198,
-    "date": "2026-07-02",
-    "time": "8 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=IA",
-    "source": "gdtb",
-    "attractions": [
-      "Touch of Grey Midwest"
     ]
   },
   {
@@ -6369,24 +6261,6 @@
     "source": "gdtb",
     "attractions": [
       "Wolfman Jack"
-    ]
-  },
-  {
-    "id": "gdtb-MD-better-weather-2026-07-02-713-frederick-road",
-    "name": "Better Weather — 713 Frederick Road",
-    "band": "Better Weather",
-    "bandSlug": "better-weather",
-    "venue": "713 Frederick Road",
-    "city": "Catonsville",
-    "state": "MD",
-    "lat": 39.2609922,
-    "lng": -76.7455478,
-    "date": "2026-07-02",
-    "time": "7pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MD",
-    "source": "gdtb",
-    "attractions": [
-      "Better Weather"
     ]
   },
   {
@@ -6801,24 +6675,6 @@
     "source": "gdtb",
     "attractions": [
       "InDEADnation"
-    ]
-  },
-  {
-    "id": "gdtb-MA-jubilee-band-2026-07-02-the-gavel-public-house",
-    "name": "Jubilee Band — The Gavel Public House",
-    "band": "Jubilee Band",
-    "bandSlug": "jubilee-band",
-    "venue": "The Gavel Public House",
-    "city": "Wrentham",
-    "state": "MA",
-    "lat": 42.0667652,
-    "lng": -71.3281114,
-    "date": "2026-07-02",
-    "time": "8 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "Jubilee Band"
     ]
   },
   {
@@ -8838,24 +8694,6 @@
     ]
   },
   {
-    "id": "gdtb-MS-the-terrapins-2026-07-02-814-howard-ave-biloxi-ms-unite",
-    "name": "The Terrapins — 814 Howard Ave Biloxi MS United States Mississippi 39530",
-    "band": "The Terrapins",
-    "bandSlug": "the-terrapins",
-    "venue": "814 Howard Ave Biloxi MS United States Mississippi 39530",
-    "city": "Biloxi",
-    "state": "MS",
-    "lat": 30.4007626,
-    "lng": -88.8893818,
-    "date": "2026-07-02",
-    "time": "7 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MS",
-    "source": "gdtb",
-    "attractions": [
-      "The Terrapins"
-    ]
-  },
-  {
     "id": "gdtb-MS-the-terrapins-2026-07-10-jacks-by-the-tracks",
     "name": "The Terrapins — Jacks By The Tracks",
     "band": "The Terrapins",
@@ -9519,78 +9357,6 @@
     "source": "gdtb",
     "attractions": [
       "Alligator Wine"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-cosmic-jerry-band-2026-07-02-68-phillips-road-newton-nj-uni",
-    "name": "Cosmic Jerry Band — 68 Phillips Road Newton NJ United States New Jersey 07860",
-    "band": "Cosmic Jerry Band",
-    "bandSlug": "cosmic-jerry-band",
-    "venue": "68 Phillips Road Newton NJ United States New Jersey 07860",
-    "city": "Newton",
-    "state": "NJ",
-    "lat": 41.0583121,
-    "lng": -74.7531445,
-    "date": "2026-07-02",
-    "time": "THRU Jul 5",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Cosmic Jerry Band"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-crickets-and-cicadas-2026-07-02-tonewood-brewing",
-    "name": "Crickets and Cicadas — Tonewood Brewing",
-    "band": "Crickets and Cicadas",
-    "bandSlug": "crickets-and-cicadas",
-    "venue": "Tonewood Brewing",
-    "city": "Oaklyn",
-    "state": "NJ",
-    "lat": 39.9009465,
-    "lng": -75.0846179,
-    "date": "2026-07-02",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Crickets and Cicadas"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-deadful-greats-2026-07-02-68-phillips-road-newton-nj-uni",
-    "name": "Deadful Greats — 68 Phillips Road Newton NJ United States New Jersey 07860",
-    "band": "Deadful Greats",
-    "bandSlug": "deadful-greats",
-    "venue": "68 Phillips Road Newton NJ United States New Jersey 07860",
-    "city": "Newton",
-    "state": "NJ",
-    "lat": 41.0583121,
-    "lng": -74.7531445,
-    "date": "2026-07-02",
-    "time": "THRU Jul 5",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Deadful Greats"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-rainbow-full-of-sound-2026-07-02-river-rock-beach-bar",
-    "name": "Rainbow Full Of Sound — River Rock Beach Bar",
-    "band": "Rainbow Full Of Sound",
-    "bandSlug": "rainbow-full-of-sound",
-    "venue": "River Rock Beach Bar",
-    "city": "Brick",
-    "state": "NJ",
-    "lat": 40.0707244,
-    "lng": -74.1280562,
-    "date": "2026-07-02",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Rainbow Full Of Sound"
     ]
   },
   {
@@ -11517,24 +11283,6 @@
     "source": "gdtb",
     "attractions": [
       "Steely Dead"
-    ]
-  },
-  {
-    "id": "gdtb-NY-nailed-shutt-2026-07-02-warwick-food-truck-festival",
-    "name": "Nailed Shutt — Warwick Food Truck Festival",
-    "band": "Nailed Shutt",
-    "bandSlug": "nailed-shutt",
-    "venue": "Warwick Food Truck Festival",
-    "city": "Warwick",
-    "state": "NY",
-    "lat": 41.256483,
-    "lng": -74.3598755,
-    "date": "2026-07-02",
-    "time": "4 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Nailed Shutt"
     ]
   },
   {
@@ -16164,24 +15912,6 @@
     ]
   },
   {
-    "id": "gdtb-PA-shakedown-citi-2026-07-02-sellersville-theater",
-    "name": "Shakedown Citi — Sellersville Theater",
-    "band": "Shakedown Citi",
-    "bandSlug": "shakedown-citi",
-    "venue": "Sellersville Theater",
-    "city": "Sellersville",
-    "state": "PA",
-    "lat": 40.3542858,
-    "lng": -75.3050079,
-    "date": "2026-07-02",
-    "time": "",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
-    "source": "gdtb",
-    "attractions": [
-      "Shakedown Citi"
-    ]
-  },
-  {
     "id": "gdtb-PA-deal-2026-07-03-4935-river-rd",
     "name": "DEAL — 4935 River Rd",
     "band": "DEAL",
@@ -17100,42 +16830,6 @@
     ]
   },
   {
-    "id": "gdtb-RI-blue-drew-and-the-magoos-2026-07-02-1-state-street",
-    "name": "Blue Drew and the Magoos — 1 State Street",
-    "band": "Blue Drew and the Magoos",
-    "bandSlug": "blue-drew-and-the-magoos",
-    "venue": "1 State Street",
-    "city": "Bristol",
-    "state": "RI",
-    "lat": 41.6770463,
-    "lng": -71.2661597,
-    "date": "2026-07-02",
-    "time": "8:00pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=RI",
-    "source": "gdtb",
-    "attractions": [
-      "Blue Drew and the Magoos"
-    ]
-  },
-  {
-    "id": "gdtb-RI-blue-drew-and-the-magoos-2026-07-02-judge-roy-bean-saloon",
-    "name": "Blue Drew and the Magoos — Judge Roy Bean Saloon",
-    "band": "Blue Drew and the Magoos",
-    "bandSlug": "blue-drew-and-the-magoos",
-    "venue": "Judge Roy Bean Saloon",
-    "city": "Bristol",
-    "state": "RI",
-    "lat": 41.6770463,
-    "lng": -71.2661597,
-    "date": "2026-07-02",
-    "time": "8 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=RI",
-    "source": "gdtb",
-    "attractions": [
-      "Blue Drew and the Magoos"
-    ]
-  },
-  {
     "id": "gdtb-RI-blue-drew-and-the-magoos-2026-07-03-duffins-pub",
     "name": "Blue Drew and the Magoos — Duffins Pub",
     "band": "Blue Drew and the Magoos",
@@ -17439,24 +17133,6 @@
     "source": "gdtb",
     "attractions": [
       "So Many Rhodes"
-    ]
-  },
-  {
-    "id": "gdtb-SC-the-grateful-brothers-2026-07-02-noma-square",
-    "name": "The Grateful Brothers — NOMA Square",
-    "band": "The Grateful Brothers",
-    "bandSlug": "the-grateful-brothers",
-    "venue": "NOMA Square",
-    "city": "Greenville",
-    "state": "SC",
-    "lat": 34.851354,
-    "lng": -82.3984882,
-    "date": "2026-07-02",
-    "time": "5:30 PM and 8 more",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=SC",
-    "source": "gdtb",
-    "attractions": [
-      "The Grateful Brothers"
     ]
   },
   {
@@ -19422,78 +19098,6 @@
     ]
   },
   {
-    "id": "gdtb-WI-mr-blotto-2026-07-02-reid-park-gazebo",
-    "name": "Mr. Blotto — Reid Park Gazebo",
-    "band": "Mr. Blotto",
-    "bandSlug": "mr-blotto",
-    "venue": "Reid Park Gazebo",
-    "city": "Fontana-On-Geneva Lake",
-    "state": "WI",
-    "lat": 42.5492107,
-    "lng": -88.5750725,
-    "date": "2026-07-02",
-    "time": "6:00 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=WI",
-    "source": "gdtb",
-    "attractions": [
-      "Mr. Blotto"
-    ]
-  },
-  {
-    "id": "gdtb-WI-another-one-2026-07-02-w379s9674-county-road-s",
-    "name": "Another One — W379S9674 County Road S",
-    "band": "Another One",
-    "bandSlug": "another-one",
-    "venue": "W379S9674 County Road S",
-    "city": "EAGLE",
-    "state": "WI",
-    "lat": 42.8794563,
-    "lng": -88.474265,
-    "date": "2026-07-02",
-    "time": "12 pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=WI",
-    "source": "gdtb",
-    "attractions": [
-      "Another One"
-    ]
-  },
-  {
-    "id": "gdtb-WI-head-s-all-empty-2026-07-02-w379s9674-county-road-s-eagle-",
-    "name": "Head's All Empty — W379S9674 County Road S Eagle WI",
-    "band": "Head's All Empty",
-    "bandSlug": "head-s-all-empty",
-    "venue": "W379S9674 County Road S Eagle WI",
-    "city": "Eagle",
-    "state": "WI",
-    "lat": 42.8794563,
-    "lng": -88.474265,
-    "date": "2026-07-02",
-    "time": "THRU Jul 5",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=WI",
-    "source": "gdtb",
-    "attractions": [
-      "Head's All Empty"
-    ]
-  },
-  {
-    "id": "gdtb-WI-northwest-corner-2026-07-02-w379s9674-county-road-s-eagle-",
-    "name": "Northwest Corner — W379S9674 County Road S Eagle WI",
-    "band": "Northwest Corner",
-    "bandSlug": "northwest-corner",
-    "venue": "W379S9674 County Road S Eagle WI",
-    "city": "Eagle",
-    "state": "WI",
-    "lat": 42.8794563,
-    "lng": -88.474265,
-    "date": "2026-07-02",
-    "time": "THRU Jul 5",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=WI",
-    "source": "gdtb",
-    "attractions": [
-      "Northwest Corner"
-    ]
-  },
-  {
     "id": "gdtb-WI-boney-fingers-2026-07-03-w379s9674-county-road-s",
     "name": "Boney Fingers — W379S9674 County Road S",
     "band": "Boney Fingers",
@@ -19581,24 +19185,6 @@
     "source": "gdtb",
     "attractions": [
       "Jed & Company"
-    ]
-  },
-  {
-    "id": "gdtb-WI-special-event-wave-that-flag-festival-2026-07-02-w379-s9674-county-road-s",
-    "name": "Special Event Wave That Flag Festival — W379 S9674 County Road S",
-    "band": "Special Event Wave That Flag Festival",
-    "bandSlug": "special-event-wave-that-flag-festival",
-    "venue": "W379 S9674 County Road S",
-    "city": "Eagle",
-    "state": "WI",
-    "lat": 42.8794563,
-    "lng": -88.474265,
-    "date": "2026-07-02",
-    "time": "",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=WI",
-    "source": "gdtb",
-    "attractions": [
-      "Special Event Wave That Flag Festival"
     ]
   },
   {

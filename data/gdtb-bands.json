@@ -168,14 +168,14 @@
     "state": "CA"
   },
   {
-    "slug": "chinaflower-suncats",
-    "name": "Chinaflower Suncats",
+    "slug": "crick-wooder",
+    "name": "Crick Wooder",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
   {
-    "slug": "crick-wooder",
-    "name": "Crick Wooder",
+    "slug": "chinaflower-suncats",
+    "name": "Chinaflower Suncats",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
@@ -256,12 +256,6 @@
     "name": "Dead Panic",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
-  },
-  {
-    "slug": "owsley-s-owls",
-    "name": "Owsley's Owls",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CT"
   },
   {
     "slug": "the-mystery-train-band",
@@ -348,14 +342,14 @@
     "state": "DE"
   },
   {
-    "slug": "love-valley",
-    "name": "Love Valley",
+    "slug": "crazy-fingers",
+    "name": "Crazy Fingers",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
   {
-    "slug": "crazy-fingers",
-    "name": "Crazy Fingers",
+    "slug": "love-valley",
+    "name": "Love Valley",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
@@ -558,14 +552,14 @@
     "state": "IN"
   },
   {
-    "slug": "touch-of-grey-midwest",
-    "name": "Touch of Grey Midwest",
+    "slug": "winterland",
+    "name": "Winterland",
     "source": "gratefuldeadtributebands.com",
     "state": "IA"
   },
   {
-    "slug": "winterland",
-    "name": "Winterland",
+    "slug": "touch-of-grey-midwest",
+    "name": "Touch of Grey Midwest",
     "source": "gratefuldeadtributebands.com",
     "state": "IA"
   },
@@ -610,12 +604,6 @@
     "name": "Sans Souci JGB Tribute",
     "source": "gratefuldeadtributebands.com",
     "state": "ME"
-  },
-  {
-    "slug": "better-weather",
-    "name": "Better Weather",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MD"
   },
   {
     "slug": "indeadnation",
@@ -690,12 +678,6 @@
     "state": "MD"
   },
   {
-    "slug": "jubilee-band",
-    "name": "Jubilee Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MA"
-  },
-  {
     "slug": "the-reckoning-crew",
     "name": "The Reckoning Crew",
     "source": "gratefuldeadtributebands.com",
@@ -704,6 +686,12 @@
   {
     "slug": "august-first",
     "name": "August First",
+    "source": "gratefuldeadtributebands.com",
+    "state": "MA"
+  },
+  {
+    "slug": "owsley-s-owls",
+    "name": "Owsley's Owls",
     "source": "gratefuldeadtributebands.com",
     "state": "MA"
   },
@@ -930,18 +918,6 @@
     "state": "NH"
   },
   {
-    "slug": "deadful-greats",
-    "name": "Deadful Greats",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "rainbow-full-of-sound",
-    "name": "Rainbow Full Of Sound",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "too-cool-to-bluff",
     "name": "Too Cool To Bluff",
     "source": "gratefuldeadtributebands.com",
@@ -980,6 +956,12 @@
   {
     "slug": "diomede-and-donovan",
     "name": "Diomede And Donovan",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "rainbow-full-of-sound",
+    "name": "Rainbow Full Of Sound",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1074,12 +1056,6 @@
     "state": "NM"
   },
   {
-    "slug": "nailed-shutt",
-    "name": "Nailed Shutt",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
     "slug": "the-wheel",
     "name": "The Wheel",
     "source": "gratefuldeadtributebands.com",
@@ -1142,6 +1118,12 @@
   {
     "slug": "j-and-the-tie-dyers",
     "name": "J and the Tie Dyers",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "nailed-shutt",
+    "name": "Nailed Shutt",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
@@ -1536,24 +1518,6 @@
     "state": "WV"
   },
   {
-    "slug": "another-one",
-    "name": "Another One",
-    "source": "gratefuldeadtributebands.com",
-    "state": "WI"
-  },
-  {
-    "slug": "head-s-all-empty",
-    "name": "Head's All Empty",
-    "source": "gratefuldeadtributebands.com",
-    "state": "WI"
-  },
-  {
-    "slug": "northwest-corner",
-    "name": "Northwest Corner",
-    "source": "gratefuldeadtributebands.com",
-    "state": "WI"
-  },
-  {
     "slug": "boney-fingers",
     "name": "Boney Fingers",
     "source": "gratefuldeadtributebands.com",
@@ -1568,12 +1532,6 @@
   {
     "slug": "jed-company",
     "name": "Jed & Company",
-    "source": "gratefuldeadtributebands.com",
-    "state": "WI"
-  },
-  {
-    "slug": "special-event-wave-that-flag-festival",
-    "name": "Special Event Wave That Flag Festival",
     "source": "gratefuldeadtributebands.com",
     "state": "WI"
   },
