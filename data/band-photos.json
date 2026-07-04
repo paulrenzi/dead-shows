@@ -557,5 +557,10 @@
     "photo": "images/bands/into-the-blue.jpg",
     "source": "deezer",
     "matchedName": "Into the Blue"
+  },
+  "northstar-music": {
+    "photo": "images/bands/northstar-music.jpg",
+    "source": "deezer",
+    "matchedName": "Northstar Music"
   }
 }

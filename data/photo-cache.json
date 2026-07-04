@@ -1746,5 +1746,10 @@
   "no-simple-highway": {
     "tried": "2026-07-02",
     "matched": false
+  },
+  "northstar-music": {
+    "tried": "2026-07-04",
+    "matched": true,
+    "name": "Northstar Music"
   }
 }
