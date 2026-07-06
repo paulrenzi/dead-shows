@@ -108,42 +108,6 @@
     ]
   },
   {
-    "id": "gdtb-CA-cubensis-2026-07-05-newport-dunes-waterfront-resor",
-    "name": "Cubensis — Newport Dunes Waterfront Resort",
-    "band": "Cubensis",
-    "bandSlug": "cubensis",
-    "venue": "Newport Dunes Waterfront Resort",
-    "city": "Newport Beach",
-    "state": "CA",
-    "lat": 33.6170092,
-    "lng": -117.9294401,
-    "date": "2026-07-05",
-    "time": "8 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "Cubensis"
-    ]
-  },
-  {
-    "id": "gdtb-CA-dead-roses-2026-07-05-lagunitas-brewing-co",
-    "name": "Dead Roses — Lagunitas Brewing Co",
-    "band": "Dead Roses",
-    "bandSlug": "dead-roses",
-    "venue": "Lagunitas Brewing Co",
-    "city": "Petaluma",
-    "state": "CA",
-    "lat": 38.2325829,
-    "lng": -122.636465,
-    "date": "2026-07-05",
-    "time": "5:30 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "Dead Roses"
-    ]
-  },
-  {
     "id": "gdtb-CA-diego-dead-2026-07-09-1548-quivira-way-sd",
     "name": "Diego Dead — 1548 Quivira Way SD",
     "band": "Diego Dead",
@@ -1170,42 +1134,6 @@
     ]
   },
   {
-    "id": "gdtb-CO-cowboys-dead-2026-07-05-605-s-mason-street",
-    "name": "Cowboys Dead — 605 S. Mason Street",
-    "band": "Cowboys Dead",
-    "bandSlug": "cowboys-dead",
-    "venue": "605 S. Mason Street",
-    "city": "Fort Collins",
-    "state": "CO",
-    "lat": 40.5871782,
-    "lng": -105.0770113,
-    "date": "2026-07-05",
-    "time": "1:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
-    "source": "gdtb",
-    "attractions": [
-      "Cowboys Dead"
-    ]
-  },
-  {
-    "id": "gdtb-CO-shakedown-sunday-2026-07-05-two-moons-music-hall",
-    "name": "Shakedown Sunday — Two Moons Music Hall",
-    "band": "Shakedown Sunday",
-    "bandSlug": "shakedown-sunday",
-    "venue": "Two Moons Music Hall",
-    "city": "Denver",
-    "state": "CO",
-    "lat": 39.7392364,
-    "lng": -104.984862,
-    "date": "2026-07-05",
-    "time": "4 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
-    "source": "gdtb",
-    "attractions": [
-      "Shakedown Sunday"
-    ]
-  },
-  {
     "id": "gdtb-CO-shakedown-street-2026-07-08-four-mile-historic-park",
     "name": "Shakedown Street — Four Mile Historic Park",
     "band": "Shakedown Street",
@@ -2121,42 +2049,6 @@
     "source": "gdtb",
     "attractions": [
       "Steely Dead"
-    ]
-  },
-  {
-    "id": "gdtb-CT-shakedown-citi-2026-07-05-talcott-mountain-collective",
-    "name": "Shakedown Citi — Talcott Mountain Collective",
-    "band": "Shakedown Citi",
-    "bandSlug": "shakedown-citi",
-    "venue": "Talcott Mountain Collective",
-    "city": "Simsbury",
-    "state": "CT",
-    "lat": 41.8759152,
-    "lng": -72.8012211,
-    "date": "2026-07-05",
-    "time": "",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
-    "source": "gdtb",
-    "attractions": [
-      "Shakedown Citi"
-    ]
-  },
-  {
-    "id": "gdtb-CT-rob-glassman-band-2026-07-05-twelve-percent-beer-project",
-    "name": "Rob Glassman Band — Twelve Percent Beer Project",
-    "band": "Rob Glassman Band",
-    "bandSlug": "rob-glassman-band",
-    "venue": "Twelve Percent Beer Project",
-    "city": "North Haven",
-    "state": "CT",
-    "lat": 41.3909305,
-    "lng": -72.859545,
-    "date": "2026-07-05",
-    "time": "2 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
-    "source": "gdtb",
-    "attractions": [
-      "Rob Glassman Band"
     ]
   },
   {
@@ -3366,60 +3258,6 @@
     ]
   },
   {
-    "id": "gdtb-FL-morning-dew-2026-07-05-2001-1st-ave-s",
-    "name": "Morning Dew — 2001 1st Ave S",
-    "band": "Morning Dew",
-    "bandSlug": "morning-dew",
-    "venue": "2001 1st Ave S",
-    "city": "St. Petersburg",
-    "state": "FL",
-    "lat": 27.7712264,
-    "lng": -82.6340259,
-    "date": "2026-07-05",
-    "time": "2pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Morning Dew"
-    ]
-  },
-  {
-    "id": "gdtb-FL-crazy-fingers-2026-07-05-crazy-uncle-mikes-boca-raton-f",
-    "name": "Crazy Fingers — Crazy Uncle Mikes, Boca Raton, FL 33487",
-    "band": "Crazy Fingers",
-    "bandSlug": "crazy-fingers",
-    "venue": "Crazy Uncle Mikes, Boca Raton, FL 33487",
-    "city": "Boca Raton",
-    "state": "FL",
-    "lat": 26.3586885,
-    "lng": -80.0830984,
-    "date": "2026-07-05",
-    "time": "7:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Crazy Fingers"
-    ]
-  },
-  {
-    "id": "gdtb-FL-mondo-tikis-2026-07-05-mavericks-hangar-bar-grill",
-    "name": "Mondo Tikis — Mavericks Hangar Bar & Grill",
-    "band": "Mondo Tikis",
-    "bandSlug": "mondo-tikis",
-    "venue": "Mavericks Hangar Bar & Grill",
-    "city": "Satellite Beach",
-    "state": "FL",
-    "lat": 28.1760051,
-    "lng": -80.5904623,
-    "date": "2026-07-05",
-    "time": "3 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Mondo Tikis"
-    ]
-  },
-  {
     "id": "gdtb-FL-crazy-fingers-2026-07-07-the-funky-biscuit-boca-raton-f",
     "name": "Crazy Fingers — The Funky Biscuit, Boca Raton, FL 33432",
     "band": "Crazy Fingers",
@@ -4425,24 +4263,6 @@
     "source": "gdtb",
     "attractions": [
       "Definitely Dead"
-    ]
-  },
-  {
-    "id": "gdtb-IL-dose-2026-07-05-thirsty-beaver-crestwood",
-    "name": "Dose — Thirsty Beaver Crestwood",
-    "band": "Dose",
-    "bandSlug": "dose",
-    "venue": "Thirsty Beaver Crestwood",
-    "city": "Crestwood",
-    "state": "IL",
-    "lat": 41.6611444,
-    "lng": -87.7525511,
-    "date": "2026-07-05",
-    "time": "4 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=IL",
-    "source": "gdtb",
-    "attractions": [
-      "Dose"
     ]
   },
   {
@@ -6192,24 +6012,6 @@
     ]
   },
   {
-    "id": "gdtb-MA-pearly-baker-band-2026-07-05-780-purchase-st",
-    "name": "Pearly Baker Band — 780 Purchase St",
-    "band": "Pearly Baker Band",
-    "bandSlug": "pearly-baker-band",
-    "venue": "780 Purchase St",
-    "city": "New Bedford",
-    "state": "MA",
-    "lat": 41.6362152,
-    "lng": -70.934205,
-    "date": "2026-07-05",
-    "time": "4 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "Pearly Baker Band"
-    ]
-  },
-  {
     "id": "gdtb-MA-diamond-blues-2026-07-06-holland-community-center-holla",
     "name": "Diamond Blues — Holland Community Center Holland MA",
     "band": "Diamond Blues",
@@ -7863,24 +7665,6 @@
     "source": "gdtb",
     "attractions": [
       "Terrapin Flyer"
-    ]
-  },
-  {
-    "id": "gdtb-MN-shotgun-ragtime-band-2026-07-05-4415-nicollet-ave",
-    "name": "Shotgun Ragtime Band — 4415 Nicollet Ave",
-    "band": "Shotgun Ragtime Band",
-    "bandSlug": "shotgun-ragtime-band",
-    "venue": "4415 Nicollet Ave",
-    "city": "Minneapolis",
-    "state": "MN",
-    "lat": 44.9772995,
-    "lng": -93.2654692,
-    "date": "2026-07-05",
-    "time": "7:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MN",
-    "source": "gdtb",
-    "attractions": [
-      "Shotgun Ragtime Band"
     ]
   },
   {
@@ -10566,78 +10350,6 @@
     ]
   },
   {
-    "id": "gdtb-NY-wolfman-jack-2026-07-05-the-catskill-brewery",
-    "name": "Wolfman Jack — The Catskill Brewery",
-    "band": "Wolfman Jack",
-    "bandSlug": "wolfman-jack",
-    "venue": "The Catskill Brewery",
-    "city": "Livingston Manor",
-    "state": "NY",
-    "lat": 41.89321,
-    "lng": -74.8268287,
-    "date": "2026-07-05",
-    "time": "2 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Wolfman Jack"
-    ]
-  },
-  {
-    "id": "gdtb-NY-dead-on-the-hudson-2026-07-05-304",
-    "name": "Dead On the Hudson — 304",
-    "band": "Dead On the Hudson",
-    "bandSlug": "dead-on-the-hudson",
-    "venue": "304",
-    "city": "PEEKSKILL",
-    "state": "NY",
-    "lat": 41.289811,
-    "lng": -73.9204922,
-    "date": "2026-07-05",
-    "time": "2:00pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Dead On the Hudson"
-    ]
-  },
-  {
-    "id": "gdtb-NY-half-step-li-2026-07-05-north-hempstead-beach-park",
-    "name": "Half Step LI — North Hempstead Beach Park,",
-    "band": "Half Step LI",
-    "bandSlug": "half-step-li",
-    "venue": "North Hempstead Beach Park,",
-    "city": "Port Washington",
-    "state": "NY",
-    "lat": 40.8263965,
-    "lng": -73.684993,
-    "date": "2026-07-05",
-    "time": "7:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Half Step LI"
-    ]
-  },
-  {
-    "id": "gdtb-NY-rainbow-full-of-sound-2026-07-05-colony-woodstock-ny",
-    "name": "Rainbow Full Of Sound — Colony Woodstock NY",
-    "band": "Rainbow Full Of Sound",
-    "bandSlug": "rainbow-full-of-sound",
-    "venue": "Colony Woodstock NY",
-    "city": "Woodstock",
-    "state": "NY",
-    "lat": 42.0410578,
-    "lng": -74.1182492,
-    "date": "2026-07-05",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Rainbow Full Of Sound"
-    ]
-  },
-  {
     "id": "gdtb-NY-rising-tide-2026-07-06-201-montauk-highway",
     "name": "Rising Tide — 201 Montauk Highway",
     "band": "Rising Tide",
@@ -12903,42 +12615,6 @@
     "source": "gdtb",
     "attractions": [
       "Rob Glassman Band"
-    ]
-  },
-  {
-    "id": "gdtb-NC-dirty-dead-2026-07-05-katy-s-grill-and-bar",
-    "name": "Dirty Dead — Katy's Grill And Bar",
-    "band": "Dirty Dead",
-    "bandSlug": "dirty-dead",
-    "venue": "Katy's Grill And Bar",
-    "city": "Wilmington",
-    "state": "NC",
-    "lat": 34.2352853,
-    "lng": -77.9487284,
-    "date": "2026-07-05",
-    "time": "2 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NC",
-    "source": "gdtb",
-    "attractions": [
-      "Dirty Dead"
-    ]
-  },
-  {
-    "id": "gdtb-NC-eternally-grateful-2026-07-05-smokey-joe-s",
-    "name": "Eternally Grateful — Smokey Joe's",
-    "band": "Eternally Grateful",
-    "bandSlug": "eternally-grateful",
-    "venue": "Smokey Joe's",
-    "city": "Charlotte",
-    "state": "NC",
-    "lat": 35.2272086,
-    "lng": -80.8430827,
-    "date": "2026-07-05",
-    "time": "11:30AMÂ â",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NC",
-    "source": "gdtb",
-    "attractions": [
-      "Eternally Grateful"
     ]
   },
   {
@@ -16056,24 +15732,6 @@
     ]
   },
   {
-    "id": "gdtb-SC-thursday-s-dead-2026-07-05-819-n-kings-hwy",
-    "name": "Thursday's Dead — 819 N Kings Hwy",
-    "band": "Thursday's Dead",
-    "bandSlug": "thursday-s-dead",
-    "venue": "819 N Kings Hwy",
-    "city": "MYRTLE BEACH",
-    "state": "SC",
-    "lat": 33.6956461,
-    "lng": -78.8900409,
-    "date": "2026-07-05",
-    "time": "2pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=SC",
-    "source": "gdtb",
-    "attractions": [
-      "Thursday's Dead"
-    ]
-  },
-  {
     "id": "gdtb-SC-thursday-s-dead-2026-07-10-6307-n-kings-hwy",
     "name": "Thursday's Dead — 6307 N Kings Hwy",
     "band": "Thursday's Dead",
@@ -16701,24 +16359,6 @@
     "source": "gdtb",
     "attractions": [
       "The Stolen Faces"
-    ]
-  },
-  {
-    "id": "gdtb-TX-the-dead-thing-2026-07-05-423-s-main-street",
-    "name": "The Dead Thing — 423 S Main Street",
-    "band": "The Dead Thing",
-    "bandSlug": "the-dead-thing",
-    "venue": "423 S Main Street",
-    "city": "Grapevine",
-    "state": "TX",
-    "lat": 32.9337381,
-    "lng": -97.0788754,
-    "date": "2026-07-05",
-    "time": "2:30",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=TX",
-    "source": "gdtb",
-    "attractions": [
-      "The Dead Thing"
     ]
   },
   {

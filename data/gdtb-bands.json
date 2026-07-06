@@ -24,12 +24,6 @@
     "state": "AZ"
   },
   {
-    "slug": "dead-roses",
-    "name": "Dead Roses",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
     "slug": "diego-dead",
     "name": "Diego Dead",
     "source": "gratefuldeadtributebands.com",
@@ -80,6 +74,12 @@
   {
     "slug": "the-storytellers",
     "name": "The Storytellers",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
+    "slug": "dead-roses",
+    "name": "Dead Roses",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
   },
@@ -162,18 +162,6 @@
     "state": "CA"
   },
   {
-    "slug": "cowboys-dead",
-    "name": "Cowboys Dead",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CO"
-  },
-  {
-    "slug": "shakedown-sunday",
-    "name": "Shakedown Sunday",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CO"
-  },
-  {
     "slug": "shakedown-street",
     "name": "Shakedown Street",
     "source": "gratefuldeadtributebands.com",
@@ -206,6 +194,12 @@
   {
     "slug": "built-to-last",
     "name": "Built to Last",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CO"
+  },
+  {
+    "slug": "shakedown-sunday",
+    "name": "Shakedown Sunday",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
@@ -252,20 +246,20 @@
     "state": "CO"
   },
   {
-    "slug": "shakedown-citi",
-    "name": "Shakedown Citi",
+    "slug": "cowboys-dead",
+    "name": "Cowboys Dead",
     "source": "gratefuldeadtributebands.com",
-    "state": "CT"
-  },
-  {
-    "slug": "rob-glassman-band",
-    "name": "Rob Glassman Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CT"
+    "state": "CO"
   },
   {
     "slug": "wolfman-jack",
     "name": "Wolfman Jack",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CT"
+  },
+  {
+    "slug": "shakedown-citi",
+    "name": "Shakedown Citi",
     "source": "gratefuldeadtributebands.com",
     "state": "CT"
   },
@@ -278,6 +272,12 @@
   {
     "slug": "ct-grateful-dead-all-stars",
     "name": "CT Grateful Dead All Stars",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CT"
+  },
+  {
+    "slug": "rob-glassman-band",
+    "name": "Rob Glassman Band",
     "source": "gratefuldeadtributebands.com",
     "state": "CT"
   },
@@ -334,12 +334,6 @@
     "name": "KGB - Karl's Garcia Band",
     "source": "gratefuldeadtributebands.com",
     "state": "DE"
-  },
-  {
-    "slug": "morning-dew",
-    "name": "Morning Dew",
-    "source": "gratefuldeadtributebands.com",
-    "state": "FL"
   },
   {
     "slug": "crazy-fingers",
@@ -436,12 +430,6 @@
     "name": "Frankly Scarlet",
     "source": "gratefuldeadtributebands.com",
     "state": "GA"
-  },
-  {
-    "slug": "dose",
-    "name": "Dose",
-    "source": "gratefuldeadtributebands.com",
-    "state": "IL"
   },
   {
     "slug": "mr-blotto",
@@ -642,12 +630,6 @@
     "state": "MD"
   },
   {
-    "slug": "pearly-baker-band",
-    "name": "Pearly Baker Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MA"
-  },
-  {
     "slug": "diamond-blues",
     "name": "Diamond Blues",
     "source": "gratefuldeadtributebands.com",
@@ -816,14 +798,14 @@
     "state": "MI"
   },
   {
-    "slug": "shotgun-ragtime-band",
-    "name": "Shotgun Ragtime Band",
+    "slug": "grateful-gals",
+    "name": "Grateful Gals",
     "source": "gratefuldeadtributebands.com",
     "state": "MN"
   },
   {
-    "slug": "grateful-gals",
-    "name": "Grateful Gals",
+    "slug": "shotgun-ragtime-band",
+    "name": "Shotgun Ragtime Band",
     "source": "gratefuldeadtributebands.com",
     "state": "MN"
   },
@@ -1020,18 +1002,6 @@
     "state": "NM"
   },
   {
-    "slug": "dead-on-the-hudson",
-    "name": "Dead On the Hudson",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
-    "slug": "half-step-li",
-    "name": "Half Step LI",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
     "slug": "rising-tide",
     "name": "Rising Tide",
     "source": "gratefuldeadtributebands.com",
@@ -1040,6 +1010,12 @@
   {
     "slug": "buffalo-dead-all-stars",
     "name": "Buffalo Dead All Stars",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "half-step-li",
+    "name": "Half Step LI",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
@@ -1128,12 +1104,6 @@
     "state": "NY"
   },
   {
-    "slug": "dirty-dead",
-    "name": "Dirty Dead",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NC"
-  },
-  {
     "slug": "eternally-grateful",
     "name": "Eternally Grateful",
     "source": "gratefuldeadtributebands.com",
@@ -1160,6 +1130,12 @@
   {
     "slug": "bring-out-yer-dead",
     "name": "Bring Out Yer Dead",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NC"
+  },
+  {
+    "slug": "dirty-dead",
+    "name": "Dirty Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "NC"
   },
@@ -1348,12 +1324,6 @@
     "name": "The Grateful Brothers",
     "source": "gratefuldeadtributebands.com",
     "state": "SC"
-  },
-  {
-    "slug": "the-dead-thing",
-    "name": "The Dead Thing",
-    "source": "gratefuldeadtributebands.com",
-    "state": "TX"
   },
   {
     "slug": "miracle-ticket",
