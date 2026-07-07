@@ -1755,5 +1755,35 @@
   "pearly-baker-band": {
     "tried": "2026-07-05",
     "matched": false
+  },
+  "grass-is-dead": {
+    "tried": "2026-07-07",
+    "matched": false
+  },
+  "the-harvest": {
+    "tried": "2026-07-07",
+    "matched": true,
+    "name": "The Harvest"
+  },
+  "flagship-of-fools": {
+    "tried": "2026-07-07",
+    "matched": false
+  },
+  "on-the-bus": {
+    "tried": "2026-07-07",
+    "matched": true,
+    "name": "On The Bus"
+  },
+  "grateful-to-be-alive": {
+    "tried": "2026-07-07",
+    "matched": false
+  },
+  "mostly-grateful": {
+    "tried": "2026-07-07",
+    "matched": false
+  },
+  "country-dead": {
+    "tried": "2026-07-07",
+    "matched": false
   }
 }

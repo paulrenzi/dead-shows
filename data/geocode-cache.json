@@ -3695,5 +3695,121 @@
   "bayonne, nj": {
     "lat": 40.6687141,
     "lng": -74.1143091
+  },
+  "chandler, az": {
+    "lat": 33.3062031,
+    "lng": -111.841185
+  },
+  "rio nido, ca": {
+    "lat": 38.5210237,
+    "lng": -122.9769427
+  },
+  "benicia, ca": {
+    "lat": 38.049365,
+    "lng": -122.1585777
+  },
+  "leadville, co": {
+    "lat": 39.2508229,
+    "lng": -106.2925238
+  },
+  "beaver creek, co": {
+    "lat": 39.6048786,
+    "lng": -106.5150017
+  },
+  "rockford, il": {
+    "lat": 42.2713945,
+    "lng": -89.093966
+  },
+  "evanston, il": {
+    "lat": 42.0470043,
+    "lng": -87.6846053
+  },
+  "fall river, ma": {
+    "lat": 41.7010642,
+    "lng": -71.1546367
+  },
+  "rockport, ma": {
+    "lat": 42.6572112,
+    "lng": -70.6177486
+  },
+  "morley, mi": {
+    "lat": 43.490861,
+    "lng": -85.443928
+  },
+  "bear lake, mi": {
+    "lat": 44.420835,
+    "lng": -86.148143
+  },
+  "milford, mi": {
+    "lat": 42.5917805,
+    "lng": -83.6000696
+  },
+  "alton, mo": {
+    "lat": 36.694499,
+    "lng": -91.3996318
+  },
+  "portsmouth, nh": {
+    "lat": 43.0751306,
+    "lng": -70.7601826
+  },
+  "stone harbor, nj": {
+    "lat": 39.0537129,
+    "lng": -74.7584461
+  },
+  "lambertville, nj": {
+    "lat": 40.3656188,
+    "lng": -74.9454055
+  },
+  "fishers island, ny": {
+    "lat": 41.270883,
+    "lng": -71.9988774
+  },
+  "port jefferson, ny": {
+    "lat": 40.9465118,
+    "lng": -73.0691257
+  },
+  "congers, ny": {
+    "lat": 41.146634,
+    "lng": -73.9432236
+  },
+  "hastings-on-hudson, ny": {
+    "lat": 40.9946622,
+    "lng": -73.8785922
+  },
+  "boston, ny": {
+    "lat": 42.6289858,
+    "lng": -78.7376213
+  },
+  "wrightsville beach, nc": {
+    "lat": 34.2079917,
+    "lng": -77.7955907
+  },
+  "rhododendron, or": {
+    "lat": 45.3295632,
+    "lng": -121.9111906
+  },
+  "benton, pa": {
+    "lat": 41.1950837,
+    "lng": -76.3835528
+  },
+  "doylestown, pa": {
+    "lat": 40.3100446,
+    "lng": -75.1304588
+  },
+  "waitsfield, vt": {
+    "lat": 44.1926416,
+    "lng": -72.822106
+  },
+  "morgantown, wv": {
+    "lat": 39.6296809,
+    "lng": -79.9559437
+  },
+  "waukesha, wi": {
+    "lat": 43.0622536,
+    "lng": -88.3123889
+  },
+  "muskego, wi": {
+    "lat": 42.905848,
+    "lng": -88.1389779
   }
 }

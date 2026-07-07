@@ -562,5 +562,15 @@
     "photo": "images/bands/northstar-music.jpg",
     "source": "deezer",
     "matchedName": "Northstar Music"
+  },
+  "the-harvest": {
+    "photo": "images/bands/the-harvest.jpg",
+    "source": "deezer",
+    "matchedName": "The Harvest"
+  },
+  "on-the-bus": {
+    "photo": "images/bands/on-the-bus.jpg",
+    "source": "deezer",
+    "matchedName": "On The Bus"
   }
 }
