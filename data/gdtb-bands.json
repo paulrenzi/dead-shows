@@ -48,18 +48,6 @@
     "state": "AZ"
   },
   {
-    "slug": "aces-back-to-back",
-    "name": "Aces Back To Back",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
-    "slug": "easy-wind",
-    "name": "Easy Wind",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
     "slug": "token-rhyme",
     "name": "Token Rhyme",
     "source": "gratefuldeadtributebands.com",
@@ -92,6 +80,12 @@
   {
     "slug": "aardvark",
     "name": "Aardvark",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
+    "slug": "easy-wind",
+    "name": "Easy Wind",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
   },
@@ -300,12 +294,6 @@
     "state": "CO"
   },
   {
-    "slug": "wolfman-jack",
-    "name": "Wolfman Jack",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CT"
-  },
-  {
     "slug": "shakedown-citi",
     "name": "Shakedown Citi",
     "source": "gratefuldeadtributebands.com",
@@ -384,12 +372,6 @@
     "state": "DE"
   },
   {
-    "slug": "crazy-fingers",
-    "name": "Crazy Fingers",
-    "source": "gratefuldeadtributebands.com",
-    "state": "FL"
-  },
-  {
     "slug": "love-valley",
     "name": "Love Valley",
     "source": "gratefuldeadtributebands.com",
@@ -404,6 +386,12 @@
   {
     "slug": "one-good-ring",
     "name": "One Good Ring",
+    "source": "gratefuldeadtributebands.com",
+    "state": "FL"
+  },
+  {
+    "slug": "crazy-fingers",
+    "name": "Crazy Fingers",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
@@ -626,6 +614,12 @@
   {
     "slug": "sans-souci-jgb-tribute",
     "name": "Sans Souci JGB Tribute",
+    "source": "gratefuldeadtributebands.com",
+    "state": "ME"
+  },
+  {
+    "slug": "wolfman-jack",
+    "name": "Wolfman Jack",
     "source": "gratefuldeadtributebands.com",
     "state": "ME"
   },
@@ -976,12 +970,6 @@
     "name": "Lichen",
     "source": "gratefuldeadtributebands.com",
     "state": "NH"
-  },
-  {
-    "slug": "grateful-tuesday",
-    "name": "Grateful Tuesday",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
   },
   {
     "slug": "the-brian-st-john-band",
@@ -1382,6 +1370,12 @@
   {
     "slug": "rhapsody-in-red",
     "name": "Rhapsody In Red",
+    "source": "gratefuldeadtributebands.com",
+    "state": "OR"
+  },
+  {
+    "slug": "caught-dead-handed",
+    "name": "Caught Dead Handed",
     "source": "gratefuldeadtributebands.com",
     "state": "OR"
   },

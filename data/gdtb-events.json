@@ -180,42 +180,6 @@
     ]
   },
   {
-    "id": "gdtb-CA-aces-back-to-back-2026-07-07-6010-w-pico-blvd",
-    "name": "Aces Back To Back — 6010 W Pico Blvd",
-    "band": "Aces Back To Back",
-    "bandSlug": "aces-back-to-back",
-    "venue": "6010 W Pico Blvd",
-    "city": "Los Angeles",
-    "state": "CA",
-    "lat": 34.0536909,
-    "lng": -118.242766,
-    "date": "2026-07-07",
-    "time": "8pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "Aces Back To Back"
-    ]
-  },
-  {
-    "id": "gdtb-CA-easy-wind-2026-07-07-fox-point-farms-encinitas",
-    "name": "Easy Wind — Fox Point Farms- Encinitas",
-    "band": "Easy Wind",
-    "bandSlug": "easy-wind",
-    "venue": "Fox Point Farms- Encinitas",
-    "city": "Encinitas",
-    "state": "CA",
-    "lat": 33.0369867,
-    "lng": -117.2919818,
-    "date": "2026-07-07",
-    "time": "9 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "Easy Wind"
-    ]
-  },
-  {
     "id": "gdtb-CA-token-rhyme-2026-07-09-winchester-grill-ventura",
     "name": "Token Rhyme — Winchester Grill-Ventura",
     "band": "Token Rhyme",
@@ -2178,6 +2142,24 @@
     ]
   },
   {
+    "id": "gdtb-CO-young-and-dead-2026-08-22-freefarm-festival",
+    "name": "Young and Dead — FreeFarm Festival",
+    "band": "Young and Dead",
+    "bandSlug": "young-and-dead",
+    "venue": "FreeFarm Festival",
+    "city": "Elizabeth",
+    "state": "CO",
+    "lat": 39.3615865,
+    "lng": -104.5990235,
+    "date": "2026-08-22",
+    "time": "",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
+    "source": "gdtb",
+    "attractions": [
+      "Young and Dead"
+    ]
+  },
+  {
     "id": "gdtb-CO-jrad-2026-08-22-dillon-amphitheater",
     "name": "Joe Russo's Almost Dead — Dillon Amphitheater",
     "band": "Joe Russo's Almost Dead",
@@ -2355,24 +2337,6 @@
     "source": "gdtb",
     "attractions": [
       "Steely Dead"
-    ]
-  },
-  {
-    "id": "gdtb-CT-wolfman-jack-2026-07-07-woodbridge-town-hall",
-    "name": "Wolfman Jack — Woodbridge Town Hall",
-    "band": "Wolfman Jack",
-    "bandSlug": "wolfman-jack",
-    "venue": "Woodbridge Town Hall",
-    "city": "Woodbridge",
-    "state": "CT",
-    "lat": 41.3531983,
-    "lng": -73.0114935,
-    "date": "2026-07-07",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
-    "source": "gdtb",
-    "attractions": [
-      "Wolfman Jack"
     ]
   },
   {
@@ -3579,42 +3543,6 @@
     "source": "gdtb",
     "attractions": [
       "Melvin Seals and JGB"
-    ]
-  },
-  {
-    "id": "gdtb-FL-crazy-fingers-2026-07-07-the-funky-biscuit-boca-raton-f",
-    "name": "Crazy Fingers — The Funky Biscuit, Boca Raton, FL 33432",
-    "band": "Crazy Fingers",
-    "bandSlug": "crazy-fingers",
-    "venue": "The Funky Biscuit, Boca Raton, FL 33432",
-    "city": "Boca Raton",
-    "state": "FL",
-    "lat": 26.3586885,
-    "lng": -80.0830984,
-    "date": "2026-07-07",
-    "time": "7:30PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Crazy Fingers"
-    ]
-  },
-  {
-    "id": "gdtb-FL-love-valley-2026-07-07-sandbar-sports-grill-cocoa-bea",
-    "name": "Love Valley — Sandbar Sports Grill, Cocoa Beach, FL",
-    "band": "Love Valley",
-    "bandSlug": "love-valley",
-    "venue": "Sandbar Sports Grill, Cocoa Beach, FL",
-    "city": "Cocoa Beach",
-    "state": "FL",
-    "lat": 28.3184107,
-    "lng": -80.6094959,
-    "date": "2026-07-07",
-    "time": "2:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Love Valley"
     ]
   },
   {
@@ -9612,24 +9540,6 @@
     ]
   },
   {
-    "id": "gdtb-NJ-grateful-tuesday-2026-07-07-orange-lantern",
-    "name": "Grateful Tuesday — Orange Lantern",
-    "band": "Grateful Tuesday",
-    "bandSlug": "grateful-tuesday",
-    "venue": "Orange Lantern",
-    "city": "Paramus",
-    "state": "NJ",
-    "lat": 40.9452911,
-    "lng": -74.0735899,
-    "date": "2026-07-07",
-    "time": "8 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Grateful Tuesday"
-    ]
-  },
-  {
     "id": "gdtb-NJ-workingman-s-jed-2026-07-08-homestead-bar-kitchen",
     "name": "Workingman's Jed — Homestead Bar & Kitchen",
     "band": "Workingman's Jed",
@@ -10584,6 +10494,24 @@
     ]
   },
   {
+    "id": "gdtb-NJ-achievers-band-2026-07-31-28-eastman-street",
+    "name": "Achievers Band — 28 Eastman Street",
+    "band": "Achievers Band",
+    "bandSlug": "achievers-band",
+    "venue": "28 Eastman Street",
+    "city": "Cranford",
+    "state": "NJ",
+    "lat": 40.656539,
+    "lng": -74.3035794,
+    "date": "2026-07-31",
+    "time": "7 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "source": "gdtb",
+    "attractions": [
+      "Achievers Band"
+    ]
+  },
+  {
     "id": "gdtb-NJ-lovelight-2026-07-31-manafirkin-brewing-company",
     "name": "LoveLight — ManaFirkin Brewing Company",
     "band": "LoveLight",
@@ -11535,24 +11463,6 @@
     "source": "gdtb",
     "attractions": [
       "Steely Dead"
-    ]
-  },
-  {
-    "id": "gdtb-NY-ace-friends-2026-07-07-rye-town-park",
-    "name": "Ace & Friends — Rye Town Park",
-    "band": "Ace & Friends",
-    "bandSlug": "ace-friends",
-    "venue": "Rye Town Park",
-    "city": "Rye",
-    "state": "NY",
-    "lat": 40.9821371,
-    "lng": -73.6840902,
-    "date": "2026-07-07",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Ace & Friends"
     ]
   },
   {
@@ -13950,24 +13860,6 @@
     ]
   },
   {
-    "id": "gdtb-NC-eternally-grateful-2026-07-07-lucky-lou-s",
-    "name": "Eternally Grateful — Lucky Lou's",
-    "band": "Eternally Grateful",
-    "bandSlug": "eternally-grateful",
-    "venue": "Lucky Lou's",
-    "city": "Charlotte",
-    "state": "NC",
-    "lat": 35.2272086,
-    "lng": -80.8430827,
-    "date": "2026-07-07",
-    "time": "8:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NC",
-    "source": "gdtb",
-    "attractions": [
-      "Eternally Grateful"
-    ]
-  },
-  {
     "id": "gdtb-NC-eternally-grateful-2026-07-08-jack-s-live",
     "name": "Eternally Grateful — Jack's Live",
     "band": "Eternally Grateful",
@@ -15945,6 +15837,24 @@
     "source": "gdtb",
     "attractions": [
       "Definitely Dead"
+    ]
+  },
+  {
+    "id": "gdtb-OR-caught-dead-handed-2026-08-07-836-n-russell-st",
+    "name": "Caught Dead Handed — 836 N Russell St",
+    "band": "Caught Dead Handed",
+    "bandSlug": "caught-dead-handed",
+    "venue": "836 N Russell St",
+    "city": "Portland",
+    "state": "OR",
+    "lat": 45.5202471,
+    "lng": -122.674194,
+    "date": "2026-08-07",
+    "time": "8pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OR",
+    "source": "gdtb",
+    "attractions": [
+      "Caught Dead Handed"
     ]
   },
   {

@@ -3811,5 +3811,10 @@
   "muskego, wi": {
     "lat": 42.905848,
     "lng": -88.1389779
-  }
+  },
+  "elizabeth, co": {
+    "lat": 39.3615865,
+    "lng": -104.5990235
+  },
+  "grandjunction, mi": null
 }
