@@ -6,6 +6,12 @@
     "state": "AL"
   },
   {
+    "slug": "the-bailiwicks",
+    "name": "The Bailiwicks",
+    "source": "gratefuldeadtributebands.com",
+    "state": "AL"
+  },
+  {
     "slug": "grass-is-dead",
     "name": "Grass Is Dead",
     "source": "gratefuldeadtributebands.com",
@@ -198,14 +204,14 @@
     "state": "CA"
   },
   {
-    "slug": "shakedown-street",
-    "name": "Shakedown Street",
+    "slug": "crick-wooder",
+    "name": "Crick Wooder",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
   {
-    "slug": "crick-wooder",
-    "name": "Crick Wooder",
+    "slug": "shakedown-street",
+    "name": "Shakedown Street",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
@@ -294,12 +300,6 @@
     "state": "CO"
   },
   {
-    "slug": "shakedown-citi",
-    "name": "Shakedown Citi",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CT"
-  },
-  {
     "slug": "brown-eyed-women",
     "name": "Brown Eyed Women",
     "source": "gratefuldeadtributebands.com",
@@ -320,6 +320,12 @@
   {
     "slug": "mystic-dead",
     "name": "Mystic Dead",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CT"
+  },
+  {
+    "slug": "shakedown-citi",
+    "name": "Shakedown Citi",
     "source": "gratefuldeadtributebands.com",
     "state": "CT"
   },
@@ -480,14 +486,14 @@
     "state": "GA"
   },
   {
-    "slug": "mr-blotto",
-    "name": "Mr. Blotto",
+    "slug": "rock-rye",
+    "name": "Rock & Rye",
     "source": "gratefuldeadtributebands.com",
     "state": "IL"
   },
   {
-    "slug": "rock-rye",
-    "name": "Rock & Rye",
+    "slug": "mr-blotto",
+    "name": "Mr. Blotto",
     "source": "gratefuldeadtributebands.com",
     "state": "IL"
   },
@@ -972,12 +978,6 @@
     "state": "NH"
   },
   {
-    "slug": "the-brian-st-john-band",
-    "name": "The Brian St John Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "too-cool-to-bluff",
     "name": "Too Cool To Bluff",
     "source": "gratefuldeadtributebands.com",
@@ -1040,6 +1040,12 @@
   {
     "slug": "diamond-eye-jack",
     "name": "Diamond Eye Jack",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "the-brian-st-john-band",
+    "name": "The Brian St John Band",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1122,18 +1128,6 @@
     "state": "NM"
   },
   {
-    "slug": "buffalo-dead-all-stars",
-    "name": "Buffalo Dead All Stars",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
-    "slug": "half-step-li",
-    "name": "Half Step LI",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
     "slug": "tiger-rose",
     "name": "Tiger Rose",
     "source": "gratefuldeadtributebands.com",
@@ -1170,8 +1164,20 @@
     "state": "NY"
   },
   {
+    "slug": "buffalo-dead-all-stars",
+    "name": "Buffalo Dead All Stars",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
     "slug": "dead-friends",
     "name": "Dead & Friends",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "half-step-li",
+    "name": "Half Step LI",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
@@ -1230,14 +1236,14 @@
     "state": "NY"
   },
   {
-    "slug": "eternally-grateful",
-    "name": "Eternally Grateful",
+    "slug": "dragons-with-matches",
+    "name": "Dragons With Matches",
     "source": "gratefuldeadtributebands.com",
     "state": "NC"
   },
   {
-    "slug": "dragons-with-matches",
-    "name": "Dragons With Matches",
+    "slug": "eternally-grateful",
+    "name": "Eternally Grateful",
     "source": "gratefuldeadtributebands.com",
     "state": "NC"
   },

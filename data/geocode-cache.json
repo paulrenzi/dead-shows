@@ -3816,5 +3816,9 @@
     "lat": 39.3615865,
     "lng": -104.5990235
   },
-  "grandjunction, mi": null
+  "grandjunction, mi": null,
+  "hamilton - trenton, nj": {
+    "lat": 40.2033611,
+    "lng": -74.7408279
+  }
 }
