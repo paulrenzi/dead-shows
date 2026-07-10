@@ -54,12 +54,6 @@
     "state": "AZ"
   },
   {
-    "slug": "token-rhyme",
-    "name": "Token Rhyme",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
     "slug": "cryptical-development",
     "name": "Cryptical Development",
     "source": "gratefuldeadtributebands.com",
@@ -116,6 +110,12 @@
   {
     "slug": "the-storytellers",
     "name": "The Storytellers",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
+    "slug": "token-rhyme",
+    "name": "Token Rhyme",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
   },
@@ -300,20 +300,14 @@
     "state": "CO"
   },
   {
-    "slug": "brown-eyed-women",
-    "name": "Brown Eyed Women",
+    "slug": "rob-glassman-band",
+    "name": "Rob Glassman Band",
     "source": "gratefuldeadtributebands.com",
     "state": "CT"
   },
   {
     "slug": "ct-grateful-dead-all-stars",
     "name": "CT Grateful Dead All Stars",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CT"
-  },
-  {
-    "slug": "rob-glassman-band",
-    "name": "Rob Glassman Band",
     "source": "gratefuldeadtributebands.com",
     "state": "CT"
   },
@@ -542,6 +536,12 @@
   {
     "slug": "hyryder",
     "name": "Hyryder",
+    "source": "gratefuldeadtributebands.com",
+    "state": "IL"
+  },
+  {
+    "slug": "brown-eyed-women",
+    "name": "Brown Eyed Women",
     "source": "gratefuldeadtributebands.com",
     "state": "IL"
   },
@@ -978,20 +978,8 @@
     "state": "NH"
   },
   {
-    "slug": "too-cool-to-bluff",
-    "name": "Too Cool To Bluff",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "dead-reckoning",
-    "name": "Dead Reckoning",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "diomede-and-donovan",
-    "name": "Diomede And Donovan",
+    "slug": "deadicated-friends",
+    "name": "Deadicated & Friends",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1002,20 +990,14 @@
     "state": "NJ"
   },
   {
-    "slug": "rainbow-full-of-sound",
-    "name": "Rainbow Full Of Sound",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "deadicated-friends",
-    "name": "Deadicated & Friends",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "mark-diomede-and-friends",
     "name": "Mark Diomede and Friends",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "rainbow-full-of-sound",
+    "name": "Rainbow Full Of Sound",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1032,8 +1014,20 @@
     "state": "NJ"
   },
   {
+    "slug": "too-cool-to-bluff",
+    "name": "Too Cool To Bluff",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
     "slug": "deal",
     "name": "DEAL",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "dead-reckoning",
+    "name": "Dead Reckoning",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1058,6 +1052,12 @@
   {
     "slug": "trouble-junction",
     "name": "Trouble Junction",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "diomede-and-donovan",
+    "name": "Diomede And Donovan",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1128,18 +1128,6 @@
     "state": "NM"
   },
   {
-    "slug": "tiger-rose",
-    "name": "Tiger Rose",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
-    "slug": "dead-ahead-band",
-    "name": "Dead Ahead Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
     "slug": "into-the-now",
     "name": "Into the Now",
     "source": "gratefuldeadtributebands.com",
@@ -1166,6 +1154,12 @@
   {
     "slug": "buffalo-dead-all-stars",
     "name": "Buffalo Dead All Stars",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "tiger-rose",
+    "name": "Tiger Rose",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
@@ -1236,14 +1230,14 @@
     "state": "NY"
   },
   {
-    "slug": "dragons-with-matches",
-    "name": "Dragons With Matches",
+    "slug": "eternally-grateful",
+    "name": "Eternally Grateful",
     "source": "gratefuldeadtributebands.com",
     "state": "NC"
   },
   {
-    "slug": "eternally-grateful",
-    "name": "Eternally Grateful",
+    "slug": "dragons-with-matches",
+    "name": "Dragons With Matches",
     "source": "gratefuldeadtributebands.com",
     "state": "NC"
   },
@@ -1464,14 +1458,14 @@
     "state": "RI"
   },
   {
-    "slug": "the-grateful-brothers",
-    "name": "The Grateful Brothers",
+    "slug": "thursday-s-dead",
+    "name": "Thursday's Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "SC"
   },
   {
-    "slug": "thursday-s-dead",
-    "name": "Thursday's Dead",
+    "slug": "the-grateful-brothers",
+    "name": "The Grateful Brothers",
     "source": "gratefuldeadtributebands.com",
     "state": "SC"
   },
