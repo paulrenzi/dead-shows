@@ -8478,6 +8478,24 @@
     ]
   },
   {
+    "id": "gdtb-NJ-deadicated-friends-2026-07-25-379-bloomfield-ave",
+    "name": "Deadicated & Friends — 379 Bloomfield Ave",
+    "band": "Deadicated & Friends",
+    "bandSlug": "deadicated-friends",
+    "venue": "379 Bloomfield Ave",
+    "city": "Caldwell",
+    "state": "NJ",
+    "lat": 40.8398218,
+    "lng": -74.2765366,
+    "date": "2026-07-25",
+    "time": "8:30pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "source": "gdtb",
+    "attractions": [
+      "Deadicated & Friends"
+    ]
+  },
+  {
     "id": "gdtb-NJ-diamond-eye-jack-2026-07-25-bernie-s-hillside-lounge",
     "name": "Diamond Eye Jack — Bernie's Hillside Lounge",
     "band": "Diamond Eye Jack",
@@ -9594,24 +9612,6 @@
     ]
   },
   {
-    "id": "gdtb-NY-rainbow-full-of-sound-2026-07-13-st-johnsville-summer-concert-s",
-    "name": "Rainbow Full Of Sound — St. Johnsville Summer Concert Series St Johnsville",
-    "band": "Rainbow Full Of Sound",
-    "bandSlug": "rainbow-full-of-sound",
-    "venue": "St. Johnsville Summer Concert Series St Johnsville",
-    "city": "Saint Johnsville",
-    "state": "NY",
-    "lat": 42.998198,
-    "lng": -74.6799077,
-    "date": "2026-07-13",
-    "time": "6:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Rainbow Full Of Sound"
-    ]
-  },
-  {
     "id": "gdtb-NY-half-step-li-2026-07-15-john-j-burns-park-massapequa-p",
     "name": "Half Step LI — John J Burns Park, Massapequa Park, NY 11762",
     "band": "Half Step LI",
@@ -10293,6 +10293,24 @@
     "source": "gdtb",
     "attractions": [
       "Dead & Friends"
+    ]
+  },
+  {
+    "id": "gdtb-NY-shakedown-citi-2026-08-01-116-yaphank-middle-island-rd",
+    "name": "Shakedown Citi — 116 Yaphank Middle Island Rd",
+    "band": "Shakedown Citi",
+    "bandSlug": "shakedown-citi",
+    "venue": "116 Yaphank Middle Island Rd",
+    "city": "Middle Island",
+    "state": "NY",
+    "lat": 40.879243,
+    "lng": -72.9401357,
+    "date": "2026-08-01",
+    "time": "9:30pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Shakedown Citi"
     ]
   },
   {
@@ -13446,6 +13464,24 @@
     ]
   },
   {
+    "id": "gdtb-PA-deal-2026-07-17-1801-liberty-street",
+    "name": "DEAL — 1801 Liberty Street",
+    "band": "DEAL",
+    "bandSlug": "deal",
+    "venue": "1801 Liberty Street",
+    "city": "Allentown",
+    "state": "PA",
+    "lat": 40.6022552,
+    "lng": -75.4716115,
+    "date": "2026-07-17",
+    "time": "6:00",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
+    "source": "gdtb",
+    "attractions": [
+      "DEAL"
+    ]
+  },
+  {
     "id": "gdtb-PA-kgb-karl-s-garcia-band-2026-07-17-66-n-main-st-spring-city-pa-un",
     "name": "KGB - Karl's Garcia Band — 66 N Main St Spring City PA United States Pennsylvania 19475",
     "band": "KGB - Karl's Garcia Band",
@@ -13677,6 +13713,42 @@
     "source": "gdtb",
     "attractions": [
       "New Potato Caboose"
+    ]
+  },
+  {
+    "id": "gdtb-PA-willie-and-the-poor-boys-2026-07-25-524-main-street",
+    "name": "Willie and the Poor Boys — 524 Main Street",
+    "band": "Willie and the Poor Boys",
+    "bandSlug": "willie-and-the-poor-boys",
+    "venue": "524 Main Street",
+    "city": "Stroudsburg",
+    "state": "PA",
+    "lat": 40.9864261,
+    "lng": -75.1946649,
+    "date": "2026-07-25",
+    "time": "8:00 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
+    "source": "gdtb",
+    "attractions": [
+      "Willie and the Poor Boys"
+    ]
+  },
+  {
+    "id": "gdtb-PA-the-poor-boys-2026-07-25-pa-18360",
+    "name": "The Poor Boys — PA 18360",
+    "band": "The Poor Boys",
+    "bandSlug": "the-poor-boys",
+    "venue": "PA 18360",
+    "city": "Stroudsburg",
+    "state": "PA",
+    "lat": 40.9864261,
+    "lng": -75.1946649,
+    "date": "2026-07-25",
+    "time": "8:00 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
+    "source": "gdtb",
+    "attractions": [
+      "The Poor Boys"
     ]
   },
   {
@@ -14811,24 +14883,6 @@
     "source": "gdtb",
     "attractions": [
       "The Grateful Brothers"
-    ]
-  },
-  {
-    "id": "gdtb-TN-the-stolen-faces-2026-07-13-acme-feed-seed",
-    "name": "The Stolen Faces — Acme Feed & Seed",
-    "band": "The Stolen Faces",
-    "bandSlug": "the-stolen-faces",
-    "venue": "Acme Feed & Seed",
-    "city": "Nashville",
-    "state": "TN",
-    "lat": 36.1622767,
-    "lng": -86.7742984,
-    "date": "2026-07-13",
-    "time": "8 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=TN",
-    "source": "gdtb",
-    "attractions": [
-      "The Stolen Faces"
     ]
   },
   {
