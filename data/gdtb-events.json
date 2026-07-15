@@ -162,24 +162,6 @@
     ]
   },
   {
-    "id": "gdtb-CA-easy-wind-2026-07-14-978-n-coast-hwy-101-2051",
-    "name": "Easy Wind — 978 N Coast Hwy 101 #2051",
-    "band": "Easy Wind",
-    "bandSlug": "easy-wind",
-    "venue": "978 N Coast Hwy 101 #2051",
-    "city": "Encinitas",
-    "state": "CA",
-    "lat": 33.0369867,
-    "lng": -117.2919818,
-    "date": "2026-07-14",
-    "time": "6:00pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "Easy Wind"
-    ]
-  },
-  {
     "id": "gdtb-CA-the-storytellers-2026-07-15-sawdust-art-festival",
     "name": "The Storytellers — Sawdust Art Festival",
     "band": "The Storytellers",
@@ -231,6 +213,24 @@
     "source": "gdtb",
     "attractions": [
       "Token Rhyme"
+    ]
+  },
+  {
+    "id": "gdtb-CA-scarlett-fyre-2026-07-18-2112-n-main-st",
+    "name": "Scarlett Fyre — 2112 N. Main St.",
+    "band": "Scarlett Fyre",
+    "bandSlug": "scarlett-fyre",
+    "venue": "2112 N. Main St.",
+    "city": "Walnut Creek",
+    "state": "CA",
+    "lat": 37.9020731,
+    "lng": -122.0618702,
+    "date": "2026-07-18",
+    "time": "7:00P",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
+    "source": "gdtb",
+    "attractions": [
+      "Scarlett Fyre"
     ]
   },
   {
@@ -789,6 +789,24 @@
     "source": "gdtb",
     "attractions": [
       "Possum"
+    ]
+  },
+  {
+    "id": "gdtb-CA-scarlett-fyre-2026-08-28-415-main-st",
+    "name": "Scarlett Fyre — 415 Main St.",
+    "band": "Scarlett Fyre",
+    "bandSlug": "scarlett-fyre",
+    "venue": "415 Main St.",
+    "city": "Murphys",
+    "state": "CA",
+    "lat": 38.1368275,
+    "lng": -120.4570622,
+    "date": "2026-08-28",
+    "time": "7:00P",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
+    "source": "gdtb",
+    "attractions": [
+      "Scarlett Fyre"
     ]
   },
   {
@@ -1404,6 +1422,24 @@
     ]
   },
   {
+    "id": "gdtb-CO-aoxomoxoa-2026-07-31-st-julien-hotel",
+    "name": "AoxomoxoA — St Julien Hotel",
+    "band": "AoxomoxoA",
+    "bandSlug": "aoxomoxoa",
+    "venue": "St Julien Hotel",
+    "city": "Boulder",
+    "state": "CO",
+    "lat": 40.0149856,
+    "lng": -105.270545,
+    "date": "2026-07-31",
+    "time": "6-9",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
+    "source": "gdtb",
+    "attractions": [
+      "AoxomoxoA"
+    ]
+  },
+  {
     "id": "gdtb-CO-shakedown-street-2026-08-01-1380-w-florida-ave-denver-co-u",
     "name": "Shakedown Street — 1380 W Florida Ave Denver CO United States Colorado 80223",
     "band": "Shakedown Street",
@@ -1473,6 +1509,24 @@
     "source": "gdtb",
     "attractions": [
       "Shakedown Strings"
+    ]
+  },
+  {
+    "id": "gdtb-CO-aoxomoxoa-2026-08-07-wibby-brewing-festgarten",
+    "name": "AoxomoxoA — Wibby Brewing Festgarten",
+    "band": "AoxomoxoA",
+    "bandSlug": "aoxomoxoa",
+    "venue": "Wibby Brewing Festgarten",
+    "city": "Longmont",
+    "state": "CO",
+    "lat": 40.1672117,
+    "lng": -105.101928,
+    "date": "2026-08-07",
+    "time": "6-9 p",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
+    "source": "gdtb",
+    "attractions": [
+      "AoxomoxoA"
     ]
   },
   {
@@ -2967,42 +3021,6 @@
     "source": "gdtb",
     "attractions": [
       "Melvin Seals and JGB"
-    ]
-  },
-  {
-    "id": "gdtb-FL-love-valley-2026-07-14-sandbar-satellite-beach",
-    "name": "Love Valley — Sandbar Satellite Beach ,",
-    "band": "Love Valley",
-    "bandSlug": "love-valley",
-    "venue": "Sandbar Satellite Beach ,",
-    "city": "Satellite Beach",
-    "state": "FL",
-    "lat": 28.1760051,
-    "lng": -80.5904623,
-    "date": "2026-07-14",
-    "time": "3:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Love Valley"
-    ]
-  },
-  {
-    "id": "gdtb-FL-crazy-fingers-2026-07-14-the-funky-biscuit-boca-raton-f",
-    "name": "Crazy Fingers — The Funky Biscuit, Boca Raton, FL 33432",
-    "band": "Crazy Fingers",
-    "bandSlug": "crazy-fingers",
-    "venue": "The Funky Biscuit, Boca Raton, FL 33432",
-    "city": "Boca Raton",
-    "state": "FL",
-    "lat": 26.3586885,
-    "lng": -80.0830984,
-    "date": "2026-07-14",
-    "time": "7:30PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Crazy Fingers"
     ]
   },
   {
@@ -5310,6 +5328,24 @@
     ]
   },
   {
+    "id": "gdtb-ME-moose-juice-2026-07-25-1601-portland-rd",
+    "name": "Moose Juice — 1601 Portland Rd",
+    "band": "Moose Juice",
+    "bandSlug": "moose-juice",
+    "venue": "1601 Portland Rd",
+    "city": "Arundel",
+    "state": "ME",
+    "lat": 43.3825857,
+    "lng": -70.4778292,
+    "date": "2026-07-25",
+    "time": "2:00pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=ME",
+    "source": "gdtb",
+    "attractions": [
+      "Moose Juice"
+    ]
+  },
+  {
     "id": "gdtb-ME-blue-drew-and-the-magoos-2026-08-01-180-commercial-st",
     "name": "Blue Drew and the Magoos — 180 Commercial St.",
     "band": "Blue Drew and the Magoos",
@@ -5760,24 +5796,6 @@
     ]
   },
   {
-    "id": "gdtb-MA-playing-dead-2026-07-14-sanctuary-cultural-arts-center",
-    "name": "Playing Dead — Sanctuary Cultural Arts Center",
-    "band": "Playing Dead",
-    "bandSlug": "playing-dead",
-    "venue": "Sanctuary Cultural Arts Center",
-    "city": "Maynard",
-    "state": "MA",
-    "lat": 42.4321064,
-    "lng": -71.4539683,
-    "date": "2026-07-14",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "Playing Dead"
-    ]
-  },
-  {
     "id": "gdtb-MA-playing-dead-2026-07-15-soundcheck-studios-pembroke",
     "name": "Playing Dead — Soundcheck Studios Pembroke",
     "band": "Playing Dead",
@@ -5919,6 +5937,24 @@
     "source": "gdtb",
     "attractions": [
       "The Deadheads"
+    ]
+  },
+  {
+    "id": "gdtb-MA-moose-juice-2026-07-18-29-locust-st",
+    "name": "Moose Juice — 29 Locust St",
+    "band": "Moose Juice",
+    "bandSlug": "moose-juice",
+    "venue": "29 Locust St",
+    "city": "Falmouth",
+    "state": "MA",
+    "lat": 41.5514979,
+    "lng": -70.6147519,
+    "date": "2026-07-18",
+    "time": "9:30pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
+    "source": "gdtb",
+    "attractions": [
+      "Moose Juice"
     ]
   },
   {
@@ -8025,42 +8061,6 @@
     "source": "gdtb",
     "attractions": [
       "Alligator Wine"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-dead-reckoning-2026-07-14-donovan-s-reef",
-    "name": "Dead Reckoning — Donovan's Reef",
-    "band": "Dead Reckoning",
-    "bandSlug": "dead-reckoning",
-    "venue": "Donovan's Reef",
-    "city": "Rumson",
-    "state": "NJ",
-    "lat": 40.372054,
-    "lng": -73.9990269,
-    "date": "2026-07-14",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Dead Reckoning"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-the-big-trip-2026-07-14-proprietors-park",
-    "name": "The Big Trip — Proprietors Park",
-    "band": "The Big Trip",
-    "bandSlug": "the-big-trip",
-    "venue": "Proprietors Park",
-    "city": "Gloucester City",
-    "state": "NJ",
-    "lat": 39.8918622,
-    "lng": -75.1161897,
-    "date": "2026-07-14",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "The Big Trip"
     ]
   },
   {
@@ -10530,6 +10530,24 @@
     ]
   },
   {
+    "id": "gdtb-NY-shakedown-citi-2026-08-05-524-westcott-st",
+    "name": "Shakedown Citi — 524 Westcott St",
+    "band": "Shakedown Citi",
+    "bandSlug": "shakedown-citi",
+    "venue": "524 Westcott St",
+    "city": "Syracuse",
+    "state": "NY",
+    "lat": 43.0481221,
+    "lng": -76.1474244,
+    "date": "2026-08-05",
+    "time": "6:00 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Shakedown Citi"
+    ]
+  },
+  {
     "id": "gdtb-NY-stella-blues-band-2026-08-05-brooklyn-bowl",
     "name": "Stella Blues Band — Brooklyn Bowl",
     "band": "Stella Blues Band",
@@ -10563,6 +10581,24 @@
     "source": "gdtb",
     "attractions": [
       "The Garcia Project"
+    ]
+  },
+  {
+    "id": "gdtb-NY-shakedown-citi-2026-08-06-291-tinker-st",
+    "name": "Shakedown Citi — 291 Tinker St",
+    "band": "Shakedown Citi",
+    "bandSlug": "shakedown-citi",
+    "venue": "291 Tinker St",
+    "city": "Woodstock",
+    "state": "NY",
+    "lat": 42.0410578,
+    "lng": -74.1182492,
+    "date": "2026-08-06",
+    "time": "8:00 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Shakedown Citi"
     ]
   },
   {
@@ -11553,24 +11589,6 @@
     "source": "gdtb",
     "attractions": [
       "Rob Glassman Band"
-    ]
-  },
-  {
-    "id": "gdtb-NC-eternally-grateful-2026-07-14-grateful-dead-night",
-    "name": "Eternally Grateful — Grateful Dead Night",
-    "band": "Eternally Grateful",
-    "bandSlug": "eternally-grateful",
-    "venue": "Grateful Dead Night",
-    "city": "Greensboro",
-    "state": "NC",
-    "lat": 36.0726355,
-    "lng": -79.7919754,
-    "date": "2026-07-14",
-    "time": "8:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NC",
-    "source": "gdtb",
-    "attractions": [
-      "Eternally Grateful"
     ]
   },
   {
@@ -15477,24 +15495,6 @@
     "source": "gdtb",
     "attractions": [
       "Dark Star Orchestra"
-    ]
-  },
-  {
-    "id": "gdtb-VA-john-kadlecik-2026-07-14-227-maple-ave-e-vienna-va-unit",
-    "name": "John Kadlecik — 227 Maple Ave E Vienna VA United States Virginia 22180",
-    "band": "John Kadlecik",
-    "bandSlug": "john-kadlecik",
-    "venue": "227 Maple Ave E Vienna VA United States Virginia 22180",
-    "city": "Vienna",
-    "state": "VA",
-    "lat": 38.9013729,
-    "lng": -77.2651762,
-    "date": "2026-07-14",
-    "time": "7:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=VA",
-    "source": "gdtb",
-    "attractions": [
-      "John Kadlecik"
     ]
   },
   {

@@ -48,12 +48,6 @@
     "state": "AZ"
   },
   {
-    "slug": "easy-wind",
-    "name": "Easy Wind",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
     "slug": "the-storytellers",
     "name": "The Storytellers",
     "source": "gratefuldeadtributebands.com",
@@ -62,6 +56,12 @@
   {
     "slug": "token-rhyme",
     "name": "Token Rhyme",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
+    "slug": "scarlett-fyre",
+    "name": "Scarlett Fyre",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
   },
@@ -110,6 +110,12 @@
   {
     "slug": "mason-s-children",
     "name": "Mason's Children",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
+    "slug": "easy-wind",
+    "name": "Easy Wind",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
   },
@@ -234,6 +240,12 @@
     "state": "CO"
   },
   {
+    "slug": "aoxomoxoa",
+    "name": "AoxomoxoA",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CO"
+  },
+  {
     "slug": "shakedown-strings",
     "name": "Shakedown Strings",
     "source": "gratefuldeadtributebands.com",
@@ -324,12 +336,6 @@
     "state": "FL"
   },
   {
-    "slug": "crazy-fingers",
-    "name": "Crazy Fingers",
-    "source": "gratefuldeadtributebands.com",
-    "state": "FL"
-  },
-  {
     "slug": "jerryland",
     "name": "Jerryland",
     "source": "gratefuldeadtributebands.com",
@@ -350,6 +356,12 @@
   {
     "slug": "spiral-light",
     "name": "Spiral Light",
+    "source": "gratefuldeadtributebands.com",
+    "state": "FL"
+  },
+  {
+    "slug": "crazy-fingers",
+    "name": "Crazy Fingers",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
@@ -524,6 +536,12 @@
   {
     "slug": "down-east-dead",
     "name": "Down East Dead",
+    "source": "gratefuldeadtributebands.com",
+    "state": "ME"
+  },
+  {
+    "slug": "moose-juice",
+    "name": "Moose Juice",
     "source": "gratefuldeadtributebands.com",
     "state": "ME"
   },
@@ -720,12 +738,6 @@
     "state": "MA"
   },
   {
-    "slug": "moose-juice",
-    "name": "Moose Juice",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MA"
-  },
-  {
     "slug": "grateful-bro",
     "name": "Grateful BRO",
     "source": "gratefuldeadtributebands.com",
@@ -852,20 +864,14 @@
     "state": "NH"
   },
   {
-    "slug": "dead-reckoning",
-    "name": "Dead Reckoning",
+    "slug": "the-brian-st-john-band",
+    "name": "The Brian St John Band",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
   {
     "slug": "the-big-trip",
     "name": "The Big Trip",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "the-brian-st-john-band",
-    "name": "The Brian St John Band",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -896,6 +902,12 @@
   {
     "slug": "trouble-junction",
     "name": "Trouble Junction",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "dead-reckoning",
+    "name": "Dead Reckoning",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1074,14 +1086,14 @@
     "state": "NY"
   },
   {
-    "slug": "eternally-grateful",
-    "name": "Eternally Grateful",
+    "slug": "dark-star-project",
+    "name": "Dark Star Project",
     "source": "gratefuldeadtributebands.com",
     "state": "NC"
   },
   {
-    "slug": "dark-star-project",
-    "name": "Dark Star Project",
+    "slug": "eternally-grateful",
+    "name": "Eternally Grateful",
     "source": "gratefuldeadtributebands.com",
     "state": "NC"
   },
