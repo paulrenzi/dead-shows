@@ -24,12 +24,6 @@
     "state": "AL"
   },
   {
-    "slug": "xtra-ticket",
-    "name": "Xtra Ticket",
-    "source": "gratefuldeadtributebands.com",
-    "state": "AZ"
-  },
-  {
     "slug": "legion-of-mario",
     "name": "Legion of Mario",
     "source": "gratefuldeadtributebands.com",
@@ -46,12 +40,6 @@
     "name": "Flagship of Fools",
     "source": "gratefuldeadtributebands.com",
     "state": "AZ"
-  },
-  {
-    "slug": "the-storytellers",
-    "name": "The Storytellers",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
   },
   {
     "slug": "token-rhyme",
@@ -156,6 +144,12 @@
     "state": "CA"
   },
   {
+    "slug": "the-storytellers",
+    "name": "The Storytellers",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
     "slug": "wall-of-sound",
     "name": "Wall Of Sound",
     "source": "gratefuldeadtributebands.com",
@@ -174,12 +168,6 @@
     "state": "CA"
   },
   {
-    "slug": "easy-jim",
-    "name": "Easy Jim",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CO"
-  },
-  {
     "slug": "tumbledown-shack",
     "name": "Tumbledown Shack",
     "source": "gratefuldeadtributebands.com",
@@ -188,6 +176,12 @@
   {
     "slug": "chinaflower-suncats",
     "name": "Chinaflower Suncats",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CO"
+  },
+  {
+    "slug": "easy-jim",
+    "name": "Easy Jim",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
@@ -268,12 +262,6 @@
     "name": "Cowboys Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
-  },
-  {
-    "slug": "shakedown-citi",
-    "name": "Shakedown Citi",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CT"
   },
   {
     "slug": "the-mystery-train-band",
@@ -438,12 +426,6 @@
     "state": "ID"
   },
   {
-    "slug": "mr-blotto",
-    "name": "Mr. Blotto",
-    "source": "gratefuldeadtributebands.com",
-    "state": "IL"
-  },
-  {
     "slug": "thankful-dead",
     "name": "Thankful Dead",
     "source": "gratefuldeadtributebands.com",
@@ -458,6 +440,12 @@
   {
     "slug": "deadfest-band",
     "name": "Deadfest Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "IL"
+  },
+  {
+    "slug": "mr-blotto",
+    "name": "Mr. Blotto",
     "source": "gratefuldeadtributebands.com",
     "state": "IL"
   },
@@ -656,6 +644,12 @@
   {
     "slug": "the-reckoning-crew",
     "name": "The Reckoning Crew",
+    "source": "gratefuldeadtributebands.com",
+    "state": "MA"
+  },
+  {
+    "slug": "shakedown-citi",
+    "name": "Shakedown Citi",
     "source": "gratefuldeadtributebands.com",
     "state": "MA"
   },
@@ -864,12 +858,6 @@
     "state": "NH"
   },
   {
-    "slug": "the-brian-st-john-band",
-    "name": "The Brian St John Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "the-big-trip",
     "name": "The Big Trip",
     "source": "gratefuldeadtributebands.com",
@@ -920,6 +908,12 @@
   {
     "slug": "diomede-and-donovan",
     "name": "Diomede And Donovan",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "the-brian-st-john-band",
+    "name": "The Brian St John Band",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1002,12 +996,6 @@
     "state": "NM"
   },
   {
-    "slug": "half-step-li",
-    "name": "Half Step LI",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
     "slug": "dead-friends",
     "name": "Dead & Friends",
     "source": "gratefuldeadtributebands.com",
@@ -1034,6 +1022,12 @@
   {
     "slug": "nailed-shutt",
     "name": "Nailed Shutt",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "half-step-li",
+    "name": "Half Step LI",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },

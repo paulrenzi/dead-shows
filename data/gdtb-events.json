@@ -72,24 +72,6 @@
     ]
   },
   {
-    "id": "gdtb-AZ-xtra-ticket-2026-07-15-495-e-warner-rd-suite-101-chan",
-    "name": "Xtra Ticket — 495 E Warner Rd Suite 101 Chandler AZ United States Arizona 85225",
-    "band": "Xtra Ticket",
-    "bandSlug": "xtra-ticket",
-    "venue": "495 E Warner Rd Suite 101 Chandler AZ United States Arizona 85225",
-    "city": "Chandler",
-    "state": "AZ",
-    "lat": 33.3062031,
-    "lng": -111.841185,
-    "date": "2026-07-15",
-    "time": "9 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=AZ",
-    "source": "gdtb",
-    "attractions": [
-      "Xtra Ticket"
-    ]
-  },
-  {
     "id": "gdtb-AZ-legion-of-mario-2026-07-31-la-rosa",
     "name": "Legion of Mario — La Rosa",
     "band": "Legion of Mario",
@@ -159,24 +141,6 @@
     "source": "gdtb",
     "attractions": [
       "The Schwag"
-    ]
-  },
-  {
-    "id": "gdtb-CA-the-storytellers-2026-07-15-sawdust-art-festival",
-    "name": "The Storytellers — Sawdust Art Festival",
-    "band": "The Storytellers",
-    "bandSlug": "the-storytellers",
-    "venue": "Sawdust Art Festival",
-    "city": "Laguna Beach",
-    "state": "CA",
-    "lat": 33.5426975,
-    "lng": -117.785366,
-    "date": "2026-07-15",
-    "time": "6 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "The Storytellers"
     ]
   },
   {
@@ -1098,24 +1062,6 @@
     ]
   },
   {
-    "id": "gdtb-CO-easy-jim-2026-07-15-event-by-easy-jim-music-of-the",
-    "name": "Easy Jim — Event by Easy Jim Music of the Grateful Dead",
-    "band": "Easy Jim",
-    "bandSlug": "easy-jim",
-    "venue": "Event by Easy Jim Music of the Grateful Dead",
-    "city": "Basalt",
-    "state": "CO",
-    "lat": 39.3688731,
-    "lng": -107.032824,
-    "date": "2026-07-15",
-    "time": "8 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
-    "source": "gdtb",
-    "attractions": [
-      "Easy Jim"
-    ]
-  },
-  {
     "id": "gdtb-CO-tumbledown-shack-2026-07-16-salt-road-brewing",
     "name": "Tumbledown Shack — Salt Road Brewing",
     "band": "Tumbledown Shack",
@@ -2016,24 +1962,6 @@
     ]
   },
   {
-    "id": "gdtb-CT-shakedown-citi-2026-07-15-talcott-moutain-collective",
-    "name": "Shakedown Citi — Talcott Moutain Collective",
-    "band": "Shakedown Citi",
-    "bandSlug": "shakedown-citi",
-    "venue": "Talcott Moutain Collective",
-    "city": "Simsbury",
-    "state": "CT",
-    "lat": 41.8759152,
-    "lng": -72.8012211,
-    "date": "2026-07-15",
-    "time": "",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
-    "source": "gdtb",
-    "attractions": [
-      "Shakedown Citi"
-    ]
-  },
-  {
     "id": "gdtb-CT-the-mystery-train-band-2026-07-17-the-cajun-boil-bar",
     "name": "The Mystery Train Band — The Cajun Boil & Bar",
     "band": "The Mystery Train Band",
@@ -2178,24 +2106,6 @@
     ]
   },
   {
-    "id": "gdtb-CT-shakedown-citi-2026-07-22-talcott-moutain-collective",
-    "name": "Shakedown Citi — Talcott Moutain Collective",
-    "band": "Shakedown Citi",
-    "bandSlug": "shakedown-citi",
-    "venue": "Talcott Moutain Collective",
-    "city": "Simsbury",
-    "state": "CT",
-    "lat": 41.8759152,
-    "lng": -72.8012211,
-    "date": "2026-07-22",
-    "time": "",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
-    "source": "gdtb",
-    "attractions": [
-      "Shakedown Citi"
-    ]
-  },
-  {
     "id": "gdtb-CT-rob-glassman-band-2026-07-24-seor-panchos-prospect",
     "name": "Rob Glassman Band — Seor Panchos Prospect",
     "band": "Rob Glassman Band",
@@ -2319,24 +2229,6 @@
     "source": "gdtb",
     "attractions": [
       "The Garcia Project"
-    ]
-  },
-  {
-    "id": "gdtb-CT-shakedown-citi-2026-07-29-talcott-moutain-collective",
-    "name": "Shakedown Citi — Talcott Moutain Collective",
-    "band": "Shakedown Citi",
-    "bandSlug": "shakedown-citi",
-    "venue": "Talcott Moutain Collective",
-    "city": "Simsbury",
-    "state": "CT",
-    "lat": 41.8759152,
-    "lng": -72.8012211,
-    "date": "2026-07-29",
-    "time": "",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
-    "source": "gdtb",
-    "attractions": [
-      "Shakedown Citi"
     ]
   },
   {
@@ -3021,24 +2913,6 @@
     "source": "gdtb",
     "attractions": [
       "Melvin Seals and JGB"
-    ]
-  },
-  {
-    "id": "gdtb-FL-love-valley-2026-07-15-van-beers-bottle-tap",
-    "name": "Love Valley — Van Beers Bottle & Tap,",
-    "band": "Love Valley",
-    "bandSlug": "love-valley",
-    "venue": "Van Beers Bottle & Tap,",
-    "city": "Melbourne",
-    "state": "FL",
-    "lat": 28.0785034,
-    "lng": -80.6077908,
-    "date": "2026-07-15",
-    "time": "4:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Love Valley"
     ]
   },
   {
@@ -4191,24 +4065,6 @@
     "source": "gdtb",
     "attractions": [
       "Definitely Dead"
-    ]
-  },
-  {
-    "id": "gdtb-IL-mr-blotto-2026-07-15-midwest-coast",
-    "name": "Mr. Blotto — Midwest Coast",
-    "band": "Mr. Blotto",
-    "bandSlug": "mr-blotto",
-    "venue": "Midwest Coast",
-    "city": "Chicago",
-    "state": "IL",
-    "lat": 41.8755616,
-    "lng": -87.6244212,
-    "date": "2026-07-15",
-    "time": "6:00 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=IL",
-    "source": "gdtb",
-    "attractions": [
-      "Mr. Blotto"
     ]
   },
   {
@@ -5793,24 +5649,6 @@
     "source": "gdtb",
     "attractions": [
       "InDEADnation"
-    ]
-  },
-  {
-    "id": "gdtb-MA-playing-dead-2026-07-15-soundcheck-studios-pembroke",
-    "name": "Playing Dead — Soundcheck Studios Pembroke",
-    "band": "Playing Dead",
-    "bandSlug": "playing-dead",
-    "venue": "Soundcheck Studios Pembroke",
-    "city": "Pembroke",
-    "state": "MA",
-    "lat": 42.0714907,
-    "lng": -70.8092074,
-    "date": "2026-07-15",
-    "time": "8 PM and 2 more",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "Playing Dead"
     ]
   },
   {
@@ -8064,24 +7902,6 @@
     ]
   },
   {
-    "id": "gdtb-NJ-the-brian-st-john-band-2026-07-15-o-reillys-pub",
-    "name": "The Brian St John Band — O'Reillys Pub",
-    "band": "The Brian St John Band",
-    "bandSlug": "the-brian-st-john-band",
-    "venue": "O'Reillys Pub",
-    "city": "Newton",
-    "state": "NJ",
-    "lat": 41.0583121,
-    "lng": -74.7531445,
-    "date": "2026-07-15",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "The Brian St John Band"
-    ]
-  },
-  {
     "id": "gdtb-NJ-cosmic-jerry-band-2026-07-16-cooper-s-riverview",
     "name": "Cosmic Jerry Band — Cooper's Riverview",
     "band": "Cosmic Jerry Band",
@@ -9609,24 +9429,6 @@
     "source": "gdtb",
     "attractions": [
       "Steely Dead"
-    ]
-  },
-  {
-    "id": "gdtb-NY-half-step-li-2026-07-15-john-j-burns-park-massapequa-p",
-    "name": "Half Step LI — John J Burns Park, Massapequa Park, NY 11762",
-    "band": "Half Step LI",
-    "bandSlug": "half-step-li",
-    "venue": "John J Burns Park, Massapequa Park, NY 11762",
-    "city": "Massapequa Park",
-    "state": "NY",
-    "lat": 40.6803785,
-    "lng": -73.4551241,
-    "date": "2026-07-15",
-    "time": "7:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Half Step LI"
     ]
   },
   {
@@ -13446,24 +13248,6 @@
     ]
   },
   {
-    "id": "gdtb-PA-deal-2026-07-15-202-chestnut-street",
-    "name": "DEAL — 202 Chestnut Street",
-    "band": "DEAL",
-    "bandSlug": "deal",
-    "venue": "202 Chestnut Street",
-    "city": "Coplay",
-    "state": "PA",
-    "lat": 40.6700965,
-    "lng": -75.4954612,
-    "date": "2026-07-15",
-    "time": "6:00",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
-    "source": "gdtb",
-    "attractions": [
-      "DEAL"
-    ]
-  },
-  {
     "id": "gdtb-PA-lovelight-2026-07-16-118-north-wayne-avenue-wayne-p",
     "name": "LoveLight — 118 North Wayne Avenue Wayne PA United States Pennsylvania 19087",
     "band": "LoveLight",
@@ -14868,6 +14652,24 @@
     ]
   },
   {
+    "id": "gdtb-SC-catfish-john-2026-08-29-10880-ocean-h-way",
+    "name": "Catfish John — 10880 Ocean H'way",
+    "band": "Catfish John",
+    "bandSlug": "catfish-john",
+    "venue": "10880 Ocean H'way",
+    "city": "Pawley's Island",
+    "state": "SC",
+    "lat": 33.4300682,
+    "lng": -79.1466414,
+    "date": "2026-08-29",
+    "time": "11am Till 2pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=SC",
+    "source": "gdtb",
+    "attractions": [
+      "Catfish John"
+    ]
+  },
+  {
     "id": "gdtb-SC-the-grateful-brothers-2026-09-02-poe-mill-music",
     "name": "The Grateful Brothers — Poe Mill Music",
     "band": "The Grateful Brothers",
@@ -14901,6 +14703,24 @@
     "source": "gdtb",
     "attractions": [
       "The Grateful Brothers"
+    ]
+  },
+  {
+    "id": "gdtb-SC-catfish-john-2026-09-26-10880-ocean-h-way",
+    "name": "Catfish John — 10880 Ocean H'way",
+    "band": "Catfish John",
+    "bandSlug": "catfish-john",
+    "venue": "10880 Ocean H'way",
+    "city": "Pawleys Island",
+    "state": "SC",
+    "lat": 33.4293486,
+    "lng": -79.1215912,
+    "date": "2026-09-26",
+    "time": "11am till 2pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=SC",
+    "source": "gdtb",
+    "attractions": [
+      "Catfish John"
     ]
   },
   {
