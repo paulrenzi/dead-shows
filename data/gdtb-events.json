@@ -1062,60 +1062,6 @@
     ]
   },
   {
-    "id": "gdtb-CO-tumbledown-shack-2026-07-16-salt-road-brewing",
-    "name": "Tumbledown Shack — Salt Road Brewing",
-    "band": "Tumbledown Shack",
-    "bandSlug": "tumbledown-shack",
-    "venue": "Salt Road Brewing",
-    "city": "Fort Collins",
-    "state": "CO",
-    "lat": 40.5871782,
-    "lng": -105.0770113,
-    "date": "2026-07-16",
-    "time": "8:30 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
-    "source": "gdtb",
-    "attractions": [
-      "Tumbledown Shack"
-    ]
-  },
-  {
-    "id": "gdtb-CO-chinaflower-suncats-2026-07-16-colorado",
-    "name": "Chinaflower Suncats — Colorado",
-    "band": "Chinaflower Suncats",
-    "bandSlug": "chinaflower-suncats",
-    "venue": "Colorado",
-    "city": "Eagle",
-    "state": "CO",
-    "lat": 39.6161124,
-    "lng": -106.7172844,
-    "date": "2026-07-16",
-    "time": "6:30 - 8:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
-    "source": "gdtb",
-    "attractions": [
-      "Chinaflower Suncats"
-    ]
-  },
-  {
-    "id": "gdtb-CO-easy-jim-2026-07-16-event-by-easy-jim-music-of-the",
-    "name": "Easy Jim — Event by Easy Jim Music of the Grateful Dead",
-    "band": "Easy Jim",
-    "bandSlug": "easy-jim",
-    "venue": "Event by Easy Jim Music of the Grateful Dead",
-    "city": "Leadville",
-    "state": "CO",
-    "lat": 39.2508229,
-    "lng": -106.2925238,
-    "date": "2026-07-16",
-    "time": "8:30 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
-    "source": "gdtb",
-    "attractions": [
-      "Easy Jim"
-    ]
-  },
-  {
     "id": "gdtb-CO-big-sky-2026-07-17-cactus-jack-s-saloon-grill",
     "name": "Big Sky — Cactus Jack's Saloon & Grill",
     "band": "Big Sky",
@@ -5652,42 +5598,6 @@
     ]
   },
   {
-    "id": "gdtb-MA-alligator-wine-2026-07-16-event-by-alligator-wine",
-    "name": "Alligator Wine — Event by Alligator Wine",
-    "band": "Alligator Wine",
-    "bandSlug": "alligator-wine",
-    "venue": "Event by Alligator Wine",
-    "city": "Lowell",
-    "state": "MA",
-    "lat": 42.6414437,
-    "lng": -71.3085329,
-    "date": "2026-07-16",
-    "time": "4 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "Alligator Wine"
-    ]
-  },
-  {
-    "id": "gdtb-MA-diamond-blues-2026-07-16-the-cave-at-red-lion-inn",
-    "name": "Diamond Blues — The Cave at Red Lion Inn",
-    "band": "Diamond Blues",
-    "bandSlug": "diamond-blues",
-    "venue": "The Cave at Red Lion Inn",
-    "city": "Cohasset",
-    "state": "MA",
-    "lat": 42.2410158,
-    "lng": -70.8035571,
-    "date": "2026-07-16",
-    "time": "7:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "Diamond Blues"
-    ]
-  },
-  {
     "id": "gdtb-MA-the-grateful-teds-2026-07-17-longfellow-s-wayside-inn",
     "name": "The Grateful Teds — Longfellow's Wayside Inn",
     "band": "The Grateful Teds",
@@ -6858,24 +6768,6 @@
     ]
   },
   {
-    "id": "gdtb-MI-manitou-truckin-company-2026-07-16-beulah-mi",
-    "name": "Manitou Truckin' Company — Beulah MI",
-    "band": "Manitou Truckin' Company",
-    "bandSlug": "manitou-truckin-company",
-    "venue": "Beulah MI",
-    "city": "Beulah",
-    "state": "MI",
-    "lat": 44.631944,
-    "lng": -86.090924,
-    "date": "2026-07-16",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MI",
-    "source": "gdtb",
-    "attractions": [
-      "Manitou Truckin' Company"
-    ]
-  },
-  {
     "id": "gdtb-MI-manitou-truckin-company-2026-07-17-806-red-drive-100-traverse-cit",
     "name": "Manitou Truckin' Company — 806 Red Drive #100 Traverse City MI United States Michigan 49684",
     "band": "Manitou Truckin' Company",
@@ -7902,42 +7794,6 @@
     ]
   },
   {
-    "id": "gdtb-NJ-cosmic-jerry-band-2026-07-16-cooper-s-riverview",
-    "name": "Cosmic Jerry Band — Cooper's Riverview",
-    "band": "Cosmic Jerry Band",
-    "bandSlug": "cosmic-jerry-band",
-    "venue": "Cooper's Riverview",
-    "city": "Trenton",
-    "state": "NJ",
-    "lat": 40.2203074,
-    "lng": -74.7659,
-    "date": "2026-07-16",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Cosmic Jerry Band"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-the-big-trip-2026-07-16-kings-road-brewing",
-    "name": "The Big Trip — Kings Road Brewing",
-    "band": "The Big Trip",
-    "bandSlug": "the-big-trip",
-    "venue": "Kings Road Brewing",
-    "city": "Haddonfield",
-    "state": "NJ",
-    "lat": 39.8915022,
-    "lng": -75.0376707,
-    "date": "2026-07-16",
-    "time": "6:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "The Big Trip"
-    ]
-  },
-  {
     "id": "gdtb-NJ-too-cool-to-bluff-2026-07-17-300-gordons-corner-road",
     "name": "Too Cool To Bluff — 300 Gordons Corner Road",
     "band": "Too Cool To Bluff",
@@ -8313,6 +8169,24 @@
     "source": "gdtb",
     "attractions": [
       "Deadicated & Friends"
+    ]
+  },
+  {
+    "id": "gdtb-NJ-deadful-greats-2026-07-25-nj-08853",
+    "name": "Deadful Greats — NJ 08853",
+    "band": "Deadful Greats",
+    "bandSlug": "deadful-greats",
+    "venue": "NJ 08853",
+    "city": "Neshanic Station",
+    "state": "NJ",
+    "lat": 40.5080725,
+    "lng": -74.7300125,
+    "date": "2026-07-25",
+    "time": "6pm -9pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "source": "gdtb",
+    "attractions": [
+      "Deadful Greats"
     ]
   },
   {
@@ -10584,6 +10458,24 @@
     ]
   },
   {
+    "id": "gdtb-NY-high-time-2026-08-09-158-bleecker",
+    "name": "High Time — 158 Bleecker",
+    "band": "High Time",
+    "bandSlug": "high-time",
+    "venue": "158 Bleecker",
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.7127281,
+    "lng": -74.0060152,
+    "date": "2026-08-09",
+    "time": "5:30",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "High Time"
+    ]
+  },
+  {
     "id": "gdtb-NY-tiger-rose-2026-08-13-birdies-patchogue",
     "name": "Tiger Rose — Birdies Patchogue",
     "band": "Tiger Rose",
@@ -11394,24 +11286,6 @@
     ]
   },
   {
-    "id": "gdtb-NC-dark-star-project-2026-07-16-old-lantern-events-barn",
-    "name": "Dark Star Project — Old Lantern Events Barn",
-    "band": "Dark Star Project",
-    "bandSlug": "dark-star-project",
-    "venue": "Old Lantern Events Barn",
-    "city": "Charlotte",
-    "state": "NC",
-    "lat": 35.2272086,
-    "lng": -80.8430827,
-    "date": "2026-07-16",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NC",
-    "source": "gdtb",
-    "attractions": [
-      "Dark Star Project"
-    ]
-  },
-  {
     "id": "gdtb-NC-eternally-grateful-2026-07-17-jack-s-live",
     "name": "Eternally Grateful — Jack's Live",
     "band": "Eternally Grateful",
@@ -12021,24 +11895,6 @@
     "source": "gdtb",
     "attractions": [
       "Le Salty Dead"
-    ]
-  },
-  {
-    "id": "gdtb-OH-dupree-s-dead-band-2026-07-16-woodstock",
-    "name": "Dupree's Dead Band — Woodstock",
-    "band": "Dupree's Dead Band",
-    "bandSlug": "dupree-s-dead-band",
-    "venue": "Woodstock",
-    "city": "Vermilion",
-    "state": "OH",
-    "lat": 41.4219889,
-    "lng": -82.3646068,
-    "date": "2026-07-16",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OH",
-    "source": "gdtb",
-    "attractions": [
-      "Dupree's Dead Band"
     ]
   },
   {
@@ -13248,24 +13104,6 @@
     ]
   },
   {
-    "id": "gdtb-PA-lovelight-2026-07-16-118-north-wayne-avenue-wayne-p",
-    "name": "LoveLight — 118 North Wayne Avenue Wayne PA United States Pennsylvania 19087",
-    "band": "LoveLight",
-    "bandSlug": "lovelight",
-    "venue": "118 North Wayne Avenue Wayne PA United States Pennsylvania 19087",
-    "city": "Wayne",
-    "state": "PA",
-    "lat": 41.6264414,
-    "lng": -75.3045103,
-    "date": "2026-07-16",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
-    "source": "gdtb",
-    "attractions": [
-      "LoveLight"
-    ]
-  },
-  {
     "id": "gdtb-PA-deal-2026-07-17-1801-liberty-street",
     "name": "DEAL — 1801 Liberty Street",
     "band": "DEAL",
@@ -14112,24 +13950,6 @@
     ]
   },
   {
-    "id": "gdtb-RI-blue-drew-and-the-magoos-2026-07-16-186-fountain-st",
-    "name": "Blue Drew and the Magoos — 186 Fountain St.",
-    "band": "Blue Drew and the Magoos",
-    "bandSlug": "blue-drew-and-the-magoos",
-    "venue": "186 Fountain St.",
-    "city": "Providence",
-    "state": "RI",
-    "lat": 41.8239891,
-    "lng": -71.4128343,
-    "date": "2026-07-16",
-    "time": "7:00pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=RI",
-    "source": "gdtb",
-    "attractions": [
-      "Blue Drew and the Magoos"
-    ]
-  },
-  {
     "id": "gdtb-RI-wolfman-jack-2026-07-18-the-met",
     "name": "Wolfman Jack — THE MET",
     "band": "Wolfman Jack",
@@ -14415,24 +14235,6 @@
     "source": "gdtb",
     "attractions": [
       "So Many Rhodes"
-    ]
-  },
-  {
-    "id": "gdtb-SC-the-grateful-brothers-2026-07-16-220-n-main-st-suite-500",
-    "name": "The Grateful Brothers — 220 N Main St Suite 500",
-    "band": "The Grateful Brothers",
-    "bandSlug": "the-grateful-brothers",
-    "venue": "220 N Main St Suite 500",
-    "city": "Greenville",
-    "state": "SC",
-    "lat": 34.851354,
-    "lng": -82.3984882,
-    "date": "2026-07-16",
-    "time": "5:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=SC",
-    "source": "gdtb",
-    "attractions": [
-      "The Grateful Brothers"
     ]
   },
   {
@@ -15891,24 +15693,6 @@
     "source": "gdtb",
     "attractions": [
       "Andy Coe Band"
-    ]
-  },
-  {
-    "id": "gdtb-WV-grateful-shred-2026-07-16-snowshoe-mountain",
-    "name": "Grateful Shred — Snowshoe Mountain",
-    "band": "Grateful Shred",
-    "bandSlug": "grateful-shred",
-    "venue": "Snowshoe Mountain",
-    "city": "Slatyfork",
-    "state": "WV",
-    "lat": 38.4211665,
-    "lng": -80.064127,
-    "date": "2026-07-16",
-    "time": "THRU Jul 18",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=WV",
-    "source": "gdtb",
-    "attractions": [
-      "Grateful Shred"
     ]
   },
   {

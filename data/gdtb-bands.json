@@ -168,24 +168,6 @@
     "state": "CA"
   },
   {
-    "slug": "tumbledown-shack",
-    "name": "Tumbledown Shack",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CO"
-  },
-  {
-    "slug": "chinaflower-suncats",
-    "name": "Chinaflower Suncats",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CO"
-  },
-  {
-    "slug": "easy-jim",
-    "name": "Easy Jim",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CO"
-  },
-  {
     "slug": "big-sky",
     "name": "Big Sky",
     "source": "gratefuldeadtributebands.com",
@@ -194,6 +176,12 @@
   {
     "slug": "deadphish-orchestra",
     "name": "DeadPhish Orchestra",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CO"
+  },
+  {
+    "slug": "easy-jim",
+    "name": "Easy Jim",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
@@ -236,6 +224,12 @@
   {
     "slug": "aoxomoxoa",
     "name": "AoxomoxoA",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CO"
+  },
+  {
+    "slug": "tumbledown-shack",
+    "name": "Tumbledown Shack",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
@@ -618,6 +612,12 @@
     "state": "MD"
   },
   {
+    "slug": "the-grateful-teds",
+    "name": "The Grateful Teds",
+    "source": "gratefuldeadtributebands.com",
+    "state": "MA"
+  },
+  {
     "slug": "alligator-wine",
     "name": "Alligator Wine",
     "source": "gratefuldeadtributebands.com",
@@ -626,12 +626,6 @@
   {
     "slug": "diamond-blues",
     "name": "Diamond Blues",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MA"
-  },
-  {
-    "slug": "the-grateful-teds",
-    "name": "The Grateful Teds",
     "source": "gratefuldeadtributebands.com",
     "state": "MA"
   },
@@ -858,12 +852,6 @@
     "state": "NH"
   },
   {
-    "slug": "the-big-trip",
-    "name": "The Big Trip",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "too-cool-to-bluff",
     "name": "Too Cool To Bluff",
     "source": "gratefuldeadtributebands.com",
@@ -878,6 +866,12 @@
   {
     "slug": "lovelight",
     "name": "LoveLight",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "the-big-trip",
+    "name": "The Big Trip",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -932,6 +926,12 @@
   {
     "slug": "deadicated-friends",
     "name": "Deadicated & Friends",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "deadful-greats",
+    "name": "Deadful Greats",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1074,16 +1074,16 @@
     "state": "NY"
   },
   {
-    "slug": "delilah-jones",
-    "name": "Delilah Jones",
+    "slug": "high-time",
+    "name": "High Time",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
   {
-    "slug": "dark-star-project",
-    "name": "Dark Star Project",
+    "slug": "delilah-jones",
+    "name": "Delilah Jones",
     "source": "gratefuldeadtributebands.com",
-    "state": "NC"
+    "state": "NY"
   },
   {
     "slug": "eternally-grateful",
@@ -1254,14 +1254,14 @@
     "state": "RI"
   },
   {
-    "slug": "the-grateful-brothers",
-    "name": "The Grateful Brothers",
+    "slug": "thursday-s-dead",
+    "name": "Thursday's Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "SC"
   },
   {
-    "slug": "thursday-s-dead",
-    "name": "Thursday's Dead",
+    "slug": "the-grateful-brothers",
+    "name": "The Grateful Brothers",
     "source": "gratefuldeadtributebands.com",
     "state": "SC"
   },
@@ -1288,6 +1288,12 @@
     "name": "Miracle Ticket",
     "source": "gratefuldeadtributebands.com",
     "state": "TX"
+  },
+  {
+    "slug": "dark-star-project",
+    "name": "Dark Star Project",
+    "source": "gratefuldeadtributebands.com",
+    "state": "VT"
   },
   {
     "slug": "dobbs-dead",
