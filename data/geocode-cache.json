@@ -3869,5 +3869,17 @@
   "pleasant plain, oh": {
     "lat": 39.2795049,
     "lng": -84.1121563
+  },
+  "washington dc, md": {
+    "lat": 39.0921673,
+    "lng": -77.0610201
+  },
+  "landsdale, pa": {
+    "lat": 40.2424297,
+    "lng": -75.3019826
+  },
+  "washington dc, va": {
+    "lat": 38.9000479,
+    "lng": -77.0706333
   }
 }
