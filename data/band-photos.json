@@ -572,5 +572,15 @@
     "photo": "images/bands/on-the-bus.jpg",
     "source": "deezer",
     "matchedName": "On The Bus"
+  },
+  "old-head": {
+    "photo": "images/bands/old-head.jpg",
+    "source": "deezer",
+    "matchedName": "Old Head"
+  },
+  "the-electrix": {
+    "photo": "images/bands/the-electrix.jpg",
+    "source": "deezer",
+    "matchedName": "The Electrix"
   }
 }
