@@ -2718,6 +2718,24 @@
     ]
   },
   {
+    "id": "gdtb-CT-shakedown-citi-2026-09-04-talcott-mountain-collective",
+    "name": "Shakedown Citi — Talcott Mountain Collective",
+    "band": "Shakedown Citi",
+    "bandSlug": "shakedown-citi",
+    "venue": "Talcott Mountain Collective",
+    "city": "Simsbury",
+    "state": "CT",
+    "lat": 41.8759152,
+    "lng": -72.8012211,
+    "date": "2026-09-04",
+    "time": "7:00 pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
+    "source": "gdtb",
+    "attractions": [
+      "Shakedown Citi"
+    ]
+  },
+  {
     "id": "gdtb-CT-the-mystery-train-band-2026-09-04-notch8",
     "name": "The Mystery Train Band — Notch8",
     "band": "The Mystery Train Band",
@@ -2985,42 +3003,6 @@
     "source": "gdtb",
     "attractions": [
       "Melvin Seals and JGB"
-    ]
-  },
-  {
-    "id": "gdtb-FL-love-valley-2026-07-21-sandbar-sports-grill-cocoa-bea",
-    "name": "Love Valley — Sandbar Sports Grill, Cocoa Beach, FL",
-    "band": "Love Valley",
-    "bandSlug": "love-valley",
-    "venue": "Sandbar Sports Grill, Cocoa Beach, FL",
-    "city": "Cocoa Beach",
-    "state": "FL",
-    "lat": 28.3184107,
-    "lng": -80.6094959,
-    "date": "2026-07-21",
-    "time": "9:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Love Valley"
-    ]
-  },
-  {
-    "id": "gdtb-FL-crazy-fingers-2026-07-21-the-funky-biscuit-boca-raton-f",
-    "name": "Crazy Fingers — The Funky Biscuit, Boca Raton, FL 33432",
-    "band": "Crazy Fingers",
-    "bandSlug": "crazy-fingers",
-    "venue": "The Funky Biscuit, Boca Raton, FL 33432",
-    "city": "Boca Raton",
-    "state": "FL",
-    "lat": 26.3586885,
-    "lng": -80.0830984,
-    "date": "2026-07-21",
-    "time": "7:30PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Crazy Fingers"
     ]
   },
   {
@@ -8388,60 +8370,6 @@
     ]
   },
   {
-    "id": "gdtb-NJ-cosmic-jerry-band-2026-07-21-donovan-s-reef",
-    "name": "Cosmic Jerry Band — Donovan's Reef",
-    "band": "Cosmic Jerry Band",
-    "bandSlug": "cosmic-jerry-band",
-    "venue": "Donovan's Reef",
-    "city": "Rumson",
-    "state": "NJ",
-    "lat": 40.372054,
-    "lng": -73.9990269,
-    "date": "2026-07-21",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Cosmic Jerry Band"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-dead-reckoning-2026-07-21-boathouse-restaurant",
-    "name": "Dead Reckoning — Boathouse Restaurant",
-    "band": "Dead Reckoning",
-    "bandSlug": "dead-reckoning",
-    "venue": "Boathouse Restaurant",
-    "city": "Wildwood",
-    "state": "NJ",
-    "lat": 38.9841969,
-    "lng": -74.8142502,
-    "date": "2026-07-21",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Dead Reckoning"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-diomede-and-donovan-2026-07-21-donovan-s-reef",
-    "name": "Diomede And Donovan — Donovan's Reef",
-    "band": "Diomede And Donovan",
-    "bandSlug": "diomede-and-donovan",
-    "venue": "Donovan's Reef",
-    "city": "Rumson",
-    "state": "NJ",
-    "lat": 40.372054,
-    "lng": -73.9990269,
-    "date": "2026-07-21",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Diomede And Donovan"
-    ]
-  },
-  {
     "id": "gdtb-NJ-dead-reckoning-2026-07-22-crabby-jack-s-at-the-crab-trap",
     "name": "Dead Reckoning — Crabby Jack's at the Crab Trap",
     "band": "Dead Reckoning",
@@ -8673,6 +8601,24 @@
     "source": "gdtb",
     "attractions": [
       "Achievers Band"
+    ]
+  },
+  {
+    "id": "gdtb-NJ-deadful-greats-2026-07-25-937-us-202-s",
+    "name": "Deadful Greats — 937 US-202 S",
+    "band": "Deadful Greats",
+    "bandSlug": "deadful-greats",
+    "venue": "937 US-202 S",
+    "city": "Neshanic Station",
+    "state": "NJ",
+    "lat": 40.5080725,
+    "lng": -74.7300125,
+    "date": "2026-07-25",
+    "time": "6 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "source": "gdtb",
+    "attractions": [
+      "Deadful Greats"
     ]
   },
   {
@@ -9000,6 +8946,24 @@
     ]
   },
   {
+    "id": "gdtb-NJ-too-cool-to-bluff-2026-07-31-norwood-ave",
+    "name": "Too Cool To Bluff — Norwood Ave",
+    "band": "Too Cool To Bluff",
+    "bandSlug": "too-cool-to-bluff",
+    "venue": "Norwood Ave",
+    "city": "Long Branch",
+    "state": "NJ",
+    "lat": 40.3042778,
+    "lng": -73.9923596,
+    "date": "2026-07-31",
+    "time": "7pm to 10pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "source": "gdtb",
+    "attractions": [
+      "Too Cool To Bluff"
+    ]
+  },
+  {
     "id": "gdtb-NJ-achievers-band-2026-07-31-vinny-s-pizza-pasta",
     "name": "Achievers Band — Vinny's Pizza & Pasta",
     "band": "Achievers Band",
@@ -9087,6 +9051,24 @@
     "source": "gdtb",
     "attractions": [
       "Achievers Band"
+    ]
+  },
+  {
+    "id": "gdtb-NJ-too-cool-to-bluff-2026-08-01-33-main-st",
+    "name": "Too Cool To Bluff — 33 Main St",
+    "band": "Too Cool To Bluff",
+    "bandSlug": "too-cool-to-bluff",
+    "venue": "33 Main St",
+    "city": "Woodbridge",
+    "state": "NJ",
+    "lat": 40.55418,
+    "lng": -74.2860008,
+    "date": "2026-08-01",
+    "time": "7pm to 10pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "source": "gdtb",
+    "attractions": [
+      "Too Cool To Bluff"
     ]
   },
   {
@@ -9231,6 +9213,24 @@
     "source": "gdtb",
     "attractions": [
       "The Brian St John Band"
+    ]
+  },
+  {
+    "id": "gdtb-NJ-too-cool-to-bluff-2026-08-06-ocean-ave",
+    "name": "Too Cool To Bluff — Ocean Ave",
+    "band": "Too Cool To Bluff",
+    "bandSlug": "too-cool-to-bluff",
+    "venue": "Ocean Ave",
+    "city": "Sea Bright",
+    "state": "NJ",
+    "lat": 40.3615488,
+    "lng": -73.9742051,
+    "date": "2026-08-06",
+    "time": "5PM to 8PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "source": "gdtb",
+    "attractions": [
+      "Too Cool To Bluff"
     ]
   },
   {
@@ -9807,6 +9807,24 @@
     "source": "gdtb",
     "attractions": [
       "Melvin Seals and JGB"
+    ]
+  },
+  {
+    "id": "gdtb-NJ-too-cool-to-bluff-2026-08-16-123-east-river-road",
+    "name": "Too Cool To Bluff — 123 East River Road",
+    "band": "Too Cool To Bluff",
+    "bandSlug": "too-cool-to-bluff",
+    "venue": "123 East River Road",
+    "city": "Rumson",
+    "state": "NJ",
+    "lat": 40.372054,
+    "lng": -73.9990269,
+    "date": "2026-08-16",
+    "time": "8pm to 11pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "source": "gdtb",
+    "attractions": [
+      "Too Cool To Bluff"
     ]
   },
   {
@@ -10422,24 +10440,6 @@
     ]
   },
   {
-    "id": "gdtb-NY-dead-meat-2026-07-21-nyack-memorial-park",
-    "name": "Dead Meat — Nyack Memorial Park",
-    "band": "Dead Meat",
-    "bandSlug": "dead-meat",
-    "venue": "Nyack Memorial Park",
-    "city": "Nyack",
-    "state": "NY",
-    "lat": 41.091121,
-    "lng": -73.9196794,
-    "date": "2026-07-21",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Dead Meat"
-    ]
-  },
-  {
     "id": "gdtb-NY-ace-friends-2026-07-22-horan-s-landing-waterfront-par",
     "name": "Ace & Friends — Horan's Landing Waterfront Park",
     "band": "Ace & Friends",
@@ -10743,6 +10743,24 @@
     "source": "gdtb",
     "attractions": [
       "Rising Tide"
+    ]
+  },
+  {
+    "id": "gdtb-NY-dead-on-the-hudson-2026-07-25-699-ny-208",
+    "name": "Dead On the Hudson — 699 NY-208",
+    "band": "Dead On the Hudson",
+    "bandSlug": "dead-on-the-hudson",
+    "venue": "699 NY-208",
+    "city": "Gardiner",
+    "state": "NY",
+    "lat": 41.6798157,
+    "lng": -74.1504231,
+    "date": "2026-07-25",
+    "time": "3:30",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Dead On the Hudson"
     ]
   },
   {
@@ -12348,6 +12366,24 @@
     ]
   },
   {
+    "id": "gdtb-NY-shakedown-citi-2026-09-13-industry-city-bandshel",
+    "name": "Shakedown Citi — Industry City Bandshel",
+    "band": "Shakedown Citi",
+    "bandSlug": "shakedown-citi",
+    "venue": "Industry City Bandshel",
+    "city": "Brooklyn",
+    "state": "NY",
+    "lat": 40.6526006,
+    "lng": -73.9497211,
+    "date": "2026-09-13",
+    "time": "3:00 pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Shakedown Citi"
+    ]
+  },
+  {
     "id": "gdtb-NY-uncle-shoehorn-2026-09-18-biltmore-bar-and-lounge",
     "name": "Uncle Shoehorn — Biltmore Bar and Lounge",
     "band": "Uncle Shoehorn",
@@ -12381,6 +12417,24 @@
     "source": "gdtb",
     "attractions": [
       "Nailed Shutt"
+    ]
+  },
+  {
+    "id": "gdtb-NY-shakedown-citi-2026-09-19-the-ellis",
+    "name": "Shakedown Citi — The Ellis",
+    "band": "Shakedown Citi",
+    "bandSlug": "shakedown-citi",
+    "venue": "The Ellis",
+    "city": "Newburgh",
+    "state": "NY",
+    "lat": 41.5000767,
+    "lng": -74.0098299,
+    "date": "2026-09-19",
+    "time": "6:00 pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Shakedown Citi"
     ]
   },
   {
@@ -15495,6 +15549,24 @@
     "source": "gdtb",
     "attractions": [
       "Splintered Sunlight"
+    ]
+  },
+  {
+    "id": "gdtb-PA-shakedown-citi-2026-09-25-musikfest-cafe",
+    "name": "Shakedown Citi — Musikfest Cafe",
+    "band": "Shakedown Citi",
+    "bandSlug": "shakedown-citi",
+    "venue": "Musikfest Cafe",
+    "city": "Bethlehem",
+    "state": "PA",
+    "lat": 40.6178915,
+    "lng": -75.3786521,
+    "date": "2026-09-25",
+    "time": "7:00 pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
+    "source": "gdtb",
+    "attractions": [
+      "Shakedown Citi"
     ]
   },
   {

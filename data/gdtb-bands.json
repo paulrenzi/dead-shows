@@ -354,20 +354,26 @@
     "state": "CT"
   },
   {
+    "slug": "shakedown-citi",
+    "name": "Shakedown Citi",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CT"
+  },
+  {
     "slug": "ct-grateful-dead-all-stars",
     "name": "CT Grateful Dead All Stars",
     "source": "gratefuldeadtributebands.com",
     "state": "CT"
   },
   {
-    "slug": "love-valley",
-    "name": "Love Valley",
+    "slug": "crazy-fingers",
+    "name": "Crazy Fingers",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
   {
-    "slug": "crazy-fingers",
-    "name": "Crazy Fingers",
+    "slug": "love-valley",
+    "name": "Love Valley",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
@@ -732,12 +738,6 @@
     "state": "MA"
   },
   {
-    "slug": "shakedown-citi",
-    "name": "Shakedown Citi",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MA"
-  },
-  {
     "slug": "august-first",
     "name": "August First",
     "source": "gratefuldeadtributebands.com",
@@ -984,12 +984,6 @@
     "state": "NJ"
   },
   {
-    "slug": "diomede-and-donovan",
-    "name": "Diomede And Donovan",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "the-brian-st-john-band",
     "name": "The Brian St John Band",
     "source": "gratefuldeadtributebands.com",
@@ -1074,6 +1068,12 @@
     "state": "NJ"
   },
   {
+    "slug": "too-cool-to-bluff",
+    "name": "Too Cool To Bluff",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
     "slug": "reflections",
     "name": "Reflections",
     "source": "gratefuldeadtributebands.com",
@@ -1128,6 +1128,12 @@
     "state": "NJ"
   },
   {
+    "slug": "diomede-and-donovan",
+    "name": "Diomede And Donovan",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
     "slug": "widesun",
     "name": "WideSun",
     "source": "gratefuldeadtributebands.com",
@@ -1176,12 +1182,6 @@
     "state": "NM"
   },
   {
-    "slug": "dead-meat",
-    "name": "Dead Meat",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
     "slug": "nailed-shutt",
     "name": "Nailed Shutt",
     "source": "gratefuldeadtributebands.com",
@@ -1190,6 +1190,12 @@
   {
     "slug": "tiberius",
     "name": "Tiberius",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "dead-meat",
+    "name": "Dead Meat",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
@@ -1208,6 +1214,12 @@
   {
     "slug": "dead-friends",
     "name": "Dead & Friends",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "dead-on-the-hudson",
+    "name": "Dead On the Hudson",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
