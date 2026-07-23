@@ -162,7 +162,7 @@
     ]
   },
   {
-    "id": "gdtb-CA-cats-on-the-bandstand-2026-07-21-the-cinema-bar",
+    "id": "gdtb-CA-cats-on-the-bandstand-2027-07-21-the-cinema-bar",
     "name": "Cats on the Bandstand — The Cinema Bar",
     "band": "Cats on the Bandstand",
     "bandSlug": "cats-on-the-bandstand",
@@ -171,7 +171,7 @@
     "state": "CA",
     "lat": 34.0211224,
     "lng": -118.396466,
-    "date": "2026-07-21",
+    "date": "2027-07-21",
     "time": "8:30PM",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
     "source": "gdtb",
@@ -1131,42 +1131,6 @@
     "source": "gdtb",
     "attractions": [
       "Cats on the Bandstand"
-    ]
-  },
-  {
-    "id": "gdtb-CO-tumbledown-shack-2026-07-22-odell-brewing-co",
-    "name": "Tumbledown Shack — Odell Brewing Co",
-    "band": "Tumbledown Shack",
-    "bandSlug": "tumbledown-shack",
-    "venue": "Odell Brewing Co",
-    "city": "Fort Collins",
-    "state": "CO",
-    "lat": 40.5871782,
-    "lng": -105.0770113,
-    "date": "2026-07-22",
-    "time": "7 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
-    "source": "gdtb",
-    "attractions": [
-      "Tumbledown Shack"
-    ]
-  },
-  {
-    "id": "gdtb-CO-shakedown-street-2026-07-22-4th-street-loveland-co",
-    "name": "Shakedown Street — 4th Street Loveland Co",
-    "band": "Shakedown Street",
-    "bandSlug": "shakedown-street",
-    "venue": "4th Street Loveland Co",
-    "city": "Loveland",
-    "state": "CO",
-    "lat": 40.3977612,
-    "lng": -105.07498,
-    "date": "2026-07-22",
-    "time": "8:30 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
-    "source": "gdtb",
-    "attractions": [
-      "Shakedown Street"
     ]
   },
   {
@@ -5436,24 +5400,6 @@
     ]
   },
   {
-    "id": "gdtb-ME-down-east-dead-2026-07-22-13-valley-street-thomaston-me-",
-    "name": "Down East Dead — 13 Valley Street Thomaston ME United States Maine 04861",
-    "band": "Down East Dead",
-    "bandSlug": "down-east-dead",
-    "venue": "13 Valley Street Thomaston ME United States Maine 04861",
-    "city": "Thomaston",
-    "state": "ME",
-    "lat": 44.0789631,
-    "lng": -69.1831887,
-    "date": "2026-07-22",
-    "time": "5:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=ME",
-    "source": "gdtb",
-    "attractions": [
-      "Down East Dead"
-    ]
-  },
-  {
     "id": "gdtb-ME-moose-juice-2026-07-25-1601-portland-rd",
     "name": "Moose Juice — 1601 Portland Rd",
     "band": "Moose Juice",
@@ -6081,24 +6027,6 @@
     "source": "gdtb",
     "attractions": [
       "InDEADnation"
-    ]
-  },
-  {
-    "id": "gdtb-MA-diamond-blues-2026-07-22-midway-cafe",
-    "name": "Diamond Blues — Midway Cafe",
-    "band": "Diamond Blues",
-    "bandSlug": "diamond-blues",
-    "venue": "Midway Cafe",
-    "city": "Jamaica Plain",
-    "state": "MA",
-    "lat": 42.3116046,
-    "lng": -71.1143838,
-    "date": "2026-07-22",
-    "time": "7:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "Diamond Blues"
     ]
   },
   {
@@ -8370,42 +8298,6 @@
     ]
   },
   {
-    "id": "gdtb-NJ-dead-reckoning-2026-07-22-crabby-jack-s-at-the-crab-trap",
-    "name": "Dead Reckoning — Crabby Jack's at the Crab Trap",
-    "band": "Dead Reckoning",
-    "bandSlug": "dead-reckoning",
-    "venue": "Crabby Jack's at the Crab Trap",
-    "city": "Somers Point",
-    "state": "NJ",
-    "lat": 39.3176158,
-    "lng": -74.594601,
-    "date": "2026-07-22",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Dead Reckoning"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-the-brian-st-john-band-2026-07-22-o-reillys-pub",
-    "name": "The Brian St John Band — O'Reillys Pub",
-    "band": "The Brian St John Band",
-    "bandSlug": "the-brian-st-john-band",
-    "venue": "O'Reillys Pub",
-    "city": "Newton",
-    "state": "NJ",
-    "lat": 41.0583121,
-    "lng": -74.7531445,
-    "date": "2026-07-22",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "The Brian St John Band"
-    ]
-  },
-  {
     "id": "gdtb-NJ-be5d-2026-07-23-cooper-s-riverview",
     "name": "Be5D — Cooper's Riverview",
     "band": "Be5D",
@@ -10440,60 +10332,6 @@
     ]
   },
   {
-    "id": "gdtb-NY-ace-friends-2026-07-22-horan-s-landing-waterfront-par",
-    "name": "Ace & Friends — Horan's Landing Waterfront Park",
-    "band": "Ace & Friends",
-    "bandSlug": "ace-friends",
-    "venue": "Horan's Landing Waterfront Park",
-    "city": "Sleepy Hollow",
-    "state": "NY",
-    "lat": 41.085652,
-    "lng": -73.8584684,
-    "date": "2026-07-22",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Ace & Friends"
-    ]
-  },
-  {
-    "id": "gdtb-NY-grateful-bro-2026-07-22-2-54-wildcliff-rd-new-rochelle",
-    "name": "Grateful BRO — 2-54 Wildcliff Rd New Rochelle NY 10805",
-    "band": "Grateful BRO",
-    "bandSlug": "grateful-bro",
-    "venue": "2-54 Wildcliff Rd New Rochelle NY 10805",
-    "city": "New Rochelle",
-    "state": "NY",
-    "lat": 40.9115386,
-    "lng": -73.7826363,
-    "date": "2026-07-22",
-    "time": "7:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Grateful BRO"
-    ]
-  },
-  {
-    "id": "gdtb-NY-nailed-shutt-2026-07-22-baird-s-tavern",
-    "name": "Nailed Shutt — Baird's Tavern",
-    "band": "Nailed Shutt",
-    "bandSlug": "nailed-shutt",
-    "venue": "Baird's Tavern",
-    "city": "Warwick",
-    "state": "NY",
-    "lat": 41.256483,
-    "lng": -74.3598755,
-    "date": "2026-07-22",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Nailed Shutt"
-    ]
-  },
-  {
     "id": "gdtb-NY-tiberius-2026-07-23-225-sea-cliff-ave",
     "name": "Tiberius — 225 Sea Cliff Ave",
     "band": "Tiberius",
@@ -10941,6 +10779,24 @@
     "source": "gdtb",
     "attractions": [
       "After Dark"
+    ]
+  },
+  {
+    "id": "gdtb-NY-dead-friends-2026-07-28-free-show",
+    "name": "Dead & Friends — FREE SHOW",
+    "band": "Dead & Friends",
+    "bandSlug": "dead-friends",
+    "venue": "FREE SHOW",
+    "city": "Auburn",
+    "state": "NY",
+    "lat": 42.9320202,
+    "lng": -76.5672029,
+    "date": "2026-07-28",
+    "time": "5pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Dead & Friends"
     ]
   },
   {
@@ -11859,6 +11715,24 @@
     "source": "gdtb",
     "attractions": [
       "Half Step LI"
+    ]
+  },
+  {
+    "id": "gdtb-NY-so-many-roads-2026-08-21-40-rondout-landing",
+    "name": "So Many Roads — 40 Rondout Landing",
+    "band": "So Many Roads",
+    "bandSlug": "so-many-roads",
+    "venue": "40 Rondout Landing",
+    "city": "Kingston",
+    "state": "NY",
+    "lat": 41.9287812,
+    "lng": -74.0023825,
+    "date": "2026-08-21",
+    "time": "7:00",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "So Many Roads"
     ]
   },
   {
@@ -13158,24 +13032,6 @@
     ]
   },
   {
-    "id": "gdtb-OH-friends-of-the-dead-2026-07-22-the-summit-music-hall",
-    "name": "Friends of the Dead — The Summit Music Hall",
-    "band": "Friends of the Dead",
-    "bandSlug": "friends-of-the-dead",
-    "venue": "The Summit Music Hall",
-    "city": "Columbus",
-    "state": "OH",
-    "lat": 39.9622601,
-    "lng": -83.0007065,
-    "date": "2026-07-22",
-    "time": "9 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OH",
-    "source": "gdtb",
-    "attractions": [
-      "Friends of the Dead"
-    ]
-  },
-  {
     "id": "gdtb-OH-englishtown-project-2026-07-24-nelson-ledges-quarry-park",
     "name": "Englishtown Project — Nelson Ledges Quarry Park",
     "band": "Englishtown Project",
@@ -14472,24 +14328,6 @@
     ]
   },
   {
-    "id": "gdtb-PA-cellar-souls-2026-07-22-hillside-park-south-abington-t",
-    "name": "Cellar Souls — Hillside Park South Abington Twp",
-    "band": "Cellar Souls",
-    "bandSlug": "cellar-souls",
-    "venue": "Hillside Park South Abington Twp",
-    "city": "Clarks Summit",
-    "state": "PA",
-    "lat": 41.4941161,
-    "lng": -75.703413,
-    "date": "2026-07-22",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
-    "source": "gdtb",
-    "attractions": [
-      "Cellar Souls"
-    ]
-  },
-  {
     "id": "gdtb-PA-crickets-and-cicadas-2026-07-23-118-north-wayne-avenue-wayne-p",
     "name": "Crickets and Cicadas — 118 North Wayne Avenue Wayne PA United States Pennsylvania 19087",
     "band": "Crickets and Cicadas",
@@ -15588,24 +15426,6 @@
     ]
   },
   {
-    "id": "gdtb-RI-playing-dead-2026-07-22-54-bristol-ferry-road-portsmou",
-    "name": "Playing Dead — 54 Bristol Ferry Road Portsmouth RI United States Rhode Island",
-    "band": "Playing Dead",
-    "bandSlug": "playing-dead",
-    "venue": "54 Bristol Ferry Road Portsmouth RI United States Rhode Island",
-    "city": "Portsmouth",
-    "state": "RI",
-    "lat": 41.6024068,
-    "lng": -71.2503157,
-    "date": "2026-07-22",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=RI",
-    "source": "gdtb",
-    "attractions": [
-      "Playing Dead"
-    ]
-  },
-  {
     "id": "gdtb-RI-eddy-s-shoe-2026-07-25-38-water-st",
     "name": "Eddy's Shoe — 38 Water St .",
     "band": "Eddy's Shoe",
@@ -16647,42 +16467,6 @@
     "source": "gdtb",
     "attractions": [
       "20 Hounds"
-    ]
-  },
-  {
-    "id": "gdtb-VT-dobbs-dead-2026-07-22-179-guptil-road-waterbury-cent",
-    "name": "Dobbs' Dead — 179 Guptil Road Waterbury Center VT United States Vermont 05677",
-    "band": "Dobbs' Dead",
-    "bandSlug": "dobbs-dead",
-    "venue": "179 Guptil Road Waterbury Center VT United States Vermont 05677",
-    "city": "Waterbury Center",
-    "state": "VT",
-    "lat": 44.3786095,
-    "lng": -72.7193238,
-    "date": "2026-07-22",
-    "time": "7 PM and 23 more",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=VT",
-    "source": "gdtb",
-    "attractions": [
-      "Dobbs' Dead"
-    ]
-  },
-  {
-    "id": "gdtb-VT-splintered-sunlight-2026-07-22-179-guptil-road-waterbury-cent",
-    "name": "Splintered Sunlight — 179 Guptil Road Waterbury Center VT United States Vermont 05677",
-    "band": "Splintered Sunlight",
-    "bandSlug": "splintered-sunlight",
-    "venue": "179 Guptil Road Waterbury Center VT United States Vermont 05677",
-    "city": "Waterbury Center",
-    "state": "VT",
-    "lat": 44.3786095,
-    "lng": -72.7193238,
-    "date": "2026-07-22",
-    "time": "7 PM and 23 more",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=VT",
-    "source": "gdtb",
-    "attractions": [
-      "Splintered Sunlight"
     ]
   },
   {

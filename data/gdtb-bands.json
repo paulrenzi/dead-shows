@@ -198,18 +198,6 @@
     "state": "CA"
   },
   {
-    "slug": "tumbledown-shack",
-    "name": "Tumbledown Shack",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CO"
-  },
-  {
-    "slug": "shakedown-street",
-    "name": "Shakedown Street",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CO"
-  },
-  {
     "slug": "big-sky",
     "name": "Big Sky",
     "source": "gratefuldeadtributebands.com",
@@ -236,6 +224,18 @@
   {
     "slug": "easy-jim",
     "name": "Easy Jim",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CO"
+  },
+  {
+    "slug": "tumbledown-shack",
+    "name": "Tumbledown Shack",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CO"
+  },
+  {
+    "slug": "shakedown-street",
+    "name": "Shakedown Street",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
@@ -594,12 +594,6 @@
     "state": "IA"
   },
   {
-    "slug": "down-east-dead",
-    "name": "Down East Dead",
-    "source": "gratefuldeadtributebands.com",
-    "state": "ME"
-  },
-  {
     "slug": "moose-juice",
     "name": "Moose Juice",
     "source": "gratefuldeadtributebands.com",
@@ -714,14 +708,14 @@
     "state": "MD"
   },
   {
-    "slug": "diamond-blues",
-    "name": "Diamond Blues",
+    "slug": "jerome-s-pace",
+    "name": "Jerome's Pace",
     "source": "gratefuldeadtributebands.com",
     "state": "MA"
   },
   {
-    "slug": "jerome-s-pace",
-    "name": "Jerome's Pace",
+    "slug": "diamond-blues",
+    "name": "Diamond Blues",
     "source": "gratefuldeadtributebands.com",
     "state": "MA"
   },
@@ -978,18 +972,6 @@
     "state": "NH"
   },
   {
-    "slug": "dead-reckoning",
-    "name": "Dead Reckoning",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "the-brian-st-john-band",
-    "name": "The Brian St John Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "be5d",
     "name": "Be5D",
     "source": "gratefuldeadtributebands.com",
@@ -998,6 +980,12 @@
   {
     "slug": "this-old-engine",
     "name": "This Old Engine",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "dead-reckoning",
+    "name": "Dead Reckoning",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1058,6 +1046,12 @@
   {
     "slug": "workingman-s-jed",
     "name": "Workingman's Jed",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "the-brian-st-john-band",
+    "name": "The Brian St John Band",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1182,12 +1176,6 @@
     "state": "NM"
   },
   {
-    "slug": "nailed-shutt",
-    "name": "Nailed Shutt",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
     "slug": "tiberius",
     "name": "Tiberius",
     "source": "gratefuldeadtributebands.com",
@@ -1296,6 +1284,12 @@
     "state": "NY"
   },
   {
+    "slug": "nailed-shutt",
+    "name": "Nailed Shutt",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
     "slug": "dark-hollow",
     "name": "Dark Hollow",
     "source": "gratefuldeadtributebands.com",
@@ -1310,6 +1304,12 @@
   {
     "slug": "high-time",
     "name": "High Time",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "so-many-roads",
+    "name": "So Many Roads",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
@@ -1354,12 +1354,6 @@
     "name": "Tin Roof Cats",
     "source": "gratefuldeadtributebands.com",
     "state": "NC"
-  },
-  {
-    "slug": "friends-of-the-dead",
-    "name": "Friends of the Dead",
-    "source": "gratefuldeadtributebands.com",
-    "state": "OH"
   },
   {
     "slug": "englishtown-project",
@@ -1412,6 +1406,12 @@
   {
     "slug": "dupree-s-dead-band",
     "name": "Dupree's Dead Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "OH"
+  },
+  {
+    "slug": "friends-of-the-dead",
+    "name": "Friends of the Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "OH"
   },
