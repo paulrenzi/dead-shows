@@ -1819,5 +1819,9 @@
     "tried": "2026-07-21",
     "matched": true,
     "name": "The Electrix"
+  },
+  "natural-dead": {
+    "tried": "2026-07-24",
+    "matched": false
   }
 }
