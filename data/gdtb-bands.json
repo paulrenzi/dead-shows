@@ -54,12 +54,6 @@
     "state": "CA"
   },
   {
-    "slug": "the-deadicated-project",
-    "name": "The Deadicated Project",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
     "slug": "willie-and-the-poor-boys",
     "name": "Willie and the Poor Boys",
     "source": "gratefuldeadtributebands.com",
@@ -234,6 +228,12 @@
     "state": "CO"
   },
   {
+    "slug": "the-chilly-wind-revival",
+    "name": "The Chilly Wind Revival",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CO"
+  },
+  {
     "slug": "shakedown-street",
     "name": "Shakedown Street",
     "source": "gratefuldeadtributebands.com",
@@ -282,18 +282,6 @@
     "state": "CO"
   },
   {
-    "slug": "rob-glassman-band",
-    "name": "Rob Glassman Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CT"
-  },
-  {
-    "slug": "the-deadheads",
-    "name": "The Deadheads",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CT"
-  },
-  {
     "slug": "almost-ablaze",
     "name": "Almost Ablaze",
     "source": "gratefuldeadtributebands.com",
@@ -302,6 +290,18 @@
   {
     "slug": "grateful-friends",
     "name": "Grateful Friends",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CT"
+  },
+  {
+    "slug": "rob-glassman-band",
+    "name": "Rob Glassman Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CT"
+  },
+  {
+    "slug": "the-deadheads",
+    "name": "The Deadheads",
     "source": "gratefuldeadtributebands.com",
     "state": "CT"
   },
@@ -366,26 +366,20 @@
     "state": "CT"
   },
   {
-    "slug": "crazy-fingers",
-    "name": "Crazy Fingers",
-    "source": "gratefuldeadtributebands.com",
-    "state": "FL"
-  },
-  {
     "slug": "love-valley",
     "name": "Love Valley",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
   {
-    "slug": "dead-set-florida",
-    "name": "Dead Set Florida",
+    "slug": "crazy-fingers",
+    "name": "Crazy Fingers",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
   {
-    "slug": "spread-the-band",
-    "name": "Spread The Band",
+    "slug": "dead-set-florida",
+    "name": "Dead Set Florida",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
@@ -492,12 +486,6 @@
     "state": "IL"
   },
   {
-    "slug": "thankful-dead",
-    "name": "Thankful Dead",
-    "source": "gratefuldeadtributebands.com",
-    "state": "IL"
-  },
-  {
     "slug": "spies-of-the-world",
     "name": "Spies Of The World",
     "source": "gratefuldeadtributebands.com",
@@ -506,6 +494,12 @@
   {
     "slug": "sunshine-daydream",
     "name": "Sunshine Daydream",
+    "source": "gratefuldeadtributebands.com",
+    "state": "IL"
+  },
+  {
+    "slug": "thankful-dead",
+    "name": "Thankful Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "IL"
   },
@@ -550,6 +544,18 @@
     "name": "Brown Eyed Women",
     "source": "gratefuldeadtributebands.com",
     "state": "IL"
+  },
+  {
+    "slug": "65-95",
+    "name": "65-95",
+    "source": "gratefuldeadtributebands.com",
+    "state": "IN"
+  },
+  {
+    "slug": "special-event",
+    "name": "Special Event",
+    "source": "gratefuldeadtributebands.com",
+    "state": "IN"
   },
   {
     "slug": "grateful-groove",
@@ -714,24 +720,6 @@
     "state": "MD"
   },
   {
-    "slug": "the-reckoning-crew",
-    "name": "The Reckoning Crew",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MA"
-  },
-  {
-    "slug": "august-first",
-    "name": "August First",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MA"
-  },
-  {
-    "slug": "reach-for-the-sun",
-    "name": "Reach For The Sun",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MA"
-  },
-  {
     "slug": "jerome-s-pace",
     "name": "Jerome's Pace",
     "source": "gratefuldeadtributebands.com",
@@ -774,6 +762,12 @@
     "state": "MA"
   },
   {
+    "slug": "august-first",
+    "name": "August First",
+    "source": "gratefuldeadtributebands.com",
+    "state": "MA"
+  },
+  {
     "slug": "owsley-s-owls",
     "name": "Owsley's Owls",
     "source": "gratefuldeadtributebands.com",
@@ -806,6 +800,12 @@
   {
     "slug": "pearly-baker-band",
     "name": "Pearly Baker Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "MA"
+  },
+  {
+    "slug": "reach-for-the-sun",
+    "name": "Reach For The Sun",
     "source": "gratefuldeadtributebands.com",
     "state": "MA"
   },
@@ -852,14 +852,14 @@
     "state": "MA"
   },
   {
-    "slug": "manitou-truckin-company",
-    "name": "Manitou Truckin' Company",
+    "slug": "jerry-s-tone",
+    "name": "Jerry's Tone",
     "source": "gratefuldeadtributebands.com",
     "state": "MI"
   },
   {
-    "slug": "jerry-s-tone",
-    "name": "Jerry's Tone",
+    "slug": "manitou-truckin-company",
+    "name": "Manitou Truckin' Company",
     "source": "gratefuldeadtributebands.com",
     "state": "MI"
   },
@@ -984,18 +984,6 @@
     "state": "NJ"
   },
   {
-    "slug": "be5d",
-    "name": "Be5D",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "dead-reckoning",
-    "name": "Dead Reckoning",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "crazy-in-the-sunlight",
     "name": "Crazy in the Sunlight",
     "source": "gratefuldeadtributebands.com",
@@ -1016,6 +1004,12 @@
   {
     "slug": "deadful-greats",
     "name": "Deadful Greats",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "dead-reckoning",
+    "name": "Dead Reckoning",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1182,24 +1176,6 @@
     "state": "NM"
   },
   {
-    "slug": "dark-hollow",
-    "name": "Dark Hollow",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
-    "slug": "deadbeats-ny",
-    "name": "Deadbeats-NY",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
-    "slug": "j-and-the-tie-dyers",
-    "name": "J and the Tie Dyers",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
     "slug": "dead-friends",
     "name": "Dead & Friends",
     "source": "gratefuldeadtributebands.com",
@@ -1244,6 +1220,12 @@
   {
     "slug": "trouble-junction",
     "name": "Trouble Junction",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "grateful-dans",
+    "name": "Grateful Dans",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
@@ -1296,8 +1278,20 @@
     "state": "NY"
   },
   {
+    "slug": "deadbeats-ny",
+    "name": "Deadbeats-NY",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
     "slug": "nailed-shutt",
     "name": "Nailed Shutt",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "dark-hollow",
+    "name": "Dark Hollow",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
@@ -1332,6 +1326,12 @@
     "state": "NC"
   },
   {
+    "slug": "bring-out-yer-dead",
+    "name": "Bring Out Yer Dead",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NC"
+  },
+  {
     "slug": "grateful-dudes",
     "name": "Grateful Dudes",
     "source": "gratefuldeadtributebands.com",
@@ -1344,8 +1344,8 @@
     "state": "NC"
   },
   {
-    "slug": "bring-out-yer-dead",
-    "name": "Bring Out Yer Dead",
+    "slug": "phuncle-sam",
+    "name": "Phuncle Sam",
     "source": "gratefuldeadtributebands.com",
     "state": "NC"
   },
@@ -1362,12 +1362,6 @@
     "state": "NC"
   },
   {
-    "slug": "englishtown-project",
-    "name": "Englishtown Project",
-    "source": "gratefuldeadtributebands.com",
-    "state": "OH"
-  },
-  {
     "slug": "west-akron-fadeaway",
     "name": "West Akron Fadeaway",
     "source": "gratefuldeadtributebands.com",
@@ -1376,6 +1370,12 @@
   {
     "slug": "city-news",
     "name": "City News",
+    "source": "gratefuldeadtributebands.com",
+    "state": "OH"
+  },
+  {
+    "slug": "englishtown-project",
+    "name": "Englishtown Project",
     "source": "gratefuldeadtributebands.com",
     "state": "OH"
   },
@@ -1454,6 +1454,12 @@
   {
     "slug": "reuben-s-painted-mandolin",
     "name": "Reuben's Painted Mandolin",
+    "source": "gratefuldeadtributebands.com",
+    "state": "PA"
+  },
+  {
+    "slug": "be5d",
+    "name": "Be5D",
     "source": "gratefuldeadtributebands.com",
     "state": "PA"
   },
