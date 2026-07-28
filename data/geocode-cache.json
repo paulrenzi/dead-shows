@@ -4089,5 +4089,158 @@
   "tatamy, pa": {
     "lat": 40.7417816,
     "lng": -75.2560449
+  },
+  "mt baldy, ca": {
+    "lat": 34.2364191,
+    "lng": -117.6591731
+  },
+  "santa clarita, ca": {
+    "lat": 34.4127963,
+    "lng": -118.5538088
+  },
+  "syudio city, ca": null,
+  "buena vista, co": {
+    "lat": 38.8422178,
+    "lng": -106.1311288
+  },
+  "shenandoah, ia": {
+    "lat": 40.7655468,
+    "lng": -95.3723535
+  },
+  "lawrence, ks": {
+    "lat": 38.9719137,
+    "lng": -95.2359403
+  },
+  "lyman, me": {
+    "lat": 43.4960207,
+    "lng": -70.5981446
+  },
+  "freeland, md": {
+    "lat": 39.7048259,
+    "lng": -76.6838605
+  },
+  "hyannis, ma": {
+    "lat": 41.6535345,
+    "lng": -70.2823287
+  },
+  "canton, ma": {
+    "lat": 42.1584324,
+    "lng": -71.1447732
+  },
+  "covert, mi": {
+    "lat": 42.2936458,
+    "lng": -86.2622477
+  },
+  "republic, mi": {
+    "lat": 46.3907435,
+    "lng": -87.9918865
+  },
+  "royal oak, mi": {
+    "lat": 42.4894801,
+    "lng": -83.1446485
+  },
+  "webster groves, mo": {
+    "lat": 38.592339,
+    "lng": -90.3564329
+  },
+  "vernon, nj": {
+    "lat": 39.8973938,
+    "lng": -75.0317979
+  },
+  "livingston, nj": {
+    "lat": 40.7959335,
+    "lng": -74.3148713
+  },
+  "cape may court house, nj": {
+    "lat": 39.075938,
+    "lng": -74.8114615
+  },
+  "shamong twp, nj": {
+    "lat": 39.7824265,
+    "lng": -74.7303168
+  },
+  "mountain lakes, nj": {
+    "lat": 40.8948212,
+    "lng": -74.4329314
+  },
+  "washington, nj": {
+    "lat": 40.7584793,
+    "lng": -74.9794987
+  },
+  "branchville, nj": {
+    "lat": 41.1464427,
+    "lng": -74.7523874
+  },
+  "rockaway beach queens, ny": {
+    "lat": 40.5809824,
+    "lng": -73.8229247
+  },
+  "tupper lake, ny": {
+    "lat": 44.224044,
+    "lng": -74.464302
+  },
+  "long lake, ny": {
+    "lat": 43.973052,
+    "lng": -74.421043
+  },
+  "west babylon, ny": {
+    "lat": 40.704371,
+    "lng": -73.3501301
+  },
+  "hillsdale, ny": {
+    "lat": 42.1789784,
+    "lng": -73.5259511
+  },
+  "pine island, ny": {
+    "lat": 41.2965521,
+    "lng": -74.4625539
+  },
+  "duck, nc": {
+    "lat": 36.1700137,
+    "lng": -75.7559261
+  },
+  "norwalk, oh": {
+    "lat": 41.2424219,
+    "lng": -82.6155745
+  },
+  "gettysburg, pa": {
+    "lat": 39.8308973,
+    "lng": -77.231012
+  },
+  "point pleasant, pa": {
+    "lat": 40.4222542,
+    "lng": -75.0662819
+  },
+  "shawnee on delaware, pa": {
+    "lat": 41.0123174,
+    "lng": -75.1107332
+  },
+  "boothwyn, pa": {
+    "lat": 39.8309418,
+    "lng": -75.4396925
+  },
+  "westerly, ri": {
+    "lat": 41.3775996,
+    "lng": -71.8272911
+  },
+  "morrisville, vt": {
+    "lat": 44.5615499,
+    "lng": -72.5982955
+  },
+  "hopewell, va": {
+    "lat": 37.3043154,
+    "lng": -77.2872001
+  },
+  "columbia, va": {
+    "lat": 37.753763,
+    "lng": -78.1631532
+  },
+  "elkhart lake, wi": {
+    "lat": 43.8333252,
+    "lng": -88.0178965
+  },
+  "random lake, wi": {
+    "lat": 43.5522861,
+    "lng": -87.9620482
   }
 }
