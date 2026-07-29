@@ -48,18 +48,6 @@
     "state": "AZ"
   },
   {
-    "slug": "scott-guberman",
-    "name": "Scott Guberman",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
-    "slug": "playing-the-dead",
-    "name": "Playing The Dead",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
     "slug": "mason-s-children",
     "name": "Mason's Children",
     "source": "gratefuldeadtributebands.com",
@@ -84,6 +72,12 @@
     "state": "CA"
   },
   {
+    "slug": "electric-waste-band",
+    "name": "Electric Waste Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
     "slug": "no-simple-highway",
     "name": "No Simple Highway",
     "source": "gratefuldeadtributebands.com",
@@ -92,12 +86,6 @@
   {
     "slug": "the-deadicated-project",
     "name": "The Deadicated Project",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
-    "slug": "electric-waste-band",
-    "name": "Electric Waste Band",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
   },
@@ -128,6 +116,12 @@
   {
     "slug": "dead-roses",
     "name": "Dead Roses",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
+    "slug": "playing-the-dead",
+    "name": "Playing The Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
   },
@@ -376,12 +370,6 @@
     "name": "CT Grateful Dead All Stars",
     "source": "gratefuldeadtributebands.com",
     "state": "CT"
-  },
-  {
-    "slug": "crazy-fingers",
-    "name": "Crazy Fingers",
-    "source": "gratefuldeadtributebands.com",
-    "state": "FL"
   },
   {
     "slug": "unlimited-devotion",
@@ -708,12 +696,6 @@
     "state": "MD"
   },
   {
-    "slug": "eddy-s-shoe",
-    "name": "Eddy's Shoe",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MA"
-  },
-  {
     "slug": "alligator-wine",
     "name": "Alligator Wine",
     "source": "gratefuldeadtributebands.com",
@@ -830,6 +812,12 @@
   {
     "slug": "lobsterz-from-marz",
     "name": "Lobsterz from Marz",
+    "source": "gratefuldeadtributebands.com",
+    "state": "MA"
+  },
+  {
+    "slug": "eddy-s-shoe",
+    "name": "Eddy's Shoe",
     "source": "gratefuldeadtributebands.com",
     "state": "MA"
   },
@@ -1002,18 +990,6 @@
     "state": "NH"
   },
   {
-    "slug": "grateful-tuesday",
-    "name": "Grateful Tuesday",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "rainbow-full-of-sound",
-    "name": "Rainbow Full Of Sound",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "workingman-s-jed",
     "name": "Workingman's Jed",
     "source": "gratefuldeadtributebands.com",
@@ -1034,6 +1010,12 @@
   {
     "slug": "deadgrass",
     "name": "Deadgrass",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "rainbow-full-of-sound",
+    "name": "Rainbow Full Of Sound",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1070,6 +1052,12 @@
   {
     "slug": "foolish-heart-band",
     "name": "Foolish Heart Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "grateful-tuesday",
+    "name": "Grateful Tuesday",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1194,30 +1182,6 @@
     "state": "NM"
   },
   {
-    "slug": "after-dark",
-    "name": "After Dark",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
-    "slug": "dead-friends",
-    "name": "Dead & Friends",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
-    "slug": "grateful-to-be-alive",
-    "name": "Grateful To Be Alive",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
-    "slug": "the-electrix",
-    "name": "The Electrix",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
     "slug": "tiger-rose",
     "name": "Tiger Rose",
     "source": "gratefuldeadtributebands.com",
@@ -1226,6 +1190,12 @@
   {
     "slug": "half-past-dead",
     "name": "Half Past Dead",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "after-dark",
+    "name": "After Dark",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
@@ -1244,6 +1214,12 @@
   {
     "slug": "the-wheel",
     "name": "The Wheel",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "dead-friends",
+    "name": "Dead & Friends",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
