@@ -1962,24 +1962,6 @@
     ]
   },
   {
-    "id": "gdtb-CT-the-garcia-project-2026-07-29-katharine-hepburn-cultural-art",
-    "name": "The Garcia Project — Katharine Hepburn Cultural Arts Center",
-    "band": "The Garcia Project",
-    "bandSlug": "the-garcia-project",
-    "venue": "Katharine Hepburn Cultural Arts Center",
-    "city": "Old Saybrook",
-    "state": "CT",
-    "lat": 41.2917652,
-    "lng": -72.3761956,
-    "date": "2026-07-29",
-    "time": "7:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
-    "source": "gdtb",
-    "attractions": [
-      "The Garcia Project"
-    ]
-  },
-  {
     "id": "gdtb-CT-rob-glassman-band-2026-07-30-allyn-brook-park",
     "name": "Rob Glassman Band — Allyn Brook Park",
     "band": "Rob Glassman Band",
@@ -4911,24 +4893,6 @@
     "source": "gdtb",
     "attractions": [
       "Born Cross Eyed-KY"
-    ]
-  },
-  {
-    "id": "gdtb-ME-mystic-dead-2026-07-29-stone-acres-farms",
-    "name": "Mystic Dead — Stone Acres Farms",
-    "band": "Mystic Dead",
-    "bandSlug": "mystic-dead",
-    "venue": "Stone Acres Farms",
-    "city": "Stonington",
-    "state": "ME",
-    "lat": 44.156593,
-    "lng": -68.667297,
-    "date": "2026-07-29",
-    "time": "6pm - 10pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=ME",
-    "source": "gdtb",
-    "attractions": [
-      "Mystic Dead"
     ]
   },
   {
@@ -7902,42 +7866,6 @@
     ]
   },
   {
-    "id": "gdtb-NJ-workingman-s-jed-2026-07-29-flood-s-hill-south-orange",
-    "name": "Workingman's Jed — Flood's Hill South Orange",
-    "band": "Workingman's Jed",
-    "bandSlug": "workingman-s-jed",
-    "venue": "Flood's Hill South Orange",
-    "city": "South Orange",
-    "state": "NJ",
-    "lat": 40.7474966,
-    "lng": -74.2635376,
-    "date": "2026-07-29",
-    "time": "7:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Workingman's Jed"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-the-brian-st-john-band-2026-07-29-o-reillys-pub",
-    "name": "The Brian St John Band — O'Reillys Pub",
-    "band": "The Brian St John Band",
-    "bandSlug": "the-brian-st-john-band",
-    "venue": "O'Reillys Pub",
-    "city": "Newton",
-    "state": "NJ",
-    "lat": 41.0583121,
-    "lng": -74.7531445,
-    "date": "2026-07-29",
-    "time": "6 PM and 7 more",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "The Brian St John Band"
-    ]
-  },
-  {
     "id": "gdtb-NJ-dead-reckoning-2026-07-30-betty-s-seafood-shack",
     "name": "Dead Reckoning — Betty's Seafood Shack",
     "band": "Dead Reckoning",
@@ -9861,24 +9789,6 @@
     "source": "gdtb",
     "attractions": [
       "Steely Dead"
-    ]
-  },
-  {
-    "id": "gdtb-NY-shakedown-citi-2026-07-29-the-warehouse",
-    "name": "Shakedown Citi — The Warehouse",
-    "band": "Shakedown Citi",
-    "bandSlug": "shakedown-citi",
-    "venue": "The Warehouse",
-    "city": "Amityville",
-    "state": "NY",
-    "lat": 40.6789893,
-    "lng": -73.4170673,
-    "date": "2026-07-29",
-    "time": "",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Shakedown Citi"
     ]
   },
   {
@@ -13284,24 +13194,6 @@
     ]
   },
   {
-    "id": "gdtb-OR-rhapsody-in-red-2026-07-29-laurelthirst-public-house",
-    "name": "Rhapsody In Red — LaurelThirst Public House",
-    "band": "Rhapsody In Red",
-    "bandSlug": "rhapsody-in-red",
-    "venue": "LaurelThirst Public House",
-    "city": "Portland",
-    "state": "OR",
-    "lat": 45.5202471,
-    "lng": -122.674194,
-    "date": "2026-07-29",
-    "time": "9 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OR",
-    "source": "gdtb",
-    "attractions": [
-      "Rhapsody In Red"
-    ]
-  },
-  {
     "id": "gdtb-OR-rhapsody-in-red-2026-08-01-skyway-bar-and-grill",
     "name": "Rhapsody In Red — Skyway Bar and Grill",
     "band": "Rhapsody In Red",
@@ -15714,42 +15606,6 @@
     ]
   },
   {
-    "id": "gdtb-VT-dobbs-dead-2026-07-29-179-guptil-road-waterbury-cent",
-    "name": "Dobbs' Dead — 179 Guptil Road Waterbury Center VT United States Vermont 05677",
-    "band": "Dobbs' Dead",
-    "bandSlug": "dobbs-dead",
-    "venue": "179 Guptil Road Waterbury Center VT United States Vermont 05677",
-    "city": "Waterbury Center",
-    "state": "VT",
-    "lat": 44.3786095,
-    "lng": -72.7193238,
-    "date": "2026-07-29",
-    "time": "7 PM and 22 more",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=VT",
-    "source": "gdtb",
-    "attractions": [
-      "Dobbs' Dead"
-    ]
-  },
-  {
-    "id": "gdtb-VT-splintered-sunlight-2026-07-29-179-guptil-road-waterbury-cent",
-    "name": "Splintered Sunlight — 179 Guptil Road Waterbury Center VT United States Vermont 05677",
-    "band": "Splintered Sunlight",
-    "bandSlug": "splintered-sunlight",
-    "venue": "179 Guptil Road Waterbury Center VT United States Vermont 05677",
-    "city": "Waterbury Center",
-    "state": "VT",
-    "lat": 44.3786095,
-    "lng": -72.7193238,
-    "date": "2026-07-29",
-    "time": "7 PM and 22 more",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=VT",
-    "source": "gdtb",
-    "attractions": [
-      "Splintered Sunlight"
-    ]
-  },
-  {
     "id": "gdtb-VT-dobbs-dead-2026-08-01-179-guptil-road-waterbury-cent",
     "name": "Dobbs' Dead — 179 Guptil Road Waterbury Center VT United States Vermont 05677",
     "band": "Dobbs' Dead",
@@ -15837,24 +15693,6 @@
     "source": "gdtb",
     "attractions": [
       "Dark Star Orchestra"
-    ]
-  },
-  {
-    "id": "gdtb-VA-dead-musician-stew-2026-07-29-jv-s-restaurant",
-    "name": "Dead Musician Stew — JV's Restaurant",
-    "band": "Dead Musician Stew",
-    "bandSlug": "dead-musician-stew",
-    "venue": "JV's Restaurant",
-    "city": "Falls Church",
-    "state": "VA",
-    "lat": 38.882334,
-    "lng": -77.1710914,
-    "date": "2026-07-29",
-    "time": "8 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=VA",
-    "source": "gdtb",
-    "attractions": [
-      "Dead Musician Stew"
     ]
   },
   {

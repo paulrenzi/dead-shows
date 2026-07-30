@@ -294,14 +294,14 @@
     "state": "CO"
   },
   {
-    "slug": "the-garcia-project",
-    "name": "The Garcia Project",
+    "slug": "rob-glassman-band",
+    "name": "Rob Glassman Band",
     "source": "gratefuldeadtributebands.com",
     "state": "CT"
   },
   {
-    "slug": "rob-glassman-band",
-    "name": "Rob Glassman Band",
+    "slug": "the-garcia-project",
+    "name": "The Garcia Project",
     "source": "gratefuldeadtributebands.com",
     "state": "CT"
   },
@@ -990,18 +990,6 @@
     "state": "NH"
   },
   {
-    "slug": "workingman-s-jed",
-    "name": "Workingman's Jed",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "the-brian-st-john-band",
-    "name": "The Brian St John Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "dead-reckoning",
     "name": "Dead Reckoning",
     "source": "gratefuldeadtributebands.com",
@@ -1050,8 +1038,20 @@
     "state": "NJ"
   },
   {
+    "slug": "workingman-s-jed",
+    "name": "Workingman's Jed",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
     "slug": "foolish-heart-band",
     "name": "Foolish Heart Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "the-brian-st-john-band",
+    "name": "The Brian St John Band",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1516,12 +1516,6 @@
     "name": "Dead Sessions",
     "source": "gratefuldeadtributebands.com",
     "state": "VT"
-  },
-  {
-    "slug": "dead-musician-stew",
-    "name": "Dead Musician Stew",
-    "source": "gratefuldeadtributebands.com",
-    "state": "VA"
   },
   {
     "slug": "bigfoot-county",
