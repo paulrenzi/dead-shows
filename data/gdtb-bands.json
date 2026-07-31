@@ -1,11 +1,5 @@
 [
   {
-    "slug": "grass-is-dead",
-    "name": "Grass Is Dead",
-    "source": "gratefuldeadtributebands.com",
-    "state": "AL"
-  },
-  {
     "slug": "the-stolen-faces",
     "name": "The Stolen Faces",
     "source": "gratefuldeadtributebands.com",
@@ -46,12 +40,6 @@
     "name": "Natural Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "AZ"
-  },
-  {
-    "slug": "mason-s-children",
-    "name": "Mason's Children",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
   },
   {
     "slug": "easy-wind",
@@ -198,12 +186,6 @@
     "state": "CA"
   },
   {
-    "slug": "rio-rosa",
-    "name": "Rio Rosa",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CO"
-  },
-  {
     "slug": "aoxomoxoa",
     "name": "AoxomoxoA",
     "source": "gratefuldeadtributebands.com",
@@ -230,6 +212,12 @@
   {
     "slug": "shakedown-street",
     "name": "Shakedown Street",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CO"
+  },
+  {
+    "slug": "rio-rosa",
+    "name": "Rio Rosa",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
@@ -294,20 +282,14 @@
     "state": "CO"
   },
   {
-    "slug": "rob-glassman-band",
-    "name": "Rob Glassman Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CT"
-  },
-  {
-    "slug": "the-garcia-project",
-    "name": "The Garcia Project",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CT"
-  },
-  {
     "slug": "mystic-dead",
     "name": "Mystic Dead",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CT"
+  },
+  {
+    "slug": "rob-glassman-band",
+    "name": "Rob Glassman Band",
     "source": "gratefuldeadtributebands.com",
     "state": "CT"
   },
@@ -438,12 +420,6 @@
     "state": "FL"
   },
   {
-    "slug": "frankly-scarlet",
-    "name": "Frankly Scarlet",
-    "source": "gratefuldeadtributebands.com",
-    "state": "GA"
-  },
-  {
     "slug": "token-rhyme-ga",
     "name": "Token Rhyme GA",
     "source": "gratefuldeadtributebands.com",
@@ -452,6 +428,12 @@
   {
     "slug": "gr8fldude-s-token-rhyme",
     "name": "GR8FLDUDE's Token Rhyme",
+    "source": "gratefuldeadtributebands.com",
+    "state": "GA"
+  },
+  {
+    "slug": "frankly-scarlet",
+    "name": "Frankly Scarlet",
     "source": "gratefuldeadtributebands.com",
     "state": "GA"
   },
@@ -582,6 +564,18 @@
     "state": "IA"
   },
   {
+    "slug": "honey-henny-lime",
+    "name": "Honey Henny Lime",
+    "source": "gratefuldeadtributebands.com",
+    "state": "LA"
+  },
+  {
+    "slug": "iko-allstars",
+    "name": "Iko Allstars",
+    "source": "gratefuldeadtributebands.com",
+    "state": "LA"
+  },
+  {
     "slug": "blue-drew-and-the-magoos",
     "name": "Blue Drew and the Magoos",
     "source": "gratefuldeadtributebands.com",
@@ -684,6 +678,12 @@
     "state": "MD"
   },
   {
+    "slug": "the-garcia-project",
+    "name": "The Garcia Project",
+    "source": "gratefuldeadtributebands.com",
+    "state": "MD"
+  },
+  {
     "slug": "old-head",
     "name": "Old Head",
     "source": "gratefuldeadtributebands.com",
@@ -694,12 +694,6 @@
     "name": "Grateful Allman Band Experience",
     "source": "gratefuldeadtributebands.com",
     "state": "MD"
-  },
-  {
-    "slug": "alligator-wine",
-    "name": "Alligator Wine",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MA"
   },
   {
     "slug": "deadbeat",
@@ -806,6 +800,12 @@
   {
     "slug": "the-knot",
     "name": "The Knot",
+    "source": "gratefuldeadtributebands.com",
+    "state": "MA"
+  },
+  {
+    "slug": "alligator-wine",
+    "name": "Alligator Wine",
     "source": "gratefuldeadtributebands.com",
     "state": "MA"
   },
@@ -990,24 +990,6 @@
     "state": "NH"
   },
   {
-    "slug": "dead-reckoning",
-    "name": "Dead Reckoning",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "deadgrass",
-    "name": "Deadgrass",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "rainbow-full-of-sound",
-    "name": "Rainbow Full Of Sound",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "achievers-band",
     "name": "Achievers Band",
     "source": "gratefuldeadtributebands.com",
@@ -1052,6 +1034,12 @@
   {
     "slug": "the-brian-st-john-band",
     "name": "The Brian St John Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "dead-reckoning",
+    "name": "Dead Reckoning",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1148,6 +1136,18 @@
   {
     "slug": "baked-alaska",
     "name": "Baked Alaska",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "rainbow-full-of-sound",
+    "name": "Rainbow Full Of Sound",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "deadgrass",
+    "name": "Deadgrass",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1464,16 +1464,22 @@
     "state": "RI"
   },
   {
+    "slug": "thursday-s-dead",
+    "name": "Thursday's Dead",
+    "source": "gratefuldeadtributebands.com",
+    "state": "SC"
+  },
+  {
     "slug": "the-grateful-brothers",
     "name": "The Grateful Brothers",
     "source": "gratefuldeadtributebands.com",
     "state": "SC"
   },
   {
-    "slug": "thursday-s-dead",
-    "name": "Thursday's Dead",
+    "slug": "dead-cover-office",
+    "name": "Dead Cover Office",
     "source": "gratefuldeadtributebands.com",
-    "state": "SC"
+    "state": "TN"
   },
   {
     "slug": "deadeye",
