@@ -4250,5 +4250,147 @@
   "chattanooga, tn": {
     "lat": 35.0457219,
     "lng": -85.3094883
+  },
+  "tempe, az": {
+    "lat": 33.4255117,
+    "lng": -111.940016
+  },
+  "phoenix, az": {
+    "lat": 33.4484367,
+    "lng": -112.074141
+  },
+  "eureka springs, ar": {
+    "lat": 36.4000796,
+    "lng": -93.7392419
+  },
+  "silverado, ca": {
+    "lat": 33.7461295,
+    "lng": -117.6369939
+  },
+  "perris, ca": {
+    "lat": 33.7818729,
+    "lng": -117.2298477
+  },
+  "golden, co": {
+    "lat": 39.7546349,
+    "lng": -105.22058
+  },
+  "norwalk, ct": {
+    "lat": 41.1175966,
+    "lng": -73.4078968
+  },
+  "newark, de": {
+    "lat": 39.6828358,
+    "lng": -75.7515682
+  },
+  "miami, fl": {
+    "lat": 25.7741566,
+    "lng": -80.1935973
+  },
+  "plainfield, il": {
+    "lat": 41.6086711,
+    "lng": -88.2054345
+  },
+  "pomeroy, ia": {
+    "lat": 42.5507101,
+    "lng": -94.6851473
+  },
+  "darlington, md": {
+    "lat": 39.6444385,
+    "lng": -76.2042833
+  },
+  "and the band <https://www.facebook.com/, md": null,
+  "lincoln, ma": {
+    "lat": 42.4259283,
+    "lng": -71.3039469
+  },
+  "salisbury, ma": {
+    "lat": 42.8418855,
+    "lng": -70.8602328
+  },
+  "halifax, ma": {
+    "lat": 41.9909554,
+    "lng": -70.8620224
+  },
+  "marlborough, ma": {
+    "lat": 42.3468589,
+    "lng": -71.5525188
+  },
+  "framingham, ma": {
+    "lat": 42.2773177,
+    "lng": -71.4165905
+  },
+  "grand rapids, mi": {
+    "lat": 42.9632425,
+    "lng": -85.6678639
+  },
+  "crystal bay, nv": {
+    "lat": 39.234864,
+    "lng": -120.0016788
+  },
+  "newfields, nh": {
+    "lat": 43.0355742,
+    "lng": -70.9422214
+  },
+  "rio grande, nj": {
+    "lat": 39.018694,
+    "lng": -74.879965
+  },
+  "sussex, nj": {
+    "lat": 41.133372,
+    "lng": -74.6930393
+  },
+  "wurtsboro, ny": {
+    "lat": 41.5767603,
+    "lng": -74.4871031
+  },
+  "utica, ny": {
+    "lat": 43.1009031,
+    "lng": -75.2326641
+  },
+  "homer, ny": {
+    "lat": 42.6368711,
+    "lng": -76.1787783
+  },
+  "westbury, ny": {
+    "lat": 40.7556561,
+    "lng": -73.5876273
+  },
+  "castle hayne, nc": {
+    "lat": 34.3548975,
+    "lng": -77.9065508
+  },
+  "newfoundland, pa": {
+    "lat": 41.3073102,
+    "lng": -75.3199035
+  },
+  "west chester, pa": {
+    "lat": 39.9597389,
+    "lng": -75.6044609
+  },
+  "hatfield, pa": {
+    "lat": 40.2796371,
+    "lng": -75.2995777
+  },
+  "state college, pa": {
+    "lat": 40.7944504,
+    "lng": -77.8616386
+  },
+  "bluffton, sc": {
+    "lat": 32.2371465,
+    "lng": -80.8603868
+  },
+  "dripping springs, tx": {
+    "lat": 30.1902067,
+    "lng": -98.0866781
+  },
+  "winhall, vt": {
+    "lat": 43.1590479,
+    "lng": -72.9351055
+  },
+  "and the band <https://www.facebook.com/, va": null,
+  "tacoma, wa": {
+    "lat": 47.2455013,
+    "lng": -122.438329
   }
 }

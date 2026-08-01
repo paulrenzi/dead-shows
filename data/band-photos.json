@@ -582,5 +582,20 @@
     "photo": "images/bands/the-electrix.jpg",
     "source": "deezer",
     "matchedName": "The Electrix"
+  },
+  "dead-alive": {
+    "photo": "images/bands/dead-alive.jpg",
+    "source": "deezer",
+    "matchedName": "Dead Alive"
+  },
+  "webster": {
+    "photo": "images/bands/webster.jpg",
+    "source": "deezer",
+    "matchedName": "Webster"
+  },
+  "rosebud": {
+    "photo": "images/bands/rosebud.jpg",
+    "source": "deezer",
+    "matchedName": "Rosebud"
   }
 }

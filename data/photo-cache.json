@@ -1859,5 +1859,32 @@
   "iko-allstars": {
     "tried": "2026-07-31",
     "matched": false
+  },
+  "friends-of-the-phamily": {
+    "tried": "2026-08-01",
+    "matched": false
+  },
+  "dead-alive": {
+    "tried": "2026-08-01",
+    "matched": true,
+    "name": "Dead Alive"
+  },
+  "webster": {
+    "tried": "2026-08-01",
+    "matched": true,
+    "name": "Webster"
+  },
+  "special-event-the-grateful-campout": {
+    "tried": "2026-08-01",
+    "matched": false
+  },
+  "rosebud": {
+    "tried": "2026-08-01",
+    "matched": true,
+    "name": "Rosebud"
+  },
+  "lone-star-dead": {
+    "tried": "2026-08-01",
+    "matched": false
   }
 }
