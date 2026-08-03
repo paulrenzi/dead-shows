@@ -4404,5 +4404,579 @@
   "new york, ny, ny": {
     "lat": 40.7127281,
     "lng": -74.0060152
+  },
+  "seattle, ca": {
+    "lat": 41.9634469,
+    "lng": -121.9226378
+  },
+  "dixon, ca": {
+    "lat": 38.4454641,
+    "lng": -121.8232958
+  },
+  "8/7, ca": {
+    "lat": 32.6413009,
+    "lng": -111.4015504
+  },
+  "portland, ca": {
+    "lat": 33.8973298,
+    "lng": -117.3105279
+  },
+  "atlantic city, ca": {
+    "lat": 39.3642852,
+    "lng": -74.4229351
+  },
+  "huntington beach, ca": {
+    "lat": 33.6783336,
+    "lng": -118.000016
+  },
+  "tarzana, ca": {
+    "lat": 34.1689262,
+    "lng": -118.5365791
+  },
+  "8/29 <https://www.facebook.com/, ca": null,
+  "costa mesa, ca": {
+    "lat": 33.6633386,
+    "lng": -117.903317
+  },
+  "menifee campus, ca": {
+    "lat": 33.6745493,
+    "lng": -117.1667433
+  },
+  "harrisburg, ca": {
+    "lat": 36.3624259,
+    "lng": -117.1068536
+  },
+  "washington, ca": {
+    "lat": 34.0200544,
+    "lng": -118.2430755
+  },
+  "asheville, ca": {
+    "lat": 39.8375334,
+    "lng": -121.6083372
+  },
+  "hartford, ca": {
+    "lat": 33.6965178,
+    "lng": -117.7753453
+  },
+  "new york, ca": {
+    "lat": 34.0142641,
+    "lng": -117.8984565
+  },
+  "fort collins, ca": {
+    "lat": 40.5871782,
+    "lng": -105.0770113
+  },
+  "boulder, ca": {
+    "lat": 34.2381799,
+    "lng": -116.954322
+  },
+  "toronto, ca": {
+    "lat": 33.57307,
+    "lng": -117.7354257
+  },
+  "asbury park, co": {
+    "lat": 40.2203907,
+    "lng": -74.0120817
+  },
+  "music of the grateful dead <https://www.facebook.com/, co": null,
+  "bowling, co": {
+    "lat": 35.9445133,
+    "lng": -84.9457863
+  },
+  "el prado, co": {
+    "lat": 36.4322586,
+    "lng": -105.5751437
+  },
+  "co 81230-2020, co": {
+    "lat": 39.7526039,
+    "lng": -105.2228756
+  },
+  "hotchkiss, co": {
+    "lat": 38.799707,
+    "lng": -107.719503
+  },
+  "5750 w central ave, co": {
+    "lat": 37.6946297,
+    "lng": -97.4096736
+  },
+  "harrisburg, co": {
+    "lat": 40.2663107,
+    "lng": -76.8861122
+  },
+  "ridgway, co": {
+    "lat": 38.1527685,
+    "lng": -107.761726
+  },
+  "stonington, ct": {
+    "lat": 41.3359327,
+    "lng": -71.9059042
+  },
+  "ct 5-8pm <https://www.facebook.com/, ct": null,
+  "ct, ct": {
+    "lat": 35.2641897,
+    "lng": -85.2626836
+  },
+  "ny, ct": {
+    "lat": 41.0364494,
+    "lng": -73.6752054
+  },
+  "ct 530pm, ct": null,
+  "great barrington, ct": {
+    "lat": 42.1939364,
+    "lng": -73.362773
+  },
+  "ct 3pm, ct": null,
+  "larchmont, ct": {
+    "lat": 41.3899643,
+    "lng": -72.0085294
+  },
+  "east brookfield, ct": {
+    "lat": 42.226196,
+    "lng": -72.0498162
+  },
+  "mashpee, ct": {
+    "lat": 41.6484421,
+    "lng": -70.4811383
+  },
+  "upper chichester twp, de": {
+    "lat": 39.8432651,
+    "lng": -75.4354952
+  },
+  "t. i. 1-5pm, fl": {
+    "lat": 27.7567667,
+    "lng": -81.4639835
+  },
+  "chicago, fl": {
+    "lat": 27.5973194,
+    "lng": -81.5132753
+  },
+  "harmony nc, ga": {
+    "lat": 34.1784426,
+    "lng": -82.8534719
+  },
+  "birmingham, ga": {
+    "lat": 34.1664855,
+    "lng": -84.3329797
+  },
+  "sc 29607-2315, ga": {
+    "lat": 33.68861,
+    "lng": -84.2750479
+  },
+  "harmony, ga": {
+    "lat": 34.2478728,
+    "lng": -84.4068703
+  },
+  "woodinville, il": null,
+  "forest grove, il": {
+    "lat": 38.7696083,
+    "lng": -89.982148
+  },
+  "griffith, il": {
+    "lat": 38.0860142,
+    "lng": -88.2138279
+  },
+  "hobart, il": {
+    "lat": 42.0541652,
+    "lng": -87.6870928
+  },
+  "ottawa, il": {
+    "lat": 41.3516628,
+    "lng": -88.845436
+  },
+  "il, il": {
+    "lat": 39.7488408,
+    "lng": -90.2676677
+  },
+  "appleton, il": {
+    "lat": 40.9358711,
+    "lng": -90.1609537
+  },
+  "atlantic city, il": {
+    "lat": 41.9588324,
+    "lng": -87.8874304
+  },
+  "new haven, il": {
+    "lat": 37.9086568,
+    "lng": -88.1292021
+  },
+  "ferndale, il": {
+    "lat": 42.3019668,
+    "lng": -88.241474
+  },
+  "museum & entertainment complex, il": null,
+  "wabash, il": {
+    "lat": 38.4615994,
+    "lng": -87.8460903
+  },
+  "williamsburg, il": {
+    "lat": 39.7175338,
+    "lng": -88.5720053
+  },
+  "chesterton, il": {
+    "lat": 41.7394705,
+    "lng": -88.0314867
+  },
+  "darlington, in": {
+    "lat": 40.1100401,
+    "lng": -86.7719507
+  },
+  "cincinnati, in": {
+    "lat": 39.0200469,
+    "lng": -86.728891
+  },
+  "maine 04085, me": {
+    "lat": 43.6832709,
+    "lng": -70.4496829
+  },
+  "dickerson, md": {
+    "lat": 39.220104,
+    "lng": -77.424153
+  },
+  "bloomfield, ma": {
+    "lat": 40.7511569,
+    "lng": -92.4145672
+  },
+  "steep falls, ma": {
+    "lat": 43.7937603,
+    "lng": -70.6521114
+  },
+  "springfield, ma": {
+    "lat": 42.1018764,
+    "lng": -72.5886727
+  },
+  "cheshire, ma": {
+    "lat": 42.5621859,
+    "lng": -73.1615962
+  },
+  "mason, ma": {
+    "lat": 40.2302271,
+    "lng": -89.8660433
+  },
+  "guilford, ma": {
+    "lat": 41.2827593,
+    "lng": -72.6816365
+  },
+  "139 tremont st, ma": {
+    "lat": 42.373997,
+    "lng": -71.0967982
+  },
+  "ellington, ma": {
+    "lat": 43.5539087,
+    "lng": -83.32134
+  },
+  "providence, ma": {
+    "lat": 41.8239891,
+    "lng": -71.4128343
+  },
+  "chicopee, ma": {
+    "lat": 42.1487691,
+    "lng": -72.6071119
+  },
+  "enfield, ma": {
+    "lat": 41.9767721,
+    "lng": -72.5917113
+  },
+  "killingworth, ma": {
+    "lat": 41.3581545,
+    "lng": -72.5637023
+  },
+  "vermont, ma": {
+    "lat": 40.2942106,
+    "lng": -90.4279033
+  },
+  "newfields, ma": {
+    "lat": 39.828463,
+    "lng": -86.1882113
+  },
+  "bristol, ma": {
+    "lat": 41.7425538,
+    "lng": -71.0856545
+  },
+  "mi, mi": {
+    "lat": 42.3641217,
+    "lng": -83.0884919
+  },
+  "mn, mn": {
+    "lat": 49.0293492,
+    "lng": 104.0524387
+  },
+  "omaha, mo": {
+    "lat": 40.5325211,
+    "lng": -92.8007536
+  },
+  "st. louis, mo": {
+    "lat": 38.6254063,
+    "lng": -90.190009
+  },
+  "red oak, ne": {
+    "lat": 40.9958666,
+    "lng": -96.1916383
+  },
+  "glenwood, ne": {
+    "lat": 40.7501715,
+    "lng": -99.0835798
+  },
+  "shenandoah, ne": {
+    "lat": 40.8040892,
+    "lng": -96.6312658
+  },
+  "council bluffs, ne": {
+    "lat": 41.258841,
+    "lng": -95.8519484
+  },
+  "iowa, ne": {
+    "lat": 41.8291209,
+    "lng": -97.659533
+  },
+  "maine 04085, nh": {
+    "lat": 42.9488811,
+    "lng": -71.365547
+  },
+  "easthampton, nh": {
+    "lat": 42.2708804,
+    "lng": -72.6719579
+  },
+  "bridgeport, nh": {
+    "lat": 41.1792695,
+    "lng": -73.1887863
+  },
+  "milwaukee, nh": {
+    "lat": 42.745437,
+    "lng": -72.1510345
+  },
+  "highland park nj, nj": {
+    "lat": 40.4997407,
+    "lng": -74.4262011
+  },
+  "aston, nj": {
+    "lat": 40.8502609,
+    "lng": -73.9755146
+  },
+  "phoenixville, nj": null,
+  "monroe, nj": {
+    "lat": 41.114541,
+    "lng": -74.6340505
+  },
+  "arnold, nj": {
+    "lat": 39.6431837,
+    "lng": -74.5049647
+  },
+  "media, nj": {
+    "lat": 39.9512719,
+    "lng": -75.0213047
+  },
+  "morrisville, nj": {
+    "lat": 39.9723347,
+    "lng": -75.0487834
+  },
+  "ramsey, nj": {
+    "lat": 41.0573188,
+    "lng": -74.1409771
+  },
+  "doylestown, nj": null,
+  "livingston manor, nj": {
+    "lat": 40.4895929,
+    "lng": -74.4473354
+  },
+  "township of washington, nj": {
+    "lat": 40.9884843,
+    "lng": -74.0652437
+  },
+  "syracuse, nj": {
+    "lat": 40.0735838,
+    "lng": -74.1833781
+  },
+  "101 5th avenue, nj": {
+    "lat": 40.935451,
+    "lng": -74.157071
+  },
+  "spring city, nj": null,
+  "vernon, ny": {
+    "lat": 43.079672,
+    "lng": -75.539589
+  },
+  "ny free show! <https://web.facebook.com/, ny": null,
+  "lakewood, ny": {
+    "lat": 42.104224,
+    "lng": -79.333104
+  },
+  "mahwah, ny": {
+    "lat": 41.1535407,
+    "lng": -74.10784
+  },
+  "millersville, ny": {
+    "lat": 39.997998,
+    "lng": -76.3545372
+  },
+  "phoenixville, ny": {
+    "lat": 40.1303822,
+    "lng": -75.5149128
+  },
+  "perth amboy, ny": {
+    "lat": 40.5062385,
+    "lng": -74.2536588
+  },
+  "berlin, ny": {
+    "lat": 42.6931351,
+    "lng": -73.3720549
+  },
+  "wantagh, ny": {
+    "lat": 40.663289,
+    "lng": -73.513589
+  },
+  "ship bottom, ny": {
+    "lat": 39.6496005,
+    "lng": -74.1757169
+  },
+  "carnation, ny": {
+    "lat": 40.7200579,
+    "lng": -73.7013423
+  },
+  "denver, ny": {
+    "lat": 42.2125871,
+    "lng": -74.5693201
+  },
+  "dillon, ny": {
+    "lat": 43.3367372,
+    "lng": -73.9265139
+  },
+  "201 gypsy rd, ny": {
+    "lat": 42.9795482,
+    "lng": -76.3525088
+  },
+  "hopewell, ny": {
+    "lat": 40.8610823,
+    "lng": -73.8962116
+  },
+  "ny 9/5, ny": {
+    "lat": 40.9275649,
+    "lng": -73.8960717
+  },
+  "woodward, ny": {
+    "lat": 43.2250382,
+    "lng": -74.2024078
+  },
+  "ny 12764, ny": {
+    "lat": 41.3465315,
+    "lng": -74.6443155
+  },
+  "south, ny": {
+    "lat": 43.1247243,
+    "lng": -77.6208108
+  },
+  "madison, ny": {
+    "lat": 42.875882,
+    "lng": -75.6802581
+  },
+  "grand rapids, ny": {
+    "lat": 42.9632425,
+    "lng": -85.6678639
+  },
+  "neptune twp, ny": {
+    "lat": 40.2239981,
+    "lng": -74.0478216
+  },
+  "7pm, ny": null,
+  "nc, nc": {
+    "lat": 35.3898958,
+    "lng": -80.7102222
+  },
+  "charlottesville, nc": {
+    "lat": 36.0973238,
+    "lng": -79.8682401
+  },
+  "wheeling, oh": {
+    "lat": 40.0627097,
+    "lng": -80.7317553
+  },
+  "182 s main st, oh": {
+    "lat": 41.0807395,
+    "lng": -81.5206282
+  },
+  "ridgefield, or": {
+    "lat": 44.0896225,
+    "lng": -123.1319253
+  },
+  "belmar, pa": {
+    "lat": 41.3331151,
+    "lng": -79.7747747
+  },
+  "stone harbor, pa": {
+    "lat": 33.3205077,
+    "lng": -87.5450326
+  },
+  "frenchtown, pa": {
+    "lat": 41.6119992,
+    "lng": -80.0217241
+  },
+  "atlantic city, pa": {
+    "lat": 41.8953054,
+    "lng": -79.8523208
+  },
+  "shamong twp, pa": null,
+  "lambertville, pa": {
+    "lat": 40.3793283,
+    "lng": -74.9555667
+  },
+  "galloway twp, pa": {
+    "lat": 40.1390211,
+    "lng": -75.1373238
+  },
+  "19406, pa": {
+    "lat": 40.1012678,
+    "lng": -75.3771628
+  },
+  "artist at large!, pa": null,
+  "monongahela, pa": {
+    "lat": 39.952475,
+    "lng": -79.9556098
+  },
+  "onset, ri": {
+    "lat": 41.7530253,
+    "lng": -71.4329817
+  },
+  "charlestown, ri": {
+    "lat": 41.3831566,
+    "lng": -71.641729
+  },
+  "las vegas, sc": {
+    "lat": 36.1674263,
+    "lng": -115.1484131
+  },
+  "asheville, tn": {
+    "lat": 36.015578,
+    "lng": -83.8290951
+  },
+  "milwaukee, tn": {
+    "lat": 35.8660603,
+    "lng": -86.3461956
+  },
+  "minneapolis, tn": {
+    "lat": 44.9772995,
+    "lng": -93.2654692
+  },
+  "washington, tn": {
+    "lat": 36.2636501,
+    "lng": -82.4911791
+  },
+  "philadelphia, tn": {
+    "lat": 35.6795198,
+    "lng": -84.4038148
+  },
+  "norwalk, tn": {
+    "lat": 36.1461197,
+    "lng": -86.6319505
+  },
+  "boston, tn": {
+    "lat": 35.8428441,
+    "lng": -87.0325045
+  },
+  "vt, vt": {
+    "lat": 43.5868455,
+    "lng": -72.6567665
+  },
+  "llc, wi": {
+    "lat": 42.7904441,
+    "lng": -88.3974626
   }
 }

@@ -1890,5 +1890,22 @@
   "jpjammin": {
     "tried": "2026-08-02",
     "matched": false
+  },
+  "mojo-hand": {
+    "tried": "2026-08-03",
+    "matched": true,
+    "name": "Mojo Hand"
+  },
+  "roses-grove-band": {
+    "tried": "2026-08-03",
+    "matched": false
+  },
+  "underestimated-prophet": {
+    "tried": "2026-08-03",
+    "matched": false
+  },
+  "forgotten-space": {
+    "tried": "2026-08-03",
+    "matched": false
   }
 }

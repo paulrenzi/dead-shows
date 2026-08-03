@@ -597,5 +597,10 @@
     "photo": "images/bands/rosebud.jpg",
     "source": "deezer",
     "matchedName": "Rosebud"
+  },
+  "mojo-hand": {
+    "photo": "images/bands/mojo-hand.jpg",
+    "source": "deezer",
+    "matchedName": "Mojo Hand"
   }
 }
