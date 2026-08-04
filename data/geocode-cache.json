@@ -4978,5 +4978,29 @@
   "llc, wi": {
     "lat": 42.7904441,
     "lng": -88.3974626
+  },
+  "catalina island, ca": {
+    "lat": 33.3889038,
+    "lng": -118.4239288
+  },
+  "frisco, co": {
+    "lat": 39.5768577,
+    "lng": -106.092828
+  },
+  "shamong township, nj": {
+    "lat": 39.7824265,
+    "lng": -74.7303168
+  },
+  "narrowsburg, ny": {
+    "lat": 41.6026904,
+    "lng": -75.0593426
+  },
+  "hilton head island, sc": {
+    "lat": 32.1618488,
+    "lng": -80.7512616
+  },
+  "adams, tn": {
+    "lat": 36.5823718,
+    "lng": -87.0655751
   }
 }
