@@ -198,24 +198,6 @@
     ]
   },
   {
-    "id": "gdtb-CA-scott-guberman-2026-08-04-golden-gate-bistro",
-    "name": "Scott Guberman — Golden gate bistro",
-    "band": "Scott Guberman",
-    "bandSlug": "scott-guberman",
-    "venue": "Golden gate bistro",
-    "city": "Novato",
-    "state": "CA",
-    "lat": 38.1061979,
-    "lng": -122.5681191,
-    "date": "2026-08-04",
-    "time": "7:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "Scott Guberman"
-    ]
-  },
-  {
     "id": "gdtb-CA-scott-guberman-2026-08-07-ruhstaller-farm",
     "name": "Scott Guberman — Ruhstaller Farm",
     "band": "Scott Guberman",
@@ -2952,24 +2934,6 @@
     ]
   },
   {
-    "id": "gdtb-FL-crazy-fingers-2026-08-04-the-funky-biscuit-boca-raton-f",
-    "name": "Crazy Fingers — The Funky Biscuit, Boca Raton, FL 33432",
-    "band": "Crazy Fingers",
-    "bandSlug": "crazy-fingers",
-    "venue": "The Funky Biscuit, Boca Raton, FL 33432",
-    "city": "Boca Raton",
-    "state": "FL",
-    "lat": 26.3586885,
-    "lng": -80.0830984,
-    "date": "2026-08-04",
-    "time": "7:30PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Crazy Fingers"
-    ]
-  },
-  {
     "id": "gdtb-FL-dead-set-florida-2026-08-05-2001-1st-ave-s",
     "name": "Dead Set Florida — 2001 1st Ave. S.",
     "band": "Dead Set Florida",
@@ -3957,24 +3921,6 @@
     "source": "gdtb",
     "attractions": [
       "Definitely Dead"
-    ]
-  },
-  {
-    "id": "gdtb-IL-terrapin-flyer-2026-08-04-garcia-s-chicago",
-    "name": "Terrapin Flyer — Garcia's Chicago",
-    "band": "Terrapin Flyer",
-    "bandSlug": "terrapin-flyer",
-    "venue": "Garcia's Chicago",
-    "city": "Chicago",
-    "state": "IL",
-    "lat": 41.8755616,
-    "lng": -87.6244212,
-    "date": "2026-08-04",
-    "time": "8 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=IL",
-    "source": "gdtb",
-    "attractions": [
-      "Terrapin Flyer"
     ]
   },
   {
@@ -5796,6 +5742,24 @@
     ]
   },
   {
+    "id": "gdtb-MD-jack-a-roses-2026-10-23-tommy-joe-s-bethesda",
+    "name": "Jack-A-Roses — Tommy Joe's Bethesda",
+    "band": "Jack-A-Roses",
+    "bandSlug": "jack-a-roses",
+    "venue": "Tommy Joe's Bethesda",
+    "city": "Bethesda, MD",
+    "state": "MD",
+    "lat": 38.9812726,
+    "lng": -77.1233587,
+    "date": "2026-10-23",
+    "time": "7pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MD",
+    "source": "gdtb",
+    "attractions": [
+      "Jack-A-Roses"
+    ]
+  },
+  {
     "id": "gdtb-MD-indeadnation-2026-10-31-2323-york-rd",
     "name": "InDEADnation — 2323 York rd",
     "band": "InDEADnation",
@@ -5973,6 +5937,24 @@
     "source": "gdtb",
     "attractions": [
       "Reach For The Sun"
+    ]
+  },
+  {
+    "id": "gdtb-MA-jubilee-band-2026-08-08-8-exchange-street",
+    "name": "Jubilee Band — 8 Exchange Street",
+    "band": "Jubilee Band",
+    "bandSlug": "jubilee-band",
+    "venue": "8 Exchange Street",
+    "city": "Millis",
+    "state": "MA",
+    "lat": 42.1675082,
+    "lng": -71.3572763,
+    "date": "2026-08-08",
+    "time": "7pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
+    "source": "gdtb",
+    "attractions": [
+      "Jubilee Band"
     ]
   },
   {
@@ -7161,24 +7143,6 @@
     "source": "gdtb",
     "attractions": [
       "The Deadheads"
-    ]
-  },
-  {
-    "id": "gdtb-MI-quality-jerry-2026-08-04-the-peanut-barrel",
-    "name": "Quality Jerry — The Peanut Barrel",
-    "band": "Quality Jerry",
-    "bandSlug": "quality-jerry",
-    "venue": "The Peanut Barrel",
-    "city": "East Lansing",
-    "state": "MI",
-    "lat": 42.7320307,
-    "lng": -84.4721678,
-    "date": "2026-08-04",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MI",
-    "source": "gdtb",
-    "attractions": [
-      "Quality Jerry"
     ]
   },
   {
@@ -8403,78 +8367,6 @@
     "source": "gdtb",
     "attractions": [
       "Diamond Blues"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-workingman-s-jed-2026-08-04-livingston-public-library",
-    "name": "Workingman's Jed — Livingston Public Library",
-    "band": "Workingman's Jed",
-    "bandSlug": "workingman-s-jed",
-    "venue": "Livingston Public Library",
-    "city": "Livingston",
-    "state": "NJ",
-    "lat": 40.7959335,
-    "lng": -74.3148713,
-    "date": "2026-08-04",
-    "time": "6:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Workingman's Jed"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-crickets-and-cicadas-2026-08-04-orange-lantern",
-    "name": "Crickets and Cicadas — Orange Lantern",
-    "band": "Crickets and Cicadas",
-    "bandSlug": "crickets-and-cicadas",
-    "venue": "Orange Lantern",
-    "city": "Paramus",
-    "state": "NJ",
-    "lat": 40.9452911,
-    "lng": -74.0735899,
-    "date": "2026-08-04",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Crickets and Cicadas"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-dead-reckoning-2026-08-04-boathouse-restaurant",
-    "name": "Dead Reckoning — Boathouse Restaurant",
-    "band": "Dead Reckoning",
-    "bandSlug": "dead-reckoning",
-    "venue": "Boathouse Restaurant",
-    "city": "Wildwood",
-    "state": "NJ",
-    "lat": 38.9841969,
-    "lng": -74.8142502,
-    "date": "2026-08-04",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Dead Reckoning"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-grateful-tuesday-2026-08-04-orange-lantern",
-    "name": "Grateful Tuesday — Orange Lantern",
-    "band": "Grateful Tuesday",
-    "bandSlug": "grateful-tuesday",
-    "venue": "Orange Lantern",
-    "city": "Paramus",
-    "state": "NJ",
-    "lat": 40.9452911,
-    "lng": -74.0735899,
-    "date": "2026-08-04",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Grateful Tuesday"
     ]
   },
   {
@@ -10203,42 +10095,6 @@
     "source": "gdtb",
     "attractions": [
       "Steely Dead"
-    ]
-  },
-  {
-    "id": "gdtb-NY-dead-meat-2026-08-04-nyack-memorial-park",
-    "name": "Dead Meat — Nyack Memorial Park",
-    "band": "Dead Meat",
-    "bandSlug": "dead-meat",
-    "venue": "Nyack Memorial Park",
-    "city": "Nyack",
-    "state": "NY",
-    "lat": 41.091121,
-    "lng": -73.9196794,
-    "date": "2026-08-04",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Dead Meat"
-    ]
-  },
-  {
-    "id": "gdtb-NY-the-garcia-project-2026-08-04-49-illinois-st-buffalo-ny",
-    "name": "The Garcia Project — 49 Illinois St Buffalo NY",
-    "band": "The Garcia Project",
-    "bandSlug": "the-garcia-project",
-    "venue": "49 Illinois St Buffalo NY",
-    "city": "Buffalo",
-    "state": "NY",
-    "lat": 42.8864163,
-    "lng": -78.8781493,
-    "date": "2026-08-04",
-    "time": "8 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "The Garcia Project"
     ]
   },
   {
@@ -13626,24 +13482,6 @@
     ]
   },
   {
-    "id": "gdtb-OR-dark-star-orchestra-2026-08-04-350-s-1st-st-jacksonville-or-u",
-    "name": "Dark Star Orchestra — 350 S 1st St Jacksonville OR United States Oregon 97530",
-    "band": "Dark Star Orchestra",
-    "bandSlug": "dark-star-orchestra",
-    "venue": "350 S 1st St Jacksonville OR United States Oregon 97530",
-    "city": "Jacksonville",
-    "state": "OR",
-    "lat": 42.314411,
-    "lng": -122.965346,
-    "date": "2026-08-04",
-    "time": "9:30 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OR",
-    "source": "gdtb",
-    "attractions": [
-      "Dark Star Orchestra"
-    ]
-  },
-  {
     "id": "gdtb-OR-garcia-birthday-band-2026-08-05-music-on-main",
     "name": "Garcia Birthday Band — Music on Main",
     "band": "Garcia Birthday Band",
@@ -13875,6 +13713,24 @@
     "source": "gdtb",
     "attractions": [
       "Grateful Shred"
+    ]
+  },
+  {
+    "id": "gdtb-OR-token-rhymes-2026-10-31-3-legged-crane",
+    "name": "Token Rhymes — 3 Legged Crane",
+    "band": "Token Rhymes",
+    "bandSlug": "token-rhymes",
+    "venue": "3 Legged Crane",
+    "city": "Oakridge",
+    "state": "OR",
+    "lat": 43.7449388,
+    "lng": -122.4674601,
+    "date": "2026-10-31",
+    "time": "",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OR",
+    "source": "gdtb",
+    "attractions": [
+      "Token Rhymes"
     ]
   },
   {
@@ -16020,6 +15876,24 @@
     ]
   },
   {
+    "id": "gdtb-TX-deadeye-2026-08-08-1031-e-24th-st",
+    "name": "DeadEye — 1031 E 24th St",
+    "band": "DeadEye",
+    "bandSlug": "deadeye",
+    "venue": "1031 E 24th St",
+    "city": "Houston",
+    "state": "TX",
+    "lat": 29.7589382,
+    "lng": -95.3676974,
+    "date": "2026-08-08",
+    "time": "8PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=TX",
+    "source": "gdtb",
+    "attractions": [
+      "DeadEye"
+    ]
+  },
+  {
     "id": "gdtb-TX-miracle-ticket-2026-08-09-423-s-main-street",
     "name": "Miracle Ticket — 423 S Main Street",
     "band": "Miracle Ticket",
@@ -16557,24 +16431,6 @@
     "source": "gdtb",
     "attractions": [
       "The Dead Reckoning"
-    ]
-  },
-  {
-    "id": "gdtb-WA-the-stone-jack-ballers-2026-08-04-mcmenamins-olympic-club",
-    "name": "The Stone Jack Ballers — McMenamins Olympic Club",
-    "band": "The Stone Jack Ballers",
-    "bandSlug": "the-stone-jack-ballers",
-    "venue": "McMenamins Olympic Club",
-    "city": "Centralia",
-    "state": "WA",
-    "lat": 46.7204489,
-    "lng": -122.96143,
-    "date": "2026-08-04",
-    "time": "10 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=WA",
-    "source": "gdtb",
-    "attractions": [
-      "The Stone Jack Ballers"
     ]
   },
   {

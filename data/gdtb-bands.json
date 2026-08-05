@@ -336,14 +336,14 @@
     "state": "DE"
   },
   {
-    "slug": "crazy-fingers",
-    "name": "Crazy Fingers",
+    "slug": "dead-set-florida",
+    "name": "Dead Set Florida",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
   {
-    "slug": "dead-set-florida",
-    "name": "Dead Set Florida",
+    "slug": "crazy-fingers",
+    "name": "Crazy Fingers",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
@@ -774,12 +774,6 @@
     "state": "MA"
   },
   {
-    "slug": "quality-jerry",
-    "name": "Quality Jerry",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MI"
-  },
-  {
     "slug": "dead-honey-collective",
     "name": "Dead Honey Collective",
     "source": "gratefuldeadtributebands.com",
@@ -918,24 +912,6 @@
     "state": "NH"
   },
   {
-    "slug": "workingman-s-jed",
-    "name": "Workingman's Jed",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "dead-reckoning",
-    "name": "Dead Reckoning",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "grateful-tuesday",
-    "name": "Grateful Tuesday",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "the-brian-st-john-band",
     "name": "The Brian St John Band",
     "source": "gratefuldeadtributebands.com",
@@ -956,6 +932,12 @@
   {
     "slug": "achievers-band",
     "name": "Achievers Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "dead-reckoning",
+    "name": "Dead Reckoning",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1056,6 +1038,12 @@
     "state": "NJ"
   },
   {
+    "slug": "workingman-s-jed",
+    "name": "Workingman's Jed",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
     "slug": "rainbow-full-of-sound",
     "name": "Rainbow Full Of Sound",
     "source": "gratefuldeadtributebands.com",
@@ -1090,12 +1078,6 @@
     "name": "Mark Diomede and Friends",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
-  },
-  {
-    "slug": "dead-meat",
-    "name": "Dead Meat",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
   },
   {
     "slug": "tiger-rose",
@@ -1308,6 +1290,12 @@
     "state": "OR"
   },
   {
+    "slug": "token-rhymes",
+    "name": "Token Rhymes",
+    "source": "gratefuldeadtributebands.com",
+    "state": "OR"
+  },
+  {
     "slug": "dead-all-along",
     "name": "Dead All Along",
     "source": "gratefuldeadtributebands.com",
@@ -1464,14 +1452,14 @@
     "state": "VA"
   },
   {
-    "slug": "the-stone-jack-ballers",
-    "name": "The Stone Jack Ballers",
+    "slug": "deal-wa",
+    "name": "DEAL WA",
     "source": "gratefuldeadtributebands.com",
     "state": "WA"
   },
   {
-    "slug": "deal-wa",
-    "name": "DEAL WA",
+    "slug": "the-stone-jack-ballers",
+    "name": "The Stone Jack Ballers",
     "source": "gratefuldeadtributebands.com",
     "state": "WA"
   },
