@@ -72,6 +72,12 @@
     "state": "CA"
   },
   {
+    "slug": "aces-back-to-back",
+    "name": "Aces Back To Back",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
     "slug": "jed-s-dog",
     "name": "Jed's Dog",
     "source": "gratefuldeadtributebands.com",
@@ -162,20 +168,14 @@
     "state": "CA"
   },
   {
-    "slug": "deadphish-orchestra",
-    "name": "DeadPhish Orchestra",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CO"
-  },
-  {
-    "slug": "tumbledown-shack",
-    "name": "Tumbledown Shack",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CO"
-  },
-  {
     "slug": "chinaflower-suncats",
     "name": "Chinaflower Suncats",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CO"
+  },
+  {
+    "slug": "deadphish-orchestra",
+    "name": "DeadPhish Orchestra",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
@@ -224,6 +224,12 @@
   {
     "slug": "dead-panic",
     "name": "Dead Panic",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CO"
+  },
+  {
+    "slug": "tumbledown-shack",
+    "name": "Tumbledown Shack",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
@@ -336,12 +342,6 @@
     "state": "DE"
   },
   {
-    "slug": "dead-set-florida",
-    "name": "Dead Set Florida",
-    "source": "gratefuldeadtributebands.com",
-    "state": "FL"
-  },
-  {
     "slug": "crazy-fingers",
     "name": "Crazy Fingers",
     "source": "gratefuldeadtributebands.com",
@@ -368,6 +368,12 @@
   {
     "slug": "morning-dew",
     "name": "Morning Dew",
+    "source": "gratefuldeadtributebands.com",
+    "state": "FL"
+  },
+  {
+    "slug": "dead-set-florida",
+    "name": "Dead Set Florida",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
@@ -570,12 +576,6 @@
     "state": "ME"
   },
   {
-    "slug": "john-kadlecik",
-    "name": "John Kadlecik",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MD"
-  },
-  {
     "slug": "indeadnation",
     "name": "InDEADnation",
     "source": "gratefuldeadtributebands.com",
@@ -636,18 +636,6 @@
     "state": "MD"
   },
   {
-    "slug": "violin-river",
-    "name": "Violin River",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MA"
-  },
-  {
-    "slug": "uncle-john-s-banjo",
-    "name": "Uncle John's Banjo",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MA"
-  },
-  {
     "slug": "deadbeat",
     "name": "DeadBeat",
     "source": "gratefuldeadtributebands.com",
@@ -686,6 +674,12 @@
   {
     "slug": "silver-string-slingers",
     "name": "Silver String Slingers",
+    "source": "gratefuldeadtributebands.com",
+    "state": "MA"
+  },
+  {
+    "slug": "uncle-john-s-banjo",
+    "name": "Uncle John's Banjo",
     "source": "gratefuldeadtributebands.com",
     "state": "MA"
   },
@@ -912,12 +906,6 @@
     "state": "NH"
   },
   {
-    "slug": "the-brian-st-john-band",
-    "name": "The Brian St John Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "too-cool-to-bluff",
     "name": "Too Cool To Bluff",
     "source": "gratefuldeadtributebands.com",
@@ -974,6 +962,12 @@
   {
     "slug": "pure-jerry",
     "name": "Pure Jerry",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "the-brian-st-john-band",
+    "name": "The Brian St John Band",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1080,12 +1074,6 @@
     "state": "NJ"
   },
   {
-    "slug": "tiger-rose",
-    "name": "Tiger Rose",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
     "slug": "half-step-li",
     "name": "Half Step LI",
     "source": "gratefuldeadtributebands.com",
@@ -1136,6 +1124,12 @@
   {
     "slug": "high-time",
     "name": "High Time",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "tiger-rose",
+    "name": "Tiger Rose",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
@@ -1362,14 +1356,20 @@
     "state": "RI"
   },
   {
-    "slug": "the-grateful-brothers",
-    "name": "The Grateful Brothers",
+    "slug": "violin-river",
+    "name": "Violin River",
     "source": "gratefuldeadtributebands.com",
-    "state": "SC"
+    "state": "RI"
   },
   {
     "slug": "thursday-s-dead",
     "name": "Thursday's Dead",
+    "source": "gratefuldeadtributebands.com",
+    "state": "SC"
+  },
+  {
+    "slug": "the-grateful-brothers",
+    "name": "The Grateful Brothers",
     "source": "gratefuldeadtributebands.com",
     "state": "SC"
   },
@@ -1416,12 +1416,6 @@
     "state": "TX"
   },
   {
-    "slug": "dobbs-dead",
-    "name": "Dobbs' Dead",
-    "source": "gratefuldeadtributebands.com",
-    "state": "VT"
-  },
-  {
     "slug": "dead-sessions",
     "name": "Dead Sessions",
     "source": "gratefuldeadtributebands.com",
@@ -1452,12 +1446,6 @@
     "state": "VA"
   },
   {
-    "slug": "deal-wa",
-    "name": "DEAL WA",
-    "source": "gratefuldeadtributebands.com",
-    "state": "WA"
-  },
-  {
     "slug": "the-stone-jack-ballers",
     "name": "The Stone Jack Ballers",
     "source": "gratefuldeadtributebands.com",
@@ -1466,6 +1454,12 @@
   {
     "slug": "andy-coe-band",
     "name": "Andy Coe Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "WA"
+  },
+  {
+    "slug": "deal-wa",
+    "name": "DEAL WA",
     "source": "gratefuldeadtributebands.com",
     "state": "WA"
   },
