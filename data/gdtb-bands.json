@@ -168,18 +168,6 @@
     "state": "CA"
   },
   {
-    "slug": "chinaflower-suncats",
-    "name": "Chinaflower Suncats",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CO"
-  },
-  {
-    "slug": "deadphish-orchestra",
-    "name": "DeadPhish Orchestra",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CO"
-  },
-  {
     "slug": "shakedown-strings",
     "name": "Shakedown Strings",
     "source": "gratefuldeadtributebands.com",
@@ -342,12 +330,6 @@
     "state": "DE"
   },
   {
-    "slug": "crazy-fingers",
-    "name": "Crazy Fingers",
-    "source": "gratefuldeadtributebands.com",
-    "state": "FL"
-  },
-  {
     "slug": "dead-all-over",
     "name": "Dead All Over",
     "source": "gratefuldeadtributebands.com",
@@ -380,6 +362,12 @@
   {
     "slug": "jerryland",
     "name": "Jerryland",
+    "source": "gratefuldeadtributebands.com",
+    "state": "FL"
+  },
+  {
+    "slug": "crazy-fingers",
+    "name": "Crazy Fingers",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
@@ -906,18 +894,6 @@
     "state": "NH"
   },
   {
-    "slug": "too-cool-to-bluff",
-    "name": "Too Cool To Bluff",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "big-foot-county",
-    "name": "Big Foot County",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "achievers-band",
     "name": "Achievers Band",
     "source": "gratefuldeadtributebands.com",
@@ -1026,6 +1002,12 @@
     "state": "NJ"
   },
   {
+    "slug": "too-cool-to-bluff",
+    "name": "Too Cool To Bluff",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
     "slug": "stanley-jordan-plays-the-dead",
     "name": "Stanley Jordan Plays The Dead",
     "source": "gratefuldeadtributebands.com",
@@ -1040,6 +1022,12 @@
   {
     "slug": "rainbow-full-of-sound",
     "name": "Rainbow Full Of Sound",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "scarlet-magnolia",
+    "name": "Scarlet Magnolia",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1072,18 +1060,6 @@
     "name": "Mark Diomede and Friends",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
-  },
-  {
-    "slug": "half-step-li",
-    "name": "Half Step LI",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
-    "slug": "half-past-dead",
-    "name": "Half Past Dead",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
   },
   {
     "slug": "nailed-shutt",
@@ -1142,6 +1118,12 @@
   {
     "slug": "dead-alliance-buffalo",
     "name": "Dead Alliance Buffalo",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "half-step-li",
+    "name": "Half Step LI",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
@@ -1212,12 +1194,6 @@
     "state": "NC"
   },
   {
-    "slug": "west-akron-fadeaway",
-    "name": "West Akron Fadeaway",
-    "source": "gratefuldeadtributebands.com",
-    "state": "OH"
-  },
-  {
     "slug": "bosco-jigs",
     "name": "Bosco Jigs",
     "source": "gratefuldeadtributebands.com",
@@ -1232,6 +1208,12 @@
   {
     "slug": "ramble-on-bros",
     "name": "Ramble On Bros",
+    "source": "gratefuldeadtributebands.com",
+    "state": "OH"
+  },
+  {
+    "slug": "west-akron-fadeaway",
+    "name": "West Akron Fadeaway",
     "source": "gratefuldeadtributebands.com",
     "state": "OH"
   },
@@ -1270,12 +1252,6 @@
     "name": "Dead Centric",
     "source": "gratefuldeadtributebands.com",
     "state": "OH"
-  },
-  {
-    "slug": "rhapsody-in-red",
-    "name": "Rhapsody In Red",
-    "source": "gratefuldeadtributebands.com",
-    "state": "OR"
   },
   {
     "slug": "caught-dead-handed",
@@ -1330,12 +1306,6 @@
     "name": "Foolish Heart Band",
     "source": "gratefuldeadtributebands.com",
     "state": "PA"
-  },
-  {
-    "slug": "mystic-dead",
-    "name": "Mystic Dead",
-    "source": "gratefuldeadtributebands.com",
-    "state": "RI"
   },
   {
     "slug": "blue-drew-and-the-magoos",
