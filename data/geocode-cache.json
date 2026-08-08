@@ -5018,5 +5018,25 @@
   "bloomingdale, nj": {
     "lat": 41.002147,
     "lng": -74.3263326
+  },
+  "napa, ca": {
+    "lat": 38.4898675,
+    "lng": -122.3218414
+  },
+  "castro valley, ca": {
+    "lat": 37.713606,
+    "lng": -122.0715658
+  },
+  "stockton, ca": {
+    "lat": 37.9577016,
+    "lng": -121.290779
+  },
+  "westbrook, me": {
+    "lat": 43.6763036,
+    "lng": -70.3663874
+  },
+  "albrightsville, pa": {
+    "lat": 41.0164681,
+    "lng": -75.613172
   }
 }
