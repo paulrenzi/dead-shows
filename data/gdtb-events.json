@@ -198,6 +198,24 @@
     ]
   },
   {
+    "id": "gdtb-CA-aardvark-2026-08-14-the-pioneer-saloon-2925-woodsi",
+    "name": "Aardvark — The Pioneer Saloon 2925 Woodside Rd",
+    "band": "Aardvark",
+    "bandSlug": "aardvark",
+    "venue": "The Pioneer Saloon 2925 Woodside Rd",
+    "city": "Woodside",
+    "state": "CA",
+    "lat": 37.4280637,
+    "lng": -122.2507435,
+    "date": "2026-08-14",
+    "time": "11:30 PM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
+    "source": "gdtb",
+    "attractions": [
+      "Aardvark"
+    ]
+  },
+  {
     "id": "gdtb-CA-jed-s-dog-2026-08-15-7440-sylvia-ave",
     "name": "Jed's Dog — 7440 Sylvia Ave",
     "band": "Jed's Dog",
@@ -216,6 +234,24 @@
     ]
   },
   {
+    "id": "gdtb-CA-cryptical-development-2026-08-15-vfw-6885",
+    "name": "Cryptical Development — VFW 6885",
+    "band": "Cryptical Development",
+    "bandSlug": "cryptical-development",
+    "venue": "VFW 6885",
+    "city": "Canyon Country",
+    "state": "CA",
+    "lat": 34.4233293,
+    "lng": -118.4720281,
+    "date": "2026-08-15",
+    "time": "10 PM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
+    "source": "gdtb",
+    "attractions": [
+      "Cryptical Development"
+    ]
+  },
+  {
     "id": "gdtb-CA-cats-on-the-bandstand-2026-08-15-oggi-s-sports-brewhouse-pizza",
     "name": "Cats on the Bandstand — Oggi's Sports Brewhouse Pizza",
     "band": "Cats on the Bandstand",
@@ -231,6 +267,24 @@
     "source": "gdtb",
     "attractions": [
       "Cats on the Bandstand"
+    ]
+  },
+  {
+    "id": "gdtb-CA-rusted-roses-2026-08-15-the-venice-west",
+    "name": "Rusted Roses — The Venice West",
+    "band": "Rusted Roses",
+    "bandSlug": "rusted-roses",
+    "venue": "The Venice West",
+    "city": "Venice",
+    "state": "CA",
+    "lat": 33.995044,
+    "lng": -118.4668875,
+    "date": "2026-08-15",
+    "time": "3 PM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
+    "source": "gdtb",
+    "attractions": [
+      "Rusted Roses"
     ]
   },
   {
@@ -342,6 +396,24 @@
     ]
   },
   {
+    "id": "gdtb-CA-rising-tide-ca-2026-08-20-sawdust-art-festival",
+    "name": "Rising Tide CA — Sawdust Art Festival",
+    "band": "Rising Tide CA",
+    "bandSlug": "rising-tide-ca",
+    "venue": "Sawdust Art Festival",
+    "city": "Laguna Beach",
+    "state": "CA",
+    "lat": 33.5426975,
+    "lng": -117.785366,
+    "date": "2026-08-20",
+    "time": "6 PM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
+    "source": "gdtb",
+    "attractions": [
+      "Rising Tide CA"
+    ]
+  },
+  {
     "id": "gdtb-CA-easy-wind-2026-08-21-corbin-bowl",
     "name": "Easy Wind — Corbin Bowl",
     "band": "Easy Wind",
@@ -357,6 +429,24 @@
     "source": "gdtb",
     "attractions": [
       "Easy Wind"
+    ]
+  },
+  {
+    "id": "gdtb-CA-possum-2026-08-22-3054-sunrise-blvd-j",
+    "name": "Possum — 3054 Sunrise Blvd. J",
+    "band": "Possum",
+    "bandSlug": "possum",
+    "venue": "3054 Sunrise Blvd. J",
+    "city": "Rancho Cordova",
+    "state": "CA",
+    "lat": 38.5890723,
+    "lng": -121.302728,
+    "date": "2026-08-22",
+    "time": "5:00PM - 8:00PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
+    "source": "gdtb",
+    "attractions": [
+      "Possum"
     ]
   },
   {
@@ -378,21 +468,21 @@
     ]
   },
   {
-    "id": "gdtb-CA-possum-2026-08-22-3054-sunrise-blvd-j",
-    "name": "Possum — 3054 Sunrise Blvd. J",
-    "band": "Possum",
-    "bandSlug": "possum",
-    "venue": "3054 Sunrise Blvd. J",
-    "city": "Rancho Cordova",
+    "id": "gdtb-CA-easy-wind-2026-08-23-soap-factory-san-diego",
+    "name": "Easy Wind — Soap Factory San Diego",
+    "band": "Easy Wind",
+    "bandSlug": "easy-wind",
+    "venue": "Soap Factory San Diego",
+    "city": "San Diego",
     "state": "CA",
-    "lat": 38.5890723,
-    "lng": -121.302728,
-    "date": "2026-08-22",
-    "time": "5:00PM - 8:00PM",
+    "lat": 32.7174202,
+    "lng": -117.162772,
+    "date": "2026-08-23",
+    "time": "6 PM EDT",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
     "source": "gdtb",
     "attractions": [
-      "Possum"
+      "Easy Wind"
     ]
   },
   {
@@ -450,6 +540,24 @@
     ]
   },
   {
+    "id": "gdtb-CA-electric-waste-band-2026-08-29-aquarius-bar-and-grille",
+    "name": "Electric Waste Band — Aquarius Bar and Grille",
+    "band": "Electric Waste Band",
+    "bandSlug": "electric-waste-band",
+    "venue": "Aquarius Bar and Grille",
+    "city": "San Diego",
+    "state": "CA",
+    "lat": 32.7174202,
+    "lng": -117.162772,
+    "date": "2026-08-29",
+    "time": "9 PM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
+    "source": "gdtb",
+    "attractions": [
+      "Electric Waste Band"
+    ]
+  },
+  {
     "id": "gdtb-CA-jerrys-middle-finger-2026-08-29-96150",
     "name": "Jerry's Middle Finger — 96150",
     "band": "Jerry's Middle Finger",
@@ -465,24 +573,6 @@
     "source": "gdtb",
     "attractions": [
       "Jerry's Middle Finger"
-    ]
-  },
-  {
-    "id": "gdtb-CA-playing-the-dead-2026-08-29-henhouse-brewingo-co-1301-gran",
-    "name": "Playing The Dead — Henhouse Brewingo Co. 1301 Grant Ave Novato CA 94945-3143 United",
-    "band": "Playing The Dead",
-    "bandSlug": "playing-the-dead",
-    "venue": "Henhouse Brewingo Co. 1301 Grant Ave Novato CA 94945-3143 United",
-    "city": "Novato",
-    "state": "CA",
-    "lat": 38.1061979,
-    "lng": -122.5681191,
-    "date": "2026-08-29",
-    "time": "5 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "Playing The Dead"
     ]
   },
   {
@@ -504,6 +594,24 @@
     ]
   },
   {
+    "id": "gdtb-CA-playing-the-dead-2026-08-29-henhouse-brewingo-co-1301-gran",
+    "name": "Playing The Dead — Henhouse Brewingo Co. 1301 Grant Ave Novato CA 94945-3143 United",
+    "band": "Playing The Dead",
+    "bandSlug": "playing-the-dead",
+    "venue": "Henhouse Brewingo Co. 1301 Grant Ave Novato CA 94945-3143 United",
+    "city": "Novato",
+    "state": "CA",
+    "lat": 38.1061979,
+    "lng": -122.5681191,
+    "date": "2026-08-29",
+    "time": "5 PM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
+    "source": "gdtb",
+    "attractions": [
+      "Playing The Dead"
+    ]
+  },
+  {
     "id": "gdtb-CA-grateful-dads-of-newport-beach-2026-08-30-crescent-ave",
     "name": "Grateful Dads of Newport Beach — Crescent Ave",
     "band": "Grateful Dads of Newport Beach",
@@ -522,24 +630,6 @@
     ]
   },
   {
-    "id": "gdtb-CA-wall-of-sound-2026-09-03-the-wayfarer",
-    "name": "Wall Of Sound — The Wayfarer",
-    "band": "Wall Of Sound",
-    "bandSlug": "wall-of-sound",
-    "venue": "The Wayfarer",
-    "city": "Costa Mesa",
-    "state": "CA",
-    "lat": 33.6633386,
-    "lng": -117.903317,
-    "date": "2026-09-03",
-    "time": "11 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "Wall Of Sound"
-    ]
-  },
-  {
     "id": "gdtb-CA-scarlett-fyre-2026-09-03-530-main-st",
     "name": "Scarlett Fyre — 530 Main St",
     "band": "Scarlett Fyre",
@@ -555,6 +645,24 @@
     "source": "gdtb",
     "attractions": [
       "Scarlett Fyre"
+    ]
+  },
+  {
+    "id": "gdtb-CA-wall-of-sound-2026-09-03-the-wayfarer",
+    "name": "Wall Of Sound — The Wayfarer",
+    "band": "Wall Of Sound",
+    "bandSlug": "wall-of-sound",
+    "venue": "The Wayfarer",
+    "city": "Costa Mesa",
+    "state": "CA",
+    "lat": 33.6633386,
+    "lng": -117.903317,
+    "date": "2026-09-03",
+    "time": "11 PM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
+    "source": "gdtb",
+    "attractions": [
+      "Wall Of Sound"
     ]
   },
   {
@@ -594,24 +702,6 @@
     ]
   },
   {
-    "id": "gdtb-CA-rosewater-2026-09-04-salmon-creek-mountain-view-ret",
-    "name": "Rosewater — Salmon Creek Mountain View Retreat",
-    "band": "Rosewater",
-    "bandSlug": "rosewater",
-    "venue": "Salmon Creek Mountain View Retreat",
-    "city": "Willits",
-    "state": "CA",
-    "lat": 39.4096043,
-    "lng": -123.3555602,
-    "date": "2026-09-04",
-    "time": "THRU Sep 7",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "Rosewater"
-    ]
-  },
-  {
     "id": "gdtb-CA-one-man-gone-2026-09-04-mountain-view-city-hall",
     "name": "One Man Gone — Mountain View City Hall",
     "band": "One Man Gone",
@@ -627,6 +717,42 @@
     "source": "gdtb",
     "attractions": [
       "One Man Gone"
+    ]
+  },
+  {
+    "id": "gdtb-CA-playing-the-dead-2026-09-04-event-by-playing-the-dead",
+    "name": "Playing The Dead — Event by Playing The Dead",
+    "band": "Playing The Dead",
+    "bandSlug": "playing-the-dead",
+    "venue": "Event by Playing The Dead",
+    "city": "San Francisco",
+    "state": "CA",
+    "lat": 37.7879363,
+    "lng": -122.4075201,
+    "date": "2026-09-04",
+    "time": "11:30 PM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
+    "source": "gdtb",
+    "attractions": [
+      "Playing The Dead"
+    ]
+  },
+  {
+    "id": "gdtb-CA-rosewater-2026-09-04-salmon-creek-mountain-view-ret",
+    "name": "Rosewater — Salmon Creek Mountain View Retreat",
+    "band": "Rosewater",
+    "bandSlug": "rosewater",
+    "venue": "Salmon Creek Mountain View Retreat",
+    "city": "Willits",
+    "state": "CA",
+    "lat": 39.4096043,
+    "lng": -123.3555602,
+    "date": "2026-09-04",
+    "time": "THRU Sep 7",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
+    "source": "gdtb",
+    "attractions": [
+      "Rosewater"
     ]
   },
   {
@@ -684,24 +810,6 @@
     ]
   },
   {
-    "id": "gdtb-CA-jerrys-middle-finger-2026-09-05-music-box",
-    "name": "Jerry's Middle Finger — Music Box",
-    "band": "Jerry's Middle Finger",
-    "bandSlug": "jerrys-middle-finger",
-    "venue": "Music Box",
-    "city": "San Diego",
-    "state": "CA",
-    "lat": 32.7174202,
-    "lng": -117.162772,
-    "date": "2026-09-05",
-    "time": "12 AM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "Jerry's Middle Finger"
-    ]
-  },
-  {
     "id": "gdtb-CA-pete-sawyer-the-lhmwg-2026-09-05-papermill-creek-saloon",
     "name": "Pete Sawyer & The LHMWG — Papermill Creek Saloon",
     "band": "Pete Sawyer & The LHMWG",
@@ -717,6 +825,24 @@
     "source": "gdtb",
     "attractions": [
       "Pete Sawyer & The LHMWG"
+    ]
+  },
+  {
+    "id": "gdtb-CA-jerrys-middle-finger-2026-09-06-music-box",
+    "name": "Jerry's Middle Finger — Music Box",
+    "band": "Jerry's Middle Finger",
+    "bandSlug": "jerrys-middle-finger",
+    "venue": "Music Box",
+    "city": "San Diego",
+    "state": "CA",
+    "lat": 32.7174202,
+    "lng": -117.162772,
+    "date": "2026-09-06",
+    "time": "12 AM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
+    "source": "gdtb",
+    "attractions": [
+      "Jerry's Middle Finger"
     ]
   },
   {
@@ -918,6 +1044,24 @@
     ]
   },
   {
+    "id": "gdtb-CA-the-deadicated-project-2026-09-24-whisky-a-go-go",
+    "name": "The Deadicated Project — Whisky A Go-Go",
+    "band": "The Deadicated Project",
+    "bandSlug": "the-deadicated-project",
+    "venue": "Whisky A Go-Go",
+    "city": "West Hollywood",
+    "state": "CA",
+    "lat": 34.0923014,
+    "lng": -118.3692894,
+    "date": "2026-09-24",
+    "time": "10 PM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
+    "source": "gdtb",
+    "attractions": [
+      "The Deadicated Project"
+    ]
+  },
+  {
     "id": "gdtb-CA-shred-is-dead-2026-10-02-2209-broadwayredwood-city94063",
     "name": "Shred Is Dead — 2209 BroadwayRedwood City94063US",
     "band": "Shred Is Dead",
@@ -954,6 +1098,24 @@
     ]
   },
   {
+    "id": "gdtb-CA-melvin-seals-and-jgb-2026-10-10-siesta-valley-bowl",
+    "name": "Melvin Seals and JGB — Siesta Valley Bowl",
+    "band": "Melvin Seals and JGB",
+    "bandSlug": "melvin-seals-and-jgb",
+    "venue": "Siesta Valley Bowl",
+    "city": "Orinda",
+    "state": "CA",
+    "lat": 37.8771476,
+    "lng": -122.1796888,
+    "date": "2026-10-10",
+    "time": "11 PM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
+    "source": "gdtb",
+    "attractions": [
+      "Melvin Seals and JGB"
+    ]
+  },
+  {
     "id": "gdtb-CA-the-storytellers-2026-10-10-silverado-country-fair-folk-fe",
     "name": "The Storytellers — Silverado Country Fair & Folk Festival",
     "band": "The Storytellers",
@@ -969,6 +1131,24 @@
     "source": "gdtb",
     "attractions": [
       "The Storytellers"
+    ]
+  },
+  {
+    "id": "gdtb-CA-melvin-seals-and-jgb-2026-10-14-the-egg",
+    "name": "Melvin Seals and JGB — The Egg",
+    "band": "Melvin Seals and JGB",
+    "bandSlug": "melvin-seals-and-jgb",
+    "venue": "The Egg",
+    "city": "Albany",
+    "state": "CA",
+    "lat": 37.8871621,
+    "lng": -122.298351,
+    "date": "2026-10-14",
+    "time": "6:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
+    "source": "gdtb",
+    "attractions": [
+      "Melvin Seals and JGB"
     ]
   },
   {
@@ -1026,24 +1206,6 @@
     ]
   },
   {
-    "id": "gdtb-CA-steely-dead-2026-10-20-event-by-the-junction-beer-gar",
-    "name": "Steely Dead — Event by The Junction Beer Garden & Bottle Shop",
-    "band": "Steely Dead",
-    "bandSlug": "steely-dead",
-    "venue": "Event by The Junction Beer Garden & Bottle Shop",
-    "city": "Santa Rosa",
-    "state": "CA",
-    "lat": 38.4404925,
-    "lng": -122.7141049,
-    "date": "2026-10-20",
-    "time": "2 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "Steely Dead"
-    ]
-  },
-  {
     "id": "gdtb-CA-cats-on-the-bandstand-2026-10-20-the-cinema-bar",
     "name": "Cats on the Bandstand — The Cinema Bar",
     "band": "Cats on the Bandstand",
@@ -1098,29 +1260,47 @@
     ]
   },
   {
-    "id": "gdtb-CO-shakedown-strings-2027-08-06-2637-welton-street",
-    "name": "Shakedown Strings — 2637 Welton Street",
-    "band": "Shakedown Strings",
-    "bandSlug": "shakedown-strings",
-    "venue": "2637 Welton Street",
-    "city": "Denver",
-    "state": "CO",
-    "lat": 39.7392364,
-    "lng": -104.984862,
-    "date": "2027-08-06",
-    "time": "7:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
+    "id": "gdtb-CA-rosewater-2026-10-31-eureka-theater",
+    "name": "Rosewater — Eureka Theater",
+    "band": "Rosewater",
+    "bandSlug": "rosewater",
+    "venue": "Eureka Theater",
+    "city": "Eureka",
+    "state": "CA",
+    "lat": 40.8018746,
+    "lng": -124.1707558,
+    "date": "2026-10-31",
+    "time": "7 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
     "source": "gdtb",
     "attractions": [
-      "Shakedown Strings"
+      "Rosewater"
     ]
   },
   {
-    "id": "gdtb-CO-easy-jim-2026-08-13-event-by-easy-jim-music-of-the",
-    "name": "Easy Jim — Event by Easy Jim Music of the Grateful Dead",
+    "id": "gdtb-CO-easy-jim-2026-08-12-two-rivers-park",
+    "name": "Easy Jim — Two Rivers Park",
     "band": "Easy Jim",
     "bandSlug": "easy-jim",
-    "venue": "Event by Easy Jim Music of the Grateful Dead",
+    "venue": "Two Rivers Park",
+    "city": "Glenwood Springs",
+    "state": "CO",
+    "lat": 39.5466381,
+    "lng": -107.3246941,
+    "date": "2026-08-12",
+    "time": "8:30 PM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
+    "source": "gdtb",
+    "attractions": [
+      "Easy Jim"
+    ]
+  },
+  {
+    "id": "gdtb-CO-easy-jim-2026-08-13-paonia-town-park",
+    "name": "Easy Jim — Paonia Town Park",
+    "band": "Easy Jim",
+    "bandSlug": "easy-jim",
+    "venue": "Paonia Town Park",
     "city": "Paonia",
     "state": "CO",
     "lat": 38.8683205,
@@ -1170,11 +1350,11 @@
     ]
   },
   {
-    "id": "gdtb-CO-easy-jim-2026-08-14-event-by-the-fox-theatre",
-    "name": "Easy Jim — Event by The Fox Theatre",
+    "id": "gdtb-CO-easy-jim-2026-08-14-1135-13th-st-boulder-co-united",
+    "name": "Easy Jim — 1135 13th St Boulder CO United States Colorado 80302",
     "band": "Easy Jim",
     "bandSlug": "easy-jim",
-    "venue": "Event by The Fox Theatre",
+    "venue": "1135 13th St Boulder CO United States Colorado 80302",
     "city": "Boulder",
     "state": "CO",
     "lat": 40.0149856,
@@ -1185,6 +1365,24 @@
     "source": "gdtb",
     "attractions": [
       "Easy Jim"
+    ]
+  },
+  {
+    "id": "gdtb-CO-steely-dead-2026-08-14-32-south-tejon-street-80903",
+    "name": "Steely Dead — 32 South Tejon Street 80903",
+    "band": "Steely Dead",
+    "bandSlug": "steely-dead",
+    "venue": "32 South Tejon Street 80903",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "lat": 38.8339578,
+    "lng": -104.825348,
+    "date": "2026-08-14",
+    "time": "10 PM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
+    "source": "gdtb",
+    "attractions": [
+      "Steely Dead"
     ]
   },
   {
@@ -1242,11 +1440,11 @@
     ]
   },
   {
-    "id": "gdtb-CO-bertha-grateful-drag-2026-08-15-80512",
-    "name": "Bertha Grateful Drag — 80512",
+    "id": "gdtb-CO-bertha-grateful-drag-2026-08-15-13714-poudre-canyon-highway-be",
+    "name": "Bertha Grateful Drag — 13714 Poudre Canyon Highway Bellvue CO United States Colorado",
     "band": "Bertha Grateful Drag",
     "bandSlug": "bertha-grateful-drag",
-    "venue": "80512",
+    "venue": "13714 Poudre Canyon Highway Bellvue CO United States Colorado",
     "city": "Bellvue",
     "state": "CO",
     "lat": 40.626371,
@@ -1314,6 +1512,24 @@
     ]
   },
   {
+    "id": "gdtb-CO-shakedown-strings-2026-08-16-404-north-broadway",
+    "name": "Shakedown Strings — 404 North Broadway",
+    "band": "Shakedown Strings",
+    "bandSlug": "shakedown-strings",
+    "venue": "404 North Broadway",
+    "city": "Denver",
+    "state": "CO",
+    "lat": 39.7392364,
+    "lng": -104.984862,
+    "date": "2026-08-16",
+    "time": "6:00PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
+    "source": "gdtb",
+    "attractions": [
+      "Shakedown Strings"
+    ]
+  },
+  {
     "id": "gdtb-CO-steely-dead-2026-08-17-606-sixth-street-crested-butte",
     "name": "Steely Dead — 606 Sixth Street Crested Butte CO United States Colorado 81224",
     "band": "Steely Dead",
@@ -1329,6 +1545,24 @@
     "source": "gdtb",
     "attractions": [
       "Steely Dead"
+    ]
+  },
+  {
+    "id": "gdtb-CO-shakedown-strings-2026-08-19-710-main-street",
+    "name": "Shakedown Strings — 710 Main Street",
+    "band": "Shakedown Strings",
+    "bandSlug": "shakedown-strings",
+    "venue": "710 Main Street",
+    "city": "Frisco",
+    "state": "CO",
+    "lat": 39.5768577,
+    "lng": -106.092828,
+    "date": "2026-08-19",
+    "time": "6:00PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
+    "source": "gdtb",
+    "attractions": [
+      "Shakedown Strings"
     ]
   },
   {
@@ -1368,11 +1602,29 @@
     ]
   },
   {
-    "id": "gdtb-CO-tumbledown-shack-2026-08-20-salt-road-brewing",
-    "name": "Tumbledown Shack — Salt Road Brewing",
+    "id": "gdtb-CO-steely-dead-2026-08-20-whistle-stop-park-niwot-co-uni",
+    "name": "Steely Dead — Whistle Stop Park Niwot CO United States Colorado 80544",
+    "band": "Steely Dead",
+    "bandSlug": "steely-dead",
+    "venue": "Whistle Stop Park Niwot CO United States Colorado 80544",
+    "city": "Niwot",
+    "state": "CO",
+    "lat": 40.1016754,
+    "lng": -105.1534902,
+    "date": "2026-08-20",
+    "time": "7 PM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
+    "source": "gdtb",
+    "attractions": [
+      "Steely Dead"
+    ]
+  },
+  {
+    "id": "gdtb-CO-tumbledown-shack-2026-08-20-event-time-id-2018573912245162",
+    "name": "Tumbledown Shack — event_time_id=2018573912245162>",
     "band": "Tumbledown Shack",
     "bandSlug": "tumbledown-shack",
-    "venue": "Salt Road Brewing",
+    "venue": "event_time_id=2018573912245162>",
     "city": "Fort Collins",
     "state": "CO",
     "lat": 40.5871782,
@@ -1458,11 +1710,11 @@
     ]
   },
   {
-    "id": "gdtb-CO-steely-dead-2026-08-22-event-by-animas-city-theatre",
-    "name": "Steely Dead — Event by Animas City Theatre",
+    "id": "gdtb-CO-steely-dead-2026-08-22-animas-city-theatre",
+    "name": "Steely Dead — Animas City Theatre",
     "band": "Steely Dead",
     "bandSlug": "steely-dead",
-    "venue": "Event by Animas City Theatre",
+    "venue": "Animas City Theatre",
     "city": "Durango",
     "state": "CO",
     "lat": 37.2769484,
@@ -1530,6 +1782,24 @@
     ]
   },
   {
+    "id": "gdtb-CO-big-sky-2026-08-28-armadillo-ranch",
+    "name": "Big Sky — Armadillo Ranch",
+    "band": "Big Sky",
+    "bandSlug": "big-sky",
+    "venue": "Armadillo Ranch",
+    "city": "Manitou Springs",
+    "state": "CO",
+    "lat": 38.8585777,
+    "lng": -104.917873,
+    "date": "2026-08-28",
+    "time": "11 PM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
+    "source": "gdtb",
+    "attractions": [
+      "Big Sky"
+    ]
+  },
+  {
     "id": "gdtb-CO-dead-panic-2026-08-29-3801-clear-creek-dr-wheat-ridg",
     "name": "Dead Panic — 3801 Clear Creek Dr Wheat Ridge CO 80033 United States",
     "band": "Dead Panic",
@@ -1545,6 +1815,42 @@
     "source": "gdtb",
     "attractions": [
       "Dead Panic"
+    ]
+  },
+  {
+    "id": "gdtb-CO-aoxomoxoa-2026-08-30-2205-broadway",
+    "name": "AoxomoxoA — 2205 Broadway",
+    "band": "AoxomoxoA",
+    "bandSlug": "aoxomoxoa",
+    "venue": "2205 Broadway",
+    "city": "Boulder",
+    "state": "CO",
+    "lat": 40.0149856,
+    "lng": -105.270545,
+    "date": "2026-08-30",
+    "time": "3:15p-4",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
+    "source": "gdtb",
+    "attractions": [
+      "AoxomoxoA"
+    ]
+  },
+  {
+    "id": "gdtb-CO-built-to-last-2026-08-30-the-grateful-gnome-sandwich-sh",
+    "name": "Built to Last — The Grateful Gnome Sandwich Shoppe & Brewery",
+    "band": "Built to Last",
+    "bandSlug": "built-to-last",
+    "venue": "The Grateful Gnome Sandwich Shoppe & Brewery",
+    "city": "Denver",
+    "state": "CO",
+    "lat": 39.7392364,
+    "lng": -104.984862,
+    "date": "2026-08-30",
+    "time": "5 PM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
+    "source": "gdtb",
+    "attractions": [
+      "Built to Last"
     ]
   },
   {
@@ -1617,6 +1923,24 @@
     "source": "gdtb",
     "attractions": [
       "Easy Jim"
+    ]
+  },
+  {
+    "id": "gdtb-CO-rio-rosa-2026-09-04-st-julien-hotel-spa",
+    "name": "Rio Rosa — St Julien Hotel & Spa",
+    "band": "Rio Rosa",
+    "bandSlug": "rio-rosa",
+    "venue": "St Julien Hotel & Spa",
+    "city": "Boulder",
+    "state": "CO",
+    "lat": 40.0149856,
+    "lng": -105.270545,
+    "date": "2026-09-04",
+    "time": "8 PM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
+    "source": "gdtb",
+    "attractions": [
+      "Rio Rosa"
     ]
   },
   {
@@ -1962,24 +2286,6 @@
     ]
   },
   {
-    "id": "gdtb-CO-melvin-seals-and-jgb-2026-10-30-boulder-theater",
-    "name": "Melvin Seals and JGB — Boulder Theater",
-    "band": "Melvin Seals and JGB",
-    "bandSlug": "melvin-seals-and-jgb",
-    "venue": "Boulder Theater",
-    "city": "Boulder",
-    "state": "CO",
-    "lat": 40.0149856,
-    "lng": -105.270545,
-    "date": "2026-10-30",
-    "time": "THRU Nov 1",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
-    "source": "gdtb",
-    "attractions": [
-      "Melvin Seals and JGB"
-    ]
-  },
-  {
     "id": "gdtb-CO-shakedown-street-2026-10-31-buffalo-rose",
     "name": "Shakedown Street — Buffalo Rose",
     "band": "Shakedown Street",
@@ -2034,6 +2340,24 @@
     ]
   },
   {
+    "id": "gdtb-CT-almost-ablaze-2026-08-22-event-by-almost-ablaze",
+    "name": "Almost Ablaze — Event by Almost Ablaze",
+    "band": "Almost Ablaze",
+    "bandSlug": "almost-ablaze",
+    "venue": "Event by Almost Ablaze",
+    "city": "Bridgeport",
+    "state": "CT",
+    "lat": 41.1792695,
+    "lng": -73.1887863,
+    "date": "2026-08-22",
+    "time": "7 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
+    "source": "gdtb",
+    "attractions": [
+      "Almost Ablaze"
+    ]
+  },
+  {
     "id": "gdtb-CT-grateful-friends-2026-08-22-c-j-sparrow-pub-eatery",
     "name": "Grateful Friends — C.J. Sparrow Pub & Eatery",
     "band": "Grateful Friends",
@@ -2085,6 +2409,24 @@
     "source": "gdtb",
     "attractions": [
       "Shakedown"
+    ]
+  },
+  {
+    "id": "gdtb-CT-almost-ablaze-2026-08-23-shakedown-street-eats",
+    "name": "Almost Ablaze — Shakedown Street Eats",
+    "band": "Almost Ablaze",
+    "bandSlug": "almost-ablaze",
+    "venue": "Shakedown Street Eats",
+    "city": "Bethel",
+    "state": "CT",
+    "lat": 41.3712063,
+    "lng": -73.4140097,
+    "date": "2026-08-23",
+    "time": "3 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
+    "source": "gdtb",
+    "attractions": [
+      "Almost Ablaze"
     ]
   },
   {
@@ -2286,6 +2628,24 @@
     ]
   },
   {
+    "id": "gdtb-CT-rob-glassman-band-2026-09-14-rgb",
+    "name": "Rob Glassman Band — RGB",
+    "band": "Rob Glassman Band",
+    "bandSlug": "rob-glassman-band",
+    "venue": "RGB",
+    "city": "Branford",
+    "state": "CT",
+    "lat": 41.2795414,
+    "lng": -72.8150989,
+    "date": "2026-09-14",
+    "time": "5 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
+    "source": "gdtb",
+    "attractions": [
+      "Rob Glassman Band"
+    ]
+  },
+  {
     "id": "gdtb-CT-dark-star-orchestra-2026-09-17-college-street-music-hall",
     "name": "Dark Star Orchestra — College Street Music Hall",
     "band": "Dark Star Orchestra",
@@ -2358,6 +2718,24 @@
     ]
   },
   {
+    "id": "gdtb-CT-rob-glassman-band-2026-09-25-durham-fair-durham-ct-milford",
+    "name": "Rob Glassman Band — Durham Fair Durham CT Milford",
+    "band": "Rob Glassman Band",
+    "bandSlug": "rob-glassman-band",
+    "venue": "Durham Fair Durham CT Milford",
+    "city": "Durham",
+    "state": "CT",
+    "lat": 41.4817647,
+    "lng": -72.6812059,
+    "date": "2026-09-25",
+    "time": "7 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
+    "source": "gdtb",
+    "attractions": [
+      "Rob Glassman Band"
+    ]
+  },
+  {
     "id": "gdtb-CT-the-mystery-train-band-2026-09-25-bryac-black-rock",
     "name": "The Mystery Train Band — BRYAC Black Rock",
     "band": "The Mystery Train Band",
@@ -2373,6 +2751,42 @@
     "source": "gdtb",
     "attractions": [
       "The Mystery Train Band"
+    ]
+  },
+  {
+    "id": "gdtb-CT-rob-glassman-band-2026-09-26-american-legion-post-27-litchf",
+    "name": "Rob Glassman Band — American Legion Post 27 Litchfield CT",
+    "band": "Rob Glassman Band",
+    "bandSlug": "rob-glassman-band",
+    "venue": "American Legion Post 27 Litchfield CT",
+    "city": "Litchfield",
+    "state": "CT",
+    "lat": 41.747319,
+    "lng": -73.1887243,
+    "date": "2026-09-26",
+    "time": "11 AM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
+    "source": "gdtb",
+    "attractions": [
+      "Rob Glassman Band"
+    ]
+  },
+  {
+    "id": "gdtb-CT-shakedown-2026-09-26-talcott-mountain-collective",
+    "name": "Shakedown — Talcott Mountain Collective",
+    "band": "Shakedown",
+    "bandSlug": "shakedown",
+    "venue": "Talcott Mountain Collective",
+    "city": "Simsbury",
+    "state": "CT",
+    "lat": 41.8759152,
+    "lng": -72.8012211,
+    "date": "2026-09-26",
+    "time": "2 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
+    "source": "gdtb",
+    "attractions": [
+      "Shakedown"
     ]
   },
   {
@@ -2412,6 +2826,78 @@
     ]
   },
   {
+    "id": "gdtb-CT-rob-glassman-band-2026-09-27-pa-s-place",
+    "name": "Rob Glassman Band — Pa's Place",
+    "band": "Rob Glassman Band",
+    "bandSlug": "rob-glassman-band",
+    "venue": "Pa's Place",
+    "city": "Guilford",
+    "state": "CT",
+    "lat": 41.2827593,
+    "lng": -72.6816365,
+    "date": "2026-09-27",
+    "time": "12 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
+    "source": "gdtb",
+    "attractions": [
+      "Rob Glassman Band"
+    ]
+  },
+  {
+    "id": "gdtb-CT-rob-glassman-band-2026-10-02-longleys",
+    "name": "Rob Glassman Band — Longleys",
+    "band": "Rob Glassman Band",
+    "bandSlug": "rob-glassman-band",
+    "venue": "Longleys",
+    "city": "Branford",
+    "state": "CT",
+    "lat": 41.2795414,
+    "lng": -72.8150989,
+    "date": "2026-10-02",
+    "time": "8 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
+    "source": "gdtb",
+    "attractions": [
+      "Rob Glassman Band"
+    ]
+  },
+  {
+    "id": "gdtb-CT-rob-glassman-band-2026-10-03-notch8",
+    "name": "Rob Glassman Band — Notch8",
+    "band": "Rob Glassman Band",
+    "bandSlug": "rob-glassman-band",
+    "venue": "Notch8",
+    "city": "Bethel",
+    "state": "CT",
+    "lat": 41.3712063,
+    "lng": -73.4140097,
+    "date": "2026-10-03",
+    "time": "8 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
+    "source": "gdtb",
+    "attractions": [
+      "Rob Glassman Band"
+    ]
+  },
+  {
+    "id": "gdtb-CT-rob-glassman-band-2026-10-04-twelve-percent-beer-project",
+    "name": "Rob Glassman Band — Twelve Percent Beer Project",
+    "band": "Rob Glassman Band",
+    "bandSlug": "rob-glassman-band",
+    "venue": "Twelve Percent Beer Project",
+    "city": "North Haven",
+    "state": "CT",
+    "lat": 41.3909305,
+    "lng": -72.859545,
+    "date": "2026-10-04",
+    "time": "2 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
+    "source": "gdtb",
+    "attractions": [
+      "Rob Glassman Band"
+    ]
+  },
+  {
     "id": "gdtb-CT-ct-grateful-dead-all-stars-2026-10-09-woodbury-brewing-company",
     "name": "CT Grateful Dead All Stars — Woodbury Brewing Company",
     "band": "CT Grateful Dead All Stars",
@@ -2427,6 +2913,42 @@
     "source": "gdtb",
     "attractions": [
       "CT Grateful Dead All Stars"
+    ]
+  },
+  {
+    "id": "gdtb-CT-rob-glassman-band-2026-10-09-center-street-brewing-company",
+    "name": "Rob Glassman Band — Center Street Brewing Company",
+    "band": "Rob Glassman Band",
+    "bandSlug": "rob-glassman-band",
+    "venue": "Center Street Brewing Company",
+    "city": "Wallingford",
+    "state": "CT",
+    "lat": 41.4564233,
+    "lng": -72.8239356,
+    "date": "2026-10-09",
+    "time": "6 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
+    "source": "gdtb",
+    "attractions": [
+      "Rob Glassman Band"
+    ]
+  },
+  {
+    "id": "gdtb-CT-rob-glassman-band-2026-10-10-central-cafe",
+    "name": "Rob Glassman Band — Central Cafe",
+    "band": "Rob Glassman Band",
+    "bandSlug": "rob-glassman-band",
+    "venue": "Central Cafe",
+    "city": "North Branford",
+    "state": "CT",
+    "lat": 41.3275971,
+    "lng": -72.7673198,
+    "date": "2026-10-10",
+    "time": "8 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
+    "source": "gdtb",
+    "attractions": [
+      "Rob Glassman Band"
     ]
   },
   {
@@ -2463,6 +2985,114 @@
     "source": "gdtb",
     "attractions": [
       "Dead On"
+    ]
+  },
+  {
+    "id": "gdtb-CT-rob-glassman-band-2026-10-17-the-cajun-boil-bar",
+    "name": "Rob Glassman Band — The Cajun Boil & Bar",
+    "band": "Rob Glassman Band",
+    "bandSlug": "rob-glassman-band",
+    "venue": "The Cajun Boil & Bar",
+    "city": "Torrington",
+    "state": "CT",
+    "lat": 41.8006523,
+    "lng": -73.1212214,
+    "date": "2026-10-17",
+    "time": "8 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
+    "source": "gdtb",
+    "attractions": [
+      "Rob Glassman Band"
+    ]
+  },
+  {
+    "id": "gdtb-CT-rob-glassman-band-2026-10-18-milestone",
+    "name": "Rob Glassman Band — Milestone",
+    "band": "Rob Glassman Band",
+    "bandSlug": "rob-glassman-band",
+    "venue": "Milestone",
+    "city": "Redding",
+    "state": "CT",
+    "lat": 41.3025956,
+    "lng": -73.3834532,
+    "date": "2026-10-18",
+    "time": "4 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
+    "source": "gdtb",
+    "attractions": [
+      "Rob Glassman Band"
+    ]
+  },
+  {
+    "id": "gdtb-CT-melvin-seals-and-jgb-2026-10-21-infinity-music-hall",
+    "name": "Melvin Seals and JGB — Infinity Music Hall",
+    "band": "Melvin Seals and JGB",
+    "bandSlug": "melvin-seals-and-jgb",
+    "venue": "Infinity Music Hall",
+    "city": "Hartford",
+    "state": "CT",
+    "lat": 41.764582,
+    "lng": -72.6908547,
+    "date": "2026-10-21",
+    "time": "8 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
+    "source": "gdtb",
+    "attractions": [
+      "Melvin Seals and JGB"
+    ]
+  },
+  {
+    "id": "gdtb-CT-rob-glassman-band-2026-10-23-unknown",
+    "name": "Rob Glassman Band — `",
+    "band": "Rob Glassman Band",
+    "bandSlug": "rob-glassman-band",
+    "venue": "`",
+    "city": "Branford",
+    "state": "CT",
+    "lat": 41.2795414,
+    "lng": -72.8150989,
+    "date": "2026-10-23",
+    "time": "5:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
+    "source": "gdtb",
+    "attractions": [
+      "Rob Glassman Band"
+    ]
+  },
+  {
+    "id": "gdtb-CT-rob-glassman-band-2026-10-24-bryac-black-rock",
+    "name": "Rob Glassman Band — BRYAC Black Rock",
+    "band": "Rob Glassman Band",
+    "bandSlug": "rob-glassman-band",
+    "venue": "BRYAC Black Rock",
+    "city": "Bridgeport",
+    "state": "CT",
+    "lat": 41.1792695,
+    "lng": -73.1887863,
+    "date": "2026-10-24",
+    "time": "9:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
+    "source": "gdtb",
+    "attractions": [
+      "Rob Glassman Band"
+    ]
+  },
+  {
+    "id": "gdtb-CT-shakedown-2026-10-24-witchdoctor-brewing-company",
+    "name": "Shakedown — Witchdoctor Brewing Company",
+    "band": "Shakedown",
+    "bandSlug": "shakedown",
+    "venue": "Witchdoctor Brewing Company",
+    "city": "Southington",
+    "state": "CT",
+    "lat": 41.6005435,
+    "lng": -72.8782941,
+    "date": "2026-10-24",
+    "time": "6 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
+    "source": "gdtb",
+    "attractions": [
+      "Shakedown"
     ]
   },
   {
@@ -2571,6 +3201,24 @@
     "source": "gdtb",
     "attractions": [
       "Melvin Seals and JGB"
+    ]
+  },
+  {
+    "id": "gdtb-DE-foolish-heart-band-2026-09-05-wilmington-delaware",
+    "name": "Foolish Heart Band — Wilmington Delaware",
+    "band": "Foolish Heart Band",
+    "bandSlug": "foolish-heart-band",
+    "venue": "Wilmington Delaware",
+    "city": "Wilmington",
+    "state": "DE",
+    "lat": 39.7459468,
+    "lng": -75.546589,
+    "date": "2026-09-05",
+    "time": "9:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=DE",
+    "source": "gdtb",
+    "attractions": [
+      "Foolish Heart Band"
     ]
   },
   {
@@ -2808,6 +3456,24 @@
     ]
   },
   {
+    "id": "gdtb-FL-morning-dew-2026-08-21-cage-brewing",
+    "name": "Morning Dew — Cage Brewing",
+    "band": "Morning Dew",
+    "bandSlug": "morning-dew",
+    "venue": "Cage Brewing",
+    "city": "St Petersburg",
+    "state": "FL",
+    "lat": 27.7712264,
+    "lng": -82.6340259,
+    "date": "2026-08-21",
+    "time": "8 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Morning Dew"
+    ]
+  },
+  {
     "id": "gdtb-FL-stella-blue-2026-08-22-1434-pineapple-ave",
     "name": "Stella Blue — 1434 Pineapple Ave",
     "band": "Stella Blue",
@@ -2880,6 +3546,24 @@
     ]
   },
   {
+    "id": "gdtb-FL-mondo-tikis-2026-08-27-balibar-wines-grinds",
+    "name": "Mondo Tikis — Balibar Wines & Grinds",
+    "band": "Mondo Tikis",
+    "bandSlug": "mondo-tikis",
+    "venue": "Balibar Wines & Grinds",
+    "city": "Merritt Island",
+    "state": "FL",
+    "lat": 28.2662775,
+    "lng": -80.6636984,
+    "date": "2026-08-27",
+    "time": "7:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Mondo Tikis"
+    ]
+  },
+  {
     "id": "gdtb-FL-crazy-fingers-2026-08-28-vote-for-pedro-boca-raton-3343",
     "name": "Crazy Fingers — Vote for Pedro, Boca Raton 33433",
     "band": "Crazy Fingers",
@@ -2934,11 +3618,11 @@
     ]
   },
   {
-    "id": "gdtb-FL-dead-set-florida-2026-08-29-gilligan-s-island-bar-7150-tam",
-    "name": "Dead Set Florida — Gilligan's Island Bar 7150 Tamiami Trl",
+    "id": "gdtb-FL-dead-set-florida-2026-08-29-unknown",
+    "name": "Dead Set Florida — /",
     "band": "Dead Set Florida",
     "bandSlug": "dead-set-florida",
-    "venue": "Gilligan's Island Bar 7150 Tamiami Trl",
+    "venue": "/",
     "city": "Sarasota",
     "state": "FL",
     "lat": 27.3365805,
@@ -2949,6 +3633,42 @@
     "source": "gdtb",
     "attractions": [
       "Dead Set Florida"
+    ]
+  },
+  {
+    "id": "gdtb-FL-the-cosmic-jam-2026-08-30-jerrys-italian-grill-tiki-bar",
+    "name": "The Cosmic Jam — Jerrys Italian Grill &Tiki Bar",
+    "band": "The Cosmic Jam",
+    "bandSlug": "the-cosmic-jam",
+    "venue": "Jerrys Italian Grill &Tiki Bar",
+    "city": "Ponce Inlet",
+    "state": "FL",
+    "lat": 29.0963729,
+    "lng": -80.9369983,
+    "date": "2026-08-30",
+    "time": "5 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "The Cosmic Jam"
+    ]
+  },
+  {
+    "id": "gdtb-FL-jerryland-2026-09-05-cage-brewing",
+    "name": "Jerryland — Cage Brewing",
+    "band": "Jerryland",
+    "bandSlug": "jerryland",
+    "venue": "Cage Brewing",
+    "city": "St Petersburg",
+    "state": "FL",
+    "lat": 27.7712264,
+    "lng": -82.6340259,
+    "date": "2026-09-05",
+    "time": "8 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Jerryland"
     ]
   },
   {
@@ -2967,6 +3687,24 @@
     "source": "gdtb",
     "attractions": [
       "Souljam"
+    ]
+  },
+  {
+    "id": "gdtb-FL-ship-of-fools-2026-09-06-event-by-ship-of-fools",
+    "name": "Ship of Fools — Event by Ship of Fools",
+    "band": "Ship of Fools",
+    "bandSlug": "ship-of-fools",
+    "venue": "Event by Ship of Fools",
+    "city": "Sarasota",
+    "state": "FL",
+    "lat": 27.3365805,
+    "lng": -82.5308545,
+    "date": "2026-09-06",
+    "time": "3 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Ship of Fools"
     ]
   },
   {
@@ -3042,6 +3780,24 @@
     ]
   },
   {
+    "id": "gdtb-FL-dead-all-over-2026-09-12-backyard-social",
+    "name": "Dead All Over — Backyard Social",
+    "band": "Dead All Over",
+    "bandSlug": "dead-all-over",
+    "venue": "Backyard Social",
+    "city": "Fort Myers",
+    "state": "FL",
+    "lat": 26.640628,
+    "lng": -81.8723084,
+    "date": "2026-09-12",
+    "time": "6 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Dead All Over"
+    ]
+  },
+  {
     "id": "gdtb-FL-stella-blue-2026-09-12-1660-indian-river-dr",
     "name": "Stella Blue — 1660 Indian River Dr",
     "band": "Stella Blue",
@@ -3060,21 +3816,21 @@
     ]
   },
   {
-    "id": "gdtb-FL-dead-all-over-2026-09-12-backyard-social",
-    "name": "Dead All Over — Backyard Social",
-    "band": "Dead All Over",
-    "bandSlug": "dead-all-over",
-    "venue": "Backyard Social",
-    "city": "Fort Myers",
+    "id": "gdtb-FL-dead-experienced-2026-09-13-maitland-fl",
+    "name": "Dead & Experienced — Maitland FL",
+    "band": "Dead & Experienced",
+    "bandSlug": "dead-experienced",
+    "venue": "Maitland FL",
+    "city": "Maitland",
     "state": "FL",
-    "lat": 26.640628,
-    "lng": -81.8723084,
-    "date": "2026-09-12",
-    "time": "6 PM",
+    "lat": 28.6275253,
+    "lng": -81.3656419,
+    "date": "2026-09-13",
+    "time": "4 PM",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
     "source": "gdtb",
     "attractions": [
-      "Dead All Over"
+      "Dead & Experienced"
     ]
   },
   {
@@ -3096,11 +3852,11 @@
     ]
   },
   {
-    "id": "gdtb-FL-dead-all-over-2026-09-18-nomads-canteen-florida",
-    "name": "Dead All Over — Nomads Canteen Florida",
+    "id": "gdtb-FL-dead-all-over-2026-09-18-event-by-dead-all-over",
+    "name": "Dead All Over — Event by Dead All Over",
     "band": "Dead All Over",
     "bandSlug": "dead-all-over",
-    "venue": "Nomads Canteen Florida",
+    "venue": "Event by Dead All Over",
     "city": "Melbourne",
     "state": "FL",
     "lat": 28.0785034,
@@ -3150,6 +3906,60 @@
     ]
   },
   {
+    "id": "gdtb-FL-dead-all-over-2026-09-20-terra-fermata-tiki-bar",
+    "name": "Dead All Over — Terra Fermata Tiki Bar",
+    "band": "Dead All Over",
+    "bandSlug": "dead-all-over",
+    "venue": "Terra Fermata Tiki Bar",
+    "city": "Stuart",
+    "state": "FL",
+    "lat": 27.197983,
+    "lng": -80.2519175,
+    "date": "2026-09-20",
+    "time": "7 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Dead All Over"
+    ]
+  },
+  {
+    "id": "gdtb-FL-mondo-tikis-2026-09-24-balibar-wines-grinds",
+    "name": "Mondo Tikis — Balibar Wines & Grinds",
+    "band": "Mondo Tikis",
+    "bandSlug": "mondo-tikis",
+    "venue": "Balibar Wines & Grinds",
+    "city": "Merritt Island",
+    "state": "FL",
+    "lat": 28.2662775,
+    "lng": -80.6636984,
+    "date": "2026-09-24",
+    "time": "7:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Mondo Tikis"
+    ]
+  },
+  {
+    "id": "gdtb-FL-mondo-tikis-2026-09-25-the-island-waterfront-bar-gril",
+    "name": "Mondo Tikis — The Island Waterfront Bar & Grill",
+    "band": "Mondo Tikis",
+    "bandSlug": "mondo-tikis",
+    "venue": "The Island Waterfront Bar & Grill",
+    "city": "Merritt Island",
+    "state": "FL",
+    "lat": 28.2662775,
+    "lng": -80.6636984,
+    "date": "2026-09-25",
+    "time": "7 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Mondo Tikis"
+    ]
+  },
+  {
     "id": "gdtb-FL-mondo-tikis-2026-10-02-the-island-waterfront-bar-gril",
     "name": "Mondo Tikis — The Island Waterfront Bar & Grill",
     "band": "Mondo Tikis",
@@ -3160,6 +3970,24 @@
     "lat": 28.2662775,
     "lng": -80.6636984,
     "date": "2026-10-02",
+    "time": "7 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Mondo Tikis"
+    ]
+  },
+  {
+    "id": "gdtb-FL-mondo-tikis-2026-10-03-hunkerdown-hideaway",
+    "name": "Mondo Tikis — Hunkerdown Hideaway",
+    "band": "Mondo Tikis",
+    "bandSlug": "mondo-tikis",
+    "venue": "Hunkerdown Hideaway",
+    "city": "Cocoa Beach",
+    "state": "FL",
+    "lat": 28.3184107,
+    "lng": -80.6094959,
+    "date": "2026-10-03",
     "time": "7 PM",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
     "source": "gdtb",
@@ -3183,24 +4011,6 @@
     "source": "gdtb",
     "attractions": [
       "Unlimited Devotion"
-    ]
-  },
-  {
-    "id": "gdtb-FL-mondo-tikis-2026-10-03-hunkerdown-hideaway",
-    "name": "Mondo Tikis — Hunkerdown Hideaway",
-    "band": "Mondo Tikis",
-    "bandSlug": "mondo-tikis",
-    "venue": "Hunkerdown Hideaway",
-    "city": "Cocoa Beach",
-    "state": "FL",
-    "lat": 28.3184107,
-    "lng": -80.6094959,
-    "date": "2026-10-03",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Mondo Tikis"
     ]
   },
   {
@@ -3258,6 +4068,42 @@
     ]
   },
   {
+    "id": "gdtb-FL-mondo-tikis-2026-10-29-balibar-wines-grinds",
+    "name": "Mondo Tikis — Balibar Wines & Grinds",
+    "band": "Mondo Tikis",
+    "bandSlug": "mondo-tikis",
+    "venue": "Balibar Wines & Grinds",
+    "city": "Merritt Island",
+    "state": "FL",
+    "lat": 28.2662775,
+    "lng": -80.6636984,
+    "date": "2026-10-29",
+    "time": "7:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Mondo Tikis"
+    ]
+  },
+  {
+    "id": "gdtb-FL-dead-experienced-2026-10-30-nomads-canteen-florida",
+    "name": "Dead & Experienced — Nomads Canteen Florida",
+    "band": "Dead & Experienced",
+    "bandSlug": "dead-experienced",
+    "venue": "Nomads Canteen Florida",
+    "city": "Melbourne",
+    "state": "FL",
+    "lat": 28.0785034,
+    "lng": -80.6077908,
+    "date": "2026-10-30",
+    "time": "8 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
+    "source": "gdtb",
+    "attractions": [
+      "Dead & Experienced"
+    ]
+  },
+  {
     "id": "gdtb-GA-frankly-scarlet-2026-08-15-312-jesse-jewell-pkwy-gainesvi",
     "name": "Frankly Scarlet — 312 Jesse Jewell Pkwy Gainesville GA United States Georgia 30501",
     "band": "Frankly Scarlet",
@@ -3309,6 +4155,24 @@
     "source": "gdtb",
     "attractions": [
       "Webster"
+    ]
+  },
+  {
+    "id": "gdtb-HI-melvin-seals-and-jgb-2026-09-18-5-2723-kuhio-hwy-kilauea-hi-un",
+    "name": "Melvin Seals and JGB — 5-2723 Kuhio Hwy Kilauea HI United States Hawaii 96754",
+    "band": "Melvin Seals and JGB",
+    "bandSlug": "melvin-seals-and-jgb",
+    "venue": "5-2723 Kuhio Hwy Kilauea HI United States Hawaii 96754",
+    "city": "Kilauea",
+    "state": "HI",
+    "lat": 22.2087822,
+    "lng": -159.407764,
+    "date": "2026-09-18",
+    "time": "THRU Sep 21",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=HI",
+    "source": "gdtb",
+    "attractions": [
+      "Melvin Seals and JGB"
     ]
   },
   {
@@ -3417,6 +4281,24 @@
     "source": "gdtb",
     "attractions": [
       "Fun Guise"
+    ]
+  },
+  {
+    "id": "gdtb-IL-rock-rye-2026-08-22-nick-s-beer-garden",
+    "name": "Rock & Rye — Nick's Beer Garden",
+    "band": "Rock & Rye",
+    "bandSlug": "rock-rye",
+    "venue": "Nick's Beer Garden",
+    "city": "Chicago",
+    "state": "IL",
+    "lat": 41.8755616,
+    "lng": -87.6244212,
+    "date": "2026-08-22",
+    "time": "9 PM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=IL",
+    "source": "gdtb",
+    "attractions": [
+      "Rock & Rye"
     ]
   },
   {
@@ -3579,6 +4461,24 @@
     "source": "gdtb",
     "attractions": [
       "Old Shoe"
+    ]
+  },
+  {
+    "id": "gdtb-IL-spies-of-the-world-2026-09-12-marengo-park-district",
+    "name": "Spies Of The World — Marengo Park District",
+    "band": "Spies Of The World",
+    "bandSlug": "spies-of-the-world",
+    "venue": "Marengo Park District",
+    "city": "Marengo",
+    "state": "IL",
+    "lat": 42.250149,
+    "lng": -88.6081303,
+    "date": "2026-09-12",
+    "time": "8 PM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=IL",
+    "source": "gdtb",
+    "attractions": [
+      "Spies Of The World"
     ]
   },
   {
@@ -3852,21 +4752,21 @@
     ]
   },
   {
-    "id": "gdtb-IN-born-cross-eyed-ky-2026-08-29-100-w-riverside-dr-jeffersonvi",
-    "name": "Born Cross Eyed-KY — 100 W Riverside Dr Jeffersonville IN",
-    "band": "Born Cross Eyed-KY",
-    "bandSlug": "born-cross-eyed-ky",
-    "venue": "100 W Riverside Dr Jeffersonville IN",
-    "city": "Jeffersonville",
+    "id": "gdtb-IN-dose-2026-08-28-leroy-s-hot-stuff-chesterton",
+    "name": "Dose — Leroy's Hot Stuff' Chesterton'",
+    "band": "Dose",
+    "bandSlug": "dose",
+    "venue": "Leroy's Hot Stuff' Chesterton'",
+    "city": "Chesterton",
     "state": "IN",
-    "lat": 38.2770227,
-    "lng": -85.7371604,
-    "date": "2026-08-29",
-    "time": "7 PM",
+    "lat": 41.6107243,
+    "lng": -87.0522661,
+    "date": "2026-08-28",
+    "time": "9:30 PM EDT",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=IN",
     "source": "gdtb",
     "attractions": [
-      "Born Cross Eyed-KY"
+      "Dose"
     ]
   },
   {
@@ -3898,6 +4798,24 @@
     "lat": 41.6020962,
     "lng": -87.3370646,
     "date": "2026-09-05",
+    "time": "5 PM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=IN",
+    "source": "gdtb",
+    "attractions": [
+      "Rusted Strings Band"
+    ]
+  },
+  {
+    "id": "gdtb-IN-rusted-strings-band-2026-09-06-sunset-hill-farm-county-park",
+    "name": "Rusted Strings Band — Sunset Hill Farm County Park",
+    "band": "Rusted Strings Band",
+    "bandSlug": "rusted-strings-band",
+    "venue": "Sunset Hill Farm County Park",
+    "city": "Valparaiso",
+    "state": "IN",
+    "lat": 41.4672552,
+    "lng": -87.0604487,
+    "date": "2026-09-06",
     "time": "5 PM EDT",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=IN",
     "source": "gdtb",
@@ -4065,6 +4983,24 @@
     "source": "gdtb",
     "attractions": [
       "Stealin the Farm"
+    ]
+  },
+  {
+    "id": "gdtb-IA-shakedown-strings-2027-08-08-2103-warren-avenue",
+    "name": "Shakedown Strings — 2103 Warren Avenue",
+    "band": "Shakedown Strings",
+    "bandSlug": "shakedown-strings",
+    "venue": "2103 Warren Avenue",
+    "city": "Prole",
+    "state": "IA",
+    "lat": 41.409158,
+    "lng": -93.7271648,
+    "date": "2027-08-08",
+    "time": "5:00PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=IA",
+    "source": "gdtb",
+    "attractions": [
+      "Shakedown Strings"
     ]
   },
   {
@@ -4240,11 +5176,29 @@
     "lat": 38.9697458,
     "lng": -94.7845837,
     "date": "2026-09-12",
-    "time": "",
+    "time": "8:00PM",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=KS",
     "source": "gdtb",
     "attractions": [
       "Shakedown Strings"
+    ]
+  },
+  {
+    "id": "gdtb-KY-65-95-2026-08-15-holsopple-brewing",
+    "name": "65-95 — Holsopple Brewing",
+    "band": "65-95",
+    "bandSlug": "65-95",
+    "venue": "Holsopple Brewing",
+    "city": "Louisville",
+    "state": "KY",
+    "lat": 38.2542376,
+    "lng": -85.759407,
+    "date": "2026-08-15",
+    "time": "7:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=KY",
+    "source": "gdtb",
+    "attractions": [
+      "65-95"
     ]
   },
   {
@@ -4263,24 +5217,6 @@
     "source": "gdtb",
     "attractions": [
       "Ramble On Rose Band"
-    ]
-  },
-  {
-    "id": "gdtb-ME-a-band-beyond-description-2026-08-14-60-acres-of-wildlife-rd-steep-",
-    "name": "A Band Beyond Description — 60 Acres of Wildlife Rd. Steep Falls Maine 04085",
-    "band": "A Band Beyond Description",
-    "bandSlug": "a-band-beyond-description",
-    "venue": "60 Acres of Wildlife Rd. Steep Falls Maine 04085",
-    "city": "Steep Falls",
-    "state": "ME",
-    "lat": 43.7937603,
-    "lng": -70.6521114,
-    "date": "2026-08-14",
-    "time": "THRU Aug 17",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=ME",
-    "source": "gdtb",
-    "attractions": [
-      "A Band Beyond Description"
     ]
   },
   {
@@ -4317,6 +5253,42 @@
     "source": "gdtb",
     "attractions": [
       "Sans Souci JGB Tribute"
+    ]
+  },
+  {
+    "id": "gdtb-ME-a-band-beyond-description-2026-08-14-60-acres-of-wildlife-rd-steep-",
+    "name": "A Band Beyond Description — 60 Acres of Wildlife Rd. Steep Falls Maine 04085",
+    "band": "A Band Beyond Description",
+    "bandSlug": "a-band-beyond-description",
+    "venue": "60 Acres of Wildlife Rd. Steep Falls Maine 04085",
+    "city": "Steep Falls",
+    "state": "ME",
+    "lat": 43.7937603,
+    "lng": -70.6521114,
+    "date": "2026-08-14",
+    "time": "THRU Aug 17",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=ME",
+    "source": "gdtb",
+    "attractions": [
+      "A Band Beyond Description"
+    ]
+  },
+  {
+    "id": "gdtb-ME-mystic-dead-2026-08-18-the-hounds",
+    "name": "Mystic Dead — The Hounds",
+    "band": "Mystic Dead",
+    "bandSlug": "mystic-dead",
+    "venue": "The Hounds",
+    "city": "Stonington",
+    "state": "ME",
+    "lat": 44.156593,
+    "lng": -68.667297,
+    "date": "2026-08-18",
+    "time": "6pm - 9pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=ME",
+    "source": "gdtb",
+    "attractions": [
+      "Mystic Dead"
     ]
   },
   {
@@ -4446,6 +5418,24 @@
     ]
   },
   {
+    "id": "gdtb-MD-the-dirty-middle-2026-08-15-elder-pine-brewing-blending-co",
+    "name": "The Dirty Middle — Elder Pine Brewing & Blending Co",
+    "band": "The Dirty Middle",
+    "bandSlug": "the-dirty-middle",
+    "venue": "Elder Pine Brewing & Blending Co",
+    "city": "Gaithersburg",
+    "state": "MD",
+    "lat": 39.1399187,
+    "lng": -77.1929215,
+    "date": "2026-08-15",
+    "time": "6:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MD",
+    "source": "gdtb",
+    "attractions": [
+      "The Dirty Middle"
+    ]
+  },
+  {
     "id": "gdtb-MD-indeadnation-2026-08-16-6526-holabird-ave",
     "name": "InDEADnation — 6526 Holabird Ave",
     "band": "InDEADnation",
@@ -4461,6 +5451,24 @@
     "source": "gdtb",
     "attractions": [
       "InDEADnation"
+    ]
+  },
+  {
+    "id": "gdtb-MD-better-off-dead-band-2026-08-16-charlys-waterfront",
+    "name": "Better Off Dead Band — Charlys Waterfront",
+    "band": "Better Off Dead Band",
+    "bandSlug": "better-off-dead-band",
+    "venue": "Charlys Waterfront",
+    "city": "Essex",
+    "state": "MD",
+    "lat": 39.301059,
+    "lng": -76.4424869,
+    "date": "2026-08-16",
+    "time": "1 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MD",
+    "source": "gdtb",
+    "attractions": [
+      "Better Off Dead Band"
     ]
   },
   {
@@ -4497,6 +5505,24 @@
     "source": "gdtb",
     "attractions": [
       "Rays of Violet"
+    ]
+  },
+  {
+    "id": "gdtb-MD-dead-all-along-2026-08-26-wisp-resort",
+    "name": "Dead All Along — Wisp Resort",
+    "band": "Dead All Along",
+    "bandSlug": "dead-all-along",
+    "venue": "Wisp Resort",
+    "city": "McHenry",
+    "state": "MD",
+    "lat": 39.5584217,
+    "lng": -79.3528174,
+    "date": "2026-08-26",
+    "time": "6 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MD",
+    "source": "gdtb",
+    "attractions": [
+      "Dead All Along"
     ]
   },
   {
@@ -4569,6 +5595,24 @@
     "source": "gdtb",
     "attractions": [
       "InDEADnation"
+    ]
+  },
+  {
+    "id": "gdtb-MD-better-weather-2026-09-04-jilly-s-bar-grill",
+    "name": "Better Weather — Jilly's Bar & Grill",
+    "band": "Better Weather",
+    "bandSlug": "better-weather",
+    "venue": "Jilly's Bar & Grill",
+    "city": "Pikesville",
+    "state": "MD",
+    "lat": 39.385227,
+    "lng": -76.7080456,
+    "date": "2026-09-04",
+    "time": "7 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MD",
+    "source": "gdtb",
+    "attractions": [
+      "Better Weather"
     ]
   },
   {
@@ -4824,21 +5868,21 @@
     ]
   },
   {
-    "id": "gdtb-MA-wolfman-jack-2026-08-15-marigold-theater",
-    "name": "Wolfman Jack — Marigold Theater",
-    "band": "Wolfman Jack",
-    "bandSlug": "wolfman-jack",
-    "venue": "Marigold Theater",
-    "city": "Easthampton",
+    "id": "gdtb-MA-alligator-wine-st-louis-2026-08-15-palmer-st-in-downtown-lowell",
+    "name": "Alligator Wine St Louis — Palmer St. in Downtown Lowell",
+    "band": "Alligator Wine St Louis",
+    "bandSlug": "alligator-wine-st-louis",
+    "venue": "Palmer St. in Downtown Lowell",
+    "city": "Lowell",
     "state": "MA",
-    "lat": 42.2708804,
-    "lng": -72.6719579,
+    "lat": 42.6414437,
+    "lng": -71.3085329,
     "date": "2026-08-15",
-    "time": "8 PM",
+    "time": "1:30 PM",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
     "source": "gdtb",
     "attractions": [
-      "Wolfman Jack"
+      "Alligator Wine St Louis"
     ]
   },
   {
@@ -4896,6 +5940,24 @@
     ]
   },
   {
+    "id": "gdtb-MA-wolfman-jack-2026-08-15-marigold-theater",
+    "name": "Wolfman Jack — Marigold Theater",
+    "band": "Wolfman Jack",
+    "bandSlug": "wolfman-jack",
+    "venue": "Marigold Theater",
+    "city": "Easthampton",
+    "state": "MA",
+    "lat": 42.2708804,
+    "lng": -72.6719579,
+    "date": "2026-08-15",
+    "time": "8 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
+    "source": "gdtb",
+    "attractions": [
+      "Wolfman Jack"
+    ]
+  },
+  {
     "id": "gdtb-MA-the-deadheads-2026-08-16-lake-george-tavern",
     "name": "The Deadheads — Lake George Tavern",
     "band": "The Deadheads",
@@ -4914,24 +5976,6 @@
     ]
   },
   {
-    "id": "gdtb-MA-a-phine-connection-2026-08-19-upper-common-fitchburg",
-    "name": "A Phine Connection — Upper Common Fitchburg",
-    "band": "A Phine Connection",
-    "bandSlug": "a-phine-connection",
-    "venue": "Upper Common Fitchburg",
-    "city": "Fitchburg",
-    "state": "MA",
-    "lat": 42.5838984,
-    "lng": -71.8038268,
-    "date": "2026-08-19",
-    "time": "5:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "A Phine Connection"
-    ]
-  },
-  {
     "id": "gdtb-MA-playing-dead-2026-08-19-soundcheck-studios-pembroke",
     "name": "Playing Dead — Soundcheck Studios Pembroke",
     "band": "Playing Dead",
@@ -4947,6 +5991,24 @@
     "source": "gdtb",
     "attractions": [
       "Playing Dead"
+    ]
+  },
+  {
+    "id": "gdtb-MA-a-phine-connection-2026-08-19-upper-common-fitchburg",
+    "name": "A Phine Connection — Upper Common Fitchburg",
+    "band": "A Phine Connection",
+    "bandSlug": "a-phine-connection",
+    "venue": "Upper Common Fitchburg",
+    "city": "Fitchburg",
+    "state": "MA",
+    "lat": 42.5838984,
+    "lng": -71.8038268,
+    "date": "2026-08-19",
+    "time": "5:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
+    "source": "gdtb",
+    "attractions": [
+      "A Phine Connection"
     ]
   },
   {
@@ -4983,6 +6045,60 @@
     "source": "gdtb",
     "attractions": [
       "August First"
+    ]
+  },
+  {
+    "id": "gdtb-MA-dire-wolf-2026-08-21-56-island-street-lawrence-ma-u",
+    "name": "Dire Wolf — 56 Island Street Lawrence MA United States Massachusetts 01840",
+    "band": "Dire Wolf",
+    "bandSlug": "dire-wolf",
+    "venue": "56 Island Street Lawrence MA United States Massachusetts 01840",
+    "city": "Lawrence",
+    "state": "MA",
+    "lat": 42.7070354,
+    "lng": -71.1631137,
+    "date": "2026-08-21",
+    "time": "7:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
+    "source": "gdtb",
+    "attractions": [
+      "Dire Wolf"
+    ]
+  },
+  {
+    "id": "gdtb-MA-diamond-blues-2026-08-22-455-highland-avenue-phillipsto",
+    "name": "Diamond Blues — 455 Highland Avenue Phillipston MA United States Massachusetts",
+    "band": "Diamond Blues",
+    "bandSlug": "diamond-blues",
+    "venue": "455 Highland Avenue Phillipston MA United States Massachusetts",
+    "city": "Phillipston",
+    "state": "MA",
+    "lat": 42.5492476,
+    "lng": -72.1330362,
+    "date": "2026-08-22",
+    "time": "3 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
+    "source": "gdtb",
+    "attractions": [
+      "Diamond Blues"
+    ]
+  },
+  {
+    "id": "gdtb-MA-live-dead-friends-2026-08-22-55-main-street-essex-ma",
+    "name": "Live Dead & Friends — 55 Main Street Essex MA",
+    "band": "Live Dead & Friends",
+    "bandSlug": "live-dead-friends",
+    "venue": "55 Main Street Essex MA",
+    "city": "Essex",
+    "state": "MA",
+    "lat": 42.6326501,
+    "lng": -70.7803543,
+    "date": "2026-08-22",
+    "time": "7 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
+    "source": "gdtb",
+    "attractions": [
+      "Live Dead & Friends"
     ]
   },
   {
@@ -5130,6 +6246,24 @@
     ]
   },
   {
+    "id": "gdtb-MA-ramble-on-rose-band-2026-09-03-the-cave-at-red-lion-inn",
+    "name": "Ramble On Rose Band — The Cave at Red Lion Inn",
+    "band": "Ramble On Rose Band",
+    "bandSlug": "ramble-on-rose-band",
+    "venue": "The Cave at Red Lion Inn",
+    "city": "Cohasset",
+    "state": "MA",
+    "lat": 42.2410158,
+    "lng": -70.8035571,
+    "date": "2026-09-03",
+    "time": "8 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
+    "source": "gdtb",
+    "attractions": [
+      "Ramble On Rose Band"
+    ]
+  },
+  {
     "id": "gdtb-MA-alligator-wine-2026-09-04-the-skinny-pancake",
     "name": "Alligator Wine — The Skinny Pancake",
     "band": "Alligator Wine",
@@ -5230,29 +6364,11 @@
     "lat": 42.1584324,
     "lng": -71.1447732,
     "date": "2026-09-10",
-    "time": "6 PM",
+    "time": "6:30 PM",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
     "source": "gdtb",
     "attractions": [
       "Diamond Blues"
-    ]
-  },
-  {
-    "id": "gdtb-MA-quaboag-river-blues-band-2026-09-11-40-belchertown-st",
-    "name": "Quaboag River Blues Band — 40 Belchertown St",
-    "band": "Quaboag River Blues Band",
-    "bandSlug": "quaboag-river-blues-band",
-    "venue": "40 Belchertown St",
-    "city": "Three Rivers",
-    "state": "MA",
-    "lat": 42.1787011,
-    "lng": -72.3671113,
-    "date": "2026-09-11",
-    "time": "6pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "Quaboag River Blues Band"
     ]
   },
   {
@@ -5271,6 +6387,24 @@
     "source": "gdtb",
     "attractions": [
       "The Deadheads"
+    ]
+  },
+  {
+    "id": "gdtb-MA-quaboag-river-blues-band-2026-09-11-40-belchertown-st",
+    "name": "Quaboag River Blues Band — 40 Belchertown St",
+    "band": "Quaboag River Blues Band",
+    "bandSlug": "quaboag-river-blues-band",
+    "venue": "40 Belchertown St",
+    "city": "Three Rivers",
+    "state": "MA",
+    "lat": 42.1787011,
+    "lng": -72.3671113,
+    "date": "2026-09-11",
+    "time": "6pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
+    "source": "gdtb",
+    "attractions": [
+      "Quaboag River Blues Band"
     ]
   },
   {
@@ -5346,6 +6480,24 @@
     ]
   },
   {
+    "id": "gdtb-MA-rob-glassman-band-2026-09-19-captain-s-choice",
+    "name": "Rob Glassman Band — Captain's Choice",
+    "band": "Rob Glassman Band",
+    "bandSlug": "rob-glassman-band",
+    "venue": "Captain's Choice",
+    "city": "North Truro",
+    "state": "MA",
+    "lat": 42.0334364,
+    "lng": -70.0953025,
+    "date": "2026-09-19",
+    "time": "3 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
+    "source": "gdtb",
+    "attractions": [
+      "Rob Glassman Band"
+    ]
+  },
+  {
     "id": "gdtb-MA-the-deadheads-2026-09-19-boston-common-139-tremont-st-b",
     "name": "The Deadheads — Boston Common 139 Tremont St Boston MA 02108.",
     "band": "The Deadheads",
@@ -5361,24 +6513,6 @@
     "source": "gdtb",
     "attractions": [
       "The Deadheads"
-    ]
-  },
-  {
-    "id": "gdtb-MA-the-grateful-teds-2026-09-19-longfellow-s-wayside-inn",
-    "name": "The Grateful Teds — Longfellow's Wayside Inn",
-    "band": "The Grateful Teds",
-    "bandSlug": "the-grateful-teds",
-    "venue": "Longfellow's Wayside Inn",
-    "city": "Sudbury",
-    "state": "MA",
-    "lat": 42.3834278,
-    "lng": -71.4161725,
-    "date": "2026-09-19",
-    "time": "5 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "The Grateful Teds"
     ]
   },
   {
@@ -5415,6 +6549,24 @@
     "source": "gdtb",
     "attractions": [
       "Diamond Blues"
+    ]
+  },
+  {
+    "id": "gdtb-MA-rob-glassman-band-2026-09-20-wellfleet-pearl",
+    "name": "Rob Glassman Band — Wellfleet PEARL",
+    "band": "Rob Glassman Band",
+    "bandSlug": "rob-glassman-band",
+    "venue": "Wellfleet PEARL",
+    "city": "Wellfleet",
+    "state": "MA",
+    "lat": 41.9376051,
+    "lng": -70.0327996,
+    "date": "2026-09-20",
+    "time": "3 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
+    "source": "gdtb",
+    "attractions": [
+      "Rob Glassman Band"
     ]
   },
   {
@@ -5505,6 +6657,24 @@
     "source": "gdtb",
     "attractions": [
       "Lobsterz from Marz"
+    ]
+  },
+  {
+    "id": "gdtb-MA-the-grateful-teds-2026-10-02-longfellow-s-wayside-inn",
+    "name": "The Grateful Teds — Longfellow's Wayside Inn",
+    "band": "The Grateful Teds",
+    "bandSlug": "the-grateful-teds",
+    "venue": "Longfellow's Wayside Inn",
+    "city": "Sudbury",
+    "state": "MA",
+    "lat": 42.3834278,
+    "lng": -71.4161725,
+    "date": "2026-10-02",
+    "time": "5 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
+    "source": "gdtb",
+    "attractions": [
+      "The Grateful Teds"
     ]
   },
   {
@@ -5634,24 +6804,6 @@
     ]
   },
   {
-    "id": "gdtb-MA-a-phine-connection-2026-10-16-firefly-s-bbq",
-    "name": "A Phine Connection — Firefly's BBQ",
-    "band": "A Phine Connection",
-    "bandSlug": "a-phine-connection",
-    "venue": "Firefly's BBQ",
-    "city": "Marlborough",
-    "state": "MA",
-    "lat": 42.3468589,
-    "lng": -71.5525188,
-    "date": "2026-10-16",
-    "time": "9 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "A Phine Connection"
-    ]
-  },
-  {
     "id": "gdtb-MA-bertha-grateful-drag-2026-10-16-paradise-rock-club",
     "name": "Bertha Grateful Drag — Paradise Rock Club",
     "band": "Bertha Grateful Drag",
@@ -5667,6 +6819,24 @@
     "source": "gdtb",
     "attractions": [
       "Bertha Grateful Drag"
+    ]
+  },
+  {
+    "id": "gdtb-MA-a-phine-connection-2026-10-16-firefly-s-bbq",
+    "name": "A Phine Connection — Firefly's BBQ",
+    "band": "A Phine Connection",
+    "bandSlug": "a-phine-connection",
+    "venue": "Firefly's BBQ",
+    "city": "Marlborough",
+    "state": "MA",
+    "lat": 42.3468589,
+    "lng": -71.5525188,
+    "date": "2026-10-16",
+    "time": "9 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
+    "source": "gdtb",
+    "attractions": [
+      "A Phine Connection"
     ]
   },
   {
@@ -5760,21 +6930,21 @@
     ]
   },
   {
-    "id": "gdtb-MA-diamond-blues-2026-10-25-21-north-st-medfield-ma-02052-",
-    "name": "Diamond Blues — 21 North St Medfield MA 02052-2307 United States",
-    "band": "Diamond Blues",
-    "bandSlug": "diamond-blues",
-    "venue": "21 North St Medfield MA 02052-2307 United States",
-    "city": "Medfield",
+    "id": "gdtb-MA-rob-glassman-band-2026-10-30-bright-ideas-brewing-westfield",
+    "name": "Rob Glassman Band — Bright Ideas Brewing Westfield",
+    "band": "Rob Glassman Band",
+    "bandSlug": "rob-glassman-band",
+    "venue": "Bright Ideas Brewing Westfield",
+    "city": "Westfield",
     "state": "MA",
-    "lat": 42.1865609,
-    "lng": -71.30546,
-    "date": "2026-10-25",
-    "time": "5 PM",
+    "lat": 42.1205411,
+    "lng": -72.7489158,
+    "date": "2026-10-30",
+    "time": "7 PM",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
     "source": "gdtb",
     "attractions": [
-      "Diamond Blues"
+      "Rob Glassman Band"
     ]
   },
   {
@@ -5868,29 +7038,11 @@
     ]
   },
   {
-    "id": "gdtb-MI-mighty-swells-2026-08-21-510-north-main-chelsea-mi-unit",
-    "name": "Mighty Swells — 510 North Main Chelsea MI United States Michigan 48118",
-    "band": "Mighty Swells",
-    "bandSlug": "mighty-swells",
-    "venue": "510 North Main Chelsea MI United States Michigan 48118",
-    "city": "Chelsea",
-    "state": "MI",
-    "lat": 42.3180163,
-    "lng": -84.020224,
-    "date": "2026-08-21",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MI",
-    "source": "gdtb",
-    "attractions": [
-      "Mighty Swells"
-    ]
-  },
-  {
-    "id": "gdtb-MI-the-mighty-swells-2026-08-21-rumpus-shakedown-the-mighty-sw",
-    "name": "The Mighty Swells — Rumpus Shakedown - The Mighty Swells - NO COVER - Event by The Rumpus Room - Chelsea",
+    "id": "gdtb-MI-the-mighty-swells-2026-08-21-510-north-main-chelsea-mi-unit",
+    "name": "The Mighty Swells — 510 North Main Chelsea MI United States Michigan 48118",
     "band": "The Mighty Swells",
     "bandSlug": "the-mighty-swells",
-    "venue": "Rumpus Shakedown - The Mighty Swells - NO COVER - Event by The Rumpus Room - Chelsea",
+    "venue": "510 North Main Chelsea MI United States Michigan 48118",
     "city": "Chelsea",
     "state": "MI",
     "lat": 42.3180163,
@@ -6048,24 +7200,6 @@
     ]
   },
   {
-    "id": "gdtb-MI-mighty-swells-2026-09-18-510-north-main-chelsea-mi-unit",
-    "name": "Mighty Swells — 510 North Main Chelsea MI United States Michigan 48118",
-    "band": "Mighty Swells",
-    "bandSlug": "mighty-swells",
-    "venue": "510 North Main Chelsea MI United States Michigan 48118",
-    "city": "Chelsea",
-    "state": "MI",
-    "lat": 42.3180163,
-    "lng": -84.020224,
-    "date": "2026-09-18",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MI",
-    "source": "gdtb",
-    "attractions": [
-      "Mighty Swells"
-    ]
-  },
-  {
     "id": "gdtb-MI-terrapin-flyer-2026-09-18-the-magic-bag",
     "name": "Terrapin Flyer — The Magic Bag",
     "band": "Terrapin Flyer",
@@ -6102,6 +7236,24 @@
     ]
   },
   {
+    "id": "gdtb-MI-supercrunch-2026-09-25-4300-cadieux-rd-detroit-mi-uni",
+    "name": "Supercrunch — 4300 Cadieux Rd Detroit MI United States Michigan 48224",
+    "band": "Supercrunch",
+    "bandSlug": "supercrunch",
+    "venue": "4300 Cadieux Rd Detroit MI United States Michigan 48224",
+    "city": "Detroit",
+    "state": "MI",
+    "lat": 42.3315509,
+    "lng": -83.0466403,
+    "date": "2026-09-25",
+    "time": "7:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MI",
+    "source": "gdtb",
+    "attractions": [
+      "Supercrunch"
+    ]
+  },
+  {
     "id": "gdtb-MI-jrad-2026-10-03-glc-live-at-20-monroe",
     "name": "Joe Russo's Almost Dead — GLC Live at 20 Monroe",
     "band": "Joe Russo's Almost Dead",
@@ -6135,6 +7287,24 @@
     "source": "gdtb",
     "attractions": [
       "Eyes of the Raven"
+    ]
+  },
+  {
+    "id": "gdtb-MI-supercrunch-2026-10-30-4300-cadieux-rd-detroit-mi-uni",
+    "name": "Supercrunch — 4300 Cadieux Rd Detroit MI United States Michigan 48224",
+    "band": "Supercrunch",
+    "bandSlug": "supercrunch",
+    "venue": "4300 Cadieux Rd Detroit MI United States Michigan 48224",
+    "city": "Detroit",
+    "state": "MI",
+    "lat": 42.3315509,
+    "lng": -83.0466403,
+    "date": "2026-10-30",
+    "time": "8:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MI",
+    "source": "gdtb",
+    "attractions": [
+      "Supercrunch"
     ]
   },
   {
@@ -6207,6 +7377,24 @@
     "source": "gdtb",
     "attractions": [
       "Grateful Zed"
+    ]
+  },
+  {
+    "id": "gdtb-MN-grateful-gals-2026-09-24-day-block-brewing-company",
+    "name": "Grateful Gals — Day Block Brewing Company",
+    "band": "Grateful Gals",
+    "bandSlug": "grateful-gals",
+    "venue": "Day Block Brewing Company",
+    "city": "Minneapolis",
+    "state": "MN",
+    "lat": 44.9772995,
+    "lng": -93.2654692,
+    "date": "2026-09-24",
+    "time": "8 PM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MN",
+    "source": "gdtb",
+    "attractions": [
+      "Grateful Gals"
     ]
   },
   {
@@ -6346,7 +7534,7 @@
     "lat": 39.100105,
     "lng": -94.5781416,
     "date": "2026-09-02",
-    "time": "5:00PM",
+    "time": "6:00PM",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MO",
     "source": "gdtb",
     "attractions": [
@@ -6408,6 +7596,24 @@
     ]
   },
   {
+    "id": "gdtb-MO-shakedown-strings-2026-09-12-1600-genessee-st-100",
+    "name": "Shakedown Strings — 1600 Genessee St #100",
+    "band": "Shakedown Strings",
+    "bandSlug": "shakedown-strings",
+    "venue": "1600 Genessee St #100",
+    "city": "Kansas City",
+    "state": "MO",
+    "lat": 39.100105,
+    "lng": -94.5781416,
+    "date": "2026-09-12",
+    "time": "4:00PMÂ â",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MO",
+    "source": "gdtb",
+    "attractions": [
+      "Shakedown Strings"
+    ]
+  },
+  {
     "id": "gdtb-MO-jake-s-leg-2026-09-19-alton-amphitheater",
     "name": "Jake's Leg — Alton Amphitheater",
     "band": "Jake's Leg",
@@ -6423,6 +7629,42 @@
     "source": "gdtb",
     "attractions": [
       "Jake's Leg"
+    ]
+  },
+  {
+    "id": "gdtb-MO-shakedown-strings-2026-09-20-kkfi-90-1",
+    "name": "Shakedown Strings — KKFI 90.1",
+    "band": "Shakedown Strings",
+    "bandSlug": "shakedown-strings",
+    "venue": "KKFI 90.1",
+    "city": "Online",
+    "state": "MO",
+    "lat": 38.9442379,
+    "lng": -94.4364462,
+    "date": "2026-09-20",
+    "time": "10:00AM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MO",
+    "source": "gdtb",
+    "attractions": [
+      "Shakedown Strings"
+    ]
+  },
+  {
+    "id": "gdtb-MO-alligator-wine-st-louis-2026-10-10-the-grateful-skier",
+    "name": "Alligator Wine St Louis — The Grateful Skier",
+    "band": "Alligator Wine St Louis",
+    "bandSlug": "alligator-wine-st-louis",
+    "venue": "The Grateful Skier",
+    "city": "Lincoln",
+    "state": "MO",
+    "lat": 39.0605477,
+    "lng": -90.959359,
+    "date": "2026-10-10",
+    "time": "8 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MO",
+    "source": "gdtb",
+    "attractions": [
+      "Alligator Wine St Louis"
     ]
   },
   {
@@ -6498,7 +7740,7 @@
     ]
   },
   {
-    "id": "gdtb-NE-shakedown-strings-2026-08-09-6307-center-st",
+    "id": "gdtb-NE-shakedown-strings-2027-08-09-6307-center-st",
     "name": "Shakedown Strings — 6307 Center St",
     "band": "Shakedown Strings",
     "bandSlug": "shakedown-strings",
@@ -6507,7 +7749,7 @@
     "state": "NE",
     "lat": 41.2587459,
     "lng": -95.9383758,
-    "date": "2026-08-09",
+    "date": "2027-08-09",
     "time": "6:00PM",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NE",
     "source": "gdtb",
@@ -6588,6 +7830,24 @@
     ]
   },
   {
+    "id": "gdtb-NE-touch-of-grey-midwest-2026-09-12-sonny-s",
+    "name": "Touch of Grey Midwest — Sonny's",
+    "band": "Touch of Grey Midwest",
+    "bandSlug": "touch-of-grey-midwest",
+    "venue": "Sonny's",
+    "city": "Omaha",
+    "state": "NE",
+    "lat": 41.2587459,
+    "lng": -95.9383758,
+    "date": "2026-09-12",
+    "time": "8 PM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NE",
+    "source": "gdtb",
+    "attractions": [
+      "Touch of Grey Midwest"
+    ]
+  },
+  {
     "id": "gdtb-NV-a-carny-vibe-2026-08-28-abby-s-highway-40",
     "name": "A Carny Vibe — Abby's Highway 40",
     "band": "A Carny Vibe",
@@ -6603,6 +7863,42 @@
     "source": "gdtb",
     "attractions": [
       "A Carny Vibe"
+    ]
+  },
+  {
+    "id": "gdtb-NV-catfish-john-2026-09-06-the-sand-dollar-lv",
+    "name": "Catfish John — The Sand Dollar LV",
+    "band": "Catfish John",
+    "bandSlug": "catfish-john",
+    "venue": "The Sand Dollar LV",
+    "city": "Las Vegas",
+    "state": "NV",
+    "lat": 36.1674263,
+    "lng": -115.1484131,
+    "date": "2026-09-06",
+    "time": "1 AM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NV",
+    "source": "gdtb",
+    "attractions": [
+      "Catfish John"
+    ]
+  },
+  {
+    "id": "gdtb-NV-melvin-seals-and-jgb-2026-10-09-14-state-route-28-crystal-bay-",
+    "name": "Melvin Seals and JGB — 14 State Route 28 Crystal Bay NV United States Nevada 89402",
+    "band": "Melvin Seals and JGB",
+    "bandSlug": "melvin-seals-and-jgb",
+    "venue": "14 State Route 28 Crystal Bay NV United States Nevada 89402",
+    "city": "Crystal Bay",
+    "state": "NV",
+    "lat": 39.234864,
+    "lng": -120.0016788,
+    "date": "2026-10-09",
+    "time": "11 PM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NV",
+    "source": "gdtb",
+    "attractions": [
+      "Melvin Seals and JGB"
     ]
   },
   {
@@ -6660,6 +7956,24 @@
     ]
   },
   {
+    "id": "gdtb-NH-alligator-wine-st-louis-2026-09-03-the-range-mason",
+    "name": "Alligator Wine St Louis — The Range Mason",
+    "band": "Alligator Wine St Louis",
+    "bandSlug": "alligator-wine-st-louis",
+    "venue": "The Range Mason",
+    "city": "Mason",
+    "state": "NH",
+    "lat": 42.7429947,
+    "lng": -71.7688761,
+    "date": "2026-09-03",
+    "time": "6 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NH",
+    "source": "gdtb",
+    "attractions": [
+      "Alligator Wine St Louis"
+    ]
+  },
+  {
     "id": "gdtb-NH-diamond-blues-2026-09-03-5-granite-st-newmarket-nh-unit",
     "name": "Diamond Blues — 5 Granite St Newmarket NH United States New Hampshire 03857",
     "band": "Diamond Blues",
@@ -6696,6 +8010,24 @@
     ]
   },
   {
+    "id": "gdtb-NH-alligator-wine-st-louis-2026-09-25-368-centreal-ave",
+    "name": "Alligator Wine St Louis — 368 Centreal Ave",
+    "band": "Alligator Wine St Louis",
+    "bandSlug": "alligator-wine-st-louis",
+    "venue": "368 Centreal Ave",
+    "city": "Dover",
+    "state": "NH",
+    "lat": 43.1981117,
+    "lng": -70.8739761,
+    "date": "2026-09-25",
+    "time": "9 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NH",
+    "source": "gdtb",
+    "attractions": [
+      "Alligator Wine St Louis"
+    ]
+  },
+  {
     "id": "gdtb-NH-diamond-blues-2026-10-17-vernon-family-farm",
     "name": "Diamond Blues — Vernon Family Farm",
     "band": "Diamond Blues",
@@ -6714,21 +8046,21 @@
     ]
   },
   {
-    "id": "gdtb-NJ-dead-reckoning-2026-08-10-crabby-jack-s-at-the-crab-trap",
-    "name": "Dead Reckoning — Crabby Jack's at the Crab Trap",
-    "band": "Dead Reckoning",
-    "bandSlug": "dead-reckoning",
-    "venue": "Crabby Jack's at the Crab Trap",
-    "city": "Somers Point",
-    "state": "NJ",
-    "lat": 39.3176158,
-    "lng": -74.594601,
-    "date": "2026-08-10",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "id": "gdtb-NH-melvin-seals-and-jgb-2026-10-22-201-main-street-nashua-nh-unit",
+    "name": "Melvin Seals and JGB — 201 Main Street Nashua NH United States New Hampshire 03060",
+    "band": "Melvin Seals and JGB",
+    "bandSlug": "melvin-seals-and-jgb",
+    "venue": "201 Main Street Nashua NH United States New Hampshire 03060",
+    "city": "Nashua",
+    "state": "NH",
+    "lat": 42.7656251,
+    "lng": -71.4677032,
+    "date": "2026-10-22",
+    "time": "7:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NH",
     "source": "gdtb",
     "attractions": [
-      "Dead Reckoning"
+      "Melvin Seals and JGB"
     ]
   },
   {
@@ -6822,24 +8154,6 @@
     ]
   },
   {
-    "id": "gdtb-NJ-widesun-2026-08-14-tierney-s-tavern",
-    "name": "WideSun — Tierney's Tavern",
-    "band": "WideSun",
-    "bandSlug": "widesun",
-    "venue": "Tierney's Tavern",
-    "city": "Montclair",
-    "state": "NJ",
-    "lat": 40.8164458,
-    "lng": -74.2210643,
-    "date": "2026-08-14",
-    "time": "8 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "WideSun"
-    ]
-  },
-  {
     "id": "gdtb-NJ-be5d-2026-08-14-the-idle-hour-restaurant",
     "name": "Be5D — The Idle Hour Restaurant",
     "band": "Be5D",
@@ -6894,6 +8208,24 @@
     ]
   },
   {
+    "id": "gdtb-NJ-good-dead-2026-08-14-bull-n-bear-brewery",
+    "name": "Good & Dead — Bull n Bear Brewery",
+    "band": "Good & Dead",
+    "bandSlug": "good-dead",
+    "venue": "Bull n Bear Brewery",
+    "city": "Summit",
+    "state": "NJ",
+    "lat": 40.7182356,
+    "lng": -74.3592296,
+    "date": "2026-08-14",
+    "time": "8 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "source": "gdtb",
+    "attractions": [
+      "Good & Dead"
+    ]
+  },
+  {
     "id": "gdtb-NJ-lovelight-2026-08-14-dadz-bar-grill",
     "name": "LoveLight — Dadz Bar & Grill",
     "band": "LoveLight",
@@ -6930,11 +8262,47 @@
     ]
   },
   {
-    "id": "gdtb-NJ-be5d-2026-08-15-avalon-campground",
-    "name": "Be5D — Avalon Campground",
+    "id": "gdtb-NJ-the-big-trip-2026-08-14-the-union-house",
+    "name": "The Big Trip — The Union House",
+    "band": "The Big Trip",
+    "bandSlug": "the-big-trip",
+    "venue": "The Union House",
+    "city": "Burlington",
+    "state": "NJ",
+    "lat": 39.9325409,
+    "lng": -74.7226665,
+    "date": "2026-08-14",
+    "time": "7 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "source": "gdtb",
+    "attractions": [
+      "The Big Trip"
+    ]
+  },
+  {
+    "id": "gdtb-NJ-widesun-2026-08-14-tierney-s-tavern",
+    "name": "WideSun — Tierney's Tavern",
+    "band": "WideSun",
+    "bandSlug": "widesun",
+    "venue": "Tierney's Tavern",
+    "city": "Montclair",
+    "state": "NJ",
+    "lat": 40.8164458,
+    "lng": -74.2210643,
+    "date": "2026-08-14",
+    "time": "8 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "source": "gdtb",
+    "attractions": [
+      "WideSun"
+    ]
+  },
+  {
+    "id": "gdtb-NJ-be5d-2026-08-15-event-by-be5d",
+    "name": "Be5D — Event by Be5D",
     "band": "Be5D",
     "bandSlug": "be5d",
-    "venue": "Avalon Campground",
+    "venue": "Event by Be5D",
     "city": "Cape May Court House",
     "state": "NJ",
     "lat": 39.075938,
@@ -7035,6 +8403,42 @@
     "source": "gdtb",
     "attractions": [
       "Melvin Seals and JGB"
+    ]
+  },
+  {
+    "id": "gdtb-NJ-trouble-ahead-nj-2026-08-15-the-shillelagh-club-friendly-s",
+    "name": "Trouble Ahead NJ — The Shillelagh Club / Friendly Sons of the Shillelagh-Essex County",
+    "band": "Trouble Ahead NJ",
+    "bandSlug": "trouble-ahead-nj",
+    "venue": "The Shillelagh Club / Friendly Sons of the Shillelagh-Essex County",
+    "city": "West Orange",
+    "state": "NJ",
+    "lat": 40.7987113,
+    "lng": -74.2390353,
+    "date": "2026-08-15",
+    "time": "8 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "source": "gdtb",
+    "attractions": [
+      "Trouble Ahead NJ"
+    ]
+  },
+  {
+    "id": "gdtb-NJ-wheel-2026-08-15-the-dog-house-saloon-grill-was",
+    "name": "Wheel — The Dog House Saloon & Grill Washington Twp",
+    "band": "Wheel",
+    "bandSlug": "wheel",
+    "venue": "The Dog House Saloon & Grill Washington Twp",
+    "city": "Washington Township",
+    "state": "NJ",
+    "lat": 40.9884843,
+    "lng": -74.0652437,
+    "date": "2026-08-15",
+    "time": "8:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "source": "gdtb",
+    "attractions": [
+      "Wheel"
     ]
   },
   {
@@ -7182,29 +8586,11 @@
     ]
   },
   {
-    "id": "gdtb-NJ-workingman-s-jed-2026-08-20-island-beach",
-    "name": "Workingman's Jed — Island Beach",
-    "band": "Workingman's Jed",
-    "bandSlug": "workingman-s-jed",
-    "venue": "Island Beach",
-    "city": "Mountain Lakes",
-    "state": "NJ",
-    "lat": 40.8948212,
-    "lng": -74.4329314,
-    "date": "2026-08-20",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Workingman's Jed"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-baked-alaska-2026-08-20-1-piermont-rd-tenafly-nj-07670",
-    "name": "Baked Alaska — 1 Piermont Rd Tenafly NJ 07670 United States",
+    "id": "gdtb-NJ-baked-alaska-2026-08-20-event-by-baked-alaska",
+    "name": "Baked Alaska — Event by Baked Alaska",
     "band": "Baked Alaska",
     "bandSlug": "baked-alaska",
-    "venue": "1 Piermont Rd Tenafly NJ 07670 United States",
+    "venue": "Event by Baked Alaska",
     "city": "Tenafly",
     "state": "NJ",
     "lat": 40.9253766,
@@ -7251,6 +8637,78 @@
     "source": "gdtb",
     "attractions": [
       "Rainbow Full Of Sound"
+    ]
+  },
+  {
+    "id": "gdtb-NJ-the-big-trip-2026-08-20-kings-road-brewing",
+    "name": "The Big Trip — Kings Road Brewing",
+    "band": "The Big Trip",
+    "bandSlug": "the-big-trip",
+    "venue": "Kings Road Brewing",
+    "city": "Haddonfield",
+    "state": "NJ",
+    "lat": 39.8915022,
+    "lng": -75.0376707,
+    "date": "2026-08-20",
+    "time": "6:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "source": "gdtb",
+    "attractions": [
+      "The Big Trip"
+    ]
+  },
+  {
+    "id": "gdtb-NJ-workingman-s-jed-2026-08-20-island-beach",
+    "name": "Workingman's Jed — Island Beach",
+    "band": "Workingman's Jed",
+    "bandSlug": "workingman-s-jed",
+    "venue": "Island Beach",
+    "city": "Mountain Lakes",
+    "state": "NJ",
+    "lat": 40.8948212,
+    "lng": -74.4329314,
+    "date": "2026-08-20",
+    "time": "7 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "source": "gdtb",
+    "attractions": [
+      "Workingman's Jed"
+    ]
+  },
+  {
+    "id": "gdtb-NJ-achievers-band-2026-08-21-lenoras-bar",
+    "name": "Achievers Band — Lenoras Bar",
+    "band": "Achievers Band",
+    "bandSlug": "achievers-band",
+    "venue": "Lenoras Bar",
+    "city": "Hackensack",
+    "state": "NJ",
+    "lat": 40.8870781,
+    "lng": -74.0410667,
+    "date": "2026-08-21",
+    "time": "9 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "source": "gdtb",
+    "attractions": [
+      "Achievers Band"
+    ]
+  },
+  {
+    "id": "gdtb-NJ-deadful-greats-2026-08-21-pallet-brewing-company",
+    "name": "Deadful Greats — Pallet Brewing Company",
+    "band": "Deadful Greats",
+    "bandSlug": "deadful-greats",
+    "venue": "Pallet Brewing Company",
+    "city": "Maplewood",
+    "state": "NJ",
+    "lat": 40.7312123,
+    "lng": -74.2734808,
+    "date": "2026-08-21",
+    "time": "6:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "source": "gdtb",
+    "attractions": [
+      "Deadful Greats"
     ]
   },
   {
@@ -7344,11 +8802,11 @@
     ]
   },
   {
-    "id": "gdtb-NJ-baked-alaska-2026-08-23-270-pascack-rd-township-of-was",
-    "name": "Baked Alaska — 270 Pascack Rd Township of Washington NJ Washington Twp",
+    "id": "gdtb-NJ-baked-alaska-2026-08-23-event-by-the-dog-house-saloon-",
+    "name": "Baked Alaska — Event by The Dog House Saloon & Grill",
     "band": "Baked Alaska",
     "bandSlug": "baked-alaska",
-    "venue": "270 Pascack Rd Township of Washington NJ Washington Twp",
+    "venue": "Event by The Dog House Saloon & Grill",
     "city": "Washington Township",
     "state": "NJ",
     "lat": 40.9884843,
@@ -7359,6 +8817,42 @@
     "source": "gdtb",
     "attractions": [
       "Baked Alaska"
+    ]
+  },
+  {
+    "id": "gdtb-NJ-baked-alaska-2026-08-23-the-dog-house-saloon-grill-was",
+    "name": "Baked Alaska — The Dog House Saloon & Grill Washington Twp",
+    "band": "Baked Alaska",
+    "bandSlug": "baked-alaska",
+    "venue": "The Dog House Saloon & Grill Washington Twp",
+    "city": "Washington Township",
+    "state": "NJ",
+    "lat": 40.9884843,
+    "lng": -74.0652437,
+    "date": "2026-08-23",
+    "time": "2 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "source": "gdtb",
+    "attractions": [
+      "Baked Alaska"
+    ]
+  },
+  {
+    "id": "gdtb-NJ-mark-diomede-and-friends-2026-08-23-booterbeer-brewing-company",
+    "name": "Mark Diomede and Friends — Booterbeer Brewing Company",
+    "band": "Mark Diomede and Friends",
+    "bandSlug": "mark-diomede-and-friends",
+    "venue": "Booterbeer Brewing Company",
+    "city": "New Egypt",
+    "state": "NJ",
+    "lat": 40.0654375,
+    "lng": -74.5226681,
+    "date": "2026-08-23",
+    "time": "3 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "source": "gdtb",
+    "attractions": [
+      "Mark Diomede and Friends"
     ]
   },
   {
@@ -7377,6 +8871,42 @@
     "source": "gdtb",
     "attractions": [
       "Pure Jerry"
+    ]
+  },
+  {
+    "id": "gdtb-NJ-the-big-trip-2026-08-23-245-4th-street-gloucester-city",
+    "name": "The Big Trip — 245 4th Street Gloucester City NJ",
+    "band": "The Big Trip",
+    "bandSlug": "the-big-trip",
+    "venue": "245 4th Street Gloucester City NJ",
+    "city": "Gloucester City",
+    "state": "NJ",
+    "lat": 39.8918622,
+    "lng": -75.1161897,
+    "date": "2026-08-23",
+    "time": "3 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "source": "gdtb",
+    "attractions": [
+      "The Big Trip"
+    ]
+  },
+  {
+    "id": "gdtb-NJ-baked-alaska-2026-08-25-orange-lantern",
+    "name": "Baked Alaska — Orange Lantern",
+    "band": "Baked Alaska",
+    "bandSlug": "baked-alaska",
+    "venue": "Orange Lantern",
+    "city": "Paramus",
+    "state": "NJ",
+    "lat": 40.9452911,
+    "lng": -74.0735899,
+    "date": "2026-08-25",
+    "time": "8 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "source": "gdtb",
+    "attractions": [
+      "Baked Alaska"
     ]
   },
   {
@@ -7467,6 +8997,24 @@
     "source": "gdtb",
     "attractions": [
       "The Brian St John Band"
+    ]
+  },
+  {
+    "id": "gdtb-NJ-be5d-2026-08-27-cooper-s-riverview",
+    "name": "Be5D — Cooper's Riverview",
+    "band": "Be5D",
+    "bandSlug": "be5d",
+    "venue": "Cooper's Riverview",
+    "city": "Trenton",
+    "state": "NJ",
+    "lat": 40.2203074,
+    "lng": -74.7659,
+    "date": "2026-08-27",
+    "time": "7 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "source": "gdtb",
+    "attractions": [
+      "Be5D"
     ]
   },
   {
@@ -7650,21 +9198,21 @@
     ]
   },
   {
-    "id": "gdtb-NJ-pure-jerry-2026-08-29-pitney-pub",
-    "name": "Pure Jerry — Pitney Pub",
-    "band": "Pure Jerry",
-    "bandSlug": "pure-jerry",
-    "venue": "Pitney Pub",
-    "city": "Galloway Twp",
+    "id": "gdtb-NJ-lovelight-2026-08-29-bocca-coal-fired-bistro",
+    "name": "LoveLight — Bocca Coal Fired Bistro",
+    "band": "LoveLight",
+    "bandSlug": "lovelight",
+    "venue": "Bocca Coal Fired Bistro",
+    "city": "Margate City",
     "state": "NJ",
-    "lat": 39.4646097,
-    "lng": -74.4986142,
+    "lat": 39.327894,
+    "lng": -74.5034858,
     "date": "2026-08-29",
     "time": "8 PM",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
     "source": "gdtb",
     "attractions": [
-      "Pure Jerry"
+      "LoveLight"
     ]
   },
   {
@@ -7683,6 +9231,24 @@
     "source": "gdtb",
     "attractions": [
       "The Brian St John Band"
+    ]
+  },
+  {
+    "id": "gdtb-NJ-baked-alaska-2026-08-30-qb-s-bar-and-grill",
+    "name": "Baked Alaska — QB's Bar and Grill",
+    "band": "Baked Alaska",
+    "bandSlug": "baked-alaska",
+    "venue": "QB's Bar and Grill",
+    "city": "Dumont",
+    "state": "NJ",
+    "lat": 40.9406541,
+    "lng": -73.9968051,
+    "date": "2026-08-30",
+    "time": "3 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "source": "gdtb",
+    "attractions": [
+      "Baked Alaska"
     ]
   },
   {
@@ -7884,6 +9450,24 @@
     ]
   },
   {
+    "id": "gdtb-NJ-the-big-trip-2026-09-12-king-s-road-brewing-company",
+    "name": "The Big Trip — King's Road Brewing Company",
+    "band": "The Big Trip",
+    "bandSlug": "the-big-trip",
+    "venue": "King's Road Brewing Company",
+    "city": "Medford",
+    "state": "NJ",
+    "lat": 39.9009472,
+    "lng": -74.8234961,
+    "date": "2026-09-12",
+    "time": "6:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "source": "gdtb",
+    "attractions": [
+      "The Big Trip"
+    ]
+  },
+  {
     "id": "gdtb-NJ-be5d-2026-09-13-270-pascack-rd-township-of-was",
     "name": "Be5D — 270 Pascack Rd Township of Washington NJ Washington Twp",
     "band": "Be5D",
@@ -7935,6 +9519,24 @@
     "source": "gdtb",
     "attractions": [
       "DEAL"
+    ]
+  },
+  {
+    "id": "gdtb-NJ-deadful-greats-2026-09-25-101-walnut-streetmontclair0704",
+    "name": "Deadful Greats — 101 Walnut StreetMontclair07042US",
+    "band": "Deadful Greats",
+    "bandSlug": "deadful-greats",
+    "venue": "101 Walnut StreetMontclair07042US",
+    "city": "Montclair",
+    "state": "NJ",
+    "lat": 40.8164458,
+    "lng": -74.2210643,
+    "date": "2026-09-25",
+    "time": "7:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
+    "source": "gdtb",
+    "attractions": [
+      "Deadful Greats"
     ]
   },
   {
@@ -8046,6 +9648,42 @@
     ]
   },
   {
+    "id": "gdtb-NM-odd-dog-2026-08-15-schumann-kinabrew-rock-canyon-",
+    "name": "Odd Dog — Schumann & Kinabrew @ Rock Canyon Cider (Manzanita)",
+    "band": "Odd Dog",
+    "bandSlug": "odd-dog",
+    "venue": "Schumann & Kinabrew @ Rock Canyon Cider (Manzanita)",
+    "city": "Tijeras",
+    "state": "NM",
+    "lat": 35.0796355,
+    "lng": -106.3879441,
+    "date": "2026-08-15",
+    "time": "",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NM",
+    "source": "gdtb",
+    "attractions": [
+      "Odd Dog"
+    ]
+  },
+  {
+    "id": "gdtb-NM-odd-dog-2026-08-16-abq",
+    "name": "Odd Dog — Abq",
+    "band": "Odd Dog",
+    "bandSlug": "odd-dog",
+    "venue": "Abq",
+    "city": "Albuquerque",
+    "state": "NM",
+    "lat": 35.0841034,
+    "lng": -106.650985,
+    "date": "2026-08-16",
+    "time": "4:00-7.",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NM",
+    "source": "gdtb",
+    "attractions": [
+      "Odd Dog"
+    ]
+  },
+  {
     "id": "gdtb-NM-steely-dead-2026-08-21-20-abc-mesa-rd",
     "name": "Steely Dead — 20 abc Mesa rd",
     "band": "Steely Dead",
@@ -8064,21 +9702,57 @@
     ]
   },
   {
-    "id": "gdtb-NY-roses-grove-band-2026-08-10-wantagh-public-library",
-    "name": "Roses Grove Band — Wantagh Public Library",
-    "band": "Roses Grove Band",
-    "bandSlug": "roses-grove-band",
-    "venue": "Wantagh Public Library",
-    "city": "Wantagh",
-    "state": "NY",
-    "lat": 40.663289,
-    "lng": -73.513589,
-    "date": "2026-08-10",
-    "time": "6:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "id": "gdtb-NM-odd-dog-2026-08-22-4541-corrales-rd",
+    "name": "Odd Dog — 4541 Corrales Rd",
+    "band": "Odd Dog",
+    "bandSlug": "odd-dog",
+    "venue": "4541 Corrales Rd",
+    "city": "Corrales",
+    "state": "NM",
+    "lat": 35.2382346,
+    "lng": -106.6069727,
+    "date": "2026-08-22",
+    "time": "7:00-9:30",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NM",
     "source": "gdtb",
     "attractions": [
-      "Roses Grove Band"
+      "Odd Dog"
+    ]
+  },
+  {
+    "id": "gdtb-NM-odd-dog-2026-08-28-2906-juan-tabo-ne",
+    "name": "Odd Dog — 2906 Juan Tabo NE",
+    "band": "Odd Dog",
+    "bandSlug": "odd-dog",
+    "venue": "2906 Juan Tabo NE",
+    "city": "Albuquerque",
+    "state": "NM",
+    "lat": 35.0841034,
+    "lng": -106.650985,
+    "date": "2026-08-28",
+    "time": "8:30-12.",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NM",
+    "source": "gdtb",
+    "attractions": [
+      "Odd Dog"
+    ]
+  },
+  {
+    "id": "gdtb-NM-odd-dog-2026-08-29-2846-state-hwy-n-14",
+    "name": "Odd Dog — 2846 State Hwy N 14",
+    "band": "Odd Dog",
+    "bandSlug": "odd-dog",
+    "venue": "2846 State Hwy N 14",
+    "city": "Madrid",
+    "state": "NM",
+    "lat": 35.4023125,
+    "lng": -106.1542368,
+    "date": "2026-08-29",
+    "time": "",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NM",
+    "source": "gdtb",
+    "attractions": [
+      "Odd Dog"
     ]
   },
   {
@@ -8190,6 +9864,24 @@
     ]
   },
   {
+    "id": "gdtb-NY-dead-ahead-band-2026-08-15-twin-fork-beer-co",
+    "name": "Dead Ahead Band — Twin Fork Beer Co",
+    "band": "Dead Ahead Band",
+    "bandSlug": "dead-ahead-band",
+    "venue": "Twin Fork Beer Co",
+    "city": "Riverhead",
+    "state": "NY",
+    "lat": 40.9168692,
+    "lng": -72.6624189,
+    "date": "2026-08-15",
+    "time": "2 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Dead Ahead Band"
+    ]
+  },
+  {
     "id": "gdtb-NY-reckoning-2026-08-15-cooper-bluff",
     "name": "Reckoning — Cooper Bluff",
     "band": "Reckoning",
@@ -8226,24 +9918,6 @@
     ]
   },
   {
-    "id": "gdtb-NY-terrapin-flyer-2026-08-15-1-morrie-silver-way-rochester-",
-    "name": "Terrapin Flyer — 1 Morrie Silver Way Rochester NY United States New York 14608",
-    "band": "Terrapin Flyer",
-    "bandSlug": "terrapin-flyer",
-    "venue": "1 Morrie Silver Way Rochester NY United States New York 14608",
-    "city": "Rochester",
-    "state": "NY",
-    "lat": 43.157285,
-    "lng": -77.615214,
-    "date": "2026-08-15",
-    "time": "6:05 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Terrapin Flyer"
-    ]
-  },
-  {
     "id": "gdtb-NY-stanley-jordan-plays-the-dead-2026-08-15-arrowhead-ranch-and-retreat",
     "name": "Stanley Jordan Plays The Dead — Arrowhead Ranch and Retreat",
     "band": "Stanley Jordan Plays The Dead",
@@ -8259,6 +9933,24 @@
     "source": "gdtb",
     "attractions": [
       "Stanley Jordan Plays The Dead"
+    ]
+  },
+  {
+    "id": "gdtb-NY-terrapin-flyer-2026-08-15-1-morrie-silver-way-rochester-",
+    "name": "Terrapin Flyer — 1 Morrie Silver Way Rochester NY United States New York 14608",
+    "band": "Terrapin Flyer",
+    "bandSlug": "terrapin-flyer",
+    "venue": "1 Morrie Silver Way Rochester NY United States New York 14608",
+    "city": "Rochester",
+    "state": "NY",
+    "lat": 43.157285,
+    "lng": -77.615214,
+    "date": "2026-08-15",
+    "time": "6:05 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Terrapin Flyer"
     ]
   },
   {
@@ -8406,6 +10098,24 @@
     ]
   },
   {
+    "id": "gdtb-NY-deadbeats-ny-2026-08-21-keegan-ales",
+    "name": "Deadbeats-NY — Keegan Ales",
+    "band": "Deadbeats-NY",
+    "bandSlug": "deadbeats-ny",
+    "venue": "Keegan Ales",
+    "city": "Kingston",
+    "state": "NY",
+    "lat": 41.9287812,
+    "lng": -74.0023825,
+    "date": "2026-08-21",
+    "time": "7 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Deadbeats-NY"
+    ]
+  },
+  {
     "id": "gdtb-NY-nailed-shutt-2026-08-21-aspire-brewing",
     "name": "Nailed Shutt — Aspire Brewing",
     "band": "Nailed Shutt",
@@ -8478,21 +10188,39 @@
     ]
   },
   {
-    "id": "gdtb-NY-gratefully-yours-2026-08-22-event-by-feast-of-friends",
-    "name": "Gratefully Yours — Event by Feast of Friends",
-    "band": "Gratefully Yours",
-    "bandSlug": "gratefully-yours",
-    "venue": "Event by Feast of Friends",
+    "id": "gdtb-NY-nailed-shutt-2026-08-22-blue-arrow-farm",
+    "name": "Nailed Shutt — Blue Arrow Farm",
+    "band": "Nailed Shutt",
+    "bandSlug": "nailed-shutt",
+    "venue": "Blue Arrow Farm",
     "city": "Pine Island",
     "state": "NY",
     "lat": 41.2965521,
     "lng": -74.4625539,
     "date": "2026-08-22",
-    "time": "10 AM",
+    "time": "10:30 AM",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
     "source": "gdtb",
     "attractions": [
-      "Gratefully Yours"
+      "Nailed Shutt"
+    ]
+  },
+  {
+    "id": "gdtb-NY-delilah-jones-2026-08-23-event-by-delilah-jones",
+    "name": "Delilah Jones — Event by Delilah Jones",
+    "band": "Delilah Jones",
+    "bandSlug": "delilah-jones",
+    "venue": "Event by Delilah Jones",
+    "city": "Rochester",
+    "state": "NY",
+    "lat": 43.157285,
+    "lng": -77.615214,
+    "date": "2026-08-23",
+    "time": "4 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Delilah Jones"
     ]
   },
   {
@@ -8586,6 +10314,24 @@
     ]
   },
   {
+    "id": "gdtb-NY-achievers-band-2026-08-28-event-by-achievers-band",
+    "name": "Achievers Band — Event by Achievers Band",
+    "band": "Achievers Band",
+    "bandSlug": "achievers-band",
+    "venue": "Event by Achievers Band",
+    "city": "Pearl River",
+    "state": "NY",
+    "lat": 41.0556645,
+    "lng": -74.0076276,
+    "date": "2026-08-28",
+    "time": "7 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Achievers Band"
+    ]
+  },
+  {
     "id": "gdtb-NY-half-step-li-2026-08-28-levittown-library-levittown-ny",
     "name": "Half Step LI — Levittown Library, Levittown, NY 11756",
     "band": "Half Step LI",
@@ -8673,6 +10419,24 @@
     "source": "gdtb",
     "attractions": [
       "Dead On"
+    ]
+  },
+  {
+    "id": "gdtb-NY-gratefully-yours-2026-08-29-warwick-valley-winery-and-dist",
+    "name": "Gratefully Yours — Warwick Valley Winery and Distillery",
+    "band": "Gratefully Yours",
+    "bandSlug": "gratefully-yours",
+    "venue": "Warwick Valley Winery and Distillery",
+    "city": "Warwick",
+    "state": "NY",
+    "lat": 41.256483,
+    "lng": -74.3598755,
+    "date": "2026-08-29",
+    "time": "1 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Gratefully Yours"
     ]
   },
   {
@@ -8802,11 +10566,11 @@
     ]
   },
   {
-    "id": "gdtb-NY-nailed-shutt-2026-09-05-drowned-lands",
-    "name": "Nailed Shutt — Drowned Lands",
+    "id": "gdtb-NY-nailed-shutt-2026-09-05-event-by-nailedshutt",
+    "name": "Nailed Shutt — Event by NailedShutt",
     "band": "Nailed Shutt",
     "bandSlug": "nailed-shutt",
-    "venue": "Drowned Lands",
+    "venue": "Event by NailedShutt",
     "city": "Warwick",
     "state": "NY",
     "lat": 41.256483,
@@ -8853,6 +10617,24 @@
     "source": "gdtb",
     "attractions": [
       "Half Step LI"
+    ]
+  },
+  {
+    "id": "gdtb-NY-eric-carlin-s-half-dead-2026-09-06-abandon-brewing-company",
+    "name": "Eric Carlin's Half-Dead — Abandon Brewing Company",
+    "band": "Eric Carlin's Half-Dead",
+    "bandSlug": "eric-carlin-s-half-dead",
+    "venue": "Abandon Brewing Company",
+    "city": "Penn Yan",
+    "state": "NY",
+    "lat": 42.6603037,
+    "lng": -77.0540989,
+    "date": "2026-09-06",
+    "time": "2 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Eric Carlin's Half-Dead"
     ]
   },
   {
@@ -8928,11 +10710,29 @@
     ]
   },
   {
-    "id": "gdtb-NY-deadbeats-ny-2026-09-12-lazy-bear-ice-cream",
-    "name": "Deadbeats-NY — Lazy Bear Ice Cream",
+    "id": "gdtb-NY-dead-alliance-buffalo-2026-09-11-clarence",
+    "name": "Dead Alliance Buffalo — Clarence",
+    "band": "Dead Alliance Buffalo",
+    "bandSlug": "dead-alliance-buffalo",
+    "venue": "Clarence",
+    "city": "Clarence",
+    "state": "NY",
+    "lat": 42.9768372,
+    "lng": -78.5930999,
+    "date": "2026-09-11",
+    "time": "8 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Dead Alliance Buffalo"
+    ]
+  },
+  {
+    "id": "gdtb-NY-deadbeats-ny-2026-09-12-event-by-the-deadbeats",
+    "name": "Deadbeats-NY — Event by The Deadbeats",
     "band": "Deadbeats-NY",
     "bandSlug": "deadbeats-ny",
-    "venue": "Lazy Bear Ice Cream",
+    "venue": "Event by The Deadbeats",
     "city": "Broadalbin",
     "state": "NY",
     "lat": 43.0586846,
@@ -8943,6 +10743,42 @@
     "source": "gdtb",
     "attractions": [
       "Deadbeats-NY"
+    ]
+  },
+  {
+    "id": "gdtb-NY-eric-carlin-s-half-dead-2026-09-12-iron-smoke-distillery",
+    "name": "Eric Carlin's Half-Dead — Iron Smoke Distillery",
+    "band": "Eric Carlin's Half-Dead",
+    "bandSlug": "eric-carlin-s-half-dead",
+    "venue": "Iron Smoke Distillery",
+    "city": "Fairport",
+    "state": "NY",
+    "lat": 43.0993,
+    "lng": -77.443014,
+    "date": "2026-09-12",
+    "time": "8 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Eric Carlin's Half-Dead"
+    ]
+  },
+  {
+    "id": "gdtb-NY-achievers-band-2026-09-13-shrine-world-music-venue",
+    "name": "Achievers Band — Shrine World Music Venue",
+    "band": "Achievers Band",
+    "bandSlug": "achievers-band",
+    "venue": "Shrine World Music Venue",
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.7127281,
+    "lng": -74.0060152,
+    "date": "2026-09-13",
+    "time": "10 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Achievers Band"
     ]
   },
   {
@@ -8982,24 +10818,6 @@
     ]
   },
   {
-    "id": "gdtb-NY-uncle-shoehorn-2026-09-18-biltmore-bar-and-lounge",
-    "name": "Uncle Shoehorn — Biltmore Bar and Lounge",
-    "band": "Uncle Shoehorn",
-    "bandSlug": "uncle-shoehorn",
-    "venue": "Biltmore Bar and Lounge",
-    "city": "Rochester",
-    "state": "NY",
-    "lat": 43.157285,
-    "lng": -77.615214,
-    "date": "2026-09-18",
-    "time": "THRU Sep 20",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Uncle Shoehorn"
-    ]
-  },
-  {
     "id": "gdtb-NY-nailed-shutt-2026-09-18-pennings-farm-and-orchard",
     "name": "Nailed Shutt — Pennings Farm and Orchard",
     "band": "Nailed Shutt",
@@ -9015,6 +10833,42 @@
     "source": "gdtb",
     "attractions": [
       "Nailed Shutt"
+    ]
+  },
+  {
+    "id": "gdtb-NY-the-wheel-2026-09-18-lark-hall",
+    "name": "The Wheel — Lark Hall",
+    "band": "The Wheel",
+    "bandSlug": "the-wheel",
+    "venue": "Lark Hall",
+    "city": "Albany",
+    "state": "NY",
+    "lat": 42.6511674,
+    "lng": -73.754968,
+    "date": "2026-09-18",
+    "time": "8 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "The Wheel"
+    ]
+  },
+  {
+    "id": "gdtb-NY-uncle-shoehorn-2026-09-18-biltmore-bar-and-lounge",
+    "name": "Uncle Shoehorn — Biltmore Bar and Lounge",
+    "band": "Uncle Shoehorn",
+    "bandSlug": "uncle-shoehorn",
+    "venue": "Biltmore Bar and Lounge",
+    "city": "Rochester",
+    "state": "NY",
+    "lat": 43.157285,
+    "lng": -77.615214,
+    "date": "2026-09-18",
+    "time": "THRU Sep 20",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Uncle Shoehorn"
     ]
   },
   {
@@ -9036,11 +10890,11 @@
     ]
   },
   {
-    "id": "gdtb-NY-bertha-grateful-drag-2026-09-19-149-westchester-ave-port-chest",
-    "name": "Bertha Grateful Drag — 149 Westchester Ave Port Chester NY United States New York 10573",
+    "id": "gdtb-NY-bertha-grateful-drag-2026-09-19-event-by-the-capitol-theatre",
+    "name": "Bertha Grateful Drag — Event by The Capitol Theatre",
     "band": "Bertha Grateful Drag",
     "bandSlug": "bertha-grateful-drag",
-    "venue": "149 Westchester Ave Port Chester NY United States New York 10573",
+    "venue": "Event by The Capitol Theatre",
     "city": "Port Chester",
     "state": "NY",
     "lat": 41.0017643,
@@ -9069,6 +10923,24 @@
     "source": "gdtb",
     "attractions": [
       "The Mystery Train Band"
+    ]
+  },
+  {
+    "id": "gdtb-NY-tiger-rose-2026-09-19-vfw-post-414",
+    "name": "Tiger Rose — VFW post 414",
+    "band": "Tiger Rose",
+    "bandSlug": "tiger-rose",
+    "venue": "VFW post 414",
+    "city": "Center Moriches",
+    "state": "NY",
+    "lat": 40.800558,
+    "lng": -72.7933405,
+    "date": "2026-09-19",
+    "time": "12 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Tiger Rose"
     ]
   },
   {
@@ -9231,6 +11103,24 @@
     "source": "gdtb",
     "attractions": [
       "Half Step LI"
+    ]
+  },
+  {
+    "id": "gdtb-NY-rob-glassman-band-2026-09-29-the-bitter-end",
+    "name": "Rob Glassman Band — The Bitter End",
+    "band": "Rob Glassman Band",
+    "bandSlug": "rob-glassman-band",
+    "venue": "The Bitter End",
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.7127281,
+    "lng": -74.0060152,
+    "date": "2026-09-29",
+    "time": "8:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Rob Glassman Band"
     ]
   },
   {
@@ -9432,6 +11322,24 @@
     ]
   },
   {
+    "id": "gdtb-NY-melvin-seals-and-jgb-2026-10-23-event-by-the-capitol-theatre",
+    "name": "Melvin Seals and JGB — Event by The Capitol Theatre",
+    "band": "Melvin Seals and JGB",
+    "bandSlug": "melvin-seals-and-jgb",
+    "venue": "Event by The Capitol Theatre",
+    "city": "Port Chester",
+    "state": "NY",
+    "lat": 41.0017643,
+    "lng": -73.6656834,
+    "date": "2026-10-23",
+    "time": "8 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Melvin Seals and JGB"
+    ]
+  },
+  {
     "id": "gdtb-NY-uncle-shoehorn-2026-10-23-silk-factory",
     "name": "Uncle Shoehorn — Silk Factory",
     "band": "Uncle Shoehorn",
@@ -9558,6 +11466,24 @@
     ]
   },
   {
+    "id": "gdtb-NY-eric-carlin-s-half-dead-2026-10-31-avon-park-theater",
+    "name": "Eric Carlin's Half-Dead — Avon Park Theater",
+    "band": "Eric Carlin's Half-Dead",
+    "bandSlug": "eric-carlin-s-half-dead",
+    "venue": "Avon Park Theater",
+    "city": "Avon",
+    "state": "NY",
+    "lat": 42.9119925,
+    "lng": -77.7454567,
+    "date": "2026-10-31",
+    "time": "7:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Eric Carlin's Half-Dead"
+    ]
+  },
+  {
     "id": "gdtb-NY-gratefully-yours-2026-10-31-widow-jane-mine",
     "name": "Gratefully Yours — Widow Jane Mine",
     "band": "Gratefully Yours",
@@ -9630,11 +11556,11 @@
     ]
   },
   {
-    "id": "gdtb-NC-tin-roof-cats-2026-08-15-one-world-brewing-west",
-    "name": "Tin Roof Cats — One World Brewing West",
+    "id": "gdtb-NC-tin-roof-cats-2026-08-15-520-haywood-road-asheville-nc-",
+    "name": "Tin Roof Cats — 520 Haywood Road Asheville NC United States North Carolina 28806",
     "band": "Tin Roof Cats",
     "bandSlug": "tin-roof-cats",
-    "venue": "One World Brewing West",
+    "venue": "520 Haywood Road Asheville NC United States North Carolina 28806",
     "city": "Asheville",
     "state": "NC",
     "lat": 35.595363,
@@ -9666,6 +11592,24 @@
     ]
   },
   {
+    "id": "gdtb-NC-dirty-dead-2026-08-29-leland-nc",
+    "name": "Dirty Dead — Leland NC",
+    "band": "Dirty Dead",
+    "bandSlug": "dirty-dead",
+    "venue": "Leland NC",
+    "city": "Leland",
+    "state": "NC",
+    "lat": 34.236434,
+    "lng": -78.0040029,
+    "date": "2026-08-29",
+    "time": "7 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NC",
+    "source": "gdtb",
+    "attractions": [
+      "Dirty Dead"
+    ]
+  },
+  {
     "id": "gdtb-NC-le-salty-dead-2026-08-29-event-by-le-salty-dead",
     "name": "Le Salty Dead — Event by Le Salty Dead",
     "band": "Le Salty Dead",
@@ -9681,6 +11625,24 @@
     "source": "gdtb",
     "attractions": [
       "Le Salty Dead"
+    ]
+  },
+  {
+    "id": "gdtb-NC-bring-out-yer-dead-2026-08-30-lincoln-theatre",
+    "name": "Bring Out Yer Dead — Lincoln Theatre",
+    "band": "Bring Out Yer Dead",
+    "bandSlug": "bring-out-yer-dead",
+    "venue": "Lincoln Theatre",
+    "city": "Raleigh",
+    "state": "NC",
+    "lat": 35.7803977,
+    "lng": -78.6390989,
+    "date": "2026-08-30",
+    "time": "6 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NC",
+    "source": "gdtb",
+    "attractions": [
+      "Bring Out Yer Dead"
     ]
   },
   {
@@ -9717,6 +11679,24 @@
     "source": "gdtb",
     "attractions": [
       "Le Salty Dead"
+    ]
+  },
+  {
+    "id": "gdtb-NC-dirty-dead-2026-09-11-1313-s-dickinson-dr-leland-nc-",
+    "name": "Dirty Dead — 1313 S Dickinson Dr Leland NC 28451-6430 United States",
+    "band": "Dirty Dead",
+    "bandSlug": "dirty-dead",
+    "venue": "1313 S Dickinson Dr Leland NC 28451-6430 United States",
+    "city": "Leland",
+    "state": "NC",
+    "lat": 34.236434,
+    "lng": -78.0040029,
+    "date": "2026-09-11",
+    "time": "6:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NC",
+    "source": "gdtb",
+    "attractions": [
+      "Dirty Dead"
     ]
   },
   {
@@ -10062,24 +12042,6 @@
     ]
   },
   {
-    "id": "gdtb-OH-jimiller-band-2026-08-22-oh-43522",
-    "name": "JiMiller Band — OH 43522",
-    "band": "JiMiller Band",
-    "bandSlug": "jimiller-band",
-    "venue": "OH 43522",
-    "city": "Grand Rapids",
-    "state": "OH",
-    "lat": 41.4119963,
-    "lng": -83.8643852,
-    "date": "2026-08-22",
-    "time": "",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OH",
-    "source": "gdtb",
-    "attractions": [
-      "JiMiller Band"
-    ]
-  },
-  {
     "id": "gdtb-OH-hyryder-2026-08-22-jake-s-river-landing",
     "name": "Hyryder — Jake's River Landing",
     "band": "Hyryder",
@@ -10134,21 +12096,21 @@
     ]
   },
   {
-    "id": "gdtb-OH-bosco-jigs-2026-08-23-the-cedar-tiques-bar",
-    "name": "Bosco Jigs — The Cedar & Tiques Bar",
-    "band": "Bosco Jigs",
-    "bandSlug": "bosco-jigs",
-    "venue": "The Cedar & Tiques Bar",
-    "city": "Sandusky",
+    "id": "gdtb-OH-jimiller-band-2026-08-22-oh-43522",
+    "name": "JiMiller Band — OH 43522",
+    "band": "JiMiller Band",
+    "bandSlug": "jimiller-band",
+    "venue": "OH 43522",
+    "city": "Grand Rapids",
     "state": "OH",
-    "lat": 41.2951563,
-    "lng": -83.1555438,
-    "date": "2026-08-23",
-    "time": "3 PM",
+    "lat": 41.4119963,
+    "lng": -83.8643852,
+    "date": "2026-08-22",
+    "time": "",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OH",
     "source": "gdtb",
     "attractions": [
-      "Bosco Jigs"
+      "JiMiller Band"
     ]
   },
   {
@@ -10324,7 +12286,7 @@
     "lat": 41.2951563,
     "lng": -83.1555438,
     "date": "2026-09-06",
-    "time": "4 PM",
+    "time": "3 PM",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OH",
     "source": "gdtb",
     "attractions": [
@@ -10386,24 +12348,6 @@
     ]
   },
   {
-    "id": "gdtb-OH-jimiller-band-2026-09-18-ohio-44102",
-    "name": "JiMiller Band — Ohio 44102",
-    "band": "JiMiller Band",
-    "bandSlug": "jimiller-band",
-    "venue": "Ohio 44102",
-    "city": "Cleveland",
-    "state": "OH",
-    "lat": 41.4996574,
-    "lng": -81.6936772,
-    "date": "2026-09-18",
-    "time": "7-11pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OH",
-    "source": "gdtb",
-    "attractions": [
-      "JiMiller Band"
-    ]
-  },
-  {
     "id": "gdtb-OH-the-dead-revival-band-2026-09-18-woodlands-tavern",
     "name": "The Dead Revival Band — Woodlands Tavern",
     "band": "The Dead Revival Band",
@@ -10422,6 +12366,24 @@
     ]
   },
   {
+    "id": "gdtb-OH-jimiller-band-2026-09-18-ohio-44102",
+    "name": "JiMiller Band — Ohio 44102",
+    "band": "JiMiller Band",
+    "bandSlug": "jimiller-band",
+    "venue": "Ohio 44102",
+    "city": "Cleveland",
+    "state": "OH",
+    "lat": 41.4996574,
+    "lng": -81.6936772,
+    "date": "2026-09-18",
+    "time": "7-11pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OH",
+    "source": "gdtb",
+    "attractions": [
+      "JiMiller Band"
+    ]
+  },
+  {
     "id": "gdtb-OH-west-akron-fadeaway-2026-09-19-795-w-market-st",
     "name": "West Akron Fadeaway — 795 W Market St",
     "band": "West Akron Fadeaway",
@@ -10437,6 +12399,24 @@
     "source": "gdtb",
     "attractions": [
       "West Akron Fadeaway"
+    ]
+  },
+  {
+    "id": "gdtb-OH-bosco-jigs-2026-09-20-the-cedar-tiques-bar",
+    "name": "Bosco Jigs — The Cedar & Tiques Bar",
+    "band": "Bosco Jigs",
+    "bandSlug": "bosco-jigs",
+    "venue": "The Cedar & Tiques Bar",
+    "city": "Sandusky",
+    "state": "OH",
+    "lat": 41.2951563,
+    "lng": -83.1555438,
+    "date": "2026-09-20",
+    "time": "3 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OH",
+    "source": "gdtb",
+    "attractions": [
+      "Bosco Jigs"
     ]
   },
   {
@@ -10473,24 +12453,6 @@
     "source": "gdtb",
     "attractions": [
       "Dupree's Dead Band"
-    ]
-  },
-  {
-    "id": "gdtb-OH-bosco-jigs-2026-09-26-gandalf-s-pub",
-    "name": "Bosco Jigs — Gandalf's Pub",
-    "band": "Bosco Jigs",
-    "bandSlug": "bosco-jigs",
-    "venue": "Gandalf's Pub",
-    "city": "Valley City",
-    "state": "OH",
-    "lat": 41.2376342,
-    "lng": -81.9287552,
-    "date": "2026-09-26",
-    "time": "7:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OH",
-    "source": "gdtb",
-    "attractions": [
-      "Bosco Jigs"
     ]
   },
   {
@@ -10548,21 +12510,21 @@
     ]
   },
   {
-    "id": "gdtb-OH-west-akron-fadeaway-2026-10-02-knight-stage-182-s-main-st-akr",
-    "name": "West Akron Fadeaway — Knight Stage 182 S Main St Akron OH United States Ohio 44308",
-    "band": "West Akron Fadeaway",
-    "bandSlug": "west-akron-fadeaway",
-    "venue": "Knight Stage 182 S Main St Akron OH United States Ohio 44308",
-    "city": "Akron",
+    "id": "gdtb-OH-bosco-jigs-2026-10-02-gandalf-s-pub",
+    "name": "Bosco Jigs — Gandalf's Pub",
+    "band": "Bosco Jigs",
+    "bandSlug": "bosco-jigs",
+    "venue": "Gandalf's Pub",
+    "city": "Valley City",
     "state": "OH",
-    "lat": 41.083064,
-    "lng": -81.518485,
+    "lat": 41.2376342,
+    "lng": -81.9287552,
     "date": "2026-10-02",
     "time": "7:30 PM",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OH",
     "source": "gdtb",
     "attractions": [
-      "West Akron Fadeaway"
+      "Bosco Jigs"
     ]
   },
   {
@@ -10602,6 +12564,42 @@
     ]
   },
   {
+    "id": "gdtb-OH-west-akron-fadeaway-2026-10-02-knight-stage-182-s-main-st-akr",
+    "name": "West Akron Fadeaway — Knight Stage 182 S Main St Akron OH United States Ohio 44308",
+    "band": "West Akron Fadeaway",
+    "bandSlug": "west-akron-fadeaway",
+    "venue": "Knight Stage 182 S Main St Akron OH United States Ohio 44308",
+    "city": "Akron",
+    "state": "OH",
+    "lat": 41.083064,
+    "lng": -81.518485,
+    "date": "2026-10-02",
+    "time": "7:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OH",
+    "source": "gdtb",
+    "attractions": [
+      "West Akron Fadeaway"
+    ]
+  },
+  {
+    "id": "gdtb-OH-fairbanks-142-2026-10-09-fretboard-brewing",
+    "name": "Fairbanks 142 — Fretboard Brewing",
+    "band": "Fairbanks 142",
+    "bandSlug": "fairbanks-142",
+    "venue": "Fretboard Brewing",
+    "city": "Blue Ash",
+    "state": "OH",
+    "lat": 39.2320073,
+    "lng": -84.3782817,
+    "date": "2026-10-09",
+    "time": "7:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OH",
+    "source": "gdtb",
+    "attractions": [
+      "Fairbanks 142"
+    ]
+  },
+  {
     "id": "gdtb-OH-city-news-2026-10-16-woodlands-tavern",
     "name": "City News — Woodlands Tavern",
     "band": "City News",
@@ -10617,6 +12615,24 @@
     "source": "gdtb",
     "attractions": [
       "City News"
+    ]
+  },
+  {
+    "id": "gdtb-OH-wolfman-jack-2026-10-22-15711-waterloo-rd-cleveland-oh",
+    "name": "Wolfman Jack — 15711 Waterloo Rd. Cleveland OH United States Ohio 44110",
+    "band": "Wolfman Jack",
+    "bandSlug": "wolfman-jack",
+    "venue": "15711 Waterloo Rd. Cleveland OH United States Ohio 44110",
+    "city": "Cleveland",
+    "state": "OH",
+    "lat": 41.4996574,
+    "lng": -81.6936772,
+    "date": "2026-10-22",
+    "time": "8 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OH",
+    "source": "gdtb",
+    "attractions": [
+      "Wolfman Jack"
     ]
   },
   {
@@ -10653,24 +12669,6 @@
     "source": "gdtb",
     "attractions": [
       "JiMiller Band"
-    ]
-  },
-  {
-    "id": "gdtb-OH-bosco-jigs-2026-10-31-unplugged-brewing-co",
-    "name": "Bosco Jigs — Unplugged Brewing Co.",
-    "band": "Bosco Jigs",
-    "bandSlug": "bosco-jigs",
-    "venue": "Unplugged Brewing Co.",
-    "city": "Elyria",
-    "state": "OH",
-    "lat": 41.3673191,
-    "lng": -82.1073583,
-    "date": "2026-10-31",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OH",
-    "source": "gdtb",
-    "attractions": [
-      "Bosco Jigs"
     ]
   },
   {
@@ -10854,24 +12852,6 @@
     ]
   },
   {
-    "id": "gdtb-PA-zendog-2026-08-15-bucks-county-brewery",
-    "name": "Zendog — Bucks County Brewery",
-    "band": "Zendog",
-    "bandSlug": "zendog",
-    "venue": "Bucks County Brewery",
-    "city": "Pipersville",
-    "state": "PA",
-    "lat": 40.4260533,
-    "lng": -75.1390969,
-    "date": "2026-08-15",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
-    "source": "gdtb",
-    "attractions": [
-      "Zendog"
-    ]
-  },
-  {
     "id": "gdtb-PA-crickets-and-cicadas-2026-08-15-208-210-west-state-stmedia1906",
     "name": "Crickets and Cicadas — 208-210 West State StMedia19063US",
     "band": "Crickets and Cicadas",
@@ -10923,6 +12903,24 @@
     "source": "gdtb",
     "attractions": [
       "The Big Trip"
+    ]
+  },
+  {
+    "id": "gdtb-PA-zendog-2026-08-15-bucks-county-brewery",
+    "name": "Zendog — Bucks County Brewery",
+    "band": "Zendog",
+    "bandSlug": "zendog",
+    "venue": "Bucks County Brewery",
+    "city": "Pipersville",
+    "state": "PA",
+    "lat": 40.4260533,
+    "lng": -75.1390969,
+    "date": "2026-08-15",
+    "time": "6 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
+    "source": "gdtb",
+    "attractions": [
+      "Zendog"
     ]
   },
   {
@@ -11178,6 +13176,24 @@
     ]
   },
   {
+    "id": "gdtb-PA-the-big-trip-2026-09-04-shere-e-punjab-indian-restaura",
+    "name": "The Big Trip — Shere-E-Punjab Indian Restaurant",
+    "band": "The Big Trip",
+    "bandSlug": "the-big-trip",
+    "venue": "Shere-E-Punjab Indian Restaurant",
+    "city": "Media",
+    "state": "PA",
+    "lat": 39.9167783,
+    "lng": -75.387693,
+    "date": "2026-09-04",
+    "time": "8 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
+    "source": "gdtb",
+    "attractions": [
+      "The Big Trip"
+    ]
+  },
+  {
     "id": "gdtb-PA-deal-2026-09-05-100-s-front-street",
     "name": "DEAL — 100 S Front Street",
     "band": "DEAL",
@@ -11394,11 +13410,11 @@
     ]
   },
   {
-    "id": "gdtb-PA-pure-jerry-2026-09-13-state-pine-streets-doylestown-",
-    "name": "Pure Jerry — State & Pine Streets Doylestown PA",
+    "id": "gdtb-PA-pure-jerry-2026-09-13-event-by-pure-jerry",
+    "name": "Pure Jerry — Event by PURE JERRY",
     "band": "Pure Jerry",
     "bandSlug": "pure-jerry",
-    "venue": "State & Pine Streets Doylestown PA",
+    "venue": "Event by PURE JERRY",
     "city": "Doylestown",
     "state": "PA",
     "lat": 40.3100446,
@@ -11409,6 +13425,24 @@
     "source": "gdtb",
     "attractions": [
       "Pure Jerry"
+    ]
+  },
+  {
+    "id": "gdtb-PA-kgb-karl-s-garcia-band-2026-09-18-the-rotunda",
+    "name": "KGB - Karl's Garcia Band — The Rotunda",
+    "band": "KGB - Karl's Garcia Band",
+    "bandSlug": "kgb-karl-s-garcia-band",
+    "venue": "The Rotunda",
+    "city": "Philadelphia",
+    "state": "PA",
+    "lat": 39.9527237,
+    "lng": -75.1635262,
+    "date": "2026-09-18",
+    "time": "8 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
+    "source": "gdtb",
+    "attractions": [
+      "KGB - Karl's Garcia Band"
     ]
   },
   {
@@ -11571,6 +13605,24 @@
     "source": "gdtb",
     "attractions": [
       "Foolish Heart Band"
+    ]
+  },
+  {
+    "id": "gdtb-PA-pure-jerry-2026-09-26-4935-river-road-new-hope-pa-un",
+    "name": "Pure Jerry — 4935 River Road New Hope PA United States Pennsylvania 18938",
+    "band": "Pure Jerry",
+    "bandSlug": "pure-jerry",
+    "venue": "4935 River Road New Hope PA United States Pennsylvania 18938",
+    "city": "New Hope",
+    "state": "PA",
+    "lat": 40.3642728,
+    "lng": -74.9512785,
+    "date": "2026-09-26",
+    "time": "8 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
+    "source": "gdtb",
+    "attractions": [
+      "Pure Jerry"
     ]
   },
   {
@@ -11772,17 +13824,17 @@
     ]
   },
   {
-    "id": "gdtb-PA-melvin-seals-and-jgb-2026-10-17-xl-live",
-    "name": "Melvin Seals and JGB — XL LIVE",
+    "id": "gdtb-PA-melvin-seals-and-jgb-2026-10-17-801-s-10th-st-harrisburg-pa-un",
+    "name": "Melvin Seals and JGB — 801 S 10th St Harrisburg PA United States Pennsylvania 17104",
     "band": "Melvin Seals and JGB",
     "bandSlug": "melvin-seals-and-jgb",
-    "venue": "XL LIVE",
+    "venue": "801 S 10th St Harrisburg PA United States Pennsylvania 17104",
     "city": "Harrisburg",
     "state": "PA",
     "lat": 40.2663107,
     "lng": -76.8861122,
     "date": "2026-10-17",
-    "time": "8 PM",
+    "time": "7 PM",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
     "source": "gdtb",
     "attractions": [
@@ -11805,6 +13857,24 @@
     "source": "gdtb",
     "attractions": [
       "Deadband"
+    ]
+  },
+  {
+    "id": "gdtb-PA-samjamwich-2026-10-24-mr-small-s-funhouse",
+    "name": "SamJamwich — Mr Small's Funhouse",
+    "band": "SamJamwich",
+    "bandSlug": "samjamwich",
+    "venue": "Mr Small's Funhouse",
+    "city": "Millvale",
+    "state": "PA",
+    "lat": 40.480069,
+    "lng": -79.9783862,
+    "date": "2026-10-24",
+    "time": "8 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
+    "source": "gdtb",
+    "attractions": [
+      "SamJamwich"
     ]
   },
   {
@@ -11970,11 +14040,11 @@
     ]
   },
   {
-    "id": "gdtb-RI-bertha-grateful-drag-2026-10-15-270-broadway-providence-ri-uni",
-    "name": "Bertha Grateful Drag — 270 Broadway Providence RI United States Rhode Island 02903",
+    "id": "gdtb-RI-bertha-grateful-drag-2026-10-15-unknown",
+    "name": "Bertha Grateful Drag — /",
     "band": "Bertha Grateful Drag",
     "bandSlug": "bertha-grateful-drag",
-    "venue": "270 Broadway Providence RI United States Rhode Island 02903",
+    "venue": "/",
     "city": "Providence",
     "state": "RI",
     "lat": 41.8239891,
@@ -12021,6 +14091,42 @@
     "source": "gdtb",
     "attractions": [
       "Diamond Blues"
+    ]
+  },
+  {
+    "id": "gdtb-RI-ramble-on-rose-band-2026-10-31-pivotal-brewing-company",
+    "name": "Ramble On Rose Band — Pivotal Brewing Company",
+    "band": "Ramble On Rose Band",
+    "bandSlug": "ramble-on-rose-band",
+    "venue": "Pivotal Brewing Company",
+    "city": "Bristol",
+    "state": "RI",
+    "lat": 41.6770463,
+    "lng": -71.2661597,
+    "date": "2026-10-31",
+    "time": "6 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=RI",
+    "source": "gdtb",
+    "attractions": [
+      "Ramble On Rose Band"
+    ]
+  },
+  {
+    "id": "gdtb-SC-the-grateful-brothers-2026-08-13-noma-square",
+    "name": "The Grateful Brothers — NOMA Square",
+    "band": "The Grateful Brothers",
+    "bandSlug": "the-grateful-brothers",
+    "venue": "NOMA Square",
+    "city": "Greenville",
+    "state": "SC",
+    "lat": 34.851354,
+    "lng": -82.3984882,
+    "date": "2026-08-13",
+    "time": "5:30 PM and 2 more",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=SC",
+    "source": "gdtb",
+    "attractions": [
+      "The Grateful Brothers"
     ]
   },
   {
@@ -12096,11 +14202,47 @@
     ]
   },
   {
-    "id": "gdtb-SC-direwoof-2026-08-28-francesca-s-40-shelter-cove-ln",
-    "name": "DireWoof — Francesca's 40 Shelter Cove Ln",
+    "id": "gdtb-SC-the-grateful-brothers-2026-08-21-backstreets-pub-grill",
+    "name": "The Grateful Brothers — Backstreets Pub & Grill",
+    "band": "The Grateful Brothers",
+    "bandSlug": "the-grateful-brothers",
+    "venue": "Backstreets Pub & Grill",
+    "city": "Clemson",
+    "state": "SC",
+    "lat": 34.6850749,
+    "lng": -82.8364111,
+    "date": "2026-08-21",
+    "time": "10 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=SC",
+    "source": "gdtb",
+    "attractions": [
+      "The Grateful Brothers"
+    ]
+  },
+  {
+    "id": "gdtb-SC-the-grateful-brothers-2026-08-22-backstreets-pub-grill",
+    "name": "The Grateful Brothers — Backstreets Pub & Grill",
+    "band": "The Grateful Brothers",
+    "bandSlug": "the-grateful-brothers",
+    "venue": "Backstreets Pub & Grill",
+    "city": "Clemson",
+    "state": "SC",
+    "lat": 34.6850749,
+    "lng": -82.8364111,
+    "date": "2026-08-22",
+    "time": "8 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=SC",
+    "source": "gdtb",
+    "attractions": [
+      "The Grateful Brothers"
+    ]
+  },
+  {
+    "id": "gdtb-SC-direwoof-2026-08-28-event-by-rooftop-bar-at-poseid",
+    "name": "DireWoof — Event by Rooftop Bar at Poseidon",
     "band": "DireWoof",
     "bandSlug": "direwoof",
-    "venue": "Francesca's 40 Shelter Cove Ln",
+    "venue": "Event by Rooftop Bar at Poseidon",
     "city": "Hilton Head Island",
     "state": "SC",
     "lat": 32.1618488,
@@ -12160,11 +14302,29 @@
     "lat": 34.851354,
     "lng": -82.3984882,
     "date": "2026-09-02",
-    "time": "7 PM",
+    "time": "7 PM and 4 more",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=SC",
     "source": "gdtb",
     "attractions": [
       "The Grateful Brothers"
+    ]
+  },
+  {
+    "id": "gdtb-SC-grass-is-dead-2026-09-25-charleston-pour-house",
+    "name": "Grass Is Dead — Charleston Pour House",
+    "band": "Grass Is Dead",
+    "bandSlug": "grass-is-dead",
+    "venue": "Charleston Pour House",
+    "city": "Charleston",
+    "state": "SC",
+    "lat": 32.7884363,
+    "lng": -79.9399309,
+    "date": "2026-09-25",
+    "time": "9 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=SC",
+    "source": "gdtb",
+    "attractions": [
+      "Grass Is Dead"
     ]
   },
   {
@@ -12258,24 +14418,6 @@
     ]
   },
   {
-    "id": "gdtb-TN-the-stolen-faces-2026-08-10-acme-feed-seed",
-    "name": "The Stolen Faces — Acme Feed & Seed",
-    "band": "The Stolen Faces",
-    "bandSlug": "the-stolen-faces",
-    "venue": "Acme Feed & Seed",
-    "city": "Nashville",
-    "state": "TN",
-    "lat": 36.1622767,
-    "lng": -86.7742984,
-    "date": "2026-08-10",
-    "time": "8 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=TN",
-    "source": "gdtb",
-    "attractions": [
-      "The Stolen Faces"
-    ]
-  },
-  {
     "id": "gdtb-TN-tin-roof-cats-2026-08-13-preservation-pub",
     "name": "Tin Roof Cats — Preservation Pub",
     "band": "Tin Roof Cats",
@@ -12366,6 +14508,24 @@
     ]
   },
   {
+    "id": "gdtb-TN-the-stolen-faces-2026-08-22-the-rebel-bar-and-grill-columb",
+    "name": "The Stolen Faces — The Rebel Bar and Grill Columbia TN",
+    "band": "The Stolen Faces",
+    "bandSlug": "the-stolen-faces",
+    "venue": "The Rebel Bar and Grill Columbia TN",
+    "city": "Columbia",
+    "state": "TN",
+    "lat": 35.6148165,
+    "lng": -87.0338464,
+    "date": "2026-08-22",
+    "time": "2 PM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=TN",
+    "source": "gdtb",
+    "attractions": [
+      "The Stolen Faces"
+    ]
+  },
+  {
     "id": "gdtb-TN-the-stolen-faces-2026-08-24-acme-feed-seed",
     "name": "The Stolen Faces — Acme Feed & Seed",
     "band": "The Stolen Faces",
@@ -12399,6 +14559,24 @@
     "source": "gdtb",
     "attractions": [
       "The Stolen Faces"
+    ]
+  },
+  {
+    "id": "gdtb-TN-tin-roof-cats-2026-09-06-dee-s-lounge",
+    "name": "Tin Roof Cats — Dee's Lounge",
+    "band": "Tin Roof Cats",
+    "bandSlug": "tin-roof-cats",
+    "venue": "Dee's Lounge",
+    "city": "Madison",
+    "state": "TN",
+    "lat": 35.6055887,
+    "lng": -88.852119,
+    "date": "2026-09-06",
+    "time": "3 PM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=TN",
+    "source": "gdtb",
+    "attractions": [
+      "Tin Roof Cats"
     ]
   },
   {
@@ -12654,6 +14832,42 @@
     ]
   },
   {
+    "id": "gdtb-VT-dobbs-dead-2026-08-12-179-guptil-road-waterbury-cent",
+    "name": "Dobbs' Dead — 179 Guptil Road Waterbury Center VT United States Vermont 05677",
+    "band": "Dobbs' Dead",
+    "bandSlug": "dobbs-dead",
+    "venue": "179 Guptil Road Waterbury Center VT United States Vermont 05677",
+    "city": "Waterbury Center",
+    "state": "VT",
+    "lat": 44.3786095,
+    "lng": -72.7193238,
+    "date": "2026-08-12",
+    "time": "7 PM and",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=VT",
+    "source": "gdtb",
+    "attractions": [
+      "Dobbs' Dead"
+    ]
+  },
+  {
+    "id": "gdtb-VT-splintered-sunlight-2026-08-12-179-guptil-road-waterbury-cent",
+    "name": "Splintered Sunlight — 179 Guptil Road Waterbury Center VT United States Vermont 05677",
+    "band": "Splintered Sunlight",
+    "bandSlug": "splintered-sunlight",
+    "venue": "179 Guptil Road Waterbury Center VT United States Vermont 05677",
+    "city": "Waterbury Center",
+    "state": "VT",
+    "lat": 44.3786095,
+    "lng": -72.7193238,
+    "date": "2026-08-12",
+    "time": "7 PM and",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=VT",
+    "source": "gdtb",
+    "attractions": [
+      "Splintered Sunlight"
+    ]
+  },
+  {
     "id": "gdtb-VT-dead-sessions-2026-08-15-moogs-place",
     "name": "Dead Sessions — Moogs Place",
     "band": "Dead Sessions",
@@ -12669,6 +14883,24 @@
     "source": "gdtb",
     "attractions": [
       "Dead Sessions"
+    ]
+  },
+  {
+    "id": "gdtb-VT-alligator-wine-st-louis-2026-09-04-the-skinny-pancake",
+    "name": "Alligator Wine St Louis — The Skinny Pancake",
+    "band": "Alligator Wine St Louis",
+    "bandSlug": "alligator-wine-st-louis",
+    "venue": "The Skinny Pancake",
+    "city": "Burlington",
+    "state": "VT",
+    "lat": 44.4761601,
+    "lng": -73.212906,
+    "date": "2026-09-04",
+    "time": "9 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=VT",
+    "source": "gdtb",
+    "attractions": [
+      "Alligator Wine St Louis"
     ]
   },
   {
@@ -12798,6 +15030,24 @@
     ]
   },
   {
+    "id": "gdtb-VA-the-dead-reckoning-2026-08-28-1327-grandin-road-roanoke-va-u",
+    "name": "The Dead Reckoning — 1327 Grandin Road Roanoke VA United States Virginia 24015",
+    "band": "The Dead Reckoning",
+    "bandSlug": "the-dead-reckoning",
+    "venue": "1327 Grandin Road Roanoke VA United States Virginia 24015",
+    "city": "Roanoke",
+    "state": "VA",
+    "lat": 37.270973,
+    "lng": -79.9414313,
+    "date": "2026-08-28",
+    "time": "5:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=VA",
+    "source": "gdtb",
+    "attractions": [
+      "The Dead Reckoning"
+    ]
+  },
+  {
     "id": "gdtb-VA-deadgrass-2026-08-29-the-beacon-theatre-hopewell",
     "name": "Deadgrass — The Beacon Theatre Hopewell",
     "band": "Deadgrass",
@@ -12849,6 +15099,42 @@
     "source": "gdtb",
     "attractions": [
       "Grateful Allman Band Experience"
+    ]
+  },
+  {
+    "id": "gdtb-VA-born-cross-eyed-2026-09-19-settle-down-easy-brewing",
+    "name": "Born Cross-Eyed — Settle Down Easy Brewing",
+    "band": "Born Cross-Eyed",
+    "bandSlug": "born-cross-eyed",
+    "venue": "Settle Down Easy Brewing",
+    "city": "Falls Church",
+    "state": "VA",
+    "lat": 38.882334,
+    "lng": -77.1710914,
+    "date": "2026-09-19",
+    "time": "6 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=VA",
+    "source": "gdtb",
+    "attractions": [
+      "Born Cross-Eyed"
+    ]
+  },
+  {
+    "id": "gdtb-VA-born-cross-eyed-2026-09-19-settle-down-easy-brewing",
+    "name": "Born Cross-Eyed — Settle Down Easy Brewing",
+    "band": "Born Cross-Eyed",
+    "bandSlug": "born-cross-eyed",
+    "venue": "Settle Down Easy Brewing",
+    "city": "Falls Church",
+    "state": "VA",
+    "lat": 38.882334,
+    "lng": -77.1710914,
+    "date": "2026-09-19",
+    "time": "7 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=VA",
+    "source": "gdtb",
+    "attractions": [
+      "Born Cross-Eyed"
     ]
   },
   {
@@ -12924,11 +15210,11 @@
     ]
   },
   {
-    "id": "gdtb-VA-steely-dead-2026-10-08-event-by-5-points-music-sanctu",
-    "name": "Steely Dead — Event by 5 Points Music Sanctuary",
+    "id": "gdtb-VA-steely-dead-2026-10-08-1217-maple-ave-sw-roanoke-va-u",
+    "name": "Steely Dead — 1217 Maple Ave SW Roanoke VA United States Virginia 24016",
     "band": "Steely Dead",
     "bandSlug": "steely-dead",
-    "venue": "Event by 5 Points Music Sanctuary",
+    "venue": "1217 Maple Ave SW Roanoke VA United States Virginia 24016",
     "city": "Roanoke",
     "state": "VA",
     "lat": 37.270973,
@@ -13086,21 +15372,39 @@
     ]
   },
   {
-    "id": "gdtb-WI-boney-fingers-2026-08-10-wisconsin-state-fair-park",
-    "name": "Boney Fingers — Wisconsin State Fair Park",
-    "band": "Boney Fingers",
-    "bandSlug": "boney-fingers",
-    "venue": "Wisconsin State Fair Park",
+    "id": "gdtb-WI-deadelijk-2026-08-13-jazz-in-the-jams-milwaukee",
+    "name": "Deadelijk — Jazz in the Jams!!! - Milwaukee",
+    "band": "Deadelijk",
+    "bandSlug": "deadelijk",
+    "venue": "Jazz in the Jams!!! - Milwaukee",
     "city": "Milwaukee",
     "state": "WI",
     "lat": 43.0386475,
     "lng": -87.9090751,
-    "date": "2026-08-10",
+    "date": "2026-08-13",
     "time": "7 PM EDT",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=WI",
     "source": "gdtb",
     "attractions": [
-      "Boney Fingers"
+      "Deadelijk"
+    ]
+  },
+  {
+    "id": "gdtb-WI-bowser-2026-08-14-the-osthoff-lake-deck",
+    "name": "Bowser — The Osthoff Lake Deck",
+    "band": "Bowser",
+    "bandSlug": "bowser",
+    "venue": "The Osthoff Lake Deck",
+    "city": "Elkhart Lake",
+    "state": "WI",
+    "lat": 43.8333252,
+    "lng": -88.0178965,
+    "date": "2026-08-14",
+    "time": "8 PM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=WI",
+    "source": "gdtb",
+    "attractions": [
+      "Bowser"
     ]
   },
   {
@@ -13209,6 +15513,24 @@
     "source": "gdtb",
     "attractions": [
       "Terrapin Flyer"
+    ]
+  },
+  {
+    "id": "gdtb-WI-grateful-gals-2026-09-19-232-w-maple-street",
+    "name": "Grateful Gals — 232 W. MAPLE STREET",
+    "band": "Grateful Gals",
+    "bandSlug": "grateful-gals",
+    "venue": "232 W. MAPLE STREET",
+    "city": "RIVER FALLS",
+    "state": "WI",
+    "lat": 44.8596498,
+    "lng": -92.6255048,
+    "date": "2026-09-19",
+    "time": "3PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=WI",
+    "source": "gdtb",
+    "attractions": [
+      "Grateful Gals"
     ]
   },
   {
