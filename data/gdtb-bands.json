@@ -18,12 +18,6 @@
     "state": "AR"
   },
   {
-    "slug": "aces-back-to-back",
-    "name": "Aces Back To Back",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
     "slug": "aardvark",
     "name": "Aardvark",
     "source": "gratefuldeadtributebands.com",
@@ -306,12 +300,6 @@
     "state": "DE"
   },
   {
-    "slug": "crazy-fingers",
-    "name": "Crazy Fingers",
-    "source": "gratefuldeadtributebands.com",
-    "state": "FL"
-  },
-  {
     "slug": "mondo-tikis",
     "name": "Mondo Tikis",
     "source": "gratefuldeadtributebands.com",
@@ -326,6 +314,12 @@
   {
     "slug": "jerryland",
     "name": "Jerryland",
+    "source": "gratefuldeadtributebands.com",
+    "state": "FL"
+  },
+  {
+    "slug": "crazy-fingers",
+    "name": "Crazy Fingers",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
@@ -852,12 +846,6 @@
     "state": "NH"
   },
   {
-    "slug": "pure-jerry",
-    "name": "Pure Jerry",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "the-big-trip",
     "name": "The Big Trip",
     "source": "gratefuldeadtributebands.com",
@@ -1014,6 +1002,12 @@
     "state": "NJ"
   },
   {
+    "slug": "pure-jerry",
+    "name": "Pure Jerry",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
     "slug": "deadicated-friends",
     "name": "Deadicated & Friends",
     "source": "gratefuldeadtributebands.com",
@@ -1092,6 +1086,18 @@
     "state": "NY"
   },
   {
+    "slug": "dark-hollow",
+    "name": "Dark Hollow",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "half-past-dead",
+    "name": "Half Past Dead",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
     "slug": "delilah-jones",
     "name": "Delilah Jones",
     "source": "gratefuldeadtributebands.com",
@@ -1148,6 +1154,12 @@
   {
     "slug": "tin-roof-cats",
     "name": "Tin Roof Cats",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NC"
+  },
+  {
+    "slug": "phuncle-sam",
+    "name": "Phuncle Sam",
     "source": "gratefuldeadtributebands.com",
     "state": "NC"
   },

@@ -126,24 +126,6 @@
     ]
   },
   {
-    "id": "gdtb-CA-aces-back-to-back-2026-08-11-6010-w-pico-blvd",
-    "name": "Aces Back To Back — 6010 W Pico Blvd",
-    "band": "Aces Back To Back",
-    "bandSlug": "aces-back-to-back",
-    "venue": "6010 W Pico Blvd",
-    "city": "Los Angeles",
-    "state": "CA",
-    "lat": 34.0536909,
-    "lng": -118.242766,
-    "date": "2026-08-11",
-    "time": "8:00pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "Aces Back To Back"
-    ]
-  },
-  {
     "id": "gdtb-CA-young-and-dead-2026-08-12-52-windward-ave",
     "name": "Young and Dead — 52 Windward Ave",
     "band": "Young and Dead",
@@ -3240,24 +3222,6 @@
     ]
   },
   {
-    "id": "gdtb-FL-crazy-fingers-2026-08-11-the-funky-biscuit-boca-raton-f",
-    "name": "Crazy Fingers — The Funky Biscuit, Boca Raton, FL 33432",
-    "band": "Crazy Fingers",
-    "bandSlug": "crazy-fingers",
-    "venue": "The Funky Biscuit, Boca Raton, FL 33432",
-    "city": "Boca Raton",
-    "state": "FL",
-    "lat": 26.3586885,
-    "lng": -80.0830984,
-    "date": "2026-08-11",
-    "time": "7:30PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Crazy Fingers"
-    ]
-  },
-  {
     "id": "gdtb-FL-mondo-tikis-2026-08-14-balibar-wines-grinds",
     "name": "Mondo Tikis — Balibar Wines & Grinds",
     "band": "Mondo Tikis",
@@ -5778,24 +5742,6 @@
     ]
   },
   {
-    "id": "gdtb-MA-moose-juice-2026-08-11-burlington-town-common",
-    "name": "Moose Juice — Burlington Town Common",
-    "band": "Moose Juice",
-    "bandSlug": "moose-juice",
-    "venue": "Burlington Town Common",
-    "city": "Burlington",
-    "state": "MA",
-    "lat": 42.5048167,
-    "lng": -71.1956111,
-    "date": "2026-08-11",
-    "time": "6:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "Moose Juice"
-    ]
-  },
-  {
     "id": "gdtb-MA-moose-juice-2026-08-12-22-monument-ave",
     "name": "Moose Juice — 22 Monument Ave",
     "band": "Moose Juice",
@@ -8064,24 +8010,6 @@
     ]
   },
   {
-    "id": "gdtb-NJ-pure-jerry-2026-08-11-stone-harbor-blue-water-tower",
-    "name": "Pure Jerry — Stone Harbor Blue Water Tower",
-    "band": "Pure Jerry",
-    "bandSlug": "pure-jerry",
-    "venue": "Stone Harbor Blue Water Tower",
-    "city": "Stone Harbor",
-    "state": "NJ",
-    "lat": 39.0537129,
-    "lng": -74.7584461,
-    "date": "2026-08-11",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Pure Jerry"
-    ]
-  },
-  {
     "id": "gdtb-NJ-the-big-trip-2026-08-12-king-s-road-brewing-company",
     "name": "The Big Trip — King's Road Brewing Company",
     "band": "The Big Trip",
@@ -10134,6 +10062,42 @@
     ]
   },
   {
+    "id": "gdtb-NY-dark-hollow-2026-08-22-98-s-salina-street",
+    "name": "Dark Hollow — 98 S. Salina Street",
+    "band": "Dark Hollow",
+    "bandSlug": "dark-hollow",
+    "venue": "98 S. Salina Street",
+    "city": "Syracuse",
+    "state": "NY",
+    "lat": 43.0481221,
+    "lng": -76.1474244,
+    "date": "2026-08-22",
+    "time": "8pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Dark Hollow"
+    ]
+  },
+  {
+    "id": "gdtb-NY-half-past-dead-2026-08-22-98-s-salina-street",
+    "name": "Half Past Dead — 98 S. Salina Street",
+    "band": "Half Past Dead",
+    "bandSlug": "half-past-dead",
+    "venue": "98 S. Salina Street",
+    "city": "Syracuse",
+    "state": "NY",
+    "lat": 43.0481221,
+    "lng": -76.1474244,
+    "date": "2026-08-22",
+    "time": "5pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Half Past Dead"
+    ]
+  },
+  {
     "id": "gdtb-NY-crickets-and-cicadas-2026-08-22-the-catskill-brewery",
     "name": "Crickets and Cicadas — The Catskill Brewery",
     "band": "Crickets and Cicadas",
@@ -10203,6 +10167,24 @@
     "source": "gdtb",
     "attractions": [
       "Nailed Shutt"
+    ]
+  },
+  {
+    "id": "gdtb-NY-half-past-dead-2026-08-23-5789-state-hwy-51",
+    "name": "Half Past Dead — 5789 State HWY 51",
+    "band": "Half Past Dead",
+    "bandSlug": "half-past-dead",
+    "venue": "5789 State HWY 51",
+    "city": "Burlington Flats",
+    "state": "NY",
+    "lat": 42.7395019,
+    "lng": -75.1859242,
+    "date": "2026-08-23",
+    "time": "3pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Half Past Dead"
     ]
   },
   {
@@ -10401,6 +10383,24 @@
     "source": "gdtb",
     "attractions": [
       "Dead & Friends"
+    ]
+  },
+  {
+    "id": "gdtb-NY-half-past-dead-2026-08-29-168-seneca-street",
+    "name": "Half Past Dead — 168 Seneca Street",
+    "band": "Half Past Dead",
+    "bandSlug": "half-past-dead",
+    "venue": "168 Seneca Street",
+    "city": "Sherrill",
+    "state": "NY",
+    "lat": 43.073904,
+    "lng": -75.598297,
+    "date": "2026-08-29",
+    "time": "7pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Half Past Dead"
     ]
   },
   {
@@ -10671,6 +10671,24 @@
     "source": "gdtb",
     "attractions": [
       "Tiger Rose"
+    ]
+  },
+  {
+    "id": "gdtb-NY-half-past-dead-2026-09-07-581-state-fair-blvd",
+    "name": "Half Past Dead — 581 State Fair BLVD",
+    "band": "Half Past Dead",
+    "bandSlug": "half-past-dead",
+    "venue": "581 State Fair BLVD",
+    "city": "Syracuse",
+    "state": "NY",
+    "lat": 43.0481221,
+    "lng": -76.1474244,
+    "date": "2026-09-07",
+    "time": "6pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Half Past Dead"
     ]
   },
   {
@@ -11571,6 +11589,24 @@
     "source": "gdtb",
     "attractions": [
       "Tin Roof Cats"
+    ]
+  },
+  {
+    "id": "gdtb-NC-phuncle-sam-2026-08-16-147-1st-ave-e",
+    "name": "Phuncle Sam — 147 1st Ave E.",
+    "band": "Phuncle Sam",
+    "bandSlug": "phuncle-sam",
+    "venue": "147 1st Ave E.",
+    "city": "Hendersonville",
+    "state": "NC",
+    "lat": 35.3187279,
+    "lng": -82.4609528,
+    "date": "2026-08-16",
+    "time": "3:00PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NC",
+    "source": "gdtb",
+    "attractions": [
+      "Phuncle Sam"
     ]
   },
   {
@@ -12834,24 +12870,6 @@
     ]
   },
   {
-    "id": "gdtb-PA-deal-2026-08-11-511-e-3rd-street",
-    "name": "DEAL — 511 E 3rd Street",
-    "band": "DEAL",
-    "bandSlug": "deal",
-    "venue": "511 E 3rd Street",
-    "city": "Landsdale",
-    "state": "PA",
-    "lat": 40.2424297,
-    "lng": -75.3019826,
-    "date": "2026-08-11",
-    "time": "6:00",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
-    "source": "gdtb",
-    "attractions": [
-      "DEAL"
-    ]
-  },
-  {
     "id": "gdtb-PA-crickets-and-cicadas-2026-08-15-208-210-west-state-stmedia1906",
     "name": "Crickets and Cicadas — 208-210 West State StMedia19063US",
     "band": "Crickets and Cicadas",
@@ -13356,6 +13374,24 @@
     ]
   },
   {
+    "id": "gdtb-PA-jawn-of-the-dead-2026-09-12-208-210-w-state-st",
+    "name": "Jawn of the Dead — 208-210 W State St",
+    "band": "Jawn of the Dead",
+    "bandSlug": "jawn-of-the-dead",
+    "venue": "208-210 W State St",
+    "city": "Media",
+    "state": "PA",
+    "lat": 39.9167783,
+    "lng": -75.387693,
+    "date": "2026-09-12",
+    "time": "8:30 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
+    "source": "gdtb",
+    "attractions": [
+      "Jawn of the Dead"
+    ]
+  },
+  {
     "id": "gdtb-PA-grateful-allman-band-experience-2026-09-12-50-n-cameron-st-harrisburg-pa-",
     "name": "Grateful Allman Band Experience — 50 N Cameron St Harrisburg PA United States Pennsylvania 17101",
     "band": "Grateful Allman Band Experience",
@@ -13857,6 +13893,24 @@
     "source": "gdtb",
     "attractions": [
       "Deadband"
+    ]
+  },
+  {
+    "id": "gdtb-PA-jawn-of-the-dead-2026-10-24-342-n-pottstown-pike",
+    "name": "Jawn of the Dead — 342 N Pottstown Pike",
+    "band": "Jawn of the Dead",
+    "bandSlug": "jawn-of-the-dead",
+    "venue": "342 N Pottstown Pike",
+    "city": "Exton",
+    "state": "PA",
+    "lat": 40.0299755,
+    "lng": -75.6290436,
+    "date": "2026-10-24",
+    "time": "7PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
+    "source": "gdtb",
+    "attractions": [
+      "Jawn of the Dead"
     ]
   },
   {

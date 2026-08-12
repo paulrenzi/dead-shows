@@ -5146,5 +5146,13 @@
   "river falls, wi": {
     "lat": 44.8596498,
     "lng": -92.6255048
+  },
+  "burlington flats, ny": {
+    "lat": 42.7395019,
+    "lng": -75.1859242
+  },
+  "sherrill, ny": {
+    "lat": 43.073904,
+    "lng": -75.598297
   }
 }
