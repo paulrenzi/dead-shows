@@ -126,24 +126,6 @@
     ]
   },
   {
-    "id": "gdtb-CA-young-and-dead-2026-08-12-52-windward-ave",
-    "name": "Young and Dead — 52 Windward Ave",
-    "band": "Young and Dead",
-    "bandSlug": "young-and-dead",
-    "venue": "52 Windward Ave",
-    "city": "Venice",
-    "state": "CA",
-    "lat": 33.995044,
-    "lng": -118.4668875,
-    "date": "2026-08-12",
-    "time": "8:00pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "Young and Dead"
-    ]
-  },
-  {
     "id": "gdtb-CA-young-and-dead-2026-08-13-843-w-19th-st",
     "name": "Young and Dead — 843 W 19th St",
     "band": "Young and Dead",
@@ -1257,24 +1239,6 @@
     "source": "gdtb",
     "attractions": [
       "Rosewater"
-    ]
-  },
-  {
-    "id": "gdtb-CO-easy-jim-2026-08-12-two-rivers-park",
-    "name": "Easy Jim — Two Rivers Park",
-    "band": "Easy Jim",
-    "bandSlug": "easy-jim",
-    "venue": "Two Rivers Park",
-    "city": "Glenwood Springs",
-    "state": "CO",
-    "lat": 39.5466381,
-    "lng": -107.3246941,
-    "date": "2026-08-12",
-    "time": "8:30 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
-    "source": "gdtb",
-    "attractions": [
-      "Easy Jim"
     ]
   },
   {
@@ -3150,24 +3114,6 @@
     ]
   },
   {
-    "id": "gdtb-DE-melvin-seals-and-jgb-2026-08-12-43-cape-henlopen-dr-lewes-de-u",
-    "name": "Melvin Seals and JGB — 43 Cape Henlopen Dr Lewes DE United States Delaware 19958",
-    "band": "Melvin Seals and JGB",
-    "bandSlug": "melvin-seals-and-jgb",
-    "venue": "43 Cape Henlopen Dr Lewes DE United States Delaware 19958",
-    "city": "Lewes",
-    "state": "DE",
-    "lat": 38.7733961,
-    "lng": -75.1379574,
-    "date": "2026-08-12",
-    "time": "5:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=DE",
-    "source": "gdtb",
-    "attractions": [
-      "Melvin Seals and JGB"
-    ]
-  },
-  {
     "id": "gdtb-DE-melvin-seals-and-jgb-2026-08-13-43-cape-henlopen-dr-lewes-de-u",
     "name": "Melvin Seals and JGB — 43 Cape Henlopen Dr Lewes DE United States Delaware 19958",
     "band": "Melvin Seals and JGB",
@@ -4425,6 +4371,24 @@
     "source": "gdtb",
     "attractions": [
       "Old Shoe"
+    ]
+  },
+  {
+    "id": "gdtb-IL-moby-dead-2026-09-06-12-n-river-st",
+    "name": "Moby Dead — 12 N River St",
+    "band": "Moby Dead",
+    "bandSlug": "moby-dead",
+    "venue": "12 N River St",
+    "city": "BATAVIA",
+    "state": "IL",
+    "lat": 41.8500284,
+    "lng": -88.3125738,
+    "date": "2026-09-06",
+    "time": "5-8pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=IL",
+    "source": "gdtb",
+    "attractions": [
+      "Moby Dead"
     ]
   },
   {
@@ -5739,42 +5703,6 @@
     "source": "gdtb",
     "attractions": [
       "InDEADnation"
-    ]
-  },
-  {
-    "id": "gdtb-MA-moose-juice-2026-08-12-22-monument-ave",
-    "name": "Moose Juice — 22 Monument Ave",
-    "band": "Moose Juice",
-    "bandSlug": "moose-juice",
-    "venue": "22 Monument Ave",
-    "city": "Swampscott",
-    "state": "MA",
-    "lat": 42.4699241,
-    "lng": -70.9171507,
-    "date": "2026-08-12",
-    "time": "6:30-8:00pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "Moose Juice"
-    ]
-  },
-  {
-    "id": "gdtb-MA-playing-dead-2026-08-12-soundcheck-studios-pembroke",
-    "name": "Playing Dead — Soundcheck Studios Pembroke",
-    "band": "Playing Dead",
-    "bandSlug": "playing-dead",
-    "venue": "Soundcheck Studios Pembroke",
-    "city": "Pembroke",
-    "state": "MA",
-    "lat": 42.0714907,
-    "lng": -70.8092074,
-    "date": "2026-08-12",
-    "time": "8 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "Playing Dead"
     ]
   },
   {
@@ -8010,42 +7938,6 @@
     ]
   },
   {
-    "id": "gdtb-NJ-the-big-trip-2026-08-12-king-s-road-brewing-company",
-    "name": "The Big Trip — King's Road Brewing Company",
-    "band": "The Big Trip",
-    "bandSlug": "the-big-trip",
-    "venue": "King's Road Brewing Company",
-    "city": "Haddonfield",
-    "state": "NJ",
-    "lat": 39.8915022,
-    "lng": -75.0376707,
-    "date": "2026-08-12",
-    "time": "6:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "The Big Trip"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-the-brian-st-john-band-2026-08-12-o-reillys-pub",
-    "name": "The Brian St John Band — O'Reillys Pub",
-    "band": "The Brian St John Band",
-    "bandSlug": "the-brian-st-john-band",
-    "venue": "O'Reillys Pub",
-    "city": "Newton",
-    "state": "NJ",
-    "lat": 41.0583121,
-    "lng": -74.7531445,
-    "date": "2026-08-12",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "The Brian St John Band"
-    ]
-  },
-  {
     "id": "gdtb-NJ-diomede-and-donovan-2026-08-13-olde-village-pub-and-liquors",
     "name": "Diomede And Donovan — Olde Village Pub and Liquors",
     "band": "Diomede And Donovan",
@@ -9681,42 +9573,6 @@
     "source": "gdtb",
     "attractions": [
       "Odd Dog"
-    ]
-  },
-  {
-    "id": "gdtb-NY-buffalo-dead-all-stars-2026-08-12-sportsmens-tavern",
-    "name": "Buffalo Dead All Stars — Sportsmens Tavern",
-    "band": "Buffalo Dead All Stars",
-    "bandSlug": "buffalo-dead-all-stars",
-    "venue": "Sportsmens Tavern",
-    "city": "Buffalo",
-    "state": "NY",
-    "lat": 42.8864163,
-    "lng": -78.8781493,
-    "date": "2026-08-12",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Buffalo Dead All Stars"
-    ]
-  },
-  {
-    "id": "gdtb-NY-reckoning-2026-08-12-the-warehouse-live-music-event",
-    "name": "Reckoning — The Warehouse Live Music & Events",
-    "band": "Reckoning",
-    "bandSlug": "reckoning",
-    "venue": "The Warehouse Live Music & Events",
-    "city": "Amityville",
-    "state": "NY",
-    "lat": 40.6789893,
-    "lng": -73.4170673,
-    "date": "2026-08-12",
-    "time": "6:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Reckoning"
     ]
   },
   {
@@ -12834,6 +12690,24 @@
     ]
   },
   {
+    "id": "gdtb-OR-token-rhymes-2026-09-05-325-blair-blvd",
+    "name": "Token Rhymes — 325 Blair Blvd",
+    "band": "Token Rhymes",
+    "bandSlug": "token-rhymes",
+    "venue": "325 Blair Blvd",
+    "city": "Eugene",
+    "state": "OR",
+    "lat": 44.0505054,
+    "lng": -123.0950506,
+    "date": "2026-09-05",
+    "time": "6:00-10:00",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OR",
+    "source": "gdtb",
+    "attractions": [
+      "Token Rhymes"
+    ]
+  },
+  {
     "id": "gdtb-OR-grateful-shred-2026-09-06-97028",
     "name": "Grateful Shred — 97028",
     "band": "Grateful Shred",
@@ -12867,6 +12741,42 @@
     "source": "gdtb",
     "attractions": [
       "Token Rhymes"
+    ]
+  },
+  {
+    "id": "gdtb-PA-deal-2026-08-13-556-main-street",
+    "name": "DEAL — 556 Main Street",
+    "band": "DEAL",
+    "bandSlug": "deal",
+    "venue": "556 Main Street",
+    "city": "Bethlehem",
+    "state": "PA",
+    "lat": 40.6178915,
+    "lng": -75.3786521,
+    "date": "2026-08-13",
+    "time": "5:30",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
+    "source": "gdtb",
+    "attractions": [
+      "DEAL"
+    ]
+  },
+  {
+    "id": "gdtb-PA-deal-2026-08-14-782-main-street",
+    "name": "DEAL — 782 Main Street",
+    "band": "DEAL",
+    "bandSlug": "deal",
+    "venue": "782 Main Street",
+    "city": "Hellertown",
+    "state": "PA",
+    "lat": 40.5816845,
+    "lng": -75.3360613,
+    "date": "2026-08-14",
+    "time": "6:00",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
+    "source": "gdtb",
+    "attractions": [
+      "DEAL"
     ]
   },
   {
@@ -13389,6 +13299,24 @@
     "source": "gdtb",
     "attractions": [
       "Jawn of the Dead"
+    ]
+  },
+  {
+    "id": "gdtb-PA-deal-2026-09-12-902-philadelphia-rd",
+    "name": "DEAL — 902 Philadelphia Rd",
+    "band": "DEAL",
+    "bandSlug": "deal",
+    "venue": "902 Philadelphia Rd",
+    "city": "Easton",
+    "state": "PA",
+    "lat": 40.6916081,
+    "lng": -75.2099866,
+    "date": "2026-09-12",
+    "time": "5:00",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
+    "source": "gdtb",
+    "attractions": [
+      "DEAL"
     ]
   },
   {
@@ -14883,42 +14811,6 @@
     "source": "gdtb",
     "attractions": [
       "Lone Star Dead"
-    ]
-  },
-  {
-    "id": "gdtb-VT-dobbs-dead-2026-08-12-179-guptil-road-waterbury-cent",
-    "name": "Dobbs' Dead — 179 Guptil Road Waterbury Center VT United States Vermont 05677",
-    "band": "Dobbs' Dead",
-    "bandSlug": "dobbs-dead",
-    "venue": "179 Guptil Road Waterbury Center VT United States Vermont 05677",
-    "city": "Waterbury Center",
-    "state": "VT",
-    "lat": 44.3786095,
-    "lng": -72.7193238,
-    "date": "2026-08-12",
-    "time": "7 PM and",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=VT",
-    "source": "gdtb",
-    "attractions": [
-      "Dobbs' Dead"
-    ]
-  },
-  {
-    "id": "gdtb-VT-splintered-sunlight-2026-08-12-179-guptil-road-waterbury-cent",
-    "name": "Splintered Sunlight — 179 Guptil Road Waterbury Center VT United States Vermont 05677",
-    "band": "Splintered Sunlight",
-    "bandSlug": "splintered-sunlight",
-    "venue": "179 Guptil Road Waterbury Center VT United States Vermont 05677",
-    "city": "Waterbury Center",
-    "state": "VT",
-    "lat": 44.3786095,
-    "lng": -72.7193238,
-    "date": "2026-08-12",
-    "time": "7 PM and",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=VT",
-    "source": "gdtb",
-    "attractions": [
-      "Splintered Sunlight"
     ]
   },
   {

@@ -438,6 +438,12 @@
     "state": "IL"
   },
   {
+    "slug": "moby-dead",
+    "name": "Moby Dead",
+    "source": "gratefuldeadtributebands.com",
+    "state": "IL"
+  },
+  {
     "slug": "spies-of-the-world",
     "name": "Spies Of The World",
     "source": "gratefuldeadtributebands.com",
@@ -616,12 +622,6 @@
     "name": "New Potato Caboose",
     "source": "gratefuldeadtributebands.com",
     "state": "MD"
-  },
-  {
-    "slug": "moose-juice",
-    "name": "Moose Juice",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MA"
   },
   {
     "slug": "quaboag-river-blues-band",
@@ -846,18 +846,6 @@
     "state": "NH"
   },
   {
-    "slug": "the-big-trip",
-    "name": "The Big Trip",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "the-brian-st-john-band",
-    "name": "The Brian St John Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "diomede-and-donovan",
     "name": "Diomede And Donovan",
     "source": "gratefuldeadtributebands.com",
@@ -896,6 +884,12 @@
   {
     "slug": "steal-your-face",
     "name": "Steal Your Face",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "the-big-trip",
+    "name": "The Big Trip",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -962,6 +956,12 @@
   {
     "slug": "grateful-mondays-nj",
     "name": "Grateful Mondays NJ",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "the-brian-st-john-band",
+    "name": "The Brian St John Band",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1038,12 +1038,6 @@
     "state": "NM"
   },
   {
-    "slug": "buffalo-dead-all-stars",
-    "name": "Buffalo Dead All Stars",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
     "slug": "gratefully-yours",
     "name": "Gratefully Yours",
     "source": "gratefuldeadtributebands.com",
@@ -1106,6 +1100,12 @@
   {
     "slug": "tiger-rose",
     "name": "Tiger Rose",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "buffalo-dead-all-stars",
+    "name": "Buffalo Dead All Stars",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
@@ -1354,12 +1354,6 @@
     "name": "Lone Star Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "TX"
-  },
-  {
-    "slug": "dobbs-dead",
-    "name": "Dobbs' Dead",
-    "source": "gratefuldeadtributebands.com",
-    "state": "VT"
   },
   {
     "slug": "dead-sessions",

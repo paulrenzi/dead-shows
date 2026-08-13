@@ -1943,5 +1943,9 @@
   "born-cross-eyed": {
     "tried": "2026-08-11",
     "matched": false
+  },
+  "moby-dead": {
+    "tried": "2026-08-13",
+    "matched": false
   }
 }
