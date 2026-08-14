@@ -150,14 +150,14 @@
     "state": "CA"
   },
   {
-    "slug": "easy-jim",
-    "name": "Easy Jim",
+    "slug": "dead-panic",
+    "name": "Dead Panic",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
   {
-    "slug": "dead-panic",
-    "name": "Dead Panic",
+    "slug": "easy-jim",
+    "name": "Easy Jim",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
@@ -462,12 +462,6 @@
     "state": "IL"
   },
   {
-    "slug": "rusted-strings-band",
-    "name": "Rusted Strings Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "IN"
-  },
-  {
     "slug": "graciously-departed",
     "name": "Graciously Departed",
     "source": "gratefuldeadtributebands.com",
@@ -492,10 +486,10 @@
     "state": "IN"
   },
   {
-    "slug": "touch-of-grey-midwest",
-    "name": "Touch of Grey Midwest",
+    "slug": "rusted-strings-band",
+    "name": "Rusted Strings Band",
     "source": "gratefuldeadtributebands.com",
-    "state": "IA"
+    "state": "IN"
   },
   {
     "slug": "kc-bones",
@@ -504,16 +498,16 @@
     "state": "IA"
   },
   {
+    "slug": "touch-of-grey-midwest",
+    "name": "Touch of Grey Midwest",
+    "source": "gratefuldeadtributebands.com",
+    "state": "IA"
+  },
+  {
     "slug": "65-95",
     "name": "65-95",
     "source": "gratefuldeadtributebands.com",
     "state": "KY"
-  },
-  {
-    "slug": "ramble-on-rose-band",
-    "name": "Ramble On Rose Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "ME"
   },
   {
     "slug": "special-event-the-grateful-campout",
@@ -556,12 +550,6 @@
     "name": "Rose Alley",
     "source": "gratefuldeadtributebands.com",
     "state": "ME"
-  },
-  {
-    "slug": "crickets-and-cicadas",
-    "name": "Crickets and Cicadas",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MD"
   },
   {
     "slug": "old-head",
@@ -690,6 +678,12 @@
     "state": "MA"
   },
   {
+    "slug": "ramble-on-rose-band",
+    "name": "Ramble On Rose Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "MA"
+  },
+  {
     "slug": "the-knot",
     "name": "The Knot",
     "source": "gratefuldeadtributebands.com",
@@ -732,12 +726,6 @@
     "state": "MA"
   },
   {
-    "slug": "jerry-s-tone",
-    "name": "Jerry's Tone",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MI"
-  },
-  {
     "slug": "spirit-of-the-dead-band",
     "name": "Spirit of the Dead Band",
     "source": "gratefuldeadtributebands.com",
@@ -770,6 +758,12 @@
   {
     "slug": "raising-the-dead",
     "name": "Raising The Dead",
+    "source": "gratefuldeadtributebands.com",
+    "state": "MI"
+  },
+  {
+    "slug": "jerry-s-tone",
+    "name": "Jerry's Tone",
     "source": "gratefuldeadtributebands.com",
     "state": "MI"
   },
@@ -846,18 +840,6 @@
     "state": "NH"
   },
   {
-    "slug": "diomede-and-donovan",
-    "name": "Diomede And Donovan",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "lovelight",
-    "name": "LoveLight",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "be5d",
     "name": "Be5D",
     "source": "gratefuldeadtributebands.com",
@@ -878,6 +860,12 @@
   {
     "slug": "good-dead",
     "name": "Good & Dead",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "lovelight",
+    "name": "LoveLight",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -948,6 +936,12 @@
     "state": "NJ"
   },
   {
+    "slug": "crickets-and-cicadas",
+    "name": "Crickets and Cicadas",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
     "slug": "stanley-jordan-plays-the-dead",
     "name": "Stanley Jordan Plays The Dead",
     "source": "gratefuldeadtributebands.com",
@@ -956,6 +950,12 @@
   {
     "slug": "grateful-mondays-nj",
     "name": "Grateful Mondays NJ",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "diomede-and-donovan",
+    "name": "Diomede And Donovan",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1308,14 +1308,14 @@
     "state": "RI"
   },
   {
-    "slug": "the-grateful-brothers",
-    "name": "The Grateful Brothers",
+    "slug": "thursday-s-dead",
+    "name": "Thursday's Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "SC"
   },
   {
-    "slug": "thursday-s-dead",
-    "name": "Thursday's Dead",
+    "slug": "the-grateful-brothers",
+    "name": "The Grateful Brothers",
     "source": "gratefuldeadtributebands.com",
     "state": "SC"
   },
@@ -1414,12 +1414,6 @@
     "name": "DEAL WA",
     "source": "gratefuldeadtributebands.com",
     "state": "WA"
-  },
-  {
-    "slug": "deadelijk",
-    "name": "Deadelijk",
-    "source": "gratefuldeadtributebands.com",
-    "state": "WI"
   },
   {
     "slug": "bowser",

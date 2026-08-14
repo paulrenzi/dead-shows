@@ -126,24 +126,6 @@
     ]
   },
   {
-    "id": "gdtb-CA-young-and-dead-2026-08-13-843-w-19th-st",
-    "name": "Young and Dead — 843 W 19th St",
-    "band": "Young and Dead",
-    "bandSlug": "young-and-dead",
-    "venue": "843 W 19th St",
-    "city": "Costa Mesa",
-    "state": "CA",
-    "lat": 33.6633386,
-    "lng": -117.903317,
-    "date": "2026-08-13",
-    "time": "8:00pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "Young and Dead"
-    ]
-  },
-  {
     "id": "gdtb-CA-young-and-dead-2026-08-14-32701-alipaz-street",
     "name": "Young and Dead — 32701 Alipaz Street",
     "band": "Young and Dead",
@@ -1239,24 +1221,6 @@
     "source": "gdtb",
     "attractions": [
       "Rosewater"
-    ]
-  },
-  {
-    "id": "gdtb-CO-easy-jim-2026-08-13-paonia-town-park",
-    "name": "Easy Jim — Paonia Town Park",
-    "band": "Easy Jim",
-    "bandSlug": "easy-jim",
-    "venue": "Paonia Town Park",
-    "city": "Paonia",
-    "state": "CO",
-    "lat": 38.8683205,
-    "lng": -107.5920018,
-    "date": "2026-08-13",
-    "time": "8 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
-    "source": "gdtb",
-    "attractions": [
-      "Easy Jim"
     ]
   },
   {
@@ -3114,24 +3078,6 @@
     ]
   },
   {
-    "id": "gdtb-DE-melvin-seals-and-jgb-2026-08-13-43-cape-henlopen-dr-lewes-de-u",
-    "name": "Melvin Seals and JGB — 43 Cape Henlopen Dr Lewes DE United States Delaware 19958",
-    "band": "Melvin Seals and JGB",
-    "bandSlug": "melvin-seals-and-jgb",
-    "venue": "43 Cape Henlopen Dr Lewes DE United States Delaware 19958",
-    "city": "Lewes",
-    "state": "DE",
-    "lat": 38.7733961,
-    "lng": -75.1379574,
-    "date": "2026-08-13",
-    "time": "5:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=DE",
-    "source": "gdtb",
-    "attractions": [
-      "Melvin Seals and JGB"
-    ]
-  },
-  {
     "id": "gdtb-DE-foolish-heart-band-2026-09-05-wilmington-delaware",
     "name": "Foolish Heart Band — Wilmington Delaware",
     "band": "Foolish Heart Band",
@@ -4590,24 +4536,6 @@
     ]
   },
   {
-    "id": "gdtb-IN-rusted-strings-band-2026-08-13-hobart-summer-market-on-the-la",
-    "name": "Rusted Strings Band — Hobart Summer Market on the Lake",
-    "band": "Rusted Strings Band",
-    "bandSlug": "rusted-strings-band",
-    "venue": "Hobart Summer Market on the Lake",
-    "city": "Hobart",
-    "state": "IN",
-    "lat": 41.5322592,
-    "lng": -87.2550353,
-    "date": "2026-08-13",
-    "time": "7 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=IN",
-    "source": "gdtb",
-    "attractions": [
-      "Rusted Strings Band"
-    ]
-  },
-  {
     "id": "gdtb-IN-graciously-departed-2026-08-14-6342-n-700-e-darlington-in-uni",
     "name": "Graciously Departed — 6342 N 700 E Darlington IN United States Indiana 47940 Darlington",
     "band": "Graciously Departed",
@@ -4932,24 +4860,6 @@
     ]
   },
   {
-    "id": "gdtb-IA-touch-of-grey-midwest-2026-08-13-historic-fountain-square-park",
-    "name": "Touch of Grey Midwest — Historic Fountain Square Park",
-    "band": "Touch of Grey Midwest",
-    "bandSlug": "touch-of-grey-midwest",
-    "venue": "Historic Fountain Square Park",
-    "city": "Red Oak",
-    "state": "IA",
-    "lat": 41.0095189,
-    "lng": -95.228247,
-    "date": "2026-08-13",
-    "time": "7 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=IA",
-    "source": "gdtb",
-    "attractions": [
-      "Touch of Grey Midwest"
-    ]
-  },
-  {
     "id": "gdtb-IA-kc-bones-2026-08-21-4919-walleye-dr-se-iowa-city-i",
     "name": "KC Bones — 4919 Walleye Dr SE Iowa City IA",
     "band": "KC Bones",
@@ -5130,24 +5040,6 @@
     ]
   },
   {
-    "id": "gdtb-ME-ramble-on-rose-band-2026-08-13-acres-of-wildlife-campground",
-    "name": "Ramble On Rose Band — Acres Of Wildlife Campground",
-    "band": "Ramble On Rose Band",
-    "bandSlug": "ramble-on-rose-band",
-    "venue": "Acres Of Wildlife Campground",
-    "city": "Steep Falls",
-    "state": "ME",
-    "lat": 43.7937603,
-    "lng": -70.6521114,
-    "date": "2026-08-13",
-    "time": "5 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=ME",
-    "source": "gdtb",
-    "attractions": [
-      "Ramble On Rose Band"
-    ]
-  },
-  {
     "id": "gdtb-ME-special-event-the-grateful-campout-2026-08-14-60-acres-of-wildlife-rd",
     "name": "Special Event The Grateful Campout — 60 Acres of Wildlife Rd.",
     "band": "Special Event The Grateful Campout",
@@ -5307,24 +5199,6 @@
     "source": "gdtb",
     "attractions": [
       "Rose Alley"
-    ]
-  },
-  {
-    "id": "gdtb-MD-crickets-and-cicadas-2026-08-13-mother-s-peninsula-grille",
-    "name": "Crickets and Cicadas — Mother's Peninsula Grille",
-    "band": "Crickets and Cicadas",
-    "bandSlug": "crickets-and-cicadas",
-    "venue": "Mother's Peninsula Grille",
-    "city": "Arnold",
-    "state": "MD",
-    "lat": 39.0422935,
-    "lng": -76.504059,
-    "date": "2026-08-13",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MD",
-    "source": "gdtb",
-    "attractions": [
-      "Crickets and Cicadas"
     ]
   },
   {
@@ -6840,24 +6714,6 @@
     ]
   },
   {
-    "id": "gdtb-MI-jerry-s-tone-2026-08-13-4209-coolidge-hwy-royal-oak-mi",
-    "name": "Jerry's Tone — 4209 Coolidge Hwy Royal Oak MI United States Michigan 48073",
-    "band": "Jerry's Tone",
-    "bandSlug": "jerry-s-tone",
-    "venue": "4209 Coolidge Hwy Royal Oak MI United States Michigan 48073",
-    "city": "Royal Oak",
-    "state": "MI",
-    "lat": 42.4894801,
-    "lng": -83.1446485,
-    "date": "2026-08-13",
-    "time": "9 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MI",
-    "source": "gdtb",
-    "attractions": [
-      "Jerry's Tone"
-    ]
-  },
-  {
     "id": "gdtb-MI-spirit-of-the-dead-band-2026-08-14-2071-e-trask-lake",
     "name": "Spirit of the Dead Band — 2071 E.Trask Lake",
     "band": "Spirit of the Dead Band",
@@ -7935,42 +7791,6 @@
     "source": "gdtb",
     "attractions": [
       "Melvin Seals and JGB"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-diomede-and-donovan-2026-08-13-olde-village-pub-and-liquors",
-    "name": "Diomede And Donovan — Olde Village Pub and Liquors",
-    "band": "Diomede And Donovan",
-    "bandSlug": "diomede-and-donovan",
-    "venue": "Olde Village Pub and Liquors",
-    "city": "Middletown",
-    "state": "NJ",
-    "lat": 40.3898188,
-    "lng": -74.1162152,
-    "date": "2026-08-13",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Diomede And Donovan"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-lovelight-2026-08-13-cooper-s-riverview",
-    "name": "LoveLight — Cooper's Riverview",
-    "band": "LoveLight",
-    "bandSlug": "lovelight",
-    "venue": "Cooper's Riverview",
-    "city": "Trenton",
-    "state": "NJ",
-    "lat": 40.2203074,
-    "lng": -74.7659,
-    "date": "2026-08-13",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "LoveLight"
     ]
   },
   {
@@ -12744,24 +12564,6 @@
     ]
   },
   {
-    "id": "gdtb-PA-deal-2026-08-13-556-main-street",
-    "name": "DEAL — 556 Main Street",
-    "band": "DEAL",
-    "bandSlug": "deal",
-    "venue": "556 Main Street",
-    "city": "Bethlehem",
-    "state": "PA",
-    "lat": 40.6178915,
-    "lng": -75.3786521,
-    "date": "2026-08-13",
-    "time": "5:30",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
-    "source": "gdtb",
-    "attractions": [
-      "DEAL"
-    ]
-  },
-  {
     "id": "gdtb-PA-deal-2026-08-14-782-main-street",
     "name": "DEAL — 782 Main Street",
     "band": "DEAL",
@@ -14094,24 +13896,6 @@
     ]
   },
   {
-    "id": "gdtb-SC-the-grateful-brothers-2026-08-13-noma-square",
-    "name": "The Grateful Brothers — NOMA Square",
-    "band": "The Grateful Brothers",
-    "bandSlug": "the-grateful-brothers",
-    "venue": "NOMA Square",
-    "city": "Greenville",
-    "state": "SC",
-    "lat": 34.851354,
-    "lng": -82.3984882,
-    "date": "2026-08-13",
-    "time": "5:30 PM and 2 more",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=SC",
-    "source": "gdtb",
-    "attractions": [
-      "The Grateful Brothers"
-    ]
-  },
-  {
     "id": "gdtb-SC-thursday-s-dead-2026-08-14-6307-n-kings-hwy",
     "name": "Thursday's Dead — 6307 N Kings Hwy",
     "band": "Thursday's Dead",
@@ -14397,24 +14181,6 @@
     "source": "gdtb",
     "attractions": [
       "Catfish John"
-    ]
-  },
-  {
-    "id": "gdtb-TN-tin-roof-cats-2026-08-13-preservation-pub",
-    "name": "Tin Roof Cats — Preservation Pub",
-    "band": "Tin Roof Cats",
-    "bandSlug": "tin-roof-cats",
-    "venue": "Preservation Pub",
-    "city": "Knoxville",
-    "state": "TN",
-    "lat": 35.9603948,
-    "lng": -83.9210261,
-    "date": "2026-08-13",
-    "time": "9 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=TN",
-    "source": "gdtb",
-    "attractions": [
-      "Tin Roof Cats"
     ]
   },
   {
@@ -15315,24 +15081,6 @@
     "source": "gdtb",
     "attractions": [
       "DEAL WA"
-    ]
-  },
-  {
-    "id": "gdtb-WI-deadelijk-2026-08-13-jazz-in-the-jams-milwaukee",
-    "name": "Deadelijk — Jazz in the Jams!!! - Milwaukee",
-    "band": "Deadelijk",
-    "bandSlug": "deadelijk",
-    "venue": "Jazz in the Jams!!! - Milwaukee",
-    "city": "Milwaukee",
-    "state": "WI",
-    "lat": 43.0386475,
-    "lng": -87.9090751,
-    "date": "2026-08-13",
-    "time": "7 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=WI",
-    "source": "gdtb",
-    "attractions": [
-      "Deadelijk"
     ]
   },
   {
