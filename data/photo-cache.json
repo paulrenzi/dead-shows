@@ -1947,5 +1947,10 @@
   "moby-dead": {
     "tried": "2026-08-13",
     "matched": false
+  },
+  "promised-land": {
+    "tried": "2026-08-16",
+    "matched": true,
+    "name": "Promised Land"
   }
 }

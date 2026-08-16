@@ -602,5 +602,10 @@
     "photo": "images/bands/mojo-hand.jpg",
     "source": "deezer",
     "matchedName": "Mojo Hand"
+  },
+  "promised-land": {
+    "photo": "images/bands/promised-land.jpg",
+    "source": "deezer",
+    "matchedName": "Promised Land"
   }
 }
