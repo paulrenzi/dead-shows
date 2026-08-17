@@ -18,18 +18,6 @@
     "state": "CA"
   },
   {
-    "slug": "scarlett-fyre",
-    "name": "Scarlett Fyre",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
-    "slug": "dead-roses",
-    "name": "Dead Roses",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
     "slug": "aardvark",
     "name": "Aardvark",
     "source": "gratefuldeadtributebands.com",
@@ -66,6 +54,12 @@
     "state": "CA"
   },
   {
+    "slug": "scarlett-fyre",
+    "name": "Scarlett Fyre",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
     "slug": "grateful-dads-of-newport-beach",
     "name": "Grateful Dads of Newport Beach",
     "source": "gratefuldeadtributebands.com",
@@ -98,6 +92,12 @@
   {
     "slug": "rosewater",
     "name": "Rosewater",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
+    "slug": "dead-roses",
+    "name": "Dead Roses",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
   },
@@ -282,24 +282,6 @@
     "state": "DE"
   },
   {
-    "slug": "dead-set-florida",
-    "name": "Dead Set Florida",
-    "source": "gratefuldeadtributebands.com",
-    "state": "FL"
-  },
-  {
-    "slug": "glass-camels",
-    "name": "Glass Camels",
-    "source": "gratefuldeadtributebands.com",
-    "state": "FL"
-  },
-  {
-    "slug": "jerryland",
-    "name": "Jerryland",
-    "source": "gratefuldeadtributebands.com",
-    "state": "FL"
-  },
-  {
     "slug": "crazy-fingers",
     "name": "Crazy Fingers",
     "source": "gratefuldeadtributebands.com",
@@ -324,8 +306,20 @@
     "state": "FL"
   },
   {
+    "slug": "dead-set-florida",
+    "name": "Dead Set Florida",
+    "source": "gratefuldeadtributebands.com",
+    "state": "FL"
+  },
+  {
     "slug": "the-cosmic-jam",
     "name": "The Cosmic Jam",
+    "source": "gratefuldeadtributebands.com",
+    "state": "FL"
+  },
+  {
+    "slug": "jerryland",
+    "name": "Jerryland",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
@@ -376,12 +370,6 @@
     "name": "Webster",
     "source": "gratefuldeadtributebands.com",
     "state": "GA"
-  },
-  {
-    "slug": "caution",
-    "name": "Caution",
-    "source": "gratefuldeadtributebands.com",
-    "state": "IL"
   },
   {
     "slug": "mr-blotto",
@@ -516,8 +504,8 @@
     "state": "ME"
   },
   {
-    "slug": "better-off-dead-band",
-    "name": "Better Off Dead Band",
+    "slug": "rays-of-violet",
+    "name": "Rays of Violet",
     "source": "gratefuldeadtributebands.com",
     "state": "MD"
   },
@@ -528,14 +516,14 @@
     "state": "MD"
   },
   {
-    "slug": "rays-of-violet",
-    "name": "Rays of Violet",
+    "slug": "dead-all-along",
+    "name": "Dead All Along",
     "source": "gratefuldeadtributebands.com",
     "state": "MD"
   },
   {
-    "slug": "dead-all-along",
-    "name": "Dead All Along",
+    "slug": "better-off-dead-band",
+    "name": "Better Off Dead Band",
     "source": "gratefuldeadtributebands.com",
     "state": "MD"
   },
@@ -780,12 +768,6 @@
     "state": "MT"
   },
   {
-    "slug": "midwest-dead-coalition",
-    "name": "Midwest Dead Coalition",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NE"
-  },
-  {
     "slug": "a-carny-vibe",
     "name": "A Carny Vibe",
     "source": "gratefuldeadtributebands.com",
@@ -796,36 +778,6 @@
     "name": "Catfish John",
     "source": "gratefuldeadtributebands.com",
     "state": "NV"
-  },
-  {
-    "slug": "too-cool-to-bluff",
-    "name": "Too Cool To Bluff",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "baked-alaska",
-    "name": "Baked Alaska",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "crickets-and-cicadas",
-    "name": "Crickets and Cicadas",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "lovelight",
-    "name": "LoveLight",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "stanley-jordan-plays-the-dead",
-    "name": "Stanley Jordan Plays The Dead",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
   },
   {
     "slug": "grateful-mondays-nj",
@@ -842,6 +794,12 @@
   {
     "slug": "the-brian-st-john-band",
     "name": "The Brian St John Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "baked-alaska",
+    "name": "Baked Alaska",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -924,6 +882,18 @@
     "state": "NJ"
   },
   {
+    "slug": "lovelight",
+    "name": "LoveLight",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "crickets-and-cicadas",
+    "name": "Crickets and Cicadas",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
     "slug": "this-old-engine",
     "name": "This Old Engine",
     "source": "gratefuldeadtributebands.com",
@@ -948,26 +918,8 @@
     "state": "NM"
   },
   {
-    "slug": "roses-grove-band",
-    "name": "Roses Grove Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
-    "slug": "dead-alliance-buffalo",
-    "name": "Dead Alliance Buffalo",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
     "slug": "half-step-li",
     "name": "Half Step LI",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
-    "slug": "gratefully-yours",
-    "name": "Gratefully Yours",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
@@ -1014,6 +966,12 @@
     "state": "NY"
   },
   {
+    "slug": "gratefully-yours",
+    "name": "Gratefully Yours",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
     "slug": "tiger-rose",
     "name": "Tiger Rose",
     "source": "gratefuldeadtributebands.com",
@@ -1050,6 +1008,12 @@
     "state": "NY"
   },
   {
+    "slug": "dead-alliance-buffalo",
+    "name": "Dead Alliance Buffalo",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
     "slug": "minglewood-ny",
     "name": "Minglewood NY",
     "source": "gratefuldeadtributebands.com",
@@ -1066,12 +1030,6 @@
     "name": "Sages And Spirits",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
-  },
-  {
-    "slug": "phuncle-sam",
-    "name": "Phuncle Sam",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NC"
   },
   {
     "slug": "le-salty-dead",
@@ -1110,12 +1068,6 @@
     "state": "OH"
   },
   {
-    "slug": "the-dead-revival-band",
-    "name": "The Dead Revival Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "OH"
-  },
-  {
     "slug": "dupree-s-dead-band",
     "name": "Dupree's Dead Band",
     "source": "gratefuldeadtributebands.com",
@@ -1136,6 +1088,12 @@
   {
     "slug": "grateful-kev",
     "name": "Grateful Kev",
+    "source": "gratefuldeadtributebands.com",
+    "state": "OH"
+  },
+  {
+    "slug": "the-dead-revival-band",
+    "name": "The Dead Revival Band",
     "source": "gratefuldeadtributebands.com",
     "state": "OH"
   },
