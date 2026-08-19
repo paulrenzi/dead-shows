@@ -24,12 +24,6 @@
     "state": "CA"
   },
   {
-    "slug": "the-storytellers",
-    "name": "The Storytellers",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
     "slug": "rising-tide-ca",
     "name": "Rising Tide CA",
     "source": "gratefuldeadtributebands.com",
@@ -104,6 +98,12 @@
   {
     "slug": "rosewater",
     "name": "Rosewater",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
+    "slug": "the-storytellers",
+    "name": "The Storytellers",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
   },
@@ -234,6 +234,12 @@
     "state": "CT"
   },
   {
+    "slug": "finders-keepers",
+    "name": "Finders Keepers",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CT"
+  },
+  {
     "slug": "rob-glassman-band",
     "name": "Rob Glassman Band",
     "source": "gratefuldeadtributebands.com",
@@ -300,12 +306,6 @@
     "state": "DE"
   },
   {
-    "slug": "crazy-fingers",
-    "name": "Crazy Fingers",
-    "source": "gratefuldeadtributebands.com",
-    "state": "FL"
-  },
-  {
     "slug": "mondo-tikis",
     "name": "Mondo Tikis",
     "source": "gratefuldeadtributebands.com",
@@ -320,6 +320,12 @@
   {
     "slug": "stella-blue",
     "name": "Stella Blue",
+    "source": "gratefuldeadtributebands.com",
+    "state": "FL"
+  },
+  {
+    "slug": "crazy-fingers",
+    "name": "Crazy Fingers",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
@@ -594,12 +600,6 @@
     "state": "MD"
   },
   {
-    "slug": "dead-ahead-ma",
-    "name": "Dead Ahead MA",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MA"
-  },
-  {
     "slug": "a-phine-connection",
     "name": "A Phine Connection",
     "source": "gratefuldeadtributebands.com",
@@ -850,12 +850,6 @@
     "name": "Catfish John Revival Band",
     "source": "gratefuldeadtributebands.com",
     "state": "NV"
-  },
-  {
-    "slug": "diomede-and-donovan",
-    "name": "Diomede And Donovan",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
   },
   {
     "slug": "the-brian-st-john-band",

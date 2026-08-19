@@ -162,24 +162,6 @@
     ]
   },
   {
-    "id": "gdtb-CA-the-storytellers-2026-08-18-sawdust-art-festival",
-    "name": "The Storytellers — Sawdust Art Festival",
-    "band": "The Storytellers",
-    "bandSlug": "the-storytellers",
-    "venue": "Sawdust Art Festival",
-    "city": "Laguna Beach",
-    "state": "CA",
-    "lat": 33.5426975,
-    "lng": -117.785366,
-    "date": "2026-08-18",
-    "time": "6 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "The Storytellers"
-    ]
-  },
-  {
     "id": "gdtb-CA-rising-tide-ca-2026-08-20-sawdust-art-festival",
     "name": "Rising Tide CA — Sawdust Art Festival",
     "band": "Rising Tide CA",
@@ -2232,6 +2214,24 @@
     ]
   },
   {
+    "id": "gdtb-CT-finders-keepers-2026-08-21-1323-king-st",
+    "name": "Finders Keepers — 1323 King St",
+    "band": "Finders Keepers",
+    "bandSlug": "finders-keepers",
+    "venue": "1323 King St",
+    "city": "Greenwich",
+    "state": "CT",
+    "lat": 41.0264862,
+    "lng": -73.6284598,
+    "date": "2026-08-21",
+    "time": "8pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
+    "source": "gdtb",
+    "attractions": [
+      "Finders Keepers"
+    ]
+  },
+  {
     "id": "gdtb-CT-rob-glassman-band-2026-08-21-the-cajun-boil-bar",
     "name": "Rob Glassman Band — The Cajun Boil & Bar",
     "band": "Rob Glassman Band",
@@ -3111,24 +3111,6 @@
     "source": "gdtb",
     "attractions": [
       "Deadband"
-    ]
-  },
-  {
-    "id": "gdtb-FL-crazy-fingers-2026-08-18-the-funky-biscuit-boca-raton-f",
-    "name": "Crazy Fingers — The Funky Biscuit, Boca Raton, FL 33432",
-    "band": "Crazy Fingers",
-    "bandSlug": "crazy-fingers",
-    "venue": "The Funky Biscuit, Boca Raton, FL 33432",
-    "city": "Boca Raton",
-    "state": "FL",
-    "lat": 26.3586885,
-    "lng": -80.0830984,
-    "date": "2026-08-18",
-    "time": "7:30PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Crazy Fingers"
     ]
   },
   {
@@ -4842,24 +4824,6 @@
     ]
   },
   {
-    "id": "gdtb-ME-mystic-dead-2026-08-18-the-hounds",
-    "name": "Mystic Dead — The Hounds",
-    "band": "Mystic Dead",
-    "bandSlug": "mystic-dead",
-    "venue": "The Hounds",
-    "city": "Stonington",
-    "state": "ME",
-    "lat": 44.156593,
-    "lng": -68.667297,
-    "date": "2026-08-18",
-    "time": "6pm - 9pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=ME",
-    "source": "gdtb",
-    "attractions": [
-      "Mystic Dead"
-    ]
-  },
-  {
     "id": "gdtb-ME-wolfman-jack-2026-08-23-53-old-post-rd-arundel-me-0404",
     "name": "Wolfman Jack — 53 Old Post Rd Arundel ME 04046-7714 United States",
     "band": "Wolfman Jack",
@@ -5307,24 +5271,6 @@
     "source": "gdtb",
     "attractions": [
       "InDEADnation"
-    ]
-  },
-  {
-    "id": "gdtb-MA-dead-ahead-ma-2026-08-18-82-main-st-maynard-ma-united-s",
-    "name": "Dead Ahead MA — 82 Main St. Maynard MA United States Massachusetts 01754",
-    "band": "Dead Ahead MA",
-    "bandSlug": "dead-ahead-ma",
-    "venue": "82 Main St. Maynard MA United States Massachusetts 01754",
-    "city": "Maynard",
-    "state": "MA",
-    "lat": 42.4321064,
-    "lng": -71.4539683,
-    "date": "2026-08-18",
-    "time": "8 PM and 19 more",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "Dead Ahead MA"
     ]
   },
   {
@@ -7557,24 +7503,6 @@
     "source": "gdtb",
     "attractions": [
       "Melvin Seals and JGB"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-diomede-and-donovan-2026-08-18-donovan-s-reef",
-    "name": "Diomede And Donovan — Donovan's Reef",
-    "band": "Diomede And Donovan",
-    "bandSlug": "diomede-and-donovan",
-    "venue": "Donovan's Reef",
-    "city": "Rumson",
-    "state": "NJ",
-    "lat": 40.372054,
-    "lng": -73.9990269,
-    "date": "2026-08-18",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Diomede And Donovan"
     ]
   },
   {
@@ -13158,6 +13086,24 @@
     ]
   },
   {
+    "id": "gdtb-RI-blue-drew-and-the-magoos-2026-08-22-30-martin-st",
+    "name": "Blue Drew and the Magoos — 30 Martin St.",
+    "band": "Blue Drew and the Magoos",
+    "bandSlug": "blue-drew-and-the-magoos",
+    "venue": "30 Martin St.",
+    "city": "Cumberland",
+    "state": "RI",
+    "lat": 41.9667656,
+    "lng": -71.4328363,
+    "date": "2026-08-22",
+    "time": "6:00pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=RI",
+    "source": "gdtb",
+    "attractions": [
+      "Blue Drew and the Magoos"
+    ]
+  },
+  {
     "id": "gdtb-RI-underestimated-prophet-2026-08-23-charlestown-rathskeller-tavern",
     "name": "UnderEstimated Prophet — Charlestown Rathskeller Tavern",
     "band": "UnderEstimated Prophet",
@@ -13907,6 +13853,24 @@
     "lng": -97.7436995,
     "date": "2026-09-18",
     "time": "9 PM EDT",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=TX",
+    "source": "gdtb",
+    "attractions": [
+      "DeadEye"
+    ]
+  },
+  {
+    "id": "gdtb-TX-deadeye-2026-09-19-1031-east-24th-street",
+    "name": "DeadEye — 1031 East 24th Street",
+    "band": "DeadEye",
+    "bandSlug": "deadeye",
+    "venue": "1031 East 24th Street",
+    "city": "Houston",
+    "state": "TX",
+    "lat": 29.7589382,
+    "lng": -95.3676974,
+    "date": "2026-09-19",
+    "time": "2:30 PM",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=TX",
     "source": "gdtb",
     "attractions": [
