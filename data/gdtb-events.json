@@ -144,7 +144,7 @@
     ]
   },
   {
-    "id": "gdtb-CA-cats-on-the-bandstand-2026-08-18-the-cinema-bar",
+    "id": "gdtb-CA-cats-on-the-bandstand-2027-08-18-the-cinema-bar",
     "name": "Cats on the Bandstand — The Cinema Bar",
     "band": "Cats on the Bandstand",
     "bandSlug": "cats-on-the-bandstand",
@@ -153,7 +153,7 @@
     "state": "CA",
     "lat": 34.0211224,
     "lng": -118.396466,
-    "date": "2026-08-18",
+    "date": "2027-08-18",
     "time": "8:30PM",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
     "source": "gdtb",
@@ -321,6 +321,24 @@
     "source": "gdtb",
     "attractions": [
       "Easy Wind"
+    ]
+  },
+  {
+    "id": "gdtb-CA-aces-back-to-back-2026-08-25-6010-pico-blvd",
+    "name": "Aces Back To Back — 6010 Pico Blvd",
+    "band": "Aces Back To Back",
+    "bandSlug": "aces-back-to-back",
+    "venue": "6010 Pico Blvd",
+    "city": "Los Angeles",
+    "state": "CA",
+    "lat": 34.0536909,
+    "lng": -118.242766,
+    "date": "2026-08-25",
+    "time": "8:00pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
+    "source": "gdtb",
+    "attractions": [
+      "Aces Back To Back"
     ]
   },
   {
@@ -825,6 +843,24 @@
     "source": "gdtb",
     "attractions": [
       "Scarlett Fyre"
+    ]
+  },
+  {
+    "id": "gdtb-CA-deadbolt-2026-09-12-1717-lincoln-blvd",
+    "name": "Deadbolt — 1717 Lincoln Blvd",
+    "band": "Deadbolt",
+    "bandSlug": "deadbolt",
+    "venue": "1717 Lincoln Blvd",
+    "city": "Venice",
+    "state": "CA",
+    "lat": 33.995044,
+    "lng": -118.4668875,
+    "date": "2026-09-12",
+    "time": "12pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
+    "source": "gdtb",
+    "attractions": [
+      "Deadbolt"
     ]
   },
   {
@@ -3924,24 +3960,6 @@
     ]
   },
   {
-    "id": "gdtb-IL-mr-blotto-2026-08-19-midwest-coast",
-    "name": "Mr. Blotto — Midwest Coast",
-    "band": "Mr. Blotto",
-    "bandSlug": "mr-blotto",
-    "venue": "Midwest Coast",
-    "city": "Chicago",
-    "state": "IL",
-    "lat": 41.8755616,
-    "lng": -87.6244212,
-    "date": "2026-08-19",
-    "time": "6:00 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=IL",
-    "source": "gdtb",
-    "attractions": [
-      "Mr. Blotto"
-    ]
-  },
-  {
     "id": "gdtb-IL-mr-blotto-2026-08-21-hideaway-brew-garden",
     "name": "Mr. Blotto — Hideaway Brew Garden",
     "band": "Mr. Blotto",
@@ -5274,42 +5292,6 @@
     ]
   },
   {
-    "id": "gdtb-MA-playing-dead-2026-08-19-soundcheck-studios-pembroke",
-    "name": "Playing Dead — Soundcheck Studios Pembroke",
-    "band": "Playing Dead",
-    "bandSlug": "playing-dead",
-    "venue": "Soundcheck Studios Pembroke",
-    "city": "Pembroke",
-    "state": "MA",
-    "lat": 42.0714907,
-    "lng": -70.8092074,
-    "date": "2026-08-19",
-    "time": "8 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "Playing Dead"
-    ]
-  },
-  {
-    "id": "gdtb-MA-a-phine-connection-2026-08-19-upper-common-fitchburg",
-    "name": "A Phine Connection — Upper Common Fitchburg",
-    "band": "A Phine Connection",
-    "bandSlug": "a-phine-connection",
-    "venue": "Upper Common Fitchburg",
-    "city": "Fitchburg",
-    "state": "MA",
-    "lat": 42.5838984,
-    "lng": -71.8038268,
-    "date": "2026-08-19",
-    "time": "5:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "A Phine Connection"
-    ]
-  },
-  {
     "id": "gdtb-MA-grateful-bro-2026-08-20-101-dan-fox-dr-pittsfield-ma-u",
     "name": "Grateful BRO — 101 Dan Fox Dr Pittsfield MA United States Massachusetts 01201",
     "band": "Grateful BRO",
@@ -6333,6 +6315,24 @@
     "source": "gdtb",
     "attractions": [
       "Throwing Stones Band"
+    ]
+  },
+  {
+    "id": "gdtb-MA-silver-string-slingers-2026-10-25-56-island-street",
+    "name": "Silver String Slingers — 56 Island Street",
+    "band": "Silver String Slingers",
+    "bandSlug": "silver-string-slingers",
+    "venue": "56 Island Street",
+    "city": "Lawrence",
+    "state": "MA",
+    "lat": 42.7070354,
+    "lng": -71.1631137,
+    "date": "2026-10-25",
+    "time": "1:00 PM",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
+    "source": "gdtb",
+    "attractions": [
+      "Silver String Slingers"
     ]
   },
   {
@@ -7503,24 +7503,6 @@
     "source": "gdtb",
     "attractions": [
       "Melvin Seals and JGB"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-the-brian-st-john-band-2026-08-19-o-reillys-pub",
-    "name": "The Brian St John Band — O'Reillys Pub",
-    "band": "The Brian St John Band",
-    "bandSlug": "the-brian-st-john-band",
-    "venue": "O'Reillys Pub",
-    "city": "Newton",
-    "state": "NJ",
-    "lat": 41.0583121,
-    "lng": -74.7531445,
-    "date": "2026-08-19",
-    "time": "6 PM and 4 more",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "The Brian St John Band"
     ]
   },
   {
@@ -8871,24 +8853,6 @@
     "source": "gdtb",
     "attractions": [
       "Odd Dog"
-    ]
-  },
-  {
-    "id": "gdtb-NY-half-step-li-2026-08-19-the-warehouse-amityville-ny-11",
-    "name": "Half Step LI — The Warehouse, Amityville, NY 11701-3023",
-    "band": "Half Step LI",
-    "bandSlug": "half-step-li",
-    "venue": "The Warehouse, Amityville, NY 11701-3023",
-    "city": "Amityville",
-    "state": "NY",
-    "lat": 40.6789893,
-    "lng": -73.4170673,
-    "date": "2026-08-19",
-    "time": "8:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Half Step LI"
     ]
   },
   {
@@ -10476,6 +10440,24 @@
     ]
   },
   {
+    "id": "gdtb-NY-dead-friends-2026-10-31-free-halloween-show",
+    "name": "Dead & Friends — FREE HALLOWEEN SHOW",
+    "band": "Dead & Friends",
+    "bandSlug": "dead-friends",
+    "venue": "FREE HALLOWEEN SHOW",
+    "city": "Tully",
+    "state": "NY",
+    "lat": 42.798123,
+    "lng": -76.1093696,
+    "date": "2026-10-31",
+    "time": "6pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Dead & Friends"
+    ]
+  },
+  {
     "id": "gdtb-NY-buffalo-dead-all-stars-2026-10-31-molly-maguires",
     "name": "Buffalo Dead All Stars — Molly Maguires",
     "band": "Buffalo Dead All Stars",
@@ -10905,24 +10887,6 @@
     "source": "gdtb",
     "attractions": [
       "Dirty Dead"
-    ]
-  },
-  {
-    "id": "gdtb-OH-bosco-jigs-2026-08-19-paddle-bar",
-    "name": "Bosco Jigs — Paddle Bar",
-    "band": "Bosco Jigs",
-    "bandSlug": "bosco-jigs",
-    "venue": "Paddle Bar",
-    "city": "Sandusky",
-    "state": "OH",
-    "lat": 41.2951563,
-    "lng": -83.1555438,
-    "date": "2026-08-19",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OH",
-    "source": "gdtb",
-    "attractions": [
-      "Bosco Jigs"
     ]
   },
   {
@@ -11787,6 +11751,24 @@
     "source": "gdtb",
     "attractions": [
       "Grateful Shred"
+    ]
+  },
+  {
+    "id": "gdtb-OR-caught-dead-handed-2026-09-19-303-sw-12th-ave",
+    "name": "Caught Dead Handed — 303 SW 12th Ave",
+    "band": "Caught Dead Handed",
+    "bandSlug": "caught-dead-handed",
+    "venue": "303 SW 12th Ave",
+    "city": "Portland",
+    "state": "OR",
+    "lat": 45.5202471,
+    "lng": -122.674194,
+    "date": "2026-09-19",
+    "time": "7pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OR",
+    "source": "gdtb",
+    "attractions": [
+      "Caught Dead Handed"
     ]
   },
   {
@@ -13947,6 +13929,42 @@
     "source": "gdtb",
     "attractions": [
       "Alligator Wine St Louis"
+    ]
+  },
+  {
+    "id": "gdtb-VT-dark-star-project-2026-09-11-915-old-hollow-road",
+    "name": "Dark Star Project — 915 Old Hollow Road",
+    "band": "Dark Star Project",
+    "bandSlug": "dark-star-project",
+    "venue": "915 Old Hollow Road",
+    "city": "North Ferrisburgh",
+    "state": "VT",
+    "lat": 44.2594979,
+    "lng": -73.2112346,
+    "date": "2026-09-11",
+    "time": "",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=VT",
+    "source": "gdtb",
+    "attractions": [
+      "Dark Star Project"
+    ]
+  },
+  {
+    "id": "gdtb-VT-dark-star-project-2026-09-12-915-old-hollow-road",
+    "name": "Dark Star Project — 915 Old Hollow Road",
+    "band": "Dark Star Project",
+    "bandSlug": "dark-star-project",
+    "venue": "915 Old Hollow Road",
+    "city": "North Ferrisburgh",
+    "state": "VT",
+    "lat": 44.2594979,
+    "lng": -73.2112346,
+    "date": "2026-09-12",
+    "time": "",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=VT",
+    "source": "gdtb",
+    "attractions": [
+      "Dark Star Project"
     ]
   },
   {
