@@ -607,5 +607,10 @@
     "photo": "images/bands/promised-land.jpg",
     "source": "deezer",
     "matchedName": "Promised Land"
+  },
+  "the-noodles": {
+    "photo": "images/bands/the-noodles.jpg",
+    "source": "deezer",
+    "matchedName": "The Noodles"
   }
 }

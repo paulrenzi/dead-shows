@@ -1964,5 +1964,14 @@
   "the-deadlocks": {
     "tried": "2026-08-18",
     "matched": false
+  },
+  "the-noodles": {
+    "tried": "2026-08-21",
+    "matched": true,
+    "name": "The Noodles"
+  },
+  "prescott-jrad": {
+    "tried": "2026-08-21",
+    "matched": false
   }
 }
