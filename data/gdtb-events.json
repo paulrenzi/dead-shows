@@ -18,24 +18,6 @@
     ]
   },
   {
-    "id": "gdtb-AZ-the-noodles-2026-08-23-4747-e-elliott-rd",
-    "name": "The Noodles — 4747 E Elliott Rd",
-    "band": "The Noodles",
-    "bandSlug": "the-noodles",
-    "venue": "4747 E Elliott Rd",
-    "city": "Ahwatukee",
-    "state": "AZ",
-    "lat": 33.3194186,
-    "lng": -112.0312962,
-    "date": "2026-08-23",
-    "time": "5:30pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=AZ",
-    "source": "gdtb",
-    "attractions": [
-      "The Noodles"
-    ]
-  },
-  {
     "id": "gdtb-AZ-prescott-jrad-2026-08-24-160-s-montezuma-st",
     "name": "Prescott JRAD — 160 S Montezuma St",
     "band": "Prescott JRAD",
@@ -285,42 +267,6 @@
     "source": "gdtb",
     "attractions": [
       "Cats on the Bandstand"
-    ]
-  },
-  {
-    "id": "gdtb-CA-easy-wind-2026-08-23-soap-factory-san-diego",
-    "name": "Easy Wind — Soap Factory San Diego",
-    "band": "Easy Wind",
-    "bandSlug": "easy-wind",
-    "venue": "Soap Factory San Diego",
-    "city": "San Diego",
-    "state": "CA",
-    "lat": 32.7174202,
-    "lng": -117.162772,
-    "date": "2026-08-23",
-    "time": "6 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "Easy Wind"
-    ]
-  },
-  {
-    "id": "gdtb-CA-scott-guberman-2026-08-23-pier-39",
-    "name": "Scott Guberman — PIER 39",
-    "band": "Scott Guberman",
-    "bandSlug": "scott-guberman",
-    "venue": "PIER 39",
-    "city": "San Francisco",
-    "state": "CA",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "date": "2026-08-23",
-    "time": "5:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "Scott Guberman"
     ]
   },
   {
@@ -1404,7 +1350,7 @@
     ]
   },
   {
-    "id": "gdtb-CO-shakedown-strings-2026-08-22-8992-county-road-6",
+    "id": "gdtb-CO-shakedown-strings-2027-08-22-8992-county-road-6",
     "name": "Shakedown Strings — 8992 County Road 6",
     "band": "Shakedown Strings",
     "bandSlug": "shakedown-strings",
@@ -1413,30 +1359,12 @@
     "state": "CO",
     "lat": 40.0860969,
     "lng": -105.939459,
-    "date": "2026-08-22",
+    "date": "2027-08-22",
     "time": "12:00PM",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
     "source": "gdtb",
     "attractions": [
       "Shakedown Strings"
-    ]
-  },
-  {
-    "id": "gdtb-CO-shakedown-sunday-2026-08-23-bar404broadway",
-    "name": "Shakedown Sunday — Bar404Broadway",
-    "band": "Shakedown Sunday",
-    "bandSlug": "shakedown-sunday",
-    "venue": "Bar404Broadway",
-    "city": "Denver",
-    "state": "CO",
-    "lat": 39.7392364,
-    "lng": -104.984862,
-    "date": "2026-08-23",
-    "time": "4 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
-    "source": "gdtb",
-    "attractions": [
-      "Shakedown Sunday"
     ]
   },
   {
@@ -2085,42 +2013,6 @@
     "source": "gdtb",
     "attractions": [
       "Shakedown Street"
-    ]
-  },
-  {
-    "id": "gdtb-CT-almost-ablaze-2026-08-23-shakedown-street-eats",
-    "name": "Almost Ablaze — Shakedown Street Eats",
-    "band": "Almost Ablaze",
-    "bandSlug": "almost-ablaze",
-    "venue": "Shakedown Street Eats",
-    "city": "Bethel",
-    "state": "CT",
-    "lat": 41.3712063,
-    "lng": -73.4140097,
-    "date": "2026-08-23",
-    "time": "3 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
-    "source": "gdtb",
-    "attractions": [
-      "Almost Ablaze"
-    ]
-  },
-  {
-    "id": "gdtb-CT-rob-glassman-band-2026-08-23-little-red-barn-brewers",
-    "name": "Rob Glassman Band — Little Red Barn Brewers",
-    "band": "Rob Glassman Band",
-    "bandSlug": "rob-glassman-band",
-    "venue": "Little Red Barn Brewers",
-    "city": "Winsted",
-    "state": "CT",
-    "lat": 41.9275199,
-    "lng": -73.071788,
-    "date": "2026-08-23",
-    "time": "2 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CT",
-    "source": "gdtb",
-    "attractions": [
-      "Rob Glassman Band"
     ]
   },
   {
@@ -2898,24 +2790,6 @@
     ]
   },
   {
-    "id": "gdtb-FL-crazy-fingers-2026-08-23-billy-jack-s-shack-lauderdale-",
-    "name": "Crazy Fingers — Billy Jack's shack , Lauderdale by the Sea, FL 33308",
-    "band": "Crazy Fingers",
-    "bandSlug": "crazy-fingers",
-    "venue": "Billy Jack's shack , Lauderdale by the Sea, FL 33308",
-    "city": "Lauderdale by the Sea",
-    "state": "FL",
-    "lat": 26.192028,
-    "lng": -80.0964326,
-    "date": "2026-08-23",
-    "time": "5:00PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Crazy Fingers"
-    ]
-  },
-  {
     "id": "gdtb-FL-crazy-fingers-2026-08-25-the-funky-biscuit-boca-raton-f",
     "name": "Crazy Fingers — The Funky Biscuit, Boca Raton, FL 33432",
     "band": "Crazy Fingers",
@@ -3600,24 +3474,6 @@
     ]
   },
   {
-    "id": "gdtb-IL-mr-blotto-2026-08-23-28-mile-distilling-co",
-    "name": "Mr. Blotto — 28 Mile Distilling Co.",
-    "band": "Mr. Blotto",
-    "bandSlug": "mr-blotto",
-    "venue": "28 Mile Distilling Co.",
-    "city": "Highwood",
-    "state": "IL",
-    "lat": 42.1998879,
-    "lng": -87.8093247,
-    "date": "2026-08-23",
-    "time": "4:20 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=IL",
-    "source": "gdtb",
-    "attractions": [
-      "Mr. Blotto"
-    ]
-  },
-  {
     "id": "gdtb-IL-mr-blotto-2026-08-28-the-pyramid",
     "name": "Mr. Blotto — The Pyramid",
     "band": "Mr. Blotto",
@@ -3957,24 +3813,6 @@
     "source": "gdtb",
     "attractions": [
       "Grateful String Band"
-    ]
-  },
-  {
-    "id": "gdtb-IN-lazy-lightning-band-2026-08-23-430-e-us-highway-6",
-    "name": "Lazy Lightning Band — 430 E US Highway 6",
-    "band": "Lazy Lightning Band",
-    "bandSlug": "lazy-lightning-band",
-    "venue": "430 E US Highway 6",
-    "city": "Valparaiso",
-    "state": "IN",
-    "lat": 41.4672552,
-    "lng": -87.0604487,
-    "date": "2026-08-23",
-    "time": "2 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=IN",
-    "source": "gdtb",
-    "attractions": [
-      "Lazy Lightning Band"
     ]
   },
   {
@@ -4353,24 +4191,6 @@
     "source": "gdtb",
     "attractions": [
       "Born Cross Eyed-KY"
-    ]
-  },
-  {
-    "id": "gdtb-ME-wolfman-jack-2026-08-23-53-old-post-rd-arundel-me-0404",
-    "name": "Wolfman Jack — 53 Old Post Rd Arundel ME 04046-7714 United States",
-    "band": "Wolfman Jack",
-    "bandSlug": "wolfman-jack",
-    "venue": "53 Old Post Rd Arundel ME 04046-7714 United States",
-    "city": "Arundel",
-    "state": "ME",
-    "lat": 43.3825857,
-    "lng": -70.4778292,
-    "date": "2026-08-23",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=ME",
-    "source": "gdtb",
-    "attractions": [
-      "Wolfman Jack"
     ]
   },
   {
@@ -4770,24 +4590,6 @@
     ]
   },
   {
-    "id": "gdtb-MA-pearly-baker-band-2026-08-23-780-purchase-st",
-    "name": "Pearly Baker Band — 780 Purchase St",
-    "band": "Pearly Baker Band",
-    "bandSlug": "pearly-baker-band",
-    "venue": "780 Purchase St",
-    "city": "New Bedford",
-    "state": "MA",
-    "lat": 41.6362152,
-    "lng": -70.934205,
-    "date": "2026-08-23",
-    "time": "4 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "Pearly Baker Band"
-    ]
-  },
-  {
     "id": "gdtb-MA-diamond-blues-2026-08-26-midway-cafe",
     "name": "Diamond Blues — Midway Cafe",
     "band": "Diamond Blues",
@@ -4857,6 +4659,24 @@
     "source": "gdtb",
     "attractions": [
       "The Reckoning Crew"
+    ]
+  },
+  {
+    "id": "gdtb-MA-talking-deads-2026-08-29-the-burren",
+    "name": "Talking Deads — The Burren",
+    "band": "Talking Deads",
+    "bandSlug": "talking-deads",
+    "venue": "The Burren",
+    "city": "Sommerville",
+    "state": "MA",
+    "lat": 33.1984522,
+    "lng": -87.5805627,
+    "date": "2026-08-29",
+    "time": "7:00",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
+    "source": "gdtb",
+    "attractions": [
+      "Talking Deads"
     ]
   },
   {
@@ -5724,24 +5544,6 @@
     ]
   },
   {
-    "id": "gdtb-MI-eyes-of-the-raven-2026-08-23-canton-brew-works",
-    "name": "Eyes of the Raven — Canton Brew Works",
-    "band": "Eyes of the Raven",
-    "bandSlug": "eyes-of-the-raven",
-    "venue": "Canton Brew Works",
-    "city": "Canton",
-    "state": "MI",
-    "lat": 32.612602,
-    "lng": -90.0367512,
-    "date": "2026-08-23",
-    "time": "7:00 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MI",
-    "source": "gdtb",
-    "attractions": [
-      "Eyes of the Raven"
-    ]
-  },
-  {
     "id": "gdtb-MI-manitou-truckin-company-2026-08-27-beulah-mi",
     "name": "Manitou Truckin' Company — Beulah MI",
     "band": "Manitou Truckin' Company",
@@ -6099,24 +5901,6 @@
     "source": "gdtb",
     "attractions": [
       "Raising The Dead"
-    ]
-  },
-  {
-    "id": "gdtb-MN-shotgun-ragtime-band-2026-08-23-4415-nicollet-ave",
-    "name": "Shotgun Ragtime Band — 4415 Nicollet Ave",
-    "band": "Shotgun Ragtime Band",
-    "bandSlug": "shotgun-ragtime-band",
-    "venue": "4415 Nicollet Ave",
-    "city": "Minneapolis",
-    "state": "MN",
-    "lat": 44.9772995,
-    "lng": -93.2654692,
-    "date": "2026-08-23",
-    "time": "6:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MN",
-    "source": "gdtb",
-    "attractions": [
-      "Shotgun Ragtime Band"
     ]
   },
   {
@@ -6498,24 +6282,6 @@
     ]
   },
   {
-    "id": "gdtb-NE-touch-of-grey-midwest-2026-08-23-omaha",
-    "name": "Touch of Grey Midwest — Omaha",
-    "band": "Touch of Grey Midwest",
-    "bandSlug": "touch-of-grey-midwest",
-    "venue": "Omaha",
-    "city": "Omaha",
-    "state": "NE",
-    "lat": 41.2587459,
-    "lng": -95.9383758,
-    "date": "2026-08-23",
-    "time": "5:30 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NE",
-    "source": "gdtb",
-    "attractions": [
-      "Touch of Grey Midwest"
-    ]
-  },
-  {
     "id": "gdtb-NE-touch-of-grey-midwest-2026-08-29-gene-leahy-mall",
     "name": "Touch of Grey Midwest — Gene Leahy Mall",
     "band": "Touch of Grey Midwest",
@@ -6729,96 +6495,6 @@
     "source": "gdtb",
     "attractions": [
       "Melvin Seals and JGB"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-baked-alaska-2026-08-23-event-by-the-dog-house-saloon-",
-    "name": "Baked Alaska — Event by The Dog House Saloon & Grill",
-    "band": "Baked Alaska",
-    "bandSlug": "baked-alaska",
-    "venue": "Event by The Dog House Saloon & Grill",
-    "city": "Washington Township",
-    "state": "NJ",
-    "lat": 40.9884843,
-    "lng": -74.0652437,
-    "date": "2026-08-23",
-    "time": "2 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Baked Alaska"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-baked-alaska-2026-08-23-the-dog-house-saloon-grill-was",
-    "name": "Baked Alaska — The Dog House Saloon & Grill Washington Twp",
-    "band": "Baked Alaska",
-    "bandSlug": "baked-alaska",
-    "venue": "The Dog House Saloon & Grill Washington Twp",
-    "city": "Washington Township",
-    "state": "NJ",
-    "lat": 40.9884843,
-    "lng": -74.0652437,
-    "date": "2026-08-23",
-    "time": "2 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Baked Alaska"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-mark-diomede-and-friends-2026-08-23-booterbeer-brewing-company",
-    "name": "Mark Diomede and Friends — Booterbeer Brewing Company",
-    "band": "Mark Diomede and Friends",
-    "bandSlug": "mark-diomede-and-friends",
-    "venue": "Booterbeer Brewing Company",
-    "city": "New Egypt",
-    "state": "NJ",
-    "lat": 40.0654375,
-    "lng": -74.5226681,
-    "date": "2026-08-23",
-    "time": "3 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Mark Diomede and Friends"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-pure-jerry-2026-08-23-bellemont-farm",
-    "name": "Pure Jerry — Bellemont Farm",
-    "band": "Pure Jerry",
-    "bandSlug": "pure-jerry",
-    "venue": "Bellemont Farm",
-    "city": "Lambertville",
-    "state": "NJ",
-    "lat": 40.3656188,
-    "lng": -74.9454055,
-    "date": "2026-08-23",
-    "time": "2 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Pure Jerry"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-the-big-trip-2026-08-23-245-4th-street-gloucester-city",
-    "name": "The Big Trip — 245 4th Street Gloucester City NJ",
-    "band": "The Big Trip",
-    "bandSlug": "the-big-trip",
-    "venue": "245 4th Street Gloucester City NJ",
-    "city": "Gloucester City",
-    "state": "NJ",
-    "lat": 39.8918622,
-    "lng": -75.1161897,
-    "date": "2026-08-23",
-    "time": "3 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "The Big Trip"
     ]
   },
   {
@@ -7773,96 +7449,6 @@
     "source": "gdtb",
     "attractions": [
       "Odd Dog"
-    ]
-  },
-  {
-    "id": "gdtb-NY-half-past-dead-2026-08-23-5789-state-hwy-51",
-    "name": "Half Past Dead — 5789 State HWY 51",
-    "band": "Half Past Dead",
-    "bandSlug": "half-past-dead",
-    "venue": "5789 State HWY 51",
-    "city": "Burlington Flats",
-    "state": "NY",
-    "lat": 42.7395019,
-    "lng": -75.1859242,
-    "date": "2026-08-23",
-    "time": "3pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Half Past Dead"
-    ]
-  },
-  {
-    "id": "gdtb-NY-grateful-dans-2026-08-23-nietzsche-s",
-    "name": "Grateful Dans — Nietzsche's",
-    "band": "Grateful Dans",
-    "bandSlug": "grateful-dans",
-    "venue": "Nietzsche's",
-    "city": "Buffalo",
-    "state": "NY",
-    "lat": 42.8864163,
-    "lng": -78.8781493,
-    "date": "2026-08-23",
-    "time": "3 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Grateful Dans"
-    ]
-  },
-  {
-    "id": "gdtb-NY-delilah-jones-2026-08-23-event-by-delilah-jones",
-    "name": "Delilah Jones — Event by Delilah Jones",
-    "band": "Delilah Jones",
-    "bandSlug": "delilah-jones",
-    "venue": "Event by Delilah Jones",
-    "city": "Rochester",
-    "state": "NY",
-    "lat": 43.157285,
-    "lng": -77.615214,
-    "date": "2026-08-23",
-    "time": "4 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Delilah Jones"
-    ]
-  },
-  {
-    "id": "gdtb-NY-gratefully-yours-2026-08-23-putnam-county-memorial-park-20",
-    "name": "Gratefully Yours — Putnam County Memorial Park 201 Gypsy Rd Carmel NY",
-    "band": "Gratefully Yours",
-    "bandSlug": "gratefully-yours",
-    "venue": "Putnam County Memorial Park 201 Gypsy Rd Carmel NY",
-    "city": "Carmel",
-    "state": "NY",
-    "lat": 41.4266361,
-    "lng": -73.6788272,
-    "date": "2026-08-23",
-    "time": "11 AM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Gratefully Yours"
-    ]
-  },
-  {
-    "id": "gdtb-NY-tiger-rose-2026-08-23-tanner-park",
-    "name": "Tiger Rose — Tanner Park",
-    "band": "Tiger Rose",
-    "bandSlug": "tiger-rose",
-    "venue": "Tanner Park",
-    "city": "Copiague",
-    "state": "NY",
-    "lat": 40.6728425,
-    "lng": -73.3947639,
-    "date": "2026-08-23",
-    "time": "5 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Tiger Rose"
     ]
   },
   {
@@ -10134,24 +9720,6 @@
     ]
   },
   {
-    "id": "gdtb-OK-the-deadgummits-2026-08-23-brut-hotel",
-    "name": "The Deadgummits — Brut Hotel",
-    "band": "The Deadgummits",
-    "bandSlug": "the-deadgummits",
-    "venue": "Brut Hotel",
-    "city": "Tulsa",
-    "state": "OK",
-    "lat": 36.1563122,
-    "lng": -95.9927516,
-    "date": "2026-08-23",
-    "time": "6 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OK",
-    "source": "gdtb",
-    "attractions": [
-      "The Deadgummits"
-    ]
-  },
-  {
     "id": "gdtb-OK-the-deadgummits-2026-08-30-brut-hotel",
     "name": "The Deadgummits — Brut Hotel",
     "band": "The Deadgummits",
@@ -10419,24 +9987,6 @@
     "source": "gdtb",
     "attractions": [
       "Token Rhymes"
-    ]
-  },
-  {
-    "id": "gdtb-PA-diamond-eye-jack-2026-08-23-1049-ford-street",
-    "name": "Diamond Eye Jack — 1049 Ford Street",
-    "band": "Diamond Eye Jack",
-    "bandSlug": "diamond-eye-jack",
-    "venue": "1049 Ford Street",
-    "city": "Bridgeport",
-    "state": "PA",
-    "lat": 40.1043042,
-    "lng": -75.3429522,
-    "date": "2026-08-23",
-    "time": "4:00 pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
-    "source": "gdtb",
-    "attractions": [
-      "Diamond Eye Jack"
     ]
   },
   {
@@ -11517,24 +11067,6 @@
     "source": "gdtb",
     "attractions": [
       "Deadband"
-    ]
-  },
-  {
-    "id": "gdtb-RI-underestimated-prophet-2026-08-23-charlestown-rathskeller-tavern",
-    "name": "UnderEstimated Prophet — Charlestown Rathskeller Tavern",
-    "band": "UnderEstimated Prophet",
-    "bandSlug": "underestimated-prophet",
-    "venue": "Charlestown Rathskeller Tavern",
-    "city": "Charlestown",
-    "state": "RI",
-    "lat": 41.3831566,
-    "lng": -71.641729,
-    "date": "2026-08-23",
-    "time": "4 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=RI",
-    "source": "gdtb",
-    "attractions": [
-      "UnderEstimated Prophet"
     ]
   },
   {
