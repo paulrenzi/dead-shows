@@ -5270,5 +5270,101 @@
   "sommerville, ma": {
     "lat": 33.1984522,
     "lng": -87.5805627
+  },
+  "granada hills, ca": {
+    "lat": 34.2661558,
+    "lng": -118.5174342
+  },
+  "agoura hills, ca": {
+    "lat": 34.1481692,
+    "lng": -118.7655456
+  },
+  "bishop, ca": {
+    "lat": 37.363679,
+    "lng": -118.39524
+  },
+  "escondido, ca": {
+    "lat": 33.1216751,
+    "lng": -117.0814849
+  },
+  "laguna hills, ca": {
+    "lat": 33.5948758,
+    "lng": -117.6882067
+  },
+  "tinley park, il": {
+    "lat": 41.5733669,
+    "lng": -87.7844944
+  },
+  "clarendon hills, il": {
+    "lat": 41.7961237,
+    "lng": -87.9551429
+  },
+  "port barrington, il": {
+    "lat": 42.2425236,
+    "lng": -88.2020267
+  },
+  "huntington, md": {
+    "lat": 38.6091604,
+    "lng": -76.8978078
+  },
+  "southwick, ma": {
+    "lat": 42.0548167,
+    "lng": -72.7703938
+  },
+  "gardner, ma": {
+    "lat": 42.5763523,
+    "lng": -71.9952737
+  },
+  "shirley, ma": {
+    "lat": 42.5438051,
+    "lng": -71.6497972
+  },
+  "lake ann, mi": {
+    "lat": 44.723889,
+    "lng": -85.843139
+  },
+  "pentwater, mi": {
+    "lat": 43.7817341,
+    "lng": -86.4331053
+  },
+  "manistee, mi": {
+    "lat": 44.3308044,
+    "lng": -86.0262043
+  },
+  "baldwin, mi": {
+    "lat": 43.901123,
+    "lng": -85.851729
+  },
+  "vancleave, ms": {
+    "lat": 30.54193,
+    "lng": -88.6716868
+  },
+  "westfield, nj": {
+    "lat": 40.651726,
+    "lng": -74.3483059
+  },
+  "haledon, nj": {
+    "lat": 40.935654,
+    "lng": -74.186256
+  },
+  "chatham, nj": {
+    "lat": 40.7409242,
+    "lng": -74.3836711
+  },
+  "saratoga springs, ny": {
+    "lat": 43.0822315,
+    "lng": -73.785373
+  },
+  "newport news, va": {
+    "lat": 36.9775016,
+    "lng": -76.42977
+  },
+  "midlothian, va": {
+    "lat": 37.486806,
+    "lng": -77.6473195
+  },
+  "huntington, va": {
+    "lat": 38.790971,
+    "lng": -77.0727103
   }
 }

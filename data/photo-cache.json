@@ -1973,5 +1973,22 @@
   "prescott-jrad": {
     "tried": "2026-08-21",
     "matched": false
+  },
+  "zydeco-jed": {
+    "tried": "2026-08-25",
+    "matched": false
+  },
+  "the-unbroken-chain": {
+    "tried": "2026-08-25",
+    "matched": false
+  },
+  "midnight-sun": {
+    "tried": "2026-08-25",
+    "matched": true,
+    "name": "Midnight Sun"
+  },
+  "pearly-baker-s-best": {
+    "tried": "2026-08-25",
+    "matched": false
   }
 }

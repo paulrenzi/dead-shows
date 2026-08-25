@@ -612,5 +612,10 @@
     "photo": "images/bands/the-noodles.jpg",
     "source": "deezer",
     "matchedName": "The Noodles"
+  },
+  "midnight-sun": {
+    "photo": "images/bands/midnight-sun.jpg",
+    "source": "deezer",
+    "matchedName": "Midnight Sun"
   }
 }
