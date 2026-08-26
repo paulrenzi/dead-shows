@@ -234,42 +234,6 @@
     ]
   },
   {
-    "id": "gdtb-CA-easy-wind-2026-08-25-978-n-coast-hwy-101-2051",
-    "name": "Easy Wind — 978 N Coast Hwy 101 #2051",
-    "band": "Easy Wind",
-    "bandSlug": "easy-wind",
-    "venue": "978 N Coast Hwy 101 #2051",
-    "city": "Encinitas",
-    "state": "CA",
-    "lat": 33.0369867,
-    "lng": -117.2919818,
-    "date": "2026-08-25",
-    "time": "6:00pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "Easy Wind"
-    ]
-  },
-  {
-    "id": "gdtb-CA-aces-back-to-back-2026-08-25-6010-pico-blvd",
-    "name": "Aces Back To Back — 6010 Pico Blvd",
-    "band": "Aces Back To Back",
-    "bandSlug": "aces-back-to-back",
-    "venue": "6010 Pico Blvd",
-    "city": "Los Angeles",
-    "state": "CA",
-    "lat": 34.0536909,
-    "lng": -118.242766,
-    "date": "2026-08-25",
-    "time": "8:00pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "Aces Back To Back"
-    ]
-  },
-  {
     "id": "gdtb-CA-dead-roses-2026-08-26-ashkenaz",
     "name": "Dead Roses — Ashkenaz",
     "band": "Dead Roses",
@@ -1728,6 +1692,24 @@
     ]
   },
   {
+    "id": "gdtb-CO-chinaflower-suncats-2026-09-03-co-80203",
+    "name": "Chinaflower Suncats — CO 80203",
+    "band": "Chinaflower Suncats",
+    "bandSlug": "chinaflower-suncats",
+    "venue": "CO 80203",
+    "city": "Denver",
+    "state": "CO",
+    "lat": 39.7392364,
+    "lng": -104.984862,
+    "date": "2026-09-03",
+    "time": "8:30",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CO",
+    "source": "gdtb",
+    "attractions": [
+      "Chinaflower Suncats"
+    ]
+  },
+  {
     "id": "gdtb-CO-steely-dead-2026-09-03-cervantes-masterpiece-ballroom",
     "name": "Steely Dead — Cervantes Masterpiece Ballroom",
     "band": "Steely Dead",
@@ -3075,24 +3057,6 @@
     "source": "gdtb",
     "attractions": [
       "Deadband"
-    ]
-  },
-  {
-    "id": "gdtb-FL-crazy-fingers-2026-08-25-the-funky-biscuit-boca-raton-f",
-    "name": "Crazy Fingers — The Funky Biscuit, Boca Raton, FL 33432",
-    "band": "Crazy Fingers",
-    "bandSlug": "crazy-fingers",
-    "venue": "The Funky Biscuit, Boca Raton, FL 33432",
-    "city": "Boca Raton",
-    "state": "FL",
-    "lat": 26.3586885,
-    "lng": -80.0830984,
-    "date": "2026-08-25",
-    "time": "7:30PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Crazy Fingers"
     ]
   },
   {
@@ -5181,24 +5145,6 @@
     "source": "gdtb",
     "attractions": [
       "InDEADnation"
-    ]
-  },
-  {
-    "id": "gdtb-MA-dead-ahead-ma-2026-08-25-82-main-st-maynard-ma-united-s",
-    "name": "Dead Ahead MA — 82 Main St. Maynard MA United States Massachusetts 01754",
-    "band": "Dead Ahead MA",
-    "bandSlug": "dead-ahead-ma",
-    "venue": "82 Main St. Maynard MA United States Massachusetts 01754",
-    "city": "Maynard",
-    "state": "MA",
-    "lat": 42.4321064,
-    "lng": -71.4539683,
-    "date": "2026-08-25",
-    "time": "8 PM and 18 more",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "Dead Ahead MA"
     ]
   },
   {
@@ -7449,60 +7395,6 @@
     "source": "gdtb",
     "attractions": [
       "Melvin Seals and JGB"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-baked-alaska-2026-08-25-orange-lantern",
-    "name": "Baked Alaska — Orange Lantern",
-    "band": "Baked Alaska",
-    "bandSlug": "baked-alaska",
-    "venue": "Orange Lantern",
-    "city": "Paramus",
-    "state": "NJ",
-    "lat": 40.9452911,
-    "lng": -74.0735899,
-    "date": "2026-08-25",
-    "time": "8 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Baked Alaska"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-dead-reckoning-2026-08-25-betty-s-seafood-shack",
-    "name": "Dead Reckoning — Betty's Seafood Shack",
-    "band": "Dead Reckoning",
-    "bandSlug": "dead-reckoning",
-    "venue": "Betty's Seafood Shack",
-    "city": "Margate City",
-    "state": "NJ",
-    "lat": 39.327894,
-    "lng": -74.5034858,
-    "date": "2026-08-25",
-    "time": "5 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Dead Reckoning"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-rainbow-full-of-sound-2026-08-25-donovan-s-reef",
-    "name": "Rainbow Full Of Sound — Donovan's Reef",
-    "band": "Rainbow Full Of Sound",
-    "bandSlug": "rainbow-full-of-sound",
-    "venue": "Donovan's Reef",
-    "city": "Rumson",
-    "state": "NJ",
-    "lat": 40.372054,
-    "lng": -73.9990269,
-    "date": "2026-08-25",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Rainbow Full Of Sound"
     ]
   },
   {
@@ -11607,24 +11499,6 @@
     "source": "gdtb",
     "attractions": [
       "Token Rhymes"
-    ]
-  },
-  {
-    "id": "gdtb-PA-deal-2026-08-25-683-walnut-street",
-    "name": "DEAL — 683 Walnut Street",
-    "band": "DEAL",
-    "bandSlug": "deal",
-    "venue": "683 Walnut Street",
-    "city": "Easton",
-    "state": "PA",
-    "lat": 40.6916081,
-    "lng": -75.2099866,
-    "date": "2026-08-25",
-    "time": "7:00",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=PA",
-    "source": "gdtb",
-    "attractions": [
-      "DEAL"
     ]
   },
   {
