@@ -234,42 +234,6 @@
     ]
   },
   {
-    "id": "gdtb-CA-dead-roses-2026-08-26-ashkenaz",
-    "name": "Dead Roses — Ashkenaz",
-    "band": "Dead Roses",
-    "bandSlug": "dead-roses",
-    "venue": "Ashkenaz",
-    "city": "Berkeley",
-    "state": "CA",
-    "lat": 37.8708393,
-    "lng": -122.272863,
-    "date": "2026-08-26",
-    "time": "10 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "Dead Roses"
-    ]
-  },
-  {
-    "id": "gdtb-CA-scott-guberman-2026-08-26-ashkenaz-music-dance-community",
-    "name": "Scott Guberman — Ashkenaz Music & Dance Community Center",
-    "band": "Scott Guberman",
-    "bandSlug": "scott-guberman",
-    "venue": "Ashkenaz Music & Dance Community Center",
-    "city": "Berkeley",
-    "state": "CA",
-    "lat": 37.8708393,
-    "lng": -122.272863,
-    "date": "2026-08-26",
-    "time": "7:30PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
-    "source": "gdtb",
-    "attractions": [
-      "Scott Guberman"
-    ]
-  },
-  {
     "id": "gdtb-CA-scott-guberman-2026-08-27-penngrove-pub",
     "name": "Scott Guberman — Penngrove Pub",
     "band": "Scott Guberman",
@@ -1059,6 +1023,24 @@
     "source": "gdtb",
     "attractions": [
       "Grateful Dames"
+    ]
+  },
+  {
+    "id": "gdtb-CA-easy-wind-2026-09-22-978-n-coast-hwy-101-2051",
+    "name": "Easy Wind — 978 N Coast Hwy 101 #2051",
+    "band": "Easy Wind",
+    "bandSlug": "easy-wind",
+    "venue": "978 N Coast Hwy 101 #2051",
+    "city": "Encinitas",
+    "state": "CA",
+    "lat": 33.0369867,
+    "lng": -117.2919818,
+    "date": "2026-09-22",
+    "time": "6:00pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=CA",
+    "source": "gdtb",
+    "attractions": [
+      "Easy Wind"
     ]
   },
   {
@@ -4806,24 +4788,6 @@
     ]
   },
   {
-    "id": "gdtb-MD-dead-all-along-2026-08-26-wisp-resort",
-    "name": "Dead All Along — Wisp Resort",
-    "band": "Dead All Along",
-    "bandSlug": "dead-all-along",
-    "venue": "Wisp Resort",
-    "city": "McHenry",
-    "state": "MD",
-    "lat": 39.5584217,
-    "lng": -79.3528174,
-    "date": "2026-08-26",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MD",
-    "source": "gdtb",
-    "attractions": [
-      "Dead All Along"
-    ]
-  },
-  {
     "id": "gdtb-MD-better-off-dead-band-2026-08-28-28-east-baltimore-streethagers",
     "name": "Better Off Dead Band — 28 East Baltimore StreetHagerstown21740US",
     "band": "Better Off Dead Band",
@@ -5148,39 +5112,21 @@
     ]
   },
   {
-    "id": "gdtb-MA-diamond-blues-2026-08-26-midway-cafe",
-    "name": "Diamond Blues — Midway Cafe",
-    "band": "Diamond Blues",
-    "bandSlug": "diamond-blues",
-    "venue": "Midway Cafe",
-    "city": "Jamaica Plain",
+    "id": "gdtb-MA-jerome-s-pace-2026-08-27-ma-02139",
+    "name": "Jerome's Pace — MA 02139",
+    "band": "Jerome's Pace",
+    "bandSlug": "jerome-s-pace",
+    "venue": "MA 02139",
+    "city": "Cambridge",
     "state": "MA",
-    "lat": 42.3116046,
-    "lng": -71.1143838,
-    "date": "2026-08-26",
-    "time": "7:30 PM",
+    "lat": 42.3656347,
+    "lng": -71.1040018,
+    "date": "2026-08-27",
+    "time": "9:30 PM",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
     "source": "gdtb",
     "attractions": [
-      "Diamond Blues"
-    ]
-  },
-  {
-    "id": "gdtb-MA-playing-dead-2026-08-26-soundcheck-studios-pembroke",
-    "name": "Playing Dead — Soundcheck Studios Pembroke",
-    "band": "Playing Dead",
-    "bandSlug": "playing-dead",
-    "venue": "Soundcheck Studios Pembroke",
-    "city": "Pembroke",
-    "state": "MA",
-    "lat": 42.0714907,
-    "lng": -70.8092074,
-    "date": "2026-08-26",
-    "time": "8 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "Playing Dead"
+      "Jerome's Pace"
     ]
   },
   {
@@ -7398,78 +7344,6 @@
     ]
   },
   {
-    "id": "gdtb-NJ-dead-reckoning-2026-08-26-the-crab-trap",
-    "name": "Dead Reckoning — The Crab Trap",
-    "band": "Dead Reckoning",
-    "bandSlug": "dead-reckoning",
-    "venue": "The Crab Trap",
-    "city": "Somers Point",
-    "state": "NJ",
-    "lat": 39.3176158,
-    "lng": -74.594601,
-    "date": "2026-08-26",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Dead Reckoning"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-deadful-greats-2026-08-26-maplewood-community-pool",
-    "name": "Deadful Greats — Maplewood Community Pool",
-    "band": "Deadful Greats",
-    "bandSlug": "deadful-greats",
-    "venue": "Maplewood Community Pool",
-    "city": "Maplewood",
-    "state": "NJ",
-    "lat": 40.7312123,
-    "lng": -74.2734808,
-    "date": "2026-08-26",
-    "time": "6:30 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Deadful Greats"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-rainbow-full-of-sound-2026-08-26-kennedy-plaza-amphitheater",
-    "name": "Rainbow Full Of Sound — Kennedy Plaza Amphitheater",
-    "band": "Rainbow Full Of Sound",
-    "bandSlug": "rainbow-full-of-sound",
-    "venue": "Kennedy Plaza Amphitheater",
-    "city": "Atlantic City",
-    "state": "NJ",
-    "lat": 39.3642852,
-    "lng": -74.4229351,
-    "date": "2026-08-26",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Rainbow Full Of Sound"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-the-brian-st-john-band-2026-08-26-o-reillys-pub",
-    "name": "The Brian St John Band — O'Reillys Pub",
-    "band": "The Brian St John Band",
-    "bandSlug": "the-brian-st-john-band",
-    "venue": "O'Reillys Pub",
-    "city": "Newton",
-    "state": "NJ",
-    "lat": 41.0583121,
-    "lng": -74.7531445,
-    "date": "2026-08-26",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "The Brian St John Band"
-    ]
-  },
-  {
     "id": "gdtb-NJ-be5d-2026-08-27-cooper-s-riverview",
     "name": "Be5D — Cooper's Riverview",
     "band": "Be5D",
@@ -8583,78 +8457,6 @@
     "source": "gdtb",
     "attractions": [
       "Odd Dog"
-    ]
-  },
-  {
-    "id": "gdtb-NY-gratefully-yours-2026-08-26-colony-woodstock-ny",
-    "name": "Gratefully Yours — Colony Woodstock NY",
-    "band": "Gratefully Yours",
-    "bandSlug": "gratefully-yours",
-    "venue": "Colony Woodstock NY",
-    "city": "Woodstock",
-    "state": "NY",
-    "lat": 42.0410578,
-    "lng": -74.1182492,
-    "date": "2026-08-26",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Gratefully Yours"
-    ]
-  },
-  {
-    "id": "gdtb-NY-mystic-dead-2026-08-26-garcia-x27-s",
-    "name": "Mystic Dead — Garcia&#x27;s",
-    "band": "Mystic Dead",
-    "bandSlug": "mystic-dead",
-    "venue": "Garcia&#x27;s",
-    "city": "Port Chester",
-    "state": "NY",
-    "lat": 41.0017643,
-    "lng": -73.6656834,
-    "date": "2026-08-26",
-    "time": "8pm - 11pm",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Mystic Dead"
-    ]
-  },
-  {
-    "id": "gdtb-NY-reckoning-2026-08-26-event-by-reckoning",
-    "name": "Reckoning — Event by Reckoning",
-    "band": "Reckoning",
-    "bandSlug": "reckoning",
-    "venue": "Event by Reckoning",
-    "city": "Port Jefferson Station",
-    "state": "NY",
-    "lat": 40.9225875,
-    "lng": -73.0657356,
-    "date": "2026-08-26",
-    "time": "6 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Reckoning"
-    ]
-  },
-  {
-    "id": "gdtb-NY-shakedown-citi-2026-08-26-the-warehouse",
-    "name": "Shakedown Citi — The Warehouse",
-    "band": "Shakedown Citi",
-    "bandSlug": "shakedown-citi",
-    "venue": "The Warehouse",
-    "city": "Amityville",
-    "state": "NY",
-    "lat": 40.6789893,
-    "lng": -73.4170673,
-    "date": "2026-08-26",
-    "time": "",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
-    "source": "gdtb",
-    "attractions": [
-      "Shakedown Citi"
     ]
   },
   {
@@ -11286,24 +11088,6 @@
     ]
   },
   {
-    "id": "gdtb-OR-rhapsody-in-red-2026-08-26-laurelthirst-public-house",
-    "name": "Rhapsody In Red — LaurelThirst Public House",
-    "band": "Rhapsody In Red",
-    "bandSlug": "rhapsody-in-red",
-    "venue": "LaurelThirst Public House",
-    "city": "Portland",
-    "state": "OR",
-    "lat": 45.5202471,
-    "lng": -122.674194,
-    "date": "2026-08-26",
-    "time": "9 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OR",
-    "source": "gdtb",
-    "attractions": [
-      "Rhapsody In Red"
-    ]
-  },
-  {
     "id": "gdtb-OR-definitely-dead-2026-09-05-1624-nw-glisan-st",
     "name": "Definitely Dead — 1624 NW Glisan St",
     "band": "Definitely Dead",
@@ -11387,6 +11171,24 @@
     "lng": -122.674194,
     "date": "2026-09-19",
     "time": "7pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OR",
+    "source": "gdtb",
+    "attractions": [
+      "Caught Dead Handed"
+    ]
+  },
+  {
+    "id": "gdtb-OR-caught-dead-handed-2026-09-26-8175-buena-vista-rd",
+    "name": "Caught Dead Handed — 8175 Buena Vista Rd",
+    "band": "Caught Dead Handed",
+    "bandSlug": "caught-dead-handed",
+    "venue": "8175 Buena Vista Rd",
+    "city": "Independence",
+    "state": "OR",
+    "lat": 44.8560029,
+    "lng": -123.191303,
+    "date": "2026-09-26",
+    "time": "6pm",
     "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=OR",
     "source": "gdtb",
     "attractions": [
@@ -13626,24 +13428,6 @@
     ]
   },
   {
-    "id": "gdtb-VA-dead-musician-stew-2026-08-26-jv-s-restaurant",
-    "name": "Dead Musician Stew — JV's Restaurant",
-    "band": "Dead Musician Stew",
-    "bandSlug": "dead-musician-stew",
-    "venue": "JV's Restaurant",
-    "city": "Falls Church",
-    "state": "VA",
-    "lat": 38.882334,
-    "lng": -77.1710914,
-    "date": "2026-08-26",
-    "time": "8 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=VA",
-    "source": "gdtb",
-    "attractions": [
-      "Dead Musician Stew"
-    ]
-  },
-  {
     "id": "gdtb-VA-great-northern-out-of-dc-2026-08-28-227-maple-ave-e-vienna-va-unit",
     "name": "Great Northern-Out of DC — 227 Maple Ave E Vienna VA United States Virginia 22180",
     "band": "Great Northern-Out of DC",
@@ -13731,6 +13515,24 @@
     "source": "gdtb",
     "attractions": [
       "Last Fair Deal"
+    ]
+  },
+  {
+    "id": "gdtb-VA-half-dead-2026-09-10-the-bebedero",
+    "name": "Half Dead — The Bebedero",
+    "band": "Half Dead",
+    "bandSlug": "half-dead",
+    "venue": "The Bebedero",
+    "city": "Charlottesville",
+    "state": "VA",
+    "lat": 38.029306,
+    "lng": -78.4766781,
+    "date": "2026-09-10",
+    "time": "4pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=VA",
+    "source": "gdtb",
+    "attractions": [
+      "Half Dead"
     ]
   },
   {
@@ -13914,6 +13716,24 @@
     ]
   },
   {
+    "id": "gdtb-VA-half-dead-2026-10-03-421-monticello-rd",
+    "name": "Half Dead — 421 Monticello Rd",
+    "band": "Half Dead",
+    "bandSlug": "half-dead",
+    "venue": "421 Monticello Rd",
+    "city": "Charlottesville",
+    "state": "VA",
+    "lat": 38.029306,
+    "lng": -78.4766781,
+    "date": "2026-10-03",
+    "time": "6pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=VA",
+    "source": "gdtb",
+    "attractions": [
+      "Half Dead"
+    ]
+  },
+  {
     "id": "gdtb-VA-bertha-grateful-drag-2026-10-08-9-30-club",
     "name": "Bertha Grateful Drag — 9:30 Club",
     "band": "Bertha Grateful Drag",
@@ -14073,24 +13893,6 @@
     "source": "gdtb",
     "attractions": [
       "Steely Dead"
-    ]
-  },
-  {
-    "id": "gdtb-WI-seaside-zoo-2026-08-26-sidie-hollow-county-park",
-    "name": "Seaside Zoo — Sidie Hollow County Park",
-    "band": "Seaside Zoo",
-    "bandSlug": "seaside-zoo",
-    "venue": "Sidie Hollow County Park",
-    "city": "Viroqua",
-    "state": "WI",
-    "lat": 43.5569174,
-    "lng": -90.8887413,
-    "date": "2026-08-26",
-    "time": "7 PM EDT",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=WI",
-    "source": "gdtb",
-    "attractions": [
-      "Seaside Zoo"
     ]
   },
   {

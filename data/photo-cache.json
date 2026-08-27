@@ -1990,5 +1990,10 @@
   "pearly-baker-s-best": {
     "tried": "2026-08-25",
     "matched": false
+  },
+  "half-dead": {
+    "tried": "2026-08-27",
+    "matched": true,
+    "name": "half dead"
   }
 }

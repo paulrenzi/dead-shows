@@ -36,12 +36,6 @@
     "state": "AR"
   },
   {
-    "slug": "dead-roses",
-    "name": "Dead Roses",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
     "slug": "scott-guberman",
     "name": "Scott Guberman",
     "source": "gratefuldeadtributebands.com",
@@ -80,6 +74,12 @@
   {
     "slug": "pete-sawyer-the-lhmwg",
     "name": "Pete Sawyer & The LHMWG",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
+    "slug": "dead-roses",
+    "name": "Dead Roses",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
   },
@@ -540,12 +540,6 @@
     "state": "ME"
   },
   {
-    "slug": "dead-all-along",
-    "name": "Dead All Along",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MD"
-  },
-  {
     "slug": "better-off-dead-band",
     "name": "Better Off Dead Band",
     "source": "gratefuldeadtributebands.com",
@@ -594,8 +588,8 @@
     "state": "MD"
   },
   {
-    "slug": "diamond-blues",
-    "name": "Diamond Blues",
+    "slug": "jerome-s-pace",
+    "name": "Jerome's Pace",
     "source": "gratefuldeadtributebands.com",
     "state": "MA"
   },
@@ -638,6 +632,12 @@
   {
     "slug": "lobsterz-from-marz",
     "name": "Lobsterz from Marz",
+    "source": "gratefuldeadtributebands.com",
+    "state": "MA"
+  },
+  {
+    "slug": "diamond-blues",
+    "name": "Diamond Blues",
     "source": "gratefuldeadtributebands.com",
     "state": "MA"
   },
@@ -822,14 +822,14 @@
     "state": "NV"
   },
   {
-    "slug": "dead-reckoning",
-    "name": "Dead Reckoning",
+    "slug": "be5d",
+    "name": "Be5D",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
   {
-    "slug": "deadful-greats",
-    "name": "Deadful Greats",
+    "slug": "crickets-and-cicadas",
+    "name": "Crickets and Cicadas",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -840,20 +840,8 @@
     "state": "NJ"
   },
   {
-    "slug": "the-brian-st-john-band",
-    "name": "The Brian St John Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "be5d",
-    "name": "Be5D",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "crickets-and-cicadas",
-    "name": "Crickets and Cicadas",
+    "slug": "dead-reckoning",
+    "name": "Dead Reckoning",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -872,6 +860,12 @@
   {
     "slug": "the-big-trip",
     "name": "The Big Trip",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "the-brian-st-john-band",
+    "name": "The Brian St John Band",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -936,6 +930,12 @@
     "state": "NJ"
   },
   {
+    "slug": "deadful-greats",
+    "name": "Deadful Greats",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
     "slug": "mark-diomede-and-friends",
     "name": "Mark Diomede and Friends",
     "source": "gratefuldeadtributebands.com",
@@ -946,12 +946,6 @@
     "name": "Odd Dog",
     "source": "gratefuldeadtributebands.com",
     "state": "NM"
-  },
-  {
-    "slug": "gratefully-yours",
-    "name": "Gratefully Yours",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
   },
   {
     "slug": "buffalo-dead-all-stars",
@@ -986,6 +980,12 @@
   {
     "slug": "half-past-dead",
     "name": "Half Past Dead",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "gratefully-yours",
+    "name": "Gratefully Yours",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
@@ -1164,12 +1164,6 @@
     "state": "OK"
   },
   {
-    "slug": "rhapsody-in-red",
-    "name": "Rhapsody In Red",
-    "source": "gratefuldeadtributebands.com",
-    "state": "OR"
-  },
-  {
     "slug": "definitely-dead",
     "name": "Definitely Dead",
     "source": "gratefuldeadtributebands.com",
@@ -1344,12 +1338,6 @@
     "state": "VT"
   },
   {
-    "slug": "dead-musician-stew",
-    "name": "Dead Musician Stew",
-    "source": "gratefuldeadtributebands.com",
-    "state": "VA"
-  },
-  {
     "slug": "great-northern-out-of-dc",
     "name": "Great Northern-Out of DC",
     "source": "gratefuldeadtributebands.com",
@@ -1364,6 +1352,12 @@
   {
     "slug": "last-fair-deal",
     "name": "Last Fair Deal",
+    "source": "gratefuldeadtributebands.com",
+    "state": "VA"
+  },
+  {
+    "slug": "half-dead",
+    "name": "Half Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "VA"
   },
@@ -1396,12 +1390,6 @@
     "name": "DEAL WA",
     "source": "gratefuldeadtributebands.com",
     "state": "WA"
-  },
-  {
-    "slug": "seaside-zoo",
-    "name": "Seaside Zoo",
-    "source": "gratefuldeadtributebands.com",
-    "state": "WI"
   },
   {
     "slug": "boney-fingers",

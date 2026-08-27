@@ -617,5 +617,10 @@
     "photo": "images/bands/midnight-sun.jpg",
     "source": "deezer",
     "matchedName": "Midnight Sun"
+  },
+  "half-dead": {
+    "photo": "images/bands/half-dead.jpg",
+    "source": "deezer",
+    "matchedName": "half dead"
   }
 }
