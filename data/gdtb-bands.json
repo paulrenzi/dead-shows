@@ -36,12 +36,6 @@
     "state": "AR"
   },
   {
-    "slug": "scott-guberman",
-    "name": "Scott Guberman",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
     "slug": "scarlett-fyre",
     "name": "Scarlett Fyre",
     "source": "gratefuldeadtributebands.com",
@@ -62,6 +56,12 @@
   {
     "slug": "electric-waste-band",
     "name": "Electric Waste Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
+    "slug": "scott-guberman",
+    "name": "Scott Guberman",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
   },
@@ -168,14 +168,14 @@
     "state": "CO"
   },
   {
-    "slug": "dead-panic",
-    "name": "Dead Panic",
+    "slug": "big-sky",
+    "name": "Big Sky",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
   {
-    "slug": "big-sky",
-    "name": "Big Sky",
+    "slug": "dead-panic",
+    "name": "Dead Panic",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
@@ -588,12 +588,6 @@
     "state": "MD"
   },
   {
-    "slug": "jerome-s-pace",
-    "name": "Jerome's Pace",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MA"
-  },
-  {
     "slug": "the-reckoning-crew",
     "name": "The Reckoning Crew",
     "source": "gratefuldeadtributebands.com",
@@ -744,14 +738,14 @@
     "state": "MI"
   },
   {
-    "slug": "grateful-zed",
-    "name": "Grateful Zed",
+    "slug": "china-rider",
+    "name": "China Rider",
     "source": "gratefuldeadtributebands.com",
     "state": "MN"
   },
   {
-    "slug": "china-rider",
-    "name": "China Rider",
+    "slug": "grateful-zed",
+    "name": "Grateful Zed",
     "source": "gratefuldeadtributebands.com",
     "state": "MN"
   },
@@ -822,24 +816,6 @@
     "state": "NV"
   },
   {
-    "slug": "be5d",
-    "name": "Be5D",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "crickets-and-cicadas",
-    "name": "Crickets and Cicadas",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "rainbow-full-of-sound",
-    "name": "Rainbow Full Of Sound",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "dead-reckoning",
     "name": "Dead Reckoning",
     "source": "gratefuldeadtributebands.com",
@@ -870,6 +846,12 @@
     "state": "NJ"
   },
   {
+    "slug": "crickets-and-cicadas",
+    "name": "Crickets and Cicadas",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
     "slug": "deadicated-friends",
     "name": "Deadicated & Friends",
     "source": "gratefuldeadtributebands.com",
@@ -890,6 +872,12 @@
   {
     "slug": "baked-alaska",
     "name": "Baked Alaska",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "rainbow-full-of-sound",
+    "name": "Rainbow Full Of Sound",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -924,6 +912,12 @@
     "state": "NJ"
   },
   {
+    "slug": "be5d",
+    "name": "Be5D",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
     "slug": "deal",
     "name": "DEAL",
     "source": "gratefuldeadtributebands.com",
@@ -946,18 +940,6 @@
     "name": "Odd Dog",
     "source": "gratefuldeadtributebands.com",
     "state": "NM"
-  },
-  {
-    "slug": "buffalo-dead-all-stars",
-    "name": "Buffalo Dead All Stars",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
-    "slug": "good-dead",
-    "name": "Good & Dead",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
   },
   {
     "slug": "half-step-li",
@@ -1016,6 +998,12 @@
   {
     "slug": "tiger-rose",
     "name": "Tiger Rose",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "buffalo-dead-all-stars",
+    "name": "Buffalo Dead All Stars",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
@@ -1182,26 +1170,20 @@
     "state": "OR"
   },
   {
-    "slug": "gratefolk",
-    "name": "Gratefolk",
-    "source": "gratefuldeadtributebands.com",
-    "state": "PA"
-  },
-  {
     "slug": "pure-jerry",
     "name": "Pure Jerry",
     "source": "gratefuldeadtributebands.com",
     "state": "PA"
   },
   {
-    "slug": "zendog",
-    "name": "Zendog",
+    "slug": "samjamwich",
+    "name": "SamJamwich",
     "source": "gratefuldeadtributebands.com",
     "state": "PA"
   },
   {
-    "slug": "samjamwich",
-    "name": "SamJamwich",
+    "slug": "zendog",
+    "name": "Zendog",
     "source": "gratefuldeadtributebands.com",
     "state": "PA"
   },
@@ -1242,14 +1224,14 @@
     "state": "PA"
   },
   {
-    "slug": "blue-drew-and-the-magoos",
-    "name": "Blue Drew and the Magoos",
+    "slug": "rose-wharf-band",
+    "name": "Rose Wharf Band",
     "source": "gratefuldeadtributebands.com",
     "state": "RI"
   },
   {
-    "slug": "rose-wharf-band",
-    "name": "Rose Wharf Band",
+    "slug": "blue-drew-and-the-magoos",
+    "name": "Blue Drew and the Magoos",
     "source": "gratefuldeadtributebands.com",
     "state": "RI"
   },
@@ -1272,14 +1254,14 @@
     "state": "RI"
   },
   {
-    "slug": "the-grateful-brothers",
-    "name": "The Grateful Brothers",
+    "slug": "direwoof",
+    "name": "DireWoof",
     "source": "gratefuldeadtributebands.com",
     "state": "SC"
   },
   {
-    "slug": "direwoof",
-    "name": "DireWoof",
+    "slug": "the-grateful-brothers",
+    "name": "The Grateful Brothers",
     "source": "gratefuldeadtributebands.com",
     "state": "SC"
   },
@@ -1346,6 +1328,12 @@
   {
     "slug": "the-dead-reckoning",
     "name": "The Dead Reckoning",
+    "source": "gratefuldeadtributebands.com",
+    "state": "VA"
+  },
+  {
+    "slug": "cats-on-the-blacktop",
+    "name": "Cats On The Blacktop",
     "source": "gratefuldeadtributebands.com",
     "state": "VA"
   },
