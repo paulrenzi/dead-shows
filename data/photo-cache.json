@@ -1995,5 +1995,17 @@
     "tried": "2026-08-27",
     "matched": true,
     "name": "half dead"
+  },
+  "easy-wind-ca": {
+    "tried": "2026-08-31",
+    "matched": false
+  },
+  "quabog-river-blues-band": {
+    "tried": "2026-08-31",
+    "matched": false
+  },
+  "spider-daniels-band": {
+    "tried": "2026-08-31",
+    "matched": false
   }
 }

@@ -5367,5 +5367,61 @@
     "lat": 38.790971,
     "lng": -77.0727103
   },
-  "charlottesville/earlysville, va": null
+  "charlottesville/earlysville, va": null,
+  "yermo, ca": {
+    "lat": 34.906701,
+    "lng": -116.8230266
+  },
+  "salem, ct": {
+    "lat": 41.491269,
+    "lng": -72.2762084
+  },
+  "norfolk, ct": {
+    "lat": 41.9899936,
+    "lng": -73.1991114
+  },
+  "rockledge, fl": {
+    "lat": 28.330831,
+    "lng": -80.7349162
+  },
+  "elgin, il": {
+    "lat": 42.03726,
+    "lng": -88.2810994
+  },
+  "shawnee, ks": {
+    "lat": 39.0273676,
+    "lng": -95.7627535
+  },
+  "olney, md": {
+    "lat": 39.1469872,
+    "lng": -77.0722227
+  },
+  "brunswick, md": {
+    "lat": 39.3131621,
+    "lng": -77.6281858
+  },
+  "egremont, ma": {
+    "lat": 42.1671269,
+    "lng": -73.4439496
+  },
+  "stevensville, mi": {
+    "lat": 42.0144871,
+    "lng": -86.5194654
+  },
+  "brooklyn bowl, ny": {
+    "lat": 40.7220528,
+    "lng": -73.9575486
+  },
+  "columbia, nc": {
+    "lat": 35.9176633,
+    "lng": -76.2521521
+  },
+  "brevard, nc": {
+    "lat": 35.2334472,
+    "lng": -82.7342919
+  },
+  "lititz, pa": {
+    "lat": 40.1571324,
+    "lng": -76.307162
+  }
 }
