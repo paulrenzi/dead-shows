@@ -156,6 +156,12 @@
     "state": "CA"
   },
   {
+    "slug": "special-event-camp-rosewater",
+    "name": "Special Event Camp Rosewater",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
     "slug": "melvin-seals-and-jgb",
     "name": "Melvin Seals and JGB",
     "source": "gratefuldeadtributebands.com",
@@ -164,6 +170,12 @@
   {
     "slug": "electric-waste-band",
     "name": "Electric Waste Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
+    "slug": "shakedown-citi",
+    "name": "Shakedown Citi",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
   },
@@ -240,12 +252,6 @@
     "state": "CO"
   },
   {
-    "slug": "shakedown-citi",
-    "name": "Shakedown Citi",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CT"
-  },
-  {
     "slug": "the-mystery-train-band",
     "name": "The Mystery Train Band",
     "source": "gratefuldeadtributebands.com",
@@ -294,6 +300,12 @@
     "state": "CT"
   },
   {
+    "slug": "throwing-stones-band",
+    "name": "Throwing Stones Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CT"
+  },
+  {
     "slug": "foolish-heart-band",
     "name": "Foolish Heart Band",
     "source": "gratefuldeadtributebands.com",
@@ -306,14 +318,20 @@
     "state": "DE"
   },
   {
-    "slug": "mondo-tikis",
-    "name": "Mondo Tikis",
+    "slug": "deadband",
+    "name": "Deadband",
     "source": "gratefuldeadtributebands.com",
-    "state": "FL"
+    "state": "DE"
   },
   {
     "slug": "crazy-fingers",
     "name": "Crazy Fingers",
+    "source": "gratefuldeadtributebands.com",
+    "state": "FL"
+  },
+  {
+    "slug": "mondo-tikis",
+    "name": "Mondo Tikis",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
@@ -380,6 +398,18 @@
   {
     "slug": "touch-of-dead",
     "name": "Touch of Dead",
+    "source": "gratefuldeadtributebands.com",
+    "state": "FL"
+  },
+  {
+    "slug": "the-garcia-project",
+    "name": "The Garcia Project",
+    "source": "gratefuldeadtributebands.com",
+    "state": "FL"
+  },
+  {
+    "slug": "uncle-john-s-band",
+    "name": "Uncle John's Band",
     "source": "gratefuldeadtributebands.com",
     "state": "FL"
   },
@@ -522,12 +552,6 @@
     "state": "ME"
   },
   {
-    "slug": "the-garcia-project",
-    "name": "The Garcia Project",
-    "source": "gratefuldeadtributebands.com",
-    "state": "ME"
-  },
-  {
     "slug": "rose-alley",
     "name": "Rose Alley",
     "source": "gratefuldeadtributebands.com",
@@ -618,12 +642,6 @@
     "state": "MA"
   },
   {
-    "slug": "throwing-stones-band",
-    "name": "Throwing Stones Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MA"
-  },
-  {
     "slug": "quaboag-river-blues-band",
     "name": "Quaboag River Blues Band",
     "source": "gratefuldeadtributebands.com",
@@ -674,6 +692,12 @@
   {
     "slug": "silver-string-slingers",
     "name": "Silver String Slingers",
+    "source": "gratefuldeadtributebands.com",
+    "state": "MA"
+  },
+  {
+    "slug": "august-first",
+    "name": "August First",
     "source": "gratefuldeadtributebands.com",
     "state": "MA"
   },
@@ -852,6 +876,12 @@
     "state": "NJ"
   },
   {
+    "slug": "achievers-band",
+    "name": "Achievers Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
     "slug": "reflections",
     "name": "Reflections",
     "source": "gratefuldeadtributebands.com",
@@ -924,10 +954,10 @@
     "state": "NJ"
   },
   {
-    "slug": "dead-friends",
-    "name": "Dead & Friends",
+    "slug": "northbound-train-nj",
+    "name": "Northbound Train - NJ",
     "source": "gratefuldeadtributebands.com",
-    "state": "NY"
+    "state": "NJ"
   },
   {
     "slug": "tiger-rose",
@@ -1002,12 +1032,6 @@
     "state": "NY"
   },
   {
-    "slug": "achievers-band",
-    "name": "Achievers Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
     "slug": "the-wheel",
     "name": "The Wheel",
     "source": "gratefuldeadtributebands.com",
@@ -1026,6 +1050,12 @@
     "state": "NY"
   },
   {
+    "slug": "dead-friends",
+    "name": "Dead & Friends",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
     "slug": "wolfman-jack",
     "name": "Wolfman Jack",
     "source": "gratefuldeadtributebands.com",
@@ -1034,6 +1064,12 @@
   {
     "slug": "pearly-baker-s-best",
     "name": "Pearly Baker's Best",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "dead-meat",
+    "name": "Dead Meat",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
@@ -1212,26 +1248,20 @@
     "state": "PA"
   },
   {
-    "slug": "deadband",
-    "name": "Deadband",
-    "source": "gratefuldeadtributebands.com",
-    "state": "PA"
-  },
-  {
     "slug": "steal-your-peach",
     "name": "Steal Your Peach",
     "source": "gratefuldeadtributebands.com",
     "state": "PA"
   },
   {
-    "slug": "blue-drew-and-the-magoos",
-    "name": "Blue Drew and the Magoos",
+    "slug": "dread-the-dead",
+    "name": "Dread The Dead",
     "source": "gratefuldeadtributebands.com",
-    "state": "RI"
+    "state": "PA"
   },
   {
-    "slug": "august-first",
-    "name": "August First",
+    "slug": "blue-drew-and-the-magoos",
+    "name": "Blue Drew and the Magoos",
     "source": "gratefuldeadtributebands.com",
     "state": "RI"
   },
@@ -1250,6 +1280,12 @@
   {
     "slug": "violin-river",
     "name": "Violin River",
+    "source": "gratefuldeadtributebands.com",
+    "state": "RI"
+  },
+  {
+    "slug": "a-fine-connection",
+    "name": "A Fine Connection",
     "source": "gratefuldeadtributebands.com",
     "state": "RI"
   },
@@ -1320,6 +1356,12 @@
     "state": "TX"
   },
   {
+    "slug": "country-dead",
+    "name": "Country Dead",
+    "source": "gratefuldeadtributebands.com",
+    "state": "TX"
+  },
+  {
     "slug": "dark-star-project",
     "name": "Dark Star Project",
     "source": "gratefuldeadtributebands.com",
@@ -1376,6 +1418,12 @@
   {
     "slug": "the-dead-reckoning",
     "name": "The Dead Reckoning",
+    "source": "gratefuldeadtributebands.com",
+    "state": "VA"
+  },
+  {
+    "slug": "dead-rise",
+    "name": "Dead Rise",
     "source": "gratefuldeadtributebands.com",
     "state": "VA"
   },

@@ -2007,5 +2007,25 @@
   "spider-daniels-band": {
     "tried": "2026-08-31",
     "matched": false
+  },
+  "special-event-camp-rosewater": {
+    "tried": "2026-09-01",
+    "matched": false
+  },
+  "uncle-john-s-band": {
+    "tried": "2026-09-01",
+    "matched": false
+  },
+  "northbound-train-nj": {
+    "tried": "2026-09-01",
+    "matched": false
+  },
+  "dread-the-dead": {
+    "tried": "2026-09-01",
+    "matched": false
+  },
+  "a-fine-connection": {
+    "tried": "2026-09-01",
+    "matched": false
   }
 }

@@ -5423,5 +5423,83 @@
   "lititz, pa": {
     "lat": 40.1571324,
     "lng": -76.307162
+  },
+  "gilroy, ca": {
+    "lat": 37.0065078,
+    "lng": -121.5631723
+  },
+  "miami, ca": {
+    "lat": 37.4193473,
+    "lng": -119.7453133
+  },
+  "chico, ca": {
+    "lat": 39.7284945,
+    "lng": -121.8374777
+  },
+  "san jose, ca": {
+    "lat": 37.3361663,
+    "lng": -121.890591
+  },
+  "milford, ct": {
+    "lat": 41.2222218,
+    "lng": -73.0570603
+  },
+  "st. augustine beach, fl": {
+    "lat": 29.8508613,
+    "lng": -81.2716634
+  },
+  "saint petersburg, fl": {
+    "lat": 27.7712264,
+    "lng": -82.6340259
+  },
+  "carbondale, il": null,
+  "erie, il": {
+    "lat": 41.6563287,
+    "lng": -90.0790166
+  },
+  "newport, ky": null,
+  "catonsville 21228, md": {
+    "lat": 39.2720504,
+    "lng": -76.7318456
+  },
+  "taneytown, 21787, md": {
+    "lat": 39.6593585,
+    "lng": -77.1756197
+  },
+  "hopkinton, ma": {
+    "lat": 42.2288875,
+    "lng": -71.5196439
+  },
+  "jackson, mi": {
+    "lat": 42.2416466,
+    "lng": -84.425589
+  },
+  "blairstown, nj": {
+    "lat": 40.9831598,
+    "lng": -74.9602972
+  },
+  "mt holly, nj": {
+    "lat": 39.9928898,
+    "lng": -74.7876624
+  },
+  "la fayette, ny": {
+    "lat": 42.8925794,
+    "lng": -76.1060197
+  },
+  "binghamton, ny": {
+    "lat": 42.098698,
+    "lng": -75.9125187
+  },
+  "oklahoma city, ok": {
+    "lat": 35.4729886,
+    "lng": -97.5170536
+  },
+  "jim thorpe, pa": {
+    "lat": 40.8636074,
+    "lng": -75.7386948
+  },
+  "kanab, ut": {
+    "lat": 37.0481715,
+    "lng": -112.5285237
   }
 }
