@@ -3348,24 +3348,6 @@
     ]
   },
   {
-    "id": "gdtb-FL-crazy-fingers-2026-09-01-the-funky-biscuit-boca-raton-f",
-    "name": "Crazy Fingers — The Funky Biscuit, Boca Raton, FL 33432",
-    "band": "Crazy Fingers",
-    "bandSlug": "crazy-fingers",
-    "venue": "The Funky Biscuit, Boca Raton, FL 33432",
-    "city": "Boca Raton",
-    "state": "FL",
-    "lat": 26.3586885,
-    "lng": -80.0830984,
-    "date": "2026-09-01",
-    "time": "7:30PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=FL",
-    "source": "gdtb",
-    "attractions": [
-      "Crazy Fingers"
-    ]
-  },
-  {
     "id": "gdtb-FL-mondo-tikis-2026-09-04-the-riverfront-cocoa-beach",
     "name": "Mondo Tikis — The Riverfront Cocoa Beach",
     "band": "Mondo Tikis",
@@ -5742,42 +5724,6 @@
     ]
   },
   {
-    "id": "gdtb-MA-dead-ahead-ma-2026-09-01-82-main-st-maynard-ma-united-s",
-    "name": "Dead Ahead MA — 82 Main St. Maynard MA United States Massachusetts 01754",
-    "band": "Dead Ahead MA",
-    "bandSlug": "dead-ahead-ma",
-    "venue": "82 Main St. Maynard MA United States Massachusetts 01754",
-    "city": "Maynard",
-    "state": "MA",
-    "lat": 42.4321064,
-    "lng": -71.4539683,
-    "date": "2026-09-01",
-    "time": "8 PM and 17 more",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "Dead Ahead MA"
-    ]
-  },
-  {
-    "id": "gdtb-MA-ramble-on-rose-band-2026-09-01-sanctuary-cultural-arts-center",
-    "name": "Ramble On Rose Band — Sanctuary Cultural Arts Center",
-    "band": "Ramble On Rose Band",
-    "bandSlug": "ramble-on-rose-band",
-    "venue": "Sanctuary Cultural Arts Center",
-    "city": "Maynard",
-    "state": "MA",
-    "lat": 42.4321064,
-    "lng": -71.4539683,
-    "date": "2026-09-01",
-    "time": "8 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
-    "source": "gdtb",
-    "attractions": [
-      "Ramble On Rose Band"
-    ]
-  },
-  {
     "id": "gdtb-MA-playing-dead-2026-09-02-soundcheck-studios-pembroke",
     "name": "Playing Dead — Soundcheck Studios Pembroke",
     "band": "Playing Dead",
@@ -5994,6 +5940,24 @@
     ]
   },
   {
+    "id": "gdtb-MA-august-west-co-2026-09-11-102-central-st",
+    "name": "August West & Co. — 102 Central St",
+    "band": "August West & Co.",
+    "bandSlug": "august-west-co",
+    "venue": "102 Central St",
+    "city": "Wellesley",
+    "state": "MA",
+    "lat": 42.2964859,
+    "lng": -71.2925571,
+    "date": "2026-09-11",
+    "time": "8 - 11",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
+    "source": "gdtb",
+    "attractions": [
+      "August West & Co."
+    ]
+  },
+  {
     "id": "gdtb-MA-quabog-river-blues-band-2026-09-11-pulaski-park",
     "name": "Quabog River Blues Band — Pulaski park",
     "band": "Quabog River Blues Band",
@@ -6156,6 +6120,24 @@
     ]
   },
   {
+    "id": "gdtb-MA-moose-juice-2026-09-17-camp-keewanee",
+    "name": "Moose Juice — Camp Keewanee",
+    "band": "Moose Juice",
+    "bandSlug": "moose-juice",
+    "venue": "Camp Keewanee",
+    "city": "Greenfield",
+    "state": "MA",
+    "lat": 42.5876342,
+    "lng": -72.6002068,
+    "date": "2026-09-17",
+    "time": "8pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
+    "source": "gdtb",
+    "attractions": [
+      "Moose Juice"
+    ]
+  },
+  {
     "id": "gdtb-MA-legends-of-mary-2026-09-17-1667-massachusetts-ave-cambrid",
     "name": "Legends Of Mary — 1667 Massachusetts Ave Cambridge MA",
     "band": "Legends Of Mary",
@@ -6189,6 +6171,24 @@
     "source": "gdtb",
     "attractions": [
       "Moose Juice"
+    ]
+  },
+  {
+    "id": "gdtb-MA-promised-land-2026-09-18-3496-washington-st",
+    "name": "Promised Land — 3496 Washington St",
+    "band": "Promised Land",
+    "bandSlug": "promised-land",
+    "venue": "3496 Washington St",
+    "city": "Jamaica Plain",
+    "state": "MA",
+    "lat": 42.3116046,
+    "lng": -71.1143838,
+    "date": "2026-09-18",
+    "time": "6:30-9:30",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MA",
+    "source": "gdtb",
+    "attractions": [
+      "Promised Land"
     ]
   },
   {
@@ -7089,24 +7089,6 @@
     "source": "gdtb",
     "attractions": [
       "Lobsterz from Marz"
-    ]
-  },
-  {
-    "id": "gdtb-MI-manitou-truckin-company-2026-09-01-first-st-beach-manistee-michig",
-    "name": "Manitou Truckin' Company — First St. Beach Manistee Michigan",
-    "band": "Manitou Truckin' Company",
-    "bandSlug": "manitou-truckin-company",
-    "venue": "First St. Beach Manistee Michigan",
-    "city": "Manistee",
-    "state": "MI",
-    "lat": 44.3308044,
-    "lng": -86.0262043,
-    "date": "2026-09-01",
-    "time": "7 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=MI",
-    "source": "gdtb",
-    "attractions": [
-      "Manitou Truckin' Company"
     ]
   },
   {
@@ -8205,42 +8187,6 @@
     "source": "gdtb",
     "attractions": [
       "Melvin Seals and JGB"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-grateful-tuesday-2026-09-01-orange-lantern",
-    "name": "Grateful Tuesday — Orange Lantern",
-    "band": "Grateful Tuesday",
-    "bandSlug": "grateful-tuesday",
-    "venue": "Orange Lantern",
-    "city": "Paramus",
-    "state": "NJ",
-    "lat": 40.9452911,
-    "lng": -74.0735899,
-    "date": "2026-09-01",
-    "time": "8 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Grateful Tuesday"
-    ]
-  },
-  {
-    "id": "gdtb-NJ-trouble-junction-2026-09-01-orange-lantern",
-    "name": "Trouble Junction — Orange Lantern",
-    "band": "Trouble Junction",
-    "bandSlug": "trouble-junction",
-    "venue": "Orange Lantern",
-    "city": "Paramus",
-    "state": "NJ",
-    "lat": 40.9452911,
-    "lng": -74.0735899,
-    "date": "2026-09-01",
-    "time": "8 PM",
-    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NJ",
-    "source": "gdtb",
-    "attractions": [
-      "Trouble Junction"
     ]
   },
   {
@@ -9504,6 +9450,24 @@
     ]
   },
   {
+    "id": "gdtb-NY-dead-friends-2026-09-05-free-show",
+    "name": "Dead & Friends — FREE SHOW",
+    "band": "Dead & Friends",
+    "bandSlug": "dead-friends",
+    "venue": "FREE SHOW",
+    "city": "Tully",
+    "state": "NY",
+    "lat": 42.798123,
+    "lng": -76.1093696,
+    "date": "2026-09-05",
+    "time": "6pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Dead & Friends"
+    ]
+  },
+  {
     "id": "gdtb-NY-dead-alliance-buffalo-2026-09-05-becker-farms",
     "name": "Dead Alliance Buffalo — Becker Farms",
     "band": "Dead Alliance Buffalo",
@@ -9573,6 +9537,24 @@
     "source": "gdtb",
     "attractions": [
       "Uncle Shoehorn"
+    ]
+  },
+  {
+    "id": "gdtb-NY-dead-friends-2026-09-06-free-show",
+    "name": "Dead & Friends — FREE SHOW",
+    "band": "Dead & Friends",
+    "bandSlug": "dead-friends",
+    "venue": "FREE SHOW",
+    "city": "Utica",
+    "state": "NY",
+    "lat": 43.1009031,
+    "lng": -75.2326641,
+    "date": "2026-09-06",
+    "time": "2pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Dead & Friends"
     ]
   },
   {
@@ -10257,6 +10239,24 @@
     "source": "gdtb",
     "attractions": [
       "Half Step LI"
+    ]
+  },
+  {
+    "id": "gdtb-NY-dead-friends-2026-09-28-funk-and-waffles",
+    "name": "Dead & Friends — Funk and Waffles",
+    "band": "Dead & Friends",
+    "bandSlug": "dead-friends",
+    "venue": "Funk and Waffles",
+    "city": "Syracuse",
+    "state": "NY",
+    "lat": 43.0481221,
+    "lng": -76.1474244,
+    "date": "2026-09-28",
+    "time": "7pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=NY",
+    "source": "gdtb",
+    "attractions": [
+      "Dead & Friends"
     ]
   },
   {
@@ -14292,6 +14292,24 @@
     ]
   },
   {
+    "id": "gdtb-SC-catfish-john-2026-10-04-819-n-kings-hwy",
+    "name": "Catfish John — 819 N Kings Hwy",
+    "band": "Catfish John",
+    "bandSlug": "catfish-john",
+    "venue": "819 N Kings Hwy",
+    "city": "Myrtle Beach",
+    "state": "SC",
+    "lat": 33.6956461,
+    "lng": -78.8900409,
+    "date": "2026-10-04",
+    "time": "2pm till 5pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=SC",
+    "source": "gdtb",
+    "attractions": [
+      "Catfish John"
+    ]
+  },
+  {
     "id": "gdtb-SC-steely-dead-2026-10-06-charleston-pour-house",
     "name": "Steely Dead — Charleston Pour House",
     "band": "Steely Dead",
@@ -14361,6 +14379,24 @@
     "source": "gdtb",
     "attractions": [
       "The Grateful Brothers"
+    ]
+  },
+  {
+    "id": "gdtb-SC-catfish-john-2026-11-28-10880-ocean-hwy",
+    "name": "Catfish John — 10880 Ocean Hwy",
+    "band": "Catfish John",
+    "bandSlug": "catfish-john",
+    "venue": "10880 Ocean Hwy",
+    "city": "Pawleys Island",
+    "state": "SC",
+    "lat": 33.4293486,
+    "lng": -79.1215912,
+    "date": "2026-11-28",
+    "time": "11am till 2pm",
+    "url": "http://www.gratefuldeadtributebands.com/showBandData.php?state=SC",
+    "source": "gdtb",
+    "attractions": [
+      "Catfish John"
     ]
   },
   {

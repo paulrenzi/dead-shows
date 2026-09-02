@@ -324,12 +324,6 @@
     "state": "DE"
   },
   {
-    "slug": "crazy-fingers",
-    "name": "Crazy Fingers",
-    "source": "gratefuldeadtributebands.com",
-    "state": "FL"
-  },
-  {
     "slug": "mondo-tikis",
     "name": "Mondo Tikis",
     "source": "gratefuldeadtributebands.com",
@@ -600,12 +594,6 @@
     "state": "MD"
   },
   {
-    "slug": "dead-ahead-ma",
-    "name": "Dead Ahead MA",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MA"
-  },
-  {
     "slug": "ramble-on-rose-band",
     "name": "Ramble On Rose Band",
     "source": "gratefuldeadtributebands.com",
@@ -636,6 +624,12 @@
     "state": "MA"
   },
   {
+    "slug": "august-west-co",
+    "name": "August West & Co.",
+    "source": "gratefuldeadtributebands.com",
+    "state": "MA"
+  },
+  {
     "slug": "quabog-river-blues-band",
     "name": "Quabog River Blues Band",
     "source": "gratefuldeadtributebands.com",
@@ -656,6 +650,12 @@
   {
     "slug": "legends-of-mary",
     "name": "Legends Of Mary",
+    "source": "gratefuldeadtributebands.com",
+    "state": "MA"
+  },
+  {
+    "slug": "promised-land",
+    "name": "Promised Land",
     "source": "gratefuldeadtributebands.com",
     "state": "MA"
   },
@@ -828,18 +828,6 @@
     "state": "NH"
   },
   {
-    "slug": "grateful-tuesday",
-    "name": "Grateful Tuesday",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "trouble-junction",
-    "name": "Trouble Junction",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "the-brian-st-john-band",
     "name": "The Brian St John Band",
     "source": "gratefuldeadtributebands.com",
@@ -966,6 +954,12 @@
     "state": "NY"
   },
   {
+    "slug": "dead-friends",
+    "name": "Dead & Friends",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
     "slug": "dead-alliance-buffalo",
     "name": "Dead Alliance Buffalo",
     "source": "gratefuldeadtributebands.com",
@@ -1046,12 +1040,6 @@
   {
     "slug": "sages-and-spirits",
     "name": "Sages And Spirits",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
-  },
-  {
-    "slug": "dead-friends",
-    "name": "Dead & Friends",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
