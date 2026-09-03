@@ -42,12 +42,6 @@
     "state": "AR"
   },
   {
-    "slug": "scott-guberman",
-    "name": "Scott Guberman",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
     "slug": "scarlett-fyre",
     "name": "Scarlett Fyre",
     "source": "gratefuldeadtributebands.com",
@@ -56,6 +50,12 @@
   {
     "slug": "wall-of-sound",
     "name": "Wall Of Sound",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
+    "slug": "scott-guberman",
+    "name": "Scott Guberman",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
   },
@@ -180,12 +180,6 @@
     "state": "CA"
   },
   {
-    "slug": "tumbledown-shack",
-    "name": "Tumbledown Shack",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CO"
-  },
-  {
     "slug": "chinaflower-suncats",
     "name": "Chinaflower Suncats",
     "source": "gratefuldeadtributebands.com",
@@ -218,6 +212,12 @@
   {
     "slug": "shakedown-street",
     "name": "Shakedown Street",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CO"
+  },
+  {
+    "slug": "tumbledown-shack",
+    "name": "Tumbledown Shack",
     "source": "gratefuldeadtributebands.com",
     "state": "CO"
   },
@@ -828,12 +828,6 @@
     "state": "NH"
   },
   {
-    "slug": "the-brian-st-john-band",
-    "name": "The Brian St John Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "baked-alaska",
     "name": "Baked Alaska",
     "source": "gratefuldeadtributebands.com",
@@ -902,6 +896,18 @@
   {
     "slug": "diomede-and-donovan",
     "name": "Diomede And Donovan",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "the-brian-st-john-band",
+    "name": "The Brian St John Band",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "diamond-eye-jack",
+    "name": "Diamond Eye Jack",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -1278,12 +1284,6 @@
     "state": "RI"
   },
   {
-    "slug": "the-grateful-brothers",
-    "name": "The Grateful Brothers",
-    "source": "gratefuldeadtributebands.com",
-    "state": "SC"
-  },
-  {
     "slug": "direwoof",
     "name": "DireWoof",
     "source": "gratefuldeadtributebands.com",
@@ -1292,6 +1292,12 @@
   {
     "slug": "catfish-john",
     "name": "Catfish John",
+    "source": "gratefuldeadtributebands.com",
+    "state": "SC"
+  },
+  {
+    "slug": "the-grateful-brothers",
+    "name": "The Grateful Brothers",
     "source": "gratefuldeadtributebands.com",
     "state": "SC"
   },
