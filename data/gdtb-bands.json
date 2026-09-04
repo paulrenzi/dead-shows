@@ -42,32 +42,20 @@
     "state": "AR"
   },
   {
-    "slug": "scarlett-fyre",
-    "name": "Scarlett Fyre",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
-    "slug": "wall-of-sound",
-    "name": "Wall Of Sound",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CA"
-  },
-  {
     "slug": "scott-guberman",
     "name": "Scott Guberman",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
   },
   {
-    "slug": "playing-the-dead",
-    "name": "Playing The Dead",
+    "slug": "one-man-gone",
+    "name": "One Man Gone",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
   },
   {
-    "slug": "one-man-gone",
-    "name": "One Man Gone",
+    "slug": "playing-the-dead",
+    "name": "Playing The Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
   },
@@ -120,6 +108,12 @@
     "state": "CA"
   },
   {
+    "slug": "scarlett-fyre",
+    "name": "Scarlett Fyre",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
     "slug": "shred-is-dead",
     "name": "Shred Is Dead",
     "source": "gratefuldeadtributebands.com",
@@ -128,6 +122,12 @@
   {
     "slug": "deadbolt",
     "name": "Deadbolt",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
+    "slug": "dark-hollow-ca",
+    "name": "Dark Hollow CA",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
   },
@@ -178,12 +178,6 @@
     "name": "Shakedown Citi",
     "source": "gratefuldeadtributebands.com",
     "state": "CA"
-  },
-  {
-    "slug": "chinaflower-suncats",
-    "name": "Chinaflower Suncats",
-    "source": "gratefuldeadtributebands.com",
-    "state": "CO"
   },
   {
     "slug": "easy-jim",
@@ -372,6 +366,12 @@
     "state": "FL"
   },
   {
+    "slug": "crazy-fingers",
+    "name": "Crazy Fingers",
+    "source": "gratefuldeadtributebands.com",
+    "state": "FL"
+  },
+  {
     "slug": "dead-all-over",
     "name": "Dead All Over",
     "source": "gratefuldeadtributebands.com",
@@ -516,12 +516,6 @@
     "state": "KS"
   },
   {
-    "slug": "louisville-merry-pranksters",
-    "name": "Louisville Merry Pranksters",
-    "source": "gratefuldeadtributebands.com",
-    "state": "KY"
-  },
-  {
     "slug": "born-cross-eyed-ky",
     "name": "Born Cross Eyed-KY",
     "source": "gratefuldeadtributebands.com",
@@ -592,12 +586,6 @@
     "name": "New Potato Caboose",
     "source": "gratefuldeadtributebands.com",
     "state": "MD"
-  },
-  {
-    "slug": "ramble-on-rose-band",
-    "name": "Ramble On Rose Band",
-    "source": "gratefuldeadtributebands.com",
-    "state": "MA"
   },
   {
     "slug": "lobsterz-from-marz",
@@ -828,30 +816,6 @@
     "state": "NH"
   },
   {
-    "slug": "baked-alaska",
-    "name": "Baked Alaska",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "crickets-and-cicadas",
-    "name": "Crickets and Cicadas",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "rainbow-full-of-sound",
-    "name": "Rainbow Full Of Sound",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
-    "slug": "workingman-s-jed",
-    "name": "Workingman's Jed",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NJ"
-  },
-  {
     "slug": "scarlet-magnolia",
     "name": "Scarlet Magnolia",
     "source": "gratefuldeadtributebands.com",
@@ -876,6 +840,12 @@
     "state": "NJ"
   },
   {
+    "slug": "baked-alaska",
+    "name": "Baked Alaska",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
     "slug": "dead-to-the-core-ny",
     "name": "Dead To The Core-NY",
     "source": "gratefuldeadtributebands.com",
@@ -890,6 +860,12 @@
   {
     "slug": "this-old-engine",
     "name": "This Old Engine",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
+    "slug": "workingman-s-jed",
+    "name": "Workingman's Jed",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
   },
@@ -942,6 +918,12 @@
     "state": "NJ"
   },
   {
+    "slug": "crickets-and-cicadas",
+    "name": "Crickets and Cicadas",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NJ"
+  },
+  {
     "slug": "mark-diomede-and-friends",
     "name": "Mark Diomede and Friends",
     "source": "gratefuldeadtributebands.com",
@@ -952,12 +934,6 @@
     "name": "Northbound Train - NJ",
     "source": "gratefuldeadtributebands.com",
     "state": "NJ"
-  },
-  {
-    "slug": "tiger-rose",
-    "name": "Tiger Rose",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NY"
   },
   {
     "slug": "dead-friends",
@@ -1008,6 +984,12 @@
     "state": "NY"
   },
   {
+    "slug": "tiger-rose",
+    "name": "Tiger Rose",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
     "slug": "half-past-dead",
     "name": "Half Past Dead",
     "source": "gratefuldeadtributebands.com",
@@ -1034,6 +1016,12 @@
   {
     "slug": "the-wheel",
     "name": "The Wheel",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NY"
+  },
+  {
+    "slug": "dead-on-the-hudson",
+    "name": "Dead On the Hudson",
     "source": "gratefuldeadtributebands.com",
     "state": "NY"
   },
@@ -1068,12 +1056,6 @@
     "state": "NY"
   },
   {
-    "slug": "jerry-s-dead",
-    "name": "Jerry's Dead",
-    "source": "gratefuldeadtributebands.com",
-    "state": "NC"
-  },
-  {
     "slug": "dirty-dead",
     "name": "Dirty Dead",
     "source": "gratefuldeadtributebands.com",
@@ -1106,6 +1088,12 @@
   {
     "slug": "grass-is-dead",
     "name": "Grass Is Dead",
+    "source": "gratefuldeadtributebands.com",
+    "state": "NC"
+  },
+  {
+    "slug": "jerry-s-dead",
+    "name": "Jerry's Dead",
     "source": "gratefuldeadtributebands.com",
     "state": "NC"
   },
@@ -1274,6 +1262,12 @@
   {
     "slug": "violin-river",
     "name": "Violin River",
+    "source": "gratefuldeadtributebands.com",
+    "state": "RI"
+  },
+  {
+    "slug": "ramble-on-rose-band",
+    "name": "Ramble On Rose Band",
     "source": "gratefuldeadtributebands.com",
     "state": "RI"
   },
