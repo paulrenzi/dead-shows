@@ -1,8 +1,13 @@
 """
 Scrape gratefuldeadtributebands.com for Dead-tribute show data across all 50 states.
 
+The site publishes TWO per-state feeds and we read both:
+  showBandData.php    — band-submitted listings
+  showJambaseData.php — JamBase-sourced listings, carrying club gigs the
+                         band-submitted table misses
+
 Outputs:
-  data/gdtb-events.json — array of {id, band, bandSlug, date, time, venue, city, state, lat, lng, url, source}
+  data/gdtb-events.json — array of {id, band, bandSlug, date, time, venue, city, state, lat, lng, url, source, feed}
   data/gdtb-bands.json  — array of {slug, name, source, state} for bands not in artists.json
   data/geocode-cache.json — city,state → {lat, lng} cache (kept across runs, do NOT delete)
 
@@ -37,6 +42,18 @@ STATES = [
 ]
 
 UA = "dead-shows scraper (paulmichaelrenzi@gmail.com)"
+
+# Both per-state feeds. `source` stays "gdtb" for either one so app.js and
+# band.js need no change; `feed` records which page a show came from.
+#
+# NOTE: the jambase feed's column order is assumed to match the band feed and
+# has not been verified against a live page. The "0 parseable rows" warning
+# below is what makes a shape mismatch loud instead of silent — check the first
+# run's output before trusting feed="jambase" rows.
+FEEDS = [
+    ("bands", "http://www.gratefuldeadtributebands.com/showBandData.php?state={st}"),
+    ("jambase", "http://www.gratefuldeadtributebands.com/showJambaseData.php?state={st}"),
+]
 
 
 def fetch(url, timeout=30):
@@ -190,53 +207,74 @@ def main():
     today = date.today()
     all_shows = []
     discovered_bands = {}
+    seen_ids = set()
+    fetch_failures = 0
 
     for st in STATES:
-        url = f"http://www.gratefuldeadtributebands.com/showBandData.php?state={st}"
-        try:
-            html = fetch(url)
-        except Exception as e:
-            print(f"FETCH FAIL {st}: {e}", file=sys.stderr)
-            continue
-        count = 0
-        for band, date_str, desc, city in parse_state_page(html, st):
-            iso, t = parse_date_time(date_str, today)
-            if not iso:
+        st_count = 0
+        for feed, tmpl in FEEDS:
+            url = tmpl.format(st=st)
+            try:
+                html = fetch(url)
+            except Exception as e:
+                fetch_failures += 1
+                print(f"FETCH FAIL {st} [{feed}]: {e}", file=sys.stderr)
                 continue
-            venue = extract_venue(desc, city)
-            geo = geocode_city(city, st, geocache)
-            if not geo:
-                continue
-            slug = curated_by_lower_name.get(band.lower()) or slugify(band)
-            if slug not in curated_slugs:
-                discovered_bands.setdefault(slug, {
-                    "slug": slug,
-                    "name": band,
-                    "source": "gratefuldeadtributebands.com",
+            rows = 0
+            for band, date_str, desc, city in parse_state_page(html, st):
+                rows += 1
+                iso, t = parse_date_time(date_str, today)
+                if not iso:
+                    continue
+                venue = extract_venue(desc, city)
+                geo = geocode_city(city, st, geocache)
+                if not geo:
+                    continue
+                slug = curated_by_lower_name.get(band.lower()) or slugify(band)
+                if slug not in curated_slugs:
+                    discovered_bands.setdefault(slug, {
+                        "slug": slug,
+                        "name": band,
+                        "source": "gratefuldeadtributebands.com",
+                        "state": st,
+                    })
+                show_id = f"gdtb-{st}-{slug}-{iso}-{slugify(venue)[:30]}"
+                # The two feeds overlap; whichever reports a show first wins.
+                if show_id in seen_ids:
+                    continue
+                seen_ids.add(show_id)
+                all_shows.append({
+                    "id": show_id,
+                    "name": band + (f" — {venue}" if venue else ""),
+                    "band": band,
+                    "bandSlug": slug,
+                    "venue": venue,
+                    "city": city,
                     "state": st,
+                    "lat": geo["lat"],
+                    "lng": geo["lng"],
+                    "date": iso,
+                    "time": t,
+                    "url": url,
+                    "source": "gdtb",
+                    "feed": feed,
+                    "attractions": [band],
                 })
-            show_id = f"gdtb-{st}-{slug}-{iso}-{slugify(venue)[:30]}"
-            all_shows.append({
-                "id": show_id,
-                "name": band + (f" — {venue}" if venue else ""),
-                "band": band,
-                "bandSlug": slug,
-                "venue": venue,
-                "city": city,
-                "state": st,
-                "lat": geo["lat"],
-                "lng": geo["lng"],
-                "date": iso,
-                "time": t,
-                "url": url,
-                "source": "gdtb",
-                "attractions": [band],
-            })
-            count += 1
-        # Save cache progressively so a crash doesn't lose geocodes
-        save_json(cache_path, geocache)
-        print(f"  {st}: {count} shows")
-        time.sleep(1)  # polite to gratefuldeadtributebands.com
+                st_count += 1
+            if rows == 0:
+                print(f"  {st} [{feed}]: 0 parseable rows", file=sys.stderr)
+            # Save cache progressively so a crash doesn't lose geocodes
+            save_json(cache_path, geocache)
+            time.sleep(1)  # polite to gratefuldeadtributebands.com
+        print(f"  {st}: {st_count} shows")
+
+    # 100 fetches total (50 states x 2 feeds). Losing half means the site or the
+    # network is the problem, not the data — don't overwrite good data with a
+    # partial scrape. check_coverage.py catches the subtler collapses.
+    if fetch_failures > len(STATES):
+        print(f"\nFATAL: {fetch_failures} feed fetches failed; refusing to write.",
+              file=sys.stderr)
+        sys.exit(1)
 
     save_json(DATA / "gdtb-events.json", all_shows)
     save_json(DATA / "gdtb-bands.json", list(discovered_bands.values()))
