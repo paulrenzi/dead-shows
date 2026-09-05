@@ -438,7 +438,7 @@ function happyHourNote(ev) {
   const win = (hhf.deals || []).find(d => d.dow === dow);
   const label = win
     ? `Happy hour ${clockLabel(win.start)}–${clockLabel(win.end)}`
-    : "Happy hour info";
+    : "See happy hour";
   return `<p class="card-hh"><a class="hh-link" href="${escapeHtml(hhf.url)}" target="_blank" rel="noreferrer">${escapeHtml(label)}</a></p>`;
 }
 
