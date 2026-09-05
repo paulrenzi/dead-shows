@@ -1,0 +1,30 @@
+{
+  "_comment": "Known-true facts about our own back yard. If the pipeline stops finding these, coverage has silently collapsed and the daily Action must fail loudly instead of committing a thinner file. Keep these BROAD (a band, a region) -- never a single dated show, which legitimately ages out.",
+  "horizonDays": 120,
+  "canaries": [
+    {
+      "id": "philly-metro-density",
+      "why": "PA/NJ/DE is the densest Dead-tribute market in the country and is the app's default center. A run that finds almost nothing here is broken, not accurate.",
+      "minShows": 8,
+      "match": { "states": ["PA", "NJ", "DE"] }
+    },
+    {
+      "id": "pa-any",
+      "why": "PA specifically. Guards against a per-state fetch or parse failure that zeroes one state while the national total still looks healthy.",
+      "minShows": 4,
+      "match": { "states": ["PA"] }
+    },
+    {
+      "id": "splintered-sunlight",
+      "why": "The Delaware Valley house band; gigs most weeks within 30mi of King of Prussia. Zero upcoming Splintered Sunlight shows means the band-name path is broken.",
+      "minShows": 1,
+      "match": { "bandContains": ["splintered sunlight"] }
+    },
+    {
+      "id": "national-floor",
+      "why": "Whole-run smoke test. Catches the case where gratefuldeadtributebands.com is down or has changed markup and every state parses to nothing.",
+      "minShows": 250,
+      "match": {}
+    }
+  ]
+}

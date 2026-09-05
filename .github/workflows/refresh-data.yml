@@ -34,6 +34,11 @@ jobs:
         run: python scripts/scrape_gdtb.py
         timeout-minutes: 45
 
+      # Must run BEFORE the commit step: a collapsed scrape then leaves the last
+      # good data in place instead of overwriting it behind a green check mark.
+      - name: Check coverage
+        run: python scripts/check_coverage.py
+
       - name: Fetch new band photos (incremental)
         run: python scripts/fetch_band_photos.py
         timeout-minutes: 15
