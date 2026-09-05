@@ -2,7 +2,7 @@
   "built_at": "2026-09-05",
   "matched": 18,
   "links": {
-    "gdtb-DE-kgb-karl-s-garcia-band-2026-09-25-1701-delaware-ave-wilmington-d": {
+    "gdtb-DE-kgb-karl-s-garcia-band-2026-09-25-1701-delaware-ave": {
       "lid": "DE8ead3c7682",
       "name": "Kelly's Logan House",
       "zone": "wilmington",
@@ -20,7 +20,7 @@
       "deals": [],
       "match": "name"
     },
-    "gdtb-DE-deadband-2026-11-22-618-plaza-dr-newark-de-united-": {
+    "gdtb-DE-deadband-2026-11-22-618-plaza-dr": {
       "lid": "DE2b6cbe5eab",
       "name": "Halftime Sports and Music",
       "zone": "newark_de",
@@ -65,7 +65,7 @@
       "deals": [],
       "match": "address"
     },
-    "gdtb-PA-be5d-2026-09-19-66-n-main-st-spring-city-pa-un": {
+    "gdtb-PA-be5d-2026-09-19-66-n-main-st": {
       "lid": "112263",
       "name": "The Gem - Spring City Speakeasy",
       "zone": "phoenixville",
@@ -101,7 +101,7 @@
       "deals": [],
       "match": "address"
     },
-    "gdtb-PA-kgb-karl-s-garcia-band-2026-10-09-208-210-west-state-stmedia1906": {
+    "gdtb-PA-kgb-karl-s-garcia-band-2026-10-09-208-210-west-state-st": {
       "lid": "61211",
       "name": "Shere-E-Punjab",
       "zone": "media",
@@ -110,7 +110,7 @@
       "deals": [],
       "match": "address"
     },
-    "gdtb-PA-box-of-rain-2026-10-10-3025-walnut-st-philadelphia-pa": {
+    "gdtb-PA-box-of-rain-2026-10-10-3025-walnut-st": {
       "lid": "52424",
       "name": "World Cafe Live",
       "zone": "university_city",
@@ -119,7 +119,7 @@
       "deals": [],
       "match": "address"
     },
-    "gdtb-PA-splintered-sunlight-2026-10-10-23-east-lancaster-avenue-ardmo": {
+    "gdtb-PA-splintered-sunlight-2026-10-10-23-east-lancaster-avenue": {
       "lid": "95965",
       "name": "Ardmore Music Hall",
       "zone": "ardmore_bryn_mawr",
@@ -128,7 +128,7 @@
       "deals": [],
       "match": "address"
     },
-    "gdtb-PA-jerrys-middle-finger-2026-10-15-23-east-lancaster-avenue-ardmo": {
+    "gdtb-PA-jerrys-middle-finger-2026-10-15-23-east-lancaster-avenue": {
       "lid": "95965",
       "name": "Ardmore Music Hall",
       "zone": "ardmore_bryn_mawr",
@@ -137,7 +137,7 @@
       "deals": [],
       "match": "address"
     },
-    "gdtb-PA-steal-your-peach-2026-10-29-23-east-lancaster-avenue-ardmo": {
+    "gdtb-PA-steal-your-peach-2026-10-29-23-east-lancaster-avenue": {
       "lid": "95965",
       "name": "Ardmore Music Hall",
       "zone": "ardmore_bryn_mawr",
@@ -146,7 +146,7 @@
       "deals": [],
       "match": "address"
     },
-    "gdtb-PA-zendog-2026-11-19-118-north-wayne-avenue-wayne-p": {
+    "gdtb-PA-zendog-2026-11-19-118-north-wayne-avenue": {
       "lid": "66143",
       "name": "Jdm Wayne",
       "zone": "wayne_radnor",
@@ -155,7 +155,7 @@
       "deals": [],
       "match": "address"
     },
-    "gdtb-PA-dread-the-dead-2026-11-22-208-210-west-state-stmedia1906": {
+    "gdtb-PA-dread-the-dead-2026-11-22-208-210-west-state-st": {
       "lid": "61211",
       "name": "Shere-E-Punjab",
       "zone": "media",

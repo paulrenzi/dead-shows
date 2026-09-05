@@ -7478,5 +7478,484 @@
     "lat": 47.258048,
     "lng": -122.440909
   },
-  "addr|25 johnny counts road|jackson, wy": null
+  "addr|25 johnny counts road|jackson, wy": null,
+  "7037 cass oark rd|ozark, ar": {
+    "lat": 35.6779873,
+    "lng": -93.7420583
+  },
+  "1522 francisco blvd|pacifica, ca": {
+    "lat": 37.6366501,
+    "lng": -122.4905196
+  },
+  "1849 brewing co|grass valley, ca": null,
+  "3600 norbridge ave|castro valley, ca": {
+    "lat": 37.6930213,
+    "lng": -122.0711017
+  },
+  "949 el camino real|menlo park, ca": {
+    "lat": 37.4524077,
+    "lng": -122.1812792
+  },
+  "114 n san joaquin st|stockton, ca": {
+    "lat": 37.9545159,
+    "lng": -121.2873159
+  },
+  "2209 broadway|redwood city, ca": {
+    "lat": 37.486354,
+    "lng": -122.2294965
+  },
+  "mission west 2405 mission st|santa cruz, ca": null,
+  "4780 mission gorge pl|san diego, ca": {
+    "lat": 32.7818596,
+    "lng": -117.0918626
+  },
+  "2708 j street|sacramento, ca": {
+    "lat": 38.5738508,
+    "lng": -121.4701361
+  },
+  "39126 highway 133|hotchkiss, co": null,
+  "450 s galena st|aspen, co": {
+    "lat": 39.1874309,
+    "lng": -106.8189628
+  },
+  "aerostat park 5750 w central ave westminster co|westminster, co": null,
+  "142 s raven mine dr|colorado springs, co": {
+    "lat": 38.8304856,
+    "lng": -104.8528374
+  },
+  "604 clinton st|ridgway, co": {
+    "lat": 38.1522983,
+    "lng": -107.757837
+  },
+  "1 ladder hill road south|weston, ct": {
+    "lat": 41.236242,
+    "lng": -73.383905
+  },
+  "65 sugar hollow rd|danbury, ct": {
+    "lat": 41.3377105,
+    "lng": -73.4705227
+  },
+  "wilmington|wilmington, de": {
+    "lat": 39.7367534,
+    "lng": -75.5511036
+  },
+  "1701 delaware ave|wilmington, de": {
+    "lat": 39.7582874,
+    "lng": -75.5623884
+  },
+  "618 plaza dr|newark, de": null,
+  "8341 lockwood ridge rd|sarasota, fl": {
+    "lat": 27.3533313,
+    "lng": -82.5056851
+  },
+  "the funky biscuit, boca raton, fl|boca raton, fl": {
+    "lat": 26.3466476,
+    "lng": -80.0846228
+  },
+  "crazy uncle mikes, boca raton, fl|boca raton, fl": null,
+  "the bungalow, boynton beach|boynton beach, fl": null,
+  "vote for pedro, boca raton|boca raton, fl": null,
+  "billy jack's shack , lauderdale by the sea, fl|lauderdale by the sea, fl": {
+    "lat": 26.1895958,
+    "lng": -80.0979053
+  },
+  "nomads canteen|melbourne, fl": null,
+  "501 a1a beach blvd|st. augustine beach, fl": {
+    "lat": 29.851564,
+    "lng": -81.267419
+  },
+  "5-2723 kuhio hwy|kilauea, hi": {
+    "lat": 22.2109114,
+    "lng": -159.4159841
+  },
+  "155 s randall rd|elgin, il": {
+    "lat": 42.0282029,
+    "lng": -88.3368422
+  },
+  "28 mile distilling co|highwood, il": null,
+  "500 n macarthur blvd|springfield, il": {
+    "lat": 39.806065,
+    "lng": -89.668175
+  },
+  "1015 state street|lemont, il": {
+    "lat": 41.6623159,
+    "lng": -87.9994371
+  },
+  "5565 north keystone avenue|indianapolis, in": {
+    "lat": 39.8544436,
+    "lng": -86.1215627
+  },
+  "1522 e 49th ave|gary, in": {
+    "lat": 41.5294101,
+    "lng": -87.3181113
+  },
+  "975 north waynes lane|bloomington, in": null,
+  "208 wabash st|michigan city, in": {
+    "lat": 41.7193131,
+    "lng": -86.9062197
+  },
+  "byron's in pomeroy|pomeroy, ia": null,
+  "11113 johnson dr|shawnee, ks": {
+    "lat": 39.0226905,
+    "lng": -94.7152033
+  },
+  "state theatre portland|portland, me": {
+    "lat": 43.6539661,
+    "lng": -70.2636208
+  },
+  "53 old post road|arundel, me": {
+    "lat": 43.4054077,
+    "lng": -70.5205452
+  },
+  "58 alder st|portland, me": {
+    "lat": 43.6597734,
+    "lng": -70.2639594
+  },
+  "10221 wincopin circle|columbia, md": {
+    "lat": 39.2155265,
+    "lng": -76.8560656
+  },
+  "12250 clarksville pike|clarksville, md": {
+    "lat": 39.2112732,
+    "lng": -76.9389887
+  },
+  "2592 shuresville road|darlington, md": {
+    "lat": 39.6509631,
+    "lng": -76.17766
+  },
+  "10 e cross st|baltimore, md": {
+    "lat": 39.2770313,
+    "lng": -76.6138622
+  },
+  "50 saint kolbe dr|holyoke, ma": {
+    "lat": 42.2121789,
+    "lng": -72.6076384
+  },
+  "26 millbury st|worcester, ma": {
+    "lat": 42.2542464,
+    "lng": -71.798253
+  },
+  "1667 massachusetts ave|cambridge, ma": {
+    "lat": 42.3821356,
+    "lng": -71.1194853
+  },
+  "newburyport brewing co|newburyport, ma": {
+    "lat": 42.8045315,
+    "lng": -70.8866523
+  },
+  "boston common 139 tremont st boston ma|boston, ma": {
+    "lat": 42.3542405,
+    "lng": -71.0619504
+  },
+  "13 lake ave|mashpee, ma": {
+    "lat": 41.6500461,
+    "lng": -70.4840968
+  },
+  "21north|medfield, ma": null,
+  "massachusetts|pittsfield, ma": {
+    "lat": 42.4437143,
+    "lng": -73.2435294
+  },
+  "98 southwick rd|westfield, ma": {
+    "lat": 42.1070645,
+    "lng": -72.7641292
+  },
+  "21 north st|medfield, ma": {
+    "lat": 42.1873046,
+    "lng": -71.3057769
+  },
+  "215 great road|shirley, ma": {
+    "lat": 42.5843665,
+    "lng": -71.6464252
+  },
+  "806 red drive #100|traverse city, mi": {
+    "lat": 44.7564928,
+    "lng": -85.6450969
+  },
+  "107 generations dr|three oaks, mi": null,
+  "5781 st. joseph ave|stevensville, mi": {
+    "lat": 42.0132042,
+    "lng": -86.5196868
+  },
+  "510 north main|chelsea, mi": {
+    "lat": 42.321842,
+    "lng": -84.0204571
+  },
+  "4300 cadieux rd|detroit, mi": {
+    "lat": 42.4015943,
+    "lng": -82.926502
+  },
+  "736 s broadway|st. louis, mo": {
+    "lat": 38.6188173,
+    "lng": -90.1923547
+  },
+  "8180 big bend blvd|webster groves, mo": {
+    "lat": 38.5913185,
+    "lng": -90.3392828
+  },
+  "14 state route 28|crystal bay, nv": null,
+  "5 granite st|newmarket, nh": {
+    "lat": 43.0788514,
+    "lng": -70.9380956
+  },
+  "201 main street|nashua, nh": {
+    "lat": 42.7599174,
+    "lng": -71.4652992
+  },
+  "231 creamery pond road chester ny united states new york|chester, nj": null,
+  "1 piermont rd|tenafly, nj": {
+    "lat": 40.9249157,
+    "lng": -73.9645369
+  },
+  "68 phillips road|newton, nj": null,
+  "270 pascack rd|washington township, nj": {
+    "lat": 41.0086883,
+    "lng": -74.0549877
+  },
+  "101 walnut street|montclair, nj": {
+    "lat": 40.816943,
+    "lng": -74.211274
+  },
+  "245 4th street|gloucester city, nj": {
+    "lat": 39.8947263,
+    "lng": -75.1254507
+  },
+  "haddonfield|haddonfield, nj": {
+    "lat": 39.8973845,
+    "lng": -75.0368309
+  },
+  "102 farnsworth ave|bordentown, nj": {
+    "lat": 40.1486031,
+    "lng": -74.7137583
+  },
+  "231 creamery pond road|chester, ny": {
+    "lat": 41.318512,
+    "lng": -74.2926984
+  },
+  "sunny atlantic beach club, atlantic beach, ny|atlantic beach, ny": {
+    "lat": 40.5870231,
+    "lng": -73.737949
+  },
+  "lander's campground 210 bridge st. narrowsburg ny|narrowsburg, ny": null,
+  "149 westchester ave|port chester, ny": {
+    "lat": 41.0016815,
+    "lng": -73.6650454
+  },
+  "the warehouse, amityville, ny|amityville, ny": null,
+  "glenmere brewing co|florida, ny": null,
+  "72 s main st|homer, ny": {
+    "lat": 42.6341558,
+    "lng": -76.179499
+  },
+  "49 illinois st|buffalo, ny": {
+    "lat": 42.8745252,
+    "lng": -78.8747385
+  },
+  "299 washington st|newburgh, ny": {
+    "lat": 41.498985,
+    "lng": -74.0214
+  },
+  "the space at westbury theater, westbury, ny|westbury, ny": null,
+  "47 phila street|saratoga springs, ny": {
+    "lat": 43.0804582,
+    "lng": -73.7832804
+  },
+  "hill country barbecue market (|new york, ny": {
+    "lat": 40.7442736,
+    "lng": -73.9904326
+  },
+  "new york|syracuse, ny": {
+    "lat": 43.069217,
+    "lng": -76.1725064
+  },
+  "291 tinker st|woodstock, ny": {
+    "lat": 42.0397921,
+    "lng": -74.1541372
+  },
+  "the boulton center for the performing arts, bay shore, ny|bay shore, ny": null,
+  "158 n main st|mooresville, nc": {
+    "lat": 35.5833256,
+    "lng": -80.8119234
+  },
+  "1002 princess st|wilmington, nc": {
+    "lat": 34.2373616,
+    "lng": -77.9367077
+  },
+  "1313 s dickinson dr|leland, nc": {
+    "lat": 34.1997202,
+    "lng": -78.0456193
+  },
+  "520 haywood road|asheville, nc": {
+    "lat": 35.5783232,
+    "lng": -82.5846989
+  },
+  "1615 elizabeth ave|charlotte, nc": {
+    "lat": 35.2136047,
+    "lng": -80.8259955
+  },
+  "523 s elm st|greensboro, nc": {
+    "lat": 36.0665169,
+    "lng": -79.7905095
+  },
+  "1930 wake forest rd|raleigh, nc": {
+    "lat": 35.8065172,
+    "lng": -78.6238362
+  },
+  "772 trade street nw|winston-salem, nc": null,
+  "126 e cabarrus st|raleigh, nc": {
+    "lat": 35.7739803,
+    "lng": -78.6373537
+  },
+  "123 marion ave|mansfield, oh": {
+    "lat": 40.7574956,
+    "lng": -82.5273013
+  },
+  "3187 linwood avenue|cincinnati, oh": {
+    "lat": 39.1290864,
+    "lng": -84.4307187
+  },
+  "lost bridge beverage co|north bend, oh": null,
+  "3560 dorr st|toledo, oh": {
+    "lat": 41.6529018,
+    "lng": -83.6280697
+  },
+  "3301 madison rd|cincinnati, oh": {
+    "lat": 39.1563076,
+    "lng": -84.4237426
+  },
+  "knight stage 182 s main st akron oh|akron, oh": null,
+  "15711 waterloo rd|cleveland, oh": {
+    "lat": 41.5712802,
+    "lng": -81.5704543
+  },
+  "8th day brewing co|chagrin falls, oh": null,
+  "291 w 8th ave|eugene, or": {
+    "lat": 44.0511779,
+    "lng": -123.0970964
+  },
+  "410 e walnut st|perkasie, pa": {
+    "lat": 40.3649382,
+    "lng": -75.288328
+  },
+  "175 west valley forge road|king of prussia, pa": {
+    "lat": 40.1025533,
+    "lng": -75.3727779
+  },
+  "221 pa-118|benton, pa": null,
+  "rec room by conshohocken brewing co|phoenixville, pa": {
+    "lat": 40.1337613,
+    "lng": -75.5172951
+  },
+  "200 south front street|harrisburg, pa": {
+    "lat": 40.2497444,
+    "lng": -76.8714953
+  },
+  "50 n cameron st|harrisburg, pa": {
+    "lat": 40.2658608,
+    "lng": -76.875506
+  },
+  "4935 river road|new hope, pa": {
+    "lat": 40.3392033,
+    "lng": -74.9441337
+  },
+  "66 n main st|spring city, pa": {
+    "lat": 40.1790119,
+    "lng": -75.5469286
+  },
+  "208-210 west state st|media, pa": {
+    "lat": 39.9182118,
+    "lng": -75.3916979
+  },
+  "3025 walnut st|philadelphia, pa": {
+    "lat": 39.9521611,
+    "lng": -75.1851511
+  },
+  "23 east lancaster avenue|ardmore, pa": {
+    "lat": 40.0076173,
+    "lng": -75.2899624
+  },
+  "524 main st|stroudsburg, pa": {
+    "lat": 40.9866652,
+    "lng": -75.1913145
+  },
+  "801 s 10th st|harrisburg, pa": {
+    "lat": 40.2538315,
+    "lng": -76.8690745
+  },
+  "von c brewing co|norristown, pa": null,
+  "118 north wayne avenue|wayne, pa": {
+    "lat": 40.0444648,
+    "lng": -75.3879937
+  },
+  "24 w temple ave|sellersville, pa": {
+    "lat": 40.3592372,
+    "lng": -75.3114464
+  },
+  "270 broadway|providence, ri": {
+    "lat": 41.8201442,
+    "lng": -71.426254
+  },
+  "220 weybosset st|providence, ri": {
+    "lat": 41.8213941,
+    "lng": -71.4123979
+  },
+  "1501 long st|chattanooga, tn": {
+    "lat": 35.0363034,
+    "lng": -85.3086751
+  },
+  "1508 gallatin pike south nashville|madison, tn": null,
+  "2906 fruth st|austin, tx": {
+    "lat": 30.2953202,
+    "lng": -97.7420666
+  },
+  "3510 commerce st|dallas, tx": {
+    "lat": 32.7852312,
+    "lng": -96.7738127
+  },
+  "3524 greenville ave|dallas, tx": {
+    "lat": 32.8308737,
+    "lng": -96.7698162
+  },
+  "307 pearl parkway|san antonio, tx": {
+    "lat": 29.4424757,
+    "lng": -98.4799098
+  },
+  "1 lake street|burlington, vt": {
+    "lat": 44.475974,
+    "lng": -73.219446
+  },
+  "210 main st|brattleboro, vt": {
+    "lat": 42.8548841,
+    "lng": -72.5595568
+  },
+  "700 thimble shoals blvd|newport news, va": {
+    "lat": 37.0845471,
+    "lng": -76.4770317
+  },
+  "700 e main st|charlottesville, va": {
+    "lat": 38.0292216,
+    "lng": -78.4765881
+  },
+  "10221 wincopin circle|columbia, va": null,
+  "1603 ownby lane|richmond, va": {
+    "lat": 37.5621798,
+    "lng": -77.4582189
+  },
+  "81 patch rd|fort monroe, va": {
+    "lat": 37.008872,
+    "lng": -76.3047182
+  },
+  "1217 maple ave sw|roanoke, va": {
+    "lat": 37.2621439,
+    "lng": -79.9422799
+  },
+  "565 broadway|tacoma, wa": {
+    "lat": 47.258048,
+    "lng": -122.440909
+  },
+  "232 w maple st|river falls, wi": {
+    "lat": 44.8598964,
+    "lng": -92.6272858
+  },
+  "25 johnny counts road|jackson, wy": null
 }

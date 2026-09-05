@@ -936,5 +936,221 @@
     "city": "Tacoma",
     "state": "WA",
     "resolved": "2026-09-05"
+  },
+  "325 blair boulevard|eugene|OR": {
+    "name": "Slice Pizzeria and Bar",
+    "osm": "way/283864545",
+    "distance_m": 1,
+    "address": "325 Blair Blvd",
+    "city": "Eugene",
+    "state": "OR",
+    "resolved": "2026-09-05"
+  },
+  "303 southwest 12th avenue|portland|OR": {
+    "name": "Hal’s Café",
+    "osm": "node/4002991911",
+    "distance_m": 6,
+    "address": "303 SW 12th Ave",
+    "city": "Portland",
+    "state": "OR",
+    "resolved": "2026-09-05"
+  },
+  "8175 buena vista road|independence|OR": {
+    "name": "Redgate Vinyard",
+    "osm": "way/964163869",
+    "distance_m": 3,
+    "address": "8175 Buena Vista Rd",
+    "city": "Independence",
+    "state": "OR",
+    "resolved": "2026-09-05"
+  },
+  "291 west 8th avenue|eugene|OR": {
+    "name": "WOW Hall",
+    "osm": "way/412275271",
+    "distance_m": 0,
+    "address": "291 W 8th Ave",
+    "city": "Eugene",
+    "state": "OR",
+    "resolved": "2026-09-05"
+  },
+  "3 legged crane|oakridge|OR": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "100 south front street|souderton|PA": {
+    "name": "Brass Collar Brewing Co.",
+    "osm": "way/996941587",
+    "distance_m": 16,
+    "address": "100 S Front Street",
+    "city": "Souderton",
+    "state": "PA",
+    "resolved": "2026-09-05"
+  },
+  "175 west valley forge road|king of prussia|PA": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "1049 ford street|bridgeport|PA": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "11 north 4th street|easton|PA": {
+    "name": "The Lafayette Bar",
+    "osm": "node/3584425347",
+    "distance_m": 10,
+    "address": "11 N 4th Street",
+    "city": "Easton",
+    "state": "PA",
+    "resolved": "2026-09-05"
+  },
+  "200 south front street|harrisburg|PA": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "902 philadelphia road|easton|PA": {
+    "name": "Easton Area Neighborhood Center",
+    "osm": "way/580212755",
+    "distance_m": 53,
+    "address": "902 Philadelphia Rd",
+    "city": "Easton",
+    "state": "PA",
+    "resolved": "2026-09-05"
+  },
+  "50 north cameron street|harrisburg|PA": {
+    "name": "The Abbey Bar at Appalachian Brewing Company",
+    "osm": "way/375704125",
+    "distance_m": 6,
+    "address": "50 N Cameron St",
+    "city": "Harrisburg",
+    "state": "PA",
+    "resolved": "2026-09-05"
+  },
+  "164 bushkill street|tatamy|PA": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "66 north main street|spring city|PA": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "667 north river street|plains|PA": {
+    "name": "Art 'n Vino",
+    "osm": "node/6129551621",
+    "distance_m": 0,
+    "address": "667 N River St Plains PA Wilkes-Barre",
+    "city": "Plains",
+    "state": "PA",
+    "resolved": "2026-09-05"
+  },
+  "1903 bethlehem pike|hatfield|PA": {
+    "name": "Rock N Rebel Saloon & Grille",
+    "osm": "node/5802735734",
+    "distance_m": 34,
+    "address": "1903 Bethlehem Pike",
+    "city": "Hatfield",
+    "state": "PA",
+    "resolved": "2026-09-05"
+  },
+  "3025 walnut street|philadelphia|PA": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "524 main street|stroudsburg|PA": {
+    "name": "Sherman Theater",
+    "osm": "way/567116974",
+    "distance_m": 10,
+    "address": "524 Main St",
+    "city": "Stroudsburg",
+    "state": "PA",
+    "resolved": "2026-09-05"
+  },
+  "801 south 10th street|harrisburg|PA": {
+    "name": "XL LIVE",
+    "osm": "way/375305003",
+    "distance_m": 0,
+    "address": "801 S 10th St",
+    "city": "Harrisburg",
+    "state": "PA",
+    "resolved": "2026-09-05"
+  },
+  "342 north pottstown pike|exton|PA": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "118 north wayne avenue|wayne|PA": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "24 west temple avenue|sellersville|PA": {
+    "name": "Sellersville Theater",
+    "osm": "way/966697700",
+    "distance_m": 6,
+    "address": "24 W Temple Ave",
+    "city": "Sellersville",
+    "state": "PA",
+    "resolved": "2026-09-05"
+  },
+  "270 broadway|providence|RI": {
+    "name": "Uptown Theater",
+    "osm": "way/379396089",
+    "distance_m": 0,
+    "address": "270 Broadway",
+    "city": "Providence",
+    "state": "RI",
+    "resolved": "2026-09-05"
+  },
+  "220 weybosset street|providence|RI": {
+    "name": "Providence Performing Arts Center",
+    "osm": "way/542070576",
+    "distance_m": 45,
+    "address": "220 Weybosset St",
+    "city": "Providence",
+    "state": "RI",
+    "resolved": "2026-09-05"
+  },
+  "819 north kings highway|myrtle beach|SC": {
+    "name": "Grand Strand Brewing Company",
+    "osm": "node/14047686135",
+    "distance_m": 0,
+    "address": "819 N Kings Hwy",
+    "city": "Myrtle Beach",
+    "state": "SC",
+    "resolved": "2026-09-05"
+  },
+  "1501 long street|chattanooga|TN": {
+    "name": "The Barrelhouse Ballroom",
+    "osm": "node/13699305001",
+    "distance_m": 18,
+    "address": "1501 Long St",
+    "city": "Chattanooga",
+    "state": "TN",
+    "resolved": "2026-09-05"
+  },
+  "2906 fruth street|austin|TX": {
+    "name": "29th Street Ballroom",
+    "osm": "way/382071082",
+    "distance_m": 2,
+    "address": "2906 Fruth St",
+    "city": "Austin",
+    "state": "TX",
+    "resolved": "2026-09-05"
+  },
+  "1031 east 24th street|houston|TX": {
+    "name": "Dan Electro's Guitar Bar",
+    "osm": "way/940952869",
+    "distance_m": 0,
+    "address": "1031 East 24th Street",
+    "city": "Houston",
+    "state": "TX",
+    "resolved": "2026-09-05"
+  },
+  "3510 commerce street|dallas|TX": {
+    "name": "Double Wide",
+    "osm": "way/230252802",
+    "distance_m": 0,
+    "address": "3510 Commerce St",
+    "city": "Dallas",
+    "state": "TX",
+    "resolved": "2026-09-05"
   }
 }
