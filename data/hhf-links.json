@@ -1,13 +1,14 @@
 {
   "built_at": "2026-09-05",
-  "matched": 18,
+  "matched": 23,
   "links": {
     "gdtb-DE-kgb-karl-s-garcia-band-2026-09-25-1701-delaware-ave": {
       "lid": "DE8ead3c7682",
       "name": "Kelly's Logan House",
       "zone": "wilmington",
       "zoneName": "Wilmington",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=DE8ead3c7682",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=wilmington",
+      "onBoard": false,
       "deals": [],
       "match": "address"
     },
@@ -16,7 +17,8 @@
       "name": "Kelly's Logan House",
       "zone": "wilmington",
       "zoneName": "Wilmington",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=DE8ead3c7682",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=wilmington",
+      "onBoard": false,
       "deals": [],
       "match": "name"
     },
@@ -25,7 +27,8 @@
       "name": "Halftime Sports and Music",
       "zone": "newark_de",
       "zoneName": "Newark, DE",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=DE2b6cbe5eab",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=newark_de",
+      "onBoard": false,
       "deals": [],
       "match": "address"
     },
@@ -34,8 +37,45 @@
       "name": "Freight Building",
       "zone": "souderton_harleysville",
       "zoneName": "Souderton / Harleysville",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=116360",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=souderton_harleysville",
+      "onBoard": false,
       "deals": [],
+      "match": "address"
+    },
+    "gdtb-PA-crickets-and-cicadas-2026-09-05-410-e-walnut-st": {
+      "lid": "65716",
+      "name": "Free Will Brewing",
+      "zone": "perkasie",
+      "zoneName": "Perkasie",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=perkasie&v=65716",
+      "onBoard": true,
+      "deals": [
+        {
+          "dow": 1,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 2,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 3,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 4,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 5,
+          "start": "16:00",
+          "end": "18:00"
+        }
+      ],
       "match": "address"
     },
     "gdtb-PA-zendog-2026-09-05-artifact-brewing": {
@@ -43,7 +83,8 @@
       "name": "Artifact Brewing",
       "zone": "willow_grove_horsham",
       "zoneName": "Willow Grove / Horsham",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=96061",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=willow_grove_horsham",
+      "onBoard": false,
       "deals": [],
       "match": "name"
     },
@@ -52,7 +93,8 @@
       "name": "Bridgeport Rib House",
       "zone": "norristown_bridgeport",
       "zoneName": "Norristown / Bridgeport",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=109158",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=norristown_bridgeport",
+      "onBoard": false,
       "deals": [],
       "match": "address"
     },
@@ -61,7 +103,8 @@
       "name": "Shere-E-Punjab",
       "zone": "media",
       "zoneName": "Media",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=61211",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=media",
+      "onBoard": false,
       "deals": [],
       "match": "address"
     },
@@ -70,7 +113,8 @@
       "name": "The Gem - Spring City Speakeasy",
       "zone": "phoenixville",
       "zoneName": "Phoenixville",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=112263",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=phoenixville",
+      "onBoard": false,
       "deals": [],
       "match": "address"
     },
@@ -79,7 +123,8 @@
       "name": "Rivet: Canteen & Assembly",
       "zone": "pottstown",
       "zoneName": "Pottstown",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=112557",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=pottstown",
+      "onBoard": false,
       "deals": [],
       "match": "name"
     },
@@ -88,7 +133,8 @@
       "name": "Brickette Lounge",
       "zone": "exton_downingtown",
       "zoneName": "Exton / Downingtown",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=111136",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=exton_downingtown",
+      "onBoard": false,
       "deals": [],
       "match": "name"
     },
@@ -97,8 +143,45 @@
       "name": "Bye Town",
       "zone": "souderton_harleysville",
       "zoneName": "Souderton / Harleysville",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=110102",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=souderton_harleysville",
+      "onBoard": false,
       "deals": [],
+      "match": "address"
+    },
+    "gdtb-PA-deal-2026-10-03-410-e-walnut-street": {
+      "lid": "65716",
+      "name": "Free Will Brewing",
+      "zone": "perkasie",
+      "zoneName": "Perkasie",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=perkasie&v=65716",
+      "onBoard": true,
+      "deals": [
+        {
+          "dow": 1,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 2,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 3,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 4,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 5,
+          "start": "16:00",
+          "end": "18:00"
+        }
+      ],
       "match": "address"
     },
     "gdtb-PA-kgb-karl-s-garcia-band-2026-10-09-208-210-west-state-st": {
@@ -106,7 +189,8 @@
       "name": "Shere-E-Punjab",
       "zone": "media",
       "zoneName": "Media",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=61211",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=media",
+      "onBoard": false,
       "deals": [],
       "match": "address"
     },
@@ -115,16 +199,49 @@
       "name": "World Cafe Live",
       "zone": "university_city",
       "zoneName": "Philadelphia — University City / West",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=52424",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=university_city",
+      "onBoard": false,
       "deals": [],
       "match": "address"
+    },
+    "gdtb-PA-deadband-2026-10-10-troubles-end-brewing": {
+      "lid": "100226",
+      "name": "Troubles End Brewing",
+      "zone": "collegeville_trappe",
+      "zoneName": "Collegeville / Trappe",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=collegeville_trappe&v=100226",
+      "onBoard": true,
+      "deals": [
+        {
+          "dow": 2,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 3,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 4,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 5,
+          "start": "16:00",
+          "end": "18:00"
+        }
+      ],
+      "match": "name"
     },
     "gdtb-PA-splintered-sunlight-2026-10-10-23-east-lancaster-avenue": {
       "lid": "95965",
       "name": "Ardmore Music Hall",
       "zone": "ardmore_bryn_mawr",
       "zoneName": "Ardmore / Bryn Mawr",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=95965",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=ardmore_bryn_mawr",
+      "onBoard": false,
       "deals": [],
       "match": "address"
     },
@@ -133,7 +250,8 @@
       "name": "Ardmore Music Hall",
       "zone": "ardmore_bryn_mawr",
       "zoneName": "Ardmore / Bryn Mawr",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=95965",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=ardmore_bryn_mawr",
+      "onBoard": false,
       "deals": [],
       "match": "address"
     },
@@ -142,8 +260,66 @@
       "name": "Ardmore Music Hall",
       "zone": "ardmore_bryn_mawr",
       "zoneName": "Ardmore / Bryn Mawr",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=95965",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=ardmore_bryn_mawr",
+      "onBoard": false,
       "deals": [],
+      "match": "address"
+    },
+    "gdtb-PA-deadband-2026-11-06-crooked-eye-brewery": {
+      "lid": "69140",
+      "name": "Crooked Eye Brewery",
+      "zone": "willow_grove_horsham",
+      "zoneName": "Willow Grove / Horsham",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=willow_grove_horsham&v=69140",
+      "onBoard": true,
+      "deals": [
+        {
+          "dow": 5,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 4,
+          "start": "17:00",
+          "end": "19:00"
+        }
+      ],
+      "match": "name"
+    },
+    "gdtb-PA-crickets-and-cicadas-2026-11-07-410-e-walnut-st": {
+      "lid": "65716",
+      "name": "Free Will Brewing",
+      "zone": "perkasie",
+      "zoneName": "Perkasie",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=perkasie&v=65716",
+      "onBoard": true,
+      "deals": [
+        {
+          "dow": 1,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 2,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 3,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 4,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 5,
+          "start": "16:00",
+          "end": "18:00"
+        }
+      ],
       "match": "address"
     },
     "gdtb-PA-zendog-2026-11-19-118-north-wayne-avenue": {
@@ -151,7 +327,8 @@
       "name": "Jdm Wayne",
       "zone": "wayne_radnor",
       "zoneName": "Wayne / Radnor",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=66143",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=wayne_radnor",
+      "onBoard": false,
       "deals": [],
       "match": "address"
     },
@@ -160,7 +337,8 @@
       "name": "Shere-E-Punjab",
       "zone": "media",
       "zoneName": "Media",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=61211",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=media",
+      "onBoard": false,
       "deals": [],
       "match": "address"
     }
