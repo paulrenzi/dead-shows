@@ -1472,5 +1472,25 @@
     "photo": "images/bands/jed-company.jpg",
     "source": "gdtb",
     "matchedName": "Jed & Company"
+  },
+  "mickey-hart-band": {
+    "photo": "images/bands/mickey-hart-band.jpg",
+    "source": "deezer",
+    "matchedName": "Mickey Hart Band"
+  },
+  "jerrys-middle-finger": {
+    "photo": "images/bands/jerrys-middle-finger.jpg",
+    "source": "bandsite",
+    "matchedName": "Jerry's Middle Finger"
+  },
+  "jake-s-leg": {
+    "photo": "images/bands/jake-s-leg.jpg",
+    "source": "bandsite",
+    "matchedName": "Jake's Leg"
+  },
+  "dobbs-dead": {
+    "photo": "images/bands/dobbs-dead.jpg",
+    "source": "deezer",
+    "matchedName": "Dobbs Dead"
   }
 }

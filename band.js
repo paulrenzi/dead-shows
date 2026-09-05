@@ -6,7 +6,15 @@ let map;
 let eventMarkers = [];
 let markerById = new Map();
 let bandPhotos = {};
+let bandInfo = {};
 const DEFAULT_PHOTO = "images/default-band.svg";
+const SOCIAL_LABELS = {
+  facebook: "Facebook",
+  instagram: "Instagram",
+  bandcamp: "Bandcamp",
+  spotify: "Spotify",
+  youtube: "YouTube",
+};
 
 function escapeHtml(s) {
   return String(s || "").replace(/[&<>"']/g, c => ({
@@ -59,8 +67,13 @@ function renderBandHero(artist) {
   const links = [];
   if (artist.website) links.push({ label: "Official site", href: artist.website });
   if (artist.wikipedia) links.push({ label: "Wikipedia", href: artist.wikipedia });
-  links.push({ label: "Search Spotify", href: `https://open.spotify.com/search/${encodeURIComponent(artist.name)}` });
-  links.push({ label: "Search YouTube", href: `https://www.youtube.com/results?search_query=${encodeURIComponent(artist.name)}` });
+  // Real profiles scraped off the band's own homepage beat a search box.
+  const socials = (bandInfo[artist.slug] || {}).socials || {};
+  for (const [key, label] of Object.entries(SOCIAL_LABELS)) {
+    if (socials[key]) links.push({ label, href: socials[key] });
+  }
+  if (!socials.spotify) links.push({ label: "Search Spotify", href: `https://open.spotify.com/search/${encodeURIComponent(artist.name)}` });
+  if (!socials.youtube) links.push({ label: "Search YouTube", href: `https://www.youtube.com/results?search_query=${encodeURIComponent(artist.name)}` });
   linksEl.innerHTML = links.map(l =>
     `<a class="band-link" href="${escapeHtml(l.href)}" target="_blank" rel="noreferrer">${escapeHtml(l.label)} →</a>`
   ).join("");
@@ -208,20 +221,28 @@ async function init() {
     return;
   }
   // Try curated artists first, then discovered gdtb bands
-  const [aRes, gRes, pRes] = await Promise.all([
+  const [aRes, gRes, pRes, iRes, lRes] = await Promise.all([
     fetch("artists.json").then(r => r.json()),
     fetch("data/gdtb-bands.json").then(r => r.ok ? r.json() : []).catch(() => []),
     fetch("data/band-photos.json").then(r => r.ok ? r.json() : {}).catch(() => ({})),
+    fetch("data/band-info.json").then(r => r.ok ? r.json() : {}).catch(() => ({})),
+    fetch("data/gdtb-band-links.json").then(r => r.ok ? r.json() : {}).catch(() => ({})),
   ]);
   bandPhotos = pRes;
+  bandInfo = iRes;
   let artist = aRes.artists.find(a => a.slug === slug);
   if (!artist) {
     const g = gRes.find(b => b.slug === slug);
     if (g) {
+      const info = iRes[g.slug] || {};
       artist = {
         slug: g.slug, name: g.name, searchKeyword: g.name, tier: "tribute",
-        blurb: `Dead tribute act listed at gratefuldeadtributebands.com (${g.state}).`,
-        wikipedia: null, website: null,
+        // Every tribute page used to carry the same one-line sentence. Prefer
+        // whatever the band says about itself on its own site.
+        blurb: info.og_description ||
+          `Dead tribute act listed at gratefuldeadtributebands.com (${g.state}).`,
+        wikipedia: null,
+        website: (lRes[g.slug] || {}).url || null,
       };
     }
   }

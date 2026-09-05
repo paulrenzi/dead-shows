@@ -2,7 +2,7 @@
 const WORKER_URL = "https://dead-shows.paulmichaelrenzi.workers.dev";
 const KOP = { lat: 40.0890, lng: -75.3960, label: "King of Prussia, PA" };
 
-let map, centerMarker, radiusCircle;
+let map, centerMarker, radiusCircle, clusterGroup;
 let eventMarkers = [];
 let markerById = new Map();
 let cardById = new Map();
@@ -16,6 +16,12 @@ let deepLinkApplied = false;
 let tmFeedFailed = false;
 const chipState = { date: "next30" };
 const DEFAULT_PHOTO = "images/default-band.svg";
+// Sources that hand back logos/wordmarks rather than photographs.
+const LOGO_SOURCES = new Set(["gdtb", "bandsite"]);
+const PRECISION_NOTES = {
+  city: "Approximate — pinned to the city center, not the venue address.",
+  state: "Rough — we couldn't place this venue, so it sits at the state center.",
+};
 // The top of the radius slider means "no distance filter at all" — without it
 // there is no way to ask the site for the whole feed, and 850 of ~875 shows
 // were unreachable from the default view.
@@ -102,21 +108,54 @@ function isDeadRelated(event) {
   return DEAD_KEYWORDS.test(t);
 }
 
+// Plain OSM tiles, restyled in CSS (see .map .leaflet-tile-pane). Raw OSM is
+// orange-and-green with every road name on it, which fought the cream/serif
+// palette and buried the pins — but the hosted "muted" basemaps that would fix
+// that now want an API key and stamp the tiles when they don't get one. A CSS
+// filter gets the same recessive map with no key and no third party.
+const TILE_URL = "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
+
+let tileLayer;
+
 function initMap() {
-  map = L.map("map", { scrollWheelZoom: false }).setView([KOP.lat, KOP.lng], 9);
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    attribution: "© OpenStreetMap",
-    maxZoom: 18,
+  map = L.map("map", { scrollWheelZoom: false, zoomControl: false })
+    .setView([KOP.lat, KOP.lng], 9);
+  L.control.zoom({ position: "bottomright" }).addTo(map);
+  tileLayer = L.tileLayer(TILE_URL, {
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    maxZoom: 19,
   }).addTo(map);
   map.on("click", () => map.scrollWheelZoom.enable());
   drawCenter();
 }
+
+// Pin the show markers to the Stealie's own colours rather than Leaflet's
+// stock blue teardrop — at 900+ markers the default pin is all you can see.
+function showIcon(tier) {
+  return L.divIcon({
+    className: "show-pin-wrap",
+    html: `<span class="show-pin show-pin--${tier}"><span class="show-pin-bolt"></span></span>`,
+    iconSize: [22, 22],
+    iconAnchor: [11, 11],
+    popupAnchor: [0, -12],
+  });
+}
+
+const CENTER_ICON = L.divIcon({
+  className: "center-pin-wrap",
+  html: '<span class="center-pin"><span class="center-pin-pulse"></span></span>',
+  iconSize: [18, 18],
+  iconAnchor: [9, 9],
+  popupAnchor: [0, -10],
+});
 
 function drawCenter() {
   if (centerMarker) map.removeLayer(centerMarker);
   if (radiusCircle) map.removeLayer(radiusCircle);
   centerMarker = L.marker([currentCenter.lat, currentCenter.lng], {
     title: currentCenter.label || "Search center",
+    icon: CENTER_ICON,
+    zIndexOffset: 1000,
   }).addTo(map).bindPopup(`<strong>${escapeHtml(currentCenter.label || "Center")}</strong>`);
   const miles = radiusMiles();
   if (!Number.isFinite(miles)) return;   // Anywhere: no circle to draw
@@ -124,12 +163,64 @@ function drawCenter() {
     radius: miles * 1609.34,
     color: "#d32027",
     weight: 1.5,
-    fillOpacity: 0.05,
+    dashArray: "5 6",
+    fillColor: "#d32027",
+    fillOpacity: 0.045,
   }).addTo(map);
 }
 
+// 900+ individual markers is more than Leaflet draws comfortably on a phone.
+// Cluster them rather than capping the list — capping would re-close the whole
+// feed, which is exactly the thing the last round of work opened up.
+function markerLayer() {
+  if (!clusterGroup) {
+    clusterGroup = L.markerClusterGroup({
+      showCoverageOnHover: false,
+      spiderfyDistanceMultiplier: 1.4,
+      maxClusterRadius: 46,
+      iconCreateFunction(cluster) {
+        const n = cluster.getChildCount();
+        const size = n < 10 ? "sm" : n < 60 ? "md" : "lg";
+        return L.divIcon({
+          className: "cluster-wrap",
+          html: `<span class="cluster cluster--${size}">${n}</span>`,
+          iconSize: [1, 1],
+        });
+      },
+    });
+    map.addLayer(clusterGroup);
+  }
+  return clusterGroup;
+}
+
+// A marker inside a collapsed cluster has no DOM element of its own, so the
+// visible thing to highlight is whichever cluster is standing in for it.
+function markerElement(marker) {
+  if (marker._icon) return marker._icon;
+  const parent = clusterGroup && clusterGroup.getVisibleParent(marker);
+  return parent && parent !== marker ? parent._icon : null;
+}
+
+function flashMarker(marker) {
+  const el = markerElement(marker);
+  if (el) el.classList.add("pin--flash");
+}
+
+function unflashMarker(marker) {
+  const el = markerElement(marker);
+  if (el) el.classList.remove("pin--flash");
+}
+
+function revealMarker(marker, done) {
+  if (clusterGroup && clusterGroup.hasLayer(marker) && !marker._icon) {
+    clusterGroup.zoomToShowLayer(marker, done);
+  } else {
+    done();
+  }
+}
+
 function clearEventMarkers() {
-  eventMarkers.forEach(m => map.removeLayer(m));
+  if (clusterGroup) clusterGroup.clearLayers();
   eventMarkers = [];
   markerById.clear();
 }
@@ -439,13 +530,30 @@ function renderCard(ev, idx) {
   const bandPhoto = artist ? bandPhotos[artist.slug] : null;
   const photoUrl = ev.image || bandPhoto?.photo || DEFAULT_PHOTO;
   const isDefault = photoUrl === DEFAULT_PHOTO;
-  const media = `<a class="card-media${isDefault ? " card-media--default" : ""}" href="${ev.url}" target="_blank" rel="noreferrer">
+  // Most of these images are band *logos*, not photographs — GDTB hosts one for
+  // nearly every act. Cropping a square logo to 16:10 lops the top and bottom
+  // off it, so letterbox those and fill the gap with a blurred copy of itself.
+  const isLogo = !ev.image && LOGO_SOURCES.has(bandPhoto?.source);
+  const cls = [
+    "card-media",
+    isDefault ? "card-media--default" : "",
+    isLogo ? "card-media--logo" : "",
+  ].filter(Boolean).join(" ");
+  const backdrop = isLogo
+    ? `<span class="card-media-blur" style="background-image:url('${escapeHtml(photoUrl)}')" aria-hidden="true"></span>`
+    : "";
+  const media = `<a class="${cls}" href="${ev.url}" target="_blank" rel="noreferrer">
+       ${backdrop}
        <img src="${escapeHtml(photoUrl)}" alt="${escapeHtml(displayName)}" loading="lazy"
             onerror="this.onerror=null;this.src='${DEFAULT_PHOTO}';this.parentElement.classList.add('card-media--default');">
      </a>`;
 
   const priceLabel = formatPrice(ev.price);
   const cta = cardCtaLink(ev);
+  // Say so when the distance is measured to a city or a state rather than to
+  // the room itself — an unqualified "12 mi away" from a state centroid is a
+  // number the site cannot actually stand behind.
+  const precisionNote = PRECISION_NOTES[ev.locationPrecision] || "";
 
   const googleHref = googleCalendarUrl(ev);
   const apple = appleCalendarHref(ev);
@@ -465,7 +573,9 @@ function renderCard(ev, idx) {
         </p>
         <div class="card-meta">
           <span class="meta-pill ${tierClass}">${tierLabel}</span>
-          <span class="meta-pill distance">${dist.toFixed(0)} mi away</span>
+          <span class="meta-pill distance${precisionNote ? " distance--approx" : ""}"${
+            precisionNote ? ` title="${escapeHtml(precisionNote)}"` : ""
+          }>${dist.toFixed(0)} mi away${precisionNote ? "*" : ""}</span>
           ${priceLabel ? `<span class="meta-pill price">${escapeHtml(priceLabel)}</span>` : ""}
         </div>
         <div class="card-foot">
@@ -534,8 +644,11 @@ function renderEvents(events) {
       ${escapeHtml(ev.venue)}<br>${formatDate(ev.date)}
       <a class="popup-link" href="${escapeHtml(popupHref)}" target="_blank" rel="noreferrer">${popupLabel}</a>
     `;
-    const marker = L.marker([ev.lat, ev.lng]).addTo(map).bindPopup(popup);
+    const marker = L.marker([ev.lat, ev.lng], {
+      icon: showIcon(artist?.tier === "core" ? "core" : "tribute"),
+    }).bindPopup(popup);
     marker.on("click", () => highlightCard(ev.id, { scroll: true }));
+    markerLayer().addLayer(marker);
     eventMarkers.push(marker);
     markerById.set(ev.id, marker);
   });
@@ -546,11 +659,13 @@ function renderEvents(events) {
       const id = card.dataset.id;
       card.addEventListener("mouseenter", () => {
         const m = markerById.get(id);
-        if (m) m.openPopup();
+        // Hover is a glance, not a navigation — highlight the pin (or its
+        // cluster) in place rather than yanking the viewport around.
+        if (m) flashMarker(m);
       });
       card.addEventListener("mouseleave", () => {
         const m = markerById.get(id);
-        if (m) m.closePopup();
+        if (m) unflashMarker(m);
       });
     });
   }
@@ -565,9 +680,13 @@ function renderEvents(events) {
       const id = e.currentTarget.dataset.id;
       const marker = markerById.get(id);
       if (marker) {
-        map.setView(marker.getLatLng(), 11);
-        marker.openPopup();
         scrollMapIntoView();
+        // A clustered marker isn't on the map yet, so openPopup() alone is a
+        // no-op — let the cluster group break it out first.
+        revealMarker(marker, () => {
+          map.setView(marker.getLatLng(), Math.max(map.getZoom(), 11));
+          marker.openPopup();
+        });
       }
     });
   });

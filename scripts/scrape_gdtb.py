@@ -19,6 +19,7 @@ import json
 import re
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import date, datetime, timedelta
@@ -202,24 +203,76 @@ STATE_CENTROIDS = {
 }
 
 
+def haversine_miles(a, b):
+    from math import radians, sin, cos, sqrt, atan2
+    lat1, lng1 = radians(a["lat"]), radians(a["lng"])
+    lat2, lng2 = radians(b["lat"]), radians(b["lng"])
+    dlat = lat2 - lat1
+    dlng = lng2 - lng1
+    h = sin(dlat / 2) ** 2 + cos(lat1) * cos(lat2) * sin(dlng / 2) ** 2
+    return 2 * 3958.8 * atan2(sqrt(h), sqrt(1 - h))
+
+
+def _nominatim_lookup(q, cache, cache_key):
+    """Look one query up, caching ONLY a definitive answer.
+
+    A transient failure must never be written to the cache. Caching None on a
+    429 or a timeout is indistinguishable from "this place does not exist", so
+    one bad afternoon would permanently pin those venues to their city centroid
+    with nothing left to retry — it silently poisoned 425 venue keys once.
+    """
+    if cache_key in cache:
+        return cache[cache_key]
+    url = f"https://nominatim.openstreetmap.org/search?format=json&limit=1&q={urllib.parse.quote(q)}"
+    for attempt in range(3):
+        try:
+            raw = fetch(url, timeout=20)
+            arr = json.loads(raw)
+            cache[cache_key] = (
+                {"lat": float(arr[0]["lat"]), "lng": float(arr[0]["lon"])} if arr else None
+            )
+            time.sleep(1.1)  # Nominatim policy: max 1 req/sec
+            return cache[cache_key]
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                backoff = 20 * (attempt + 1)
+                print(f"  geocode 429, backing off {backoff}s", file=sys.stderr)
+                time.sleep(backoff)
+                continue
+            print(f"  geocode FAIL {q}: {e}", file=sys.stderr)
+            break
+        except Exception as e:
+            print(f"  geocode FAIL {q}: {e}", file=sys.stderr)
+            time.sleep(2)
+            continue
+    # Unresolved *this run* — deliberately left out of the cache so the next
+    # run tries again instead of inheriting a wrong answer forever.
+    time.sleep(1.1)
+    return None
+
+
 def geocode_city(city, state, cache):
     key = f"{city.lower()}, {state.lower()}"
-    if key in cache:
-        return cache[key]
-    q = f"{city}, {state}, USA"
-    url = f"https://nominatim.openstreetmap.org/search?format=json&limit=1&q={urllib.parse.quote(q)}"
-    try:
-        raw = fetch(url, timeout=15)
-        arr = json.loads(raw)
-        if arr:
-            cache[key] = {"lat": float(arr[0]["lat"]), "lng": float(arr[0]["lon"])}
-        else:
-            cache[key] = None
-    except Exception as e:
-        print(f"  geocode FAIL {q}: {e}", file=sys.stderr)
-        cache[key] = None
-    time.sleep(1.1)  # Nominatim policy
-    return cache[key]
+    return _nominatim_lookup(f"{city}, {state}, USA", cache, key)
+
+
+def geocode_venue(venue, city, state, cache):
+    """Venue-level geocode with a city-pin sanity gate and a locationPrecision tag.
+
+    Query ladder: venue+city+state -> city+state -> None (state centroid is
+    applied by the caller). A venue hit more than ~30 miles from the city pin
+    is rejected (Nominatim happily matches a venue name in the wrong state).
+    """
+    city_geo = geocode_city(city, state, cache) if city else None
+    if venue and city:
+        venue_key = f"{venue.lower()}|{city.lower()}, {state.lower()}"
+        venue_geo = _nominatim_lookup(f"{venue}, {city}, {state}, USA", cache, venue_key)
+        if venue_geo:
+            if not city_geo or haversine_miles(venue_geo, city_geo) <= 30:
+                return venue_geo, "venue"
+    if city_geo:
+        return city_geo, "city"
+    return None, None
 
 
 def main():
@@ -259,7 +312,7 @@ def main():
                 dropped["no_date"] += 1
                 continue
             venue = extract_venue(desc, city)
-            geo = geocode_city(city, st, geocache) if city else None
+            geo, precision = geocode_venue(venue, city, st, geocache)
             approximate = False
             if not geo:
                 # Never drop a show over a geocode miss — pin it to the state
@@ -270,6 +323,7 @@ def main():
                     continue
                 geo = {"lat": cen[0], "lng": cen[1]}
                 approximate = True
+                precision = "state"
                 approx += 1
             slug = curated_by_lower_name.get(band.lower()) or slugify(band)
             if slug not in curated_slugs:
@@ -297,6 +351,7 @@ def main():
                 "lat": geo["lat"],
                 "lng": geo["lng"],
                 "approxLocation": approximate,
+                "locationPrecision": precision,
                 "date": iso,
                 "time": t,
                 "url": row.get("gig_url") or url,
@@ -323,6 +378,28 @@ def main():
             file=sys.stderr,
         )
         return 2
+
+    today_iso = today.isoformat()
+    prev_by_id = {e["id"]: e for e in prev if isinstance(e, dict) and "id" in e}
+    for show in all_shows:
+        prev_show = prev_by_id.get(show["id"])
+        show["firstSeen"] = prev_show.get("firstSeen", today_iso) if prev_show else today_iso
+
+    new_ids = {e["id"] for e in all_shows}
+    vanished = [e for e in prev if isinstance(e, dict) and e.get("id") not in new_ids]
+    if vanished:
+        archive_path = DATA / "gdtb-archive.json"
+        archive = load_cache(archive_path) if archive_path.exists() else []
+        if not isinstance(archive, list):
+            archive = []
+        existing_pairs = {(a.get("id"), a.get("lastSeen")) for a in archive}
+        for e in vanished:
+            row = dict(e)
+            row["lastSeen"] = today_iso
+            if (row["id"], row["lastSeen"]) not in existing_pairs:
+                archive.append(row)
+                existing_pairs.add((row["id"], row["lastSeen"]))
+        save_json(archive_path, archive)
 
     save_json(events_path, all_shows)
     save_json(DATA / "gdtb-bands.json", list(discovered_bands.values()))

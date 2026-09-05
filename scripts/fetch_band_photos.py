@@ -8,9 +8,11 @@ Source ladder, best first. The first one that yields a usable image wins:
                  the act (data/gdtb-band-links.json). Covers exactly this
                  population of small regional tributes, which is why Deezer
                  alone only ever reached ~27%.
-  3. deezer    — strict normalized name match (no key needed)
-  4. itunes    — Apple's search API (no key), strong on indie/self-released acts
-  5. wikipedia — REST summary thumbnail, for the notable acts (Wolf Bros, JGB)
+  3. bandsite  — og:image scraped off the band's OWN homepage by
+                 scripts/enrich_bands.py (data/band-info.json)
+  4. deezer    — strict normalized name match (no key needed)
+  5. itunes    — Apple's search API (no key), strong on indie/self-released acts
+  6. wikipedia — REST summary thumbnail, for the notable acts (Wolf Bros, JGB)
 
 Generic placeholders are rejected by content hash: any image whose bytes repeat
 across 3+ different bands is the source's "no photo" tile, not a band photo.
@@ -48,10 +50,11 @@ PHOTOS_PATH = DATA / "band-photos.json"
 CACHE_PATH = DATA / "photo-cache.json"
 MANUAL_PATH = DATA / "band-photos-manual.json"
 LINKS_PATH = DATA / "gdtb-band-links.json"
+BAND_INFO_PATH = DATA / "band-info.json"
 
 # Bump when the source ladder changes — cached misses probed under an older
 # ladder get retried automatically instead of being skipped forever.
-PROBE_VERSION = 2
+PROBE_VERSION = 3
 
 MIN_BYTES = 2000  # smaller than this is a spacer gif, not a photo
 
@@ -91,6 +94,12 @@ def save_json(path, data):
 def src_gdtb(name, slug, links):
     entry = links.get(slug) or {}
     url = entry.get("logo")
+    return (url, name) if url else (None, None)
+
+
+def src_bandsite(name, slug, links):
+    entry = BAND_INFO.get(slug) or {}
+    url = entry.get("og_image")
     return (url, name) if url else (None, None)
 
 
@@ -158,10 +167,13 @@ def src_wikipedia(name, slug, links):
 
 SOURCES = [
     ("gdtb", src_gdtb, 0.2),
+    ("bandsite", src_bandsite, 0.2),
     ("deezer", src_deezer, 0.6),
     ("itunes", src_itunes, 0.5),
     ("wikipedia", src_wikipedia, 0.3),
 ]
+
+BAND_INFO = {}
 
 
 def collect_bands():
@@ -215,6 +227,8 @@ def main():
     cache = load_json(CACHE_PATH, {})
     manual = load_json(MANUAL_PATH, {})
     links = load_json(LINKS_PATH, {})
+    global BAND_INFO
+    BAND_INFO = load_json(BAND_INFO_PATH, {})
 
     for slug, entry in manual.items():
         if not isinstance(entry, dict) or "photo" not in entry:
