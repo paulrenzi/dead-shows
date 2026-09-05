@@ -43,6 +43,23 @@ const ARTISTS = [
   "Live Dead Brothers",
   "Jerry Garcia Symphonic Celebration",
   "Rock and Roll Playhouse Grateful Dead",
+  // Delaware Valley acts added 2026-09-05. All book venues inside the app's
+  // default 30mi radius (118 North in Wayne, Ardmore Music Hall, the Philly
+  // circuit) and were previously invisible to this search.
+  "Cats On The Bus",
+  "Strangers Stopping Strangers",
+  "ZenDog",
+  "Bloom & Decay",
+  "Jawn Of The Dead",
+  "Dead Alchemists",
+  "Foolish Heart",
+  "Karl's Garcia Band",
+  // DELIBERATELY NOT HERE — "Dead Band", "Deadband", "Lovelight", "Local Honey".
+  // They are in artists.json (so the GDTB scrape maps them to a curated slug and
+  // they get band pages), but each name also belongs to unrelated non-Dead acts,
+  // and this is a bare Ticketmaster keyword search with no artist-ID filter. Adding
+  // them here pulls false positives onto the map. Re-add only alongside result
+  // filtering — e.g. requiring a Dead-ish attraction name or venue match.
 ];
 
 const KEYWORDS = ["grateful dead tribute", "grateful dead"];

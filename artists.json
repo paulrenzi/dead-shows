@@ -351,6 +351,114 @@
       "blurb": "Family-friendly Dead programming — 'The Music of Grateful Dead for Kids' series runs in small venues around the country, designed for kids 1-10 and their grown-ups.",
       "wikipedia": null,
       "website": "https://therockandrollplayhouse.com"
+    },
+    {
+      "slug": "dead-band",
+      "name": "Dead Band",
+      "searchKeyword": "Dead Band",
+      "tier": "tribute",
+      "blurb": "Delaware Valley Dead tribute and one of 118 North's most frequent bookings. Also plays themed nights — a Bob Weir Celebration of Life show among them.",
+      "wikipedia": null,
+      "website": null
+    },
+    {
+      "slug": "lovelight",
+      "name": "Lovelight",
+      "searchKeyword": "Lovelight",
+      "tier": "tribute",
+      "blurb": "Grateful Dead tribute working the Philadelphia circuit — 118 North in Wayne, Ardmore Music Hall, and Anchor Rock Club in Atlantic City.",
+      "wikipedia": null,
+      "website": null
+    },
+    {
+      "slug": "cats-on-the-bus",
+      "name": "Cats On The Bus",
+      "searchKeyword": "Cats On The Bus",
+      "tier": "tribute",
+      "blurb": "Dead tribute in regular rotation at 118 North, Wayne.",
+      "wikipedia": null,
+      "website": null
+    },
+    {
+      "slug": "strangers-stopping-strangers",
+      "name": "Strangers Stopping Strangers",
+      "searchKeyword": "Strangers Stopping Strangers",
+      "tier": "tribute",
+      "blurb": "Dead tribute booked at 118 North, Wayne.",
+      "wikipedia": null,
+      "website": null
+    },
+    {
+      "slug": "zendog",
+      "name": "ZenDog",
+      "searchKeyword": "ZenDog",
+      "tier": "tribute",
+      "blurb": "Dead tribute booked at 118 North, Wayne.",
+      "wikipedia": null,
+      "website": null
+    },
+    {
+      "slug": "local-honey",
+      "name": "Local Honey",
+      "searchKeyword": "Local Honey",
+      "tier": "tribute",
+      "blurb": "Grateful Dead tribute band with a standing presence at 118 North, Wayne.",
+      "wikipedia": null,
+      "website": null
+    },
+    {
+      "slug": "bloom-and-decay-band",
+      "name": "Bloom & Decay Band",
+      "searchKeyword": "Bloom & Decay",
+      "tier": "tribute",
+      "blurb": "Dead tribute booked at 118 North, Wayne.",
+      "wikipedia": null,
+      "website": null
+    },
+    {
+      "slug": "jawn-of-the-dead",
+      "name": "Jawn Of The Dead",
+      "searchKeyword": "Jawn Of The Dead",
+      "tier": "tribute",
+      "blurb": "Philadelphia-area Grateful Dead tribute jam band. Plays Ardmore Music Hall and the city circuit.",
+      "wikipedia": null,
+      "website": "https://www.jawnofthedeadband.com"
+    },
+    {
+      "slug": "the-dead-alchemists",
+      "name": "The Dead Alchemists",
+      "searchKeyword": "Dead Alchemists",
+      "tier": "tribute",
+      "blurb": "Philadelphia Dead tribute; runs the recurring 'Shakedown South Street' nights.",
+      "wikipedia": null,
+      "website": null
+    },
+    {
+      "slug": "foolish-heart",
+      "name": "Foolish Heart",
+      "searchKeyword": "Foolish Heart",
+      "tier": "tribute",
+      "blurb": "Dead tribute working the Wilmington, Delaware end of the Philadelphia metro.",
+      "wikipedia": null,
+      "website": null
+    },
+    {
+      "slug": "karls-garcia-band",
+      "name": "KGB — Karl's Garcia Band",
+      "searchKeyword": "Karl's Garcia Band",
+      "tier": "tribute",
+      "blurb": "Jerry Garcia Band tribute playing the Wilmington, Delaware circuit.",
+      "wikipedia": null,
+      "website": null
+    },
+    {
+      "slug": "deadband-de",
+      "name": "Deadband",
+      "searchKeyword": "Deadband",
+      "tier": "tribute",
+      "blurb": "Dead tribute playing Wilmington and Newark, Delaware. Listed separately from Dead Band pending confirmation that they are distinct acts.",
+      "wikipedia": null,
+      "website": null
     }
   ],
   "keywords": [
