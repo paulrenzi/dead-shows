@@ -370,6 +370,78 @@ function filterGdtb(radius, startDate, endDate) {
   }).map(ev => ({ ...ev, source: ev.source || "gdtb" }));
 }
 
+// Street suffixes collapsed so "1 State St." and "1 State Street" are one
+// place. Squashing the raw string to 20 characters instead let "1statest" and
+// "1statestreet" both through as separate shows on the same night.
+// Mirrors `venue_key` in scripts/venuetext.py — change one, change both.
+const VENUE_SUFFIXES = {
+  st: "street", str: "street", ave: "avenue", av: "avenue", rd: "road",
+  dr: "drive", drv: "drive", ln: "lane", blvd: "boulevard", blv: "boulevard",
+  pkwy: "parkway", pky: "parkway", pwy: "parkway", hwy: "highway",
+  pl: "place", ct: "court", ter: "terrace", terr: "terrace", sq: "square",
+  cir: "circle", trl: "trail", pt: "point", pk: "pike", tpke: "turnpike",
+  tpk: "turnpike", n: "north", s: "south", e: "east", w: "west",
+  ne: "northeast", nw: "northwest", se: "southeast", sw: "southwest",
+  mt: "mount", ft: "fort", rte: "route",
+};
+const VENUE_NOISE = new Set(["suite", "ste", "unit", "apt", "fl", "floor", "the"]);
+
+function venueKey(venue) {
+  const s = (venue || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+  if (!s) return "";
+  return s.split(" ")
+    .filter(tok => !VENUE_NOISE.has(tok))
+    .map(tok => VENUE_SUFFIXES[tok] || tok)
+    .join(" ");
+}
+
+// A quarter of the listings name a street address where the room's name
+// belongs. `venueName` is what actually stands there — from the venue's PLCB
+// licence via Happy Hour Finder where we have it, otherwise from OpenStreetMap
+// — and the address drops to a second line rather than being thrown away.
+function venueTitle(ev) {
+  return ev.venueName || ev.venue || ev.city || "Venue TBA";
+}
+
+function venueSubline(ev) {
+  return ev.venueName && ev.venue && ev.venueName !== ev.venue ? ev.venue : "";
+}
+
+// Calendars, map links and searches all want the fullest identity we have:
+// the business name AND the street address, not one or the other.
+function venueWhere(ev) {
+  return [ev.venueName, venueSubline(ev) || (ev.venueName ? "" : ev.venue), ev.city, ev.state]
+    .filter(Boolean).join(", ");
+}
+
+function isoDow(iso) {
+  const [y, m, d] = String(iso || "").slice(0, 10).split("-").map(Number);
+  if (!y) return 0;
+  const js = new Date(y, m - 1, d).getDay();
+  return js === 0 ? 7 : js; // bundles use ISO 1=Mon..7=Sun, JS uses 0=Sun
+}
+
+function clockLabel(hhmm) {
+  const [h, m] = String(hhmm || "").split(":").map(Number);
+  if (Number.isNaN(h)) return "";
+  const ampm = h >= 12 ? "PM" : "AM";
+  const h12 = h % 12 === 0 ? 12 : h % 12;
+  return m ? `${h12}:${String(m).padStart(2, "0")} ${ampm}` : `${h12} ${ampm}`;
+}
+
+// The venue's own happy hour, on the night of the show. Windows come from
+// Happy Hour Finder at build time, so this costs the page nothing.
+function happyHourNote(ev) {
+  const hhf = ev.hhf;
+  if (!hhf || !hhf.url) return "";
+  const dow = isoDow(ev.date);
+  const win = (hhf.deals || []).find(d => d.dow === dow);
+  const label = win
+    ? `Happy hour ${clockLabel(win.start)}–${clockLabel(win.end)}`
+    : "Happy hour info";
+  return `<p class="card-hh"><a class="hh-link" href="${escapeHtml(hhf.url)}" target="_blank" rel="noreferrer">${escapeHtml(label)}</a></p>`;
+}
+
 function mergeAndDedupe(tmEvents, gdtbEvts) {
   // Dedupe by (band-lower + date YYYY-MM-DD + city-lower). TM wins ties (has images/tickets).
   const seen = new Map();
@@ -380,8 +452,7 @@ function mergeAndDedupe(tmEvents, gdtbEvts) {
     const band = ((ev.attractions && ev.attractions[0]) || ev.name || "").toLowerCase();
     const day = (ev.date || "").slice(0, 10);
     const city = (ev.city || "").toLowerCase();
-    const venue = (ev.venue || "").toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 20);
-    return `${band}|${day}|${city}|${venue}`;
+    return `${band}|${day}|${city}|${venueKey(ev.venue)}`;
   };
   for (const ev of tmEvents) {
     seen.set(key(ev), { ...ev, source: ev.source || "tm" });
@@ -451,7 +522,7 @@ function buildIcsText(ev) {
   const displayName = artist?.name || ev.name || "Show";
   const { dtstart, dtend } = buildIcsDates(ev);
   const dtstamp = toIcsUtc(new Date());
-  const where = [ev.venue, ev.city, ev.state].filter(Boolean).join(", ");
+  const where = venueWhere(ev);
   const lines = [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
@@ -495,7 +566,7 @@ function appleCalendarHref(ev) {
 function googleCalendarUrl(ev) {
   const artist = matchArtist(ev);
   const title = (artist?.name || ev.name || "Show").trim();
-  const where = [ev.venue, ev.city, ev.state].filter(Boolean).join(", ");
+  const where = venueWhere(ev);
   const { dtstart, dtend } = buildIcsDates(ev);
   const params = new URLSearchParams({
     action: "TEMPLATE",
@@ -518,7 +589,7 @@ async function shareEvent(ev) {
   const url = eventShareUrl(ev);
   const shareData = {
     title: `${displayName} — Dead Shows`,
-    text: `${displayName} at ${ev.venue} · ${formatDate(ev.date)}`,
+    text: `${displayName} at ${venueTitle(ev)} · ${formatDate(ev.date)}`,
     url,
   };
   if (navigator.share) {
@@ -610,8 +681,10 @@ function renderCard(ev, idx) {
         <p class="card-date">${ev.time ? escapeHtml(ev.time) : "Time TBA"}<span class="card-date-day"> · ${formatDate(ev.date)}</span></p>
         <h3 class="card-name">${bandLink}</h3>
         <p class="card-venue">
-          <span class="venue-name">${escapeHtml(ev.venue)}</span>${cityLine ? `<span class="city">${escapeHtml(cityLine)}</span>` : ""}
+          <span class="venue-name">${escapeHtml(venueTitle(ev))}</span>${cityLine ? `<span class="city">${escapeHtml(cityLine)}</span>` : ""}
         </p>
+        ${venueSubline(ev) ? `<p class="card-venue-address">${escapeHtml(venueSubline(ev))}</p>` : ""}
+        ${happyHourNote(ev)}
         <div class="card-foot">
           <div class="card-meta">
             <span class="meta-pill ${tierClass}">${tierLabel}</span>
@@ -722,7 +795,7 @@ function renderEvents(events) {
     const popupLabel = tm ? "Tickets →" : "Venue info →";
     const popup = `
       <strong>${escapeHtml(displayName)}</strong>
-      ${escapeHtml(ev.venue)}<br>${formatDate(ev.date)}
+      ${escapeHtml(venueTitle(ev))}<br>${formatDate(ev.date)}
       <a class="popup-link" href="${escapeHtml(popupHref)}" target="_blank" rel="noreferrer">${popupLabel}</a>
     `;
     const marker = L.marker([ev.lat, ev.lng], {
@@ -882,12 +955,12 @@ function scrollMapIntoViewLegacy() {
 }
 
 function venueGoogleMapsUrl(ev) {
-  const q = [ev.venue, ev.city, ev.state].filter(Boolean).join(" ");
+  const q = venueWhere(ev).replace(/,/g, " ");
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
 }
 
 function venueSearchUrl(ev) {
-  const q = [ev.venue, ev.city, ev.state].filter(Boolean).join(" ");
+  const q = venueWhere(ev).replace(/,/g, " ");
   return `https://www.google.com/search?q=${encodeURIComponent(q)}`;
 }
 

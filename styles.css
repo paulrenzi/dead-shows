@@ -44,6 +44,9 @@
   --pill-price-fg: #2a6b34;
   --toast-bg: rgba(26, 26, 26, 0.92);
   --map-ground: linear-gradient(135deg, #e8e4dc 0%, #d4cfc4 100%);
+  --hh-bg: rgba(214, 138, 34, 0.14);
+  --hh-fg: #8a5310;
+  --hh-line: rgba(214, 138, 34, 0.34);
 }
 
 /* Shows happen at night and this gets opened in a parking lot. Only the
@@ -76,6 +79,9 @@
     --pill-price-fg: #93e0a3;
     --toast-bg: #2a2431;
     --map-ground: linear-gradient(135deg, #1b1720 0%, #12101a 100%);
+    --hh-bg: rgba(224, 154, 54, 0.18);
+    --hh-fg: #f0bd72;
+    --hh-line: rgba(224, 154, 54, 0.38);
   }
 }
 
@@ -667,6 +673,45 @@ button { font: inherit; cursor: pointer; }
   color: var(--subtle);
   opacity: 0.6;
 }
+
+/* Where the listing gave a street address and we found the business that
+   stands on it, the name takes the heading and the address drops to here. */
+.card-venue-address {
+  margin: 0.12rem 0 0;
+  font-size: 0.78rem;
+  line-height: 1.35;
+  color: var(--subtle);
+  overflow-wrap: anywhere;
+}
+
+/* Happy Hour Finder cross-link. Joined at build time, so this costs the page
+   no request — see scripts/link_happy_hour.py. */
+.card-hh {
+  margin: 0.3rem 0 0;
+}
+.hh-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.32em;
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  padding: 0.16rem 0.5rem;
+  border-radius: 999px;
+  text-decoration: none;
+  color: var(--hh-fg);
+  background: var(--hh-bg);
+  border: 1px solid var(--hh-line);
+}
+.hh-link::before {
+  content: "";
+  width: 0.42em;
+  height: 0.42em;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: 0.75;
+}
+.hh-link:hover { filter: brightness(1.08); }
 
 .card-meta {
   display: flex;

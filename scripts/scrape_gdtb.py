@@ -25,6 +25,9 @@ import urllib.request
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from venuetext import clean_venue  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 DATA.mkdir(exist_ok=True)
@@ -311,7 +314,10 @@ def main():
             if not iso:
                 dropped["no_date"] += 1
                 continue
-            venue = extract_venue(desc, city)
+            # The description cell drags the town, the state (twice) and the
+            # ZIP along behind an address. Strip that before it becomes a
+            # venue name, a geocode query and a dedupe key.
+            venue = clean_venue(extract_venue(desc, city), city, st)
             geo, precision = geocode_venue(venue, city, st, geocache)
             approximate = False
             if not geo:
@@ -381,12 +387,33 @@ def main():
 
     today_iso = today.isoformat()
     prev_by_id = {e["id"]: e for e in prev if isinstance(e, dict) and "id" in e}
+
+    # The show id embeds the venue slug, so any improvement to venue text
+    # renames every affected show. Without a looser fallback that reads as 178
+    # shows vanishing and 178 debuting on the same day: firstSeen resets and
+    # the archive fills with rows for gigs that never moved.
+    def loose(e):
+        return (
+            e.get("bandSlug") or "",
+            (e.get("date") or "")[:10],
+            (e.get("city") or "").lower(),
+            (e.get("time") or "").lower(),
+        )
+
+    prev_by_loose = {}
+    for e in prev:
+        if isinstance(e, dict):
+            prev_by_loose.setdefault(loose(e), e)
     for show in all_shows:
-        prev_show = prev_by_id.get(show["id"])
+        prev_show = prev_by_id.get(show["id"]) or prev_by_loose.get(loose(show))
         show["firstSeen"] = prev_show.get("firstSeen", today_iso) if prev_show else today_iso
 
     new_ids = {e["id"] for e in all_shows}
-    vanished = [e for e in prev if isinstance(e, dict) and e.get("id") not in new_ids]
+    new_loose = {loose(e) for e in all_shows}
+    vanished = [
+        e for e in prev
+        if isinstance(e, dict) and e.get("id") not in new_ids and loose(e) not in new_loose
+    ]
     if vanished:
         archive_path = DATA / "gdtb-archive.json"
         archive = load_cache(archive_path) if archive_path.exists() else []

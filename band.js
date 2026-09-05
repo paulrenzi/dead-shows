@@ -112,8 +112,14 @@ async function fetchEvents(artist) {
   });
 
   // Fetch both sources in parallel
+  // The Ticketmaster branch had no catch, so a rejected fetch — which is what
+  // the CORS-locked Worker does off the Pages origin — rejected the whole
+  // Promise.all and rendered "Couldn't load shows." over a perfectly good
+  // GDTB feed. Each source now fails on its own.
   const [tmRes, gdtbEvs] = await Promise.all([
-    fetch(`${WORKER_URL}/events?${params.toString()}`).then(r => r.ok ? r.json() : []),
+    fetch(`${WORKER_URL}/events?${params.toString()}`)
+      .then(r => r.ok ? r.json() : [])
+      .catch(() => []),
     fetch("data/gdtb-events.json").then(r => r.ok ? r.json() : []).catch(() => []),
   ]);
 
@@ -155,12 +161,47 @@ function platePlaceholder(name) {
           </span>`;
 }
 
+// Shared with the main page: a street address in the venue column is not a
+// venue name, so show what actually stands there and demote the address.
+function venueTitle(ev) {
+  return ev.venueName || ev.venue || ev.city || "Venue TBA";
+}
+
+function venueSubline(ev) {
+  return ev.venueName && ev.venue && ev.venueName !== ev.venue ? ev.venue : "";
+}
+
+function isoDow(iso) {
+  const [y, m, d] = String(iso || "").slice(0, 10).split("-").map(Number);
+  if (!y) return 0;
+  const js = new Date(y, m - 1, d).getDay();
+  return js === 0 ? 7 : js; // bundles use ISO 1=Mon..7=Sun, JS uses 0=Sun
+}
+
+function clockLabel(hhmm) {
+  const [h, m] = String(hhmm || "").split(":").map(Number);
+  if (Number.isNaN(h)) return "";
+  const ampm = h >= 12 ? "PM" : "AM";
+  const h12 = h % 12 === 0 ? 12 : h % 12;
+  return m ? `${h12}:${String(m).padStart(2, "0")} ${ampm}` : `${h12} ${ampm}`;
+}
+
+function happyHourNote(ev) {
+  const hhf = ev.hhf;
+  if (!hhf || !hhf.url) return "";
+  const win = (hhf.deals || []).find(d => d.dow === isoDow(ev.date));
+  const label = win
+    ? `Happy hour ${clockLabel(win.start)}–${clockLabel(win.end)}`
+    : "Happy hour info";
+  return `<p class="card-hh"><a class="hh-link" href="${escapeHtml(hhf.url)}" target="_blank" rel="noreferrer">${escapeHtml(label)}</a></p>`;
+}
+
 function renderCard(ev, artistPhoto) {
   const dist = haversineMiles(KOP.lat, KOP.lng, ev.lat, ev.lng);
   // The shared placeholder SVG is the absence of a photo, not a photo.
   const rawPhoto = ev.image || artistPhoto || "";
   const photoUrl = rawPhoto.endsWith("default-band.svg") ? "" : rawPhoto;
-  const plate = platePlaceholder(ev.venue || ev.name);
+  const plate = platePlaceholder(venueTitle(ev) || ev.name);
   const img = photoUrl
     ? `<img src="${escapeHtml(photoUrl)}" alt="${escapeHtml(ev.name)}" loading="lazy"
             onerror="this.onerror=null;this.remove();this.closest('.card-media').classList.add('card-media--plate');">`
@@ -173,11 +214,13 @@ function renderCard(ev, artistPhoto) {
       ${media}
       <div class="card-body">
         <p class="card-date">${formatDate(ev.date)}</p>
-        <h3 class="card-name">${escapeHtml(ev.venue)}</h3>
+        <h3 class="card-name">${escapeHtml(venueTitle(ev))}</h3>
         <p class="card-venue">
           ${escapeHtml(ev.city || "")}${ev.state ? ", " + escapeHtml(ev.state) : ""}
+          ${venueSubline(ev) ? "<br><span class=\"city\">" + escapeHtml(venueSubline(ev)) + "</span>" : ""}
           ${ev.venueAddress ? "<br><span class=\"city\">" + escapeHtml(ev.venueAddress) + "</span>" : ""}
         </p>
+        ${happyHourNote(ev)}
         <div class="card-meta">
           <span class="meta-pill distance">${dist.toFixed(0)} mi from KoP</span>
         </div>

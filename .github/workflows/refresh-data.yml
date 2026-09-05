@@ -34,6 +34,16 @@ jobs:
         run: python scripts/scrape_gdtb.py
         timeout-minutes: 45
 
+      - name: Resolve address-only venues to business names (incremental)
+        run: python scripts/resolve_venue_names.py --limit 60
+        timeout-minutes: 25
+        continue-on-error: true
+
+      - name: Cross-link Happy Hour Finder venues
+        run: python scripts/link_happy_hour.py
+        timeout-minutes: 10
+        continue-on-error: true
+
       - name: Fetch new band photos (incremental)
         run: python scripts/fetch_band_photos.py
         timeout-minutes: 15

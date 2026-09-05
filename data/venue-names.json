@@ -1,0 +1,940 @@
+{
+  "160 south montezuma street|prescott|AZ": {
+    "name": "Bird Cage Saloon",
+    "osm": "way/708957710",
+    "distance_m": 0,
+    "address": "160 S Montezuma St",
+    "city": "Prescott",
+    "state": "AZ",
+    "resolved": "2026-09-05"
+  },
+  "512 york road|towson|MD": {
+    "name": "The Recher",
+    "osm": "node/3025596695",
+    "distance_m": 0,
+    "address": "512 York rd",
+    "city": "Towson",
+    "state": "MD",
+    "resolved": "2026-09-05"
+  },
+  "2323 york road|timonium|MD": {
+    "name": "An Poitin Stil",
+    "osm": "way/74887773",
+    "distance_m": 0,
+    "address": "2323 York rd",
+    "city": "Timonium",
+    "state": "MD",
+    "resolved": "2026-09-05"
+  },
+  "50 saint kolbe drive|holyoke|MA": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "510 north main|chelsea|MI": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "4300 cadieux road|detroit|MI": {
+    "name": "Cadieux Cafe",
+    "osm": "node/9651479298",
+    "distance_m": 9,
+    "address": "4300 Cadieux Rd",
+    "city": "Detroit",
+    "state": "MI",
+    "resolved": "2026-09-05"
+  },
+  "149 westchester avenue|port chester|NY": {
+    "name": "The Capitol Theatre",
+    "osm": "relation/12045867",
+    "distance_m": 15,
+    "address": "149 Westchester Ave",
+    "city": "Port Chester",
+    "state": "NY",
+    "resolved": "2026-09-05"
+  },
+  "410 east walnut street|perkasie|PA": {
+    "name": "Free Will Brewery",
+    "osm": "way/1020399115",
+    "distance_m": 1,
+    "address": "410 E Walnut St",
+    "city": "Perkasie",
+    "state": "PA",
+    "resolved": "2026-09-05"
+  },
+  "208 210 west|media|PA": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "4935 river road|new hope|PA": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "23 east lancaster avenue|ardmore|PA": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "915 old hollow road|north ferrisburgh|VT": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "4747 east elliot road|ahwatukee|AZ": {
+    "name": "Los Taquitos",
+    "osm": "node/5648362421",
+    "distance_m": 49,
+    "address": "4747 E Elliot Rd",
+    "city": "Ahwatukee",
+    "state": "AZ",
+    "resolved": "2026-09-05"
+  },
+  "333 south boylston street|los angeles|CA": {
+    "name": "The Bellwether",
+    "osm": "node/11068103665",
+    "distance_m": 0,
+    "address": "333 S Boylston St",
+    "city": "Los Angeles",
+    "state": "CA",
+    "resolved": "2026-09-05"
+  },
+  "1522 francisco boulevard|pacifica|CA": {
+    "name": "Winters Tavern",
+    "osm": "way/338726754",
+    "distance_m": 0,
+    "address": "1522 Francisco Blvd",
+    "city": "Pacifica",
+    "state": "CA",
+    "resolved": "2026-09-05"
+  },
+  "949 el camino real|menlo park|CA": {
+    "name": "Guild",
+    "osm": "way/111762120",
+    "distance_m": 3,
+    "address": "949 El Camino Real",
+    "city": "Menlo Park",
+    "state": "CA",
+    "resolved": "2026-09-05"
+  },
+  "1660 indian river drive|sebastian|FL": {
+    "name": "Squid Lips",
+    "osm": "way/409782386",
+    "distance_m": 2,
+    "address": "1660 Indian River Dr",
+    "city": "Sebastian",
+    "state": "FL",
+    "resolved": "2026-09-05"
+  },
+  "501 a1a beach boulevard|st. augustine beach|FL": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "5565 north keystone avenue|indianapolis|IN": {
+    "name": "Mousetrap",
+    "osm": "way/699397617",
+    "distance_m": 0,
+    "address": "5565 North Keystone Avenue",
+    "city": "Indianapolis",
+    "state": "IN",
+    "resolved": "2026-09-05"
+  },
+  "1522 east 49th avenue|gary|IN": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "10 east cross street|baltimore|MD": {
+    "name": "Crossbar",
+    "osm": "node/10796180621",
+    "distance_m": 17,
+    "address": "10 E Cross St",
+    "city": "Baltimore",
+    "state": "MD",
+    "resolved": "2026-09-05"
+  },
+  "1515 westport road|kansas city|MO": {
+    "name": "Mike Kelly's Westsider",
+    "osm": "node/2670074446",
+    "distance_m": 6,
+    "address": "1515 Westport Rd",
+    "city": "Kansas City",
+    "state": "MO",
+    "resolved": "2026-09-05"
+  },
+  "270 pascack road|washington township|NJ": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "11 state street|glassboro|NJ": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "1002 princess street|wilmington|NC": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "126 east cabarrus street|raleigh|NC": {
+    "name": "Lincoln Theatre",
+    "osm": "way/47760006",
+    "distance_m": 11,
+    "address": "126 E Cabarrus St",
+    "city": "Raleigh",
+    "state": "NC",
+    "resolved": "2026-09-05"
+  },
+  "1624 northwest glisan street|portland|OR": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "1955 willow lane|macungie|PA": {
+    "name": "Rising River Brewing",
+    "osm": "way/1124432494",
+    "distance_m": 2,
+    "address": "1955 Willow Lane",
+    "city": "Macungie",
+    "state": "PA",
+    "resolved": "2026-09-05"
+  },
+  "1 state street|bristol|RI": {
+    "name": "Judge Roy Bean",
+    "osm": "node/4432872975",
+    "distance_m": 50,
+    "address": "1 State Street",
+    "city": "Bristol",
+    "state": "RI",
+    "resolved": "2026-09-05"
+  },
+  "904 pinckney street|greenville|SC": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "1217 maple avenue|roanoke|VA": {
+    "name": "Saint Pauls Evangelical and Reformed Church",
+    "osm": "node/356593267",
+    "distance_m": 24,
+    "address": "1217 Maple Ave SW",
+    "city": "Roanoke",
+    "state": "VA",
+    "resolved": "2026-09-05"
+  },
+  "232 west maple street|river falls|WI": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "7037 cass oark road|ozark|AR": {
+    "name": "Byrd’s Adventure Center",
+    "osm": "node/5581580621",
+    "distance_m": 63,
+    "address": "7037 Cass Oark Rd",
+    "city": "Ozark",
+    "state": "AR",
+    "resolved": "2026-09-05"
+  },
+  "3600 norbridge avenue|castro valley|CA": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "114 north san joaquin street|stockton|CA": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "1717 lincoln boulevard|venice|CA": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "12051 ventura place|studio city|CA": {
+    "name": "Tuning Fork LA",
+    "osm": "node/13812928274",
+    "distance_m": 0,
+    "address": "12051 Ventura Pl",
+    "city": "Studio City",
+    "state": "CA",
+    "resolved": "2026-09-05"
+  },
+  "978 north coast highway|encinitas|CA": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "2209 broadway|redwood city|CA": {
+    "name": "Club Fox",
+    "osm": "node/1726929774",
+    "distance_m": 0,
+    "address": "2209 Broadway",
+    "city": "Redwood City",
+    "state": "CA",
+    "resolved": "2026-09-05"
+  },
+  "468 sutton way|grass valley|CA": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "4780 mission gorge place|san diego|CA": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "2708 j street|sacramento|CA": {
+    "name": "Harlow's",
+    "osm": "way/959114303",
+    "distance_m": 1,
+    "address": "2708 J Street",
+    "city": "Sacramento",
+    "state": "CA",
+    "resolved": "2026-09-05"
+  },
+  "4547 van nuys boulevard|sherman oaks|CA": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "605 south mason street|fort collins|CO": {
+    "name": "Avogadro's Number",
+    "osm": "node/535451087",
+    "distance_m": 10,
+    "address": "605 S. Mason Street",
+    "city": "Fort Collins",
+    "state": "CO",
+    "resolved": "2026-09-05"
+  },
+  "450 south galena street|aspen|CO": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "142 south raven mine drive|colorado springs|CO": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "13714 poudre canyon highway|bellvue|CO": {
+    "name": "Mishawaka Ampetheatre",
+    "osm": "way/491462384",
+    "distance_m": 1,
+    "address": "13714 POUDRE CANYON HIGHWAY",
+    "city": "Bellvue",
+    "state": "CO",
+    "resolved": "2026-09-05"
+  },
+  "604 clinton street|ridgway|CO": {
+    "name": "Sherbino Theater",
+    "osm": "node/7164864590",
+    "distance_m": 0,
+    "address": "604 Clinton St",
+    "city": "Ridgway",
+    "state": "CO",
+    "resolved": "2026-09-05"
+  },
+  "1 ladder hill road|weston|CT": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "65 sugar hollow road|danbury|CT": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "1701 delaware avenue|wilmington|DE": {
+    "name": "Kelly's Logan House",
+    "osm": "way/368338533",
+    "distance_m": 0,
+    "address": "1701 Delaware Ave",
+    "city": "Wilmington",
+    "state": "DE",
+    "resolved": "2026-09-05"
+  },
+  "8341 lockwood ridge road|sarasota|FL": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "111 2nd avenue|saint petersburg|FL": {
+    "name": "The Ale and the Witch",
+    "osm": "node/1315119882",
+    "distance_m": 33,
+    "address": "111 2nd Ave NE Saint Petersburg FL St Petersburg",
+    "city": "Saint Petersburg",
+    "state": "FL",
+    "resolved": "2026-09-05"
+  },
+  "40 watt club|athens|GA": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "5 2723 kuhio highway|kilauea|HI": {
+    "name": "Ally’s Cocina",
+    "osm": "node/13519548425",
+    "distance_m": 0,
+    "address": "5-2723 Kuhio Hwy",
+    "city": "Kilauea",
+    "state": "HI",
+    "resolved": "2026-09-05"
+  },
+  "12 north river street|batavia|IL": {
+    "name": "Sidecar Supper Club & Beer Garden",
+    "osm": "way/306952881",
+    "distance_m": 2,
+    "address": "12 N River St",
+    "city": "BATAVIA",
+    "state": "IL",
+    "resolved": "2026-09-05"
+  },
+  "155 south randall road|elgin|IL": {
+    "name": "Old Republic [Kitchen + Bar]",
+    "osm": "way/519425207",
+    "distance_m": 0,
+    "address": "155 S Randall Rd",
+    "city": "Elgin",
+    "state": "IL",
+    "resolved": "2026-09-05"
+  },
+  "500 north macarthur boulevard|springfield|IL": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "1015 state street|lemont|IL": {
+    "name": "Quarry Pub and Grill",
+    "osm": "way/565999879",
+    "distance_m": 0,
+    "address": "1015 state street",
+    "city": "Lemont",
+    "state": "IL",
+    "resolved": "2026-09-05"
+  },
+  "208 wabash street|michigan city|IN": {
+    "name": "Shoreline Brewery",
+    "osm": "way/496414915",
+    "distance_m": 32,
+    "address": "208 Wabash St",
+    "city": "Michigan City",
+    "state": "IN",
+    "resolved": "2026-09-05"
+  },
+  "4625 reliable street|ames|IA": {
+    "name": "Lockwood Cafe",
+    "osm": "node/9906013865",
+    "distance_m": 0,
+    "address": "4625 Reliable St",
+    "city": "Ames",
+    "state": "IA",
+    "resolved": "2026-09-05"
+  },
+  "9500 dice lane|lenexa|KS": {
+    "name": "Limitless Brewing",
+    "osm": "way/1410825074",
+    "distance_m": 2,
+    "address": "9500 Dice Ln",
+    "city": "Lenexa",
+    "state": "KS",
+    "resolved": "2026-09-05"
+  },
+  "11113 johnson drive|shawnee|KS": {
+    "name": "Transport Brewery",
+    "osm": "way/612349283",
+    "distance_m": 0,
+    "address": "11113 Johnson Dr",
+    "city": "Shawnee",
+    "state": "KS",
+    "resolved": "2026-09-05"
+  },
+  "347 hill road|lyman|ME": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "53 old post road|arundel|ME": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "58 alder street|portland|ME": {
+    "name": "Bayside Bowl",
+    "osm": "way/221648872",
+    "distance_m": 3,
+    "address": "58 Alder St",
+    "city": "Portland",
+    "state": "ME",
+    "resolved": "2026-09-05"
+  },
+  "2015 turkey point|essex|MD": {
+    "name": "Charly's Sue Creek",
+    "osm": "node/11712245936",
+    "distance_m": 7,
+    "address": "2015 Turkey Point Rd",
+    "city": "Essex",
+    "state": "MD",
+    "resolved": "2026-09-05"
+  },
+  "10221 wincopin circle|columbia|MD": {
+    "name": "The Columbia Collective Offshore",
+    "osm": "node/1689204090",
+    "distance_m": 18,
+    "address": "10221 Wincopin Circle",
+    "city": "Columbia",
+    "state": "MD",
+    "resolved": "2026-09-05"
+  },
+  "12250 clarksville pike|clarksville|MD": {
+    "name": "Momo Hub",
+    "osm": "node/10121769390",
+    "distance_m": 6,
+    "address": "12250 Clarksville Pike",
+    "city": "Clarksville",
+    "state": "MD",
+    "resolved": "2026-09-05"
+  },
+  "340 east baltimore street|taneytown, 21787|MD": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "2592 shuresville road|darlington|MD": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "102 central street|wellesley|MA": {
+    "name": "Lockheart",
+    "osm": "node/5269002035",
+    "distance_m": 0,
+    "address": "102 Central St",
+    "city": "Wellesley",
+    "state": "MA",
+    "resolved": "2026-09-05"
+  },
+  "40 belchertown street|three rivers|MA": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "26 millbury street|worcester|MA": {
+    "name": "Hotel Vernon",
+    "osm": "node/6352395463",
+    "distance_m": 44,
+    "address": "26 Millbury St",
+    "city": "Worcester",
+    "state": "MA",
+    "resolved": "2026-09-05"
+  },
+  "1667 massachusetts avenue|cambridge|MA": {
+    "name": "Lizard Lounge",
+    "osm": "node/6101451280",
+    "distance_m": 0,
+    "address": "1667 Massachusetts Ave",
+    "city": "Cambridge",
+    "state": "MA",
+    "resolved": "2026-09-05"
+  },
+  "3496 washington street|jamaica plain|MA": {
+    "name": "Midway Cafe",
+    "osm": "way/29884971",
+    "distance_m": 5,
+    "address": "3496 Washington St",
+    "city": "Jamaica Plain",
+    "state": "MA",
+    "resolved": "2026-09-05"
+  },
+  "13 lake avenue|mashpee|MA": {
+    "name": "Naukabout Brewery",
+    "osm": "way/214508478",
+    "distance_m": 0,
+    "address": "13 Lake Ave",
+    "city": "Mashpee",
+    "state": "MA",
+    "resolved": "2026-09-05"
+  },
+  "98 southwick road|westfield|MA": {
+    "name": "Skyline Beer Company",
+    "osm": "way/172178826",
+    "distance_m": 4,
+    "address": "98 Southwick Rd",
+    "city": "Westfield",
+    "state": "MA",
+    "resolved": "2026-09-05"
+  },
+  "56 island street|lawrence|MA": {
+    "name": "Spicket River Brewery",
+    "osm": "node/7821326761",
+    "distance_m": 16,
+    "address": "56 Island Street",
+    "city": "Lawrence",
+    "state": "MA",
+    "resolved": "2026-09-05"
+  },
+  "21 north street|medfield|MA": {
+    "name": "Zebra's Bistro Restaurant",
+    "osm": "node/1710315828",
+    "distance_m": 8,
+    "address": "21 North St",
+    "city": "Medfield",
+    "state": "MA",
+    "resolved": "2026-09-05"
+  },
+  "215 great road|shirley|MA": {
+    "name": "Bull Run",
+    "osm": "way/215970509",
+    "distance_m": 3,
+    "address": "215 GREAT ROAD",
+    "city": "Shirley",
+    "state": "MA",
+    "resolved": "2026-09-05"
+  },
+  "806 red drive|traverse city|MI": {
+    "name": "Left Foot Charley",
+    "osm": "node/2986726833",
+    "distance_m": 25,
+    "address": "806 Red Drive #100",
+    "city": "Traverse City",
+    "state": "MI",
+    "resolved": "2026-09-05"
+  },
+  "5781 street joseph avenue|stevensville|MI": {
+    "name": "Coast Out",
+    "osm": "node/13626412542",
+    "distance_m": 0,
+    "address": "5781 St. Joseph Ave",
+    "city": "Stevensville",
+    "state": "MI",
+    "resolved": "2026-09-05"
+  },
+  "2534 madison avenue|kansas city|MO": {
+    "name": "Boulevard Brewing Tours & Recreation Center",
+    "osm": "node/6222353366",
+    "distance_m": 15,
+    "address": "2534 Madison Ave",
+    "city": "Kansas City",
+    "state": "MO",
+    "resolved": "2026-09-05"
+  },
+  "736 south broadway|st. louis|MO": {
+    "name": "Broadway Oyster Bar",
+    "osm": "way/561309696",
+    "distance_m": 1,
+    "address": "736 S Broadway",
+    "city": "St. Louis",
+    "state": "MO",
+    "resolved": "2026-09-05"
+  },
+  "8180 big bend boulevard|webster groves|MO": {
+    "name": "Gazebo Park",
+    "osm": "way/481377704",
+    "distance_m": 22,
+    "address": "8180 Big Bend Blvd",
+    "city": "Webster Groves",
+    "state": "MO",
+    "resolved": "2026-09-05"
+  },
+  "1600 genessee street|kansas city|MO": {
+    "name": "Stockyards Brewing Co.",
+    "osm": "node/4477971847",
+    "distance_m": 46,
+    "address": "1600 Genessee St #100",
+    "city": "Kansas City",
+    "state": "MO",
+    "resolved": "2026-09-05"
+  },
+  "5249 pattison avenue|st. louis|MO": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "5 granite street|newmarket|NH": {
+    "name": "Stone Church",
+    "osm": "way/471554259",
+    "distance_m": 0,
+    "address": "5 Granite St",
+    "city": "Newmarket",
+    "state": "NH",
+    "resolved": "2026-09-05"
+  },
+  "201 main street|nashua|NH": {
+    "name": "Nashua Center for the Arts",
+    "osm": "node/13395731601",
+    "distance_m": 0,
+    "address": "201 Main Street",
+    "city": "Nashua",
+    "state": "NH",
+    "resolved": "2026-09-05"
+  },
+  "8 godwin avenue|ridgewood|NJ": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "1 piermont road|tenafly|NJ": {
+    "name": "Café Angelique",
+    "osm": "node/4324619189",
+    "distance_m": 0,
+    "address": "1 Piermont Rd",
+    "city": "Tenafly",
+    "state": "NJ",
+    "resolved": "2026-09-05"
+  },
+  "59 east mill road|long valley|NJ": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "101 walnut street|montclair|NJ": {
+    "name": "Montclair Brewery",
+    "osm": "way/962902180",
+    "distance_m": 2,
+    "address": "101 Walnut Street",
+    "city": "Montclair",
+    "state": "NJ",
+    "resolved": "2026-09-05"
+  },
+  "245 4th street|gloucester city|NJ": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "102 farnsworth avenue|bordentown|NJ": {
+    "name": "Tindall Road Brewing Co.",
+    "osm": "node/13119525601",
+    "distance_m": 0,
+    "address": "102 Farnsworth Ave",
+    "city": "Bordentown",
+    "state": "NJ",
+    "resolved": "2026-09-05"
+  },
+  "231 creamery pond road|chester|NY": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "581 state fair boulevard|syracuse|NY": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "47 22 30th avenue|astoria|NY": {
+    "name": "Shillelagh Tavern",
+    "osm": "node/9943391607",
+    "distance_m": 0,
+    "address": "47-22 30th Ave",
+    "city": "Astoria",
+    "state": "NY",
+    "resolved": "2026-09-05"
+  },
+  "2241 albany post road|walden|NY": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "5 25 46th avenue|long island city|NY": {
+    "name": "Culture Lab LIC",
+    "osm": "node/11249821851",
+    "distance_m": 33,
+    "address": "5-25 46th Ave",
+    "city": "Long Island City",
+    "state": "NY",
+    "resolved": "2026-09-05"
+  },
+  "72 south main street|homer|NY": {
+    "name": "Center for the Arts of Homer",
+    "osm": "way/966169725",
+    "distance_m": 11,
+    "address": "72 S Main St",
+    "city": "Homer",
+    "state": "NY",
+    "resolved": "2026-09-05"
+  },
+  "49 illinois street|buffalo|NY": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "299 washington street|newburgh|NY": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "47 phila street|saratoga springs|NY": {
+    "name": "Caffè Lena",
+    "osm": "node/9996551238",
+    "distance_m": 0,
+    "address": "47 Phila Street",
+    "city": "Saratoga Springs",
+    "state": "NY",
+    "resolved": "2026-09-05"
+  },
+  "291 tinker street|woodstock|NY": {
+    "name": "Bearsville Theater",
+    "osm": "way/1387419929",
+    "distance_m": 5,
+    "address": "291 Tinker St",
+    "city": "Woodstock",
+    "state": "NY",
+    "resolved": "2026-09-05"
+  },
+  "158 north main street|mooresville|NC": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "1313 south dickinson drive|leland|NC": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "520 haywood road|asheville|NC": {
+    "name": "One World Brewing",
+    "osm": "node/9301371498",
+    "distance_m": 6,
+    "address": "520 Haywood Road",
+    "city": "Asheville",
+    "state": "NC",
+    "resolved": "2026-09-05"
+  },
+  "1615 elizabeth avenue|charlotte|NC": {
+    "name": "Visulite Theatre",
+    "osm": "way/957552031",
+    "distance_m": 0,
+    "address": "1615 Elizabeth Ave",
+    "city": "Charlotte",
+    "state": "NC",
+    "resolved": "2026-09-05"
+  },
+  "523 south elm street|greensboro|NC": {
+    "name": "Ziggy's",
+    "osm": "node/12923115233",
+    "distance_m": 0,
+    "address": "523 S Elm St",
+    "city": "Greensboro",
+    "state": "NC",
+    "resolved": "2026-09-05"
+  },
+  "1930 wake forest road|raleigh|NC": {
+    "name": "Bowstring Pizza and Brewyard",
+    "osm": "way/47837723",
+    "distance_m": 40,
+    "address": "1930 Wake Forest Rd",
+    "city": "Raleigh",
+    "state": "NC",
+    "resolved": "2026-09-05"
+  },
+  "185 king street|brevard|NC": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "123 marion avenue|mansfield|OH": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "3187 linwood avenue|cincinnati|OH": {
+    "name": "The Redmoor",
+    "osm": "way/79014597",
+    "distance_m": 1,
+    "address": "3187 Linwood Avenue",
+    "city": "Cincinnati",
+    "state": "OH",
+    "resolved": "2026-09-05"
+  },
+  "3560 dorr street|toledo|OH": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "795 west market street|akron|OH": {
+    "name": "Ray's Pub",
+    "osm": "node/7290389773",
+    "distance_m": 17,
+    "address": "795 W Market St",
+    "city": "Akron",
+    "state": "OH",
+    "resolved": "2026-09-05"
+  },
+  "100 mill street|medina|OH": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "3301 madison road|cincinnati|OH": {
+    "name": "MadTree Brewing",
+    "osm": "way/61358910",
+    "distance_m": 10,
+    "address": "3301 Madison Rd",
+    "city": "Cincinnati",
+    "state": "OH",
+    "resolved": "2026-09-05"
+  },
+  "15711 waterloo road|cleveland|OH": {
+    "name": "Beachland Ballroom",
+    "osm": "node/2173366730",
+    "distance_m": 0,
+    "address": "15711 Waterloo Rd",
+    "city": "Cleveland",
+    "state": "OH",
+    "resolved": "2026-09-05"
+  },
+  "3524 greenville avenue|dallas|TX": {
+    "name": "The Granada Theater",
+    "osm": "way/465743042",
+    "distance_m": 3,
+    "address": "3524 Greenville Ave",
+    "city": "Dallas",
+    "state": "TX",
+    "resolved": "2026-09-05"
+  },
+  "1 sunfish drive|grapevine|TX": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "307 pearl parkway|san antonio|TX": {
+    "name": "Botika",
+    "osm": "node/5697017460",
+    "distance_m": 8,
+    "address": "307 Pearl Parkway",
+    "city": "San Antonio",
+    "state": "TX",
+    "resolved": "2026-09-05"
+  },
+  "423 south main|grapevine|TX": {
+    "name": "Tolbert’s Restaurant & Chili Parlor",
+    "osm": "node/9709761713",
+    "distance_m": 0,
+    "address": "423 S Main",
+    "city": "Grapevine",
+    "state": "TX",
+    "resolved": "2026-09-05"
+  },
+  "1 lake street|burlington|VT": {
+    "name": null,
+    "checked": "2026-09-05"
+  },
+  "210 main street|brattleboro|VT": {
+    "name": "Brattleboro Stone Church",
+    "osm": "way/284347545",
+    "distance_m": 1,
+    "address": "210 Main St",
+    "city": "Brattleboro",
+    "state": "VT",
+    "resolved": "2026-09-05"
+  },
+  "700 thimble shoals boulevard|newport news|VA": {
+    "name": "Tradition Brewing Company",
+    "osm": "node/5688788674",
+    "distance_m": 0,
+    "address": "700 Thimble Shoals Blvd",
+    "city": "Newport News",
+    "state": "VA",
+    "resolved": "2026-09-05"
+  },
+  "700 east main street|charlottesville|VA": {
+    "name": "Ting Pavilion",
+    "osm": "way/253276163",
+    "distance_m": 1,
+    "address": "700 E Main St",
+    "city": "Charlottesville",
+    "state": "VA",
+    "resolved": "2026-09-05"
+  },
+  "1603 ownby lane|richmond|VA": {
+    "name": "Main Line Brewery",
+    "osm": "node/12250660101",
+    "distance_m": 7,
+    "address": "1603 Ownby Lane",
+    "city": "Richmond",
+    "state": "VA",
+    "resolved": "2026-09-05"
+  },
+  "81 patch road|fort monroe|VA": {
+    "name": "Oozlefinch Beers & Blending",
+    "osm": "way/388342631",
+    "distance_m": 0,
+    "address": "81 Patch Rd",
+    "city": "Fort Monroe",
+    "state": "VA",
+    "resolved": "2026-09-05"
+  },
+  "421 monticello road|charlottesville|VA": {
+    "name": "Mockingbird",
+    "osm": "node/12869852235",
+    "distance_m": 0,
+    "address": "421 Monticello Rd",
+    "city": "Charlottesville",
+    "state": "VA",
+    "resolved": "2026-09-05"
+  },
+  "565 broadway|tacoma|WA": {
+    "name": "McMenamins Elks Temple",
+    "osm": "way/157286362",
+    "distance_m": 0,
+    "address": "565 Broadway",
+    "city": "Tacoma",
+    "state": "WA",
+    "resolved": "2026-09-05"
+  }
+}
