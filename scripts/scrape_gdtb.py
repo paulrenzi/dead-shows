@@ -80,6 +80,24 @@ def parse_state_page(html, state):
         desc = clean(tds[2])
         city = clean(tds[3])
 
+        # The band cell also carries the band's own site/Facebook link, the
+        # per-gig "Gig Info" link, and the band logo image. All three were
+        # being thrown away — the logo is the best photo source we have and
+        # the gig link is the only real per-show URL.
+        band_url = None
+        gig_url = None
+        for href in re.findall(r'<a[^>]+href=["\']([^"\']+)["\']', tds[0]):
+            if href.startswith("#") or "addmedia" in href.lower():
+                continue
+            if "/events/" in href or "gig" in href.lower():
+                gig_url = gig_url or href
+            elif band_url is None:
+                band_url = href
+        for onclick in re.findall(r"goPage\(['\"]([^'\"]+)['\"]", tds[0]):
+            band_url = band_url or onclick
+        logo_m = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', tds[0])
+        logo = logo_m.group(1) if logo_m else None
+
         if not (band and date_str and city):
             continue
         # Skip header-ish rows
@@ -87,7 +105,15 @@ def parse_state_page(html, state):
             continue
         if not re.search(r"[A-Z][a-z]{2}\s+\d{1,2}", date_str):
             continue
-        yield (band, date_str, desc, city)
+        # A city cell that swallowed markup (stray unclosed tag upstream) is
+        # not a city — take the band-cell text as junk and skip the row's
+        # geocode rather than minting "and The Band <https://..., MD".
+        if "http" in city or "<" in city or len(city) > 60:
+            city = ""
+        yield {
+            "band": band, "date_str": date_str, "desc": desc, "city": city,
+            "band_url": band_url, "gig_url": gig_url, "logo": logo,
+        }
 
 
 WEEKDAYS = {"mon", "tue", "wed", "thu", "fri", "sat", "sun"}
@@ -152,6 +178,30 @@ def save_json(path, data):
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
+# Fallback pins so a show is never dropped just because Nominatim shrugged at
+# its city. Approximate state centroids — good enough to keep the show in the
+# feed and on the map at a sane zoom.
+STATE_CENTROIDS = {
+    "AL": (32.81, -86.79), "AK": (61.37, -152.40), "AZ": (33.73, -111.43),
+    "AR": (34.97, -92.37), "CA": (36.12, -119.68), "CO": (39.06, -105.31),
+    "CT": (41.60, -72.76), "DE": (39.32, -75.51), "FL": (27.77, -81.69),
+    "GA": (33.04, -83.64), "HI": (21.09, -157.50), "ID": (44.24, -114.48),
+    "IL": (40.35, -88.99), "IN": (39.85, -86.26), "IA": (42.01, -93.21),
+    "KS": (38.53, -96.73), "KY": (37.67, -84.67), "LA": (31.17, -91.87),
+    "ME": (44.69, -69.38), "MD": (39.06, -76.80), "MA": (42.23, -71.53),
+    "MI": (43.33, -84.54), "MN": (45.69, -93.90), "MS": (32.74, -89.68),
+    "MO": (38.46, -92.29), "MT": (46.92, -110.45), "NE": (41.13, -98.27),
+    "NV": (38.31, -117.06), "NH": (43.45, -71.56), "NJ": (40.30, -74.52),
+    "NM": (34.84, -106.25), "NY": (42.17, -74.95), "NC": (35.63, -79.81),
+    "ND": (47.53, -99.78), "OH": (40.39, -82.76), "OK": (35.57, -96.93),
+    "OR": (44.57, -122.07), "PA": (40.59, -77.21), "RI": (41.68, -71.51),
+    "SC": (33.86, -80.95), "SD": (44.30, -99.44), "TN": (35.75, -86.69),
+    "TX": (31.05, -97.56), "UT": (40.15, -111.86), "VT": (44.05, -72.71),
+    "VA": (37.77, -78.17), "WA": (47.40, -121.49), "WV": (38.49, -80.95),
+    "WI": (44.27, -89.62), "WY": (42.76, -107.30),
+}
+
+
 def geocode_city(city, state, cache):
     key = f"{city.lower()}, {state.lower()}"
     if key in cache:
@@ -190,6 +240,8 @@ def main():
     today = date.today()
     all_shows = []
     discovered_bands = {}
+    band_links = {}
+    dropped = {"no_date": 0, "no_geo": 0}
 
     for st in STATES:
         url = f"http://www.gratefuldeadtributebands.com/showBandData.php?state={st}"
@@ -199,14 +251,26 @@ def main():
             print(f"FETCH FAIL {st}: {e}", file=sys.stderr)
             continue
         count = 0
-        for band, date_str, desc, city in parse_state_page(html, st):
+        approx = 0
+        for row in parse_state_page(html, st):
+            band, date_str, desc, city = row["band"], row["date_str"], row["desc"], row["city"]
             iso, t = parse_date_time(date_str, today)
             if not iso:
+                dropped["no_date"] += 1
                 continue
             venue = extract_venue(desc, city)
-            geo = geocode_city(city, st, geocache)
+            geo = geocode_city(city, st, geocache) if city else None
+            approximate = False
             if not geo:
-                continue
+                # Never drop a show over a geocode miss — pin it to the state
+                # and mark it so the UI can say the location is approximate.
+                cen = STATE_CENTROIDS.get(st)
+                if not cen:
+                    dropped["no_geo"] += 1
+                    continue
+                geo = {"lat": cen[0], "lng": cen[1]}
+                approximate = True
+                approx += 1
             slug = curated_by_lower_name.get(band.lower()) or slugify(band)
             if slug not in curated_slugs:
                 discovered_bands.setdefault(slug, {
@@ -215,6 +279,12 @@ def main():
                     "source": "gratefuldeadtributebands.com",
                     "state": st,
                 })
+            if row.get("band_url"):
+                band_links.setdefault(slug, {})["url"] = row["band_url"]
+            if row.get("logo"):
+                band_links.setdefault(slug, {})["logo"] = (
+                    urllib.parse.urljoin("http://www.gratefuldeadtributebands.com/", row["logo"])
+                )
             show_id = f"gdtb-{st}-{slug}-{iso}-{slugify(venue)[:30]}"
             all_shows.append({
                 "id": show_id,
@@ -226,23 +296,44 @@ def main():
                 "state": st,
                 "lat": geo["lat"],
                 "lng": geo["lng"],
+                "approxLocation": approximate,
                 "date": iso,
                 "time": t,
-                "url": url,
+                "url": row.get("gig_url") or url,
+                "listingUrl": url,
+                "bandUrl": row.get("band_url"),
                 "source": "gdtb",
                 "attractions": [band],
             })
             count += 1
         # Save cache progressively so a crash doesn't lose geocodes
         save_json(cache_path, geocache)
-        print(f"  {st}: {count} shows")
+        print(f"  {st}: {count} shows" + (f" ({approx} approx-located)" if approx else ""))
         time.sleep(1)  # polite to gratefuldeadtributebands.com
 
-    save_json(DATA / "gdtb-events.json", all_shows)
+    # A scrape that half-failed (site down mid-run, network flap) must not
+    # quietly commit a shrunken feed over a good one. Refuse below 60% of the
+    # previous run and leave the existing data in place.
+    events_path = DATA / "gdtb-events.json"
+    prev = load_cache(events_path) if events_path.exists() else []
+    if isinstance(prev, list) and len(prev) and len(all_shows) < 0.6 * len(prev):
+        print(
+            f"REFUSING to write: scraped {len(all_shows)} shows vs {len(prev)} previously "
+            f"({len(all_shows) / len(prev):.0%}). Source likely partial — keeping old data.",
+            file=sys.stderr,
+        )
+        return 2
+
+    save_json(events_path, all_shows)
     save_json(DATA / "gdtb-bands.json", list(discovered_bands.values()))
+    save_json(DATA / "gdtb-band-links.json", band_links)
     save_json(cache_path, geocache)
-    print(f"\nDone. {len(all_shows)} shows, {len(discovered_bands)} new bands.")
+    print(
+        f"\nDone. {len(all_shows)} shows, {len(discovered_bands)} new bands, "
+        f"{len(band_links)} band links/logos. Dropped: {dropped}."
+    )
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

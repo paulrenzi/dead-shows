@@ -59,18 +59,32 @@ The site supplements Ticketmaster with shows from [gratefuldeadtributebands.com]
 **Manual** (if you want to refresh sooner):
 
 ```sh
-python scripts/scrape_gdtb.py        # writes data/gdtb-events.json + data/gdtb-bands.json
+python scripts/scrape_gdtb.py        # writes data/gdtb-events.json + -bands.json + -band-links.json
 python scripts/fetch_band_photos.py  # writes data/band-photos.json + images/bands/*.jpg
 git add data/ images/bands/ && git commit -m "data: manual refresh" && git push
 ```
 
-Geocodes are cached in `data/geocode-cache.json` (don't delete it; cities don't move). Photo cache in `data/photo-cache.json` records hits + misses so we don't re-probe Deezer daily.
+Geocodes are cached in `data/geocode-cache.json` (don't delete it; cities don't move). Photo cache in `data/photo-cache.json` records hits + misses so we don't re-probe every source daily; it carries a `probe` version so that adding a new source automatically retries past misses.
+
+The scraper refuses to overwrite `gdtb-events.json` if a run comes back with under 60% of the previous show count — a half-failed scrape should leave yesterday's good data in place rather than quietly shipping a shrunken feed.
 
 ## Band photos
 
-Per-band performance photos are sourced via [Deezer's free artist search](https://api.deezer.com/) with strict case-insensitive name-match (no API key needed). About 50% of GDTB bands have a Deezer entry; the rest get the default Dead-themed SVG placeholder.
+Photos come from a source ladder, best first — the first one that returns a usable image wins:
 
-To override a wrong photo (e.g. Deezer returned a different band with the same name), edit `data/band-photos-manual.json`:
+| Source | What it covers |
+|--------|----------------|
+| `manual` | `data/band-photos-manual.json`, always wins |
+| `gdtb` | The band logo GDTB already hosts. Covers exactly this population of small regional tributes, and is by far the biggest contributor |
+| `deezer` | Strict normalized name match, no key |
+| `itunes` | Apple search API, no key — good on indie/self-released acts |
+| `wikipedia` | REST summary thumbnail, for the notable acts (Wolf Bros, JGB) |
+
+Current coverage is **~90% of listed bands** (258/286). Anything still missing gets the Dead-themed SVG placeholder.
+
+Any image whose exact bytes show up for 3+ different bands is treated as the source's generic "no photo" tile and dropped — a repeated placeholder looks worse than the Stealie default.
+
+To override a wrong photo, edit `data/band-photos-manual.json`:
 
 ```json
 {
@@ -86,6 +100,7 @@ The frontend is fully static — open `index.html` in a browser or run `python -
 
 ## Known limits
 
+- The default view is deliberately narrow (20 mi / next 30 days). To see the entire feed, hit the **All upcoming** chip — it snaps the radius to **Anywhere** and the date range to two years, which is the only way to get all ~875 shows on screen at once.
 - Ticketmaster misses small-venue tribute shows that only post on Bandsintown or band sites. To add coverage, layer Bandsintown (requires partner key) or scrape JamBase.
 - Nominatim has a 1 req/sec policy — fine for our usage, don't abuse.
 - All event data is whatever Ticketmaster says it is; venues sometimes have wrong coords.

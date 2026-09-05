@@ -138,6 +138,12 @@
     "state": "CA"
   },
   {
+    "slug": "jed-s-dog",
+    "name": "Jed's Dog",
+    "source": "gratefuldeadtributebands.com",
+    "state": "CA"
+  },
+  {
     "slug": "grateful-dames",
     "name": "Grateful Dames",
     "source": "gratefuldeadtributebands.com",
@@ -518,6 +524,12 @@
   {
     "slug": "born-cross-eyed-ky",
     "name": "Born Cross Eyed-KY",
+    "source": "gratefuldeadtributebands.com",
+    "state": "KY"
+  },
+  {
+    "slug": "i-dig-pig",
+    "name": "I Dig Pig",
     "source": "gratefuldeadtributebands.com",
     "state": "KY"
   },
@@ -1188,6 +1200,12 @@
     "state": "PA"
   },
   {
+    "slug": "dean-and-company",
+    "name": "Dean and Company",
+    "source": "gratefuldeadtributebands.com",
+    "state": "PA"
+  },
+  {
     "slug": "mostly-grateful",
     "name": "Mostly Grateful",
     "source": "gratefuldeadtributebands.com",
@@ -1350,6 +1368,12 @@
     "state": "TX"
   },
   {
+    "slug": "dead-sessions",
+    "name": "Dead Sessions",
+    "source": "gratefuldeadtributebands.com",
+    "state": "VT"
+  },
+  {
     "slug": "dark-star-project",
     "name": "Dark Star Project",
     "source": "gratefuldeadtributebands.com",
@@ -1424,6 +1448,12 @@
   {
     "slug": "deal-wa",
     "name": "DEAL WA",
+    "source": "gratefuldeadtributebands.com",
+    "state": "WA"
+  },
+  {
+    "slug": "uncle-ron-s-band",
+    "name": "Uncle Ron's Band",
     "source": "gratefuldeadtributebands.com",
     "state": "WA"
   },

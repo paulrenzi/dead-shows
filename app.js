@@ -13,8 +13,17 @@ let gdtbEvents = [];
 let bandPhotos = {};
 let lastEvents = [];
 let deepLinkApplied = false;
+let tmFeedFailed = false;
 const chipState = { date: "next30" };
 const DEFAULT_PHOTO = "images/default-band.svg";
+// The top of the radius slider means "no distance filter at all" — without it
+// there is no way to ask the site for the whole feed, and 850 of ~875 shows
+// were unreachable from the default view.
+const RADIUS_ANYWHERE = 500;
+function radiusMiles() {
+  const v = parseInt(document.getElementById("radius").value, 10);
+  return v >= RADIUS_ANYWHERE ? Infinity : v;
+}
 
 async function loadArtists() {
   const r = await fetch("artists.json");
@@ -82,6 +91,12 @@ function matchArtist(event) {
 // noise like Widespread Panic that TM returns from broad keyword matches.
 const DEAD_KEYWORDS = /grateful|garcia|jerry|deadhead|dead\s+(?:night|bowl|tribute|set|show|film|performance|cover)|live\s+dead|workingman'?s\s+dead|american\s+beauty/i;
 function isDeadRelated(event) {
+  // Everything from gratefuldeadtributebands.com is a Dead tribute by
+  // construction — that is the entire premise of the source. Running the
+  // keyword screen over it only ever throws away good shows whose band name
+  // happens not to contain a Dead word (Stella Blue's Band, Terrapin Flyer).
+  // The screen exists for broad Ticketmaster keyword hits. Keep it there.
+  if (event.source === "gdtb") return true;
   if (matchArtist(event)) return true;
   const t = (event.name || "") + " " + (event.attractions || []).join(" ");
   return DEAD_KEYWORDS.test(t);
@@ -103,7 +118,8 @@ function drawCenter() {
   centerMarker = L.marker([currentCenter.lat, currentCenter.lng], {
     title: currentCenter.label || "Search center",
   }).addTo(map).bindPopup(`<strong>${escapeHtml(currentCenter.label || "Center")}</strong>`);
-  const miles = parseInt(document.getElementById("radius").value, 10);
+  const miles = radiusMiles();
+  if (!Number.isFinite(miles)) return;   // Anywhere: no circle to draw
   radiusCircle = L.circle([currentCenter.lat, currentCenter.lng], {
     radius: miles * 1609.34,
     color: "#d32027",
@@ -146,6 +162,10 @@ function applyDateChip(chip) {
     const dow = today.getDay(); // 0=Sun … 6=Sat
     const daysUntilSunday = (7 - dow) % 7;
     end.setDate(end.getDate() + daysUntilSunday);
+  } else if (chip === "all") {
+    // Everything the sources know about. Pairs with dragging the radius to
+    // Anywhere to get the literal full feed.
+    end.setDate(end.getDate() + 730);
   } else { // next30
     end.setDate(end.getDate() + 30);
   }
@@ -186,22 +206,29 @@ async function resolveCenter() {
 }
 
 async function fetchEvents() {
-  const radius = parseInt(document.getElementById("radius").value, 10);
+  const radius = radiusMiles();
   const startDate = document.getElementById("start-date").value;
   const endDate = document.getElementById("end-date").value;
   const params = new URLSearchParams({
     lat: currentCenter.lat.toFixed(4),
     lng: currentCenter.lng.toFixed(4),
-    radius: String(radius),
+    // Ticketmaster caps its radius; ask for its max when we want everything.
+    radius: String(Number.isFinite(radius) ? radius : RADIUS_ANYWHERE),
     startDate,
     endDate,
   });
-  const r = await fetch(`${WORKER_URL}/events?${params.toString()}`);
-  if (!r.ok) {
-    const text = await r.text();
-    throw new Error(`Worker error ${r.status}: ${text.slice(0, 200)}`);
+  // Ticketmaster is the smaller half of the feed and the only part that can
+  // fail at request time. A worker outage must not take the ~875 scraped GDTB
+  // shows down with it — degrade to the local data instead of throwing.
+  let tmEvents = [];
+  try {
+    const r = await fetch(`${WORKER_URL}/events?${params.toString()}`);
+    if (!r.ok) throw new Error(`Worker error ${r.status}: ${(await r.text()).slice(0, 200)}`);
+    tmEvents = await r.json();
+  } catch (err) {
+    console.warn("Ticketmaster feed unavailable, showing scraped shows only:", err);
+    tmFeedFailed = true;
   }
-  const tmEvents = await r.json();
   const gdtb = filterGdtb(radius, startDate, endDate);
   return mergeAndDedupe(tmEvents, gdtb);
 }
@@ -214,6 +241,7 @@ function filterGdtb(radius, startDate, endDate) {
     const d = new Date(ev.date);
     if (start && d < start) return false;
     if (end && d > end) return false;
+    if (!Number.isFinite(radius)) return true;
     const dist = haversineMiles(currentCenter.lat, currentCenter.lng, ev.lat, ev.lng);
     return dist <= radius;
   }).map(ev => ({ ...ev, source: ev.source || "gdtb" }));
@@ -222,11 +250,15 @@ function filterGdtb(radius, startDate, endDate) {
 function mergeAndDedupe(tmEvents, gdtbEvts) {
   // Dedupe by (band-lower + date YYYY-MM-DD + city-lower). TM wins ties (has images/tickets).
   const seen = new Map();
+  // Venue is part of the key: a band genuinely can play two rooms in one city
+  // on one day (matinee + evening), and keying on band|day|city alone silently
+  // ate 24 such shows.
   const key = ev => {
     const band = ((ev.attractions && ev.attractions[0]) || ev.name || "").toLowerCase();
     const day = (ev.date || "").slice(0, 10);
     const city = (ev.city || "").toLowerCase();
-    return `${band}|${day}|${city}`;
+    const venue = (ev.venue || "").toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 20);
+    return `${band}|${day}|${city}|${venue}`;
   };
   for (const ev of tmEvents) {
     seen.set(key(ev), { ...ev, source: ev.source || "tm" });
@@ -468,7 +500,9 @@ function renderEvents(events) {
     counter.textContent = "0 shows";
     cards.innerHTML = `<div class="empty-state">
       <strong>No shows in that window.</strong>
-      Try a wider radius or push the date range out.
+      ${Number.isFinite(radiusMiles())
+        ? "Try a wider radius or push the date range out."
+        : "Nothing listed in that date range anywhere in the country."}
     </div>`;
     return;
   }
@@ -479,7 +513,8 @@ function renderEvents(events) {
     if (da !== db) return da - db;
     return (a.name || "").localeCompare(b.name || "");
   });
-  counter.textContent = `${events.length} show${events.length === 1 ? "" : "s"} found`;
+  counter.textContent = `${events.length} show${events.length === 1 ? "" : "s"} found` +
+    (tmFeedFailed ? " (ticketed listings unavailable right now)" : "");
 
   cards.innerHTML = events.map(renderCard).join("");
 
@@ -643,6 +678,7 @@ async function runSearch() {
   btn.disabled = true;
   cards.innerHTML = `<div class="loading">Searching Ticketmaster</div>`;
   counter.textContent = "Loading…";
+  tmFeedFailed = false;
   try {
     await resolveCenter();
     drawCenter();
@@ -662,6 +698,14 @@ function wireChips() {
   document.querySelectorAll(".chip").forEach(btn => {
     btn.addEventListener("click", () => {
       applyDateChip(btn.dataset.chip);
+      // "All upcoming" means all of them — a 20-mile ring around King of
+      // Prussia is not "all". Snap the radius to Anywhere so the chip does
+      // what it says on the tin.
+      if (btn.dataset.chip === "all") {
+        const r = document.getElementById("radius");
+        r.value = String(RADIUS_ANYWHERE);
+        r.dispatchEvent(new Event("input"));
+      }
       updateChipUi();
       runSearch();
     });
@@ -670,7 +714,10 @@ function wireChips() {
 
 function wireControls() {
   document.getElementById("radius").addEventListener("input", (e) => {
-    document.getElementById("radius-val").textContent = e.target.value;
+    const v = parseInt(e.target.value, 10);
+    document.getElementById("radius-val").textContent =
+      v >= RADIUS_ANYWHERE ? "Anywhere" : v;
+    document.getElementById("radius-unit").hidden = v >= RADIUS_ANYWHERE;
     drawCenter();
   });
   ["start-date", "end-date"].forEach(id => {

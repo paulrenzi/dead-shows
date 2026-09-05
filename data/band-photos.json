@@ -19,11 +19,6 @@
     "source": "deezer",
     "matchedName": "Phil Lesh & Friends"
   },
-  "mickey-hart-band": {
-    "photo": "images/bands/mickey-hart-band.jpg",
-    "source": "deezer",
-    "matchedName": "Mickey Hart Band"
-  },
   "bill-kreutzmann": {
     "photo": "images/bands/bill-kreutzmann.jpg",
     "source": "deezer",
@@ -53,11 +48,6 @@
     "photo": "images/bands/splintered-sunlight.jpg",
     "source": "deezer",
     "matchedName": "Splintered Sunlight"
-  },
-  "cubensis": {
-    "photo": "images/bands/cubensis.jpg",
-    "source": "deezer",
-    "matchedName": "Cubensis"
   },
   "shakedown": {
     "photo": "images/bands/shakedown.jpg",
@@ -94,11 +84,6 @@
     "source": "deezer",
     "matchedName": "BERTHA: Grateful Drag"
   },
-  "jerrys-middle-finger": {
-    "photo": "images/bands/jerrys-middle-finger.jpg",
-    "source": "deezer",
-    "matchedName": "Jerry's Middle Finger"
-  },
   "rock-and-roll-playhouse": {
     "photo": "images/bands/rock-and-roll-playhouse.jpg",
     "source": "deezer",
@@ -113,11 +98,6 @@
     "photo": "images/bands/dead-roses.jpg",
     "source": "deezer",
     "matchedName": "Dead Roses"
-  },
-  "scott-guberman": {
-    "photo": "images/bands/scott-guberman.jpg",
-    "source": "deezer",
-    "matchedName": "Scott Guberman"
   },
   "the-deadicated-project": {
     "photo": "images/bands/the-deadicated-project.jpg",
@@ -144,35 +124,10 @@
     "source": "deezer",
     "matchedName": "Big Sky"
   },
-  "built-to-last": {
-    "photo": "images/bands/built-to-last.jpg",
-    "source": "deezer",
-    "matchedName": "Built To Last"
-  },
-  "grateful-friends": {
-    "photo": "images/bands/grateful-friends.jpg",
-    "source": "deezer",
-    "matchedName": "감사하는 벗들 grateful friends"
-  },
-  "dead-on": {
-    "photo": "images/bands/dead-on.jpg",
-    "source": "deezer",
-    "matchedName": "Dead On"
-  },
-  "ace-friends": {
-    "photo": "images/bands/ace-friends.jpg",
-    "source": "deezer",
-    "matchedName": "ACE & Friends"
-  },
   "wolfman-jack": {
     "photo": "images/bands/wolfman-jack.jpg",
     "source": "deezer",
     "matchedName": "Wolfman Jack"
-  },
-  "shakedown-citi": {
-    "photo": "images/bands/shakedown-citi.jpg",
-    "source": "deezer",
-    "matchedName": "Shakedown Citi"
   },
   "crazy-fingers": {
     "photo": "images/bands/crazy-fingers.jpg",
@@ -183,11 +138,6 @@
     "photo": "images/bands/morning-dew.jpg",
     "source": "deezer",
     "matchedName": "Morning Dew"
-  },
-  "unlimited-devotion": {
-    "photo": "images/bands/unlimited-devotion.jpg",
-    "source": "deezer",
-    "matchedName": "Unlimited Devotion"
   },
   "mr-blotto": {
     "photo": "images/bands/mr-blotto.jpg",
@@ -219,11 +169,6 @@
     "source": "deezer",
     "matchedName": "New Potato Caboose"
   },
-  "moose-juice": {
-    "photo": "images/bands/moose-juice.jpg",
-    "source": "deezer",
-    "matchedName": "MOOSE JUICE"
-  },
   "deadbeat": {
     "photo": "images/bands/deadbeat.jpg",
     "source": "deezer",
@@ -248,11 +193,6 @@
     "photo": "images/bands/supercrunch.jpg",
     "source": "deezer",
     "matchedName": "Super Crunch"
-  },
-  "the-terrapins": {
-    "photo": "images/bands/the-terrapins.jpg",
-    "source": "deezer",
-    "matchedName": "The Terrapins"
   },
   "710-ashbury": {
     "photo": "images/bands/710-ashbury.jpg",
@@ -299,11 +239,6 @@
     "source": "deezer",
     "matchedName": "Half Past Dead"
   },
-  "delilah-jones": {
-    "photo": "images/bands/delilah-jones.jpg",
-    "source": "deezer",
-    "matchedName": "Delilah Jones"
-  },
   "tiger-rose": {
     "photo": "images/bands/tiger-rose.jpg",
     "source": "deezer",
@@ -318,16 +253,6 @@
     "photo": "images/bands/high-time.jpg",
     "source": "deezer",
     "matchedName": "Hightime"
-  },
-  "grateful-dudes": {
-    "photo": "images/bands/grateful-dudes.jpg",
-    "source": "deezer",
-    "matchedName": "Grateful Dudes"
-  },
-  "eternally-grateful": {
-    "photo": "images/bands/eternally-grateful.jpg",
-    "source": "deezer",
-    "matchedName": "Eternally Grateful"
   },
   "last-fair-deal": {
     "photo": "images/bands/last-fair-deal.jpg",
@@ -358,11 +283,6 @@
     "photo": "images/default-band.svg",
     "source": "manual"
   },
-  "blue-drew-and-the-magoos": {
-    "photo": "images/bands/blue-drew-and-the-magoos.jpg",
-    "source": "deezer",
-    "matchedName": "Blue Drew and the Magoos"
-  },
   "deadeye": {
     "photo": "images/bands/deadeye.jpg",
     "source": "deezer",
@@ -372,11 +292,6 @@
     "photo": "images/bands/bandolero.jpg",
     "source": "deezer",
     "matchedName": "Bandolero"
-  },
-  "dobbs-dead": {
-    "photo": "images/bands/dobbs-dead.jpg",
-    "source": "deezer",
-    "matchedName": "Dobbs Dead"
   },
   "boney-fingers": {
     "photo": "images/bands/boney-fingers.jpg",
@@ -408,16 +323,6 @@
     "source": "deezer",
     "matchedName": "Ship of Fools"
   },
-  "frankly-scarlet": {
-    "photo": "images/bands/frankly-scarlet.jpg",
-    "source": "deezer",
-    "matchedName": "Frankly Scarlet"
-  },
-  "dead-honey-collective": {
-    "photo": "images/bands/dead-honey-collective.jpg",
-    "source": "deezer",
-    "matchedName": "Dead Honey Collective"
-  },
   "dark-hollow": {
     "photo": "images/bands/dark-hollow.jpg",
     "source": "deezer",
@@ -433,11 +338,6 @@
     "source": "deezer",
     "matchedName": "The Kind"
   },
-  "cartesian-doubt": {
-    "photo": "images/bands/cartesian-doubt.jpg",
-    "source": "deezer",
-    "matchedName": "Cartesian Doubt"
-  },
   "wheel": {
     "photo": "images/bands/wheel.jpg",
     "source": "deezer",
@@ -447,11 +347,6 @@
     "photo": "images/bands/possum.jpg",
     "source": "deezer",
     "matchedName": "Possum"
-  },
-  "lost-pyramids": {
-    "photo": "images/bands/lost-pyramids.jpg",
-    "source": "deezer",
-    "matchedName": "Lost Pyramids"
   },
   "the-garcia-project": {
     "photo": "images/bands/the-garcia-project.jpg",
@@ -473,11 +368,6 @@
     "source": "deezer",
     "matchedName": "Better Weather"
   },
-  "the-dirty-middle": {
-    "photo": "images/bands/the-dirty-middle.jpg",
-    "source": "deezer",
-    "matchedName": "The Dirty Middle"
-  },
   "eyes-of-the-raven": {
     "photo": "images/bands/eyes-of-the-raven.jpg",
     "source": "deezer",
@@ -487,11 +377,6 @@
     "photo": "images/bands/bowser.jpg",
     "source": "deezer",
     "matchedName": "Bowser"
-  },
-  "so-many-roads": {
-    "photo": "images/bands/so-many-roads.jpg",
-    "source": "deezer",
-    "matchedName": "So Many Roads"
   },
   "thecause": {
     "photo": "images/bands/thecause.jpg",
@@ -538,11 +423,6 @@
     "source": "deezer",
     "matchedName": "Deadbolt"
   },
-  "free-flowing-musical-experience": {
-    "photo": "images/bands/free-flowing-musical-experience.jpg",
-    "source": "deezer",
-    "matchedName": "Free Flowing Musical Experience"
-  },
   "tiberius": {
     "photo": "images/bands/tiberius.jpg",
     "source": "deezer",
@@ -557,11 +437,6 @@
     "photo": "images/bands/into-the-blue.jpg",
     "source": "deezer",
     "matchedName": "Into the Blue"
-  },
-  "northstar-music": {
-    "photo": "images/bands/northstar-music.jpg",
-    "source": "deezer",
-    "matchedName": "Northstar Music"
   },
   "the-harvest": {
     "photo": "images/bands/the-harvest.jpg",
@@ -603,11 +478,6 @@
     "source": "deezer",
     "matchedName": "Mojo Hand"
   },
-  "promised-land": {
-    "photo": "images/bands/promised-land.jpg",
-    "source": "deezer",
-    "matchedName": "Promised Land"
-  },
   "the-noodles": {
     "photo": "images/bands/the-noodles.jpg",
     "source": "deezer",
@@ -622,5 +492,985 @@
     "photo": "images/bands/half-dead.jpg",
     "source": "deezer",
     "matchedName": "half dead"
+  },
+  "wolf-bros": {
+    "photo": "images/bands/wolf-bros.jpg",
+    "source": "wikipedia",
+    "matchedName": "Wolf Bros"
+  },
+  "half-step": {
+    "photo": "images/bands/half-step.jpg",
+    "source": "itunes",
+    "matchedName": "Half Step"
+  },
+  "cosmic-charlie": {
+    "photo": "images/bands/cosmic-charlie.jpg",
+    "source": "itunes",
+    "matchedName": "Cosmic Charlie"
+  },
+  "special-event-camp-rosewater": {
+    "photo": "images/bands/special-event-camp-rosewater.jpg",
+    "source": "gdtb",
+    "matchedName": "Special Event Camp Rosewater"
+  },
+  "rio-rosa": {
+    "photo": "images/bands/rio-rosa.jpg",
+    "source": "itunes",
+    "matchedName": "Rio Rosa"
+  },
+  "shakedown-street": {
+    "photo": "images/bands/shakedown-street.jpg",
+    "source": "wikipedia",
+    "matchedName": "Shakedown Street"
+  },
+  "the-deadheads": {
+    "photo": "images/bands/the-deadheads.jpg",
+    "source": "itunes",
+    "matchedName": "The Dead Heads"
+  },
+  "deadband": {
+    "photo": "images/bands/deadband.jpg",
+    "source": "wikipedia",
+    "matchedName": "Deadband"
+  },
+  "jerryland": {
+    "photo": "images/bands/jerryland.jpg",
+    "source": "itunes",
+    "matchedName": "Jerry Land"
+  },
+  "stella-blue": {
+    "photo": "images/bands/stella-blue.jpg",
+    "source": "itunes",
+    "matchedName": "Stella Blue"
+  },
+  "uncle-john-s-band": {
+    "photo": "images/bands/uncle-john-s-band.jpg",
+    "source": "wikipedia",
+    "matchedName": "Uncle John's Band"
+  },
+  "old-shoe": {
+    "photo": "images/bands/old-shoe.jpg",
+    "source": "itunes",
+    "matchedName": "Old Shoe"
+  },
+  "sunshine-daydream": {
+    "photo": "images/bands/sunshine-daydream.jpg",
+    "source": "wikipedia",
+    "matchedName": "Sunshine Daydream"
+  },
+  "stealin-the-farm": {
+    "photo": "images/bands/stealin-the-farm.jpg",
+    "source": "itunes",
+    "matchedName": "Stealin the Farm"
+  },
+  "alligator-wine": {
+    "photo": "images/bands/alligator-wine.jpg",
+    "source": "itunes",
+    "matchedName": "AlligatorWine"
+  },
+  "jerry-s-tone": {
+    "photo": "images/bands/jerry-s-tone.jpg",
+    "source": "itunes",
+    "matchedName": "Jerry Stone"
+  },
+  "raising-the-dead": {
+    "photo": "images/bands/raising-the-dead.jpg",
+    "source": "itunes",
+    "matchedName": "Raising the Dead"
+  },
+  "dead-sky": {
+    "photo": "images/bands/dead-sky.jpg",
+    "source": "itunes",
+    "matchedName": "Dead Sky"
+  },
+  "lovelight": {
+    "photo": "images/bands/lovelight.jpg",
+    "source": "deezer",
+    "matchedName": "Lovelight"
+  },
+  "dead-friends": {
+    "photo": "images/bands/dead-friends.jpg",
+    "source": "itunes",
+    "matchedName": "Dead Friends"
+  },
+  "workingman-s-dead": {
+    "photo": "images/bands/workingman-s-dead.jpg",
+    "source": "wikipedia",
+    "matchedName": "Workingman's Dead"
+  },
+  "city-news": {
+    "photo": "images/bands/city-news.jpg",
+    "source": "itunes",
+    "matchedName": "City News"
+  },
+  "zendog": {
+    "photo": "images/bands/zendog.jpg",
+    "source": "itunes",
+    "matchedName": "Zen Dog"
+  },
+  "steal-your-face": {
+    "photo": "images/bands/steal-your-face.jpg",
+    "source": "wikipedia",
+    "matchedName": "Steal Your Face"
+  },
+  "born-cross-eyed": {
+    "photo": "images/bands/born-cross-eyed.jpg",
+    "source": "wikipedia",
+    "matchedName": "Born Cross-Eyed"
+  },
+  "the-dead-reckoning": {
+    "photo": "images/bands/the-dead-reckoning.jpg",
+    "source": "itunes",
+    "matchedName": "The Dead Reckoning"
+  },
+  "the-deadlocks": {
+    "photo": "images/bands/the-deadlocks.jpg",
+    "source": "itunes",
+    "matchedName": "The Deadlocks"
+  },
+  "cubensis": {
+    "photo": "images/bands/cubensis.jpg",
+    "source": "gdtb",
+    "matchedName": "Cubensis"
+  },
+  "stella-blues-band": {
+    "photo": "images/bands/stella-blues-band.jpg",
+    "source": "gdtb",
+    "matchedName": "Stella Blue's Band"
+  },
+  "the-schwag": {
+    "photo": "images/bands/the-schwag.jpg",
+    "source": "gdtb",
+    "matchedName": "The Schwag"
+  },
+  "terrapin-flyer": {
+    "photo": "images/bands/terrapin-flyer.jpg",
+    "source": "gdtb",
+    "matchedName": "Terrapin Flyer"
+  },
+  "box-of-rain": {
+    "photo": "images/bands/box-of-rain.jpg",
+    "source": "gdtb",
+    "matchedName": "Box of Rain"
+  },
+  "cosmic-jerry-band": {
+    "photo": "images/bands/cosmic-jerry-band.jpg",
+    "source": "gdtb",
+    "matchedName": "Cosmic Jerry Band"
+  },
+  "steely-dead": {
+    "photo": "images/bands/steely-dead.jpg",
+    "source": "gdtb",
+    "matchedName": "Steely Dead"
+  },
+  "fairbanks-142": {
+    "photo": "images/bands/fairbanks-142.jpg",
+    "source": "gdtb",
+    "matchedName": "Fairbanks 142"
+  },
+  "the-stolen-faces": {
+    "photo": "images/bands/the-stolen-faces.jpg",
+    "source": "gdtb",
+    "matchedName": "The Stolen Faces"
+  },
+  "t-u-b-the-unknamed-band": {
+    "photo": "images/bands/t-u-b-the-unknamed-band.jpg",
+    "source": "gdtb",
+    "matchedName": "T.U.B The UnKnamed Band"
+  },
+  "legion-of-mario": {
+    "photo": "images/bands/legion-of-mario.jpg",
+    "source": "gdtb",
+    "matchedName": "Legion of Mario"
+  },
+  "prescott-jrad": {
+    "photo": "images/bands/prescott-jrad.jpg",
+    "source": "gdtb",
+    "matchedName": "Prescott JRAD"
+  },
+  "xtra-ticket": {
+    "photo": "images/bands/xtra-ticket.jpg",
+    "source": "gdtb",
+    "matchedName": "Xtra Ticket"
+  },
+  "friends-of-the-phamily": {
+    "photo": "images/bands/friends-of-the-phamily.jpg",
+    "source": "gdtb",
+    "matchedName": "Friends of the Phamily"
+  },
+  "scott-guberman": {
+    "photo": "images/bands/scott-guberman.jpg",
+    "source": "gdtb",
+    "matchedName": "Scott Guberman"
+  },
+  "one-man-gone": {
+    "photo": "images/bands/one-man-gone.jpg",
+    "source": "gdtb",
+    "matchedName": "One Man Gone"
+  },
+  "playing-the-dead": {
+    "photo": "images/bands/playing-the-dead.jpg",
+    "source": "gdtb",
+    "matchedName": "Playing The Dead"
+  },
+  "easy-wind": {
+    "photo": "images/bands/easy-wind.jpg",
+    "source": "gdtb",
+    "matchedName": "Easy Wind"
+  },
+  "pete-sawyer-the-lhmwg": {
+    "photo": "images/bands/pete-sawyer-the-lhmwg.jpg",
+    "source": "gdtb",
+    "matchedName": "Pete Sawyer & The LHMWG"
+  },
+  "saints-of-circumstance": {
+    "photo": "images/bands/saints-of-circumstance.jpg",
+    "source": "gdtb",
+    "matchedName": "Saints of Circumstance"
+  },
+  "scarlett-fyre": {
+    "photo": "images/bands/scarlett-fyre.jpg",
+    "source": "gdtb",
+    "matchedName": "Scarlett Fyre"
+  },
+  "shred-is-dead": {
+    "photo": "images/bands/shred-is-dead.jpg",
+    "source": "gdtb",
+    "matchedName": "Shred Is Dead"
+  },
+  "dark-hollow-ca": {
+    "photo": "images/bands/dark-hollow-ca.jpg",
+    "source": "gdtb",
+    "matchedName": "Dark Hollow CA"
+  },
+  "cats-on-the-bandstand": {
+    "photo": "images/bands/cats-on-the-bandstand.jpg",
+    "source": "gdtb",
+    "matchedName": "Cats on the Bandstand"
+  },
+  "grateful-dames": {
+    "photo": "images/bands/grateful-dames.jpg",
+    "source": "gdtb",
+    "matchedName": "Grateful Dames"
+  },
+  "melvin-seals-and-jgb": {
+    "photo": "images/bands/melvin-seals-and-jgb.jpg",
+    "source": "gdtb",
+    "matchedName": "Melvin Seals and JGB"
+  },
+  "electric-waste-band": {
+    "photo": "images/bands/electric-waste-band.jpg",
+    "source": "gdtb",
+    "matchedName": "Electric Waste Band"
+  },
+  "shakedown-citi": {
+    "photo": "images/bands/shakedown-citi.jpg",
+    "source": "gdtb",
+    "matchedName": "Shakedown Citi"
+  },
+  "easy-jim": {
+    "photo": "images/bands/easy-jim.jpg",
+    "source": "gdtb",
+    "matchedName": "Easy Jim"
+  },
+  "crick-wooder": {
+    "photo": "images/bands/crick-wooder.jpg",
+    "source": "gdtb",
+    "matchedName": "Crick Wooder"
+  },
+  "cowboys-dead": {
+    "photo": "images/bands/cowboys-dead.jpg",
+    "source": "gdtb",
+    "matchedName": "Cowboys Dead"
+  },
+  "tumbledown-shack": {
+    "photo": "images/bands/tumbledown-shack.jpg",
+    "source": "gdtb",
+    "matchedName": "Tumbledown Shack"
+  },
+  "dead-floyd": {
+    "photo": "images/bands/dead-floyd.jpg",
+    "source": "gdtb",
+    "matchedName": "Dead Floyd"
+  },
+  "dead-panic": {
+    "photo": "images/bands/dead-panic.jpg",
+    "source": "gdtb",
+    "matchedName": "Dead Panic"
+  },
+  "the-chilly-wind-revival": {
+    "photo": "images/bands/the-chilly-wind-revival.jpg",
+    "source": "gdtb",
+    "matchedName": "The Chilly Wind Revival"
+  },
+  "shakedown-sunday": {
+    "photo": "images/bands/shakedown-sunday.jpg",
+    "source": "gdtb",
+    "matchedName": "Shakedown Sunday"
+  },
+  "the-mystery-train-band": {
+    "photo": "images/bands/the-mystery-train-band.jpg",
+    "source": "gdtb",
+    "matchedName": "The Mystery Train Band"
+  },
+  "ace-friends": {
+    "photo": "images/bands/ace-friends.jpg",
+    "source": "gdtb",
+    "matchedName": "Ace & Friends"
+  },
+  "grateful-friends": {
+    "photo": "images/bands/grateful-friends.jpg",
+    "source": "gdtb",
+    "matchedName": "Grateful Friends"
+  },
+  "rob-glassman-band": {
+    "photo": "images/bands/rob-glassman-band.jpg",
+    "source": "gdtb",
+    "matchedName": "Rob Glassman Band"
+  },
+  "mystic-dead": {
+    "photo": "images/bands/mystic-dead.jpg",
+    "source": "gdtb",
+    "matchedName": "Mystic Dead"
+  },
+  "ct-grateful-dead-all-stars": {
+    "photo": "images/bands/ct-grateful-dead-all-stars.jpg",
+    "source": "gdtb",
+    "matchedName": "CT Grateful Dead All Stars"
+  },
+  "dead-on": {
+    "photo": "images/bands/dead-on.jpg",
+    "source": "gdtb",
+    "matchedName": "Dead On"
+  },
+  "throwing-stones-band": {
+    "photo": "images/bands/throwing-stones-band.jpg",
+    "source": "gdtb",
+    "matchedName": "Throwing Stones Band"
+  },
+  "foolish-heart-band": {
+    "photo": "images/bands/foolish-heart-band.jpg",
+    "source": "gdtb",
+    "matchedName": "Foolish Heart Band"
+  },
+  "mondo-tikis": {
+    "photo": "images/bands/mondo-tikis.jpg",
+    "source": "gdtb",
+    "matchedName": "Mondo Tikis"
+  },
+  "dead-set-florida": {
+    "photo": "images/bands/dead-set-florida.jpg",
+    "source": "gdtb",
+    "matchedName": "Dead Set Florida"
+  },
+  "spiral-light": {
+    "photo": "images/bands/spiral-light.jpg",
+    "source": "gdtb",
+    "matchedName": "Spiral Light"
+  },
+  "unlimited-devotion": {
+    "photo": "images/bands/unlimited-devotion.jpg",
+    "source": "gdtb",
+    "matchedName": "Unlimited Devotion"
+  },
+  "dead-all-over": {
+    "photo": "images/bands/dead-all-over.jpg",
+    "source": "gdtb",
+    "matchedName": "Dead All Over"
+  },
+  "dead-experienced": {
+    "photo": "images/bands/dead-experienced.jpg",
+    "source": "gdtb",
+    "matchedName": "Dead & Experienced"
+  },
+  "touch-of-dead": {
+    "photo": "images/bands/touch-of-dead.jpg",
+    "source": "gdtb",
+    "matchedName": "Touch of Dead"
+  },
+  "frankly-scarlet": {
+    "photo": "images/bands/frankly-scarlet.jpg",
+    "source": "gdtb",
+    "matchedName": "Frankly Scarlet"
+  },
+  "lazy-lightning-band": {
+    "photo": "images/bands/lazy-lightning-band.jpg",
+    "source": "gdtb",
+    "matchedName": "Lazy Lightning Band"
+  },
+  "moby-dead": {
+    "photo": "images/bands/moby-dead.jpg",
+    "source": "gdtb",
+    "matchedName": "Moby Dead"
+  },
+  "spies-of-the-world": {
+    "photo": "images/bands/spies-of-the-world.jpg",
+    "source": "gdtb",
+    "matchedName": "Spies Of The World"
+  },
+  "rock-rye": {
+    "photo": "images/bands/rock-rye.jpg",
+    "source": "gdtb",
+    "matchedName": "Rock & Rye"
+  },
+  "grateful-string-band": {
+    "photo": "images/bands/grateful-string-band.jpg",
+    "source": "gdtb",
+    "matchedName": "Grateful String Band"
+  },
+  "hyryder": {
+    "photo": "images/bands/hyryder.jpg",
+    "source": "gdtb",
+    "matchedName": "Hyryder"
+  },
+  "rusted-strings-band": {
+    "photo": "images/bands/rusted-strings-band.jpg",
+    "source": "gdtb",
+    "matchedName": "Rusted Strings Band"
+  },
+  "graciously-departed": {
+    "photo": "images/bands/graciously-departed.jpg",
+    "source": "gdtb",
+    "matchedName": "Graciously Departed"
+  },
+  "touch-of-grey-midwest": {
+    "photo": "images/bands/touch-of-grey-midwest.jpg",
+    "source": "gdtb",
+    "matchedName": "Touch of Grey Midwest"
+  },
+  "shakedown-strings": {
+    "photo": "images/bands/shakedown-strings.jpg",
+    "source": "gdtb",
+    "matchedName": "Shakedown Strings"
+  },
+  "kc-bones": {
+    "photo": "images/bands/kc-bones.jpg",
+    "source": "gdtb",
+    "matchedName": "KC Bones"
+  },
+  "born-cross-eyed-ky": {
+    "photo": "images/bands/born-cross-eyed-ky.jpg",
+    "source": "gdtb",
+    "matchedName": "Born Cross Eyed-KY"
+  },
+  "i-dig-pig": {
+    "photo": "images/bands/i-dig-pig.jpg",
+    "source": "gdtb",
+    "matchedName": "I Dig Pig"
+  },
+  "sans-souci-jgb-tribute": {
+    "photo": "images/bands/sans-souci-jgb-tribute.jpg",
+    "source": "gdtb",
+    "matchedName": "Sans Souci JGB Tribute"
+  },
+  "a-band-beyond-description": {
+    "photo": "images/bands/a-band-beyond-description.jpg",
+    "source": "gdtb",
+    "matchedName": "A Band Beyond Description"
+  },
+  "moose-juice": {
+    "photo": "images/bands/moose-juice.jpg",
+    "source": "gdtb",
+    "matchedName": "Moose Juice"
+  },
+  "rose-alley": {
+    "photo": "images/bands/rose-alley.jpg",
+    "source": "gdtb",
+    "matchedName": "Rose Alley"
+  },
+  "indeadnation": {
+    "photo": "images/bands/indeadnation.jpg",
+    "source": "gdtb",
+    "matchedName": "InDEADnation"
+  },
+  "grateful-allman-band-experience": {
+    "photo": "images/bands/grateful-allman-band-experience.jpg",
+    "source": "gdtb",
+    "matchedName": "Grateful Allman Band Experience"
+  },
+  "rays-of-violet": {
+    "photo": "images/bands/rays-of-violet.jpg",
+    "source": "gdtb",
+    "matchedName": "Rays of Violet"
+  },
+  "better-off-dead-band": {
+    "photo": "images/bands/better-off-dead-band.jpg",
+    "source": "gdtb",
+    "matchedName": "Better Off Dead Band"
+  },
+  "jack-a-roses": {
+    "photo": "images/bands/jack-a-roses.jpg",
+    "source": "gdtb",
+    "matchedName": "Jack-A-Roses"
+  },
+  "lobsterz-from-marz": {
+    "photo": "images/bands/lobsterz-from-marz.jpg",
+    "source": "gdtb",
+    "matchedName": "Lobsterz from Marz"
+  },
+  "diamond-blues": {
+    "photo": "images/bands/diamond-blues.jpg",
+    "source": "gdtb",
+    "matchedName": "Diamond Blues"
+  },
+  "august-west-co": {
+    "photo": "images/bands/august-west-co.jpg",
+    "source": "gdtb",
+    "matchedName": "August West & Co."
+  },
+  "quabog-river-blues-band": {
+    "photo": "images/bands/quabog-river-blues-band.jpg",
+    "source": "gdtb",
+    "matchedName": "Quabog River Blues Band"
+  },
+  "settle-down-easy": {
+    "photo": "images/bands/settle-down-easy.jpg",
+    "source": "gdtb",
+    "matchedName": "Settle Down Easy"
+  },
+  "legends-of-mary": {
+    "photo": "images/bands/legends-of-mary.jpg",
+    "source": "gdtb",
+    "matchedName": "Legends Of Mary"
+  },
+  "promised-land": {
+    "photo": "images/bands/promised-land.jpg",
+    "source": "gdtb",
+    "matchedName": "Promised Land"
+  },
+  "a-phine-connection": {
+    "photo": "images/bands/a-phine-connection.jpg",
+    "source": "gdtb",
+    "matchedName": "A Phine Connection"
+  },
+  "the-grateful-teds": {
+    "photo": "images/bands/the-grateful-teds.jpg",
+    "source": "gdtb",
+    "matchedName": "The Grateful Teds"
+  },
+  "cosmic-rose": {
+    "photo": "images/bands/cosmic-rose.jpg",
+    "source": "gdtb",
+    "matchedName": "Cosmic Rose"
+  },
+  "the-mighty-swells": {
+    "photo": "images/bands/the-mighty-swells.jpg",
+    "source": "gdtb",
+    "matchedName": "The Mighty Swells"
+  },
+  "quality-jerry": {
+    "photo": "images/bands/quality-jerry.jpg",
+    "source": "gdtb",
+    "matchedName": "Quality Jerry"
+  },
+  "china-rider": {
+    "photo": "images/bands/china-rider.jpg",
+    "source": "gdtb",
+    "matchedName": "China Rider"
+  },
+  "grateful-gals": {
+    "photo": "images/bands/grateful-gals.jpg",
+    "source": "gdtb",
+    "matchedName": "Grateful Gals"
+  },
+  "dream-of-the-wild": {
+    "photo": "images/bands/dream-of-the-wild.jpg",
+    "source": "gdtb",
+    "matchedName": "Dream Of The Wild"
+  },
+  "shotgun-ragtime-band": {
+    "photo": "images/bands/shotgun-ragtime-band.jpg",
+    "source": "gdtb",
+    "matchedName": "Shotgun Ragtime Band"
+  },
+  "the-terrapins": {
+    "photo": "images/bands/the-terrapins.jpg",
+    "source": "gdtb",
+    "matchedName": "The Terrapins"
+  },
+  "the-deadgummits": {
+    "photo": "images/bands/the-deadgummits.jpg",
+    "source": "gdtb",
+    "matchedName": "The Deadgummits"
+  },
+  "alligator-wine-st-louis": {
+    "photo": "images/bands/alligator-wine-st-louis.jpg",
+    "source": "gdtb",
+    "matchedName": "Alligator Wine St Louis"
+  },
+  "the-unbroken-chain": {
+    "photo": "images/bands/the-unbroken-chain.jpg",
+    "source": "gdtb",
+    "matchedName": "The Unbroken Chain"
+  },
+  "unbroken-chain-402": {
+    "photo": "images/bands/unbroken-chain-402.jpg",
+    "source": "gdtb",
+    "matchedName": "Unbroken Chain 402"
+  },
+  "catfish-john-revival-band": {
+    "photo": "images/bands/catfish-john-revival-band.jpg",
+    "source": "gdtb",
+    "matchedName": "Catfish John Revival Band"
+  },
+  "not-fade-away-band": {
+    "photo": "images/bands/not-fade-away-band.jpg",
+    "source": "gdtb",
+    "matchedName": "Not Fade Away Band"
+  },
+  "scarlet-magnolia": {
+    "photo": "images/bands/scarlet-magnolia.jpg",
+    "source": "gdtb",
+    "matchedName": "Scarlet Magnolia"
+  },
+  "achievers-band": {
+    "photo": "images/bands/achievers-band.jpg",
+    "source": "gdtb",
+    "matchedName": "Achievers Band"
+  },
+  "spider-daniels-band": {
+    "photo": "images/bands/spider-daniels-band.jpg",
+    "source": "gdtb",
+    "matchedName": "Spider Daniels Band"
+  },
+  "dead-to-the-core-ny": {
+    "photo": "images/bands/dead-to-the-core-ny.jpg",
+    "source": "gdtb",
+    "matchedName": "Dead To The Core-NY"
+  },
+  "this-old-engine": {
+    "photo": "images/bands/this-old-engine.jpg",
+    "source": "gdtb",
+    "matchedName": "This Old Engine"
+  },
+  "diomede-and-donovan": {
+    "photo": "images/bands/diomede-and-donovan.jpg",
+    "source": "gdtb",
+    "matchedName": "Diomede And Donovan"
+  },
+  "the-brian-st-john-band": {
+    "photo": "images/bands/the-brian-st-john-band.jpg",
+    "source": "gdtb",
+    "matchedName": "The Brian St John Band"
+  },
+  "diamond-eye-jack": {
+    "photo": "images/bands/diamond-eye-jack.jpg",
+    "source": "gdtb",
+    "matchedName": "Diamond Eye Jack"
+  },
+  "the-big-trip": {
+    "photo": "images/bands/the-big-trip.jpg",
+    "source": "gdtb",
+    "matchedName": "The Big Trip"
+  },
+  "be5d": {
+    "photo": "images/bands/be5d.jpg",
+    "source": "gdtb",
+    "matchedName": "Be5D"
+  },
+  "deadful-greats": {
+    "photo": "images/bands/deadful-greats.jpg",
+    "source": "gdtb",
+    "matchedName": "Deadful Greats"
+  },
+  "deadicated-friends": {
+    "photo": "images/bands/deadicated-friends.jpg",
+    "source": "gdtb",
+    "matchedName": "Deadicated & Friends"
+  },
+  "crickets-and-cicadas": {
+    "photo": "images/bands/crickets-and-cicadas.jpg",
+    "source": "gdtb",
+    "matchedName": "Crickets and Cicadas"
+  },
+  "mark-diomede-and-friends": {
+    "photo": "images/bands/mark-diomede-and-friends.jpg",
+    "source": "gdtb",
+    "matchedName": "Mark Diomede and Friends"
+  },
+  "northbound-train-nj": {
+    "photo": "images/bands/northbound-train-nj.jpg",
+    "source": "gdtb",
+    "matchedName": "Northbound Train - NJ"
+  },
+  "dead-alliance-buffalo": {
+    "photo": "images/bands/dead-alliance-buffalo.jpg",
+    "source": "gdtb",
+    "matchedName": "Dead Alliance Buffalo"
+  },
+  "nailed-shutt": {
+    "photo": "images/bands/nailed-shutt.jpg",
+    "source": "gdtb",
+    "matchedName": "Nailed Shutt"
+  },
+  "uncle-shoehorn": {
+    "photo": "images/bands/uncle-shoehorn.jpg",
+    "source": "gdtb",
+    "matchedName": "Uncle Shoehorn"
+  },
+  "half-step-li": {
+    "photo": "images/bands/half-step-li.jpg",
+    "source": "gdtb",
+    "matchedName": "Half Step LI"
+  },
+  "gratefully-yours": {
+    "photo": "images/bands/gratefully-yours.jpg",
+    "source": "gdtb",
+    "matchedName": "Gratefully Yours"
+  },
+  "j-and-the-tie-dyers": {
+    "photo": "images/bands/j-and-the-tie-dyers.jpg",
+    "source": "gdtb",
+    "matchedName": "J and the Tie Dyers"
+  },
+  "buffalo-dead-all-stars": {
+    "photo": "images/bands/buffalo-dead-all-stars.jpg",
+    "source": "gdtb",
+    "matchedName": "Buffalo Dead All Stars"
+  },
+  "minglewood-ny": {
+    "photo": "images/bands/minglewood-ny.jpg",
+    "source": "gdtb",
+    "matchedName": "Minglewood NY"
+  },
+  "deadbeats-ny": {
+    "photo": "images/bands/deadbeats-ny.jpg",
+    "source": "gdtb",
+    "matchedName": "Deadbeats-NY"
+  },
+  "dead-on-the-hudson": {
+    "photo": "images/bands/dead-on-the-hudson.jpg",
+    "source": "gdtb",
+    "matchedName": "Dead On the Hudson"
+  },
+  "sages-and-spirits": {
+    "photo": "images/bands/sages-and-spirits.jpg",
+    "source": "gdtb",
+    "matchedName": "Sages And Spirits"
+  },
+  "le-salty-dead": {
+    "photo": "images/bands/le-salty-dead.jpg",
+    "source": "gdtb",
+    "matchedName": "Le Salty Dead"
+  },
+  "bring-out-yer-dead": {
+    "photo": "images/bands/bring-out-yer-dead.jpg",
+    "source": "gdtb",
+    "matchedName": "Bring Out Yer Dead"
+  },
+  "grateful-dudes-nc": {
+    "photo": "images/bands/grateful-dudes-nc.jpg",
+    "source": "gdtb",
+    "matchedName": "Grateful Dudes NC"
+  },
+  "jgbcb": {
+    "photo": "images/bands/jgbcb.jpg",
+    "source": "gdtb",
+    "matchedName": "JGBCB"
+  },
+  "grass-is-dead": {
+    "photo": "images/bands/grass-is-dead.jpg",
+    "source": "gdtb",
+    "matchedName": "Grass Is Dead"
+  },
+  "the-dead-revival-band": {
+    "photo": "images/bands/the-dead-revival-band.jpg",
+    "source": "gdtb",
+    "matchedName": "The Dead Revival Band"
+  },
+  "dead-centric": {
+    "photo": "images/bands/dead-centric.jpg",
+    "source": "gdtb",
+    "matchedName": "Dead Centric"
+  },
+  "bosco-jigs": {
+    "photo": "images/bands/bosco-jigs.jpg",
+    "source": "gdtb",
+    "matchedName": "Bosco Jigs"
+  },
+  "ramble-on-bros": {
+    "photo": "images/bands/ramble-on-bros.jpg",
+    "source": "gdtb",
+    "matchedName": "Ramble On Bros"
+  },
+  "jimiller-band": {
+    "photo": "images/bands/jimiller-band.jpg",
+    "source": "gdtb",
+    "matchedName": "JiMiller Band"
+  },
+  "west-akron-fadeaway": {
+    "photo": "images/bands/west-akron-fadeaway.jpg",
+    "source": "gdtb",
+    "matchedName": "West Akron Fadeaway"
+  },
+  "grateful-kev": {
+    "photo": "images/bands/grateful-kev.jpg",
+    "source": "gdtb",
+    "matchedName": "Grateful Kev"
+  },
+  "definitely-dead": {
+    "photo": "images/bands/definitely-dead.jpg",
+    "source": "gdtb",
+    "matchedName": "Definitely Dead"
+  },
+  "token-rhymes": {
+    "photo": "images/bands/token-rhymes.jpg",
+    "source": "gdtb",
+    "matchedName": "Token Rhymes"
+  },
+  "caught-dead-handed": {
+    "photo": "images/bands/caught-dead-handed.jpg",
+    "source": "gdtb",
+    "matchedName": "Caught Dead Handed"
+  },
+  "dean-and-company": {
+    "photo": "images/bands/dean-and-company.jpg",
+    "source": "gdtb",
+    "matchedName": "Dean and Company"
+  },
+  "mostly-grateful": {
+    "photo": "images/bands/mostly-grateful.jpg",
+    "source": "gdtb",
+    "matchedName": "Mostly Grateful"
+  },
+  "samjamwich": {
+    "photo": "images/bands/samjamwich.jpg",
+    "source": "gdtb",
+    "matchedName": "SamJamwich"
+  },
+  "bloom-and-decay": {
+    "photo": "images/bands/bloom-and-decay.jpg",
+    "source": "gdtb",
+    "matchedName": "Bloom And Decay"
+  },
+  "jawn-of-the-dead": {
+    "photo": "images/bands/jawn-of-the-dead.jpg",
+    "source": "gdtb",
+    "matchedName": "Jawn of the Dead"
+  },
+  "pure-jerry": {
+    "photo": "images/bands/pure-jerry.jpg",
+    "source": "gdtb",
+    "matchedName": "Pure Jerry"
+  },
+  "steal-your-peach": {
+    "photo": "images/bands/steal-your-peach.jpg",
+    "source": "gdtb",
+    "matchedName": "Steal Your Peach"
+  },
+  "dread-the-dead": {
+    "photo": "images/bands/dread-the-dead.jpg",
+    "source": "gdtb",
+    "matchedName": "Dread The Dead"
+  },
+  "blue-drew-and-the-magoos": {
+    "photo": "images/bands/blue-drew-and-the-magoos.jpg",
+    "source": "gdtb",
+    "matchedName": "Blue Drew and the Magoos"
+  },
+  "so-many-rhodes": {
+    "photo": "images/bands/so-many-rhodes.jpg",
+    "source": "gdtb",
+    "matchedName": "So Many Rhodes"
+  },
+  "rose-wharf-band": {
+    "photo": "images/bands/rose-wharf-band.jpg",
+    "source": "gdtb",
+    "matchedName": "Rose Wharf Band"
+  },
+  "violin-river": {
+    "photo": "images/bands/violin-river.jpg",
+    "source": "gdtb",
+    "matchedName": "Violin River"
+  },
+  "ramble-on-rose-band": {
+    "photo": "images/bands/ramble-on-rose-band.jpg",
+    "source": "gdtb",
+    "matchedName": "Ramble On Rose Band"
+  },
+  "a-fine-connection": {
+    "photo": "images/bands/a-fine-connection.jpg",
+    "source": "gdtb",
+    "matchedName": "A Fine Connection"
+  },
+  "direwoof": {
+    "photo": "images/bands/direwoof.jpg",
+    "source": "gdtb",
+    "matchedName": "DireWoof"
+  },
+  "catfish-john": {
+    "photo": "images/bands/catfish-john.jpg",
+    "source": "gdtb",
+    "matchedName": "Catfish John"
+  },
+  "the-grateful-brothers": {
+    "photo": "images/bands/the-grateful-brothers.jpg",
+    "source": "gdtb",
+    "matchedName": "The Grateful Brothers"
+  },
+  "tin-roof-cats": {
+    "photo": "images/bands/tin-roof-cats.jpg",
+    "source": "gdtb",
+    "matchedName": "Tin Roof Cats"
+  },
+  "forgotten-space": {
+    "photo": "images/bands/forgotten-space.jpg",
+    "source": "gdtb",
+    "matchedName": "Forgotten Space"
+  },
+  "the-dead-thing": {
+    "photo": "images/bands/the-dead-thing.jpg",
+    "source": "gdtb",
+    "matchedName": "The Dead Thing"
+  },
+  "lone-star-dead": {
+    "photo": "images/bands/lone-star-dead.jpg",
+    "source": "gdtb",
+    "matchedName": "Lone Star Dead"
+  },
+  "country-dead": {
+    "photo": "images/bands/country-dead.jpg",
+    "source": "gdtb",
+    "matchedName": "Country Dead"
+  },
+  "dead-sessions": {
+    "photo": "images/bands/dead-sessions.jpg",
+    "source": "gdtb",
+    "matchedName": "Dead Sessions"
+  },
+  "dark-star-project": {
+    "photo": "images/bands/dark-star-project.jpg",
+    "source": "gdtb",
+    "matchedName": "Dark Star Project"
+  },
+  "hashbury-collective": {
+    "photo": "images/bands/hashbury-collective.jpg",
+    "source": "gdtb",
+    "matchedName": "Hashbury Collective"
+  },
+  "grateful-jed": {
+    "photo": "images/bands/grateful-jed.jpg",
+    "source": "gdtb",
+    "matchedName": "Grateful Jed"
+  },
+  "cats-on-the-blacktop": {
+    "photo": "images/bands/cats-on-the-blacktop.jpg",
+    "source": "gdtb",
+    "matchedName": "Cats On The Blacktop"
+  },
+  "andy-coe-band": {
+    "photo": "images/bands/andy-coe-band.jpg",
+    "source": "gdtb",
+    "matchedName": "Andy Coe Band"
+  },
+  "deal-wa": {
+    "photo": "images/bands/deal-wa.jpg",
+    "source": "gdtb",
+    "matchedName": "DEAL WA"
+  },
+  "jed-company": {
+    "photo": "images/bands/jed-company.jpg",
+    "source": "gdtb",
+    "matchedName": "Jed & Company"
   }
 }

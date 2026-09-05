@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
         crossorigin="">
-  <link rel="stylesheet" href="styles.css?v=16">
+  <link rel="stylesheet" href="styles.css?v=17">
 </head>
 <body>
 
@@ -56,6 +56,7 @@
       <button class="chip" data-chip="tonight" type="button">Tonight</button>
       <button class="chip" data-chip="weekend" type="button">This Weekend</button>
       <button class="chip chip--active" data-chip="next30" type="button">Next 30 days</button>
+      <button class="chip" data-chip="all" type="button">All upcoming</button>
     </div>
     <div class="strip-inner">
       <div class="strip-field strip-field--wide">
@@ -70,7 +71,7 @@
         <label class="strip-label" for="radius">Within</label>
         <div class="range-with-value">
           <input id="radius" type="range" min="10" max="500" step="10" value="20" aria-label="Search radius in miles">
-          <span class="range-value"><span id="radius-val">20</span> mi</span>
+          <span class="range-value"><span id="radius-val">20</span><span id="radius-unit"> mi</span></span>
         </div>
       </div>
 
@@ -120,6 +121,6 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
           integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
           crossorigin=""></script>
-  <script src="app.js?v=16"></script>
+  <script src="app.js?v=17"></script>
 </body>
 </html>
