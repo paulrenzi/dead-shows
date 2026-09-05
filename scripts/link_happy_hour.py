@@ -96,24 +96,45 @@ def split_address(addr):
     return street, tail, ""
 
 
+# Happy Hour Finder ships each zone as TWO files and the names do not say so.
+# `zone-<id>.json` is the venues that HAVE a published happy hour -- the board
+# itself, 472 venues. `venues-<id>.json` is the other 3,229: every licensed
+# premises it knows about and has no hours for.
+#
+# Reading only the second one is the mistake this whole integration was built
+# on. It matched 18 shows and reported that not one of them published a window,
+# which was true and unfalsifiable -- the file it was reading is by definition
+# the venues with no window. The same misreading produced "only 1 of 476 deal
+# venues carries a coordinate," recorded as a blocker on Happy Hour Finder's
+# side. 441 of them carried one all along.
+ZONE_FILES = ("zone-{}.json", "venues-{}.json")
+
+
 def load_hhf(local):
-    """Read Happy Hour Finder's published bundles, from the web or a checkout."""
+    """Read Happy Hour Finder's published bundles, from the web or a checkout.
+
+    Both files per zone, deal-bearing first so that where the same venue
+    appears in both it is the board's copy -- the one carrying the windows --
+    that wins the key.
+    """
     if local:
         base = Path(local) / "web" / "data"
         index = json.loads((base / "index.json").read_text(encoding="utf-8"))
         board = json.loads((base / "board-by-lid.json").read_text(encoding="utf-8"))
         zones = []
         for z in index.get("zones", []):
-            p = base / f"venues-{z['id']}.json"
-            if p.exists():
-                zones.append((z, json.loads(p.read_text(encoding="utf-8"))))
+            for pattern in ZONE_FILES:
+                p = base / pattern.format(z["id"])
+                if p.exists():
+                    zones.append((z, json.loads(p.read_text(encoding="utf-8"))))
     else:
         index = fetch_json(f"{HHF_DATA}/index.json")
         board = fetch_json(f"{HHF_DATA}/board-by-lid.json")
         zones = []
         for z in index.get("zones", []):
-            zones.append((z, fetch_json(f"{HHF_DATA}/venues-{z['id']}.json")))
-            time.sleep(0.1)
+            for pattern in ZONE_FILES:
+                zones.append((z, fetch_json(f"{HHF_DATA}/{pattern.format(z['id'])}")))
+                time.sleep(0.1)
     return index, board, zones
 
 
@@ -151,8 +172,8 @@ def main(argv):
             nk = venue_key(v.get("name", ""))
             if nk and city:
                 by_name.setdefault(f"{nk}|{city.lower()}|{state.upper()}", v)
-    print(f"Happy Hour Finder: {total} venues across {len(zones)} zones "
-          f"(built {index.get('built_at')})")
+    print(f"Happy Hour Finder: {total} venues across {len({z['id'] for z, _ in zones})} "
+          f"zones (built {index.get('built_at')})")
 
     links, matched = {}, 0
     for ev in events:
@@ -187,17 +208,48 @@ def main(argv):
                 continue
 
         lid = str(hit.get("lid") or hit.get("id") or "")
+        # The venue's own copy from the deal bundle if we matched it there;
+        # board-by-lid otherwise, which also resolves a second licence at the
+        # same bar (`also_lids`) that no venue row is keyed on.
         deals = []
-        for deal in (board.get(lid, {}) or {}).get("deals", []):
+        source = hit if hit.get("deals") else (board.get(lid) or {})
+        for deal in source.get("deals", []):
             for w in deal.get("windows", []):
                 if w.get("dow") and w.get("start") and w.get("end"):
                     deals.append({"dow": w["dow"], "start": w["start"], "end": w["end"]})
+        zone = hit.get("zone_id") or ""
+        # `#v=` alone is a dead link for most of what we match, and it fails
+        # SILENTLY -- the reader lands on the default board and concludes the
+        # button does nothing. Two separate reasons, both real:
+        #
+        #  * the board only boots the zones' DEAL bundles. A venue with no
+        #    published window arrives only with its zone's base, which the app
+        #    fetches only when the hash names a zone. Without `z=`, openVenue()
+        #    looks the id up in a list it was never in and returns.
+        #  * and for a venue with no window there is nothing to open anyway --
+        #    the sheet it would show is the "tell us this venue's hours" form.
+        #
+        # So: on the board, deep-link the venue and carry the zone so the
+        # lookup can succeed. Off the board, send the reader to that town's
+        # board, which is the honest answer to "where can I get a drink near
+        # this show" and the thing we can actually stand behind today.
+        on_board = bool(deals)
+        if lid and zone and on_board:
+            url = f"{HHF_BASE}/#z={zone}&v={lid}"
+        elif zone:
+            url = f"{HHF_BASE}/#z={zone}"
+        else:
+            url = HHF_BASE
         block = {
             "lid": lid,
             "name": hit.get("name"),
-            "zone": hit.get("zone_id"),
-            "zoneName": zone_name.get(hit.get("zone_id"), ""),
-            "url": f"{HHF_BASE}/#v={lid}" if lid else HHF_BASE,
+            "zone": zone,
+            "zoneName": zone_name.get(zone, ""),
+            "url": url,
+            # Whether this venue itself publishes a window, or we are only
+            # pointing at its town. The card says which; it must not imply the
+            # show's own venue has a happy hour when it does not.
+            "onBoard": on_board,
             "deals": deals,
             "match": how,
         }

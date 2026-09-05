@@ -190,9 +190,12 @@ function happyHourNote(ev) {
   const hhf = ev.hhf;
   if (!hhf || !hhf.url) return "";
   const win = (hhf.deals || []).find(d => d.dow === isoDow(ev.date));
+  // Same three cases app.js distinguishes -- keep them in step.
   const label = win
     ? `Happy hour ${clockLabel(win.start)}–${clockLabel(win.end)}`
-    : "See happy hour";
+    : hhf.onBoard
+      ? "Happy hour here"
+      : `Happy hours in ${hhf.zoneName || "the area"}`;
   return `<p class="card-hh"><a class="hh-link" href="${escapeHtml(hhf.url)}" target="_blank" rel="noreferrer">${escapeHtml(label)}</a></p>`;
 }
 

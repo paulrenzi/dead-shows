@@ -436,9 +436,15 @@ function happyHourNote(ev) {
   if (!hhf || !hhf.url) return "";
   const dow = isoDow(ev.date);
   const win = (hhf.deals || []).find(d => d.dow === dow);
+  // Three different things, and they must not read as one. This venue's own
+  // window on the night of the show; this venue is on the board but not on
+  // that day; or we know the town and not the venue. "See happy hour" said
+  // the first about all three, on a link that mostly opened nothing.
   const label = win
     ? `Happy hour ${clockLabel(win.start)}–${clockLabel(win.end)}`
-    : "See happy hour";
+    : hhf.onBoard
+      ? "Happy hour here"
+      : `Happy hours in ${hhf.zoneName || "the area"}`;
   return `<p class="card-hh"><a class="hh-link" href="${escapeHtml(hhf.url)}" target="_blank" rel="noreferrer">${escapeHtml(label)}</a></p>`;
 }
 

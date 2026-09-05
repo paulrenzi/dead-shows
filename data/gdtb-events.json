@@ -3882,7 +3882,8 @@
       "name": "Kelly's Logan House",
       "zone": "wilmington",
       "zoneName": "Wilmington",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=DE8ead3c7682",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=wilmington",
+      "onBoard": false,
       "deals": [],
       "match": "address"
     }
@@ -3914,7 +3915,8 @@
       "name": "Kelly's Logan House",
       "zone": "wilmington",
       "zoneName": "Wilmington",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=DE8ead3c7682",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=wilmington",
+      "onBoard": false,
       "deals": [],
       "match": "name"
     }
@@ -3941,17 +3943,18 @@
       "Deadband"
     ],
     "firstSeen": "2026-09-04",
+    "venueName": "Halftime Sports and Music",
+    "venueNameSource": "hhf",
     "hhf": {
       "lid": "DE2b6cbe5eab",
       "name": "Halftime Sports and Music",
       "zone": "newark_de",
       "zoneName": "Newark, DE",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=DE2b6cbe5eab",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=newark_de",
+      "onBoard": false,
       "deals": [],
       "match": "address"
-    },
-    "venueName": "Halftime Sports and Music",
-    "venueNameSource": "hhf"
+    }
   },
   {
     "id": "gdtb-FL-mondo-tikis-2026-09-04-pineda-inn-bar-grill",
@@ -15599,7 +15602,8 @@
       "name": "Freight Building",
       "zone": "souderton_harleysville",
       "zoneName": "Souderton / Harleysville",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=116360",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=souderton_harleysville",
+      "onBoard": false,
       "deals": [],
       "match": "address"
     }
@@ -15626,8 +15630,44 @@
       "Crickets and Cicadas"
     ],
     "firstSeen": "2026-09-04",
-    "venueName": "Free Will Brewery",
-    "venueNameSource": "osm"
+    "venueName": "Free Will Brewing",
+    "venueNameSource": "hhf",
+    "hhf": {
+      "lid": "65716",
+      "name": "Free Will Brewing",
+      "zone": "perkasie",
+      "zoneName": "Perkasie",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=perkasie&v=65716",
+      "onBoard": true,
+      "deals": [
+        {
+          "dow": 1,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 2,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 3,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 4,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 5,
+          "start": "16:00",
+          "end": "18:00"
+        }
+      ],
+      "match": "address"
+    }
   },
   {
     "id": "gdtb-PA-splintered-sunlight-2026-09-05-175-west-valley-forge-road",
@@ -15679,7 +15719,8 @@
       "name": "Artifact Brewing",
       "zone": "willow_grove_horsham",
       "zoneName": "Willow Grove / Horsham",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=96061",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=willow_grove_horsham",
+      "onBoard": false,
       "deals": [],
       "match": "name"
     }
@@ -15731,17 +15772,18 @@
       "Dean and Company"
     ],
     "firstSeen": "2026-09-04",
+    "venueName": "Bridgeport Rib House",
+    "venueNameSource": "hhf",
     "hhf": {
       "lid": "109158",
       "name": "Bridgeport Rib House",
       "zone": "norristown_bridgeport",
       "zoneName": "Norristown / Bridgeport",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=109158",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=norristown_bridgeport",
+      "onBoard": false,
       "deals": [],
       "match": "address"
-    },
-    "venueName": "Bridgeport Rib House",
-    "venueNameSource": "hhf"
+    }
   },
   {
     "id": "gdtb-PA-mostly-grateful-2026-09-06-221-pa-118",
@@ -15951,17 +15993,18 @@
       "Jawn of the Dead"
     ],
     "firstSeen": "2026-09-04",
+    "venueName": "Shere-E-Punjab",
+    "venueNameSource": "hhf",
     "hhf": {
       "lid": "61211",
       "name": "Shere-E-Punjab",
       "zone": "media",
       "zoneName": "Media",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=61211",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=media",
+      "onBoard": false,
       "deals": [],
       "match": "address"
-    },
-    "venueName": "Shere-E-Punjab",
-    "venueNameSource": "hhf"
+    }
   },
   {
     "id": "gdtb-PA-deal-2026-09-12-902-philadelphia-rd",
@@ -16219,17 +16262,18 @@
       "Be5D"
     ],
     "firstSeen": "2026-09-04",
+    "venueName": "The Gem - Spring City Speakeasy",
+    "venueNameSource": "hhf",
     "hhf": {
       "lid": "112263",
       "name": "The Gem - Spring City Speakeasy",
       "zone": "phoenixville",
       "zoneName": "Phoenixville",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=112263",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=phoenixville",
+      "onBoard": false,
       "deals": [],
       "match": "address"
-    },
-    "venueName": "The Gem - Spring City Speakeasy",
-    "venueNameSource": "hhf"
+    }
   },
   {
     "id": "gdtb-PA-deadband-2026-09-19-event-by-deadband",
@@ -16421,7 +16465,8 @@
       "name": "Rivet: Canteen & Assembly",
       "zone": "pottstown",
       "zoneName": "Pottstown",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=112557",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=pottstown",
+      "onBoard": false,
       "deals": [],
       "match": "name"
     }
@@ -16522,7 +16567,8 @@
       "name": "Brickette Lounge",
       "zone": "exton_downingtown",
       "zoneName": "Exton / Downingtown",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=111136",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=exton_downingtown",
+      "onBoard": false,
       "deals": [],
       "match": "name"
     }
@@ -16556,7 +16602,8 @@
       "name": "Bye Town",
       "zone": "souderton_harleysville",
       "zoneName": "Souderton / Harleysville",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=110102",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=souderton_harleysville",
+      "onBoard": false,
       "deals": [],
       "match": "address"
     }
@@ -16629,8 +16676,44 @@
       "DEAL"
     ],
     "firstSeen": "2026-09-04",
-    "venueName": "Free Will Brewery",
-    "venueNameSource": "osm"
+    "venueName": "Free Will Brewing",
+    "venueNameSource": "hhf",
+    "hhf": {
+      "lid": "65716",
+      "name": "Free Will Brewing",
+      "zone": "perkasie",
+      "zoneName": "Perkasie",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=perkasie&v=65716",
+      "onBoard": true,
+      "deals": [
+        {
+          "dow": 1,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 2,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 3,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 4,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 5,
+          "start": "16:00",
+          "end": "18:00"
+        }
+      ],
+      "match": "address"
+    }
   },
   {
     "id": "gdtb-PA-box-of-rain-2026-10-03-river-street-jazz-cafe",
@@ -16700,17 +16783,18 @@
       "KGB - Karl's Garcia Band"
     ],
     "firstSeen": "2026-09-04",
+    "venueName": "Shere-E-Punjab",
+    "venueNameSource": "hhf",
     "hhf": {
       "lid": "61211",
       "name": "Shere-E-Punjab",
       "zone": "media",
       "zoneName": "Media",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=61211",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=media",
+      "onBoard": false,
       "deals": [],
       "match": "address"
-    },
-    "venueName": "Shere-E-Punjab",
-    "venueNameSource": "hhf"
+    }
   },
   {
     "id": "gdtb-PA-steely-dead-2026-10-09-xl-live",
@@ -16780,17 +16864,18 @@
       "Box of Rain"
     ],
     "firstSeen": "2026-09-04",
+    "venueName": "World Cafe Live",
+    "venueNameSource": "hhf",
     "hhf": {
       "lid": "52424",
       "name": "World Cafe Live",
       "zone": "university_city",
       "zoneName": "Philadelphia — University City / West",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=52424",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=university_city",
+      "onBoard": false,
       "deals": [],
       "match": "address"
-    },
-    "venueName": "World Cafe Live",
-    "venueNameSource": "hhf"
+    }
   },
   {
     "id": "gdtb-PA-deadband-2026-10-10-troubles-end-brewing",
@@ -16813,7 +16898,38 @@
     "attractions": [
       "Deadband"
     ],
-    "firstSeen": "2026-09-04"
+    "firstSeen": "2026-09-04",
+    "hhf": {
+      "lid": "100226",
+      "name": "Troubles End Brewing",
+      "zone": "collegeville_trappe",
+      "zoneName": "Collegeville / Trappe",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=collegeville_trappe&v=100226",
+      "onBoard": true,
+      "deals": [
+        {
+          "dow": 2,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 3,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 4,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 5,
+          "start": "16:00",
+          "end": "18:00"
+        }
+      ],
+      "match": "name"
+    }
   },
   {
     "id": "gdtb-PA-splintered-sunlight-2026-10-10-23-east-lancaster-avenue",
@@ -16837,17 +16953,18 @@
       "Splintered Sunlight"
     ],
     "firstSeen": "2026-09-04",
+    "venueName": "Ardmore Music Hall",
+    "venueNameSource": "hhf",
     "hhf": {
       "lid": "95965",
       "name": "Ardmore Music Hall",
       "zone": "ardmore_bryn_mawr",
       "zoneName": "Ardmore / Bryn Mawr",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=95965",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=ardmore_bryn_mawr",
+      "onBoard": false,
       "deals": [],
       "match": "address"
-    },
-    "venueName": "Ardmore Music Hall",
-    "venueNameSource": "hhf"
+    }
   },
   {
     "id": "gdtb-PA-bertha-grateful-drag-2026-10-11-brooklyn-bowl-philadelphia",
@@ -16894,17 +17011,18 @@
       "Jerry's Middle Finger"
     ],
     "firstSeen": "2026-09-04",
+    "venueName": "Ardmore Music Hall",
+    "venueNameSource": "hhf",
     "hhf": {
       "lid": "95965",
       "name": "Ardmore Music Hall",
       "zone": "ardmore_bryn_mawr",
       "zoneName": "Ardmore / Bryn Mawr",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=95965",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=ardmore_bryn_mawr",
+      "onBoard": false,
       "deals": [],
       "match": "address"
-    },
-    "venueName": "Ardmore Music Hall",
-    "venueNameSource": "hhf"
+    }
   },
   {
     "id": "gdtb-PA-melvin-seals-and-jgb-2026-10-15-524-main-st",
@@ -17095,17 +17213,18 @@
       "Steal Your Peach"
     ],
     "firstSeen": "2026-09-04",
+    "venueName": "Ardmore Music Hall",
+    "venueNameSource": "hhf",
     "hhf": {
       "lid": "95965",
       "name": "Ardmore Music Hall",
       "zone": "ardmore_bryn_mawr",
       "zoneName": "Ardmore / Bryn Mawr",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=95965",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=ardmore_bryn_mawr",
+      "onBoard": false,
       "deals": [],
       "match": "address"
-    },
-    "venueName": "Ardmore Music Hall",
-    "venueNameSource": "hhf"
+    }
   },
   {
     "id": "gdtb-PA-deadband-2026-10-31-von-c-brewing-co",
@@ -17174,7 +17293,28 @@
     "attractions": [
       "Deadband"
     ],
-    "firstSeen": "2026-09-04"
+    "firstSeen": "2026-09-04",
+    "hhf": {
+      "lid": "69140",
+      "name": "Crooked Eye Brewery",
+      "zone": "willow_grove_horsham",
+      "zoneName": "Willow Grove / Horsham",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=willow_grove_horsham&v=69140",
+      "onBoard": true,
+      "deals": [
+        {
+          "dow": 5,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 4,
+          "start": "17:00",
+          "end": "19:00"
+        }
+      ],
+      "match": "name"
+    }
   },
   {
     "id": "gdtb-PA-crickets-and-cicadas-2026-11-07-410-e-walnut-st",
@@ -17198,8 +17338,44 @@
       "Crickets and Cicadas"
     ],
     "firstSeen": "2026-09-04",
-    "venueName": "Free Will Brewery",
-    "venueNameSource": "osm"
+    "venueName": "Free Will Brewing",
+    "venueNameSource": "hhf",
+    "hhf": {
+      "lid": "65716",
+      "name": "Free Will Brewing",
+      "zone": "perkasie",
+      "zoneName": "Perkasie",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=perkasie&v=65716",
+      "onBoard": true,
+      "deals": [
+        {
+          "dow": 1,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 2,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 3,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 4,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 5,
+          "start": "16:00",
+          "end": "18:00"
+        }
+      ],
+      "match": "address"
+    }
   },
   {
     "id": "gdtb-PA-zendog-2026-11-19-118-north-wayne-avenue",
@@ -17223,17 +17399,18 @@
       "Zendog"
     ],
     "firstSeen": "2026-09-04",
+    "venueName": "Jdm Wayne",
+    "venueNameSource": "hhf",
     "hhf": {
       "lid": "66143",
       "name": "Jdm Wayne",
       "zone": "wayne_radnor",
       "zoneName": "Wayne / Radnor",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=66143",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=wayne_radnor",
+      "onBoard": false,
       "deals": [],
       "match": "address"
-    },
-    "venueName": "Jdm Wayne",
-    "venueNameSource": "hhf"
+    }
   },
   {
     "id": "gdtb-PA-dread-the-dead-2026-11-22-208-210-west-state-st",
@@ -17257,17 +17434,18 @@
       "Dread The Dead"
     ],
     "firstSeen": "2026-09-04",
+    "venueName": "Shere-E-Punjab",
+    "venueNameSource": "hhf",
     "hhf": {
       "lid": "61211",
       "name": "Shere-E-Punjab",
       "zone": "media",
       "zoneName": "Media",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#v=61211",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=media",
+      "onBoard": false,
       "deals": [],
       "match": "address"
-    },
-    "venueName": "Shere-E-Punjab",
-    "venueNameSource": "hhf"
+    }
   },
   {
     "id": "gdtb-PA-box-of-rain-2026-11-25-sellersville-theater",
