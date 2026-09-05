@@ -28,6 +28,7 @@ import re
 import sys
 import time
 import urllib.request
+from urllib.parse import quote
 from math import atan2, cos, radians, sin, sqrt
 from pathlib import Path
 
@@ -234,10 +235,34 @@ def main(argv):
         # board, which is the honest answer to "where can I get a drink near
         # this show" and the thing we can actually stand behind today.
         on_board = bool(deals)
+
+        # "when you click on that, it should show you a list for that town
+        # sorted by distance from the venue." The board already ranks by
+        # distance from an origin; `near=` lets this link choose that origin,
+        # so the whole feature is a coordinate and a label on the URL. No list
+        # is duplicated onto the card, and every other consumer of the board
+        # gets the same sort for free.
+        #
+        # Prefer the matched venue's own pin: it is a PLCB licence geocode of
+        # the same building, whereas the event's coordinate is only trustworthy
+        # at `locationPrecision == "venue"` and is otherwise the town.
+        origin = None
+        if hit.get("lat") is not None and hit.get("lng") is not None:
+            origin = (hit["lat"], hit["lng"])
+        elif ev.get("locationPrecision") == "venue" and ev.get("lat") is not None:
+            origin = (ev["lat"], ev["lng"])
+
+        near = ""
+        if origin and zone:
+            label = ev.get("venueName") or hit.get("name") or ""
+            near = f"&near={origin[0]:.6f},{origin[1]:.6f}"
+            if label:
+                near += "&from=" + quote(label, safe="")
+
         if lid and zone and on_board:
-            url = f"{HHF_BASE}/#z={zone}&v={lid}"
+            url = f"{HHF_BASE}/#z={zone}&v={lid}{near}"
         elif zone:
-            url = f"{HHF_BASE}/#z={zone}"
+            url = f"{HHF_BASE}/#z={zone}{near}"
         else:
             url = HHF_BASE
         block = {

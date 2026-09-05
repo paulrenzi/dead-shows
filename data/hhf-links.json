@@ -7,7 +7,7 @@
       "name": "Kelly's Logan House",
       "zone": "wilmington",
       "zoneName": "Wilmington",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=wilmington",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=wilmington&near=39.758250,-75.562376&from=Kelly%27s%20Logan%20House",
       "onBoard": false,
       "deals": [],
       "match": "address"
@@ -17,7 +17,7 @@
       "name": "Kelly's Logan House",
       "zone": "wilmington",
       "zoneName": "Wilmington",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=wilmington",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=wilmington&near=39.758250,-75.562376&from=Kelly%27s%20Logan%20House",
       "onBoard": false,
       "deals": [],
       "match": "name"
@@ -27,7 +27,7 @@
       "name": "Halftime Sports and Music",
       "zone": "newark_de",
       "zoneName": "Newark, DE",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=newark_de",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=newark_de&near=39.627508,-75.746296&from=Halftime%20Sports%20and%20Music",
       "onBoard": false,
       "deals": [],
       "match": "address"
@@ -37,7 +37,7 @@
       "name": "Freight Building",
       "zone": "souderton_harleysville",
       "zoneName": "Souderton / Harleysville",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=souderton_harleysville",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=souderton_harleysville&near=40.308612,-75.319471&from=Freight%20Building",
       "onBoard": false,
       "deals": [],
       "match": "address"
@@ -47,7 +47,7 @@
       "name": "Free Will Brewing",
       "zone": "perkasie",
       "zoneName": "Perkasie",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=perkasie&v=65716",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=perkasie&v=65716&near=40.365278,-75.288140&from=Free%20Will%20Brewing",
       "onBoard": true,
       "deals": [
         {
@@ -93,7 +93,7 @@
       "name": "Bridgeport Rib House",
       "zone": "norristown_bridgeport",
       "zoneName": "Norristown / Bridgeport",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=norristown_bridgeport",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=norristown_bridgeport&near=40.100443,-75.348939&from=Bridgeport%20Rib%20House",
       "onBoard": false,
       "deals": [],
       "match": "address"
@@ -103,7 +103,7 @@
       "name": "Shere-E-Punjab",
       "zone": "media",
       "zoneName": "Media",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=media",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=media&near=39.918253,-75.392509&from=Shere-E-Punjab",
       "onBoard": false,
       "deals": [],
       "match": "address"
@@ -113,7 +113,7 @@
       "name": "The Gem - Spring City Speakeasy",
       "zone": "phoenixville",
       "zoneName": "Phoenixville",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=phoenixville",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=phoenixville&near=40.179037,-75.547002&from=The%20Gem%20-%20Spring%20City%20Speakeasy",
       "onBoard": false,
       "deals": [],
       "match": "address"
@@ -123,7 +123,7 @@
       "name": "Rivet: Canteen & Assembly",
       "zone": "pottstown",
       "zoneName": "Pottstown",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=pottstown",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=pottstown&near=40.245166,-75.648948&from=Rivet%3A%20Canteen%20%26%20Assembly",
       "onBoard": false,
       "deals": [],
       "match": "name"
@@ -143,7 +143,7 @@
       "name": "Bye Town",
       "zone": "souderton_harleysville",
       "zoneName": "Souderton / Harleysville",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=souderton_harleysville",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=souderton_harleysville&near=40.292612,-75.274024&from=Bye%20Town",
       "onBoard": false,
       "deals": [],
       "match": "address"
@@ -153,7 +153,7 @@
       "name": "Free Will Brewing",
       "zone": "perkasie",
       "zoneName": "Perkasie",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=perkasie&v=65716",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=perkasie&v=65716&near=40.365278,-75.288140&from=Free%20Will%20Brewing",
       "onBoard": true,
       "deals": [
         {
@@ -189,7 +189,7 @@
       "name": "Shere-E-Punjab",
       "zone": "media",
       "zoneName": "Media",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=media",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=media&near=39.918253,-75.392509&from=Shere-E-Punjab",
       "onBoard": false,
       "deals": [],
       "match": "address"
@@ -199,7 +199,7 @@
       "name": "World Cafe Live",
       "zone": "university_city",
       "zoneName": "Philadelphia — University City / West",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=university_city",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=university_city&near=39.952161,-75.185151&from=World%20Cafe%20Live",
       "onBoard": false,
       "deals": [],
       "match": "address"
@@ -209,7 +209,7 @@
       "name": "Troubles End Brewing",
       "zone": "collegeville_trappe",
       "zoneName": "Collegeville / Trappe",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=collegeville_trappe&v=100226",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=collegeville_trappe&v=100226&near=40.185228,-75.452495&from=Troubles%20End%20Brewing",
       "onBoard": true,
       "deals": [
         {
@@ -240,7 +240,7 @@
       "name": "Ardmore Music Hall",
       "zone": "ardmore_bryn_mawr",
       "zoneName": "Ardmore / Bryn Mawr",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=ardmore_bryn_mawr",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=ardmore_bryn_mawr&near=40.007598,-75.289963&from=Ardmore%20Music%20Hall",
       "onBoard": false,
       "deals": [],
       "match": "address"
@@ -250,7 +250,7 @@
       "name": "Ardmore Music Hall",
       "zone": "ardmore_bryn_mawr",
       "zoneName": "Ardmore / Bryn Mawr",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=ardmore_bryn_mawr",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=ardmore_bryn_mawr&near=40.007598,-75.289963&from=Ardmore%20Music%20Hall",
       "onBoard": false,
       "deals": [],
       "match": "address"
@@ -260,7 +260,7 @@
       "name": "Ardmore Music Hall",
       "zone": "ardmore_bryn_mawr",
       "zoneName": "Ardmore / Bryn Mawr",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=ardmore_bryn_mawr",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=ardmore_bryn_mawr&near=40.007598,-75.289963&from=Ardmore%20Music%20Hall",
       "onBoard": false,
       "deals": [],
       "match": "address"
@@ -270,7 +270,7 @@
       "name": "Crooked Eye Brewery",
       "zone": "willow_grove_horsham",
       "zoneName": "Willow Grove / Horsham",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=willow_grove_horsham&v=69140",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=willow_grove_horsham&v=69140&near=40.179357,-75.104846&from=Crooked%20Eye%20Brewery",
       "onBoard": true,
       "deals": [
         {
@@ -291,7 +291,7 @@
       "name": "Free Will Brewing",
       "zone": "perkasie",
       "zoneName": "Perkasie",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=perkasie&v=65716",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=perkasie&v=65716&near=40.365278,-75.288140&from=Free%20Will%20Brewing",
       "onBoard": true,
       "deals": [
         {
@@ -337,7 +337,7 @@
       "name": "Shere-E-Punjab",
       "zone": "media",
       "zoneName": "Media",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=media",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=media&near=39.918253,-75.392509&from=Shere-E-Punjab",
       "onBoard": false,
       "deals": [],
       "match": "address"
