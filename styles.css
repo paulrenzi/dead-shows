@@ -16,8 +16,34 @@
   --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.13);
   --radius: 22px;
   --radius-sm: 14px;
+  --radius-xs: 10px;
   --pin-core: var(--dead-red);
   --pin-tribute: var(--dead-blue);
+  /* A card sitting on the page and a card sitting inside the sticky rail want
+     slightly different grounds; naming them keeps the dark override honest. */
+  --surface-sunk: #efe9de;
+  --surface-hover: #fffdf9;
+  --rail: rgba(26, 26, 26, 0.06);
+  /* Published by app.js from the strip's measured height — the sticky map
+     column is positioned against it, and the strip wraps at narrow widths. */
+  --strip-h: 132px;
+  --shell-w: 1300px;
+  /* Pills and a few other painted surfaces are TOKENS, not rules overridden
+     inside the dark block. The dark block sits at the top of this file, so a
+     component rule in it loses to the equal-specificity light rule further
+     down — which is why the dark pill colours never actually applied. Only
+     :root is redefined for dark now, and :root always wins that way. */
+  --pill-dist-bg: rgba(46, 92, 184, 0.1);
+  --pill-dist-fg: var(--dead-blue-deep);
+  --pill-dist-line: rgba(46, 92, 184, 0.45);
+  --pill-core-bg: rgba(211, 32, 39, 0.1);
+  --pill-core-fg: var(--dead-red-deep);
+  --pill-trib-bg: rgba(26, 26, 26, 0.06);
+  --pill-trib-fg: var(--muted);
+  --pill-price-bg: rgba(60, 132, 70, 0.14);
+  --pill-price-fg: #2a6b34;
+  --toast-bg: rgba(26, 26, 26, 0.92);
+  --map-ground: linear-gradient(135deg, #e8e4dc 0%, #d4cfc4 100%);
 }
 
 /* Shows happen at night and this gets opened in a parking lot. Only the
@@ -36,15 +62,21 @@
     --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.55);
     --shadow-lg: 0 18px 50px rgba(0, 0, 0, 0.65);
     --pin-tribute: #7ea2f0;
+    --surface-sunk: #15111c;
+    --surface-hover: #1f1a29;
+    --rail: rgba(243, 238, 231, 0.07);
+    --pill-dist-bg: rgba(126, 162, 240, 0.18);
+    --pill-dist-fg: #c6d7ff;
+    --pill-dist-line: rgba(126, 162, 240, 0.55);
+    --pill-core-bg: rgba(211, 32, 39, 0.26);
+    --pill-core-fg: #ffa8ab;
+    --pill-trib-bg: rgba(243, 238, 231, 0.09);
+    --pill-trib-fg: var(--muted);
+    --pill-price-bg: rgba(96, 190, 116, 0.18);
+    --pill-price-fg: #93e0a3;
+    --toast-bg: #2a2431;
+    --map-ground: linear-gradient(135deg, #1b1720 0%, #12101a 100%);
   }
-  .meta-pill.distance { background: rgba(126, 162, 240, 0.16); color: #b9cdff; }
-  .meta-pill.tier-core { background: rgba(211, 32, 39, 0.22); color: #ff9ea1; }
-  .meta-pill.tier-tribute { background: rgba(243, 238, 231, 0.08); color: var(--muted); }
-  .meta-pill.price { background: rgba(96, 190, 116, 0.16); color: #8fdc9f; }
-  .card-date { color: var(--accent-deep); }
-  .toast { background: #2a2431; border: 1px solid var(--border); }
-  /* CARTO dark tiles already carry their own contrast; don't double-darken. */
-  .map { background: linear-gradient(135deg, #1b1720 0%, #12101a 100%); }
 }
 
 .sr-only {
@@ -100,7 +132,7 @@ button { font: inherit; cursor: pointer; }
 .hero-content {
   position: relative;
   z-index: 1;
-  width: min(1040px, calc(100% - 3rem));
+  width: min(var(--shell-w), calc(100% - 3rem));
   margin: 0 auto;
   padding: 4rem 0 3.5rem;
   color: #fff;
@@ -167,50 +199,55 @@ button { font: inherit; cursor: pointer; }
 .leaflet-bottom { z-index: 400 !important; }
 
 .chip-row {
-  width: min(1040px, calc(100% - 3rem));
+  width: min(var(--shell-w), calc(100% - 3rem));
   margin: 0 auto;
-  padding: 0.85rem 0 0.55rem;
+  padding: 0.75rem 0 0;
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   align-items: center;
-  border-bottom: 1px dashed var(--border);
 }
+/* Four mutually exclusive date presets are a segmented control, not four
+   loose buttons — one track, one lit segment, so the current choice reads
+   without having to compare all four. */
+.chip-track {
+  display: inline-flex;
+  gap: 0.2rem;
+  padding: 0.22rem;
+  background: var(--rail);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  max-width: 100%;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.chip-track::-webkit-scrollbar { display: none; }
 .chip {
-  padding: 0.45rem 0.95rem;
-  background: var(--bg);
-  border: 1.5px solid var(--border);
+  padding: 0.42rem 0.95rem;
+  background: transparent;
+  border: none;
   border-radius: 999px;
   color: var(--muted);
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.01em;
   white-space: nowrap;
-  transition: background 0.18s, border-color 0.18s, color 0.18s, transform 0.12s;
+  transition: background 0.18s, color 0.18s;
 }
-.chip:hover {
-  background: rgba(46, 92, 184, 0.06);
-  color: var(--accent);
-  border-color: rgba(46, 92, 184, 0.3);
-}
-.chip:active { transform: translateY(1px); }
-.chip--active {
+.chip:hover { background: var(--surface); color: var(--text); }
+.chip--active,
+.chip--active:hover {
   background: var(--accent);
   color: #fff;
-  border-color: var(--accent);
-}
-.chip--active:hover {
-  background: var(--accent-deep);
-  color: #fff;
-  border-color: var(--accent-deep);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
 }
 .strip-inner {
-  width: min(1040px, calc(100% - 3rem));
+  width: min(var(--shell-w), calc(100% - 3rem));
   margin: 0 auto;
-  padding: 1.1rem 0;
+  padding: 0.85rem 0 1rem;
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem 1.4rem;
+  gap: 0.85rem 1.4rem;
   align-items: end;
 }
 .strip-field {
@@ -240,9 +277,9 @@ button { font: inherit; cursor: pointer; }
 }
 .strip-input,
 .strip-select {
-  padding: 0.72rem 0.95rem;
+  padding: 0.62rem 0.85rem;
   border: 1.5px solid var(--border);
-  border-radius: 12px;
+  border-radius: var(--radius-xs);
   background: var(--bg);
   color: var(--text);
   font-family: inherit;
@@ -263,10 +300,10 @@ button { font: inherit; cursor: pointer; }
 }
 .strip-row > .strip-input { flex: 1; }
 .icon-btn {
-  padding: 0.6rem 0.85rem;
+  padding: 0.52rem 0.75rem;
   border: 1.5px solid var(--border);
   background: var(--bg);
-  border-radius: 12px;
+  border-radius: var(--radius-xs);
   font-size: 1.05rem;
   line-height: 1;
   color: var(--muted);
@@ -292,13 +329,13 @@ button { font: inherit; cursor: pointer; }
   font-variant-numeric: tabular-nums;
 }
 .btn-primary {
-  padding: 0.78rem 1.6rem;
+  padding: 0.68rem 1.5rem;
   background: var(--accent);
   color: white;
   border: none;
-  border-radius: 12px;
+  border-radius: var(--radius-xs);
   font-weight: 700;
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   letter-spacing: 0.02em;
   white-space: nowrap;
   flex: 0 0 auto;
@@ -317,6 +354,57 @@ button { font: inherit; cursor: pointer; }
   margin: 0 auto;
   padding: 2.4rem 0 4rem;
 }
+
+/* The map used to be a 380px letterbox wedged between the filter bar and the
+   cards, which read as an afterthought. Here it is a column of its own, pinned
+   under the strip for the whole scroll, with the list running beside it — so
+   the geography and the listing are read together instead of in turn. */
+.shell--split {
+  width: min(var(--shell-w), calc(100% - 3rem));
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.02fr);
+  gap: 2.6rem;
+  align-items: start;
+  padding-top: 2rem;
+}
+.results-col { min-width: 0; }
+.map-col { min-width: 0; }
+.map-frame {
+  position: sticky;
+  top: calc(var(--strip-h) + 1.25rem);
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.shell--split .map {
+  height: calc(100vh - var(--strip-h) - 5.5rem);
+  min-height: 420px;
+  margin-bottom: 0;
+}
+.map-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.1rem;
+  margin: 0;
+  padding: 0 0.3rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--subtle);
+}
+.legend-item { display: inline-flex; align-items: center; gap: 0.42rem; }
+.legend-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 2px solid var(--surface);
+  box-shadow: 0 0 0 1px var(--border);
+}
+.legend-dot--core { background: var(--pin-core); }
+.legend-dot--tribute { background: var(--pin-tribute); }
+.legend-dot--you { background: var(--text); }
+
 .section-header {
   margin-bottom: 1.4rem;
   display: flex;
@@ -352,7 +440,7 @@ button { font: inherit; cursor: pointer; }
 .map {
   height: 380px;
   border-radius: var(--radius);
-  background: linear-gradient(135deg, #e8e4dc 0%, #d4cfc4 100%);
+  background: var(--map-ground);
   border: 1px solid var(--border);
   box-shadow: var(--shadow-sm);
   margin-bottom: 2.2rem;
@@ -386,9 +474,9 @@ button { font: inherit; cursor: pointer; }
 /* ─── Cards ────────────────────────────────────────────────────── */
 
 .cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   animation: fadeUp 0.28s ease both;
 }
 @keyframes fadeUp {
@@ -396,71 +484,162 @@ button { font: inherit; cursor: pointer; }
   to   { opacity: 1; transform: translateY(0); }
 }
 
+/* ─── Day groups ───────────────────────────────────────────────── */
+
+/* 900 cards in one undifferentiated chronological wall gives the eye nothing
+   to hold. The feed is already date-sorted, so let the date be the heading and
+   drop it from the cards underneath. */
+.day-group { display: flow-root; }
+.day-head {
+  position: sticky;
+  top: calc(var(--strip-h) + 0.25rem);
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  margin: 0 0 0.9rem;
+  padding: 0.55rem 0.1rem 0.5rem;
+  background: linear-gradient(to bottom, var(--bg) 72%, transparent);
+  font-family: "Manrope", system-ui, sans-serif;
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.day-head-date { color: var(--text); white-space: nowrap; }
+.day-head-rule {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, var(--border), transparent);
+}
+.day-head-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.6rem;
+  height: 1.6rem;
+  padding: 0 0.5rem;
+  border-radius: 999px;
+  background: var(--rail);
+  color: var(--subtle);
+  font-size: 0.7rem;
+  font-variant-numeric: tabular-nums;
+}
+.day-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+/* ─── Event card (a row, not a tile) ───────────────────────────── */
+
+/* Beside a full-height map the useful shape is a scannable row: one glance
+   down the left edge for who, one down the right for how far. */
 .event-card {
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: var(--radius);
+  border-radius: var(--radius-sm);
   box-shadow: var(--shadow-sm);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  transition: transform 0.22s ease, box-shadow 0.22s ease;
+  display: grid;
+  grid-template-columns: 104px minmax(0, 1fr);
+  transition: transform 0.2s ease, box-shadow 0.2s ease,
+              background 0.2s ease, border-color 0.2s ease;
 }
 @media (hover: hover) and (pointer: fine) {
   .event-card:hover {
-    transform: translateY(-3px);
-    box-shadow: var(--shadow-lg);
+    transform: translateY(-2px);
+    background: var(--surface-hover);
+    border-color: rgba(46, 92, 184, 0.35);
+    box-shadow: var(--shadow-md);
   }
 }
 .event-card--active {
-  outline: 3px solid var(--accent);
+  outline: 2px solid var(--accent);
   outline-offset: 2px;
   box-shadow: var(--shadow-lg);
+}
+/* Keyboard users get the same "this row" signal the mouse gets from hover. */
+.event-card:focus-within {
+  border-color: rgba(46, 92, 184, 0.45);
+  background: var(--surface-hover);
+}
+.chip:focus-visible,
+.card-icon-btn:focus-visible,
+.tickets-link:focus-visible,
+.card-name a:focus-visible,
+.card-cal-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 6px;
 }
 
 .card-media {
   display: block;
   position: relative;
-  aspect-ratio: 16 / 10;
   overflow: hidden;
-  background: rgba(26, 26, 26, 0.04);
+  border-radius: calc(var(--radius-sm) - 1px) 0 0 calc(var(--radius-sm) - 1px);
+  background: var(--surface-sunk);
 }
 .card-media img {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 0.5s ease;
 }
-.event-card:hover .card-media img { transform: scale(1.04); }
+.event-card:hover .card-media img { transform: scale(1.05); }
 
-.card-media--default {
-  background: #0b1424;
+/* The photo-less fallback. One shared stealie SVG repeated down the grid and
+   in dark mode read as an empty black rectangle; this is a plate per band,
+   drawn from a fixed six-colour poster palette so it still belongs here. */
+.card-plate {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    radial-gradient(ellipse 120% 90% at 28% 18%, rgba(255, 255, 255, 0.24), transparent 62%),
+    linear-gradient(150deg, var(--plate-from, #d9313a) 0%, var(--plate-to, #5c0f18) 100%);
 }
-.card-media--default img {
-  object-fit: cover;
+.card-plate-mark {
+  font-family: "Fraunces", Georgia, serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 0.94);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
 }
+/* Only the plate variant lets the plate show through; otherwise the photo
+   covers it and the plate is just what a broken image reveals. */
+.card-media--plate img { display: none; }
 
 .card-body {
-  padding: 1.2rem 1.4rem 1.3rem;
+  padding: 0.8rem 0.95rem 0.75rem 1.05rem;
   display: flex;
   flex-direction: column;
-  gap: 0.7rem;
-  flex: 1;
+  gap: 0.3rem;
+  min-width: 0;
 }
 .card-date {
-  font-size: 0.7rem;
-  font-weight: 900;
-  letter-spacing: 0.18em;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--dead-blue);
+  color: var(--accent);
   margin: 0;
 }
+/* Inside a day group the heading already carries the date. */
+.day-group .card-date-day { display: none; }
 .card-name {
   font-family: "Fraunces", serif;
-  font-size: 1.3rem;
+  font-size: 1.12rem;
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1.2;
   margin: 0;
+  overflow-wrap: anywhere;
 }
 .card-name a {
   color: var(--text);
@@ -474,52 +653,63 @@ button { font: inherit; cursor: pointer; }
 .event-card:hover .card-name a { background-size: 100% 1.5px; }
 
 .card-venue {
-  font-size: 0.93rem;
+  font-size: 0.86rem;
   color: var(--muted);
   margin: 0;
-  line-height: 1.45;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
 }
+/* Venue and city share a line — a row card cannot afford two. */
 .card-venue .city { color: var(--subtle); }
+.card-venue .city::before {
+  content: "·";
+  margin: 0 0.42em;
+  color: var(--subtle);
+  opacity: 0.6;
+}
 
 .card-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem;
-  margin-top: auto;
+  gap: 0.32rem;
+  min-width: 0;
 }
 .meta-pill {
   display: inline-flex;
   align-items: center;
   gap: 0.3rem;
-  padding: 0.28rem 0.65rem;
+  padding: 0.24rem 0.6rem;
   border-radius: 999px;
-  font-size: 0.74rem;
+  font-size: 0.71rem;
   font-weight: 700;
   letter-spacing: 0.01em;
+  white-space: nowrap;
 }
 .meta-pill.distance {
-  background: rgba(46, 92, 184, 0.1);
-  color: var(--dead-blue-deep);
+  background: var(--pill-dist-bg);
+  color: var(--pill-dist-fg);
 }
 .meta-pill.tier-core {
-  background: rgba(211, 32, 39, 0.1);
-  color: var(--accent-deep);
+  background: var(--pill-core-bg);
+  color: var(--pill-core-fg);
 }
 .meta-pill.tier-tribute {
-  background: rgba(26, 26, 26, 0.06);
-  color: var(--muted);
+  background: var(--pill-trib-bg);
+  color: var(--pill-trib-fg);
 }
 .meta-pill.price {
-  background: rgba(60, 132, 70, 0.14);
-  color: #2a6b34;
+  background: var(--pill-price-bg);
+  color: var(--pill-price-fg);
 }
 
 .card-foot {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid var(--border);
-  padding-top: 0.7rem;
+  gap: 0.4rem 0.8rem;
+  margin-top: auto;
+  padding-top: 0.5rem;
   font-size: 0.78rem;
 }
 .tickets-link {
@@ -534,7 +724,8 @@ button { font: inherit; cursor: pointer; }
   font-size: 0.74rem;
 }
 .tickets-link:hover { color: var(--accent-deep); }
-.show-on-map-btn {
+/* band.html still renders this as a text button. */
+.show-on-map-btn:not(.card-icon-btn) {
   background: transparent;
   border: none;
   color: var(--subtle);
@@ -545,28 +736,30 @@ button { font: inherit; cursor: pointer; }
   padding: 0;
   transition: color 0.18s;
 }
-.show-on-map-btn:hover { color: var(--accent); }
+.show-on-map-btn:not(.card-icon-btn):hover { color: var(--accent); }
 
 .card-foot-actions {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.15rem;
+  margin-left: auto;
 }
+.card-foot-actions .tickets-link { margin-left: 0.45rem; }
 .card-icon-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   background: transparent;
   border: none;
-  padding: 0.35rem;
+  padding: 0.32rem;
   line-height: 0;
   color: var(--subtle);
   border-radius: 8px;
   transition: background 0.18s, color 0.18s, transform 0.12s;
 }
 .card-icon-btn svg {
-  width: 18px;
-  height: 18px;
+  width: 17px;
+  height: 17px;
 }
 .card-icon-btn:hover {
   background: rgba(46, 92, 184, 0.1);
@@ -611,7 +804,7 @@ button { font: inherit; cursor: pointer; }
   bottom: 1.4rem;
   left: 50%;
   transform: translateX(-50%) translateY(20px);
-  background: rgba(26, 26, 26, 0.92);
+  background: var(--toast-bg);
   color: #fff;
   padding: 0.65rem 1.2rem;
   border-radius: 999px;
@@ -780,6 +973,39 @@ button { font: inherit; cursor: pointer; }
 
 /* ─── Responsive ───────────────────────────────────────────────── */
 
+/* Below this the two columns are both too narrow to be worth having. Stack
+   them and put the map on top — it is still the thing that answers "is any of
+   this near me", it just stops following the scroll. */
+@media (max-width: 1024px) {
+  .shell--split {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.6rem;
+  }
+  .map-col { order: -1; }
+  .map-frame { position: static; }
+  .shell--split .map {
+    height: 46vh;
+    min-height: 300px;
+  }
+  .day-head { top: 0; }
+}
+
+/* Stacked, the strip is five rows — over 340px on a phone, which is a third of
+   the screen to give a control bar that is only touched at the start of a
+   search. Let it scroll away there. */
+@media (max-width: 900px) {
+  .strip { position: static; }
+}
+
+@media (max-width: 640px) {
+  .shell--split { padding-top: 1.4rem; }
+  .shell--split .map { height: 40vh; min-height: 240px; }
+  .cards { gap: 1.5rem; }
+  .event-card { grid-template-columns: 84px minmax(0, 1fr); }
+  .card-body { padding: 0.75rem 0.85rem; }
+  .card-plate-mark { font-size: 1.2rem; }
+}
+
 @media (max-width: 640px) {
   .hero-content { padding: 3rem 0 2.5rem; }
   .shell { padding: 1.6rem 0 3rem; }
@@ -928,10 +1154,16 @@ button { font: inherit; cursor: pointer; }
 .skeleton-card {
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: var(--radius);
+  border-radius: var(--radius-sm);
   box-shadow: var(--shadow-sm);
   overflow: hidden;
-  padding: 0 0 1.4rem;
+  display: grid;
+  grid-template-columns: 104px minmax(0, 1fr);
+  min-height: 118px;
+}
+.skeleton-card .sk-lines {
+  display: block;
+  padding: 0.2rem 1rem 0.9rem;
 }
 .skeleton-card .sk-media,
 .skeleton-card .sk-line {
@@ -945,11 +1177,11 @@ button { font: inherit; cursor: pointer; }
   background-size: 400% 100%;
   animation: shimmer 1.4s ease-in-out infinite;
 }
-.skeleton-card .sk-media { aspect-ratio: 16 / 10; }
+.skeleton-card .sk-media { height: 100%; }
 .skeleton-card .sk-line {
-  height: 0.72rem;
+  height: 0.7rem;
   border-radius: 999px;
-  margin: 0.85rem 1.4rem 0;
+  margin: 0.7rem 0 0;
 }
 .sk-line--xs { width: 32%; height: 0.55rem; }
 .sk-line--lg { width: 76%; height: 1.15rem; }
@@ -1002,10 +1234,8 @@ button { font: inherit; cursor: pointer; }
   background: rgba(255, 255, 255, 0.2);
 }
 .card-media--logo img {
-  position: relative;
-  z-index: 1;
   object-fit: contain;
-  padding: 0.9rem 1.2rem;
+  padding: 0.5rem 0.55rem;
   /* Many logos ship with their own baked-in white or navy plate. Rounding and
      shadowing the image makes that edge read as a deliberate sticker rather
      than a picture accidentally sitting inside another picture. */
@@ -1023,8 +1253,5 @@ button { font: inherit; cursor: pointer; }
    presented as if we knew the room's address. */
 .meta-pill.distance--approx {
   cursor: help;
-  border: 1px dashed rgba(46, 92, 184, 0.45);
-}
-@media (prefers-color-scheme: dark) {
-  .meta-pill.distance--approx { border-color: rgba(126, 162, 240, 0.5); }
+  border: 1px dashed var(--pill-dist-line);
 }

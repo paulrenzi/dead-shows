@@ -23,7 +23,7 @@
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
         crossorigin="">
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
-  <link rel="stylesheet" href="styles.css?v=18">
+  <link rel="stylesheet" href="styles.css?v=19">
 </head>
 <body>
 
@@ -53,11 +53,13 @@
   </section>
 
   <div class="strip" aria-label="Search controls">
-    <div class="chip-row" role="group" aria-label="Quick filters">
-      <button class="chip" data-chip="tonight" type="button">Tonight</button>
-      <button class="chip" data-chip="weekend" type="button">This Weekend</button>
-      <button class="chip chip--active" data-chip="next30" type="button">Next 30 days</button>
-      <button class="chip" data-chip="all" type="button">All upcoming</button>
+    <div class="chip-row">
+      <div class="chip-track" role="group" aria-label="Quick filters">
+        <button class="chip" data-chip="tonight" type="button">Tonight</button>
+        <button class="chip" data-chip="weekend" type="button">This Weekend</button>
+        <button class="chip chip--active" data-chip="next30" type="button">Next 30 days</button>
+        <button class="chip" data-chip="all" type="button">All upcoming</button>
+      </div>
     </div>
     <div class="strip-inner">
       <div class="strip-field strip-field--wide">
@@ -91,23 +93,34 @@
     </div>
   </div>
 
-  <main class="shell">
+  <main class="shell shell--split">
 
-    <div class="section-header">
-      <div>
-        <p class="section-kicker" id="result-count">Loading…</p>
-        <h2 class="section-headline">Shows near you</h2>
+    <div class="results-col">
+      <div class="section-header">
+        <div>
+          <p class="section-kicker" id="result-count">Loading…</p>
+          <h2 class="section-headline">Shows near you</h2>
+        </div>
+      </div>
+
+      <div id="cards" class="cards" aria-live="polite">
+        <div class="skeleton-card" aria-hidden="true"><span class="sk-media"></span><span class="sk-lines"><span class="sk-line sk-line--xs"></span><span class="sk-line sk-line--lg"></span><span class="sk-line sk-line--md"></span><span class="sk-line sk-line--sm"></span></span></div>
+        <div class="skeleton-card" aria-hidden="true"><span class="sk-media"></span><span class="sk-lines"><span class="sk-line sk-line--xs"></span><span class="sk-line sk-line--lg"></span><span class="sk-line sk-line--md"></span><span class="sk-line sk-line--sm"></span></span></div>
+        <div class="skeleton-card" aria-hidden="true"><span class="sk-media"></span><span class="sk-lines"><span class="sk-line sk-line--xs"></span><span class="sk-line sk-line--lg"></span><span class="sk-line sk-line--md"></span><span class="sk-line sk-line--sm"></span></span></div>
+        <p class="sr-only">Loading shows…</p>
       </div>
     </div>
 
-    <div id="map" class="map" aria-label="Map of shows"></div>
-
-    <div id="cards" class="cards" aria-live="polite">
-      <div class="skeleton-card" aria-hidden="true"><span class="sk-media"></span><span class="sk-line sk-line--xs"></span><span class="sk-line sk-line--lg"></span><span class="sk-line sk-line--md"></span><span class="sk-line sk-line--sm"></span></div>
-      <div class="skeleton-card" aria-hidden="true"><span class="sk-media"></span><span class="sk-line sk-line--xs"></span><span class="sk-line sk-line--lg"></span><span class="sk-line sk-line--md"></span><span class="sk-line sk-line--sm"></span></div>
-      <div class="skeleton-card" aria-hidden="true"><span class="sk-media"></span><span class="sk-line sk-line--xs"></span><span class="sk-line sk-line--lg"></span><span class="sk-line sk-line--md"></span><span class="sk-line sk-line--sm"></span></div>
-      <p class="sr-only">Loading shows…</p>
-    </div>
+    <aside class="map-col" aria-label="Map">
+      <div class="map-frame">
+        <div id="map" class="map" aria-label="Map of shows"></div>
+        <p class="map-legend">
+          <span class="legend-item"><span class="legend-dot legend-dot--core" aria-hidden="true"></span>Dead family</span>
+          <span class="legend-item"><span class="legend-dot legend-dot--tribute" aria-hidden="true"></span>Tribute</span>
+          <span class="legend-item"><span class="legend-dot legend-dot--you" aria-hidden="true"></span>You</span>
+        </p>
+      </div>
+    </aside>
 
   </main>
 
@@ -126,6 +139,6 @@
           integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
           crossorigin=""></script>
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-  <script src="app.js?v=18"></script>
+  <script src="app.js?v=19"></script>
 </body>
 </html>

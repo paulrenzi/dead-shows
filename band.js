@@ -130,13 +130,43 @@ async function fetchEvents(artist) {
   return Array.from(seen.values());
 }
 
+// Same fixed poster palette the main page uses, so a photo-less card is a
+// plate belonging to this site rather than an empty rectangle. Keyed on the
+// venue here: on a single band's page the artist photo is the same every row,
+// so the venue is the only thing left that varies.
+const PLATE_PALETTE = [
+  ["#d9313a", "#5c0f18"],
+  ["#2f5fbe", "#131c48"],
+  ["#e08a26", "#6d2a10"],
+  ["#3f9b74", "#0f3a2c"],
+  ["#7f43ab", "#231046"],
+  ["#c9a52c", "#553112"],
+];
+
+function platePlaceholder(name) {
+  let h = 0;
+  const s = String(name || "");
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
+  const [from, to] = PLATE_PALETTE[h % PLATE_PALETTE.length];
+  const words = s.trim().split(/\s+/).filter(w => /[a-z0-9]/i.test(w));
+  const mark = (words.slice(0, 2).map(w => w[0]).join("") || s.slice(0, 2) || "?").toUpperCase();
+  return `<span class="card-plate" style="--plate-from:${from};--plate-to:${to}" aria-hidden="true">
+            <span class="card-plate-mark">${escapeHtml(mark)}</span>
+          </span>`;
+}
+
 function renderCard(ev, artistPhoto) {
   const dist = haversineMiles(KOP.lat, KOP.lng, ev.lat, ev.lng);
-  const photoUrl = ev.image || artistPhoto || DEFAULT_PHOTO;
-  const isDefault = photoUrl === DEFAULT_PHOTO;
-  const media = `<a class="card-media${isDefault ? " card-media--default" : ""}" href="${ev.url}" target="_blank" rel="noreferrer">
-       <img src="${escapeHtml(photoUrl)}" alt="${escapeHtml(ev.name)}" loading="lazy"
-            onerror="this.onerror=null;this.src='${DEFAULT_PHOTO}';this.parentElement.classList.add('card-media--default');">
+  // The shared placeholder SVG is the absence of a photo, not a photo.
+  const rawPhoto = ev.image || artistPhoto || "";
+  const photoUrl = rawPhoto.endsWith("default-band.svg") ? "" : rawPhoto;
+  const plate = platePlaceholder(ev.venue || ev.name);
+  const img = photoUrl
+    ? `<img src="${escapeHtml(photoUrl)}" alt="${escapeHtml(ev.name)}" loading="lazy"
+            onerror="this.onerror=null;this.remove();this.closest('.card-media').classList.add('card-media--plate');">`
+    : "";
+  const media = `<a class="card-media${photoUrl ? "" : " card-media--plate"}" href="${ev.url}" target="_blank" rel="noreferrer" tabindex="-1" aria-hidden="true">
+       ${plate}${img}
      </a>`;
   return `
     <article class="event-card" data-id="${ev.id}">

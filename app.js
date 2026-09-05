@@ -15,9 +15,41 @@ let lastEvents = [];
 let deepLinkApplied = false;
 let tmFeedFailed = false;
 const chipState = { date: "next30" };
-const DEFAULT_PHOTO = "images/default-band.svg";
 // Sources that hand back logos/wordmarks rather than photographs.
 const LOGO_SOURCES = new Set(["gdtb", "bandsite"]);
+
+// ~24 acts have no photo at all. They used to share one stealie SVG, which in
+// dark mode read as an empty black rectangle and — worse — repeated identically
+// down the grid. Give each band a plate of its own instead. The hues are a
+// fixed poster palette rather than a free hue rotation, so every plate still
+// belongs to the same set no matter which band lands on it.
+const PLATE_PALETTE = [
+  ["#d9313a", "#5c0f18"],
+  ["#2f5fbe", "#131c48"],
+  ["#e08a26", "#6d2a10"],
+  ["#3f9b74", "#0f3a2c"],
+  ["#7f43ab", "#231046"],
+  ["#c9a52c", "#553112"],
+];
+
+function plateIndex(s) {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
+  return h % PLATE_PALETTE.length;
+}
+
+function monogram(name) {
+  const words = String(name || "").trim().split(/\s+/).filter(w => /[a-z0-9]/i.test(w));
+  const letters = words.slice(0, 2).map(w => w[0]).join("");
+  return (letters || String(name || "?").slice(0, 2)).toUpperCase();
+}
+
+function platePlaceholder(name) {
+  const [from, to] = PLATE_PALETTE[plateIndex(String(name || ""))];
+  return `<span class="card-plate" style="--plate-from:${from};--plate-to:${to}" aria-hidden="true">
+            <span class="card-plate-mark">${escapeHtml(monogram(name))}</span>
+          </span>`;
+}
 const PRECISION_NOTES = {
   city: "Approximate — pinned to the city center, not the venue address.",
   state: "Rough — we couldn't place this venue, so it sits at the state center.",
@@ -378,6 +410,7 @@ function eventById(id) {
 // Inline Feather-style SVGs — monochrome, inherit currentColor, no emoji
 // rendering inconsistencies between iOS / Android / desktop.
 const ICON_CALENDAR = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="4" width="18" height="18" rx="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>`;
+const ICON_PIN = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>`;
 const ICON_SHARE = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></svg>`;
 
 function formatPrice(price) {
@@ -528,24 +561,32 @@ function renderCard(ev, idx) {
     : escapeHtml(displayName);
 
   const bandPhoto = artist ? bandPhotos[artist.slug] : null;
-  const photoUrl = ev.image || bandPhoto?.photo || DEFAULT_PHOTO;
-  const isDefault = photoUrl === DEFAULT_PHOTO;
+  // band-photos.json pins at least one act ("deal") at the shared placeholder
+  // SVG. That is the absence of a photo wearing a photo's clothes — take it as
+  // no photo so the band gets a plate of its own like every other bare act.
+  const rawPhoto = ev.image || bandPhoto?.photo || "";
+  const photoUrl = rawPhoto.endsWith("default-band.svg") ? "" : rawPhoto;
   // Most of these images are band *logos*, not photographs — GDTB hosts one for
-  // nearly every act. Cropping a square logo to 16:10 lops the top and bottom
-  // off it, so letterbox those and fill the gap with a blurred copy of itself.
+  // nearly every act. Cropping a square logo lops the edges off it, so contain
+  // those and fill the gap with a blurred copy of itself.
   const isLogo = !ev.image && LOGO_SOURCES.has(bandPhoto?.source);
   const cls = [
     "card-media",
-    isDefault ? "card-media--default" : "",
+    photoUrl ? "" : "card-media--plate",
     isLogo ? "card-media--logo" : "",
   ].filter(Boolean).join(" ");
-  const backdrop = isLogo
+  // The plate sits *under* the photo rather than replacing it, so a URL that
+  // 404s at load time reveals the band's own plate instead of a broken tile.
+  const plate = platePlaceholder(displayName);
+  const backdrop = isLogo && photoUrl
     ? `<span class="card-media-blur" style="background-image:url('${escapeHtml(photoUrl)}')" aria-hidden="true"></span>`
     : "";
-  const media = `<a class="${cls}" href="${ev.url}" target="_blank" rel="noreferrer">
-       ${backdrop}
-       <img src="${escapeHtml(photoUrl)}" alt="${escapeHtml(displayName)}" loading="lazy"
-            onerror="this.onerror=null;this.src='${DEFAULT_PHOTO}';this.parentElement.classList.add('card-media--default');">
+  const img = photoUrl
+    ? `<img src="${escapeHtml(photoUrl)}" alt="${escapeHtml(displayName)}" loading="lazy"
+            onerror="this.onerror=null;this.remove();this.closest('.card-media').classList.add('card-media--plate');">`
+    : "";
+  const media = `<a class="${cls}" href="${ev.url}" target="_blank" rel="noreferrer" tabindex="-1" aria-hidden="true">
+       ${plate}${backdrop}${img}
      </a>`;
 
   const priceLabel = formatPrice(ev.price);
@@ -554,6 +595,7 @@ function renderCard(ev, idx) {
   // the room itself — an unqualified "12 mi away" from a state centroid is a
   // number the site cannot actually stand behind.
   const precisionNote = PRECISION_NOTES[ev.locationPrecision] || "";
+  const cityLine = [ev.city, ev.state].filter(Boolean).join(", ");
 
   const googleHref = googleCalendarUrl(ev);
   const apple = appleCalendarHref(ev);
@@ -565,22 +607,21 @@ function renderCard(ev, idx) {
     <article class="event-card" data-idx="${idx}" data-id="${ev.id}">
       ${media}
       <div class="card-body">
-        <p class="card-date">${formatDate(ev.date)}${ev.time ? ` · ${escapeHtml(ev.time)}` : ""}</p>
+        <p class="card-date">${ev.time ? escapeHtml(ev.time) : "Time TBA"}<span class="card-date-day"> · ${formatDate(ev.date)}</span></p>
         <h3 class="card-name">${bandLink}</h3>
         <p class="card-venue">
-          ${escapeHtml(ev.venue)}<br>
-          <span class="city">${escapeHtml(ev.city || "")}${ev.state ? ", " + escapeHtml(ev.state) : ""}</span>
+          <span class="venue-name">${escapeHtml(ev.venue)}</span>${cityLine ? `<span class="city">${escapeHtml(cityLine)}</span>` : ""}
         </p>
-        <div class="card-meta">
-          <span class="meta-pill ${tierClass}">${tierLabel}</span>
-          <span class="meta-pill distance${precisionNote ? " distance--approx" : ""}"${
-            precisionNote ? ` title="${escapeHtml(precisionNote)}"` : ""
-          }>${dist.toFixed(0)} mi away${precisionNote ? "*" : ""}</span>
-          ${priceLabel ? `<span class="meta-pill price">${escapeHtml(priceLabel)}</span>` : ""}
-        </div>
         <div class="card-foot">
-          <button type="button" class="show-on-map-btn" data-id="${ev.id}">Show on map</button>
+          <div class="card-meta">
+            <span class="meta-pill ${tierClass}">${tierLabel}</span>
+            <span class="meta-pill distance${precisionNote ? " distance--approx" : ""}"${
+              precisionNote ? ` title="${escapeHtml(precisionNote)}"` : ""
+            }>${dist.toFixed(0)} mi${precisionNote ? "*" : ""}</span>
+            ${priceLabel ? `<span class="meta-pill price">${escapeHtml(priceLabel)}</span>` : ""}
+          </div>
           <div class="card-foot-actions">
+            <button type="button" class="card-icon-btn show-on-map-btn" data-id="${ev.id}" title="Show on map" aria-label="Show on map">${ICON_PIN}</button>
             <div class="card-cal">
               <button type="button" class="card-icon-btn card-cal-toggle" data-id="${ev.id}" aria-haspopup="true" aria-expanded="false" title="Add to calendar" aria-label="Add to calendar">${ICON_CALENDAR}</button>
               <div class="card-cal-menu" role="menu" hidden>
@@ -595,6 +636,46 @@ function renderCard(ev, idx) {
       </div>
     </article>
   `;
+}
+
+// A flat chronological wall of 900 cards gives the eye nothing to hold on to.
+// The list is already sorted by date, so break it on the date and let the day
+// itself be the heading — the per-card date line then collapses to a time.
+function dayHeading(iso) {
+  const day = String(iso || "").slice(0, 10);
+  const today = isoLocalDate(new Date());
+  const tomorrow = new Date();
+  tomorrow.setDate(tomorrow.getDate() + 1);
+  if (day === today) return "Tonight";
+  if (day === isoLocalDate(tomorrow)) return "Tomorrow";
+  const [y, m, d] = day.split("-").map(Number);
+  if (!y) return "Date TBA";
+  return new Date(y, m - 1, d).toLocaleDateString(undefined, {
+    weekday: "long", month: "long", day: "numeric",
+  });
+}
+
+function renderDayGroups(events) {
+  const groups = [];
+  let current = null;
+  for (const ev of events) {
+    const day = String(ev.date || "").slice(0, 10);
+    if (!current || current.day !== day) {
+      current = { day, items: [] };
+      groups.push(current);
+    }
+    current.items.push(ev);
+  }
+  let idx = 0;
+  return groups.map(g => `
+    <section class="day-group">
+      <h3 class="day-head">
+        <span class="day-head-date">${escapeHtml(dayHeading(g.day))}</span>
+        <span class="day-head-rule" aria-hidden="true"></span>
+        <span class="day-head-count">${g.items.length}</span>
+      </h3>
+      <div class="day-list">${g.items.map(ev => renderCard(ev, idx++)).join("")}</div>
+    </section>`).join("");
 }
 
 function renderEvents(events) {
@@ -626,7 +707,7 @@ function renderEvents(events) {
   counter.textContent = `${events.length} show${events.length === 1 ? "" : "s"} found` +
     (tmFeedFailed ? " (ticketed listings unavailable right now)" : "");
 
-  cards.innerHTML = events.map(renderCard).join("");
+  cards.innerHTML = renderDayGroups(events);
 
   // Build inverse lookup card-by-id for marker→card sync
   cards.querySelectorAll(".event-card").forEach(el => {
@@ -670,9 +751,7 @@ function renderEvents(events) {
     });
   }
 
-  // Fit map to all markers + center
-  const group = L.featureGroup([centerMarker, ...eventMarkers]);
-  if (eventMarkers.length) map.fitBounds(group.getBounds().pad(0.12));
+  fitToResults();
 
   // Wire show-on-map buttons
   cards.querySelectorAll(".show-on-map-btn").forEach(btn => {
@@ -721,7 +800,78 @@ function renderEvents(events) {
   applyDeepLinkOnce();
 }
 
+// The lower 48. "All upcoming" reaches Seattle and Honolulu, and a literal fit
+// of that marker set is ~90° of longitude wide — Leaflet answers that aspect
+// ratio by zooming out until the centre of the view sits over Central America,
+// which is nowhere near any show. Clamp to the mainland instead.
+const CONUS_BOUNDS = [[24.4, -125.0], [49.4, -66.9]];
+
+function fitToResults() {
+  if (!eventMarkers.length) return;
+  const miles = radiusMiles();
+  // A finite radius already says what the user wants to look at: the ring.
+  // Fitting that is stable — it doesn't lurch when one distant show drops in.
+  if (Number.isFinite(miles) && radiusCircle) {
+    map.fitBounds(radiusCircle.getBounds(), { padding: [26, 26] });
+    return;
+  }
+  const all = L.featureGroup([centerMarker, ...eventMarkers]).getBounds();
+  const south = Math.max(all.getSouth(), CONUS_BOUNDS[0][0]);
+  const west = Math.max(all.getWest(), CONUS_BOUNDS[0][1]);
+  const north = Math.min(all.getNorth(), CONUS_BOUNDS[1][0]);
+  const east = Math.min(all.getEast(), CONUS_BOUNDS[1][1]);
+  // Everything fell outside the box (a search centred on Hawaii, say) — the
+  // clamp has nothing to say, so fall back to the honest fit.
+  const clamped = south < north && west < east
+    ? L.latLngBounds([south, west], [north, east])
+    : all;
+  // The map column is portrait and the country is landscape, so a plain fit is
+  // width-constrained and leaves the US as a thin band with empty ocean above
+  // and below it. Allow exactly one zoom step of east–west crop to buy that
+  // vertical space back — the coasts stay one pan away, and their pins are
+  // clustered anyway. Never crop past the point where the latitude band itself
+  // stops fitting.
+  const padding = [26, 26];
+  const fit = map.getBoundsZoom(clamped, false, padding);
+  const mid = clamped.getCenter().lng;
+  const latOnly = map.getBoundsZoom(
+    L.latLngBounds([clamped.getSouth(), mid], [clamped.getNorth(), mid]), false, padding);
+  map.setView(clamped.getCenter(), Math.min(fit + 1, latOnly));
+}
+
+// The map is a sticky column that fills the space under the filter strip, so
+// its height is a function of the strip's — which wraps at narrow widths.
+// Publish the measured height rather than guessing it in CSS.
+function syncStripHeight() {
+  const strip = document.querySelector(".strip");
+  if (!strip) return;
+  const h = Math.round(strip.getBoundingClientRect().height);
+  document.documentElement.style.setProperty("--strip-h", `${h}px`);
+}
+
+function watchMapSize() {
+  const el = document.getElementById("map");
+  if (!el || typeof ResizeObserver === "undefined") return;
+  let raf = 0;
+  new ResizeObserver(() => {
+    cancelAnimationFrame(raf);
+    raf = requestAnimationFrame(() => map && map.invalidateSize({ animate: false }));
+  }).observe(el);
+  const strip = document.querySelector(".strip");
+  if (strip) new ResizeObserver(syncStripHeight).observe(strip);
+}
+
 function scrollMapIntoView() {
+  // In the split layout the map is pinned beside the list and always on
+  // screen; scrolling the page at that point just throws away the reader's
+  // place for nothing.
+  const mapEl = document.getElementById("map");
+  const r = mapEl.getBoundingClientRect();
+  if (r.top >= 0 && r.bottom <= window.innerHeight + 40) return;
+  scrollMapIntoViewLegacy();
+}
+
+function scrollMapIntoViewLegacy() {
   // The strip is position: sticky at the top — scrollIntoView({block: "nearest"})
   // lands the map under it. Compute the strip's visible height and offset by it.
   const mapEl = document.getElementById("map");
@@ -885,7 +1035,10 @@ function wireControls() {
 }
 
 async function init() {
+  syncStripHeight();
   initMap();
+  watchMapSize();
+  window.addEventListener("resize", syncStripHeight);
   applyDateChip("next30");
   updateChipUi();
   wireChips();
