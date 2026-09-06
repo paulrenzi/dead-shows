@@ -2290,8 +2290,11 @@
     "reason": "placeholder"
   },
   "pearly-baker-band": {
-    "tried": "2026-07-05",
-    "matched": false
+    "tried": "2026-09-06",
+    "matched": true,
+    "probe": 3,
+    "source": "gdtb",
+    "name": "Pearly Baker Band"
   },
   "grass-is-dead": {
     "tried": "2026-09-04",

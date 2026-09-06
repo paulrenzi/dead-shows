@@ -7957,5 +7957,9 @@
     "lat": 44.8598964,
     "lng": -92.6272858
   },
-  "25 johnny counts road|jackson, wy": null
+  "25 johnny counts road|jackson, wy": null,
+  "780 purchase st|new bedford, ma": {
+    "lat": 41.6350093,
+    "lng": -70.9258453
+  }
 }

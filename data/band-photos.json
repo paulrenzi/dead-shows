@@ -1492,5 +1492,10 @@
     "photo": "images/bands/dobbs-dead.jpg",
     "source": "deezer",
     "matchedName": "Dobbs Dead"
+  },
+  "pearly-baker-band": {
+    "photo": "images/bands/pearly-baker-band.jpg",
+    "source": "gdtb",
+    "matchedName": "Pearly Baker Band"
   }
 }

@@ -3,10 +3,6 @@
     "url": "https://www.facebook.com/pages/TUB-The-UnKnamed-Band/182754408422892",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/T.U.BTheUnKnamedBandAL.jpg"
   },
-  "legion-of-mario": {
-    "url": "https://www.facebook.com/Legion-of-Mario-118830148712027/",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/LegionofMarioAZ.jpg"
-  },
   "the-noodles": {
     "url": "http://aznoodles.com/",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/TheNoodlesAZ.jpg"
@@ -27,41 +23,17 @@
     "url": "https://www.facebook.com/friendsofthephamily",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/FriendsofthePhamilyAR.jpg"
   },
-  "dead-roses": {
-    "url": "https://www.facebook.com/deadrosesmusic",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/DeadRosesCA.jpg"
-  },
   "easy-wind": {
     "url": "http://easywindband.com/",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/EasyWindCA.jpg"
   },
-  "scott-guberman": {
-    "url": "https://www.scottguberman.com/",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/ScottGubermanCA.jpg"
-  },
-  "jerrys-middle-finger": {
-    "url": "https://www.facebook.com/JerrysMiddleFingerBand/",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/Jerry"
-  },
-  "pete-sawyer-the-lhmwg": {
-    "url": "https://lefthandmonkeywrenchgang.com/",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/PeteSawyer&TheLHMWGCA.png"
-  },
-  "saints-of-circumstance": {
-    "url": "https://www.facebook.com/saintsoc",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/SaintsofCircumstanceCA.jpg"
-  },
-  "skeleton-crew": {
-    "url": "https://www.facebook.com/OCSkeletonCrew",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/SkeletonCrewCA.jpg"
-  },
-  "aardvark": {
-    "url": "https://www.facebook.com/AardvarkTheBand",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/AardvarkCA.png"
-  },
   "scarlett-fyre": {
     "url": "https://scarlettfyre.net",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/ScarlettFyreCA.jpg"
+  },
+  "scott-guberman": {
+    "url": "https://www.scottguberman.com/",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/ScottGubermanCA.jpg"
   },
   "shred-is-dead": {
     "url": "https://www.facebook.com/ShredIsDeadOfficial/",
@@ -71,9 +43,17 @@
     "url": "https://www.instagram.com/deadbolt.la?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/DeadboltCA.jpg"
   },
+  "skeleton-crew": {
+    "url": "https://www.facebook.com/OCSkeletonCrew",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/SkeletonCrewCA.jpg"
+  },
   "the-storytellers": {
     "url": "http://www.StorytellersBand.com",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/TheStorytellersCA.jpg"
+  },
+  "dead-roses": {
+    "url": "https://www.facebook.com/deadrosesmusic",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/DeadRosesCA.jpg"
   },
   "dark-hollow-ca": {
     "url": "https://www.instagram.com/darkhollowdead",
@@ -98,6 +78,10 @@
   "the-deadicated-project": {
     "url": "https://www.facebook.com/thedeadicatedproject",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/TheDeadicatedProjectCA.jpg"
+  },
+  "pete-sawyer-the-lhmwg": {
+    "url": "https://lefthandmonkeywrenchgang.com/",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/PeteSawyer&TheLHMWGCA.png"
   },
   "melvin-seals-and-jgb": {
     "url": "http://www.jgbband.com/blog/",
@@ -127,14 +111,6 @@
     "url": "https://www.facebook.com/gratefuldrag",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/BerthaGratefulDragTN.jpg"
   },
-  "crick-wooder": {
-    "url": "https://www.facebook.com/crickwoodermusic/",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/CrickWooderCO.png"
-  },
-  "cowboys-dead": {
-    "url": "http://cowboysdead.com/home",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/CowboysDeadCO.jpg"
-  },
   "shakedown-street": {
     "url": "http://www.shakedownstreetband.com/",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/ShakedownStreetCO.png"
@@ -151,6 +127,10 @@
     "url": "https://www.facebook.com/DeadPanic",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/DeadPanicCO.png"
   },
+  "jerrys-middle-finger": {
+    "url": "https://www.facebook.com/JerrysMiddleFingerBand/",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/Jerry"
+  },
   "rio-rosa": {
     "url": "https://www.facebook.com/profile.php?id=61572952389054",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/RioRosaCO.jpg"
@@ -158,6 +138,10 @@
   "the-chilly-wind-revival": {
     "url": "https://www.facebook.com/profile.php?id=61591820947532",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/TheChillyWindRevivalCO.jpg"
+  },
+  "cowboys-dead": {
+    "url": "http://cowboysdead.com/home",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/CowboysDeadCO.jpg"
   },
   "shakedown-sunday": {
     "url": "https://www.facebook.com/profile.php?id=61589771553559",
@@ -170,10 +154,6 @@
   "easy-jim": {
     "url": "https://www.facebook.com/Easy-Jim-Music-of-the-Grateful-Dead-105020607552688/",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/EasyJimCO.jpg"
-  },
-  "ace-friends": {
-    "url": "https://www.facebook.com/aceandfriends.band/",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/Ace&FriendsCT.jpg"
   },
   "grateful-friends": {
     "url": "https://www.facebook.com/profile.php?id=100027203061253",
@@ -223,10 +203,6 @@
     "url": "https://www.facebook.com/throwingstonesband",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/ThrowingStonesBandCT.jpg"
   },
-  "foolish-heart-band": {
-    "url": "https://foolishheartband.com/",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/FoolishHeartBandDE.jpg"
-  },
   "kgb-karl-s-garcia-band": {
     "url": "https://www.facebook.com/profile.php?id=61554840195938",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/KGB-Karl"
@@ -238,22 +214,6 @@
   "mondo-tikis": {
     "url": "https://www.facebook.com/mondotikis",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/MondoTikisFL.jpg"
-  },
-  "dead-set-florida": {
-    "url": "https://www.facebook.com/deadsetflorida/",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/DeadSetFloridaFL.png"
-  },
-  "jerryland": {
-    "url": "https://www.facebook.com/jerrylandJGB",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/JerrylandFL.jpg"
-  },
-  "souljam": {
-    "url": "https://www.facebook.com/soulfuljam",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/SouljamFL.jpg"
-  },
-  "stella-blue": {
-    "url": "https://www.facebook.com/StellaBlueFL",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/StellaBlueFL.jpg"
   },
   "ship-of-fools": {
     "url": "https://www.facebook.com/shipoffoolslivesrq",
@@ -271,6 +231,14 @@
     "url": "http://www.crazyfingers.net/",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/CrazyFingersFL.jpg"
   },
+  "dead-set-florida": {
+    "url": "https://www.facebook.com/deadsetflorida/",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/DeadSetFloridaFL.png"
+  },
+  "jerryland": {
+    "url": "https://www.facebook.com/jerrylandJGB",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/JerrylandFL.jpg"
+  },
   "dead-all-over": {
     "url": "https://www.facebook.com/deadalloverband",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/DeadAllOverFL.jpg"
@@ -279,6 +247,10 @@
     "url": "https://www.morningdewfl.com/",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/MorningDewFL.jpg"
   },
+  "stella-blue": {
+    "url": "https://www.facebook.com/StellaBlueFL",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/StellaBlueFL.jpg"
+  },
   "dead-experienced": {
     "url": "https://www.facebook.com/DeadAndExperienced",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/Dead&ExperiencedFL.jpg"
@@ -286,6 +258,10 @@
   "touch-of-dead": {
     "url": "http://www.Facebook.com/profile.php?id=100089361796755",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/TouchofDeadFL.jpg"
+  },
+  "souljam": {
+    "url": "https://www.facebook.com/soulfuljam",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/SouljamFL.jpg"
   },
   "the-garcia-project": {
     "url": "https://www.facebook.com/TheGarciaProject",
@@ -343,17 +319,13 @@
     "url": "http://www.facebook.com/TheGratefulStringBand",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/GratefulStringBandIL.jpg"
   },
-  "hyryder": {
-    "url": "http://www.hyryder.com",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/HyryderIN.jpg"
+  "rusted-strings-band": {
+    "url": "https://www.facebook.com/therustedstringsband/home",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/RustedStringsBandIL.jpg"
   },
   "lazy-lightning-band": {
     "url": "https://www.facebook.com/thelazylightningband/",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/LazyLightningBandIN.jpg"
-  },
-  "rusted-strings-band": {
-    "url": "https://www.facebook.com/therustedstringsband/home",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/RustedStringsBandIL.jpg"
   },
   "stealin-the-farm": {
     "url": "https://www.facebook.com/StealinTheFarm",
@@ -395,17 +367,9 @@
     "url": "https://www.facebook.com/RoseAlleyJGB",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/RoseAlleyCT.jpg"
   },
-  "indeadnation": {
-    "url": "http://www.facebook.com/pages/InDEADnation/123233497731524?v=wall#!/pages/InDEADnation/123233497731524?v=wall",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/InDEADnationMD.jpg"
-  },
   "grateful-allman-band-experience": {
     "url": "https://www.facebook.com/TheGratefulAllmanBand",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/GratefulAllmanBandExperienceDC.jpg"
-  },
-  "rays-of-violet": {
-    "url": "https://www.facebook.com/RaysOfVioletBand/",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/RaysofVioletMD.jpg"
   },
   "better-off-dead-band": {
     "url": "https://www.facebook.com/BetterOffDeadRocks",
@@ -419,6 +383,14 @@
     "url": "https://www.facebook.com/Better-Weather-1499980723550116/timeline",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/BetterWeatherMD.jpg"
   },
+  "rays-of-violet": {
+    "url": "https://www.facebook.com/RaysOfVioletBand/",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/RaysofVioletMD.jpg"
+  },
+  "indeadnation": {
+    "url": "http://www.facebook.com/pages/InDEADnation/123233497731524?v=wall#!/pages/InDEADnation/123233497731524?v=wall",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/InDEADnationMD.jpg"
+  },
   "new-potato-caboose": {
     "url": "https://www.facebook.com/NewPotatoCaboose",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/NewPotatoCabooseDC.jpg"
@@ -426,6 +398,10 @@
   "splintered-sunlight": {
     "url": "http://www.splinteredsunlight.com/",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/SplinteredSunlightPA.jpg"
+  },
+  "pearly-baker-band": {
+    "url": "https://www.facebook.com/pearlybakerband",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/PearlyBakerBandMA.jpg"
   },
   "playing-dead": {
     "url": "http://playingdead.net/",
@@ -495,13 +471,13 @@
     "url": "https://www.facebook.com/augustfirst1942/",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/AugustFirstMA.jpg"
   },
-  "manitou-truckin-company": {
-    "url": "https://www.facebook.com/profile.php?id=61573008536291",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/ManitouTruckin"
-  },
   "cosmic-rose": {
     "url": "https://www.facebook.com/cosmicrosejams",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/CosmicRoseMI.jpg"
+  },
+  "manitou-truckin-company": {
+    "url": "https://www.facebook.com/profile.php?id=61573008536291",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/ManitouTruckin"
   },
   "the-mighty-swells": {
     "url": "https://www.facebook.com/profile.php?id=61552522105465",
@@ -555,10 +531,6 @@
     "url": "https://www.facebook.com/theterrapinsgulfcoast/",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/TheTerrapinsMS.jpg"
   },
-  "alligator-wine-st-louis": {
-    "url": "https://www.facebook.com/AlligatorWineStL",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/AlligatorWineStLouisMO.jpg"
-  },
   "jake-s-leg": {
     "url": "http://www.jakesleg.com/",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/Jake"
@@ -587,13 +559,6 @@
     "url": "https://www.facebook.com/BakedAlaskaNJ",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/BakedAlaskaNJ.jpg"
   },
-  "dead-to-the-core-ny": {
-    "url": "https://www.facebook.com/profile.php?id=61552599782509",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/DeadToTheCore-NYNY.jpg"
-  },
-  "lovelight": {
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/LoveLightNJ.jpg"
-  },
   "this-old-engine": {
     "url": "https://www.facebook.com/ThisOldEngine/",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/ThisOldEngineNJ.jpg"
@@ -609,6 +574,9 @@
   "the-brian-st-john-band": {
     "url": "https://www.facebook.com/brianstjohnmusic",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/TheBrianStJohnBandNJ.jpg"
+  },
+  "lovelight": {
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/LoveLightNJ.jpg"
   },
   "diamond-eye-jack": {
     "url": "http://diamondeyejack.com/",
@@ -646,6 +614,10 @@
     "url": "https://www.facebook.com/cricketsandcicadas/",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/CricketsandCicadasNJ.jpg"
   },
+  "dead-to-the-core-ny": {
+    "url": "https://www.facebook.com/profile.php?id=61552599782509",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/DeadToTheCore-NYNY.jpg"
+  },
   "mark-diomede-and-friends": {
     "url": "http://www.jugglingsuns.com/",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/MarkDiomedeandFriendsNJ.jpg"
@@ -661,18 +633,6 @@
   "dead-friends": {
     "url": "https://www.instagram.com/deadandfriendsband?igsh=MTh1czA5ZmhwODE4bA%3D%3D&utm_source=qr",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/Dead&FriendsCO.jpg"
-  },
-  "dead-alliance-buffalo": {
-    "url": "https://www.facebook.com/deadalliancebuffalo?fref=ts",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/DeadAllianceBuffaloNY.jpg"
-  },
-  "nailed-shutt": {
-    "url": "https://www.facebook.com/nailedshutt/",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/NailedShuttNY.jpg"
-  },
-  "uncle-shoehorn": {
-    "url": "http://www.facebook.com/uncleshoehorn",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/UncleShoehornNY.jpg"
   },
   "half-step-li": {
     "url": "http://www.halfstepgd.com/",
@@ -702,6 +662,10 @@
     "url": "https://www.facebook.com/Buffalo-Dead-All-Stars-962013460584121/",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/BuffaloDeadAllStarsNY.jpg"
   },
+  "dead-alliance-buffalo": {
+    "url": "https://www.facebook.com/deadalliancebuffalo?fref=ts",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/DeadAllianceBuffaloNY.jpg"
+  },
   "reckoning": {
     "url": "http://www.reckoningband.com/index.htm",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/ReckoningNY.jpg"
@@ -718,9 +682,17 @@
     "url": "https://www.facebook.com/share/1FUyYCdPw3/",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/AchieversBandNJ.jpg"
   },
+  "nailed-shutt": {
+    "url": "https://www.facebook.com/nailedshutt/",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/NailedShuttNY.jpg"
+  },
   "the-wheel": {
     "url": "http://www.thewheelband.com/",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/TheWheelNY.jpg"
+  },
+  "uncle-shoehorn": {
+    "url": "http://www.facebook.com/uncleshoehorn",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/UncleShoehornNY.jpg"
   },
   "dead-on-the-hudson": {
     "url": "https://www.facebook.com/groups/1084788005459122/",
@@ -746,21 +718,21 @@
     "url": "https://www.facebook.com/gratefuldeadmeat/",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/DeadMeatNY.jpg"
   },
-  "dirty-dead": {
-    "url": "https://www.facebook.com/dirtydeadband/",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/DirtyDeadNC.jpg"
-  },
-  "le-salty-dead": {
-    "url": "https://www.facebook.com/lesaltydead",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/LeSaltyDeadNC.jpg"
-  },
   "bring-out-yer-dead": {
     "url": "https://www.facebook.com/BringOutYerDeadNC/",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/BringOutYerDeadNC.jpg"
   },
+  "dirty-dead": {
+    "url": "https://www.facebook.com/dirtydeadband/",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/DirtyDeadNC.jpg"
+  },
   "grateful-dudes-nc": {
     "url": "https://www.facebook.com/GratefulDudesNC",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/GratefulDudesNCNC.jpg"
+  },
+  "le-salty-dead": {
+    "url": "https://www.facebook.com/lesaltydead",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/LeSaltyDeadNC.jpg"
   },
   "jgbcb": {
     "url": "https://www.facebook.com/jgbcb",
@@ -774,21 +746,13 @@
     "url": "https://www.facebook.com/profile.php?id=100067300532509",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/Jerry"
   },
-  "city-news": {
-    "url": "https://www.Facebook.com/citynewsband",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/CityNewsOH.jpg"
-  },
-  "dead-centric": {
-    "url": "https://www.facebook.com/DeadCentric/",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/DeadCentricOH.jpg"
-  },
-  "dupree-s-dead-band": {
-    "url": "https://www.facebook.com/dupreesdeadbandofficial",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/Dupree"
-  },
   "bosco-jigs": {
     "url": "https://www.facebook.com/BoscoJigs",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/BoscoJigsOH.jpg"
+  },
+  "hyryder": {
+    "url": "http://www.hyryder.com",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/HyryderIN.jpg"
   },
   "ramble-on-bros": {
     "url": "https://www.facebook.com/rambleonbrosband",
@@ -798,6 +762,10 @@
     "url": "https://www.facebook.com/thedeadrevivalband",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/TheDeadRevivalBandOH.jpg"
   },
+  "dupree-s-dead-band": {
+    "url": "https://www.facebook.com/dupreesdeadbandofficial",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/Dupree"
+  },
   "jimiller-band": {
     "url": "http://www.jimiller.com/",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/JiMillerBandOH.jpg"
@@ -805,6 +773,14 @@
   "west-akron-fadeaway": {
     "url": "https://www.facebook.com/profile.php?id=61560171219730",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/WestAkronFadeawayOH.jpg"
+  },
+  "city-news": {
+    "url": "https://www.Facebook.com/citynewsband",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/CityNewsOH.jpg"
+  },
+  "dead-centric": {
+    "url": "https://www.facebook.com/DeadCentric/",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/DeadCentricOH.jpg"
   },
   "grateful-kev": {
     "url": "https://www.facebook.com/GratefulKevJams",
@@ -822,14 +798,6 @@
     "url": "https://www.facebook.com/thedeadgummits",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/TheDeadgummitsOK.jpg"
   },
-  "definitely-dead": {
-    "url": "https://www.definitelydead.com/",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/DefinitelyDeadCA.png"
-  },
-  "token-rhymes": {
-    "url": "https://www.facebook.com/profile.php?id=100083146756723",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/TokenRhymesOR.jpg"
-  },
   "caught-dead-handed": {
     "url": "https://www.facebook.com/profile.php?id=61561140355946&mibextid=LQQJ4d",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/CaughtDeadHandedOR.jpg"
@@ -838,9 +806,9 @@
     "url": "https://www.Facebook.com/rhapsodyinredPDX",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/RhapsodyInRedOR.jpg"
   },
-  "zendog": {
-    "url": "http://www.zendogmusic.com",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/ZendogPA.jpg"
+  "token-rhymes": {
+    "url": "https://www.facebook.com/profile.php?id=100083146756723",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/TokenRhymesOR.jpg"
   },
   "dean-and-company": {
     "url": "https://www.facebook.com/deanandcompanyband/",
@@ -870,9 +838,17 @@
     "url": "http://www.stealyourfaceband.com",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/StealYourFacePA.jpg"
   },
+  "zendog": {
+    "url": "http://www.zendogmusic.com",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/ZendogPA.jpg"
+  },
   "pure-jerry": {
     "url": "https://www.facebook.com/PUREJERRYBand/",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/PureJerryPA.png"
+  },
+  "foolish-heart-band": {
+    "url": "https://foolishheartband.com/",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/FoolishHeartBandDE.jpg"
   },
   "steal-your-peach": {
     "url": "https://m.facebook.com/stealyourpeachband/",
@@ -954,10 +930,6 @@
     "url": "https://www.facebook.com/profile.php?id=61550815341120",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/Dobbs"
   },
-  "last-fair-deal": {
-    "url": "http://www.facebook.com/vadead",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/LastFairDealVA.jpg"
-  },
   "half-dead": {
     "url": "https://www.halfdeadcville.com",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/HalfDeadVA.jpg"
@@ -973,6 +945,10 @@
   "cats-on-the-blacktop": {
     "url": "https://catsontheblacktop.com/",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/CatsOnTheBlacktopVA.jpg"
+  },
+  "last-fair-deal": {
+    "url": "http://www.facebook.com/vadead",
+    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/LastFairDealVA.jpg"
   },
   "the-kind": {
     "url": "https://www.thekind.rocks/?fbclid=IwAR3K9zQuLyFMmgn8CsRPhPPRSVUcAO4i_BLNHNao0yIyyyOsK8BeooSJPWc",
@@ -997,10 +973,6 @@
   "uncle-ron-s-band": {
     "url": "https://www.facebook.com/UncleRonsBand",
     "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/UncleRon"
-  },
-  "head-s-all-empty": {
-    "url": "https://www.facebook.com/headsallemptywi",
-    "logo": "http://www.gratefuldeadtributebands.com/images/Band Logos/Head"
   },
   "jed-company": {
     "url": "https://www.facebook.com/profile.php?id=61552691024991",

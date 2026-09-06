@@ -1,6 +1,6 @@
 {
   "built_at": "2026-09-05",
-  "matched": 23,
+  "matched": 20,
   "links": {
     "gdtb-DE-kgb-karl-s-garcia-band-2026-09-25-1701-delaware-ave": {
       "lid": "DE8ead3c7682",
@@ -31,62 +31,6 @@
       "onBoard": false,
       "deals": [],
       "match": "address"
-    },
-    "gdtb-PA-deal-2026-09-05-100-s-front-street": {
-      "lid": "116360",
-      "name": "Freight Building",
-      "zone": "souderton_harleysville",
-      "zoneName": "Souderton / Harleysville",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=souderton_harleysville&near=40.308612,-75.319471&from=Freight%20Building",
-      "onBoard": false,
-      "deals": [],
-      "match": "address"
-    },
-    "gdtb-PA-crickets-and-cicadas-2026-09-05-410-e-walnut-st": {
-      "lid": "65716",
-      "name": "Free Will Brewing",
-      "zone": "perkasie",
-      "zoneName": "Perkasie",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=perkasie&v=65716&near=40.365278,-75.288140&from=Free%20Will%20Brewing",
-      "onBoard": true,
-      "deals": [
-        {
-          "dow": 1,
-          "start": "16:00",
-          "end": "18:00"
-        },
-        {
-          "dow": 2,
-          "start": "16:00",
-          "end": "18:00"
-        },
-        {
-          "dow": 3,
-          "start": "16:00",
-          "end": "18:00"
-        },
-        {
-          "dow": 4,
-          "start": "16:00",
-          "end": "18:00"
-        },
-        {
-          "dow": 5,
-          "start": "16:00",
-          "end": "18:00"
-        }
-      ],
-      "match": "address"
-    },
-    "gdtb-PA-zendog-2026-09-05-artifact-brewing": {
-      "lid": "96061",
-      "name": "Artifact Brewing",
-      "zone": "willow_grove_horsham",
-      "zoneName": "Willow Grove / Horsham",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=willow_grove_horsham",
-      "onBoard": false,
-      "deals": [],
-      "match": "name"
     },
     "gdtb-PA-dean-and-company-2026-09-06-1049-ford-st": {
       "lid": "109158",
@@ -143,7 +87,7 @@
       "name": "Bye Town",
       "zone": "souderton_harleysville",
       "zoneName": "Souderton / Harleysville",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=souderton_harleysville&near=40.292612,-75.274024&from=Bye%20Town",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=souderton_harleysville&near=40.292612,-75.274024&from=Rock%20N%20Rebel%20Saloon%20%26%20Grille",
       "onBoard": false,
       "deals": [],
       "match": "address"
@@ -153,7 +97,7 @@
       "name": "Free Will Brewing",
       "zone": "perkasie",
       "zoneName": "Perkasie",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=perkasie&v=65716&near=40.365278,-75.288140&from=Free%20Will%20Brewing",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=perkasie&v=65716&near=40.365278,-75.288140&from=Free%20Will%20Brewery",
       "onBoard": true,
       "deals": [
         {
@@ -291,7 +235,7 @@
       "name": "Free Will Brewing",
       "zone": "perkasie",
       "zoneName": "Perkasie",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=perkasie&v=65716&near=40.365278,-75.288140&from=Free%20Will%20Brewing",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=perkasie&v=65716&near=40.365278,-75.288140&from=Free%20Will%20Brewery",
       "onBoard": true,
       "deals": [
         {
@@ -324,12 +268,38 @@
     },
     "gdtb-PA-zendog-2026-11-19-118-north-wayne-avenue": {
       "lid": "66143",
-      "name": "Jdm Wayne",
+      "name": "118 North",
       "zone": "wayne_radnor",
       "zoneName": "Wayne / Radnor",
-      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=wayne_radnor",
-      "onBoard": false,
-      "deals": [],
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=wayne_radnor&v=66143&near=40.044905,-75.388148&from=118%20North",
+      "onBoard": true,
+      "deals": [
+        {
+          "dow": 3,
+          "start": "17:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 4,
+          "start": "17:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 5,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 6,
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "dow": 7,
+          "start": "16:00",
+          "end": "18:00"
+        }
+      ],
       "match": "address"
     },
     "gdtb-PA-dread-the-dead-2026-11-22-208-210-west-state-st": {

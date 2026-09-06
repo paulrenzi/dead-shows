@@ -1152,5 +1152,14 @@
     "city": "Dallas",
     "state": "TX",
     "resolved": "2026-09-05"
+  },
+  "780 purchase street|new bedford|MA": {
+    "name": "Wings Court Park",
+    "osm": "way/350429849",
+    "distance_m": 41,
+    "address": "780 Purchase St",
+    "city": "New Bedford",
+    "state": "MA",
+    "resolved": "2026-09-06"
   }
 }
