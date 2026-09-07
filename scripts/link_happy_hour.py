@@ -68,6 +68,20 @@ def save_json(path, data):
     tmp.replace(path)
 
 
+BIZ_SUFFIX = ("co", "inc", "llc", "ltd", "company")
+
+
+def despace(s):
+    """venue_key()'s tokens run together, minus the business suffix.
+
+    The join key a person's spelling survives: "von C Brewing Co" and "Vonc
+    Brewing" are the same eleven characters once the spaces and the "Co" are
+    gone, and no amount of token-wise comparison will ever see that.
+    """
+    toks = [t for t in venue_key(s).split() if t not in BIZ_SUFFIX]
+    return "".join(toks)
+
+
 def haversine_miles(a, b):
     lat1, lng1, lat2, lng2 = map(radians, (a[0], a[1], b[0], b[1]))
     h = sin((lat2 - lat1) / 2) ** 2 + cos(lat1) * cos(lat2) * sin((lng2 - lng1) / 2) ** 2
@@ -197,6 +211,36 @@ def main(argv):
                 cand = by_name.get(f"{nk}|{city.lower()}|{state.upper()}")
                 if cand:
                     hit, how = cand, "name"
+                    break
+        # A directory types a venue the way a person says it, not the way the
+        # licence spells it: "von C Brewing Co" for Vonc Brewing, "Shere-E-Punjab
+        # Indian Restaurant" for Shere-E-Punjab. venue_key() keeps the spaces and
+        # the trailing words, so both missed and both shows were dropped.
+        #
+        # This is deliberately NOT fuzzy. Fuzzy matching on the name alone
+        # proposed "Bucks County Brewery" (Pipersville) -> "The Bucks Club"
+        # (Jamison) and Tonewood Brewing (Oaklyn NJ) -> Rosewood Bar
+        # (Philadelphia) -- the exact wrong-building join this file's header
+        # warns about. Two things keep it honest: the SAME CITY gate the strict
+        # pass already uses, and a prefix that has to be long enough to be a
+        # name rather than a word. "Sellersville Theater" still does not take
+        # "Sellersville Bar & Grill", because neither key prefixes the other.
+        if hit is None:
+            for name in (ev.get("venueName"), cleaned):
+                nk = despace(name or "")
+                if len(nk) < 10:
+                    continue
+                for key, cand in by_name.items():
+                    ckey, ccity, cstate = key.rsplit("|", 2)
+                    if ccity != city.lower() or cstate != state.upper():
+                        continue
+                    ck = despace(ckey)
+                    if len(ck) < 10:
+                        continue
+                    if nk == ck or nk.startswith(ck) or ck.startswith(nk):
+                        hit, how = cand, "name-loose"
+                        break
+                if hit:
                     break
         if hit is None:
             continue
