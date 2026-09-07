@@ -237,7 +237,15 @@ def main(argv):
                     ck = despace(ckey)
                     if len(ck) < 10:
                         continue
-                    if nk == ck or nk.startswith(ck) or ck.startswith(nk):
+                    # Containment, not just a prefix: a directory writes the
+                    # room BEFORE the operator ("Rec Room by Conshohocken
+                    # Brewing Co" is licence 86275, Conshohocken Brewing on
+                    # Bridge St in Phoenixville), so the licence's name lands in
+                    # the middle of the string and no prefix test can see it.
+                    # Safe because the caller still has to clear the same-city
+                    # gate above AND the MAX_MATCH_MILES pin check below, and
+                    # both keys must be >= 10 characters.
+                    if nk == ck or nk in ck or ck in nk:
                         hit, how = cand, "name-loose"
                         break
                 if hit:

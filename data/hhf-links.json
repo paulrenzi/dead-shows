@@ -1,6 +1,6 @@
 {
   "built_at": "2026-09-06",
-  "matched": 25,
+  "matched": 26,
   "links": {
     "gdtb-DE-kgb-karl-s-garcia-band-2026-09-25-1701-delaware-ave": {
       "lid": "DE8ead3c7682",
@@ -97,6 +97,16 @@
       "onBoard": false,
       "deals": [],
       "match": "address"
+    },
+    "gdtb-PA-bloom-and-decay-2026-09-11-rec-room-by-conshohocken-brewi": {
+      "lid": "86275",
+      "name": "Conshohocken Brewing",
+      "zone": "phoenixville",
+      "zoneName": "Phoenixville",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=phoenixville&near=40.133761,-75.517295&from=Conshohocken%20Brewing",
+      "onBoard": false,
+      "deals": [],
+      "match": "name-loose"
     },
     "gdtb-PA-jawn-of-the-dead-2026-09-12-208-210-w-state-st": {
       "lid": "61211",

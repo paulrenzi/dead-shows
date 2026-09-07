@@ -15877,7 +15877,17 @@
     "attractions": [
       "Bloom And Decay"
     ],
-    "firstSeen": "2026-09-04"
+    "firstSeen": "2026-09-04",
+    "hhf": {
+      "lid": "86275",
+      "name": "Conshohocken Brewing",
+      "zone": "phoenixville",
+      "zoneName": "Phoenixville",
+      "url": "https://paulrenzi.github.io/happy-hour-finder/#z=phoenixville&near=40.133761,-75.517295&from=Conshohocken%20Brewing",
+      "onBoard": false,
+      "deals": [],
+      "match": "name-loose"
+    }
   },
   {
     "id": "gdtb-PA-crickets-and-cicadas-2026-09-11-brooklyn-bowl-philadelphia",
